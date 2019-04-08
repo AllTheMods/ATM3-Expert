@@ -1,8 +1,8 @@
-# ATM-3-REMIX
+# ATM-3-EXPERT
 
-All The Mods 1.12 - REMIX
+All The Mods 1.12 - EXPERT
 ======
-This is the official repository and issue-tracker for All The Mods 3 Remix
+This is the official repository and issue-tracker for All The Mods 3 Expert
   
 Does "All The Mods" *really* contain ALL THE MODS? No, of course not.
   
