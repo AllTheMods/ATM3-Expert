@@ -25,9 +25,9 @@ recipes.addShaped("CtSFurnace",<tconstruct:seared_furnace_controller>,
 #smeltery controller
 recipes.removeShaped(<tconstruct:smeltery_controller>);
 recipes.addShaped("CtSmeltControl",<tconstruct:smeltery_controller>,
-[[certusDust,searedStone,goldDust],
+[[<minecraft:iron_ingot>,searedStone,<minecraft:iron_ingot>],
 [searedStone,<tcomplement:porcelain_melter>,searedStone],
-[ironDust,<ic2:itemcable:10>,tinDust]]);
+[<minecraft:iron_ingot>,<ore:blockTin>,<minecraft:iron_ingot>]]);
 
 #patterns
 recipes.removeShaped(<tconstruct:pattern>);
