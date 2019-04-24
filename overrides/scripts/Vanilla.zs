@@ -1,6 +1,19 @@
-#vanilla recipe changes will be here
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.data.IData;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.block.IBlockProperties;
+import crafttweaker.block.IBlockDefinition;
+import crafttweaker.block.IBlock;
+import crafttweaker.game.IGame;
+
+print("Vanilla changes here");
 
 val IronPlate = <thermalfoundation:material:32>
+val ironGear= <ore:gearIron>;
+val cobbleTwoTimes = <ore:compressed1xCobblestone>;
 
 
 
@@ -11,3 +24,9 @@ recipes.addShaped("CTbucket", <minecraft:bucket>,
  [IronPlate, null, IronPlate],
  [null, IronPlate, null]]);
  
+#furnace change
+recipes.removeShaped(<minecraft:furnace>);
+recipes.addShaped("CtFurnace",<minecraft:furnace>,
+[[cobbleTwoTimes,cobbleTwoTimes,cobbleTwoTimes],
+[cobbleTwoTimes,<minecraft:chest>,cobbleTwoTimes],
+[cobbleTwoTimes,ironGear,cobbleTwoTimes]]);
