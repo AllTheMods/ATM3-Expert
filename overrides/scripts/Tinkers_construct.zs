@@ -11,9 +11,10 @@ import crafttweaker.block.IBlock;
 import mods.tcomplement.Overrides;
 import mods.tconstruct.Drying;
 
-print("Tinkers tier 0 changes start here");
+print("Tinkers changes start here");
 
 val searedStone = <ore:blockSeared>;
+val tin = <thermalfoundation:material:129>;
 
 #seared furnace
 recipes.removeShaped(<tconstruct:seared_furnace_controller>);
@@ -25,9 +26,9 @@ recipes.addShaped("CtSFurnace",<tconstruct:seared_furnace_controller>,
 #smeltery controller
 recipes.removeShaped(<tconstruct:smeltery_controller>);
 recipes.addShaped("CtSmeltControl",<tconstruct:smeltery_controller>,
-[[<minecraft:iron_ingot>,searedStone,<minecraft:iron_ingot>],
+[[<minecraft:brick>,searedStone,<minecraft:brick>],
 [searedStone,<tcomplement:porcelain_melter>,searedStone],
-[<minecraft:iron_ingot>,<ore:blockTin>,<minecraft:iron_ingot>]]);
+[<minecraft:brick>, tin,<minecraft:brick>]]);
 
 #patterns
 recipes.removeShaped(<tconstruct:pattern>);
