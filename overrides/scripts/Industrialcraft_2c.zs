@@ -1,9 +1,24 @@
-#industrialcraft 2 classic recipes
-
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.data.IData;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.block.IBlockProperties;
+import crafttweaker.block.IBlockDefinition;
+import crafttweaker.block.IBlock;
+import crafttweaker.game.IGame;
 import mods.jei.JEI.removeAndHide;
+
+print("ic2 changes");
 
 val = slag <immersiveengineering:material:7>
 val = concrete <immersiveengineering:stone_decoration:5>
+val bronzeCable= <ic2:itemcable:13>;
+val ultraLowCable = <ic2:itemcable:10>;
+val hvCable = <ic2:itemcable:5>;
+val copperCable = <ic2:itemcable>;
+val goldCable = <ic2:itemcable:2>;
 
 #Stone macerator recipe
 mods.jei.JEI.removeAndHide(<ic2:blockmachinelv:15>);
@@ -14,3 +29,27 @@ recipes.addshaped(<<ic2:blockmachinelv:3>,
 [[slag, slag, slag],
 [concrete, <ic2:blockmachinelv>, concrete],
 [null, <ic2:itemmisc:451>, null]]);
+
+#remove cutters
+recipes.removeShaped(<ic2:itemtoolcutter>);
+recipes.addShaped("CtCutters",<ic2:itemtoolcutter>,
+[[<ore:crystalCertusQuartz>,null,<ore:crystalCertusQuartz>],
+[null,<ore:crystalCertusQuartz>,null],
+[<ore:ingotTin>,null,<ore:ingotTin>]]);
+
+#add cables
+recipes.addShaped("CtBronzeCable",bronzeCable * 2,
+[[<ore:ingotBronze>,<ic2:itemtoolcutter>]]);
+
+recipes.addShaped("CtUltraLow",ultraLowCable * 4,
+[[<ore:ingotTin>,<ic2:itemtoolcutter>]]);
+
+recipes.addShaped("CtHvCable",hvCable * 1,
+[[<ore:ingotRefinedIron>,<ic2:itemtoolcutter>]]);
+
+recipes.addShaped("CtCopperCable",copperCable * 3,
+[[<ore:ingotCopper>,<ic2:itemtoolcutter>]]);
+
+recipes.addShaped("CtGoldCable",goldCable * 2,
+[[<ore:ingotGold>,<ic2:itemtoolcutter>]]);
+
