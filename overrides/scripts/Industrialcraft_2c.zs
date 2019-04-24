@@ -9,6 +9,7 @@ import crafttweaker.block.IBlockDefinition;
 import crafttweaker.block.IBlock;
 import crafttweaker.game.IGame;
 import mods.jei.JEI.removeAndHide;
+import mods.immersiveengineering.BlastFurnace;
 
 print("ic2 changes");
 
@@ -61,3 +62,10 @@ recipes.addShaped("CTCircuit", <ic2:itemmisc:451>,
 [minecraft:redstone, plateIron, minecraft:redsone],
 [copperCable, copperCable, copperCable]]);
 
+#refined iron
+furnace.remove(<ic2:itemmisc:53>,<minecraft:iron_ingot>);
+furnace.remove(<ic2c_extras:refinedironblock>,<minecraft:iron_block>);
+mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
+mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ic2:itemmisc:53>,<minecraft:iron_ingot>,2000,<immersiveengineering:material:7>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ic2c_extras:refinedironblock>,<minecraft:iron_block>,8000,<immersiveengineering:material:7>);
