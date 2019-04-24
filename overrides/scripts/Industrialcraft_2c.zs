@@ -53,3 +53,11 @@ recipes.addShaped("CtCopperCable",copperCable * 3,
 recipes.addShaped("CtGoldCable",goldCable * 2,
 [[<ore:ingotGold>,<ic2:itemtoolcutter>]]);
 
+#electronic circuit 
+
+recipes.remove(<ic2:itemmisc:451>);
+recipes.addShaped("CTCircuit", <ic2:itemmisc:451>,
+[[copperCable,  copperCable, copperCable],
+[minecraft:redstone, plateIron, minecraft:redsone],
+[copperCable, copperCable copperCable]]);
+
