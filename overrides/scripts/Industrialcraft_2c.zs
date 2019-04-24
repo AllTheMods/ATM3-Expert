@@ -59,5 +59,5 @@ recipes.remove(<ic2:itemmisc:451>);
 recipes.addShaped("CTCircuit", <ic2:itemmisc:451>,
 [[copperCable,  copperCable, copperCable],
 [minecraft:redstone, plateIron, minecraft:redsone],
-[copperCable, copperCable copperCable]]);
+[copperCable, copperCable, copperCable]]);
 
