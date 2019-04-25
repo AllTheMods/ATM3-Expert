@@ -20,7 +20,7 @@ val cobbleTwoTimes = <ore:compressed1xCobblestone>;
 #Minecraft bucket
 recipes.remove(<minecraft:bucket>);
 recipes.addShaped("CTbucket", <minecraft:bucket>,
- [[null, null, null],
+ [[null, <ic2:itemcable>, null],
  [IronPlate, null, IronPlate],
  [null, IronPlate, null]]);
  
