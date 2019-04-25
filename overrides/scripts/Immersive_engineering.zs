@@ -21,8 +21,10 @@ Recipes.addshaped("CTImmersiveTool", <immersiveengineering:tool>,
 
  #Coke Brick
 recipes.removeShaped(<immersiveengineering:stone_decoration>);
-recipes.addShaped("CtRefined",<immersiveengineering:stone_decoration>,[[<minecraft:clay_ball>,<minecraft:brick>,<minecraft:clay_ball>],[<minecraft:brick>,<tconstruct:seared>,<minecraft:brick>],[<minecraft:clay_ball>,<minecraft:brick>,<minecraft:clay_ball>]]);
-
+recipes.addShaped("CtRefined",<immersiveengineering:stone_decoration>,
+[[<minecraft:clay_ball>,<minecraft:brick>,<minecraft:clay_ball>],
+[<minecraft:brick>,<tconstruct:seared>,<minecraft:brick>],
+[<minecraft:clay_ball>,<minecraft:brick>,<minecraft:clay_ball>]]);
 
 #Charcoal from coke oven
 mods.immersiveengineering.CokeOven.removeRecipe(<minecraft:coal:1>);
