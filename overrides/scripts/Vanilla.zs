@@ -30,3 +30,6 @@ recipes.addShaped("CtFurnace",<minecraft:furnace>,
 [[cobbleTwoTimes,cobbleTwoTimes,cobbleTwoTimes],
 [cobbleTwoTimes,<minecraft:chest>,cobbleTwoTimes],
 [cobbleTwoTimes,ironGear,cobbleTwoTimes]]);
+
+#Charcoal
+furnace.remove(<ore:charcoal>,<ore:logWood>);
