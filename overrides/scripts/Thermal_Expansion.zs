@@ -20,6 +20,13 @@ val = ironplate <thermalfoundation:material:32>
 val = iron <minecraft:iron_ingot>
 #Override gear recipes removal and iron plate
 
+#compactor removal
+recipes.removeShaped(<thermalexpansion:machine:5>);
+mods.jei.JEI.hide(<thermalexpansion:machine:5>);
+mods.jei.JEI.hideCategory("thermalexpansion.compactor");
+mods.jei.JEI.hideCategory("thermalexpansion.compactor_mint");
+mods.jei.JEI.hideCategory("thermalexpansion.compactor_gear");
+
 #copper gear
 recipes.removeShapeless(<thermalfoundation:material:256>, 
 [[null, copper, null,

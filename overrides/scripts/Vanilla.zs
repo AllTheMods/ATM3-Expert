@@ -33,3 +33,8 @@ recipes.addShaped("CtFurnace",<minecraft:furnace>,
 
 #Charcoal
 furnace.remove(<ore:charcoal>,<ore:logWood>);
+
+#sandstone change
+recipes.removeShaped(<minecraft:sandstone>);
+recipes.addShaped("ctSandstone",<minecraft:sandstone>,
+[[<extrautils2:compressedsand>,<extrautils2:compressedsand>]]);
