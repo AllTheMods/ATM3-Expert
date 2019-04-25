@@ -153,7 +153,7 @@ function fixMetals (
 				recipes.removeShapeless(itemI, [oredictNugget,oredictNugget,oredictNugget,oredictNugget,oredictNugget,oredictNugget,oredictNugget,oredictNugget,oredictNugget], false);
 
 				//ingot -> nugget
-				recipes.removeShape(itemN*9, [[itemI]]);
+				recipes.removeShaped(itemN*9, [[itemI]]);
 				recipes.removeShapeless(itemN*9, [itemI], false);
 				recipes.removeShaped(itemN*9, [[oredictIngot]]);
 				recipes.removeShapeless(itemN*9, [oredictIngot], false);

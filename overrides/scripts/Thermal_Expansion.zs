@@ -12,12 +12,12 @@ import mods.thermalexpansion.RedstoneFurnace;
 
 print("Thermal expansion changes");
 
-val = copper <thermalfoundation:material:128>
-val = tin <thermalfoundation:material:129>
-val = bronze <thermalfoundation:material:163>
-val = stonegear <thermalfoundation:material:23>
-val = ironplate <thermalfoundation:material:32>
-val = iron <minecraft:iron_ingot>
+val copper = <thermalfoundation:material:128>;
+val tin = <thermalfoundation:material:129>;
+val bronze = <thermalfoundation:material:163>;
+val stonegear = <thermalfoundation:material:23>;
+val ironplate = <thermalfoundation:material:32>;
+val iron = <minecraft:iron_ingot>;
 #Override gear recipes removal and iron plate
 
 #compactor removal
