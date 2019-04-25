@@ -11,8 +11,8 @@ import crafttweaker.game.IGame;
 
 print("Vanilla changes here");
 
-val IronPlate = <thermalfoundation:material:32>
-val ironGear= <ore:gearIron>;
+val ironPlate = <thermalfoundation:material:32>;
+val ironGear = <ore:gearIron>;
 val cobbleTwoTimes = <ore:compressed1xCobblestone>;
 
 
