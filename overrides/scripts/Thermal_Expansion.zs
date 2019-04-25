@@ -8,6 +8,7 @@ import crafttweaker.block.IBlockProperties;
 import crafttweaker.block.IBlockDefinition;
 import crafttweaker.block.IBlock;
 import crafttweaker.game.IGame;
+import mods.thermalexpansion.RedstoneFurnace;
 
 print("Thermal expansion changes");
 
@@ -42,3 +43,11 @@ recipes.removeShapeless(<thermalfoundation:material:32>,
 [[iron, iron, iron],
 [null, null, null],
 [null, null, null]]);
+
+#Charcoal
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<thermalfoundation:material:801>);
+mods.thermalexpansion.RedstoneFurnace.removePyrolysisRecipe(<thermalfoundation:material:801>);
+mods.thermalexpansion.RedstoneFurnace.removePyrolysisRecipe(<minecraft:log:3>);
+mods.thermalexpansion.RedstoneFurnace.removePyrolysisRecipe(<minecraft:hay_block>);
+mods.thermalexpansion.RedstoneFurnace.removePyrolysisRecipe(<minecraft:cactus>);
+mods.thermalexpansion.RedstoneFurnace.removePyrolysisRecipe(<minecraft:reeds>);
