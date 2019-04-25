@@ -8,6 +8,7 @@ import crafttweaker.block.IBlockProperties;
 import crafttweaker.block.IBlockDefinition;
 import crafttweaker.block.IBlock;
 import crafttweaker.game.IGame;
+import mods.immersiveengineering.CokeOven;
 
 print("Immersive engineering changes");
 
