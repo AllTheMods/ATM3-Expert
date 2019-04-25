@@ -13,8 +13,8 @@ import mods.immersiveengineering.BlastFurnace;
 
 print("ic2 changes");
 
-val slag = <immersiveengineering:material:7>
-val concrete =<immersiveengineering:stone_decoration:5>;
+val slag = <immersiveengineering:material:7>;
+val concrete = <immersiveengineering:stone_decoration:5>;
 val bronzeCable= <ic2:itemcable:13>;
 val ultraLowCable = <ic2:itemcable:10>;
 val hvCable = <ic2:itemcable:5>;

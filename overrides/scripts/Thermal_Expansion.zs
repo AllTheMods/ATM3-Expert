@@ -29,7 +29,7 @@ mods.jei.JEI.hideCategory("thermalexpansion.compactor_gear");
 
 #copper gear
 recipes.removeShapeless(<thermalfoundation:material:256>, 
-[[null, copper, null,
+[[null, copper, null],
 [copper, stonegear, copper],
 [null, copper, null]]);
 
