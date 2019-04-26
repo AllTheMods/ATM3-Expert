@@ -157,3 +157,12 @@ recipes.addShaped("ctSandstone",<minecraft:sandstone>,
 	for i in 0 to AL{
 	    furnace.remove(ingotArray[i],oreArray[i]);
 	}
+
+	#durabilty removal
+	val picks = [<minecraft:iron_pickaxe>,<minecraft:golden_pickaxe>,<minecraft:diamond_pickaxe>] as IItemStack[];
+
+for i in picks{
+
+	i.maxDamage = 1;
+	   
+	}
