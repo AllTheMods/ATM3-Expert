@@ -27,7 +27,7 @@ mods.jei.JEI.removeAndHide(<ic2:blockmachinelv:15>);
 
 #Macerator
 recipes.remove(<ic2:blockmachinelv:3>);
-recipes.addShaped("CtMasc",<ic2:blockmachinelv:3>,
+recipes.addShaped("CtMacerator",<ic2:blockmachinelv:3>,
 [[slag, slag, slag],
 [concrete, <ic2:blockmachinelv>, concrete],
 [null, <ic2:itemmisc:451>, null]]);
@@ -44,9 +44,9 @@ recipes.addShaped("CtCutters",<ic2c_extras:wirecutters>,
 
 recipes.remove(<ic2:itemmisc:451>);
 recipes.addShaped("CTCircuit", <ic2:itemmisc:451>,
-[[copperCable,  copperCable, copperCable],
+[[<ic2:itemcable:1>,  <ic2:itemcable:1>, <ic2:itemcable:1>],
 [<minecraft:redstone>, ironPlate, <minecraft:redstone>],
-[copperCable, copperCable, copperCable]]);
+[<ic2:itemcable:1>, <ic2:itemcable:1>, <ic2:itemcable:1>]]);
 
 #refined iron
 furnace.remove(<ic2:itemmisc:53>,<minecraft:iron_ingot>);
@@ -55,3 +55,10 @@ mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:metal:
 mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
 mods.immersiveengineering.BlastFurnace.addRecipe(<ic2:itemmisc:53>,<minecraft:iron_ingot>,2000,<immersiveengineering:material:7>);
 mods.immersiveengineering.BlastFurnace.addRecipe(<ic2c_extras:refinedironblock>,<minecraft:iron_block>,8000,<immersiveengineering:material:7>);
+
+#machine block
+recipes.addShaped("CTbasicframe", <ic2:blockmachinelv>, 
+[[<ic2:itemmisc:53>, <thermalfoundation:material:354>, <ic2:itemmisc:53>],
+[<thermalfoundation:material:354>, <botania:managlass>, <thermalfoundation:material:354>], 
+[<ic2:itemmisc:53>, <thermalfoundation:material:354>, <ic2:itemmisc:53>]]);
+
