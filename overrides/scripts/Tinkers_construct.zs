@@ -58,3 +58,29 @@ recipes.addShaped("CtSmeltControl",<tconstruct:smeltery_controller>,
 #patterns
 recipes.removeShaped(<tconstruct:pattern>);
 mods.tconstruct.Drying.addRecipe(<tconstruct:pattern>,<tconstruct:pattern>, 300);
+
+
+
+#add sand pickaxe
+
+val sandMat = mods.contenttweaker.tconstruct.MaterialBuilder.create("vitrified_sand");
+sandMat.color = 0xE8EEBB;
+sandMat.craftable = true;
+sandMat.liquid = <liquid:molten_sand>;
+sandMat.castable = true;
+sandMat.addHeadMaterialStats(100, 1.5f, 5.5f, 5);
+sandMat.addHandleMaterialStats(0.3, 500);
+sandMat.addBowStringMaterialStats(0.5f);
+sandMat.register();
+
+#meltable
+
+mods.tconstruct.Melting.addRecipe(<liquid:molten_sand> * 1000,<extrautils2:compressedsand>, 400);
+#alloys
+mods.tconstruct.Alloy.addRecipe(<liquid:liquid_grout> * 144, [<liquid:molten_sand> * 72, <liquid:clay> * 72]);
+
+# add casting basin recipe.
+
+//mods.tconstruct.Casting.addBasinRecipe(IItemStack output, IIngredient cast, ILiquidStack fluid, int amount, @Optional boolean consumeCast, @Optional int time)
+
+mods.tconstruct.Casting.addBasinRecipe(<tconstruct:seared>,<minecraft:gravel>,<liquid:liquid_grout>,720,true,200);

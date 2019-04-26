@@ -28,28 +28,16 @@ mods.jei.JEI.hideCategory("thermalexpansion.compactor_mint");
 mods.jei.JEI.hideCategory("thermalexpansion.compactor_gear");
 
 #copper gear
-recipes.removeShapeless(<thermalfoundation:material:256>, 
-[[null, copper, null],
-[copper, stonegear, copper],
-[null, copper, null]]);
+recipes.removeShaped(<thermalfoundation:material:256>);
 
 #bronze gear
-recipes.removeShapeless(<thermalfoundation:material:291>,
-[[null, bronze, null],
-[bronze, stonegear, bronze],
-[null, bronze, null]]);
+recipes.removeShaped(<thermalfoundation:material:291>);
 
 #tin gear
-recipes.removeShapeless(<thermalfoundation:material:257>,
-[[null, tin, null],
-[tin, stonegear, tin],
-[null, tin, null]]);
+recipes.removeShaped(<thermalfoundation:material:257>);
 
-#iron plate
-recipes.removeShapeless(<thermalfoundation:material:32>,
-[[iron, iron, iron],
-[null, null, null],
-[null, null, null]]);
+#iron gear
+recipes.removeShaped(<thermalfoundation:material:24>);
 
 #Charcoal
 mods.thermalexpansion.RedstoneFurnace.removeRecipe(<thermalfoundation:material:801>);
