@@ -11,6 +11,11 @@ import crafttweaker.game.IGame;
 import mods.botania.ManaInfusion;
 import mods.botania.PureDaisy;
 import mods.botania.Apothecary;
+import mods.actuallyadditions.Empowerer;
+
+val livingWood = <botania:livingwood>;
+val livingRock = <botania:livingrock>;
+
 
 #diluted mana pool
 recipes.remove(<botania:pool:2>);
@@ -18,10 +23,6 @@ recipes.addShaped("CTdilutepool", <botania:pool:2>,
 [[null, null, null],
 [<botania:livingrock0slab>, null, <botania:livingrock0slab>],
 [<botania:livingrock>, <ic2:itemmisc:256>, <botania:livingrock>]]);
-
-
-val livingWood = <botania:livingwood>;
-val livingRock = <botania:livingrock>;
 
 #mana infusion
 	#ManaSteel
@@ -59,17 +60,40 @@ recipes.addShaped("CtApothecary",<botania:altar>,[[<tconstruct:seared_slab>,<min
 #gen flowers
 	#muchdew
 	mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "munchdew"}));
-	mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "munchdew"}),[<ore:petalLime>,<ore:petalLime>,<ore:petalRed>,<ore:petalRed>,<ore:petalGreen>,<ic2:itemmisc:351>,<botania:rune:10>]);
+	mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "munchdew"}),[<ore:petalLime>,<ore:petalLime>,<ore:petalRed>,<ore:petalRed>,<ore:petalGreen>,<ic2:itemmisc:351>]);
 	#Gourmaryllis
 	mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "gourmaryllis"}));
-	mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "gourmaryllis"}),[<ore:petalGray>,<ore:petalGray>,<ore:petalYellow>,<ore:petalYellow>,<ore:petalRed>,<minecraft:bread>,<ore:foodMeat>]);
+	mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "gourmaryllis"}),[<ore:petalGray>,<ore:petalGray>,<ore:petalYellow>,<ore:petalYellow>,<ore:petalRed>,<xlfoodmod:donut>,<xlfoodmod:lasagne>]);
+	#Hydroangeeas
+	mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "hydroangeas"}));
+	#endoflame
+	mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "endoflame"}));
+	#thermalily
+	mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "thermalily"}));
+	mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "thermalily"}),[<botania:grassseeds:6>,<minecraft:lava_bucket>,<botania:petal:1>,<botania:petal:14>,<botania:rune:2>,<botania:rune:1>]);
 
+
+#Functional flowers
+	#jaded amaranthus
+	mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "jadedAmaranthus"}));
+	mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "jadedAmaranthus"}),[<botania:fertilizer>,<botania:manaresource:6>,<botania:petal:10>,<botania:petal:5>,<botania:petal:13>]);
+
+#scorched pasture seeds
+recipes.removeShapeless(<botania:grassseeds:6>);
+recipes.addShapeless("CtScorchedSeed",<botania:grassseeds:6>,[<botania:grassseeds>,<ore:rodBlaze>]);
+
+#orechid
+mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechid"}));
+mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechidIgnem"}));
 
 #mana tablet
 recipes.removeShaped(<botania:manatablet>);
-recipes.addShaped("CtManaTablet",<botania:manatablet>.withTag({}),[[livingRock,<ic2:itemmisc:256>,livingRock],[livingRock,<ore:manaPearl>,livingRock],[livingRock,<ic2:itemmisc:256>,livingRock]]);
-recipes.addShaped("CtManaTablet2",<botania:manatablet>.withTag({}),[[livingRock,<ic2:itemmisc:256>,livingRock],[livingRock,<ore:manaDiamond>,livingRock],[livingRock,<ic2:itemmisc:256>,livingRock]]);
+recipes.addShaped("CtManaTablet",<botania:manatablet>.withTag({}),[[livingRock,<ic2:itemmisc:256>,livingRock],[<ore:manaPearl>,<botania:pool>,<ore:manaPearl>],[livingRock,<ic2:itemmisc:256>,livingRock]]);
+recipes.addShaped("CtManaTablet2",<botania:manatablet>.withTag({}),[[livingRock,<ic2:itemmisc:256>,livingRock],[<ore:manaDiamond>,<botania:pool>,<ore:manaDiamond>],[livingRock,<ic2:itemmisc:256>,livingRock]]);
 
-#runic altar
-recipes.removeShaped(<botania:runealtar>);
-recipes.addShaped("CtAltar",<botania:runealtar>,[[null,null,null][livingRock,<ic2:itemmisc:256>,livingRock],[livingRock,<ore:manaPearl>,livingRock]]);
+#JeI
+mods.jei.JEI.removeAndHide(<botania:manasteelpick>);
+mods.jei.JEI.removeAndHide(<botania:manasteelshovel>);
+mods.jei.JEI.removeAndHide(<botania:manasteelsword>);
+mods.jei.JEI.removeAndHide(<botania:manasteelaxe>);
+mods.jei.JEI.removeAndHide(<botania:manasteelshears>);
