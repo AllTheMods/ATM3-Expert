@@ -12,10 +12,12 @@ import mods.botania.ManaInfusion;
 import mods.botania.PureDaisy;
 import mods.botania.Apothecary;
 import mods.actuallyadditions.Empowerer;
+import mods.thermalexpansion.Transposer;
+
+print("Botania Changes");
 
 val livingWood = <botania:livingwood>;
 val livingRock = <botania:livingrock>;
-
 
 #diluted mana pool
 recipes.remove(<botania:pool:2>);
@@ -23,6 +25,10 @@ recipes.addShaped("CTdilutepool", <botania:pool:2>,
 [[null, null, null],
 [<botania:livingrock0slab>, null, <botania:livingrock0slab>],
 [<botania:livingrock>, <ic2:itemmisc:256>, <botania:livingrock>]]);
+
+#Mana Pool
+recipes.remove(<botania:pool>);
+mods.thermalexpansion.Transposer.addFillRecipe(<botania:pool>,<botania:pool:2>,<liquid:glowstone>*4000,30000);
 
 #mana infusion
 	#ManaSteel
