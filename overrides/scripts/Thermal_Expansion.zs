@@ -76,3 +76,38 @@ recipes.addShaped("CTtisaw", <thermalfoundation:material:657>,
 [[null, <ic2:itemmisc:303>, null],
 [<ic2:itemmisc:303>, <thermalfoundation:material:352>, <ic2:itemmisc:303>], 
 [null, <ic2:itemmisc:303>, null]]);
+
+#Leadstone fluxduct
+recipes.remove(<thermaldynamics:duct_0>);
+recipes.addShaped("CTleadstoneFS", <thermaldynamics:duct_0> * 4,
+[[<thermalfoundation:material:131>, <thermalfoundation:material:131>, <thermalfoundation:material:131>],
+[<actuallyadditions:item_crystal>, <thermalfoundation:glass:3>, <actuallyadditions:item_crystal>], 
+[<thermalfoundation:material:131>, <thermalfoundation:material:131>, <thermalfoundation:material:131>]]);
+
+#Redstone Fluxduct
+recipes.remove(<thermaldynamics:duct_0:6>);
+recipes.addShaped("CTredstoneFD", <thermaldynamics:duct_0:6> * 3,
+[[null, null, null],
+[<thermalfoundation:material:353>, <thermalfoundation:glass_alloy>, <thermalfoundation:material:353>], 
+[null, null, null]]);
+
+#redstone servo
+recipes.addShaped(<thermalfoundation:material:512>, 
+[[<actuallyadditions:item_crystal>, <minecraft:iron_ingot>, <actuallyadditions:item_crystal>],
+[null, <minecraft:iron_ingot>, null], 
+[<actuallyadditions:item_crystal>, <minecraft:iron_ingot>, <actuallyadditions:item_crystal>]]);
+
+#machine frame
+recipes.remove(<thermalexpansion:frame>);
+recipes.addShaped("CTthermalframe", <thermalexpansion:frame>, 
+[[<thermalfoundation:material:32>, <extrautils2:decorativeglass:4>, <thermalfoundation:material:32>],
+[<extrautils2:decorativeglass:4>, <thermalfoundation:material:290>, <extrautils2:decorativeglass:4>], 
+[<thermalfoundation:material:32>, <extrautils2:decorativeglass:4>, <thermalfoundation:material:32>]]);
+
+#device frame
+recipes.remove(<thermalexpansion:frame:64>);
+recipes.addShaped("CTthermaldevice", <thermalexpansion:frame:64>,
+[[<thermalfoundation:material:321>, <minecraft:glass_pane>, <thermalfoundation:material:321>],
+[<minecraft:glass_pane>, <thermalfoundation:material:256>, <minecraft:glass_pane>], 
+[<thermalfoundation:material:321>, <minecraft:glass_pane>, <thermalfoundation:material:321>]]);
+
