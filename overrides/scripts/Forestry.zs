@@ -9,9 +9,12 @@ import crafttweaker.block.IBlockProperties;
 import crafttweaker.block.IBlockDefinition;
 import crafttweaker.block.IBlock;
 import mods.forestry.ThermionicFabricator;
+import mods.forestry.Carpenter;
 
 
 mods.jei.JEI.removeAndHide(<forestry:ffarm:*>);
+
+val restonia = <actuallyadditions:item_crystal>;
 
 #Circuit changes
 mods.forestry.Carpenter.removeRecipe(<forestry:chipsets>.withTag({T: 0 as short}));
