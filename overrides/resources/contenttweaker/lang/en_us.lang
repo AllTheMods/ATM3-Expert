@@ -1,4 +1,9 @@
 fluid.Molten_Sand= Molten Vitrified Sand
 fluid.Liquid_Grout=Molten Grout
+fluid.Soldering_Alloy=Soldering Alloy
+
+
 material.vitrified_sand.name=Vitrified sand
+
+
 item.contenttweaker.ManaDiamondPlate.name=Mana Diamond Plate

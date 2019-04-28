@@ -77,7 +77,11 @@ sandMat.register();
 
 mods.tconstruct.Melting.addRecipe(<liquid:molten_sand> * 1000,<extrautils2:compressedsand>, 400);
 #alloys
+#liquid grout
 mods.tconstruct.Alloy.addRecipe(<liquid:liquid_grout> * 144, [<liquid:molten_sand> * 72, <liquid:clay> * 72]);
+
+#soldering alloy
+mods.tconstruct.Alloy.addRecipe(<liquid:soldering_alloy> * 500, [<liquid:tin> * 144, <liquid:lead> * 144, <liquid:silver> * 144]);
 
 # add casting basin recipe.
 
