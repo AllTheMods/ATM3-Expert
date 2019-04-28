@@ -39,6 +39,13 @@ recipes.removeShaped(<minecraft:sandstone>);
 recipes.addShaped("ctSandstone",<minecraft:sandstone>,
 [[<extrautils2:compressedsand>,<extrautils2:compressedsand>]]);
 
+#change quark sandstone
+recipes.removeShaped(<quark:sandstone_new>);
+recipes.addShaped("ctQuarkpolished",<quark:sandstone_new>,
+[[<minecraft:sandstone>,<minecraft:sandstone>,<minecraft:sandstone>],
+[<minecraft:sandstone>,<minecraft:sandstone>,<minecraft:sandstone>],
+[<minecraft:sandstone>,<minecraft:sandstone>,<minecraft:sandstone>]]);
+
 
 #furnace.remove array
 	val ingotArray = [
