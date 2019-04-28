@@ -25,3 +25,9 @@ recipes.addShaped("CTAAlasers", <actuallyadditions:block_laser_relay> * 2,
 [<actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_misc:8>, <actuallyadditions:item_crystal_empowered>], 
 [<minecraft:obsidian>, <minecraft:redstone_block>, <minecraft:obsidian>]]);
 
+#Empowerer
+recipes.remove(<actuallyadditions:block_empowerer>);
+recipes.addShaped("CTempowerer", <actuallyadditions:block_empowerer>, 
+[[null, null, null],
+[<botania:manaresource:2>, <actuallyadditions:item_battery_double>.anyDamage(), <botania:manaresource:2>], 
+[<actuallyadditions:block_testifi_bucks_white_wall>, <botania:manaresource:2>, <actuallyadditions:block_testifi_bucks_white_wall>]]); //wtf is that really
