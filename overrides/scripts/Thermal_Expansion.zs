@@ -111,3 +111,26 @@ recipes.addShaped("CTthermaldevice", <thermalexpansion:frame:64>,
 [<minecraft:glass_pane>, <thermalfoundation:material:256>, <minecraft:glass_pane>], 
 [<thermalfoundation:material:321>, <minecraft:glass_pane>, <thermalfoundation:material:321>]]);
 
+#steam dynamo (fixed due to coil moved to t2)
+recipes.remove(<thermalexpansion:dynamo>);
+recipes.addShaped("CTsteamdynamo", <thermalexpansion:dynamo>,
+[[null, <ic2c_extras:heatconductor>, null],
+[<minecraft:iron_ingot>, <thermalfoundation:material:256>, <minecraft:iron_ingot>],
+[<thermalfoundation:material:128>, <minecraft:iron_ingot>, <thermalfoundation:material:128>]]);
+
+#steam augment
+recipes.remove(<thermalexpansion:augment:640>);
+recipes.remove(<thermalexpansion:augment:576>);
+recipes.addShaped("CTthermalturbine", <thermalexpansion:augment:640>, 
+[[null, <thermalfoundation:material:24>, null],
+[<thermalfoundation:material:128>, <ic2c_extras:heatconductor>, <thermalfoundation:material:128>],
+[null, <thermalfoundation:material:128>, null]]);
+
+#Reinforced Upgrade Kit changes
+recipes.removeShaped(<thermalfoundation:upgrade:1>);
+
+#Signalum Upgrade Kit changes
+recipes.removeShaped(<thermalfoundation:upgrade:2>);
+
+#Resonant Upgrade Kit changes
+recipes.removeShaped(<thermalfoundation:upgrade:3>);

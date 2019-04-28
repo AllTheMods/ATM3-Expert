@@ -68,7 +68,7 @@ sandMat.color = 0xE8EEBB;
 sandMat.craftable = true;
 sandMat.liquid = <liquid:molten_sand>;
 sandMat.castable = true;
-sandMat.addHeadMaterialStats(100, 1.5f, 5.5f, 5);
+sandMat.addHeadMaterialStats(100, 7.5f, 5.5f, 5);
 sandMat.addHandleMaterialStats(0.3, 500);
 sandMat.addBowStringMaterialStats(0.5f);
 sandMat.register();
@@ -107,3 +107,10 @@ recipes.addShaped("CtStencilTable",<tconstruct:tooltables:1>.withTag({textureBlo
 [[<tconstruct:pattern>,<tconstruct:pattern>,<tconstruct:pattern>],
 [<minecraft:planks>,<minecraft:planks>,<minecraft:planks>],
 [<minecraft:planks>,null,<minecraft:planks>]]);
+
+#Changing Tinkers Forge
+recipes.removeShaped(<tconstruct:toolforge>);
+recipes.addShaped("CtToolForge",<tconstruct:toolforge>,
+[[<actuallyadditions:block_crystal_empowered:3>,<actuallyadditions:block_crystal_empowered:3>,<actuallyadditions:block_crystal_empowered:3>],
+[<actuallyadditions:block_crystal_empowered:5>,<tconstruct:tooltables:3>,<actuallyadditions:block_crystal_empowered:5>],
+[<actuallyadditions:block_crystal_empowered:5>,null,<actuallyadditions:block_crystal_empowered:5>]]);
