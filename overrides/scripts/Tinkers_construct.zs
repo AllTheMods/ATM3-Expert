@@ -107,3 +107,10 @@ recipes.addShaped("CtStencilTable",<tconstruct:tooltables:1>.withTag({textureBlo
 [[<tconstruct:pattern>,<tconstruct:pattern>,<tconstruct:pattern>],
 [<minecraft:planks>,<minecraft:planks>,<minecraft:planks>],
 [<minecraft:planks>,null,<minecraft:planks>]]);
+
+#Changing Tinkers Forge
+recipes.removeShaped(<tconstruct:toolforge>);
+recipes.addShaped("CtToolForge",<tconstruct:toolforge>,
+[[<actuallyadditions:block_crystal_empowered:3>,<actuallyadditions:block_crystal_empowered:3>,<actuallyadditions:block_crystal_empowered:3>],
+[<actuallyadditions:block_crystal_empowered:5>,<tconstruct:tooltables:3>,<actuallyadditions:block_crystal_empowered:5>],
+[<actuallyadditions:block_crystal_empowered:5>,null,<actuallyadditions:block_crystal_empowered:5>]]);
