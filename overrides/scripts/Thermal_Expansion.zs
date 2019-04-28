@@ -126,3 +126,11 @@ recipes.addShaped("CTthermalturbine", <thermalexpansion:augment:640>,
 [<thermalfoundation:material:128>, <ic2c_extras:heatconductor>, <thermalfoundation:material:128>],
 [null, <thermalfoundation:material:128>, null]]);
 
+#Reinforced Upgrade Kit changes
+recipes.removeShaped(<thermalfoundation:upgrade:1>);
+
+#Signalum Upgrade Kit changes
+recipes.removeShaped(<thermalfoundation:upgrade:2>);
+
+#Resonant Upgrade Kit changes
+recipes.removeShaped(<thermalfoundation:upgrade:3>);
