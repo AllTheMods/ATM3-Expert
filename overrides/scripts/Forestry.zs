@@ -57,3 +57,46 @@ mods.forestry.Carpenter.addRecipe(<forestry:chipsets:3>.withTag({T: 3 as short})
 	mods.forestry.ThermionicFabricator.addCast(<forestry:thermionic_tubes:11>,[[null,<ore:dustLapis>,null],[restonia,<ore:dustLapis>,restonia],[<ore:dustLapis>,<ore:dustLapis>,<ore:dustLapis>]],<liquid: glass>*500);
 	mods.forestry.ThermionicFabricator.addCast(<forestry:thermionic_tubes:12>,[[null,<minecraft:ender_eye>,null],[restonia,<minecraft:ender_eye>,restonia],[<minecraft:ender_eye>,<minecraft:end_stone>,<minecraft:ender_eye>]],<liquid: glass>*500);
 	mods.forestry.ThermionicFabricator.addCast(<forestry:thermionic_tubes:13>,[[null,restonia,null],[<extrautils2:redorchid>,restonia,<extrautils2:redorchid>],[restonia,restonia,restonia]],<liquid: glass>*500);
+
+
+#Sturdy Casing Changes
+recipes.removeShaped(<forestry:sturdy_machine>);
+recipes.addShaped("CtSturdyCasing",<forestry:sturdy_machine>,
+[[null,<ore:plateBronze>,null],
+[<ore:ingotBronze>,<actuallyadditions:block_misc:9>,<ore:ingotBronze>],
+[null,<ore:plateBronze>,null]]);
+
+#Thermionic Fabricator
+recipes.removeShaped(<forestry:fabricator>);
+recipes.addShaped("CtThermionicFabricator",<forestry:fabricator>,
+[[<ore:plateGold>,<ore:blockGlass>,<ore:plateGold>],
+[<ic2:itemmisc:451>,<forestry:sturdy_machine>,<ic2:itemmisc:451>],
+[<ore:plateGold>,<ore:chestWood>,<ore:plateGold>]]);
+
+#Carpenter
+recipes.removeShaped(<forestry:carpenter>);
+recipes.addShaped("CtCarpenter",<forestry:carpenter>,
+[[<thermalfoundation:material:355>,<ore:blockGlass>,<thermalfoundation:material:355>],
+[<ic2:itemmisc:451>,<forestry:sturdy_machine>,<ic2:itemmisc:451>],
+[<ore:plateBronze>,<ore:blockGlass>,<ore:plateBronze>]]);
+
+#Squeezer
+recipes.removeShaped(<forestry:squeezer>);
+recipes.addShaped("CtSqueezer",<forestry:squeezer>,
+[[<ore:plateTin>,<ore:blockGlass>,<ore:plateTin>],
+[<ic2:itemmisc:451>,<forestry:sturdy_machine>,<ic2:itemmisc:451>],
+[<ore:plateTin>,<ore:blockGlass>,<ore:plateTin>]]);
+
+#Centrifuge
+recipes.removeShaped(<forestry:centrifuge>);
+recipes.addShaped("CtCentrifuge",<forestry:centrifuge>,
+[[<ore:plateCopper>,<ore:blockGlass>,<ore:plateCopper>],
+[<ic2:itemmisc:451>,<forestry:sturdy_machine>,<ic2:itemmisc:451>],
+[<ore:plateCopper>,<ore:blockGlass>,<ore:plateCopper>]]);
+
+#Removing Forestry Machines
+mods.jei.JEI.removeAndHide(<forestry:rainmaker>);
+mods.jei.JEI.removeAndHide(<forestry:fermenter>);
+mods.jei.JEI.removeAndHide(<forestry:still>);
+mods.jei.JEI.removeAndHide(<forestry:moistener>);
+mods.jei.JEI.removeAndHide(<forestry:bottler>);
