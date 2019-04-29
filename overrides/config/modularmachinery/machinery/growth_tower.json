@@ -1,8 +1,8 @@
 { 
     "registryname": "growth_tower", 
-    "localizedname": "Seperation Tower", 
+    "localizedname": "Growth tower", 
     "requires-blueprint": true, 
-    "color": "00FF99", 
+    "color": "642E08", 
     "parts": [
         {
             "x": 0,
