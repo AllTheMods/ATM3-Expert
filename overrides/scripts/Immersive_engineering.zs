@@ -28,3 +28,6 @@ recipes.addShaped("CtRefined",<immersiveengineering:stone_decoration>,
 
 #Charcoal from coke oven
 mods.immersiveengineering.CokeOven.removeRecipe(<minecraft:coal:1>);
+
+#mana diamond plate
+mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:manadiamondplate>, <botania:manaresource:2>, <immersiveengineering:mold>,1000);
