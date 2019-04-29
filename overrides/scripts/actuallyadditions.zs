@@ -8,6 +8,7 @@ import crafttweaker.block.IBlockProperties;
 import crafttweaker.block.IBlockDefinition;
 import crafttweaker.block.IBlock;
 import crafttweaker.game.IGame;
+import mods.thaumcraft.Infusion;
 
 print("Actually additions changes");
 
@@ -27,7 +28,4 @@ recipes.addShaped("CTAAlasers", <actuallyadditions:block_laser_relay> * 2,
 
 #Empowerer
 recipes.remove(<actuallyadditions:block_empowerer>);
-recipes.addShaped("CTempowerer", <actuallyadditions:block_empowerer>, 
-[[null, null, null],
-[<botania:manaresource:2>, <actuallyadditions:item_battery_double>.anyDamage(), <botania:manaresource:2>], 
-[<actuallyadditions:block_testifi_bucks_white_wall>, <botania:manaresource:2>, <actuallyadditions:block_testifi_bucks_white_wall>]]); //wtf is that really
+mods.thaumcraft.Infusion.registerRecipe("CtEmpowerer","",<actuallyadditions:block_empowerer>,1,[<aspect:praecantatio>*10,<aspect:vitreus>*30],<actuallyadditions:block_display_stand>,[<ore:manaDiamond>,<forestry:chipsets>,<thaumcraft:mirrored_glass>,<ore:blockQuartz>]);

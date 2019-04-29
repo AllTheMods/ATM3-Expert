@@ -101,7 +101,8 @@ recipes.addShaped("ctQuarkpolished",<quark:sandstone_new>,
 	<ore:ingotMithril>,
 	<ore:dustDilithium>,
 	<ore:ingotArdite>,
-	<ore:ingotCobalt>]as IIngredient[];
+	<ore:ingotCobalt>,
+	<ore:quicksilver>]as IIngredient[];
 
 	val oreArray = [
 	<ore:crushedPurifiedIron>,
@@ -156,7 +157,8 @@ recipes.addShaped("ctQuarkpolished",<quark:sandstone_new>,
 	<ore:oreMithril>,
 	<ore:oreDilithium>,
 	<ore:oreArdite>,
-	<ore:oreCobalt>]as IIngredient[];
+	<ore:oreCobalt>,
+	<ore:oreCinnabar>]as IIngredient[];
 
 
 	val AL = oreArray.length;
