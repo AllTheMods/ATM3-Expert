@@ -62,37 +62,37 @@ mods.forestry.Carpenter.addRecipe(<forestry:chipsets:3>.withTag({T: 3 as short})
 #Sturdy Casing Changes
 recipes.removeShaped(<forestry:sturdy_machine>);
 recipes.addShaped("CtSturdyCasing",<forestry:sturdy_machine>,
-[[null,<ore:plateBronze>,null],
+[[null,<thermalfoundation:material:355>,null],
 [<ore:ingotBronze>,<actuallyadditions:block_misc:9>,<ore:ingotBronze>],
-[null,<ore:plateBronze>,null]]);
+[null,<thermalfoundation:material:355>,null]]);
 
 #Thermionic Fabricator
 recipes.removeShaped(<forestry:fabricator>);
 recipes.addShaped("CtThermionicFabricator",<forestry:fabricator>,
-[[<ore:plateGold>,<ore:blockGlass>,<ore:plateGold>],
+[[<thermalfoundation:material:33>,<ore:blockGlass>,<thermalfoundation:material:33>],
 [<ic2:itemmisc:451>,<forestry:sturdy_machine>,<ic2:itemmisc:451>],
-[<ore:plateGold>,<ore:chestWood>,<ore:plateGold>]]);
+[<thermalfoundation:material:33>,<ore:chestWood>,<thermalfoundation:material:33>]]);
 
 #Carpenter
 recipes.removeShaped(<forestry:carpenter>);
 recipes.addShaped("CtCarpenter",<forestry:carpenter>,
 [[<thermalfoundation:material:355>,<ore:blockGlass>,<thermalfoundation:material:355>],
 [<ic2:itemmisc:451>,<forestry:sturdy_machine>,<ic2:itemmisc:451>],
-[<ore:plateBronze>,<ore:blockGlass>,<ore:plateBronze>]]);
+[<thermalfoundation:material:355>,<ore:blockGlass>,<thermalfoundation:material:355>]]);
 
 #Squeezer
 recipes.removeShaped(<forestry:squeezer>);
 recipes.addShaped("CtSqueezer",<forestry:squeezer>,
-[[<ore:plateTin>,<ore:blockGlass>,<ore:plateTin>],
+[[<thermalfoundation:material:321>,<ore:blockGlass>,<thermalfoundation:material:321>],
 [<ic2:itemmisc:451>,<forestry:sturdy_machine>,<ic2:itemmisc:451>],
-[<ore:plateTin>,<ore:blockGlass>,<ore:plateTin>]]);
+[<thermalfoundation:material:321>,<ore:blockGlass>,<thermalfoundation:material:321>]]);
 
 #Centrifuge
 recipes.removeShaped(<forestry:centrifuge>);
 recipes.addShaped("CtCentrifuge",<forestry:centrifuge>,
-[[<ore:plateCopper>,<ore:blockGlass>,<ore:plateCopper>],
+[[<thermalfoundation:material:320>,<ore:blockGlass>,<thermalfoundation:material:320>],
 [<ic2:itemmisc:451>,<forestry:sturdy_machine>,<ic2:itemmisc:451>],
-[<ore:plateCopper>,<ore:blockGlass>,<ore:plateCopper>]]);
+[<thermalfoundation:material:320>,<ore:blockGlass>,<thermalfoundation:material:320>]]);
 
 #Removing Forestry Machines
 mods.jei.JEI.removeAndHide(<forestry:rainmaker>);
