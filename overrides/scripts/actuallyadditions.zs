@@ -43,6 +43,14 @@ recipes.addShaped("CtAdvCoil",<actuallyadditions:item_misc:8>,
 [<immersiveengineering:material:21>,<actuallyadditions:item_misc:7>,<immersiveengineering:material:21>],
 [null,<immersiveengineering:material:21>,null]]);
 
+
+#display stand
+recipes.remove(<actuallyadditions:block_display_stand>);
+recipes.addShaped("CTdisplayStand", <actuallyadditions:block_display_stand>,
+[[<minecraft:iron_bars>, null, <minecraft:iron_bars>],
+[<actuallyadditions:block_testifi_bucks_green_wall>, <actuallyadditions:block_testifi_bucks_white_wall>, <actuallyadditions:block_testifi_bucks_green_wall>],
+[<forestry:thermionic_tubes:5>,<forestry:thermionic_tubes:7>, <forestry:thermionic_tubes:5>]]);
+
 var aaDisable  = [
 <actuallyadditions:block_item_viewer_hopping>,
 <actuallyadditions:block_battery_box>,

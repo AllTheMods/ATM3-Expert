@@ -115,8 +115,8 @@ recipes.addShaped("CTthermaldevice", <thermalexpansion:frame:64>,
 recipes.remove(<thermalexpansion:dynamo>);
 recipes.addShaped("CTsteamdynamo", <thermalexpansion:dynamo>,
 [[null, <ic2c_extras:heatconductor>, null],
-[<minecraft:iron_ingot>, <thermalfoundation:material:256>, <minecraft:iron_ingot>],
-[<thermalfoundation:material:128>, <minecraft:iron_ingot>, <thermalfoundation:material:128>]]);
+[<ore:plateIron>, <thermalfoundation:material:256>, <ore:plateIron>],
+[<thermalfoundation:material:320>, <immersiveengineering:material:6>, <thermalfoundation:material:320>]]);
 
 #steam augment
 recipes.remove(<thermalexpansion:augment:640>);
