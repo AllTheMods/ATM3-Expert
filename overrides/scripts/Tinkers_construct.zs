@@ -113,8 +113,8 @@ recipes.addShaped("CtStencilTable",<tconstruct:tooltables:1>.withTag({textureBlo
 [<minecraft:planks>,null,<minecraft:planks>]]);
 
 #Changing Tinkers Forge
-recipes.removeShaped(<tconstruct:toolforge>);
-recipes.addShaped("CtToolForge",<tconstruct:toolforge>,
+recipes.removeShaped(<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}));
+recipes.addShaped("CtToolForge",<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}),
 [[<actuallyadditions:block_crystal_empowered:3>,<actuallyadditions:block_crystal_empowered:3>,<actuallyadditions:block_crystal_empowered:3>],
 [<actuallyadditions:block_crystal_empowered:5>,<tconstruct:tooltables:3>,<actuallyadditions:block_crystal_empowered:5>],
 [<actuallyadditions:block_crystal_empowered:5>,null,<actuallyadditions:block_crystal_empowered:5>]]);
