@@ -31,3 +31,45 @@ mods.immersiveengineering.CokeOven.removeRecipe(<minecraft:coal:1>);
 
 #mana diamond plate
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:manadiamondplate>, <botania:manaresource:2>, <immersiveengineering:mold>,1000);
+
+#cloche
+recipes.remove(<immersiveengineering:metal_device1:13>);
+recipes.addShaped("CTcloche",<immersiveengineering:metal_device1:13>,
+[[<actuallyadditions:block_greenhouse_glass>,<immersiveengineering:material:26>, <actuallyadditions:block_greenhouse_glass>],
+[<actuallyadditions:block_greenhouse_glass>, null,<actuallyadditions:block_greenhouse_glass>],
+[<immersiveengineering:treated_wood>,<immersiveengineering:material:9>, <immersiveengineering:treated_wood>]]);
+
+#scaffolding
+recipes.remove(<immersiveengineering:metal_decoration1:1>);
+recipes.addShaped("CTScaffolding",<immersiveengineering:metal_decoration1:1> * 4,
+[[<ic2:itemmisc:53>,<ic2:itemmisc:53>, <ic2:itemmisc:53>],
+[null, <immersiveengineering:material:1>,null],
+[<immersiveengineering:material:1>,null, <immersiveengineering:material:1>]]);
+
+#heavy block
+recipes.remove(<immersiveengineering:metal_decoration0:5>);
+recipes.addShaped("CTHeavyBlock",<immersiveengineering:metal_decoration0:5>,
+[[<ic2:itemmisc:53>,<immersiveengineering:material:8>, <ic2:itemmisc:53>],
+[<minecraft:piston>, <ore:ingotElectrum>,<minecraft:piston>],
+[<ic2:itemmisc:53>,<immersiveengineering:material:8>, <ic2:itemmisc:53>]]);
+
+#light block
+recipes.remove(<immersiveengineering:metal_decoration0:4>);
+recipes.addShaped("CTLightBlock",<immersiveengineering:metal_decoration0:4>,
+[[<ore:ingotSteel>,<immersiveengineering:material:9>, <ore:ingotSteel>],
+[<ore:ingotCopper>, <ore:ingotCopper>,<ore:ingotCopper>],
+[<ore:ingotSteel>,<immersiveengineering:material:9>, <ore:ingotSteel>]]);
+
+#iron component
+recipes.remove(<immersiveengineering:material:8>);
+recipes.addShaped("CTIronComp",<immersiveengineering:material:8>,
+[[<ic2c_extras:refinedironplate>,null, <ic2c_extras:refinedironplate>],
+[null, <ore:ingotCopper>,null],
+[<ic2c_extras:refinedironplate>,null, <ic2c_extras:refinedironplate>]]);
+
+
+#gear mold
+recipes.addShaped("CTMold",<immersiveengineering:mold>,
+[[null,<ic2c_extras:refinedironplate>, null],
+[<ic2c_extras:refinedironplate>, null,<ic2c_extras:refinedironplate>],
+[null,<ic2c_extras:refinedironplate>, null]]);
