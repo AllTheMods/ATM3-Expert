@@ -56,8 +56,8 @@ recipes.addShaped("CtSmeltControl",<tconstruct:smeltery_controller>,
 [<minecraft:brick>, tin,<minecraft:brick>]]);
 
 #patterns
-recipes.removeShaped(<tconstruct:pattern>);
-mods.tconstruct.Drying.addRecipe(<tconstruct:pattern>,<tconstruct:pattern>, 300);
+#recipes.removeShaped(<tconstruct:pattern>);
+#mods.tconstruct.Drying.addRecipe(<tconstruct:pattern>,<tconstruct:pattern>, 300);
 
 
 
