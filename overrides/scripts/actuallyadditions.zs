@@ -13,19 +13,108 @@ import mods.thaumcraft.Infusion;
 print("Actually additions changes");
 
 #iron casing
-recipes.remove(<actuallyadditions:block_misc:9>);
+recipes.removeShaped(<actuallyadditions:block_misc:9>);
 recipes.addShaped("CTironcasing", <actuallyadditions:block_misc:9>, 
 [[<thermalfoundation:material:354>, <botania:managlasspane>, <thermalfoundation:material:354>],
 [<botania:managlasspane>, <minecraft:glowstone>, <botania:managlasspane>], 
 [<thermalfoundation:material:354>, <botania:managlasspane>, <thermalfoundation:material:354>]]);
 
 #AAlaser relay
-recipes.remove(<actuallyadditions:block_laser_relay>);
+recipes.removeShaped(<actuallyadditions:block_laser_relay>);
 recipes.addShaped("CTAAlasers", <actuallyadditions:block_laser_relay> * 2, 
 [[<minecraft:obsidian>, <minecraft:redstone_block>, <minecraft:obsidian>],
 [<actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_misc:8>, <actuallyadditions:item_crystal_empowered>], 
 [<minecraft:obsidian>, <minecraft:redstone_block>, <minecraft:obsidian>]]);
 
 #Empowerer
-recipes.remove(<actuallyadditions:block_empowerer>);
+recipes.removeShaped(<actuallyadditions:block_empowerer>);
 mods.thaumcraft.Infusion.registerRecipe("CtEmpowerer","",<actuallyadditions:block_empowerer>,1,[<aspect:praecantatio>*10,<aspect:vitreus>*30],<actuallyadditions:block_display_stand>,[<ore:manaDiamond>,<forestry:chipsets>,<thaumcraft:mirrored_glass>,<ore:blockQuartz>]);
+
+#change coils for AA
+recipes.removeShaped(<actuallyadditions:item_misc:7>);
+recipes.addShaped("CtBasicCoil",<actuallyadditions:item_misc:7>,
+[[null,<immersiveengineering:material:20>,null],
+[<immersiveengineering:material:20>,<ic2:itemcable:10>,<immersiveengineering:material:20>],
+[null,<immersiveengineering:material:20>,null]]);
+
+recipes.removeShaped(<actuallyadditions:item_misc:8>);
+recipes.addShaped("CtAdvCoil",<actuallyadditions:item_misc:8>,
+[[null,<immersiveengineering:material:21>,null],
+[<immersiveengineering:material:21>,<actuallyadditions:item_misc:7>,<immersiveengineering:material:21>],
+[null,<immersiveengineering:material:21>,null]]);
+
+var aaDisable  = [
+<actuallyadditions:block_item_viewer_hopping>,
+<actuallyadditions:block_battery_box>,
+<actuallyadditions:block_bio_reactor>,
+<actuallyadditions:block_shock_suppressor>,
+<actuallyadditions:block_player_interface>,
+<actuallyadditions:block_item_viewer>,
+<actuallyadditions:block_miner>,
+<actuallyadditions:block_leaf_generator>,
+<actuallyadditions:block_giant_chest_large>,
+<actuallyadditions:block_giant_chest_medium>,
+<actuallyadditions:block_giant_chest>,
+	<actuallyadditions:item_misc:18>,
+	<actuallyadditions:item_more_damage_lens>,
+	<actuallyadditions:item_explosion_lens>,
+	<actuallyadditions:item_damage_lens>,
+	<actuallyadditions:item_disenchanting_lens>,
+	<actuallyadditions:item_mining_lens>,
+<actuallyadditions:item_color_lens>,
+<actuallyadditions:block_directional_breaker>,
+<actuallyadditions:block_energizer>,
+<actuallyadditions:block_enervator>,
+<actuallyadditions:block_coal_generator>,
+<actuallyadditions:block_oil_generator>,
+<actuallyadditions:item_food:6>,
+<actuallyadditions:item_food:7>,
+<actuallyadditions:item_food:1>,
+<actuallyadditions:item_food:14>,
+<actuallyadditions:item_food:10>,
+<actuallyadditions:item_food:8>,
+<actuallyadditions:item_drill_upgrade_speed>,
+	<actuallyadditions:item_drill_upgrade_speed_ii>,
+	<actuallyadditions:item_drill_upgrade_speed_iii>,
+	<actuallyadditions:item_drill_upgrade_silk_touch>,
+	<actuallyadditions:item_drill_upgrade_fortune>,
+	<actuallyadditions:item_drill_upgrade_three_by_three>,
+	<actuallyadditions:item_drill_upgrade_block_placing>,
+	<actuallyadditions:item_drill_upgrade_five_by_five>,
+	<actuallyadditions:item_drill_upgrade_fortune_ii>,
+	<actuallyadditions:item_drill:0>,
+	<actuallyadditions:item_drill:1>,
+	<actuallyadditions:item_drill:2>,
+	<actuallyadditions:item_drill:3>,
+	<actuallyadditions:item_drill:4>,
+	<actuallyadditions:item_drill:5>,
+	<actuallyadditions:item_drill:6>,
+	<actuallyadditions:item_drill:7>,
+	<actuallyadditions:item_drill:8>,
+	<actuallyadditions:item_drill:9>,
+	<actuallyadditions:item_drill:10>,
+	<actuallyadditions:item_drill:11>,
+	<actuallyadditions:item_drill:12>,
+	<actuallyadditions:item_drill:13>,
+	<actuallyadditions:item_drill:14>,
+	<actuallyadditions:item_drill:15>,
+	<actuallyadditions:item_tele_staff>,
+	<actuallyadditions:item_chest_to_crate_upgrade>,
+	<actuallyadditions:item_small_to_medium_crate_upgrade>,
+	<actuallyadditions:item_medium_to_large_crate_upgrade>,
+	<actuallyadditions:item_crate_keeper>,
+	<actuallyadditions:block_item_repairer>,
+	<actuallyadditions:block_heat_collector>,
+	<actuallyadditions:item_wings_of_the_bats>,
+	<actuallyadditions:block_furnace_solar>,
+	<actuallyadditions:block_inputter>,
+	<actuallyadditions:block_inputter_advanced>,
+	<actuallyadditions:block_furnace_double>
+	]as IItemStack[];
+
+val AL = aaDisable.length;
+	
+	for i in 0 to AL{
+	
+	    mods.jei.JEI.removeAndHide(aaDisable[i]);
+	}

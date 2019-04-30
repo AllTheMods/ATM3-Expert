@@ -13,7 +13,7 @@ import mods.immersiveengineering.CokeOven;
 print("Immersive engineering changes");
 
 #Engineer's Hammer
-recipes.remove(<immersiveengineering:tool>);
+recipes.removeShaped(<immersiveengineering:tool>);
 recipes.addShaped("CTImmersiveTool", <immersiveengineering:tool>,
 [[null, <minecraft:iron_ingot>, <thermalfoundation:material:24>], 
  [null, <minecraft:stick>, <minecraft:iron_ingot>],
