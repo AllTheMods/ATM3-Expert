@@ -118,3 +118,6 @@ recipes.addShaped("CtToolForge",<tconstruct:toolforge>.withTag({textureBlock: {i
 [[<actuallyadditions:block_crystal_empowered:3>,<actuallyadditions:block_crystal_empowered:3>,<actuallyadditions:block_crystal_empowered:3>],
 [<actuallyadditions:block_crystal_empowered:5>,<tconstruct:tooltables:3>,<actuallyadditions:block_crystal_empowered:5>],
 [<actuallyadditions:block_crystal_empowered:5>,null,<actuallyadditions:block_crystal_empowered:5>]]);
+
+#changing Bricks to stone
+recipes.replaceAllOccurences(<tconstruct:materials>,<ore:blockSeared>);
