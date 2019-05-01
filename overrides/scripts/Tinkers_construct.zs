@@ -122,5 +122,18 @@ recipes.addShaped("CtToolForge",<tconstruct:toolforge>.withTag({textureBlock: {i
 [<actuallyadditions:block_crystal_empowered:5>,<tconstruct:tooltables:3>,<actuallyadditions:block_crystal_empowered:5>],
 [<actuallyadditions:block_crystal_empowered:5>,null,<actuallyadditions:block_crystal_empowered:5>]]);
 
-#changing Bricks to stone
-recipes.replaceAllOccurences(<tconstruct:materials>,<ore:blockSeared>);
+#changing Seared items recipes.
+recipes.removeShaped(<tconstruct:smeltery_io>);
+recipes.removeShaped(<tconstruct:casting:1>);
+recipes.removeShaped(<tconstruct:casting>);
+recipes.removeShaped(<tconstruct:faucet>);
+recipes.removeShaped(<tconstruct:seared_tank>);
+recipes.removeShaped(<tconstruct:channel>);
+recipes.removeShaped(<tcomplement:alloy_tank>);
+mods.tconstruct.Casting.addBasinRecipe(<tconstruct:faucet>,<ceramics:faucet>,<liquid:liquid_grout>,288,true,200);
+mods.tconstruct.Casting.addBasinRecipe(<tconstruct:casting:1>,<tcomplement:porcelain_casting:1>,<liquid:liquid_grout>,288,true,200);
+mods.tconstruct.Casting.addBasinRecipe(<tconstruct:casting>,<tcomplement:porcelain_casting>,<liquid:liquid_grout>,288,true,200);
+mods.tconstruct.Casting.addBasinRecipe(<tconstruct:seared_tank>,<tcomplement:porcelain_tank>,<liquid:liquid_grout>,288,true,200);
+mods.tconstruct.Casting.addBasinRecipe(<tconstruct:smeltery_io>,<ceramics:clay_hard>,<liquid:liquid_grout>,288,true,200);
+mods.tconstruct.Casting.addBasinRecipe(<tconstruct:channel>,<ceramics:channel>,<liquid:liquid_grout>,288,true,200);
+mods.tconstruct.Casting.addBasinRecipe(<tcomplement:alloy_tank>,<tcomplement:porcelain_alloy_tank>,<liquid:liquid_grout>,288,true,200);
