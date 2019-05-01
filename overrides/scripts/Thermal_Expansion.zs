@@ -134,3 +134,12 @@ recipes.removeShaped(<thermalfoundation:upgrade:2>);
 
 #Resonant Upgrade Kit changes
 recipes.removeShaped(<thermalfoundation:upgrade:3>);
+
+
+#fractioning still
+recipes.remove(<thermalexpansion:machine:7>);
+mods.jei.JEI.hide(<thermalexpansion:machine:7>);
+recipes.remove(<thermalexpansion:augment:369>);
+mods.jei.JEI.hide(<thermalexpansion:augment:369>);
+recipes.remove(<thermalexpansion:augment:368>);
+mods.jei.JEI.hide(<thermalexpansion:augment:368>);
