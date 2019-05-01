@@ -76,6 +76,9 @@ sandMat.register();
 #meltable
 
 mods.tconstruct.Melting.addRecipe(<liquid:molten_sand> * 1000,<extrautils2:compressedsand>, 400);
+mods.tconstruct.Melting.removeRecipe(<liquid:clay>);
+mods.tconstruct.Melting.addRecipe(<liquid:clay> * 144,<minecraft:clay_ball>, 350);
+mods.tconstruct.Melting.addRecipe(<liquid:clay> * 576,<minecraft:clay>, 400);
 #alloys
 #liquid grout
 mods.tconstruct.Alloy.addRecipe(<liquid:liquid_grout> * 144, [<liquid:molten_sand> * 72, <liquid:clay> * 72]);
