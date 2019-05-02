@@ -115,8 +115,8 @@ recipes.addShaped("CTthermaldevice", <thermalexpansion:frame:64>,
 recipes.remove(<thermalexpansion:dynamo>);
 recipes.addShaped("CTsteamdynamo", <thermalexpansion:dynamo>,
 [[null, <ic2c_extras:heatconductor>, null],
-[<ore:plateIron>, <thermalfoundation:material:256>, <ore:plateIron>],
-[<thermalfoundation:material:320>, <immersiveengineering:material:6>, <thermalfoundation:material:320>]]);
+[<minecraft:iron_ingot>, <thermalfoundation:material:256>, <minecraft:iron_ingot>],
+[<thermalfoundation:material:128>, <minecraft:iron_ingot>, <thermalfoundation:material:128>]]);
 
 #steam augment
 recipes.remove(<thermalexpansion:augment:640>);
@@ -128,18 +128,12 @@ recipes.addShaped("CTthermalturbine", <thermalexpansion:augment:640>,
 
 #Reinforced Upgrade Kit changes
 recipes.removeShaped(<thermalfoundation:upgrade:1>);
+recipes.addShaped("CTkit1", <thermalfoundation:upgrade:1>, [[null, <thermalfoundation:material:353>, null],[<thermalfoundation:material:353>, <thermalfoundation:material:288>, <thermalfoundation:material:353>], [<ic2:itemmisc:451>, <actuallyadditions:item_crystal_empowered>, <ic2:itemmisc:451>]]);
 
 #Signalum Upgrade Kit changes
 recipes.removeShaped(<thermalfoundation:upgrade:2>);
+recipes.addShaped("CTkit2", <thermalfoundation:upgrade:2>, [[null, <thermalfoundation:material:357>, null],[<thermalfoundation:material:357>, <ic2:itemmisc:452>, <thermalfoundation:material:357>], [<actuallyadditions:item_crystal_empowered:5>, <thermalfoundation:material:357>, <actuallyadditions:item_crystal_empowered:4>]]);
 
 #Resonant Upgrade Kit changes
 recipes.removeShaped(<thermalfoundation:upgrade:3>);
-
-
-#fractioning still
-recipes.remove(<thermalexpansion:machine:7>);
-mods.jei.JEI.hide(<thermalexpansion:machine:7>);
-recipes.remove(<thermalexpansion:augment:369>);
-mods.jei.JEI.hide(<thermalexpansion:augment:369>);
-recipes.remove(<thermalexpansion:augment:368>);
-mods.jei.JEI.hide(<thermalexpansion:augment:368>);
+recipes.addShaped("CTKit3", <thermalfoundation:upgrade:3>, [[null, <thermalfoundation:material:359>, null],[<thermalfoundation:material:359>, <ic2:itemmisc:258>, <thermalfoundation:material:359>], [<rftools:dimensional_shard>, <thermalfoundation:material:359>, <rftools:dimensional_shard>]]);
