@@ -10,6 +10,7 @@ import crafttweaker.block.IBlock;
 import crafttweaker.game.IGame;
 import mods.jei.JEI.removeAndHide;
 import mods.immersiveengineering.BlastFurnace;
+import mods.forestry.ThermionicFabricator;
 
 print("ic2 changes");
 
@@ -62,3 +63,9 @@ recipes.addShaped("CTbasicframe", <ic2:blockmachinelv>,
 [<thermalfoundation:material:354>, <botania:managlass>, <thermalfoundation:material:354>], 
 [<ic2:itemmisc:53>, <thermalfoundation:material:354>, <ic2:itemmisc:53>]]);
 
+#advanced circuit
+mods.forestry.ThermionicFabricator.addCast(<ic2:itemmisc:452>, 
+[[<actuallyadditions:item_crystal_empowered:1>,<minecraft:glowstone_dust>,<actuallyadditions:item_crystal_empowered>], 
+[<minecraft:glowstone_dust>,<ic2:itemmisc:451>,<minecraft:glowstone_dust>],
+[<actuallyadditions:item_crystal_empowered>,<minecraft:glowstone_dust>,<actuallyadditions:item_crystal_empowered:1>]], 
+<liquid: glass> * 200);
