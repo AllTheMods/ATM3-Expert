@@ -135,3 +135,36 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtComplexArcaneMechanism",
 
 #Runic matrix
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:infusion_matrix>);
+mods.ic2.Compressor.addRecipe(<thaumcraft:infusion_matrix>, <thaumcraft:stone_arcane_brick> *4);
+
+#everfull urn
+mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:everfull_urn>);
+mods.thaumcraft.Crucible.registerRecipe("CtCrucible", "EVERFULLURN", <thaumcraft:everfull_urn>, <tcomplement:porcelain_tank>, 
+	[aquaAspect *30, <aspect:fabrico>, terraAspect]
+	);
+
+#mirror
+	#magic mirror
+	mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:mirror>);
+	mods.thaumcraft.Infusion.registerRecipe("CtMagicMirror", "MIRROR", <thaumcraft:mirror>, 2, 
+			[<aspect:motus> *25, <aspect:tenebrae> *25, <aspect:permutatio> *25],
+			<astralsorcery:itemcraftingcomponent:3>, 
+			[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>, <ore:enderpearl>]
+			);
+	#essemtia mirror
+	mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:mirror_essentia>);
+	mods.thaumcraft.Infusion.registerRecipe("CtEssentiaMirror", "ESSENTIAMIRROR", <thaumcraft:mirror_essentia>, 4, 
+			[<aspect:motus>, aquaAspect, <aspect:permutatio>],
+			<astralsorcery:itemcraftingcomponent:3>,
+			[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:enderpearl>]
+			);
+
+#workbench Charger
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:arcane_workbench_charger>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtArcaneCharger", "WORKBENCHCHARGER", 200, 
+		[aerAspect *2, ordoAspect *2],
+		<thaumcraft:arcane_workbench_charger>,
+		[[null, <thaumcraft:vis_resonator>, null],
+		[<thaumcraft:plank_greatwood>, null, <thaumcraft:plank_greatwood>],
+		[<ore:plateSteel>, null, <ore:plateSteel>]]
+		);

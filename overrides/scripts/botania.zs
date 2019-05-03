@@ -107,8 +107,10 @@ mods.jei.JEI.removeAndHide(<botania:manasteelshears>);
 
 #altar
 recipes.removeShaped(<botania:runealtar>);
-mods.actuallyadditions.Empowerer(<botania:runealtar>, <botania:pool>, <ore:livingrock>, <ore:manaDiamond>, <actuallyadditions:block_crystal_empowered:5>, <thaumcraft:salis_mundus>);
-
+mods.actuallyadditions.Empowerer.addRecipe(<botania:runealtar>, <botania:pool>, <ore:livingrock>, <ore:manaDiamond>, <actuallyadditions:block_crystal_empowered:5>, 
+	<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "praecantatio"}]}), 100000, 20, [0.0, 0.5, 0.0]
+	);
+	
 #mana lens
 recipes.remove(<botania:lens>.withTag({}));
 recipes.addShaped("CtManaLens",<botania:lens>.withTag({}),
