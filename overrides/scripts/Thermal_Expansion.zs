@@ -9,6 +9,8 @@ import crafttweaker.block.IBlockDefinition;
 import crafttweaker.block.IBlock;
 import crafttweaker.game.IGame;
 import mods.thermalexpansion.RedstoneFurnace;
+import mods.jei.JEI.removeAndHide;
+
 
 print("Thermal expansion changes");
 
@@ -137,3 +139,12 @@ recipes.addShaped("CTkit2", <thermalfoundation:upgrade:2>, [[null, <thermalfound
 #Resonant Upgrade Kit changes
 recipes.removeShaped(<thermalfoundation:upgrade:3>);
 recipes.addShaped("CTkit3", <thermalfoundation:upgrade:3>, [[null, <thermalfoundation:material:359>, null],[<thermalfoundation:material:359>, <ic2:itemmisc:258>, <thermalfoundation:material:359>], [<ic2:ic2upgrades:32>, <thermalfoundation:material:359>, <ic2:ic2upgrades:32>]]);
+
+#fractioning still and gearworker for compactor
+recipes.remove(<thermalexpansion:machine:7>); 
+mods.jei.JEI.hide(<thermalexpansion:machine:7>); 
+recipes.remove(<thermalexpansion:augment:369>); 
+mods.jei.JEI.hide(<thermalexpansion:augment:369>); 
+recipes.remove(<thermalexpansion:augment:368>); 
+mods.jei.JEI.hide(<thermalexpansion:augment:368>);
+mods.jei.JEI.hide(<thermalexpansion:augment:337>);
