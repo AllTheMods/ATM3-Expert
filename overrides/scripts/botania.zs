@@ -107,3 +107,17 @@ mods.jei.JEI.removeAndHide(<botania:manasteelshears>);
 
 #altar
 recipes.removeShaped(<botania:runealtar>);
+mods.actuallyadditions.Empowerer(<botania:runealtar>, <botania:pool>, <ore:livingrock>, <ore:manaDiamond>, <actuallyadditions:block_crystal_empowered:5>, <thaumcraft:salis_mundus>);
+
+#mana lens
+recipes.remove(<botania:lens>.withTag({}));
+recipes.addShaped("CtManaLens",<botania:lens>.withTag({}),
+	[[null,<ore:ingotManasteel>,null],
+	[<ore:ingotManasteel>,<botania:managlasspane>,<ore:ingotManasteel>],
+	[null,<ore:ingotManasteel>,null]
+	]);
+recipes.addShaped("CtManaLens2",<botania:lens>.withTag({}),
+	[[null,<ore:ingotManasteel>,null],
+	[<ore:ingotManasteel>,<botania:managlass>,<ore:ingotManasteel>],
+	[null,<ore:ingotManasteel>,null]
+	]);
