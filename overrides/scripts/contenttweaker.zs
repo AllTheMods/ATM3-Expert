@@ -17,3 +17,6 @@ coldIronIngot.register();
 
 var coldIronPlate = VanillaFactory.createItem("ColdIronPlate");
 coldIronPlate.register();
+
+var UnrefinedHotSteel = VanillaFactory.createItem("UnrefinedHotSteel");
+UnrefinedHotSteel.register();
