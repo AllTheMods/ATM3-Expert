@@ -97,14 +97,6 @@ recipes.removeShaped(<botania:manatablet>);
 recipes.addShaped("CtManaTablet",<botania:manatablet>.withTag({}),[[livingRock,<ic2:itemmisc:256>,livingRock],[<ore:manaPearl>,<botania:pool>,<ore:manaPearl>],[livingRock,<ic2:itemmisc:256>,livingRock]]);
 recipes.addShaped("CtManaTablet2",<botania:manatablet>.withTag({}),[[livingRock,<ic2:itemmisc:256>,livingRock],[<ore:manaDiamond>,<botania:pool>,<ore:manaDiamond>],[livingRock,<ic2:itemmisc:256>,livingRock]]);
 
-#JeI
-mods.jei.JEI.removeAndHide(<botania:manasteelpick>);
-mods.jei.JEI.removeAndHide(<botania:manasteelshovel>);
-mods.jei.JEI.removeAndHide(<botania:manasteelsword>);
-mods.jei.JEI.removeAndHide(<botania:manasteelaxe>);
-mods.jei.JEI.removeAndHide(<botania:manasteelshears>);
-
-
 #altar
 recipes.removeShaped(<botania:runealtar>);
 mods.actuallyadditions.Empowerer.addRecipe(<botania:runealtar>, <botania:pool>, <ore:livingrock>, <ore:manaDiamond>, <actuallyadditions:block_crystal_empowered:5>, 

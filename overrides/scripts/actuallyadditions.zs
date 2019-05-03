@@ -115,8 +115,6 @@ var aaDisable  = [
 	<actuallyadditions:block_heat_collector>,
 	<actuallyadditions:item_wings_of_the_bats>,
 	<actuallyadditions:block_furnace_solar>,
-	<actuallyadditions:block_inputter>,
-	<actuallyadditions:block_inputter_advanced>,
 	<actuallyadditions:block_furnace_double>
 	]as IItemStack[];
 

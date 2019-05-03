@@ -10,7 +10,7 @@ import crafttweaker.block.IBlockDefinition;
 import crafttweaker.block.IBlock;
 import mods.forestry.ThermionicFabricator;
 import mods.forestry.Carpenter;
-
+import mods.forestry.Still;
 
 mods.jei.JEI.removeAndHide(<forestry:ffarm:*>);
 
@@ -97,6 +97,9 @@ recipes.addShaped("CtCentrifuge",<forestry:centrifuge>,
 #Removing Forestry Machines
 mods.jei.JEI.removeAndHide(<forestry:rainmaker>);
 mods.jei.JEI.removeAndHide(<forestry:fermenter>);
-mods.jei.JEI.removeAndHide(<forestry:still>);
 mods.jei.JEI.removeAndHide(<forestry:moistener>);
 mods.jei.JEI.removeAndHide(<forestry:bottler>);
+
+#still
+recipes.remove(<forestry:still>);
+recipes.addShaped("CTStill", <forestry:still>, [[<ic2:itemmisc:257>, <ic2c_extras:stonedustblock>, <ic2:itemmisc:257>],[<ic2:itemmisc:257>, <forestry:sturdy_machine>, <ic2:itemmisc:257>], [<ic2:itemmisc:257>, <ic2c_extras:stonedustblock>, <ic2:itemmisc:257>]]);
