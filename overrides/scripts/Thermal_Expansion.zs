@@ -136,4 +136,4 @@ recipes.addShaped("CTkit2", <thermalfoundation:upgrade:2>, [[null, <thermalfound
 
 #Resonant Upgrade Kit changes
 recipes.removeShaped(<thermalfoundation:upgrade:3>);
-recipes.addShaped("CTKit3", <thermalfoundation:upgrade:3>, [[null, <thermalfoundation:material:359>, null],[<thermalfoundation:material:359>, <ic2:itemmisc:258>, <thermalfoundation:material:359>], [<rftools:dimensional_shard>, <thermalfoundation:material:359>, <rftools:dimensional_shard>]]);
+recipes.addShaped("CTkit3", <thermalfoundation:upgrade:3>, [[null, <thermalfoundation:material:359>, null],[<thermalfoundation:material:359>, <ic2:itemmisc:258>, <thermalfoundation:material:359>], [<ic2:ic2upgrades:32>, <thermalfoundation:material:359>, <ic2:ic2upgrades:32>]]);

@@ -13,5 +13,7 @@ var solderingalloy =  VanillaFactory.createFluid("Soldering_Alloy", Color.fromHe
 solderingalloy.register();
 
 var coldIronIngot = VanillaFactory.createItem("ColdIronIngot");
-
 coldIronIngot.register();
+
+var coldIronPlate = VanillaFactory.createItem("ColdIronPlate");
+coldIronPlate.register();
