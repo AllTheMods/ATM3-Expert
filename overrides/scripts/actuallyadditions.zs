@@ -52,12 +52,9 @@ recipes.addShaped("CTdisplayStand", <actuallyadditions:block_display_stand>,
 [<forestry:thermionic_tubes:5>,<forestry:thermionic_tubes:7>, <forestry:thermionic_tubes:5>]]);
 
 var aaDisable  = [
-<actuallyadditions:block_item_viewer_hopping>,
 <actuallyadditions:block_battery_box>,
 <actuallyadditions:block_bio_reactor>,
 <actuallyadditions:block_shock_suppressor>,
-<actuallyadditions:block_player_interface>,
-<actuallyadditions:block_item_viewer>,
 <actuallyadditions:block_miner>,
 <actuallyadditions:block_leaf_generator>,
 <actuallyadditions:block_giant_chest_large>,
@@ -67,20 +64,9 @@ var aaDisable  = [
 	<actuallyadditions:item_more_damage_lens>,
 	<actuallyadditions:item_explosion_lens>,
 	<actuallyadditions:item_damage_lens>,
-	<actuallyadditions:item_disenchanting_lens>,
 	<actuallyadditions:item_mining_lens>,
 <actuallyadditions:item_color_lens>,
-<actuallyadditions:block_directional_breaker>,
-<actuallyadditions:block_energizer>,
-<actuallyadditions:block_enervator>,
 <actuallyadditions:block_coal_generator>,
-<actuallyadditions:block_oil_generator>,
-<actuallyadditions:item_food:6>,
-<actuallyadditions:item_food:7>,
-<actuallyadditions:item_food:1>,
-<actuallyadditions:item_food:14>,
-<actuallyadditions:item_food:10>,
-<actuallyadditions:item_food:8>,
 <actuallyadditions:item_drill_upgrade_speed>,
 	<actuallyadditions:item_drill_upgrade_speed_ii>,
 	<actuallyadditions:item_drill_upgrade_speed_iii>,
@@ -106,16 +92,13 @@ var aaDisable  = [
 	<actuallyadditions:item_drill:13>,
 	<actuallyadditions:item_drill:14>,
 	<actuallyadditions:item_drill:15>,
-	<actuallyadditions:item_tele_staff>,
 	<actuallyadditions:item_chest_to_crate_upgrade>,
 	<actuallyadditions:item_small_to_medium_crate_upgrade>,
 	<actuallyadditions:item_medium_to_large_crate_upgrade>,
 	<actuallyadditions:item_crate_keeper>,
-	<actuallyadditions:block_item_repairer>,
 	<actuallyadditions:block_heat_collector>,
 	<actuallyadditions:item_wings_of_the_bats>,
-	<actuallyadditions:block_furnace_solar>,
-	<actuallyadditions:block_furnace_double>
+	<actuallyadditions:block_furnace_solar>
 	]as IItemStack[];
 
 val AL = aaDisable.length;

@@ -12,3 +12,5 @@ import mods.unidict.api;
 
 
 mods.unidict.removalByKind.get("Crafting").remove("gear");
+
+mods.unidict.removalByKind.get("Crafting").remove("plate");

@@ -134,11 +134,11 @@ recipes.addShaped("CTkit1", <thermalfoundation:upgrade:1>, [[null, <thermalfound
 
 #Signalum Upgrade Kit changes
 recipes.removeShaped(<thermalfoundation:upgrade:2>);
-recipes.addShaped("CTkit2", <thermalfoundation:upgrade:2>, [[null, <thermalfoundation:material:357>, null],[<thermalfoundation:material:357>, <ic2:itemmisc:452>, <thermalfoundation:material:357>], [<actuallyadditions:item_crystal_empowered:5>, <thermalfoundation:material:357>, <actuallyadditions:item_crystal_empowered:4>]]);
+recipes.addShaped("CTkit2", <thermalfoundation:upgrade:2>, [[null, <actuallyadditions:item_crystal_empowered:4>, null],[<thermalfoundation:material:357>, <ic2:itembatlamacrystal>.anyDamage(), <thermalfoundation:material:357>], [<alchemistry:ingot:62>, <ic2:itemmisc:258>, <alchemistry:ingot:62>]]);
 
 #Resonant Upgrade Kit changes
 recipes.removeShaped(<thermalfoundation:upgrade:3>);
-recipes.addShaped("CTkit3", <thermalfoundation:upgrade:3>, [[null, <thermalfoundation:material:359>, null],[<thermalfoundation:material:359>, <ic2:itemmisc:258>, <thermalfoundation:material:359>], [<ic2:ic2upgrades:32>, <thermalfoundation:material:359>, <ic2:ic2upgrades:32>]]);
+#change me// recipes.addShaped("CTkit3", <thermalfoundation:upgrade:3>, [[null, <thermalfoundation:material:359>, null],[<thermalfoundation:material:359>, <ic2:itemmisc:258>, <thermalfoundation:material:359>], [<ic2:ic2upgrades:32>, <thermalfoundation:material:359>, <ic2:ic2upgrades:32>]]);
 
 #fractioning still and gearworker for compactor
 recipes.remove(<thermalexpansion:machine:7>); 
