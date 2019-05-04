@@ -31,6 +31,7 @@ mods.immersiveengineering.CokeOven.removeRecipe(<minecraft:coal:1>);
 
 #mana diamond plate
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:manadiamondplate>, <botania:manaresource:2>, <immersiveengineering:mold>,1000);
+mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:manadiamondplate>, <botania:manaresource:2>, <immersiveengineering:mold>,1000);
 
 #cloche
 recipes.remove(<immersiveengineering:metal_device1:13>);
@@ -80,3 +81,10 @@ recipes.addShaped(<immersiveengineering:stone_decoration:2>,
 [[<ic2:itemmisc:11>, <contenttweaker:coldironplate>, <ic2:itemmisc:11>],
 [<actuallyadditions:item_misc:5>, <immersiveengineering:stone_decoration:1>, <actuallyadditions:item_misc:5>],
 [<ic2:itemmisc:11>, <actuallyadditions:item_misc:5>, <ic2:itemmisc:11>]]);
+
+#reg blast brick
+recipes.remove(<immersiveengineering:stone_decoration:1>);
+recipes.addShaped("CTBbrick", <immersiveengineering:stone_decoration:1> * 3, 
+[[<minecraft:brick>, <ceramics:unfired_clay:5>, <minecraft:brick>],
+[<minecraft:brick>, <thermalfoundation:material:163>, <minecraft:brick>], 
+[<minecraft:brick>, <ceramics:unfired_clay:5>, <minecraft:brick>]]);
