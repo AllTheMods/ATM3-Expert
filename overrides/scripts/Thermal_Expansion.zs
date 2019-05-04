@@ -148,3 +148,11 @@ mods.jei.JEI.hide(<thermalexpansion:augment:369>);
 recipes.remove(<thermalexpansion:augment:368>); 
 mods.jei.JEI.hide(<thermalexpansion:augment:368>);
 mods.jei.JEI.hide(<thermalexpansion:augment:337>);
+
+#Energy cell frame
+recipes.remove(<thermalexpansion:frame:128>);
+recipes.addShaped("CTrfFrame", <thermalexpansion:frame:128>, 
+[[<alchemistry:ingot:31>, <thermalfoundation:glass_alloy:7>, <alchemistry:ingot:31>],
+[<thermalfoundation:material:294>, <actuallyadditions:block_misc:8>, <thermalfoundation:material:294>], 
+[<alchemistry:ingot:31>, <thermalfoundation:glass_alloy:7>, <alchemistry:ingot:31>]]);
+

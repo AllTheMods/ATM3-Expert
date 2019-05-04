@@ -51,6 +51,13 @@ recipes.addShaped("CTdisplayStand", <actuallyadditions:block_display_stand>,
 [<actuallyadditions:block_testifi_bucks_green_wall>, <actuallyadditions:block_testifi_bucks_white_wall>, <actuallyadditions:block_testifi_bucks_green_wall>],
 [<forestry:thermionic_tubes:5>,<forestry:thermionic_tubes:7>, <forestry:thermionic_tubes:5>]]);
 
+#item filter
+recipes.remove(<actuallyadditions:item_filter>);
+recipes.addShaped("CTaafilter", <actuallyadditions:item_filter>, 
+[[null, <minecraft:iron_bars>, null],
+[<minecraft:iron_bars>, <extrautils2:filter>, <minecraft:iron_bars>], 
+[null, <minecraft:iron_bars>, null]]);
+
 var aaDisable  = [
 <actuallyadditions:block_battery_box>,
 <actuallyadditions:block_bio_reactor>,

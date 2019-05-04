@@ -73,3 +73,10 @@ recipes.addShaped("CTMold",<immersiveengineering:mold>,
 [[null,<ic2c_extras:refinedironplate>, null],
 [<ic2c_extras:refinedironplate>, null,<ic2c_extras:refinedironplate>],
 [null,<ic2c_extras:refinedironplate>, null]]);
+
+#improved blast brick
+recipes.remove("CTimrpoved blast brick", <immersiveengineering:stone_decoration:2>);
+recipes.addShaped(<immersiveengineering:stone_decoration:2>, 
+[[<ic2:itemmisc:11>, <contenttweaker:coldironplate>, <ic2:itemmisc:11>],
+[<actuallyadditions:item_misc:5>, <immersiveengineering:stone_decoration:1>, <actuallyadditions:item_misc:5>],
+[<ic2:itemmisc:11>, <actuallyadditions:item_misc:5>, <ic2:itemmisc:11>]]);
