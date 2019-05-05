@@ -16,6 +16,12 @@ val ironGear = <ore:gearIron>;
 val cobbleTwoTimes = <ore:compressed1xCobblestone>;
 
 
+#Quartz ingot
+recipes.addShaped("CCTquartzingot", <contenttweaker:quartzingot>, 
+[[null, <ore:dustNetherQuartz>, null],
+[<ore:dustCertusQuartz>, <minecraft:iron_ingot>, <ore:dustQuartzBlack>], 
+[null, <ore:dustNetherQuartz>, null]]);
+
 
 #Minecraft bucket
 recipes.remove(<minecraft:bucket>);

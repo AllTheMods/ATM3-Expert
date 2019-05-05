@@ -20,3 +20,9 @@ coldIronPlate.register();
 
 var UnrefinedHotSteel = VanillaFactory.createItem("UnrefinedHotSteel");
 UnrefinedHotSteel.register();
+
+var QuartzIngot = VanillaFactory.createItem("QuartzIngot");
+QuartzIngot.register();
+
+var QuartzPlate = VanillaFactory.createItem("QuartzPlate");
+QuartzPlate.register();

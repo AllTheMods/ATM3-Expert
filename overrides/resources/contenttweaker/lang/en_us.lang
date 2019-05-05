@@ -9,4 +9,6 @@ material.vitrified_sand.name=Vitrified sand
 item.contenttweaker.ManaDiamondPlate.name=Mana Diamond Plate
 item.contenttweaker.ColdIronIngot.name=Cold Iron Ingot
 item.contenttweaker.ColdIronPlate.name=Cold Iron Plate
-item.contenttweaker.UnrefinedHotSteel.name= Unrefined Hot Steel
+item.contenttweaker.UnrefinedHotSteel.name=Cracked Hot Steel
+item.contenttweaker.QuartzIngot.name=Quartz ingot
+item.contenttweaker.QuartzPlate.name=Quartz Plate
