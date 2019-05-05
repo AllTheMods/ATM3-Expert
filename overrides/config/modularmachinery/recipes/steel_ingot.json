@@ -1,0 +1,31 @@
+{
+    "machine": "Industrial_Chiller",
+    "registryName": "chiller_steelingot",
+    "recipeTime": 300,
+    "requirements": [
+	
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 80
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@160",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "cryotheum",
+            "amount": 50
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:unrefinedhotsteel",
+            "amount": 1
+        }
+    ]
+}
