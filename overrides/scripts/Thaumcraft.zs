@@ -84,7 +84,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapelessRecipe("CtVisResonator","BASEAU
 		[aerAspect, aquaAspect],
 		<thaumcraft:vis_resonator>,
 		[<ore:plateIron>, <thaumcraft:mirrored_glass>]
-		);
+	);
 
 #caster
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:caster_basic>);
@@ -94,7 +94,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtCastersGauntlet","BASEAU
 		[[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
 		[<ore:leather>, <thaumcraft:vis_resonator>, <ore:leather>],
 		[<ore:leather>, <thaumcraft:thaumometer>, <ore:leather>]]
-		);
+	);
 
 #phial
 recipes.remove(<thaumcraft:phial>);
@@ -102,7 +102,7 @@ recipes.addShaped("CtPhial", <thaumcraft:phial>,
 	[[null, <minecraft:clay_ball>, null],
 	[<botania:managlass>, null, <botania:managlass>],
 	[null, <botania:managlass>, null]]
-	);
+);
 
 #goggles of revealing
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:goggles>);
@@ -112,7 +112,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtGoggles", "BASEARTIFICE"
 		[[<ore:leather>, <thaumcraft:ingot:2>, <ore:leather>],
 		[<ore:leather>, null, <ore:leather>],
 		[<thaumcraft:thaumometer>, <thaumcraft:ingot:2>, <thaumcraft:thaumometer>]]
-		);
+	);
 
 #simple arcane mechanism
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_simple>);
@@ -122,7 +122,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtSimpleArcaneMechanism", 
 		[[null, <ore:plateBrass>, null],
 		[<ore:circuitBasic>, <ore:gearIron>, <ore:circuitBasic>],
 		[null, <ore:plateBrass>, null]]
-		);
+	);
 #complex arcane mechanism
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_complex>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtComplexArcaneMechanism", "BASEARTIFICE", 50,
@@ -131,7 +131,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtComplexArcaneMechanism",
 		[[null, <thaumcraft:mechanism_simple>, null],
 		[<ore:plateThaumium>, <ore:circuitAdvanced>, <ore:plateThaumium>],
 		[null, <thaumcraft:mechanism_simple>, null]]
-		);
+	);
 
 #Runic matrix
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:infusion_matrix>);
@@ -150,14 +150,14 @@ mods.thaumcraft.Crucible.registerRecipe("CtCrucible", "EVERFULLURN", <thaumcraft
 			[<aspect:motus> *25, <aspect:tenebrae> *25, <aspect:permutatio> *25],
 			<astralsorcery:itemcraftingcomponent:3>, 
 			[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>, <ore:enderpearl>]
-			);
+		);
 	#essemtia mirror
 	mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:mirror_essentia>);
 	mods.thaumcraft.Infusion.registerRecipe("CtEssentiaMirror", "ESSENTIAMIRROR", <thaumcraft:mirror_essentia>, 4, 
 			[<aspect:motus>, aquaAspect, <aspect:permutatio>],
 			<astralsorcery:itemcraftingcomponent:3>,
 			[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:enderpearl>]
-			);
+		);
 
 #workbench Charger
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:arcane_workbench_charger>);
@@ -167,4 +167,82 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtArcaneCharger", "WORKBEN
 		[[null, <thaumcraft:vis_resonator>, null],
 		[<thaumcraft:plank_greatwood>, null, <thaumcraft:plank_greatwood>],
 		[<ore:plateSteel>, null, <ore:plateSteel>]]
-		);
+	);
+
+#baubles
+recipes.remove(<thaumcraft:baubles:*>);
+	#simple baubles
+		#mundane Ring
+		mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtMundaneRing", "", 20, 
+				[ordoAspect *2, ignisAspect *2],
+		 		<thaumcraft:baubles:1>, 
+				[[null, <ore:plateGold>, <ore:clusterCopper>],
+				[<ore:goldPlate>, null, <ore:plateGold>],
+				[null, <ore:plateGold>, null]]
+			);
+		#mundane Belt
+		mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtMundaneBelt", "", 20,
+				[ordoAspect *2, terraAspect *2],
+				<thaumcraft:baubles:2>,
+				[[null, <ore:leather>, null],
+				[<ore:leather>, null, <ore:leather>],
+				[<ore:clusterCopper>, <ore:plateBrass>, <ore:clusterCopper>]]
+			);
+		#mundane Amulet
+		mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtMundaneAmulet", "", 20,
+				[ordoAspect *2, aerAspect *2],
+				<thaumcraft:baubles>,
+				[[null, <ore:string>, null],
+				[<ore:string>, <ore:plateBrass>, <ore:string>],
+				[null, <ore:clusterCopper>, null]]
+			);
+		#fancy ring
+		mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtFancyRing", "", 35,
+				[ordoAspect *2, ignisAspect *2],
+				<thaumcraft:baubles:5>,
+				[[null, <ore:manaDiamond>, <thaumcraft:nugget:10>],
+				[<ore:clusterGold>, <thaumcraft:baubles:1>, <ore:clusterGold>],
+				[null, <ore:manaDiamond>, null]]
+			);
+		#fancy belt
+		mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtFancyBelt", "", 35,
+				[ordoAspect *2, terraAspect],
+				<thaumcraft:baubles:6>,
+				[[null, <ore:clusterGold>, null],
+				[<ore:manaDiamond>, <thaumcraft:baubles:2>, <ore:manaDiamond>],
+				[null, <thaumcraft:nugget:10>, null]]
+			);
+		#fancy amulet
+		mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtFancyAmulet", "", 35,
+				[ordoAspect *2, aerAspect *2],
+				<thaumcraft:baubles:4>,
+				[[null, <ore:clusterGold>, null],
+				[<ore:manaDiamond>, <thaumcraft:baubles>, <ore:manaDiamond>],
+				[null, <thaumcraft:nugget:10>, null]]
+			);
+
+	#effect Baubles
+		#cloudstepper ring
+		mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:cloud_ring>);
+		mods.thaumcraft.Infusion.registerRecipe("CtCloudstepper", "CLOUDRING",
+				<thaumcraft:cloud_ring>, 2,
+				[aerAspect *100],
+				<thaumcraft:baubles:5>,
+				[<ore:feather>, <minecraft:potion>.withTag({Potion: "minecraft:leaping"})]
+			);
+		#Headband of curiosity
+		mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:curiosity_band>);
+		mods.thaumcraft.Infusion.registerRecipe("CtCuriosity", "CURIOSITYBAND", 
+				<thaumcraft:curiosity_band>, 5,
+				[<aspect:cognitio> *150, <aspect:vinculum> *100, <aspect:vacuos> *50],
+				<thaumcraft:baubles:6>,
+				[<ore:gemEmerald>, <ore:clusterSilver>, <ore:gemEmerald>, <minecraft:writable_book>, <ore:gemEmerald>, <ore:clusterSilver>, <ore:gemEmerald>, <minecraft:writable_book>]
+			);
+		#verdant charm
+		mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:verdant_charm>);
+		mods.thaumcraft.Infusion.registerRecipe("CtVerdant", "VERDANTCHARMS",
+				<thaumcraft:verdant_charm>, 5,
+				[<aspect:victus> *60, <aspect:herba> *60, ordoAspect *30],
+				<thaumcraft:baubles:4>,
+				[ <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "victus"}]}), <minecraft:cake>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "herba"}]}), <minecraft:potion>.withTag({Potion: "minecraft:healing"})]
+			);

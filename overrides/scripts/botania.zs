@@ -115,3 +115,58 @@ recipes.addShaped("CtManaLens2",<botania:lens>.withTag({}),
 	[<ore:ingotManasteel>,<botania:managlass>,<ore:ingotManasteel>],
 	[null,<ore:ingotManasteel>,null]
 	]);
+
+
+#runes
+mods.botania.RuneAltar.removeRecipe(<botania:rune:*>);
+	#water
+	mods.botania.RuneAltar.addRecipe(<botania:rune>, 
+	[<bloodmagic:slate>, manaPowder, manaSteel, <minecraft:dye:15>, <minecraft:fishing_rod>, <ore:sugarcane>], 3500		
+		);
+	#fire
+	mods.botania.RuneAltar.addRecipe(<botania:rune:1>, [<bloodmagic:slate>, manaSteel, manaPowder, <ore:cropNetherWart>, <ore:gunpowder>, <ore:ingotBrickNether>], 3500
+	);
+	#Earth
+	mods.botania.RuneAltar.addRecipe(<botania:rune:2>, [<bloodmagic:slate>, manaPowder, manaSteel,  <ore:stone>, <ore:blockCoal>, <minecraft:brown_mushroom>], 3500
+	);
+	mods.botania.RuneAltar.addRecipe(<botania:rune:2>, [<bloodmagic:slate>, manaPowder, manaSteel, <ore:stone>, <ore:blockCoal>, <minecraft:red_mushroom>], 3500
+	);
+	#air
+	mods.botania.RuneAltar.addRecipe(<botania:rune:3>, [<bloodmagic:slate>, manaPowder, manaSteel, <minecraft:carpet>, <ore:feather>, <ore:string>], 3500
+	);
+	#mana
+	mods.botania.RuneAltar.addRecipe(<botania:rune:8>, [<bloodmagic:slate>, <ore:manaPearl>, manaSteel, manaSteel, manaSteel, manaSteel, manaSteel], 7000
+	);
+	#winter
+	mods.botania.RuneAltar.addRecipe(<botania:rune:7>, [<bloodmagic:slate:1>, <botania:rune>, <botania:rune:2>, <minecraft:snow>, <minecraft:snow>, <ore:wool>, <minecraft:cake>], 7000
+	);
+	#autumn
+	mods.botania.RuneAltar.addRecipe(<botania:rune:6>, [<bloodmagic:slate:1>, <botania:rune:1>, <botania:rune:3>, <minecraft:spider_eye>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>], 7000
+	);
+	#summer
+	mods.botania.RuneAltar.addRecipe(<botania:rune:5>, [<bloodmagic:slate:1>, <botania:rune:2>, <botania:rune:3>, <ore:slimeball>, <ore:sand>, <minecraft:melon>], 7000
+	);
+	#Spring
+	mods.botania.RuneAltar.addRecipe(<botania:rune:4>, [<bloodmagic:slate:1>,  <botania:rune:1>, <botania:rune>, <minecraft:sapling>, <minecraft:sapling>, <minecraft:sapling>, <minecraft:wheat>], 7000
+	);
+	#pride
+	mods.botania.RuneAltar.addRecipe(<botania:rune:15>, [<bloodmagic:slate:2>, manaDiamond, manaDiamond, <botania:rune:5>, <botania:rune:1>], 10000
+	);
+	#envy
+	mods.botania.RuneAltar.addRecipe(<botania:rune:14>, [<bloodmagic:slate:2>, manaDiamond, manaDiamond, <botania:rune:7>, <botania:rune>], 10000
+	);
+	#wrath
+	mods.botania.RuneAltar.addRecipe(<botania:rune:13>, [<bloodmagic:slate:2>, manaDiamond, manaDiamond, <botania:rune:2>, <botania:rune:7>], 10000
+	);
+	#sloth
+	mods.botania.RuneAltar.addRecipe(<botania:rune:12>, [<bloodmagic:slate:2>, manaDiamond, manaDiamond, <botania:rune:6>, <botania:rune:3>], 10000
+	);
+	#greed
+	mods.botania.RuneAltar.addRecipe(<botania:rune:11>, [<bloodmagic:slate:2>, manaDiamond, manaDiamond, <botania:rune>, <botania:rune:4>], 10000
+	);
+	#gluttony
+	mods.botania.RuneAltar.addRecipe(<botania:rune:10>, [<bloodmagic:slate:2>, manaDiamond, manaDiamond, <botania:rune:7>, <botania:rune:1>], 10000
+	);
+	#lust
+	mods.botania.RuneAltar.addRecipe(<botania:rune:9>, [<bloodmagic:slate:2>, manaDiamond, manaDiamond, <botania:rune:3>, <botania:rune:5>], 10000
+	);
