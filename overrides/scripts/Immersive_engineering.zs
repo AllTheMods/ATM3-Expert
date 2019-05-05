@@ -9,6 +9,7 @@ import crafttweaker.block.IBlockDefinition;
 import crafttweaker.block.IBlock;
 import crafttweaker.game.IGame;
 import mods.immersiveengineering.CokeOven;
+import mods.immersiveengineering.BlastFurnace;
 
 print("Immersive engineering changes");
 
@@ -77,8 +78,8 @@ recipes.addShaped("CTMold",<immersiveengineering:mold>,
 [null,<ic2c_extras:refinedironplate>, null]]);
 
 #improved blast brick
-recipes.remove("CTimrpoved blast brick", <immersiveengineering:stone_decoration:2>);
-recipes.addShaped(<immersiveengineering:stone_decoration:2>, 
+recipes.remove(<immersiveengineering:stone_decoration:2>);
+recipes.addShaped("CTimprovedblastbrick", <immersiveengineering:stone_decoration:2>, 
 [[<ic2:itemmisc:11>, <contenttweaker:coldironplate>, <ic2:itemmisc:11>],
 [<actuallyadditions:item_misc:5>, <immersiveengineering:stone_decoration:1>, <actuallyadditions:item_misc:5>],
 [<ic2:itemmisc:11>, <actuallyadditions:item_misc:5>, <ic2:itemmisc:11>]]);
@@ -89,3 +90,6 @@ recipes.addShaped("CTBbrick", <immersiveengineering:stone_decoration:1> * 3,
 [[<minecraft:brick>, <ceramics:unfired_clay:5>, <minecraft:brick>],
 [<minecraft:brick>, <thermalfoundation:material:163>, <minecraft:brick>], 
 [<minecraft:brick>, <ceramics:unfired_clay:5>, <minecraft:brick>]]);
+
+#unrefined hot steel
+mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:unrefinedhotsteel>, <contenttweaker:quartzingot>, 1000, <thermalfoundation:material:865>);

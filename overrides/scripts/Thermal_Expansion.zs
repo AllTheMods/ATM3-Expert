@@ -134,7 +134,7 @@ recipes.addShaped("CTkit1", <thermalfoundation:upgrade:1>, [[null, <thermalfound
 
 #Signalum Upgrade Kit changes
 recipes.removeShaped(<thermalfoundation:upgrade:2>);
-recipes.addShaped("CTkit2", <thermalfoundation:upgrade:2>, [[null, <actuallyadditions:item_crystal_empowered:4>, null],[<thermalfoundation:material:357>, <ic2:itembatlamacrystal>.anyDamage(), <thermalfoundation:material:357>], [<alchemistry:ingot:62>, <ic2:itemmisc:258>, <alchemistry:ingot:62>]]);
+recipes.addShaped("CTkit2", <thermalfoundation:upgrade:2>, [[null, <actuallyadditions:item_crystal_empowered:4>, null],[<thermalfoundation:material:357>, <ic2:itembatlamacrystal>.anyDamage(), <thermalfoundation:material:357>], [<alchemistry:ingot:62>, <ore:circuitAdvanced>, <alchemistry:ingot:62>]]);
 
 #Resonant Upgrade Kit changes
 recipes.removeShaped(<thermalfoundation:upgrade:3>);
