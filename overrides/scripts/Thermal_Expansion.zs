@@ -156,3 +156,5 @@ recipes.addShaped("CTrfFrame", <thermalexpansion:frame:128>,
 [<thermalfoundation:material:294>, <actuallyadditions:block_misc:8>, <thermalfoundation:material:294>], 
 [<alchemistry:ingot:31>, <thermalfoundation:glass_alloy:7>, <alchemistry:ingot:31>]]);
 
+#magmatic dynamo
+mods.jei.JEI.hide(<thermalexpansion:dynamo:1>);

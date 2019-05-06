@@ -23,8 +23,10 @@ val copperCable = <ic2:itemcable>;
 val goldCable = <ic2:itemcable:2>;
 val ironPlate = <ore:plateIron>;
 
-#Stone macerator recipe
+#Remove and hide
 mods.jei.JEI.removeAndHide(<ic2:blockmachinelv:15>);
+mods.jei.JEI.removeAndHide(<ic2:blockgenerator:1>);
+mods.jei.JEI.removeAndHide(<ic2:blockgenerator:8>);
 
 #Macerator
 recipes.remove(<ic2:blockmachinelv:3>);

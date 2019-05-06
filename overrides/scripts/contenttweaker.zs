@@ -26,3 +26,6 @@ QuartzIngot.register();
 
 var QuartzPlate = VanillaFactory.createItem("QuartzPlate");
 QuartzPlate.register();
+
+var ManaSteelPlate = VanillaFactory.createItem("ManaSteelPlate");
+ManaSteelPlate.register();

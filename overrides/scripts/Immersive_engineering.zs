@@ -34,6 +34,7 @@ mods.immersiveengineering.CokeOven.removeRecipe(<minecraft:coal:1>);
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:manadiamondplate>, <botania:manaresource:2>, <immersiveengineering:mold>,1000);
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:coldironplate>, <contenttweaker:coldironingot>, <immersiveengineering:mold>,1000);
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:quartzplate>, <contenttweaker:quartzingot>, <immersiveengineering:mold>,1000);
+mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:manasteelplate>, <botania:manaresource>, <immersiveengineering:mold>,1000);
 
 #cloche
 recipes.remove(<immersiveengineering:metal_device1:13>);
