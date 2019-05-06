@@ -12,6 +12,11 @@ import mods.thaumcraft.Infusion;
 
 print("Actually additions changes");
 
+#bag
+recipes.remove(<actuallyadditions:item_bag>);
+recipes.addShaped("CTaabag", <actuallyadditions:item_bag>, [[<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],[<minecraft:stick>, <ore:chest>, <minecraft:leather>], [<minecraft:stick>, <minecraft:leather>, <minecraft:leather>]]);
+
+
 #iron casing
 recipes.removeShaped(<actuallyadditions:block_misc:9>);
 recipes.addShaped("CTironcasing", <actuallyadditions:block_misc:9>, 

@@ -158,3 +158,12 @@ recipes.addShaped("CTrfFrame", <thermalexpansion:frame:128>,
 
 #magmatic dynamo
 mods.jei.JEI.hide(<thermalexpansion:dynamo:1>);
+
+#satchels
+mods.jei.JEI.hide(<thermalexpansion:satchel>);
+recipes.remove(<thermalexpansion:satchel:1>);
+#satchels
+mods.jei.JEI.hide(<thermalexpansion:satchel>);
+recipes.remove(<thermalexpansion:satchel:1>);
+recipes.addShaped("CThardenedsatchel", <thermalexpansion:satchel:1>, [[null, <thermalfoundation:material:162>, <minecraft:leather>],[<thermalfoundation:material:162>, <actuallyadditions:item_bag:*>, <minecraft:leather>], [<minecraft:stick>, <thermalfoundation:material:162>, <minecraft:leather>]]);
+
