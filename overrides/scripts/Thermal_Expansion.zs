@@ -162,6 +162,7 @@ mods.jei.JEI.hide(<thermalexpansion:dynamo:1>);
 #satchels
 mods.jei.JEI.hide(<thermalexpansion:satchel>);
 recipes.remove(<thermalexpansion:satchel:1>);
+
 #satchels
 mods.jei.JEI.hide(<thermalexpansion:satchel>);
 recipes.remove(<thermalexpansion:satchel:1>);

@@ -72,11 +72,10 @@ recipes.addShaped("CTIronComp",<immersiveengineering:material:8>,
 [<ic2c_extras:refinedironplate>,null, <ic2c_extras:refinedironplate>]]);
 
 
-#gear mold
-recipes.addShaped("CTMold",<immersiveengineering:mold>,
-[[null,<ic2c_extras:refinedironplate>, null],
-[<ic2c_extras:refinedironplate>, null,<ic2c_extras:refinedironplate>],
-[null,<ic2c_extras:refinedironplate>, null]]);
+#mold recipes
+recipes.addShaped("CTwiremold", <immersiveengineering:mold:4>, [[null, <ic2:itemmisc:53>, null],[<ic2:itemmisc:53>, <immersiveengineering:material:20>, <ic2:itemmisc:53>], [null, <ic2:itemmisc:53>, null]]);
+recipes.addShaped("CTgearmold", <immersiveengineering:mold:1>, [[null, <ic2:itemmisc:53>, null],[<ic2:itemmisc:53>, <thermalfoundation:material:291>, <ic2:itemmisc:53>], [null, <ic2:itemmisc:53>, null]]);
+recipes.addShaped("CTplatemold", <immersiveengineering:mold>, [[null, <ic2:itemmisc:53>, null],[<ic2:itemmisc:53>, <thermalfoundation:material:355>, <ic2:itemmisc:53>], [null, <ic2:itemmisc:53>, null]]);
 
 #improved blast brick
 recipes.remove(<immersiveengineering:stone_decoration:2>);
