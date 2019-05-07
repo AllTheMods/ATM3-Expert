@@ -29,3 +29,6 @@ QuartzPlate.register();
 
 var ManaSteelPlate = VanillaFactory.createItem("ManaSteelPlate");
 ManaSteelPlate.register();
+
+var corruptedStarlight = VanillaFactory.createFluid("Corrupted_Starlight", Color.fromHex("FF4D4D"));
+corruptedStarlight.register();
