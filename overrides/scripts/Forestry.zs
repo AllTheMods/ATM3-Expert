@@ -12,7 +12,7 @@ import mods.forestry.ThermionicFabricator;
 import mods.forestry.Carpenter;
 import mods.forestry.Still;
 
-mods.jei.JEI.removeAndHide(<forestry:ffarm:*>);
+#mods.jei.JEI.removeAndHide(<forestry:ffarm:*>);
 
 val restonia = <actuallyadditions:item_crystal>;
 

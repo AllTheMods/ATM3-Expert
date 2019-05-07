@@ -13,6 +13,7 @@ import mods.thaumcraft.Crucible;
 import mods.thaumcraft.ArcaneWorkbench;
 import mods.botania.RuneAltar;
 import mods.actuallyadditions.Empowerer;
+import mods.ic2.Compressor;
 
 print("thaumcraft Changes start here");
 
