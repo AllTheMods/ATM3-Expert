@@ -18,6 +18,9 @@ print("Botania Changes");
 
 val livingWood = <botania:livingwood>;
 val livingRock = <botania:livingrock>;
+val manaSteel = <ore:ingotManasteel>;
+val manaPowder = <ore:powderMana>;
+val manaDiamond = <ore:manaDiamond>;
 
 #diluted mana pool
 recipes.remove(<botania:pool:2>);
