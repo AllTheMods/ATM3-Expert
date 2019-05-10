@@ -71,3 +71,11 @@ mods.forestry.ThermionicFabricator.addCast(<ic2:itemmisc:452>,
 [<minecraft:glowstone_dust>,<ic2:itemmisc:451>,<minecraft:glowstone_dust>],
 [<actuallyadditions:item_crystal_empowered>,<minecraft:glowstone_dust>,<actuallyadditions:item_crystal_empowered:1>]], 
 <liquid: glass> * 200);
+
+#advanced machine casing
+recipes.remove(<ic2:blockmachinemv>);
+mods.forestry.ThermionicFabricator.addCast(<ic2:blockmachinemv>, 
+[[<ore:plateSteel>, <ic2:itemmisc:256>, <ore:plateSteel>],
+[<ic2:itemmisc:257>, <ore:circuitAdvanced>, <ic2:itemmisc:257>],
+[<ore:plateSteel>, <ic2:itemmisc:256>, <ore:plateSteel>]], 
+<liquid: glass> * 200);

@@ -47,6 +47,8 @@ recipes.addShaped("ctQuarkpolished",<quark:sandstone_new>,
 [<minecraft:sandstone>,<minecraft:sandstone>,<minecraft:sandstone>],
 [<minecraft:sandstone>,<minecraft:sandstone>,<minecraft:sandstone>]]);
 
+#draconium chest alternate recipe
+recipes.addShaped("CTdracchest", <draconicevolution:draconium_chest>, [[<contenttweaker:manadiamondplate>, <minecraft:crafting_table>, <contenttweaker:manadiamondplate>],[<ironchest:iron_chest:6>, <thermalexpansion:frame>, <ironchest:iron_chest:6>], [<ic2:blockmachinelv:1>, <ic2:blockmachinelv:1>, <ic2:blockmachinelv:1>]]);
 
 #furnace.remove array
 	val ingotArray = [
