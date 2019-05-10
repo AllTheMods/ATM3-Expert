@@ -71,7 +71,7 @@ sandMat.color = 0xE8EEBB;
 sandMat.craftable = true;
 sandMat.liquid = <liquid:molten_sand>;
 sandMat.castable = true;
-sandMat.addHeadMaterialStats(100, 7.5f, 5.5f,2);
+sandMat.addHeadMaterialStats(100, 5.5f, 5.5f,2);
 sandMat.addHandleMaterialStats(0.3, 500);
 sandMat.addBowStringMaterialStats(0.5f);
 sandMat.register();
