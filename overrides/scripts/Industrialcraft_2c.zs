@@ -27,6 +27,7 @@ val ironPlate = <ore:plateIron>;
 mods.jei.JEI.removeAndHide(<ic2:blockmachinelv:15>);
 mods.jei.JEI.removeAndHide(<ic2:blockgenerator:1>);
 mods.jei.JEI.removeAndHide(<ic2:blockgenerator:8>);
+mods.jei.JEI.removeAndHide(<ic2:itemcrop>);
 
 #Macerator
 recipes.remove(<ic2:blockmachinelv:3>);
