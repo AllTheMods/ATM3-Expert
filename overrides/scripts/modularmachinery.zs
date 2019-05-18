@@ -9,7 +9,7 @@ import crafttweaker.block.IBlockDefinition;
 import crafttweaker.block.IBlock;
 import crafttweaker.game.IGame;
 
-print("modular machinery recuipes");
+print("modular machinery recipes");
 
 #machine controller
 recipes.remove(<modularmachinery:blockcontroller>);
@@ -17,7 +17,7 @@ recipes.addShaped("CTmmcontroller", <modularmachinery:blockcontroller>, [[<therm
 
 #tiny item in
 recipes.remove(<modularmachinery:blockinputbus>);
-recipes.addShaped("CTmmtinyitemi", <modularmachinery:blockinputtbus>, [[<actuallyadditions:item_crystal:5>, <tconstruct:wooden_hopper>, <actuallyadditions:item_crystal:5>],[<minecraft:redstone>, <tconstruct:wooden_hopper>, <minecraft:redstone>], [<actuallyadditions:item_crystal:5>, <minecraft:redstone>, <actuallyadditions:item_crystal:5>]]);
+recipes.addShaped("CTmmtinyitemi", <modularmachinery:blockinputbus>, [[<actuallyadditions:item_crystal:5>, <tconstruct:wooden_hopper>, <actuallyadditions:item_crystal:5>],[<minecraft:redstone>, <tconstruct:wooden_hopper>, <minecraft:redstone>], [<actuallyadditions:item_crystal:5>, <minecraft:redstone>, <actuallyadditions:item_crystal:5>]]);
 
 #tiny item swap
 recipes.remove(<modularmachinery:blockoutputbus>);
@@ -41,3 +41,6 @@ recipes.addShaped(<modularmachinery:blockenergyinputhatch>, [[<actuallyadditions
 recipes.remove(<modularmachinery:blockenergyoutputhatch>);
 recipes.addShapeless(<modularmachinery:blockenergyinputhatch>, [<modularmachinery:blockenergyoutputhatch>.anyDamage()]);
 recipes.addShapeless(<modularmachinery:blockenergyoutputhatch>, [<modularmachinery:blockenergyinputhatch>.anyDamage()]);
+
+#machine vent
+recipes.addShaped(<modularmachinery:blockcasing:1> * 2, [[<ic2:blockutility:2>, <minecraft:iron_bars>, <ic2:blockutility:2>],[<thermalfoundation:glass:3>, <minecraft:iron_bars>, <thermalfoundation:glass:3>], [<ic2:blockutility:2>, <minecraft:iron_bars>, <ic2:blockutility:2>]]);
