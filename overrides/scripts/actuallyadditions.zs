@@ -9,6 +9,8 @@ import crafttweaker.block.IBlockDefinition;
 import crafttweaker.block.IBlock;
 import crafttweaker.game.IGame;
 import mods.thaumcraft.Infusion;
+import mods.actuallyadditions.Empowerer;
+import mods.actuallyadditions.AtomicReconstructor;
 
 print("Actually additions changes");
 
@@ -62,6 +64,18 @@ recipes.addShaped("CTaafilter", <actuallyadditions:item_filter>,
 [[null, <minecraft:iron_bars>, null],
 [<minecraft:iron_bars>, <extrautils2:filter>, <minecraft:iron_bars>], 
 [null, <minecraft:iron_bars>, null]]);
+
+#energy changes
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:block_crystal:*>);
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:*>);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal>, <minecraft:redstone>, 2500);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:1>, <minecraft:dye:4>, 2000);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:2>, <minecraft:diamond>, 15000);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:3>, <minecraft:coal>, 1000);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:4>, <minecraft:emerald>, 25000);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:5>, <minecraft:iron_ingot>, 5000);
+
+
 
 var aaDisable  = [
 <actuallyadditions:block_battery_box>,

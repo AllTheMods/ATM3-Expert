@@ -10,6 +10,7 @@ import crafttweaker.block.IBlock;
 import crafttweaker.game.IGame;
 import mods.immersiveengineering.CokeOven;
 import mods.immersiveengineering.BlastFurnace;
+import mods.immersiveengineering.MetalPress;
 
 print("Immersive engineering changes");
 
@@ -30,7 +31,7 @@ recipes.addShaped("CtRefined",<immersiveengineering:stone_decoration>,
 #Charcoal from coke oven
 mods.immersiveengineering.CokeOven.removeRecipe(<minecraft:coal:1>);
 
-#mana diamond plate
+#plates
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:manadiamondplate>, <botania:manaresource:2>, <immersiveengineering:mold>,1000);
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:coldironplate>, <contenttweaker:coldironingot>, <immersiveengineering:mold>,1000);
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:quartzplate>, <contenttweaker:quartzingot>, <immersiveengineering:mold>,1000);

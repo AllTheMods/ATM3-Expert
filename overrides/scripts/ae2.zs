@@ -59,14 +59,8 @@ mods.forestry.ThermionicFabricator.addCast(<appliedenergistics2:quartz_glass> *2
 [null, <ore:dustQuartz>, null]], 
 <liquid: glass> * 100);
 
-#me interface
-recipes.remove(<appliedenergistics2:interface>);
-recipes.addShaped("CTinterface", <appliedenergistics2:interface>, [[<minecraft:iron_ingot>, <minecraft:glass>, <minecraft:iron_ingot>],[<appliedenergistics2:part:260>, null, <appliedenergistics2:part:240>], [<minecraft:iron_ingot>, <minecraft:glass>, <minecraft:iron_ingot>]]);
-recipes.addShapeless("ctinterfaceswap1", <appliedenergistics2:part:440>, [<appliedenergistics2:interface>]);
-recipes.addShapeless("ctinterfaceswap2", <appliedenergistics2:interface>, [<appliedenergistics2:part:440>]);
 
-#removing the vibration chamber
-mods.jei.JEI.removeAndHide(<appliedenergistics2:vibration_chamber>);
+
 
 #ae2 tool removal
 mods.jei.JEI.removeAndHide(<appliedenergistics2:certus_quartz_axe>);
