@@ -10,6 +10,7 @@ import crafttweaker.block.IBlock;
 import crafttweaker.game.IGame;
 import mods.thermalexpansion.RedstoneFurnace;
 import mods.jei.JEI.removeAndHide;
+import mods.thermalexpansion.InductionSmelter;
 
 
 print("Thermal expansion changes");
@@ -168,3 +169,10 @@ mods.jei.JEI.hide(<thermalexpansion:satchel>);
 recipes.remove(<thermalexpansion:satchel:1>);
 recipes.addShaped("CThardenedsatchel", <thermalexpansion:satchel:1>, [[null, <thermalfoundation:material:162>, <minecraft:leather>],[<thermalfoundation:material:162>, <actuallyadditions:item_bag:*>, <minecraft:leather>], [<minecraft:stick>, <thermalfoundation:material:162>, <minecraft:leather>]]);
 
+#steel ingot removal
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material>, <thermalfoundation:material:768> * 4);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:iron_ingot>, <thermalfoundation:material:802>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material>, <thermalfoundation:material:769> * 4);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:iron_ingot>, <thermalfoundation:material:769> * 4);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material>, <thermalfoundation:material:802>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:iron_ingot>, <thermalfoundation:material:768> * 4);
