@@ -94,3 +94,12 @@ recipes.addShaped("CTBbrick", <immersiveengineering:stone_decoration:1> * 3,
 
 #unrefined hot steel
 mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:unrefinedhotsteel>, <contenttweaker:quartzingot>, 1000, <thermalfoundation:material:865>);
+
+#Black iron (extendedcrafting)
+mods.immersiveengineering.BlastFurnace.addRecipe(<extendedcrafting:material>, <immersiveengineering:material:19>, 1000, <thermalfoundation:material:865>);
+
+
+
+
+
+

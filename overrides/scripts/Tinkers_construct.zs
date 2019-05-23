@@ -42,12 +42,6 @@ recipes.addShaped("CtPorcAlloy",<tcomplement:porcelain_alloy_tank>,
 [<ceramics:porcelain_barrel>,null,<ceramics:porcelain_barrel>],
 [null,<ceramics:faucet>,null]]);
 
-#seared furnace
-recipes.removeShaped(<tconstruct:seared_furnace_controller>);
-recipes.addShaped("CtSFurnace",<tconstruct:seared_furnace_controller>,
-[[searedStone,searedStone,searedStone],
-[searedStone,<atum:kiln>,searedStone],
-[searedStone,<atum:kiln>,searedStone]]);
 
 #smeltery controller
 recipes.removeShaped(<tconstruct:smeltery_controller>);
@@ -84,7 +78,7 @@ mods.tconstruct.Melting.addRecipe(<liquid:clay> * 144,<minecraft:clay_ball>, 350
 mods.tconstruct.Melting.addRecipe(<liquid:clay> * 576,<minecraft:clay>, 400);
 #alloys
 #liquid grout
-mods.tconstruct.Alloy.addRecipe(<liquid:liquid_grout> * 144, [<liquid:molten_sand> * 72, <liquid:clay> * 72]);
+mods.tconstruct.Alloy.addRecipe(<liquid:liquid_grout> * 720, [<liquid:molten_sand> * 72, <liquid:clay> * 144]);
 
 #soldering alloy
 mods.tconstruct.Alloy.addRecipe(<liquid:soldering_alloy> * 500, [<liquid:tin> * 144, <liquid:lead> * 144, <liquid:silver> * 144]);
@@ -95,28 +89,6 @@ mods.tconstruct.Alloy.addRecipe(<liquid:soldering_alloy> * 500, [<liquid:tin> * 
 
 mods.tconstruct.Casting.addBasinRecipe(<tconstruct:seared>,<minecraft:gravel>,<liquid:liquid_grout>,720,true,200);
 
-#Tinkers' Tables
-recipes.removeShaped(<tconstruct:tooltables:*>);
-
-recipes.addShaped("CtPatternChest",<tconstruct:tooltables:4>,
-[[<ore:chestWood>,<ore:chestWood>,<ore:chestWood>],
-[<ore:logWood>,<tconstruct:pattern>,<ore:logWood>],
-[<ore:logWood>,null,<ore:logWood>]]);
-
-recipes.addShaped("CtToolStation",<tconstruct:tooltables:3>,
-[[<tconstruct:tooltables>,<tconstruct:tooltables>,<tconstruct:tooltables>],
-[<ore:logWood>,<tconstruct:pattern>,<ore:logWood>],
-[<ore:logWood>,null,<ore:logWood>]]);
-
-recipes.addShaped("CtPartBuilder",<tconstruct:tooltables:2>.withTag({textureBlock: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}}),
-[[<tconstruct:pattern>,<minecraft:planks>,<tconstruct:pattern>],
-[<ore:logWood>,<ore:logWood>,<ore:logWood>],
-[<ore:logWood>,null,<ore:logWood>]]);
-
-recipes.addShaped("CtStencilTable",<tconstruct:tooltables:1>.withTag({textureBlock: {id: "minecraft:planks", Count: 1 as byte, Damage: 0 as short}}),
-[[<tconstruct:pattern>,<tconstruct:pattern>,<tconstruct:pattern>],
-[<minecraft:planks>,<minecraft:planks>,<minecraft:planks>],
-[<minecraft:planks>,null,<minecraft:planks>]]);
 
 #Changing Tinkers Forge
 recipes.removeShaped(<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}));
