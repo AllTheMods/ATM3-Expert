@@ -51,10 +51,10 @@
         "max_x": 0,
         "max_y": -2,
         "max_z": 0,
-        "item": "oredict:oreIron",
-        "meta": 0,
+        "item": "actuallyadditions:block_crystal_empowered",
+        "meta": 5,
         "tags": "",
-        "ignoreMeta": true,
+        "ignoreMeta": false,
         "ignoreTags": [],
         "useOreDict": true
       }
