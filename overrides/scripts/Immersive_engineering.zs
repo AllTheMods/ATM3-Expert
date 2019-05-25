@@ -39,10 +39,13 @@ mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:manasteelplate>, 
 
 #cloche
 recipes.remove(<immersiveengineering:metal_device1:13>);
-recipes.addShaped("CTcloche",<immersiveengineering:metal_device1:13>,
-[[<actuallyadditions:block_greenhouse_glass>,<immersiveengineering:material:26>, <actuallyadditions:block_greenhouse_glass>],
-[<actuallyadditions:block_greenhouse_glass>, null,<actuallyadditions:block_greenhouse_glass>],
-[<immersiveengineering:treated_wood>,<immersiveengineering:material:9>, <immersiveengineering:treated_wood>]]);
+mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:metal_device1:13>, [
+	[<actuallyadditions:block_greenhouse_glass>, <immersiveengineering:material:26>, <extendedcrafting:lamp:1>, <immersiveengineering:material:26>, <actuallyadditions:block_greenhouse_glass>], 
+	[<actuallyadditions:block_greenhouse_glass>, <actuallyadditions:block_greenhouse_glass>, <actuallyadditions:block_greenhouse_glass>, <actuallyadditions:block_greenhouse_glass>, <actuallyadditions:block_greenhouse_glass>], 
+	[<ic2c_extras:coil>, <atmtweaks:item_material:1>, <immersiveengineering:material:9>, <atmtweaks:item_material:1>, <ic2c_extras:coil>], 
+	[<immersiveengineering:treated_wood>, <bloodmagic:slate:2>, <bloodmagic:slate:2>, <bloodmagic:slate:2>, <immersiveengineering:treated_wood>], 
+	[<immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>]
+]);
 
 #scaffolding
 recipes.remove(<immersiveengineering:metal_decoration1:1>);
