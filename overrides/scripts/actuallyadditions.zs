@@ -78,10 +78,7 @@ mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_cry
 
 
 var aaDisable  = [
-<actuallyadditions:block_battery_box>,
 <actuallyadditions:block_bio_reactor>,
-<actuallyadditions:block_shock_suppressor>,
-<actuallyadditions:block_miner>,
 <actuallyadditions:block_leaf_generator>,
 <actuallyadditions:block_giant_chest_large>,
 <actuallyadditions:block_giant_chest_medium>,
