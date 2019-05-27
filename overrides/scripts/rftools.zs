@@ -37,3 +37,10 @@ mods.forestry.ThermionicFabricator.addCast(<rftools:machine_frame>,
 [<thermalfoundation:glass_alloy>,<thermalfoundation:material:512>,<thermalfoundation:glass_alloy>],
 [<contenttweaker:coldironplate>,<thermalfoundation:glass_alloy>,<contenttweaker:coldironplate>]], 
 <liquid: glass> * 400);
+
+#industrium ingot
+mods.forestry.ThermionicFabricator.addCast(<atmtweaks:item_material:2>, 
+[[<thermalfoundation:material:352>,<bloodmagic:slate:2>,<contenttweaker:manasteelplate>], 
+[<astralsorcery:itemcraftingcomponent:1>,<ore:ingotElectrum>,<astralsorcery:itemcraftingcomponent:1>],
+[<contenttweaker:manasteelplate>,<thermalfoundation:glass_alloy>,<thermalfoundation:material:352>]], 
+<liquid: glass> * 1000);
