@@ -29,6 +29,7 @@ recipes.addShaped("CTSmodular", <rftools:modular_storage>,
 
 #coal gen
 mods.jei.JEI.removeAndHide(<rftools:coalgenerator>);
+mods.jei.JEI.removeAndHide(<rftools:powercell_simple>);
 
 #machine frame
 recipes.remove(<rftools:machine_frame>);

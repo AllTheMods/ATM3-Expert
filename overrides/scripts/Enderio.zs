@@ -34,6 +34,14 @@ mods.alchemistry.Combiner.addRecipe(<enderio:item_material:66> *2,
 recipes.remove(<enderio:item_basic_capacitor:2>);
 recipes.remove(<enderio:item_basic_capacitor:1>);
 recipes.remove(<enderio:item_basic_capacitor>);
-recipes.addShaped(<enderio:item_basic_capacitor:2>, [[null, <enderio:item_alloy_ingot:2>, null],[<enderio:item_basic_capacitor:1>, <astralsorcery:itemusabledust>, <enderio:item_basic_capacitor:1>], [null, <enderio:item_alloy_ingot:2>, null]]);
-recipes.addShaped(<enderio:item_basic_capacitor:1>, [[null, <alchemistry:ingot:107>, null],[<enderio:item_basic_capacitor>, <immersiveengineering:material:17>, <enderio:item_basic_capacitor>], [null, <alchemistry:ingot:107>, null]]);
-recipes.addShaped(<enderio:item_basic_capacitor>, [[null, <actuallyadditions:item_crystal>, null],[<actuallyadditions:item_crystal>, <alchemistry:ingot:3>, <actuallyadditions:item_crystal>], [<enderio:item_material:20>, <alchemistry:ingot:3>, <enderio:item_material:20>]]);
+recipes.addShaped("eiocap3", <enderio:item_basic_capacitor:2>, [[null, <enderio:item_alloy_ingot:2>, null],[<enderio:item_basic_capacitor:1>, <astralsorcery:itemusabledust>, <enderio:item_basic_capacitor:1>], [null, <enderio:item_alloy_ingot:2>, null]]);
+recipes.addShaped("eiocap2", <enderio:item_basic_capacitor:1>, [[null, <alchemistry:ingot:107>, null],[<enderio:item_basic_capacitor>, <immersiveengineering:material:17>, <enderio:item_basic_capacitor>], [null, <alchemistry:ingot:107>, null]]);
+recipes.addShaped("eiocap1", <enderio:item_basic_capacitor>, [[null, <actuallyadditions:item_crystal>, null],[<actuallyadditions:item_crystal>, <alchemistry:ingot:3>, <actuallyadditions:item_crystal>], [<enderio:item_material:20>, <alchemistry:ingot:3>, <enderio:item_material:20>]]);
+
+#conduits
+recipes.remove(<enderio:item_power_conduit:2>);
+recipes.remove(<enderio:item_power_conduit:1>);
+recipes.remove(<enderio:item_power_conduit>);
+recipes.addShaped("eioenergy3", <enderio:item_power_conduit:2> * 3, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<thermaldynamics:duct_0:3>, <enderio:item_alloy_ingot:2>, <thermaldynamics:duct_0:3>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
+recipes.addShaped("eioenergy2", <enderio:item_power_conduit:1> * 3, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<thermaldynamics:duct_0:2>, <enderio:item_alloy_ingot:1>, <thermaldynamics:duct_0:2>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
+recipes.addShaped("eioenergy1", <enderio:item_power_conduit> * 3, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<thermaldynamics:duct_0>, <enderio:item_alloy_ingot:4>, <thermaldynamics:duct_0>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
