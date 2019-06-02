@@ -45,3 +45,15 @@ recipes.remove(<enderio:item_power_conduit>);
 recipes.addShaped("eioenergy3", <enderio:item_power_conduit:2> * 3, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<thermaldynamics:duct_0:3>, <enderio:item_alloy_ingot:2>, <thermaldynamics:duct_0:3>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 recipes.addShaped("eioenergy2", <enderio:item_power_conduit:1> * 3, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<thermaldynamics:duct_0:2>, <enderio:item_alloy_ingot:1>, <thermaldynamics:duct_0:2>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 recipes.addShaped("eioenergy1", <enderio:item_power_conduit> * 3, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<thermaldynamics:duct_0>, <enderio:item_alloy_ingot:4>, <thermaldynamics:duct_0>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
+
+#alloy furnace
+recipes.remove(<enderio:block_alloy_smelter>);
+recipes.addShaped(<enderio:block_alloy_smelter>, [[<enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>],[<ic2:blockmachinelv:1>, <enderio:item_material:1>, <ic2:blockmachinelv:1>], [<enderio:item_material:73>, <minecraft:cauldron>, <enderio:item_material:73>]]);
+
+#sagmill
+recipes.remove(<enderio:block_sag_mill>);
+recipes.addShaped(<enderio:block_sag_mill>, [[<enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>],[<thermalfoundation:material:770>, <enderio:item_material:1>, <thermalfoundation:material:770>], [<enderio:item_material:73>, <minecraft:piston>, <enderio:item_material:73>]]);
+
+#farming station
+recipes.remove(<enderio:block_farm_station>);
+recipes.addShaped(<enderio:block_farm_station>, [[<industrialforegoing:crop_recolector>, <enderio:item_material:12>, <industrialforegoing:crop_sower>],[<enderio:item_material:73>, <enderio:item_material:53>, <enderio:item_material:13>], [<alchemistry:ingot:24>, <alchemistry:ingot:24>, <alchemistry:ingot:24>]]);

@@ -173,3 +173,13 @@ mods.botania.RuneAltar.removeRecipe(<botania:rune:*>);
 	#lust
 	mods.botania.RuneAltar.addRecipe(<botania:rune:9>, [<bloodmagic:slate:2>, manaDiamond, manaDiamond, <botania:rune:3>, <botania:rune:5>], 10000
 	);
+	
+#elven gateway core
+recipes.remove(<botania:alfheimportal>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <botania:alfheimportal>, [
+	[<botania:livingwood>, <botania:livingwood>, <botania:manaresource:18>, <botania:livingwood>, <botania:livingwood>], 
+	[<botania:livingwood>, <alchemistry:ingot:100>, <botania:manaresource:18>, <forge:bucketfilled>, <botania:livingwood>], 
+	[<botania:manaresource:18>, <botania:manaresource:18>, <atmtweaks:item_material:2>, <botania:manaresource:18>, <botania:manaresource:18>], 
+	[<botania:livingwood>, <forge:bucketfilled>, <botania:manaresource:18>, <alchemistry:ingot:100>, <botania:livingwood>], 
+	[<botania:livingwood>, <botania:livingwood>, <botania:manaresource:18>, <botania:livingwood>, <botania:livingwood>]
+]);

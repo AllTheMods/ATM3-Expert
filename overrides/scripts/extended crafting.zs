@@ -32,16 +32,5 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:material>, [
 #luminessence
 mods.bloodtransmutation.transmutation.addRecipe(2, 500, <minecraft:glowstone_dust>, <extendedcrafting:material:7>);
 
-#recipes that use the bigger tables
-#growth essence
-mods.extendedcrafting.TableCrafting.addShaped(0, <atmtweaks:item_material:1>, [
-	[<ic2:itemmisc:157>, <extendedcrafting:material:7>, <extendedcrafting:material:7>, <extendedcrafting:material:7>, <ic2:itemmisc:157>], 
-	[<extendedcrafting:material:7>, <minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>, <extendedcrafting:material:7>], 
-	[<extendedcrafting:material:7>, <actuallyadditions:item_crystal_empowered:4>, <minecraft:bone_block>, <actuallyadditions:item_crystal_empowered:4>, <extendedcrafting:material:7>], 
-	[<extendedcrafting:material:7>, <minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>, <extendedcrafting:material:7>], 
-	[<ic2:itemmisc:157>, <extendedcrafting:material:7>, <extendedcrafting:material:7>, <extendedcrafting:material:7>, <ic2:itemmisc:157>]
-]);
-
-
 #temp
 recipes.addShaped(<modularmachinery:itemblueprint>, [[<actuallyadditions:item_misc:5>, <actuallyadditions:item_misc:5>, <actuallyadditions:item_misc:5>],[<thermalfoundation:material:1025>, <actuallyadditions:item_misc:5>, <thermalfoundation:material:1025>], [<actuallyadditions:item_misc:5>, <actuallyadditions:item_misc:5>, <actuallyadditions:item_misc:5>]]);

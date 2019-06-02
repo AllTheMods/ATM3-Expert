@@ -11,6 +11,7 @@ import crafttweaker.game.IGame;
 import mods.jei.JEI.removeAndHide;
 import mods.immersiveengineering.BlastFurnace;
 import mods.forestry.ThermionicFabricator;
+import mods.ic2.MetalFormer;
 
 print("ic2 changes");
 
@@ -80,3 +81,10 @@ mods.forestry.ThermionicFabricator.addCast(<ic2:blockmachinemv>,
 [<ic2:itemmisc:257>, <ore:circuitAdvanced>, <ic2:itemmisc:257>],
 [<ore:plateSteel>, <ic2:itemmisc:256>, <ore:plateSteel>]], 
 <liquid: glass> * 200);
+
+#content tweaker plates /MetalFormer.addRollingRecipe(,);
+MetalFormer.addRollingRecipe(<contenttweaker:manasteelplate>, <botania:manaresource>);
+MetalFormer.addRollingRecipe(<contenttweaker:coldironplate>, <contenttweaker:coldironingot>);
+MetalFormer.addRollingRecipe(<contenttweaker:quartzplate>, <contenttweaker:quartzingot>);
+MetalFormer.addRollingRecipe(<contenttweaker:manadiamondplate>, <botania:manaresource:2>);
+

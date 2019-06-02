@@ -77,7 +77,7 @@ recipes.addShaped("CTIronComp",<immersiveengineering:material:8>,
 
 
 #mold recipes
-recipes.addShaped(<immersiveengineering:mold>, [[null, <ic2:itemmisc:53>, null],[<ic2:itemmisc:53>, <thermalfoundation:material:163>, <ic2:itemmisc:53>], [null, <ic2:itemmisc:53>, null]]);
+#recipes.addShaped(<immersiveengineering:mold:0>, [[null, <ic2:itemmisc:53>, null],[<ic2:itemmisc:53>, <thermalfoundation:material:163>, <ic2:itemmisc:53>], [null, <ic2:itemmisc:53>, null]]);
 
 #improved blast brick
 recipes.remove(<immersiveengineering:stone_decoration:2>);

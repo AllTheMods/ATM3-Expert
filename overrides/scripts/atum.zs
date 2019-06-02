@@ -33,6 +33,9 @@ recipes.addShaped("CtAtumSmallBrick",<atum:limestone_brick_small>,
 #add porcelain
 mods.atum.Kiln.addRecipe(<ceramics:unfired_clay:4>, <ceramics:unfired_clay:5>, 0.4);
 
+#porcerlain barrel 
+mods.atum.Kiln.addRecipe(<ceramics:porcelain_barrel>, <ceramics:clay_barrel_unfired:2>, 0.4);
+
 #scarab
 recipes.remove(<atum:scarab>);
 mods.actuallyadditions.Empowerer.addRecipe(<atum:scarab>, <actuallyadditions:item_crystal_empowered:4>, <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <contenttweaker:manadiamondplate>, <thermalfoundation:glass:3>, <ic2:itemmisc:257>, 150000, 2400);
