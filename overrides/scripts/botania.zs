@@ -21,13 +21,21 @@ val livingRock = <botania:livingrock>;
 val manaSteel = <ore:ingotManasteel>;
 val manaPowder = <ore:powderMana>;
 val manaDiamond = <ore:manaDiamond>;
+val voiddew = <forge:bucketfilled>.withTag({FluidName: "ender_distillation", Amount: 1000});
 
 #diluted mana pool
 recipes.remove(<botania:pool:2>);
 recipes.addShaped("CTdilutepool", <botania:pool:2>,
 [[null, null, null],
 [<botania:livingrock0slab>, null, <botania:livingrock0slab>],
-[<botania:livingrock>, <ic2:itemmisc:256>, <botania:livingrock>]]);
+[<botania:livingrock>, <ore:plateIron>, <botania:livingrock>]]);
+
+#Fabulous Mana Pool
+recipes.remove(<botania:pool:3>);
+recipes.addShaped("CTFabulouspool", <botania:pool:3>,
+[[null, <botania:shimmerrock>, null],
+[<botania:shimmerrock>, <botania:pool:1>, <botania:shimmerrock>],
+[null, <botania:shimmerrock>, null]]);
 
 #Mana Pool
 recipes.remove(<botania:pool>);
@@ -47,7 +55,10 @@ mods.thermalexpansion.Transposer.addFillRecipe(<botania:pool>,<botania:pool:2>,<
 
 #Manaspreader
 recipes.removeShaped(<botania:spreader>);
-recipes.addShaped("CtSpreader",<botania:spreader>,[[livingWood,livingWood,livingWood],[<ic2c_extras:goldpurifiedcrushedore>,<botania:petalblock>,null],[livingWood,livingWood,livingWood]]);
+recipes.addShaped("CtSpreader",<botania:spreader>,
+ [[livingWood,livingWood,livingWood],
+ [<tconstruct:seared>,<botania:petalblock>,null],
+ [livingWood,livingWood,livingWood]]);
 
 #pulse mana spreader
 recipes.removeShapeless(<botania:spreader:1>);
@@ -69,7 +80,7 @@ recipes.addShaped("CtApothecary",<botania:altar>,[[<tconstruct:seared_slab>,<min
 #gen flowers
 	#muchdew
 	mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "munchdew"}));
-	mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "munchdew"}),[<ore:petalLime>,<ore:petalLime>,<ore:petalRed>,<ore:petalRed>,<ore:petalGreen>,<ic2:itemmisc:351>]);
+	mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "munchdew"}),[<ore:petalLime>,<ore:petalLime>,<ore:petalRed>,<ore:petalRed>,<ore:petalGreen>,<ceramics:clay_bucket:1>]);
 	#Gourmaryllis
 	mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "gourmaryllis"}));
 	mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "gourmaryllis"}),[<ore:petalGray>,<ore:petalGray>,<ore:petalYellow>,<ore:petalYellow>,<ore:petalRed>,<xlfoodmod:donut>,<xlfoodmod:lasagne>]);
@@ -178,8 +189,8 @@ mods.botania.RuneAltar.removeRecipe(<botania:rune:*>);
 recipes.remove(<botania:alfheimportal>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <botania:alfheimportal>, [
 	[<botania:livingwood>, <botania:livingwood>, <botania:manaresource:18>, <botania:livingwood>, <botania:livingwood>], 
-	[<botania:livingwood>, <alchemistry:ingot:100>, <botania:manaresource:18>, <forge:bucketfilled>, <botania:livingwood>], 
+	[<botania:livingwood>, <alchemistry:ingot:100>, <botania:manaresource:18>, voiddew, <botania:livingwood>], 
 	[<botania:manaresource:18>, <botania:manaresource:18>, <atmtweaks:item_material:2>, <botania:manaresource:18>, <botania:manaresource:18>], 
-	[<botania:livingwood>, <forge:bucketfilled>, <botania:manaresource:18>, <alchemistry:ingot:100>, <botania:livingwood>], 
+	[<botania:livingwood>, voiddew, <botania:manaresource:18>, <alchemistry:ingot:100>, <botania:livingwood>], 
 	[<botania:livingwood>, <botania:livingwood>, <botania:manaresource:18>, <botania:livingwood>, <botania:livingwood>]
 ]);

@@ -12,7 +12,7 @@ import crafttweaker.game.IGame;
 print("Vanilla changes here");
 
 val ironPlate = <thermalfoundation:material:32>;
-val ironGear = <ore:gearTin>;
+val ironGear = <ore:ingotTin>;
 val cobbleTwoTimes = <ore:compressed1xCobblestone>;
 
 
@@ -42,7 +42,7 @@ furnace.remove(<ore:charcoal>,<ore:logWood>);
 
 #change quark sandstone
 recipes.removeShaped(<quark:sandstone_new>);
-recipes.addShaped("ctQuarkpolished",<quark:sandstone_new>,
+recipes.addShaped("ctQuarkpolished",<quark:sandstone_new> *9,
 [[<minecraft:sandstone>,<minecraft:sandstone>,<minecraft:sandstone>],
 [<minecraft:sandstone>,<minecraft:sandstone>,<minecraft:sandstone>],
 [<minecraft:sandstone>,<minecraft:sandstone>,<minecraft:sandstone>]]);

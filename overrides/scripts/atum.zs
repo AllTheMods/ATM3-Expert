@@ -34,7 +34,10 @@ recipes.addShaped("CtAtumSmallBrick",<atum:limestone_brick_small>,
 mods.atum.Kiln.addRecipe(<ceramics:unfired_clay:4>, <ceramics:unfired_clay:5>, 0.4);
 
 #porcerlain barrel 
-mods.atum.Kiln.addRecipe(<ceramics:porcelain_barrel>, <ceramics:clay_barrel_unfired:2>, 0.4);
+mods.atum.Kiln.addRecipe(<ceramics:clay_barrel_unfired:2>, <ceramics:porcelain_barrel>, 0.4);
+
+#faucet
+mods.atum.Kiln.addRecipe(<ceramics:unfired_clay:6>, <ceramics:faucet>, 0.4);
 
 #scarab
 recipes.remove(<atum:scarab>);

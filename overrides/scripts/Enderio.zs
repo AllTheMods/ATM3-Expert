@@ -20,6 +20,11 @@ mods.jei.JEI.removeAndHide(<enderio:block_simple_sag_mill>);
 mods.jei.JEI.removeAndHide(<enderio:block_simple_wired_charger>);
 mods.jei.JEI.removeAndHide(<enderio:block_simple_crafter>);
 mods.jei.JEI.removeAndHide(<enderio:block_solar_panel>);
+recipes.remove(<enderio:block_cap_bank:3>);
+recipes.remove(<enderio:block_cap_bank:2>);
+recipes.remove(<enderio:block_cap_bank:1>);
+
+
 
 #regular chassis
 recipes.remove(<enderio:item_material>);
@@ -34,9 +39,9 @@ mods.alchemistry.Combiner.addRecipe(<enderio:item_material:66> *2,
 recipes.remove(<enderio:item_basic_capacitor:2>);
 recipes.remove(<enderio:item_basic_capacitor:1>);
 recipes.remove(<enderio:item_basic_capacitor>);
-recipes.addShaped("eiocap3", <enderio:item_basic_capacitor:2>, [[null, <enderio:item_alloy_ingot:2>, null],[<enderio:item_basic_capacitor:1>, <astralsorcery:itemusabledust>, <enderio:item_basic_capacitor:1>], [null, <enderio:item_alloy_ingot:2>, null]]);
-recipes.addShaped("eiocap2", <enderio:item_basic_capacitor:1>, [[null, <alchemistry:ingot:107>, null],[<enderio:item_basic_capacitor>, <immersiveengineering:material:17>, <enderio:item_basic_capacitor>], [null, <alchemistry:ingot:107>, null]]);
-recipes.addShaped("eiocap1", <enderio:item_basic_capacitor>, [[null, <actuallyadditions:item_crystal>, null],[<actuallyadditions:item_crystal>, <alchemistry:ingot:3>, <actuallyadditions:item_crystal>], [<enderio:item_material:20>, <alchemistry:ingot:3>, <enderio:item_material:20>]]);
+recipes.addShaped("eiocap3", <enderio:item_basic_capacitor:2>, [[null, <forestry:chipsets:3>.withTag({T: 3 as short}), null],[<enderio:item_basic_capacitor:1>, <astralsorcery:itemusabledust>, <enderio:item_basic_capacitor:1>], [null, <enderio:item_alloy_ingot:2>, null]]);
+recipes.addShaped("eiocap2", <enderio:item_basic_capacitor:1>, [[null, <forestry:chipsets:1>.withTag({T: 1 as short}), null],[<enderio:item_basic_capacitor>, <immersiveengineering:material:17>, <enderio:item_basic_capacitor>], [null, <alchemistry:ingot:107>, null]]);
+recipes.addShaped("eiocap1", <enderio:item_basic_capacitor>, [[null, <forestry:chipsets:1>.withTag({T: 1 as short}), null],[<actuallyadditions:item_crystal>, <alchemistry:ingot:3>, <actuallyadditions:item_crystal>], [<enderio:item_material:20>, <alchemistry:ingot:3>, <enderio:item_material:20>]]);
 
 #conduits
 recipes.remove(<enderio:item_power_conduit:2>);
@@ -57,3 +62,9 @@ recipes.addShaped(<enderio:block_sag_mill>, [[<enderio:item_alloy_ingot:6>, <end
 #farming station
 recipes.remove(<enderio:block_farm_station>);
 recipes.addShaped(<enderio:block_farm_station>, [[<industrialforegoing:crop_recolector>, <enderio:item_material:12>, <industrialforegoing:crop_sower>],[<enderio:item_material:73>, <enderio:item_material:53>, <enderio:item_material:13>], [<alchemistry:ingot:24>, <alchemistry:ingot:24>, <alchemistry:ingot:24>]]);
+
+#vat changes
+recipes.remove(<enderio:block_enhanced_vat>);
+recipes.remove(<enderio:block_vat>);
+recipes.addShaped(<enderio:block_vat>, [[<enderio:item_material:73>, <enderio:item_alloy_ingot:8>, <enderio:item_material:73>],[<enderio:item_alloy_ingot:6>, <enderio:item_material:1>, <enderio:item_alloy_ingot:6>], [<enderio:item_alloy_ingot:6>, <enderio:item_material:13>, <enderio:item_alloy_ingot:6>]]);
+recipes.addShapedMirrored(<enderio:block_enhanced_vat>, [[null, null, null],[<enderio:item_alloy_ingot:8>, <enderio:block_vat>, <enderio:item_alloy_ingot:8>], [<enderio:item_alloy_ingot:6>, <enderio:item_material:54>, <enderio:item_alloy_ingot:6>]]);

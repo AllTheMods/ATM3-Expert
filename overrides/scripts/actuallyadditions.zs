@@ -21,10 +21,11 @@ recipes.addShaped("CTaabag", <actuallyadditions:item_bag>, [[<minecraft:stick>, 
 
 #iron casing
 recipes.removeShaped(<actuallyadditions:block_misc:9>);
-recipes.addShaped("CTironcasing", <actuallyadditions:block_misc:9>, 
-[[<thermalfoundation:material:354>, <botania:managlasspane>, <thermalfoundation:material:354>],
-[<botania:managlasspane>, <minecraft:glowstone>, <botania:managlasspane>], 
-[<thermalfoundation:material:354>, <botania:managlasspane>, <thermalfoundation:material:354>]]);
+recipes.addShaped(<actuallyadditions:block_misc:9>, 
+[[<thermalfoundation:material:32>, <minecraft:glowstone_dust>, <thermalfoundation:material:32>],
+[<ic2:itemmisc:11>, <ic2:itemmisc:259>, <ic2:itemmisc:11>], 
+[<thermalfoundation:material:32>, <minecraft:glowstone_dust>, <thermalfoundation:material:32>]]);
+
 
 #AAlaser relay
 recipes.removeShaped(<actuallyadditions:block_laser_relay>);

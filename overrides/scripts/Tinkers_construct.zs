@@ -42,6 +42,9 @@ recipes.addShaped("CtPorcAlloy",<tcomplement:porcelain_alloy_tank>,
 [<ceramics:porcelain_barrel>,null,<ceramics:porcelain_barrel>],
 [null,<ceramics:faucet>,null]]);
 
+#vitrified_sand sharpening kit
+recipes.addShaped(<tconstruct:sharpening_kit>.withTag({Material: "vitrified_sand"}), [[null, <minecraft:sand>, null],[<minecraft:sand>, <tconstruct:seared>, <minecraft:sand>], [null, <minecraft:sand>, null]]);
+
 
 #smeltery controller
 recipes.removeShaped(<tconstruct:smeltery_controller>);
