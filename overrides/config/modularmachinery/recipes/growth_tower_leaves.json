@@ -1,0 +1,26 @@
+{
+    "machine": "growth_tower",
+    "registryName": "growth_tower_leaves",
+    "recipeTime": 15,
+    "requirements": [
+        
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:leaves",
+            "amount": 16
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 100
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ic2:itemmisc@351",
+            "amount": 1
+        }
+    ]
+}

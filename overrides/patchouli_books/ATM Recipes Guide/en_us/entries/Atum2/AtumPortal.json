@@ -1,0 +1,49 @@
+{
+	"name": "Portal to Atum",
+	"icon": "atum:scarab",
+	"category": "Atum2",
+
+	"pages": [{
+			"type": "text",
+			"text": "Atum isn't just a mod! Its a desert world where pharaohs reign. Its also the location of Black Quartz! The next stage of your adventure starts here! Don't forget to throw in your Scarab after you build the structure!"
+		},
+		{
+			"type": "multiblock",
+			"multiblock": {
+				"mapping": {
+					"0": "liquid:water",
+					"P": "liquid:water",
+					"C": "minecraft:sandstone"
+				},
+				"pattern": [
+					["C   C", "     ", "     ", "     ", "C   C"],
+					["C   C", "     ", "     ", "     ", "C   C"],
+					["CCCCC", "CPPPC", "CP0PC", "CPPPC", "CCCCC"],
+					["CCCCC", "CCCCC", "CCCCC", "CCCCC", "CCCCC"]
+				]
+			}
+		},
+		{
+      "type": "spotlight",
+      "item": "atum:scarab",
+      "text": "This Scarab is a relic from its homeland Atum. By making the portal structure and throwing the Scarab into it, the Scarab's need to return to the World of Atum causes the Scarab to open the portal!",
+      "linkrecipe": true
+		},
+		{
+			"type": "multiblock",
+			"multiblock": {
+				"mapping": {
+					"0": "atum:portal",
+					"P": "atum:portal",
+					"C": "minecraft:sandstone"
+				},
+				"pattern": [
+					["C   C", "     ", "     ", "     ", "C   C"],
+					["C   C", "     ", "     ", "     ", "C   C"],
+					["CCCCC", "CPPPC", "CP0PC", "CPPPC", "CCCCC"],
+					["CCCCC", "CCCCC", "CCCCC", "CCCCC", "CCCCC"]
+				]
+			}
+		}
+	]
+}

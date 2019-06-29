@@ -1,0 +1,31 @@
+{
+    "machine": "Industrial_Chiller",
+    "registryName": "chiller_chilledingot",
+    "recipeTime": 600,
+    "requirements": [
+	
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 80
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "contenttweaker:coldironingot",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "cryotheum",
+            "amount": 100
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:iron_ingot",
+            "amount": 1
+        }
+    ]
+}

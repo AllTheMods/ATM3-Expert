@@ -1,0 +1,33 @@
+{
+	"name": "Kiln",
+	"icon": "atum:kiln",
+	"category": "Atum2",
+
+	"pages": [{
+			"type": "text",
+			"text": "The Kiln is a Multiblock structure similar to a Furnace, except that it can smelt 4 items at once!! It doesn't smelt ore, stone or glass but its great at making bricks and porcelain! This is a 2x2x2 structure with 4 Small Limestone Bricks and 2 Kilns."
+		},
+		{
+			"type": "multiblock",
+			"multiblock": {
+				"mapping": {
+					"0": "atum:kiln_fake",
+					"C": "atum:kiln_fake",
+					"D": "atum:kiln"
+				},
+				"pattern": [
+					["DC", "DC"],
+					["0C", "CC"]
+				]
+			}
+		},
+		{
+        "type": "image",
+        "images": ["atmguide:atum2/kiln.png"]
+		},
+		{
+        "type": "image",
+        "images": ["atmguide:atum2/kilngui.png"]
+		}
+	]
+}

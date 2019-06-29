@@ -1,0 +1,31 @@
+{
+    "machine": "Industrial_Chiller",
+    "registryName": "chiller_chilledplate",
+    "recipeTime": 600,
+    "requirements": [
+	
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 80
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "contenttweaker:coldironplate",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "cryotheum",
+            "amount": 100
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@32",
+            "amount": 1
+        }
+    ]
+}

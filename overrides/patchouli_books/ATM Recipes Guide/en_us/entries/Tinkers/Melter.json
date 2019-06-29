@@ -1,0 +1,26 @@
+{
+	"name": "Alloying",
+	"icon": "tcomplement:porcelain_melter",
+	"category": "Tinker",
+
+	"pages": [{
+			"type": "text",
+			"text": "Sometimes things aren't easy to figure out without visual aids. This is a standard Melter, Alloying setup!"
+		},
+		{
+			"type": "multiblock",
+			"multiblock": {
+				"mapping": {
+					"H": "tcomplement:porcelain_melter:8",
+					"A": "tcomplement:porcelain_alloy_tank",
+					"M": "tcomplement:porcelain_melter",
+					"F": "ceramics:faucet"
+				},
+				"pattern": [
+					["FFF", "MAM"],
+					[" 0 ", "HHH"]
+				]
+			}
+		}
+	]
+}
