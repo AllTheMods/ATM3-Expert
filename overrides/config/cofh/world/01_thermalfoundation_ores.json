@@ -12,7 +12,11 @@
 					}
 				},
 				"material": "minecraft:stone",
+<<<<<<< HEAD
 				"cluster-size": 14
+=======
+				"cluster-size": 10
+>>>>>>> dev
 			},
 			"cluster-count": 8,
 			"min-height": 25,
@@ -40,7 +44,11 @@
 				"material": "minecraft:stone",
 				"cluster-size": 10
 			},
+<<<<<<< HEAD
 			"cluster-count": 15,
+=======
+			"cluster-count": 12,
+>>>>>>> dev
 			"min-height": 40,
 			"max-height": 80,
 			"retrogen": "true",

@@ -10,6 +10,8 @@ import crafttweaker.block.IBlock;
 import crafttweaker.game.IGame;
 import mods.jei.JEI.removeAndHide;
 import mods.immersiveengineering.BlastFurnace;
+import mods.forestry.ThermionicFabricator;
+import mods.ic2.MetalFormer;
 
 print("ic2 changes");
 
@@ -22,8 +24,11 @@ val copperCable = <ic2:itemcable>;
 val goldCable = <ic2:itemcable:2>;
 val ironPlate = <ore:plateIron>;
 
-#Stone macerator recipe
+#Remove and hide
 mods.jei.JEI.removeAndHide(<ic2:blockmachinelv:15>);
+mods.jei.JEI.removeAndHide(<ic2:blockgenerator:1>);
+mods.jei.JEI.removeAndHide(<ic2:blockgenerator:8>);
+mods.jei.JEI.removeAndHide(<ic2:itemcrop>);
 
 #Macerator
 recipes.remove(<ic2:blockmachinelv:3>);
@@ -61,4 +66,25 @@ recipes.addShaped("CTbasicframe", <ic2:blockmachinelv>,
 [[<ic2:itemmisc:53>, <thermalfoundation:material:354>, <ic2:itemmisc:53>],
 [<thermalfoundation:material:354>, <botania:managlass>, <thermalfoundation:material:354>], 
 [<ic2:itemmisc:53>, <thermalfoundation:material:354>, <ic2:itemmisc:53>]]);
+
+#advanced circuit
+mods.forestry.ThermionicFabricator.addCast(<ic2:itemmisc:452>, 
+[[<actuallyadditions:item_crystal_empowered:1>,<minecraft:glowstone_dust>,<actuallyadditions:item_crystal_empowered>], 
+[<minecraft:glowstone_dust>,<ic2:itemmisc:451>,<minecraft:glowstone_dust>],
+[<actuallyadditions:item_crystal_empowered>,<minecraft:glowstone_dust>,<actuallyadditions:item_crystal_empowered:1>]], 
+<liquid: glass> * 200);
+
+#advanced machine casing
+recipes.remove(<ic2:blockmachinemv>);
+mods.forestry.ThermionicFabricator.addCast(<ic2:blockmachinemv>, 
+[[<ore:plateSteel>, <ic2:itemmisc:256>, <ore:plateSteel>],
+[<ic2:itemmisc:257>, <ore:circuitAdvanced>, <ic2:itemmisc:257>],
+[<ore:plateSteel>, <ic2:itemmisc:256>, <ore:plateSteel>]], 
+<liquid: glass> * 200);
+
+#content tweaker plates /MetalFormer.addRollingRecipe(,);
+MetalFormer.addRollingRecipe(<contenttweaker:manasteelplate>, <botania:manaresource>);
+MetalFormer.addRollingRecipe(<contenttweaker:coldironplate>, <contenttweaker:coldironingot>);
+MetalFormer.addRollingRecipe(<contenttweaker:quartzplate>, <contenttweaker:quartzingot>);
+MetalFormer.addRollingRecipe(<contenttweaker:manadiamondplate>, <botania:manaresource:2>);
 

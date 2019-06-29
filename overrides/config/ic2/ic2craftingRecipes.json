@@ -918,6 +918,7 @@
  "shaped_item.plutonium_658579790": true,
  "shapeless_item.plutoniumSmallDust_-1889980954": true,
  "shaped_tile.railcraft.manipulator.loader.ic2_1050833862": true,
+<<<<<<< HEAD
  "shaped_tile.railcraft.manipulator.unloader.ic2_-448992667": true,
  "shaped_Copper Block": true,
  "shaped_Bronze Block": true,
@@ -1862,4 +1863,7 @@
  "shapeless_Small Piles of Plutonium Dust": true,
  "shaped_Ic2 EU Loader": true,
  "shaped_Ic2 EU Unloader": true
+=======
+ "shaped_tile.railcraft.manipulator.unloader.ic2_-448992667": true
+>>>>>>> dev
 }

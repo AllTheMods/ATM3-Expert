@@ -124,14 +124,6 @@ print(" ================================================== ");
 				},
 				Damage: 0 as short
 			},
-			integratedtunnels: {
-				id: "integrateddynamics:on_the_dynamics_of_integration",
-				Count: 1 as byte,
-				tag: {
-					"akashictome:definedMod": "integratedtunnels"
-				},
-				Damage: 0 as short
-		    },
 		  	forestry: {
 				id: "forestry:book_forester",
 				Count: 1 as byte,
@@ -183,7 +175,6 @@ print(" ================================================== ");
 		<guideapi:bloodmagic-guide>,
 		<opencomputers:tool:4>,
 		<xnet:xnet_manual>,
-		<integrateddynamics:on_the_dynamics_of_integration>,
 		<rftools:rftools_shape_manual>,
 		<openblocks:info_book>,
 		<forestry:book_forester>,

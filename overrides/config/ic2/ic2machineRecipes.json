@@ -310,6 +310,7 @@
   "item.refinedobsidianDust_-773061110": true,
   "item.thermalfoundation.material.dustSignalum_1586352118": true,
   "ic2exprecipe_Crushed Lead Ore_": true,
+<<<<<<< HEAD
   "item.railcraft.dust.void_467026562": true,
   "ic2exprecipe_Pulverized Aluminum_": true,
   "ic2exprecipe_Crushed Copper Ore_": true,
@@ -414,6 +415,9 @@
   "item.dust_220563963": true,
   "item.dust_518639673": true,
   "item.dust_-1671906179": true
+=======
+  "item.railcraft.dust.void_467026562": true
+>>>>>>> dev
  },
  "extractor": {
   "Coal": true,
@@ -559,10 +563,14 @@
   "item.uranium235_-524486572": true,
   "item.uranium238_-524483596": true,
   "item.plutonium_-1109761250": true,
+<<<<<<< HEAD
   "item.itemBatCrystal_-619444814": true,
   "item.potion_441693419": true,
   "?r?bHigh Quality Hemp Oil": true,
   "§r§bHigh Quality Hemp Oil": true
+=======
+  "item.itemBatCrystal_-619444814": true
+>>>>>>> dev
  },
  "massfabricatorAmplifier": {
   "ScrapAmplifier": true,
@@ -1412,6 +1420,7 @@
   "ingotRecycling_ingotMoscovium": true,
   "ingotRecycling_ingotLivermorium": true,
   "ingotRecycling_ingotTennessine": true,
+<<<<<<< HEAD
   "ingotRecycling_ingotOganesson": true,
   "ingotRecycling_ingotMolten_sand": true,
   "ingotRecycling_ingotLiquid_grout": true,
@@ -1421,6 +1430,9 @@
   "ingotRecycling_ingotOrichalcos": true,
   "ingotRecycling_ingotPhotonium": true,
   "ingotRecycling_ingotFluidedmana": true
+=======
+  "ingotRecycling_ingotOganesson": true
+>>>>>>> dev
  },
  "oreWashingPlant": {
   "Crushed Iron Ore": true,
@@ -1926,9 +1938,13 @@
   "tile.plank_greatwood_To_Sticks_-1125468894": true,
   "tile.plank_silverwood_To_Sticks_-322602296": true,
   "tile.log.jungle_-1814706450": true,
+<<<<<<< HEAD
   "item.melon_-1083706285": true,
   "tile.planks_1375399838": true,
   "tile.planks_To_Sticks_-1482528976": true
+=======
+  "item.melon_-1083706285": true
+>>>>>>> dev
  },
  "fluidCanning": {
   "Water Bucket": true,
@@ -9140,6 +9156,7 @@
   "Black Hole Tank_155": true,
   "Black Hole Tank_156": true,
   "Glass Bottle_1": true,
+<<<<<<< HEAD
   "Glass Bottle_2": true,
   "Fluided Mana Bucket": true,
   "Portable Tank (Basic)_157": true,
@@ -26676,6 +26693,9 @@
   "Chemical Thrower_499": true,
   "Black Hole Tank_498": true,
   "Black Hole Tank_499": true
+=======
+  "Glass Bottle_2": true
+>>>>>>> dev
  },
  "metalBender": {
   "Iron Gear": true,
@@ -26741,6 +26761,7 @@
   "Cold Iron Plate": true,
   "Quartz Plate": true,
   "Mana Diamond Plate": true,
+<<<<<<< HEAD
   "Brass Gear": true,
   "Titanium Gear": true,
   "Titanium Aluminide Gear": true,
@@ -26752,5 +26773,8 @@
   "Silicon Plate": true,
   "Titanium Aluminide Plate": true,
   "Titanium Iridium Alloy Plate": true
+=======
+  "Brass Gear": true
+>>>>>>> dev
  }
 }
