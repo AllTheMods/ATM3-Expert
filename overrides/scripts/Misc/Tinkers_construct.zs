@@ -94,7 +94,7 @@ solderingmat.color = 0xf7e4a1;
 solderingmat.craftable = true;
 solderingmat.liquid = <liquid:soldering_alloy>;
 solderingmat.castable = true;
-solderingmat.addHeadMaterialStats(1000, 7.5f, 7.5f,4);
+solderingmat.addHeadMaterialStats(1000, 7.5f, 7.5f,3);
 solderingmat.addHandleMaterialStats(0.7, 500);
 solderingmat.addBowStringMaterialStats(0.5f);
 solderingmat.register();
@@ -167,3 +167,10 @@ mods.tconstruct.Casting.addBasinRecipe(<thaumcraft:infusion_matrix>, <contenttwe
 
 #Mana Infused Ore
 mods.tconstruct.Casting.addBasinRecipe(<thermalfoundation:ore:8>, <thermalfoundation:ore:6>, <liquid:mana>, 10, true, 100);
+
+#Firewood Gated
+recipes.remove(<tconstruct:firewood:1>);
+recipes.addShaped("Ctfirewood", <tconstruct:firewood:1>,
+	[[<bloodmagic:lava_crystal>, <tconstruct:firewood>, null],
+	[null, null, null],
+	[null, null, null]]);

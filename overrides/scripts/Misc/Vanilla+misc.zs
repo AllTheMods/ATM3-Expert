@@ -15,8 +15,20 @@ val ironPlate = <thermalfoundation:material:32>;
 val ironGear = <ore:ingotTin>;
 val cobbleTwoTimes = <ore:compressed1xCobblestone>;
 
-# Leather Strap
+#Flint and Steel
+recipes.remove(<minecraft:flint_and_steel>);
+recipes.addShaped("CtFlintandSteel", <minecraft:flint_and_steel>,
+	[[<flintmod:tool_part_flint>, <ore:ingotRefinedIron>]]);
 
+
+# Rustic Advanced Condenser # blazing trail gate to thaum
+recipes.remove(<rustic:condenser_advanced>);
+recipes.addShaped("CtAdvancedCondenser", <rustic:condenser_advanced>,
+	[[null, <minecraft:netherbrick>, null],
+	[<minecraft:netherbrick>, <minecraft:bucket>, <minecraft:netherbrick>],
+	[<minecraft:netherbrick>, <thaumcraft:metal_thaumium>, <minecraft:netherbrick>]]);
+
+# Leather Strap
 recipes.remove(<simplyjetpacks:metaitem:4>);
 recipes.addShaped("CtLeatherStrap", <simplyjetpacks:metaitem:4>,
 	[[null, null, null],

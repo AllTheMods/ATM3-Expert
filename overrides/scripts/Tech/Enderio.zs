@@ -81,3 +81,5 @@ recipes.addShaped(<enderio:block_tank>,
 	[<minecraft:iron_bars>, <minecraft:glass>, <minecraft:iron_bars>], 
 	[<thermalfoundation:material:160>, <minecraft:iron_bars>, <thermalfoundation:material:160>]]);
 
+#Remove Lumium Shapped
+recipes.remove(<ore:dustLumium>);
