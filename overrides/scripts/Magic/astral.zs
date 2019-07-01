@@ -22,6 +22,72 @@ null, <liquid:astralsorcery.liquidstarlight>, null,
 recipes.remove(<astralsorcery:blockaltar>);
 recipes.addShaped("CTlumincrafter", <astralsorcery:blockaltar>, [[<astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>],[<ore:relic>, <astralsorcery:blockmarble:4>, <ore:relic>], [<astralsorcery:blockmarble:4>, <ore:stoneMarble>, <astralsorcery:blockmarble:4>]]);
 
+#Sooty stoneMarble
+recipes.remove(<astralsorcery:blockblackmarble>);
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/marble_black_raw");
+recipes.addShaped("CTSootyMarble", <astralsorcery:blockblackmarble>,
+    [[<ore:stoneMarble>,<ore:stoneMarble>, <ore:stoneMarble>],
+    [<ore:stoneMarble>, <ore:dustQuartzBlack>, <ore:stoneMarble>],
+    [<ore:stoneMarble>,<ore:stoneMarble>,<ore:stoneMarble>]]);
+
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/marble_black_raw", <astralsorcery:blockblackmarble>, 10, 10, [
+	<ore:stoneMarble>, <ore:stoneMarble>, <ore:stoneMarble>,
+	<ore:stoneMarble>, <ore:dustQuartzBlack>, <ore:stoneMarble>,
+	<ore:stoneMarble>, <ore:stoneMarble>, <ore:stoneMarble>]);
+
+#Glass Lens 
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/glasslens");
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/glasslens", <astralsorcery:itemcraftingcomponent:3>, 20, 20, [
+	null, <botania:managlasspane>, null,
+	<botania:managlasspane>, <astralsorcery:itemcraftingcomponent>, <botania:managlasspane>,
+	null, <botania:managlasspane>, null]);
+
+#Death to Cave Illuminator
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/illuminator");
+
+#Looking Glass
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/handtelescope");
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/handtelescope", <astralsorcery:itemhandtelescope>, 40, 30, [
+	null, <thaumcraft:plank_greatwood>, <astralsorcery:itemcraftingcomponent:3>,
+	<ore:livingwoodTwig>, <ore:plateGold>, <ore:livingwoodTwig>,
+	<astralsorcery:itemcraftingcomponent:3>, <thaumcraft:plank_greatwood>, null]);
+
+#Grindstone
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/grindstone");
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/grindstone", <astralsorcery:blockmachine:1>, 30, 20, [
+	null, null, null,
+	null, <ore:stoneMarble>, <thaumcraft:plank_greatwood>,
+	<ore:livingwoodTwig>, <ore:livingwoodTwig>, <thaumcraft:plank_greatwood>]);
+
+#Sextant
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/sextant");
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/sextant", <astralsorcery:itemsextant>.withTag({astralsorcery: {}}), 30, 20, [
+	null, <astralsorcery:itemcraftingcomponent:3>, null,
+	<ore:plateGold>, <astralsorcery:itemcraftingcomponent:3>, <ore:plateGold>,
+	<ore:livingwoodTwig>, <ore:livingwoodTwig>, <ore:livingwoodTwig>]);
+
+#Fosic Resonator
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/skyresonator");
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/skyresonator", <astralsorcery:itemskyresonator>.withTag({astralsorcery: {}}), 50, 50, [
+	null, <astralsorcery:itemcraftingcomponent>, null,
+	<astralsorcery:blockmarble>, <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}), <astralsorcery:blockmarble>,
+	null, <ore:plateGold>, null]);
+
+#Spectral Relay
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/attunementrelay");
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/attunementrelay", <astralsorcery:blockattunementrelay>, 50, 50, [
+	null, null, null,
+	<atum:coin_gold>, <astralsorcery:itemcraftingcomponent:3>, <atum:coin_gold>,
+	<thaumcraft:plank_greatwood>, <ore:stoneMarble>, <thaumcraft:plank_greatwood>]);
+
+#Telescope
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/telescope");	
+mods.astralsorcery.Altar.addAttunmentAltarRecipe("astralsorcery:shaped/internal/altar/telescope", <astralsorcery:blockmachine>, 500, 300, [
+            null, <astralsorcery:itemhandtelescope>, null,
+            <ore:plateThaumium>, <thaumcraft:plank_greatwood>, <ore:plateThaumium>,
+            <ore:livingwoodTwig>, null, <ore:livingwoodTwig>,
+            null, null, <ore:livingwoodTwig>, <ore:livingwoodTwig>]);
+
 
 #Mantle of the Stars
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/capebase");
