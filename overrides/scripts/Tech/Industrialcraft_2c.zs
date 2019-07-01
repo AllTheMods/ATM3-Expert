@@ -92,7 +92,6 @@ recipes.addShaped("CTbasicframe", <ic2:blockmachinelv>,
 [<ic2:itemmisc:53>, <thermalfoundation:material:354>, <ic2:itemmisc:53>]]);
 
 #advanced circuit
-recipes.remove(<ic2:itemmisc:452>);
 mods.forestry.ThermionicFabricator.addCast(<ic2:itemmisc:452>, 
 [[<actuallyadditions:item_crystal_empowered:1>,<minecraft:glowstone_dust>,<actuallyadditions:item_crystal_empowered>], 
 [<minecraft:glowstone_dust>,<ic2:itemmisc:451>,<minecraft:glowstone_dust>],
