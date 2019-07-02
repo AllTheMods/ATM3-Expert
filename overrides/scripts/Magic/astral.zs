@@ -82,7 +82,7 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/
 
 #Telescope
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/telescope");	
-mods.astralsorcery.Altar.addAttunmentAltarRecipe("astralsorcery:shaped/internal/altar/telescope", <astralsorcery:blockmachine>, 500, 300, [
+mods.astralsorcery.Altar.addAttunementAltarRecipe("astralsorcery:shaped/internal/altar/telescope", <astralsorcery:blockmachine>, 500, 300, [
             null, <astralsorcery:itemhandtelescope>, null,
             <ore:plateThaumium>, <thaumcraft:plank_greatwood>, <ore:plateThaumium>,
             <ore:livingwoodTwig>, null, <ore:livingwoodTwig>,

@@ -73,7 +73,7 @@ mods.thaumcraft.Crucible.registerRecipe("CtEtube","TUBES",<thaumcraft:tube>*12,
 
 #Essentia Smeltery
 recipes.remove(<thaumcraft:smelter_basic>);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtEssentiaSmeltery", "ESSENTIASMELTING", 50,
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtEssentiaSmeltery", "ALUMENTUM", 50,
         [terraAspect, aquaAspect, ignisAspect],
         <thaumcraft:smelter_basic>,
         [[<railcraft:plate:11>, <thaumcraft:crucible>, <railcraft:plate:11>],
@@ -375,7 +375,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtInfusionBlock", "BASEINF
 #Thaumium Smelter
 		
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:smelter_thaumium>);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtThaumSmelter", "IMPROVEDSMELTING", 300,
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtThaumSmelter", "TUBES", 300,
 		[aquaAspect * 6, ignisAspect * 6, terraAspect * 6],
 		<thaumcraft:smelter_thaumium>,
 		[[<ore:plateBrass>, <thaumcraft:smelter_basic>, <ore:plateBrass>],
@@ -386,7 +386,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtThaumSmelter", "IMPROVED
 #Void Smelter
 	
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:smelter_void>);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtVoidSmelter", "IMPROVEDSMELTING2", 750,
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtVoidSmelter", "ESSENTIASMELTERTHAUMIUM", 750,
 		[aquaAspect * 10, ignisAspect * 10, terraAspect * 10, perditioAspect * 10, ordoAspect * 10, aerAspect * 10],
 		<thaumcraft:smelter_void>,
 		[[<ore:plateBrass>, <thaumcraft:smelter_thaumium>, <ore:plateBrass>],
@@ -445,8 +445,8 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtRedstoneRelay", "REDSTON
 		[<botania:livingrock0slab>, <botania:livingrock0slab>, <botania:livingrock0slab>]]
 		);
 		
-#Alumentium
-mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:alumentum>);
+#Alumentum
+mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:alumentum>);
 mods.thaumcraft.Crucible.registerRecipe("Ctalumentum","ALUMENTUM",<thaumcraft:alumentum>,
 				<ore:fuelCoke>,
 	[<aspect:potentia>*10,<aspect:ignis>*10, <aspect:perditio>*10]
