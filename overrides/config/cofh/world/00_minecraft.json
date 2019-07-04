@@ -373,7 +373,7 @@
 			"generator": {
 				"block": "quartz_ore",
 				"material": "minecraft:netherrack",
-				"cluster-size": 14
+				"cluster-size": 8
 			},
 			"cluster-count": 16,
 			"min-height": 10,
