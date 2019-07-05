@@ -1,6 +1,6 @@
 {
 	"populate": {
-		"ardite": {
+		"ardite_ore": {
 			"distribution": "uniform",
 			"generator": {
 				"block":
@@ -19,7 +19,7 @@
 			"dimension": "all"
 		},
 		
-		"cobalt": {
+		"cobalt_ore": {
 			"distribution": "uniform",
 			"generator": {
 				"block":
@@ -38,7 +38,7 @@
 			"dimension": "all"
 		},
 		
-				"dimensional": {
+				"dimensional_ore": {
 			"distribution": "uniform",
 			"generator": {
 				"block":
@@ -55,6 +55,42 @@
 			"biome": "all",
 			"retrogen": true,
 			"dimension": "all"
-		}
+		},
+				"certus_ore": {
+			"distribution": "uniform",
+			"generator": {
+				"block":
+ { "name": "appliedenergistics2:quartz_ore",
+					"metadata": 0
+					},
+				"material": "minecraft:stone",
+				"cluster-size": 0
+			},
+			"cluster-count": 0,
+			"chunk-chance": 1000,
+			"min-height": 0,
+			"max-height": 1,
+			"biome": "all",
+			"retrogen": true,
+			"dimension": "all"
+		},
+				"charged_certus_ore": {
+			"distribution": "uniform",
+			"generator": {
+				"block":
+ { "name": "appliedenergistics2:charged_quartz_ore",
+					"metadata": 0
+					},
+				"material": "minecraft:stone",
+				"cluster-size": 0
+			},
+			"cluster-count": 0	,
+			"chunk-chance": 2000,
+			"min-height": 0,
+			"max-height": 1,
+			"biome": "all",
+			"retrogen": true,
+			"dimension": "all"
+		}		
 	}
 }

@@ -295,14 +295,14 @@
 					"name": "emerald_ore"
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 0
 			},
 			"cluster-count": {
 				"min": 6,
 				"max": 18
 			},
-			"min-height": 4,
-			"max-height": 50,
+			"min-height": 0,
+			"max-height": 1,
 			"retrogen": true,
 			"biome": {
 				"restriction": "whitelist",
