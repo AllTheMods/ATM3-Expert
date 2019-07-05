@@ -1,6 +1,6 @@
 # ATM-3-EXPERT
 
-All The Mods 1.12 - EXPERT
+All The Mods 3 EXPERT - Shedding Tiers
 ======
 This is the official repository and issue-tracker for All The Mods 3 Expert
   
