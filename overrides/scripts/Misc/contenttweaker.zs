@@ -47,6 +47,12 @@ ElementiumProcessor.register();
 var ElementiumPrint = VanillaFactory.createItem("ElementiumPrint");
 ElementiumPrint.register();
 
+var CorruptedStarmetal = VanillaFactory.createItem("CorruptedStarmetal");
+CorruptedStarmetal.register();
+
+var CrystalBlood = VanillaFactory.createItem("CrystalBlood");
+CrystalBlood.register();
+
 #Infusion Block Contenttweaker Block Creation
 
 var infusionBlock = VanillaFactory.createBlock("infusion_block", <blockmaterial:rock>);
