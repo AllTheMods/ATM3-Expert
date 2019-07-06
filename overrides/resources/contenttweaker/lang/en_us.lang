@@ -1,25 +1,14 @@
 fluid.Molten_Sand= Molten Vitrified Sand
 fluid.Liquid_Grout=Molten Grout
 fluid.Soldering_Alloy=Soldering Alloy
-<<<<<<< HEAD
 fluid.Corrupted_Starlight=Corrupted Starlight
-=======
-fluid.Corrupted_Starlight = Corrupted Starlight
->>>>>>> dev
-
-
 material.vitrified_sand.name=Vitrified sand
-
-
 item.contenttweaker.ManaDiamondPlate.name=Mana Diamond Plate
 item.contenttweaker.ColdIronIngot.name=Cold Iron Ingot
 item.contenttweaker.ColdIronPlate.name=Cold Iron Plate
 item.contenttweaker.UnrefinedHotSteel.name=Cracked Hot Steel
 item.contenttweaker.QuartzIngot.name=Quartz ingot
 item.contenttweaker.QuartzPlate.name=Quartz Plate
-<<<<<<< HEAD
 item.contenttweaker.ManaSteelPlate.name=Manasteel Plate
 tile.contenttweaker.infusion_block.name=Infusion Block
-=======
-item.contenttweaker.ManaSteelPlate.name=Manasteel Plate
->>>>>>> dev
+tile.contenttweaker.magma_soaked_cobblestone.name=Magma Soaked Cobblestone

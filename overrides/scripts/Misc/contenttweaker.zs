@@ -63,3 +63,13 @@ infusionBlock.setToolClass("pickaxe");
 infusionBlock.setToolLevel(2);
 infusionBlock.setBlockSoundType(<soundtype:stone>);	
 infusionBlock.register();
+
+
+var magmaCobble = VanillaFactory.createBlock("magma_soaked_cobblestone", <blockmaterial:rock>);
+magmaCobble.setBlockHardness(5.0);
+magmaCobble.setLightValue(1);
+magmaCobble.setBlockResistance(5.0);
+magmaCobble.setToolClass("pickaxe");
+magmaCobble.setToolLevel(2);
+magmaCobble.setBlockSoundType(<soundtype:stone>);	
+magmaCobble.register();

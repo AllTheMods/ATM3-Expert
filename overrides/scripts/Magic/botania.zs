@@ -69,7 +69,6 @@ mods.thermalexpansion.Transposer.addFillRecipe(<botania:pool>,<botania:pool:2>,<
 	#Mana Powder
 	mods.botania.ManaInfusion.removeRecipe(<botania:manaresource:23>);
 	mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>,<minecraft:glowstone_dust>,2500);
-	mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>,<minecraft:gunpowder>,2500);
 
 #Manaspreader
 recipes.removeShaped(<botania:spreader>);
