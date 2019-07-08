@@ -3,7 +3,7 @@
 	"populate": {
 		"copper": {
 			"enabled": "true",
-			"distribution": "uniform",
+			"distribution": "cave",
 			"generator": {
 				"block": {
 					"name": "thermalfoundation:ore",
@@ -12,13 +12,9 @@
 					}
 				},
 				"material": "minecraft:stone",
-<<<<<<< HEAD
-				"cluster-size": 14
-=======
-				"cluster-size": 10
->>>>>>> dev
+				"cluster-size": 7
 			},
-			"cluster-count": 8,
+			"cluster-count": 10,
 			"min-height": 25,
 			"max-height": 45,
 			"retrogen": "true",
@@ -33,7 +29,7 @@
 		},
 		"tin": {
 			"enabled": "true",
-			"distribution": "uniform",
+			"distribution": "cave",
 			"generator": {
 				"block": {
 					"name": "thermalfoundation:ore",
@@ -42,13 +38,9 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 10
+				"cluster-size": 7
 			},
-<<<<<<< HEAD
-			"cluster-count": 15,
-=======
-			"cluster-count": 12,
->>>>>>> dev
+			"cluster-count": 10,
 			"min-height": 40,
 			"max-height": 80,
 			"retrogen": "true",
@@ -63,7 +55,7 @@
 		},
 		"silver": {
 			"enabled": "true",
-			"distribution": "uniform",
+			"distribution": "cave",
 			"generator": {
 				"block": [
 					{
@@ -99,7 +91,7 @@
 		},
 		"lead": {
 			"enabled": "true",
-			"distribution": "uniform",
+			"distribution": "cave",
 			"generator": {
 				"block": [
 					{
@@ -135,7 +127,7 @@
 		},
 		"nickel": {
 			"enabled": "true",
-			"distribution": "uniform",
+			"distribution": "cave",
 			"generator": {
 				"block": {
 					"name": "thermalfoundation:ore",
@@ -161,7 +153,7 @@
 		},
 		"platinum": {
 			"enabled": "true",
-			"distribution": "uniform",
+			"distribution": "cave",
 			"generator": {
 				"block": [
 					{

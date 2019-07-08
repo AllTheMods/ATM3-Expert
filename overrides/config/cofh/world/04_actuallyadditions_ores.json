@@ -8,10 +8,10 @@
 					"metadata": 3
 					},
 				"material": "atum:limestone",
-				"cluster-size": 9
+				"cluster-size": 5
 			},
-			"cluster-count": 9,
-			"chunk-chance": 3,
+			"cluster-count": 5,
+			"chunk-chance": 2,
 			"min-height": 10,
 			"max-height": 120,
 			"biome": "all",

@@ -16,7 +16,13 @@
 			"max-height":120,
 			"biome": "all",
 			"retrogen": true,
-			"dimension": "all"
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					0,
+					1
+				]
+			}
 		},
 		
 		"nether_draconium": {
@@ -35,7 +41,13 @@
 			"max-height": 25,
 			"biome": "all",
 			"retrogen": true,
-			"dimension": "all"
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					1,
+					0
+				]
+			}
 		}
 	}
 }

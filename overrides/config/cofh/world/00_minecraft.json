@@ -54,7 +54,7 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 33
+				"cluster-size": 12
 			},
 			"cluster-count": 10,
 			"min-height": 0,
@@ -80,7 +80,7 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 33
+				"cluster-size": 12
 			},
 			"cluster-count": 10,
 			"min-height": 0,
@@ -106,7 +106,7 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 33
+				"cluster-size": 12
 			},
 			"cluster-count": 10,
 			"min-height": 0,
@@ -123,16 +123,16 @@
 		},
 
 		"coal": {
-			"distribution": "uniform",
+			"distribution": "cave",
 			"generator": {
 				"block": "coal_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 20
+				"cluster-size": 8
 			},
-			"cluster-count": 28,
+			"cluster-count": 10,
 			"min-height": 0,
 			"max-height": 128,
-			"retrogen": false,
+			"retrogen": true,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
@@ -144,16 +144,16 @@
 		},
 
 		"iron": {
-			"distribution": "uniform",
+			"distribution": "cave",
 			"generator": {
 				"block": "iron_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 16
+				"cluster-size": 9
 			},
-			"cluster-count": 20,
+			"cluster-count": 10,
 			"min-height": 0,
 			"max-height": 64,
-			"retrogen": false,
+			"retrogen": true,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
@@ -165,16 +165,16 @@
 		},
 
 		"gold": {
-			"distribution": "uniform",
+			"distribution": "cave",
 			"generator": {
 				"block": "gold_ore",
 				"material": "minecraft:stone",
 				"cluster-size": 9
 			},
-			"cluster-count": 4,
+			"cluster-count": 2,
 			"min-height": 0,
 			"max-height": 32,
-			"retrogen": false,
+			"retrogen": true,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
@@ -186,16 +186,16 @@
 		},
 
 		"redstone": {
-			"distribution": "uniform",
+			"distribution": "cave",
 			"generator": {
 				"block": "redstone_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 20
+				"cluster-size": 8
 			},
-			"cluster-count": 10,
+			"cluster-count": 4,
 			"min-height": 0,
 			"max-height": 16,
-			"retrogen": false,
+			"retrogen": true,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
@@ -207,7 +207,7 @@
 		},
 
 		"diamond": {
-			"distribution": "uniform",
+			"distribution": "cave",
 			"generator": {
 				"block": "diamond_ore",
 				"material": "minecraft:stone",
@@ -223,22 +223,21 @@
 				"value": [
 					-1,
 					1
-					0
 				]
 			}
 		},
 
 		"lapis": {
-			"distribution": "gaussian",
+			"distribution": "cave",
 			"generator": {
 				"block": "lapis_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 10
+				"cluster-size": 7
 			},
-			"cluster-count": 3,
+			"cluster-count": 1,
 			"center-height": 16,
 			"spread": 16,
-			"retrogen": false,
+			"retrogen": true,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
@@ -289,7 +288,7 @@
 		},
 
 		"emerald": {
-			"distribution": "uniform",
+			"distribution": "cave",
 			"generator": {
 				"block": {
 					"name": "emerald_ore"
@@ -298,12 +297,12 @@
 				"cluster-size": 0
 			},
 			"cluster-count": {
-				"min": 6,
-				"max": 18
+				"min": 0,
+				"max": 0
 			},
 			"min-height": 0,
 			"max-height": 1,
-			"retrogen": true,
+			"retrogen": false,
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
@@ -338,9 +337,9 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 5
+				"cluster-size": 9
 			},
-			"cluster-count": 4,
+			"cluster-count": 7,
 			"min-height": 0,
 			"max-height": 64,
 			"retrogen": false,

@@ -72,7 +72,14 @@
 			"max-height": 1,
 			"biome": "all",
 			"retrogen": true,
-			"dimension": "all"
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					0,
+					1
+				]
+			}
 		},
 				"charged_certus_ore": {
 			"distribution": "uniform",
@@ -90,7 +97,14 @@
 			"max-height": 1,
 			"biome": "all",
 			"retrogen": true,
-			"dimension": "all"
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1,
+					0
+				]
+			}
 		}		
 	}
 }
