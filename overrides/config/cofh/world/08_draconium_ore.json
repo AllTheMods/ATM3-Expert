@@ -32,7 +32,7 @@
  { "name": "draconicevolution:draconium_ore",
 					"metadata": 1
 					},
-				"material": "minecraft:netherrrack",
+				"material": "minecraft:netherrack",
 				"cluster-size": 2
 			},
 			"cluster-count": 3,
