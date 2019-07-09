@@ -97,6 +97,7 @@ mods.jei.JEI.addDescription([<botania:specialflower>.withTag({type: "petro_petun
 
 #furnace.remove array
 	val ingotArray = [
+	<ore:ingotSilver>,
 	<ore:ingotIron>,
 	<ore:ingotIron>,
 	<ore:ingotGold>,
@@ -153,7 +154,7 @@ mods.jei.JEI.addDescription([<botania:specialflower>.withTag({type: "petro_petun
 	<ore:quicksilver>]as IIngredient[];
 
 	val oreArray = [
-	<ore:crushedPurifiedIron>,
+	<ore:oreSilver>,
 	<ore:oreIron>,
 	<ore:oreGold>,
 	<ore:oreCoal>,
