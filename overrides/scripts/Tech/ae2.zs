@@ -31,7 +31,10 @@ recipes.addShaped("CTaeenergyinput", <appliedenergistics2:energy_acceptor>, [[<c
 
 #me controller
 recipes.remove(<appliedenergistics2:controller>);
-recipes.addShaped("CTmecontroller", <appliedenergistics2:controller>, [[<contenttweaker:elementiumprocessor>, <contenttweaker:quartzplate>, <contenttweaker:elementiumprocessor>],[<appliedenergistics2:material:12>, <actuallyadditions:block_crystal_empowered:5>, <appliedenergistics2:material:12>], [<contenttweaker:elementiumprocessor>, <contenttweaker:quartzplate>, <contenttweaker:elementiumprocessor>]]);
+recipes.addShaped("CTmecontroller", <appliedenergistics2:controller>, 
+ [[<contenttweaker:elementiumprocessor>, <alchemistry:ingot:94>, <contenttweaker:elementiumprocessor>],
+ [<appliedenergistics2:material:12>, <actuallyadditions:block_crystal_empowered:5>, <appliedenergistics2:material:12>],
+ [<contenttweaker:elementiumprocessor>, <alchemistry:ingot:94>, <contenttweaker:elementiumprocessor>]]);
 
 #inscriber
 recipes.remove(<appliedenergistics2:inscriber>);
@@ -43,7 +46,10 @@ recipes.addShaped("CTae2drive", <appliedenergistics2:drive>, [[<thermalfoundatio
 
 #crafting unit 
 recipes.remove(<appliedenergistics2:crafting_unit>);
-recipes.addShapedMirrored(<appliedenergistics2:crafting_unit>, [[<appliedenergistics2:material:7>, <thermalfoundation:material:160>, <appliedenergistics2:material:7>],[<alchemistry:ingot:94>, <contenttweaker:elementiumprocessor>, <alchemistry:ingot:94>], [<appliedenergistics2:material:7>, <thermalfoundation:material:160>, <appliedenergistics2:material:7>]]);
+recipes.addShapedMirrored(<appliedenergistics2:crafting_unit>, 
+ [[<appliedenergistics2:material:7>, <thermalfoundation:material:160>, <appliedenergistics2:material:7>],
+ [<contenttweaker:quartzplate>, <contenttweaker:elementiumprocessor>, <contenttweaker:quartzplate>],
+ [<appliedenergistics2:material:7>, <thermalfoundation:material:160>, <appliedenergistics2:material:7>]]);
 
 #1k storage unit
 recipes.remove(<appliedenergistics2:material:35>);

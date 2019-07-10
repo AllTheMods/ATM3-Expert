@@ -95,6 +95,65 @@ mods.jei.JEI.addDescription([<botania:specialflower>.withTag({type: "petro_petun
  "Diesel", 
  "Syngas"]);
 
+ #VANILLA + MISC draconium removal
+furnace.remove(<draconicevolution:draconium_ingot>, <draconicevolution:draconium_dust>);
+furnace.remove(<draconicevolution:draconium_ingot>, <draconicevolution:draconium_ore>);
+furnace.remove(<draconicevolution:draconium_ingot>, <draconicevolution:draconium_ore:1>);
+furnace.remove(<draconicevolution:draconium_ingot>, <draconicevolution:draconium_ore:2>);
+#Wither essence
+recipes.remove(<draconicevolution:draconic_core>);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<atmtweaks:item_material:10>, 
+ 16000000, 10000, <atmtweaks:item_material:1>, 
+[<ore:blockNetherStar>, <minecraft:skull:1>, 
+ <minecraft:skull:1>, <minecraft:skull:1>, 
+ <tconstruct:materials:17>, <enderio:block_reinforced_obsidian>, 
+ <minecraft:nether_star>, <minecraft:coal>]);
+
+ 
+#factory manager 
+recipes.remove(<superfactorymanager:manager>);
+recipes.addShaped(<superfactorymanager:manager>, 
+ [[<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:5>],
+ [<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_crystal_empowered:5>], 
+ [<ore:blockSeared>, <minecraft:piston>, <ore:blockSeared>]]);
+#factory cables
+recipes.remove(<superfactorymanager:cable>);
+recipes.addShaped(<superfactorymanager:cable> * 2, 
+ [[<thermalfoundation:glass:3>, <quark:obsidian_pressure_plate>, <thermalfoundation:glass:3>],
+ [<thermaldynamics:duct_32>, <modularmachinery:itemmodularium>, <thermaldynamics:duct_16:2>], 
+ [<thermalfoundation:glass:3>, <quark:obsidian_pressure_plate>, <thermalfoundation:glass:3>]]);
+ 
+#remove pyrotheum hardened glass recipes
+recipes.removeShaped(<ore:blockGlassHardened>);
+
+#xnet changes 
+
+#routing cable
+recipes.remove(<xnet:netcable:4>);
+recipes.addShaped(<xnet:netcable:4> * 4, 
+ [[<minecraft:string>, <minecraft:redstone_block>, <minecraft:string>],
+ [<minecraft:redstone_block>, <superfactorymanager:cable>, <minecraft:redstone_block>],
+ [<minecraft:string>, <minecraft:redstone_block>, <minecraft:string>]]);
+#blue networking cable
+recipes.remove(<xnet:netcable>);
+recipes.addShaped(<xnet:netcable> * 8, 
+ [[<minecraft:string>, <minecraft:redstone>, <minecraft:string>],
+ [<minecraft:redstone>, <superfactorymanager:cable>, <minecraft:redstone>], 
+ [<minecraft:string>, <minecraft:redstone>, <minecraft:string>]]);
+#controller
+recipes.remove(<xnet:controller>);
+recipes.addShaped(<xnet:controller>,
+ [[<ic2c_extras:refinedironplate>, <thermaldynamics:duct_0:2>, <ic2c_extras:refinedironplate>],
+ [<minecraft:comparator>, <superfactorymanager:manager>, <minecraft:comparator>],
+ [<minecraft:redstone>, <thermaldynamics:duct_0:2>, <minecraft:redstone>]]);
+
+#advanced rocketry crucible
+recipes.remove(<advancedrocketry:iquartzcrucible>);
+recipes.addShaped(<advancedrocketry:iquartzcrucible>, 
+ [[<contenttweaker:quartzingot>, null, <contenttweaker:quartzingot>],
+ [<contenttweaker:quartzingot>, <minecraft:cauldron>, <contenttweaker:quartzingot>], 
+ [<contenttweaker:quartzingot>, <contenttweaker:quartzingot>, <contenttweaker:quartzingot>]]);
+
 #furnace.remove array
 	val ingotArray = [
 	<ore:ingotSilver>,

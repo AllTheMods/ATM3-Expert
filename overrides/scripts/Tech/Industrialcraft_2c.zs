@@ -87,9 +87,9 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<ic2c_extras:refinedironblock>,
 
 #machine block
 recipes.addShaped("CTbasicframe", <ic2:blockmachinelv>, 
-[[<ic2:itemmisc:53>, <thermalfoundation:material:354>, <ic2:itemmisc:53>],
-[<thermalfoundation:material:354>, <botania:managlass>, <thermalfoundation:material:354>], 
-[<ic2:itemmisc:53>, <thermalfoundation:material:354>, <ic2:itemmisc:53>]]);
+ [[<ic2:itemmisc:53>, <thermalfoundation:material:354>, <ic2:itemmisc:53>],
+ [<thermalfoundation:material:354>, <tconstruct:clear_glass>, <thermalfoundation:material:354>], 
+ [<ic2:itemmisc:53>, <thermalfoundation:material:354>, <ic2:itemmisc:53>]]);
 
 #advanced circuit
 mods.forestry.ThermionicFabricator.addCast(<ic2:itemmisc:452>, 
@@ -112,3 +112,16 @@ MetalFormer.addRollingRecipe(<contenttweaker:coldironplate>, <contenttweaker:col
 MetalFormer.addRollingRecipe(<contenttweaker:quartzplate>, <contenttweaker:quartzingot>);
 MetalFormer.addRollingRecipe(<contenttweaker:manadiamondplate>, <botania:manaresource:2>);
 
+#electric furnace// ic2
+recipes.remove(<ic2:blockmachinelv:2>);
+recipes.addShapedMirrored("Ctelectricfurnace", <ic2:blockmachinelv:2>, 
+ [[<minecraft:redstone>, <ic2:itemmisc:451>, <minecraft:redstone>],
+ [<ic2:blockmachinelv:1>, <immersiveengineering:stone_decoration:1>, <ic2:blockmachinelv:1>], 
+ [<minecraft:redstone>, <ic2:itemmisc:451>, <minecraft:redstone>]]);
+
+#mixed metal ingots ic2
+recipes.remove(<ic2:itemmisc:56>);
+recipes.addShaped("CTmixedmetal", <ic2:itemmisc:56> * 2,
+ [[<thermalfoundation:material:160>, <thermalfoundation:material:160>, <thermalfoundation:material:160>],
+ [<thermalfoundation:material:163>, <thermalfoundation:material:163>, <thermalfoundation:material:163>], 
+ [<thermalfoundation:material:134>, <thermalfoundation:material:134>, <thermalfoundation:material:134>]]);

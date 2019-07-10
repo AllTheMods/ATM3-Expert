@@ -17,6 +17,7 @@ import mods.botania.ElvenTrade;
 import mods.bloodmagic.BloodAltar;
 import mods.bloodmagic.TartaricForge;
 import mods.thaumcraft.ArcaneWorkbench;
+import mods.actuallyadditions.AtomicReconstructor;
 
 print("Botania Changes");
 val petro = <botania:specialflower>.withTag({type: "petro_petunia"});
@@ -269,5 +270,8 @@ mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:slate>, <botania:livingrock:4>,
 recipes.remove(<bloodmagic:decorative_brick>);
 mods.botania.RuneAltar.addRecipe(<bloodmagic:decorative_brick>,[<ic2:itemmisc:202>,<ic2:itemmisc:202>,<ic2:itemmisc:202>,<astralsorcery:itemcraftingcomponent:1>,<mekanism:polyethene>,<mekanism:polyethene>, <bloodmagic:blood_shard>], 10000);
 
+#Sunny quartz
+recipes.remove(<botania:quartz:6>);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<botania:quartz:6>, <minecraft:quartz>, 50000);
 
 
