@@ -30,7 +30,7 @@ val voiddew = <forge:bucketfilled>.withTag({FluidName: "ender_distillation", Amo
 
 #terrestrial ag plate
 recipes.remove(<botania:terraplate>);
-recipes.addShapedMirrored(<botania:terraplate>, [[<botania:rune>, <contenttweaker:manasteelplate>, <botania:rune:3>],[<ic2c_extras:plutonium>, <botania:rune:8>, <ic2c_extras:plutonium>], [<botania:rune:2>, <contenttweaker:manasteelplate>, <botania:rune:1>]]);
+recipes.addShapedMirrored(<botania:terraplate>, [[<botania:rune>, <contenttweaker:manasteelplate>, <botania:rune:3>],[<ic2c_extras:plutoniumdust>, <botania:rune:8>, <ic2c_extras:plutoniumdust>], [<botania:rune:2>, <contenttweaker:manasteelplate>, <botania:rune:1>]]);
 
 #pretropetnininua
 mods.botania.Apothecary.removeRecipe(petro);
