@@ -68,5 +68,18 @@ recipes.addShaped(<extendedcrafting:trimmed:2>,
 [<thermalfoundation:material:16>, <alchemistry:compound:58>, <thermalfoundation:material:16>]]);
 <extendedcrafting:trimmed:2>.addTooltip(format.aqua("Chemically Imbued"));
 
+#black iron frame
+recipes.remove(<extendedcrafting:frame>);
+recipes.addShaped(<extendedcrafting:frame>,
+ [[<extendedcrafting:material>, <botania:elfglass>, <extendedcrafting:material>],
+ [<atmtweaks:item_material:2>, <contenttweaker:corruptedstarmetal>, <atmtweaks:item_material:2>], 
+ [<extendedcrafting:material>, <botania:elfglass>, <extendedcrafting:material>]]);
+
+#pedestal
+recipes.remove(<extendedcrafting:pedestal>);
+recipes.addShaped(<extendedcrafting:pedestal>, 
+ [[null, <actuallyadditions:block_display_stand>, null],
+ [<extendedcrafting:material>, <ic2:itemmisc:452>, <extendedcrafting:material>],
+ [<extendedcrafting:material>, <actuallyadditions:block_crystal_empowered:4>, <extendedcrafting:material>]]);
 
 

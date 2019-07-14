@@ -35,3 +35,47 @@ recipes.addShaped("CTmechuser", <extrautils2:user>,
 [[<minecraft:lever>, <ic2:itemmisc:451>, <minecraft:lever>],
 [<immersiveengineering:wirecoil:5>, <minecraft:dispenser>, <immersiveengineering:wirecoil:5>],
 [<botania:manaresource>, <actuallyadditions:item_crystal_empowered:4>, <botania:manaresource>]]);
+
+
+#extrautils angel ring
+mods.extendedcrafting.CombinationCrafting.addRecipe(<extrautils2:angelring>, 
+ 100000000, 5000, <minecraft:elytra>, 
+[<bloodmagic:component:2>, <minecraft:feather>, 
+ <ic2:itemmisc:264>, <thaumcraft:primordial_pearl>, 
+ <botania:manaresource:14>, <rftools:dimensional_shard>, 
+ <atmtweaks:item_material:10>, <minecraft:glass>]);
+ 
+mods.extendedcrafting.CombinationCrafting.addRecipe(<extrautils2:angelring:1>, 
+ 100000000, 5000, <minecraft:elytra>, 
+[<bloodmagic:component:2>, <minecraft:feather>, 
+ <ic2:itemmisc:264>, <thaumcraft:primordial_pearl>, 
+ <botania:manaresource:14>, <rftools:dimensional_shard>, 
+ <atmtweaks:item_material:10>, <minecraft:feather>]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<extrautils2:angelring:2>, 
+ 100000000, 5000, <minecraft:elytra>, 
+[<bloodmagic:component:2>, <minecraft:feather>, 
+ <ic2:itemmisc:264>, <thaumcraft:primordial_pearl>, 
+ <botania:manaresource:14>, <rftools:dimensional_shard>, 
+ <atmtweaks:item_material:10>, <minecraft:dye:9>]);
+ 
+mods.extendedcrafting.CombinationCrafting.addRecipe(<extrautils2:angelring:3>, 
+ 100000000, 5000, <minecraft:elytra>, 
+[<bloodmagic:component:2>, <minecraft:feather>, 
+ <ic2:itemmisc:264>, <thaumcraft:primordial_pearl>, 
+ <botania:manaresource:14>, <rftools:dimensional_shard>, 
+ <atmtweaks:item_material:10>, <minecraft:leather>]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<extrautils2:angelring:4>, 
+ 100000000, 5000, <minecraft:elytra>, 
+[<bloodmagic:component:2>, <minecraft:feather>, 
+ <ic2:itemmisc:264>, <thaumcraft:primordial_pearl>, 
+ <botania:manaresource:14>, <rftools:dimensional_shard>, 
+ <atmtweaks:item_material:10>, <minecraft:gold_nugget>]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<extrautils2:angelring:5>, 
+ 100000000, 5000, <minecraft:elytra>, 
+[<bloodmagic:component:2>, <minecraft:feather>, 
+ <ic2:itemmisc:264>, <thaumcraft:primordial_pearl>, 
+ <botania:manaresource:14>, <rftools:dimensional_shard>, 
+ <atmtweaks:item_material:10>, <minecraft:coal>]);

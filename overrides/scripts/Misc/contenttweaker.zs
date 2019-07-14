@@ -50,8 +50,8 @@ ElementiumPrint.register();
 var CorruptedStarmetal = VanillaFactory.createItem("CorruptedStarmetal");
 CorruptedStarmetal.register();
 
-var CrystalBlood = VanillaFactory.createItem("CrystalBlood");
-CrystalBlood.register();
+var CrystallisedBlood = VanillaFactory.createItem("CrystallisedBlood");
+CrystallisedBlood.register();
 
 #Infusion Block Contenttweaker Block Creation
 

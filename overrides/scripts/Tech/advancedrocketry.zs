@@ -20,3 +20,10 @@ recipes.addShaped(<advancedrocketry:satelliteprimaryfunction>, [[<thermalfoundat
 recipes.addShaped(<libvulpes:hatch:1>, [[<ic2:itemmisc:202>, <thermaldynamics:servo:4>, <ic2:itemmisc:202>],[<mekanism:ingot:1>, <libvulpes:structuremachine>, <mekanism:ingot:1>], [<ic2:itemmisc:264>, <bloodmagic:slate:3>, <ic2:itemmisc:264>]]);
 recipes.addShaped(<libvulpes:hatch>, [[<ic2:itemmisc:202>, <thermaldynamics:filter:4>, <ic2:itemmisc:202>],[<mekanism:ingot:1>, <libvulpes:structuremachine>, <mekanism:ingot:1>], [<ic2:itemmisc:264>, <bloodmagic:slate:3>, <ic2:itemmisc:264>]]);
 
+#ADVANCED ROCKETRY
+recipes.remove(<libvulpes:structuremachine>);
+recipes.addShaped(<libvulpes:structuremachine>,
+ [[null, <mekanism:controlcircuit:3>, null],
+ [<contenttweaker:elementiumprocessor>, <ic2:blockmachinemv>, <contenttweaker:quartzingot>],
+ [null, <ic2:itemmisc:451>, null]]);
+ 

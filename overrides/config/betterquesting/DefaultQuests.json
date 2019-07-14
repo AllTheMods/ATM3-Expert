@@ -75,7 +75,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:tooltables",
@@ -165,7 +165,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "ceramics:unfired_clay",
@@ -216,7 +216,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:furnace",
@@ -258,10 +258,6 @@
     "4:10": {
       "questID:3": 4,
       "preRequisites:11": [
-<<<<<<< HEAD
-=======
-        16,
->>>>>>> dev
         3
       ],
       "properties:10": {
@@ -271,7 +267,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:smeltery_controller",
@@ -391,7 +387,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "CHAIN",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:planks",
@@ -448,7 +444,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:pick_head",
@@ -533,7 +529,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tcomplement:porcelain_melter",
@@ -562,7 +558,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "tcomplement:porcelain_melter",
-              "Count:3": 2,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             },
@@ -644,7 +640,9 @@
     },
     "10:10": {
       "questID:3": 10,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        0
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -658,7 +656,7 @@
             "ForgeCaps:10": {
               "astralsorcery:cap_item_amulet_holder:10": {}
             },
-            "id:8": "extrautils2:bagofholding",
+            "id:8": "actuallyadditions:item_bag",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -676,11 +674,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "allowSmelt:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
-          "allowCraft:1": 1,
-          "allowAnvil:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "actuallyadditions:item_bag",
@@ -689,7 +687,7 @@
               "Damage:3": 0
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {
@@ -748,7 +746,9 @@
     },
     "12:10": {
       "questID:3": 12,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        0
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -756,7 +756,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:skull",
@@ -883,7 +883,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "botania:livingwood",
@@ -911,12 +911,6 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "botania:livingrock",
-              "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
-            },
-            "1:10": {
               "id:8": "botania:livingwood",
               "Count:3": 4,
               "OreDict:8": "",
@@ -1084,7 +1078,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:seared",
@@ -1331,7 +1325,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "ic2:blockmachinelv",
@@ -1382,7 +1376,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "botania:specialflower",
@@ -1450,7 +1444,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "immersiveengineering:stone_decoration",
@@ -1565,7 +1559,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "ic2:blockgenerator",
@@ -1607,13 +1601,8 @@
     "32:10": {
       "questID:3": 32,
       "preRequisites:11": [
-        15,
-<<<<<<< HEAD
-=======
-        41,
-        45,
->>>>>>> dev
-        40
+        40,
+        233
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1622,7 +1611,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "botania:pool",
@@ -1673,7 +1662,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalfoundation:material",
@@ -1772,11 +1761,8 @@
     "35:10": {
       "questID:3": 35,
       "preRequisites:11": [
-<<<<<<< HEAD
-=======
-        34,
->>>>>>> dev
-        33
+        33,
+        13
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1785,7 +1771,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalexpansion:dynamo",
@@ -1911,7 +1897,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "ic2c_extras:orewashingplant",
@@ -1954,7 +1940,6 @@
       "questID:3": 38,
       "preRequisites:11": [
         27,
-        31,
         37
       ],
       "properties:10": {
@@ -1964,7 +1949,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "ic2:blockmachinelv",
@@ -2006,7 +1991,7 @@
     "39:10": {
       "questID:3": 39,
       "preRequisites:11": [
-        43
+        13
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2015,7 +2000,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "botania:altar",
@@ -2079,7 +2064,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "botania:specialflower",
@@ -2271,7 +2256,7 @@
     "44:10": {
       "questID:3": 44,
       "preRequisites:11": [
-        29
+        63
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2280,7 +2265,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "immersiveengineering:stone_decoration",
@@ -2331,7 +2316,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "ic2:itemmisc",
@@ -2373,12 +2358,8 @@
     "46:10": {
       "questID:3": 46,
       "preRequisites:11": [
-<<<<<<< HEAD
         62,
         45
-=======
-        62
->>>>>>> dev
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2387,7 +2368,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:obsidian",
@@ -2532,7 +2513,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "immersiveengineering:treated_wood",
@@ -2583,7 +2564,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalfoundation:upgrade",
@@ -2596,11 +2577,7 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-<<<<<<< HEAD
           "ismain:1": 1,
-=======
-          "ismain:1": 0,
->>>>>>> dev
           "name:8": "Hardened upgrade Kit",
           "desc:8": "Once you have gone to the nether you will have some nickel and will be able to make the hardened upgrade and the turbine upgrade for the steam generator which will allow you to run the steam dynamo off of steam. However you will need to have something to generate steam for this."
         }
@@ -2750,7 +2727,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "railcraft:boiler_tank_pressure_low",
@@ -2763,15 +2740,9 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-<<<<<<< HEAD
           "ismain:1": 1,
           "name:8": "Boilin time",
-          "desc:8": "§fYou remember that external steam i talked about? well here it is, remember so that you dont have to keep gathering lava, steam can be used as a smeltery fuel"
-=======
-          "ismain:1": 0,
-          "name:8": "Boilin time",
-          "desc:8": "§fYou remember that external steam i talked about? well here it is"
->>>>>>> dev
+          "desc:8": "You remember that external steam i talked about? well here it is, remember so that you dont have to keep gathering lava, steam can be used as a smeltery fuel"
         }
       },
       "tasks:9": {
@@ -2865,7 +2836,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "ic2:blockelectric",
@@ -2911,11 +2882,7 @@
               "id:8": "thermalfoundation:coin",
               "Count:3": 1,
               "OreDict:8": "",
-<<<<<<< HEAD
               "Damage:3": 0
-=======
-              "Damage:3": 65
->>>>>>> dev
             }
           }
         }
@@ -3026,7 +2993,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:sand",
@@ -3041,7 +3008,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Vitrious sand",
-          "desc:8": "You begin to realise that your stone tools will not get you far in life and realise that you can make a pickaxe head to mine tin out of sand in your melter, these tools can be repaired with a vitrified sharpening kit\n\nNote: compressed sand melts into vitrified sand, regular sand makes glass"
+          "desc:8": "You begin to realise that your stone tools will not get you far in life and realise that you can make a pickaxe head to mine tin out of compressed sand inside of your melter, these tools can be repaired with a vitrified sharpening kit\n\nNote: compressed sand melts into vitrified sand, regular sand makes glass"
         }
       },
       "tasks:9": {
@@ -3071,12 +3038,8 @@
     "59:10": {
       "questID:3": 59,
       "preRequisites:11": [
-<<<<<<< HEAD
-=======
-        30,
->>>>>>> dev
-        44,
-        33
+        33,
+        44
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -3085,7 +3048,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "ic2:blockmachinelv",
@@ -3149,7 +3112,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "atum:kiln",
@@ -3237,7 +3200,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "botania:manaresource",
@@ -3291,7 +3254,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -3472,7 +3435,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "CHAIN",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "actuallyadditions:block_misc",
@@ -3523,7 +3486,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalexpansion:frame",
@@ -3618,7 +3581,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalexpansion:machine",
@@ -3727,7 +3690,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "rftools:storage_scanner",
@@ -3748,11 +3711,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "allowSmelt:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
-          "allowCraft:1": 1,
-          "allowAnvil:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "rftools:storage_scanner",
@@ -3761,7 +3724,7 @@
               "Damage:3": 0
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {
@@ -3791,7 +3754,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "botania:pool",
@@ -3804,11 +3767,7 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-<<<<<<< HEAD
           "ismain:1": 1,
-=======
-          "ismain:1": 0,
->>>>>>> dev
           "name:8": "More pools of the trade",
           "desc:8": "The diluted pool of mana has been beneficial in your early(er) game and you feel like its time to ramp up your mana production but dont want 20diluted pools in your base, so its time to updage, just place your diluted pool and 4 buckets of glowstone into your fluid transposer and watch the pool expand its storage"
         }
@@ -3846,7 +3805,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "rftools:modular_storage",
@@ -3897,7 +3856,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "storagedrawers:controller",
@@ -3948,7 +3907,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalexpansion:machine",
@@ -4058,7 +4017,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalfoundation:glass",
@@ -4079,7 +4038,6 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-<<<<<<< HEAD
           "autoConsume:1": 0,
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
@@ -4094,22 +4052,6 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
-=======
-          "allowSmelt:1": 1,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "allowCraft:1": 1,
-          "allowAnvil:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "thermalfoundation:glass",
-              "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 3
-            }
-          },
-          "taskID:8": "bq_standard:crafting"
->>>>>>> dev
         }
       },
       "rewards:9": {}
@@ -4349,7 +4291,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -4416,7 +4358,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -4484,7 +4426,9 @@
     },
     "88:10": {
       "questID:3": 88,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        0
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4492,7 +4436,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:paper",
@@ -4531,7 +4475,6 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-<<<<<<< HEAD
             "id:8": "agricraft:agri_seed",
             "Count:3": 1,
             "tag:10": {
@@ -4541,10 +4484,6 @@
               "agri_seed:8": "resource:ferranium_plant",
               "agri_growth:1": 1
             },
-=======
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
->>>>>>> dev
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -4554,7 +4493,6 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-<<<<<<< HEAD
           "name:8": "Iron seed",
           "desc:8": "No Description"
         }
@@ -4591,13 +4529,6 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-=======
-          "name:8": "New Quest",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
->>>>>>> dev
       "rewards:9": {}
     },
     "90:10": {
@@ -4705,7 +4636,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thaumcraft:crucible",
@@ -4787,7 +4718,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thaumcraft:smelter_basic",
@@ -4857,7 +4788,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thaumcraft:infusion_matrix",
@@ -4926,7 +4857,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -4967,7 +4898,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -5021,7 +4952,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thaumcraft:crystal_essence",
@@ -5042,11 +4973,7 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-<<<<<<< HEAD
           "ismain:1": 1,
-=======
-          "ismain:1": 0,
->>>>>>> dev
           "name:8": "Quartz",
           "desc:8": "You are going to want to get your self some Quartz slivers to soak up those extra essences so you dont spawn anything that you dont want.\n"
         }
@@ -5115,7 +5042,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tcomplement:porcelain_alloy_tank",
@@ -5136,11 +5063,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "allowSmelt:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
-          "allowCraft:1": 1,
-          "allowAnvil:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "tcomplement:porcelain_melter",
@@ -5155,7 +5082,7 @@
               "Damage:3": 0
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -5204,7 +5131,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "actuallyadditions:block_display_stand",
@@ -5255,7 +5182,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -5310,19 +5237,8 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-<<<<<<< HEAD
             "id:8": "ic2:ic2upgrades",
             "Count:3": 1,
-=======
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "ic2:itemarmorjetpackelectric",
-            "Count:3": 1,
-            "tag:10": {
-              "charge:3": 30000
-            },
->>>>>>> dev
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -5361,13 +5277,8 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-<<<<<<< HEAD
               "id:8": "ic2:ic2upgrades",
               "Count:3": 8,
-=======
-              "id:8": "ic2:itemarmorjetpackelectric",
-              "Count:3": 1,
->>>>>>> dev
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -5604,7 +5515,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "actuallyadditions:block_empowerer",
@@ -6027,7 +5938,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "actuallyadditions:block_misc",
@@ -6068,7 +5979,9 @@
     },
     "126:10": {
       "questID:3": 126,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -6076,7 +5989,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:glowstone_dust",
@@ -6139,7 +6052,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -6157,11 +6070,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Astrally Insane!",
-<<<<<<< HEAD
           "desc:8": "Astral sorcery can get you alot of useful things in this modpack, whether it be faster growing plants or cave illuminators this mod is a good asset to your base, also needed to progress so i think its about time you get going\n\nnote that most of the documentation for this tier is from the astral sorcery wiki on minecraftguides.net as i do not feel confident enough to explain how it works correctly and dont want to be sending you off to the wiki every quest as that will get annoying"
-=======
-          "desc:8": "Astral sorcery can get you alot of useful things in this modpack, whether it be faster growing plants or cave illuminators this mod is a good asset to your base, also needed to progress so i think its about time you get going"
->>>>>>> dev
         }
       },
       "tasks:9": {
@@ -6210,7 +6119,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "bloodmagic:altar",
@@ -6596,7 +6505,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "modularmachinery:itemblueprint",
@@ -6624,11 +6533,7 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-<<<<<<< HEAD
           "consume:1": 0,
-=======
-          "consume:1": 1,
->>>>>>> dev
           "requiredItems:9": {
             "0:10": {
               "id:8": "modularmachinery:itemblueprint",
@@ -6709,7 +6614,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalfoundation:material",
@@ -6724,7 +6629,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Finally to the revolution!",
-          "desc:8": "To make steel you need to put a quartz ingot into the blast furnace, then chill your unrefined hot steel in your chiller with a small amount of cryotheum and power"
+          "desc:8": "To make steel you need to put a quartz ingot into the blast furnace, then chill your unrefined hot steel in your chiller with a small amount of cryotheum and power\n\nPlease remember if you havent already it might be time to visit the end, as thats the only place certus will spawn"
         }
       },
       "tasks:9": {
@@ -6785,7 +6690,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "immersiveengineering:metal_device1",
@@ -6864,7 +6769,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advgenerators:turbine_kit_enderium",
@@ -6877,11 +6782,7 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-<<<<<<< HEAD
           "ismain:1": 1,
-=======
-          "ismain:1": 0,
->>>>>>> dev
           "name:8": "Advanced generators",
           "desc:8": "Although canola and steam have been good generators for power you feel the need to get an upgrade, advanced generators are mutliblocks that you can just keep adding to, however you will not be able to get EU out of this yet, that will come later"
         }
@@ -6937,7 +6838,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -6965,11 +6866,7 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-<<<<<<< HEAD
           "consume:1": 0,
-=======
-          "consume:1": 1,
->>>>>>> dev
           "requiredItems:9": {
             "0:10": {
               "id:8": "forge:bucketfilled",
@@ -7017,7 +6914,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "appliedenergistics2:energy_acceptor",
@@ -7030,11 +6927,7 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-<<<<<<< HEAD
           "ismain:1": 1,
-=======
-          "ismain:1": 0,
->>>>>>> dev
           "name:8": "Ae2... kindof",
           "desc:8": "Now that you have more infrastructure its time that you make yourself some better storage to prepare yourself for the future, however you do not currently have whats needed for autocrafting, its useful to have for the mass amounts of storage"
         }
@@ -7096,18 +6989,12 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-<<<<<<< HEAD
             "id:8": "ic2:blockchambers",
             "Count:3": 1,
             "Damage:2": 0,
-=======
-            "id:8": "ic2:blockgenerator",
-            "Count:3": 1,
-            "Damage:2": 5,
->>>>>>> dev
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -7115,15 +7002,9 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-<<<<<<< HEAD
           "ismain:1": 1,
           "name:8": "Going Nuclear",
           "desc:8": "With advanced generators for your RF its about time you upgraded your EU, i recommend using the internet to find the best way to set this up if you havent used it before\n\nthe cells can be processed into plutonium which will be needed later on in the modpack so i recommend setting these up now even if not needed"
-=======
-          "ismain:1": 0,
-          "name:8": "Going Nuclear",
-          "desc:8": "With advanced generators for your RF its about time you upgraded your EU, i recommend using the internet to find the best way to set this up if you havent used it before"
->>>>>>> dev
         }
       },
       "tasks:9": {
@@ -7165,7 +7046,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "extendedcrafting:material",
@@ -7220,12 +7101,8 @@
     "142:10": {
       "questID:3": 142,
       "preRequisites:11": [
-<<<<<<< HEAD
         141,
         151
-=======
-        141
->>>>>>> dev
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -7234,7 +7111,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "extendedcrafting:table_advanced",
@@ -7285,7 +7162,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "atmtweaks:item_material",
@@ -7300,11 +7177,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Growth essence",
-<<<<<<< HEAD
           "desc:8": "Growth essence can bring you onto bigger and better things, mainly the cloche so its about time you got onto smaller but better things, if you couldnt tell im hinting at the cloche"
-=======
-          "desc:8": "Growth essence can bring you onto bigger and better things, mainly the cloche"
->>>>>>> dev
         }
       },
       "tasks:9": {
@@ -7340,7 +7213,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "immersiveengineering:metal_device1",
@@ -7422,7 +7295,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "ic2c_extras:metalbender",
@@ -7472,7 +7345,6 @@
         }
       },
       "rewards:9": {}
-<<<<<<< HEAD
     },
     "147:10": {
       "questID:3": 147,
@@ -7486,131 +7358,12 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-=======
-    }
-  },
-  "questLines:9": {
-    "0:10": {
-      "quests:9": {
-        "0:10": {
-          "sizeX:3": 24,
-          "x:3": -288,
-          "y:3": -36,
-          "id:3": 0,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "sizeX:3": 24,
-          "x:3": -192,
-          "y:3": -36,
-          "id:3": 1,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "sizeX:3": 24,
-          "x:3": -96,
-          "y:3": -72,
-          "id:3": 2,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": -36,
-          "id:3": 3,
-          "sizeY:3": 24
-        },
-        "4:10": {
-          "sizeX:3": 48,
-          "x:3": 192,
-          "y:3": -48,
-          "id:3": 4,
-          "sizeY:3": 48
-        },
-        "5:10": {
-          "sizeX:3": 24,
-          "x:3": -240,
-          "y:3": -36,
-          "id:3": 6,
-          "sizeY:3": 24
-        },
-        "6:10": {
-          "sizeX:3": 24,
-          "x:3": -144,
-          "y:3": -36,
-          "id:3": 7,
-          "sizeY:3": 24
-        },
-        "7:10": {
-          "sizeX:3": 24,
-          "x:3": -48,
-          "y:3": -36,
-          "id:3": 8,
-          "sizeY:3": 24
-        },
-        "8:10": {
-          "sizeX:3": 24,
-          "x:3": -72,
-          "y:3": -192,
-          "id:3": 10,
-          "sizeY:3": 24
-        },
-        "9:10": {
-          "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": -192,
-          "id:3": 12,
-          "sizeY:3": 24
-        },
-        "10:10": {
-          "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": -36,
-          "id:3": 20,
-          "sizeY:3": 24
-        },
-        "11:10": {
-          "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": -36,
-          "id:3": 58,
-          "sizeY:3": 24
-        },
-        "12:10": {
-          "sizeX:3": 24,
-          "x:3": -96,
-          "y:3": 0,
-          "id:3": 60,
-          "sizeY:3": 24
-        },
-        "13:10": {
-          "sizeX:3": 24,
-          "x:3": -120,
-          "y:3": -192,
-          "id:3": 88,
-          "sizeY:3": 24
-        },
-        "14:10": {
-          "sizeX:3": 24,
-          "x:3": 48,
-          "y:3": -36,
-          "id:3": 100,
-          "sizeY:3": 24
-        }
-      },
-      "lineID:3": 0,
-      "properties:10": {
-        "betterquesting:10": {
           "visibility:8": "ALWAYS",
-          "name:8": "Tier 0, The Beginnings",
->>>>>>> dev
+          "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
               "astralsorcery:cap_item_amulet_holder:10": {}
             },
-<<<<<<< HEAD
             "id:8": "bloodmagic:sacrificial_dagger",
             "Count:3": 1,
             "tag:10": {},
@@ -7667,7 +7420,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "bloodmagic:slate",
@@ -7724,7 +7477,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -7784,7 +7537,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "bloodmagic:slate",
@@ -7826,8 +7579,7 @@
     "151:10": {
       "questID:3": 151,
       "preRequisites:11": [
-        149,
-        150
+        149
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -7836,7 +7588,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "extendedcrafting:material",
@@ -7887,7 +7639,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -7941,7 +7693,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -8002,7 +7754,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "astralsorcery:itemcraftingcomponent",
@@ -8054,7 +7806,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "atmtweaks:item_material",
@@ -8204,7 +7956,7 @@
     "158:10": {
       "questID:3": 158,
       "preRequisites:11": [
-        157
+        182
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -9319,7 +9071,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "actuallyadditions:item_canola_seed",
@@ -9389,7 +9141,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "actuallyadditions:block_laser_relay",
@@ -9440,7 +9192,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -9506,12 +9258,12 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "actuallyadditions:block_crystal_empowered",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 5,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -9520,17 +9272,35 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Empowered blocks",
+          "desc:8": "Empowered blocks can be used for things like growing your own resources, im only going to ask you to make empowered enori here in order to get yourself some iron seeds"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "actuallyadditions:block_crystal_empowered",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 5
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "182:10": {
       "questID:3": 182,
       "preRequisites:11": [
-        158
+        157
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -10129,11 +9899,14 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
-          "repeattime:3": -1,
+          "repeattime:3": 200,
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "thermalfoundation:tool.hammer_bronze",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -10144,12 +9917,46 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Hammers",
+          "desc:8": ""
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:sharpening_kit",
+              "Count:3": 8,
+              "tag:10": {
+                "Material:8": "vitrified_sand"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "thermalfoundation:tool.hammer_bronze",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
     "193:10": {
       "questID:3": 193,
@@ -11374,7 +11181,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Steel casing",
-          "desc:8": "Now that you have your ender crafter setup its time to put it to good use, make yourself some steel casings and use them to make all the mek machines you need"
+          "desc:8": "Now that you have your ender crafter setup its time to put it to good use, make yourself some steel casings and use them to make all the mek machines you need, Note that when you get into mekanism cables the EU conversion rate may be a little lower than you once anticipated..."
         }
       },
       "tasks:9": {
@@ -11719,7 +11526,7 @@
     "221:10": {
       "questID:3": 221,
       "preRequisites:11": [
-        220
+        219
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -11860,9 +11667,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "libvulpes:productingot",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 7,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -11871,7 +11678,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Titanium",
           "desc:8": "No Description"
         }
       },
@@ -11914,7 +11721,9 @@
     },
     "223:10": {
       "questID:3": 223,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        222
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -11925,7 +11734,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "advancedrocketry:rocketbuilder",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -11936,8 +11745,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Rocket assembly",
+          "desc:8": "Now that you have knowledge on advanced rocketry and how you get the machines up and running this next quest will be you finding your own feet if you havent done rocketry before, i will get you some of the minimum requirements but its upto you to figure out where to go from here as its rockets as you may alreadyknow are very configurable"
         }
       },
       "tasks:9": {
@@ -11950,7 +11759,31 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:stone",
+              "id:8": "advancedrocketry:rocketbuilder",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "advancedrocketry:fuelingstation",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "2:10": {
+              "id:8": "libvulpes:linker",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "3:10": {
+              "id:8": "advancedrocketry:launchpad",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "4:10": {
+              "id:8": "advancedrocketry:planetidchip",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
@@ -11963,7 +11796,9 @@
     },
     "224:10": {
       "questID:3": 224,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        220
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -11974,7 +11809,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "advancedrocketry:nitrogenfluid",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -11985,8 +11820,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Finishing your astral altars",
+          "desc:8": "Insert drizz here"
         }
       },
       "tasks:9": {
@@ -12012,7 +11847,9 @@
     },
     "225:10": {
       "questID:3": 225,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        223
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -12023,7 +11860,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "minecraft:fireworks",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -12034,22 +11871,38 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Space!",
+          "desc:8": "By this point i guess that you would have a rocket built (if not what are you waiting for? check the atm expert multiblock guide for information on how to set up the rocket assembler), you will need to shift click the guidance computer inside of your rocket and insert a planet chip for luna which is aqquired by using then astrobody data processor multiblock, dont forget your space suit"
         }
       },
       "tasks:9": {
         "0:10": {
+          "visible:1": 0,
+          "invertDistance:1": 0,
+          "range:3": -1,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "Luna",
+          "dimension:3": 3,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        },
+        "1:10": {
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
+          "index:3": 1,
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:stone",
-              "Count:3": 1,
+              "id:8": "libvulpes:productcrystal",
+              "Count:3": 4,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -12061,7 +11914,9 @@
     },
     "226:10": {
       "questID:3": 226,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        225
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -12072,7 +11927,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "libvulpes:productcrystal",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -12083,8 +11938,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Crystals",
+          "desc:8": "On the new planet of luna, you should have a look around undeground for some out of this world crystals, enough said, get mining"
         }
       },
       "tasks:9": {
@@ -12097,8 +11952,8 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:stone",
-              "Count:3": 1,
+              "id:8": "libvulpes:productcrystal",
+              "Count:3": 8,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -12354,6 +12209,232 @@
         }
       },
       "rewards:9": {}
+    },
+    "232:10": {
+      "questID:3": 232,
+      "preRequisites:11": [
+        28
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botania:livingrock",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "It\u0027s Living rock!",
+          "desc:8": "Now that we have that Pure Daisy let\u0027s make some Living rock and some Living wood. These will be needed for later on."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:livingrock",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "233:10": {
+      "questID:3": 233,
+      "preRequisites:11": [
+        28
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botania:livingrock",
+            "Count:3": 4,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Living totally rocks",
+          "desc:8": "Now that we have that Pure Daisy let\u0027s make some Living rock and some Living wood. These will be needed for later on."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:livingrock",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "234:10": {
+      "questID:3": 234,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "235:10": {
+      "questID:3": 235,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "236:10": {
+      "questID:3": 236,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "237:10": {
+      "questID:3": 237,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "extendedcrafting:material",
+            "Count:3": 2,
+            "Damage:2": 40,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Tier 1 slot machine",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -12361,107 +12442,114 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 24,
+          "x:3": 60,
           "y:3": 24,
           "id:3": 104,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 24,
+          "x:3": 60,
           "y:3": 60,
           "id:3": 130,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 24,
+          "x:3": 60,
           "y:3": 96,
           "id:3": 131,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 24,
+          "x:3": 60,
           "y:3": 132,
           "id:3": 132,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 24,
+          "x:3": 60,
           "y:3": 168,
           "id:3": 133,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 144,
+          "x:3": 180,
           "y:3": 24,
           "id:3": 184,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 144,
+          "x:3": 180,
           "y:3": 60,
           "id:3": 187,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 144,
+          "x:3": 180,
           "y:3": 96,
           "id:3": 188,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 144,
+          "x:3": 180,
           "y:3": 132,
           "id:3": 189,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 144,
+          "x:3": 180,
           "y:3": 168,
           "id:3": 190,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": 96,
           "y:3": 24,
           "id:3": 191,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 60,
+          "x:3": 24,
+          "y:3": 96,
           "id:3": 192,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": 96,
           "y:3": 96,
           "id:3": 193,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": 96,
           "y:3": 132,
           "id:3": 194,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": 96,
           "y:3": 168,
           "id:3": 195,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 60,
+          "id:3": 237,
           "sizeY:3": 24
         }
       },
@@ -12482,125 +12570,111 @@
         }
       },
       "order:3": 0
-=======
-            "id:8": "minecraft:stone_pickaxe",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": "§0§1§k§k§k§l§m§n§o§r§r§r§r§r§r§k§l§m§rStart here, dont collect 200"
-        }
-      },
-      "order:3": 1
->>>>>>> dev
     },
     "1:10": {
       "quests:9": {
         "0:10": {
-<<<<<<< HEAD
           "sizeX:3": 24,
-          "x:3": -288,
-          "y:3": -36,
+          "x:3": 144,
+          "y:3": 24,
           "id:3": 0,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": -192,
-          "y:3": -36,
+          "x:3": 72,
+          "y:3": 60,
           "id:3": 1,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": -96,
-          "y:3": -72,
+          "x:3": 120,
+          "y:3": 96,
           "id:3": 2,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": -36,
+          "x:3": 216,
+          "y:3": 96,
           "id:3": 3,
           "sizeY:3": 24
         },
         "4:10": {
-          "sizeX:3": 48,
-          "x:3": 192,
-          "y:3": -48,
+          "sizeX:3": 24,
+          "x:3": 216,
+          "y:3": 132,
           "id:3": 4,
-          "sizeY:3": 48
+          "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": -240,
-          "y:3": -36,
+          "x:3": 120,
+          "y:3": 60,
           "id:3": 6,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": -144,
-          "y:3": -36,
+          "x:3": 72,
+          "y:3": 96,
           "id:3": 7,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": -48,
-          "y:3": -36,
+          "x:3": 120,
+          "y:3": 132,
           "id:3": 8,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": -72,
-          "y:3": -192,
+          "x:3": 168,
+          "y:3": 60,
           "id:3": 10,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": -192,
+          "x:3": 72,
+          "y:3": 24,
           "id:3": 12,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": -36,
+          "x:3": 216,
+          "y:3": 60,
           "id:3": 20,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": -36,
+          "x:3": 168,
+          "y:3": 132,
           "id:3": 58,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": -96,
-          "y:3": 0,
+          "x:3": 72,
+          "y:3": 132,
           "id:3": 60,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": -120,
-          "y:3": -192,
+          "x:3": 216,
+          "y:3": 24,
           "id:3": 88,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 48,
-          "y:3": -36,
+          "x:3": 168,
+          "y:3": 96,
           "id:3": 100,
           "sizeY:3": 24
         }
@@ -12629,273 +12703,171 @@
     "2:10": {
       "quests:9": {
         "0:10": {
-          "sizeX:3": 48,
-          "x:3": -696,
-=======
-          "sizeX:3": 48,
-          "x:3": -732,
->>>>>>> dev
-          "y:3": -60,
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 24,
           "id:3": 13,
-          "sizeY:3": 48
+          "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -468,
-=======
-          "x:3": -552,
->>>>>>> dev
-          "y:3": 96,
-          "id:3": 15,
+          "x:3": 276,
+          "y:3": 132,
+          "id:3": 27,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -252,
-=======
-          "x:3": -276,
->>>>>>> dev
-          "y:3": -132,
-          "id:3": 27,
+          "x:3": 60,
+          "y:3": 132,
+          "id:3": 28,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -540,
-=======
-          "x:3": -624,
->>>>>>> dev
-          "y:3": 96,
-          "id:3": 28,
+          "x:3": 60,
+          "y:3": 84,
+          "id:3": 29,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -600,
-=======
-          "x:3": -624,
->>>>>>> dev
-          "y:3": -216,
-          "id:3": 29,
+          "x:3": 228,
+          "y:3": 132,
+          "id:3": 31,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -252,
-=======
-          "x:3": -276,
->>>>>>> dev
-          "y:3": -168,
-          "id:3": 31,
+          "x:3": 12,
+          "y:3": 180,
+          "id:3": 32,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -348,
-          "y:3": 72,
-=======
-          "x:3": -144,
-          "y:3": 96,
->>>>>>> dev
-          "id:3": 32,
+          "x:3": 276,
+          "y:3": 24,
+          "id:3": 33,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -600,
-=======
-          "x:3": -672,
->>>>>>> dev
-          "y:3": -48,
-          "id:3": 33,
+          "x:3": 168,
+          "y:3": 108,
+          "id:3": 35,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -516,
-=======
-          "x:3": -600,
->>>>>>> dev
-          "y:3": -48,
-          "id:3": 35,
+          "x:3": 324,
+          "y:3": 132,
+          "id:3": 37,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -252,
-=======
-          "x:3": -276,
->>>>>>> dev
-          "y:3": -96,
-          "id:3": 37,
+          "x:3": 324,
+          "y:3": 180,
+          "id:3": 38,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": -144,
-          "y:3": -132,
-          "id:3": 38,
+          "x:3": 12,
+          "y:3": 84,
+          "id:3": 39,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -540,
-=======
-          "x:3": -624,
->>>>>>> dev
-          "y:3": 36,
-          "id:3": 39,
+          "x:3": 12,
+          "y:3": 132,
+          "id:3": 40,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -468,
-=======
-          "x:3": -552,
->>>>>>> dev
-          "y:3": 36,
-          "id:3": 40,
+          "x:3": 228,
+          "y:3": 84,
+          "id:3": 44,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -600,
-=======
-          "x:3": -672,
->>>>>>> dev
-          "y:3": 36,
-          "id:3": 43,
+          "x:3": 276,
+          "y:3": 180,
+          "id:3": 45,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -348,
-=======
-          "x:3": -432,
->>>>>>> dev
-          "y:3": -216,
-          "id:3": 44,
+          "x:3": 276,
+          "y:3": 240,
+          "id:3": 46,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": -144,
-          "y:3": -84,
-          "id:3": 45,
+          "x:3": 108,
+          "y:3": 132,
+          "id:3": 48,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -144,
-          "y:3": 72,
-=======
-          "x:3": -36,
-          "y:3": -36,
->>>>>>> dev
-          "id:3": 46,
+          "x:3": 168,
+          "y:3": 144,
+          "id:3": 49,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -468,
-=======
-          "x:3": -552,
->>>>>>> dev
-          "y:3": -216,
-          "id:3": 48,
+          "x:3": 168,
+          "y:3": 180,
+          "id:3": 52,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -420,
-=======
-          "x:3": -504,
->>>>>>> dev
-          "y:3": -48,
-          "id:3": 49,
+          "x:3": 228,
+          "y:3": 180,
+          "id:3": 54,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -348,
-=======
-          "x:3": -432,
->>>>>>> dev
-          "y:3": -48,
-          "id:3": 52,
+          "x:3": 276,
+          "y:3": 84,
+          "id:3": 59,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -252,
-=======
-          "x:3": -276,
->>>>>>> dev
-          "y:3": -216,
-          "id:3": 54,
+          "x:3": 60,
+          "y:3": 240,
+          "id:3": 62,
           "sizeY:3": 24
         },
         "21:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -348,
-=======
-          "x:3": -432,
->>>>>>> dev
-          "y:3": -132,
-          "id:3": 59,
+          "x:3": 108,
+          "y:3": 84,
+          "id:3": 63,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -252,
-          "y:3": 72,
-=======
-          "x:3": -36,
-          "y:3": 96,
->>>>>>> dev
-          "id:3": 62,
+          "x:3": 324,
+          "y:3": 84,
+          "id:3": 146,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -684,
-=======
-          "x:3": -720,
->>>>>>> dev
-          "y:3": -216,
-          "id:3": 63,
-          "sizeY:3": 24
-        },
-        "24:10": {
-          "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": -252,
-=======
-          "x:3": -276,
->>>>>>> dev
-          "y:3": -60,
-          "id:3": 146,
+          "x:3": 60,
+          "y:3": 180,
+          "id:3": 233,
           "sizeY:3": 24
         }
       },
@@ -12915,195 +12887,178 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-<<<<<<< HEAD
           "desc:8": "Tech nerds and Botanical advancements"
-=======
-          "desc:8": "Tech nerds and thaumcraft wizardry"
->>>>>>> dev
         }
       },
       "order:3": 2
     },
-<<<<<<< HEAD
     "3:10": {
-=======
-    "2:10": {
->>>>>>> dev
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -612,
-          "y:3": -132,
+          "x:3": 252,
+          "y:3": 36,
           "id:3": 68,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": -516,
-          "y:3": -132,
+          "x:3": 288,
+          "y:3": 36,
           "id:3": 69,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": -516,
-          "y:3": -180,
+          "x:3": 324,
+          "y:3": 36,
           "id:3": 71,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": -516,
-          "y:3": -228,
+          "x:3": 360,
+          "y:3": 72,
           "id:3": 72,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": -456,
-          "y:3": -180,
+          "x:3": 324,
+          "y:3": 72,
           "id:3": 73,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": -456,
-<<<<<<< HEAD
-          "y:3": -228,
-=======
-          "y:3": -240,
->>>>>>> dev
+          "x:3": 360,
+          "y:3": 108,
           "id:3": 74,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": -576,
-<<<<<<< HEAD
-          "y:3": -228,
-=======
-          "y:3": -240,
->>>>>>> dev
+          "x:3": 360,
+          "y:3": 36,
           "id:3": 75,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": -456,
-          "y:3": -132,
+          "x:3": 288,
+          "y:3": 72,
           "id:3": 76,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": -396,
-          "y:3": -132,
+          "x:3": 252,
+          "y:3": 72,
           "id:3": 78,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": -288,
-          "y:3": -84,
+          "x:3": 204,
+          "y:3": 120,
           "id:3": 86,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": -612,
-          "y:3": -36,
+          "x:3": 156,
+          "y:3": 36,
           "id:3": 87,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": -564,
-          "y:3": -36,
+          "x:3": 120,
+          "y:3": 36,
           "id:3": 93,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": -516,
-          "y:3": -36,
+          "x:3": 156,
+          "y:3": 72,
           "id:3": 94,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": -456,
-          "y:3": -36,
+          "x:3": 120,
+          "y:3": 72,
           "id:3": 95,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": -456,
-          "y:3": 12,
+          "x:3": 84,
+          "y:3": 108,
           "id:3": 96,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": -516,
-          "y:3": 12,
+          "x:3": 84,
+          "y:3": 72,
           "id:3": 97,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": -564,
-          "y:3": -84,
+          "x:3": 84,
+          "y:3": 36,
           "id:3": 98,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": -336,
-          "y:3": -84,
+          "x:3": 204,
+          "y:3": 72,
           "id:3": 102,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": -396,
-          "y:3": -36,
+          "x:3": 156,
+          "y:3": 108,
           "id:3": 112,
           "sizeY:3": 24
         },
         "19:10": {
-          "sizeX:3": 48,
-          "x:3": -672,
-          "y:3": -96,
+          "sizeX:3": 24,
+          "x:3": 204,
+          "y:3": 36,
           "id:3": 126,
-<<<<<<< HEAD
-          "sizeY:3": 48
+          "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": -396,
-          "y:3": -180,
+          "x:3": 288,
+          "y:3": 108,
           "id:3": 178,
           "sizeY:3": 24
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": -336,
-          "y:3": -180,
+          "x:3": 252,
+          "y:3": 108,
           "id:3": 179,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": -396,
-          "y:3": -228,
+          "x:3": 324,
+          "y:3": 108,
           "id:3": 180,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": -360,
-          "y:3": 0,
+          "x:3": 120,
+          "y:3": 108,
           "id:3": 181,
           "sizeY:3": 24
         }
@@ -13252,57 +13207,6 @@
           "x:3": 120,
           "y:3": 24,
           "id:3": 213,
-=======
-          "sizeY:3": 48
-        }
-      },
-      "lineID:3": 2,
-      "properties:10": {
-        "betterquesting:10": {
-          "visibility:8": "ALWAYS",
-          "name:8": "Tier 2, Empowered tech",
-          "icon:10": {
-            "id:8": "thermalexpansion:frame",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": "Reconstructing vanilla and melting the nether"
-        }
-      },
-      "order:3": 3
-    },
-    "3:10": {
-      "quests:9": {
-        "0:10": {
-          "sizeX:3": 24,
-          "x:3": -372,
-          "y:3": -192,
-          "id:3": 89,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "sizeX:3": 24,
-          "x:3": -324,
-          "y:3": -192,
-          "id:3": 90,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "sizeX:3": 24,
-          "x:3": -276,
-          "y:3": -192,
-          "id:3": 91,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "sizeX:3": 24,
-          "x:3": -228,
-          "y:3": -192,
-          "id:3": 92,
->>>>>>> dev
           "sizeY:3": 24
         }
       },
@@ -13470,256 +13374,175 @@
       },
       "order:3": 4
     },
-<<<<<<< HEAD
     "5:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 48,
-          "x:3": 12,
-          "y:3": 120,
-=======
-    "4:10": {
-      "quests:9": {
-        "0:10": {
-          "sizeX:3": 48,
-          "x:3": -804,
-          "y:3": -300,
->>>>>>> dev
+          "x:3": 204,
+          "y:3": 0,
           "id:3": 103,
           "sizeY:3": 48
         },
         "1:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": 96,
-          "y:3": 132,
-=======
-          "x:3": -792,
-          "y:3": -240,
->>>>>>> dev
+          "x:3": 252,
+          "y:3": 60,
           "id:3": 125,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": 24,
-          "y:3": 228,
-=======
-          "x:3": -600,
-          "y:3": -288,
->>>>>>> dev
+          "x:3": 132,
+          "y:3": 72,
           "id:3": 127,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": 24,
-          "y:3": 48,
-=======
-          "x:3": -960,
-          "y:3": -288,
->>>>>>> dev
+          "x:3": 300,
+          "y:3": 60,
           "id:3": 128,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": 156,
-          "y:3": 132,
-=======
-          "x:3": -792,
-          "y:3": -204,
->>>>>>> dev
+          "x:3": 216,
+          "y:3": 60,
           "id:3": 134,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
           "x:3": 216,
-          "y:3": 132,
-=======
-          "x:3": -792,
-          "y:3": -168,
->>>>>>> dev
+          "y:3": 96,
           "id:3": 135,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": 72,
-          "y:3": 180,
-=======
-          "x:3": -744,
-          "y:3": -252,
->>>>>>> dev
+          "x:3": 156,
+          "y:3": 12,
           "id:3": 136,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": 192,
-          "y:3": 168,
-=======
-          "x:3": -828,
-          "y:3": -192,
->>>>>>> dev
+          "x:3": 180,
+          "y:3": 96,
           "id:3": 137,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": 276,
-          "y:3": 132,
-=======
-          "x:3": -792,
-          "y:3": -132,
->>>>>>> dev
+          "x:3": 252,
+          "y:3": 96,
           "id:3": 138,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": 216,
-          "y:3": 96,
-=======
-          "x:3": -756,
-          "y:3": -168,
->>>>>>> dev
+          "x:3": 180,
+          "y:3": 132,
           "id:3": 139,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": 240,
-          "y:3": 168,
-=======
-          "x:3": -828,
-          "y:3": -144,
->>>>>>> dev
+          "x:3": 180,
+          "y:3": 60,
           "id:3": 140,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": 336,
+          "x:3": 252,
           "y:3": 132,
-=======
-          "x:3": -792,
-          "y:3": -96,
->>>>>>> dev
           "id:3": 141,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": 396,
+          "x:3": 216,
           "y:3": 132,
-=======
-          "x:3": -792,
-          "y:3": -60,
->>>>>>> dev
           "id:3": 142,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": 456,
-          "y:3": 108,
-=======
-          "x:3": -792,
-          "y:3": -24,
->>>>>>> dev
+          "x:3": 252,
+          "y:3": 168,
           "id:3": 143,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": 456,
-          "y:3": 48,
+          "x:3": 216,
+          "y:3": 168,
           "id:3": 144,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 48,
+          "x:3": 336,
+          "y:3": 60,
           "id:3": 147,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 156,
-          "y:3": 48,
+          "x:3": 336,
+          "y:3": 96,
           "id:3": 148,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 276,
-          "y:3": 24,
+          "x:3": 300,
+          "y:3": 96,
           "id:3": 149,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": 276,
-          "y:3": 72,
+          "x:3": 336,
+          "y:3": 132,
           "id:3": 150,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 336,
-          "y:3": 48,
+          "x:3": 300,
+          "y:3": 132,
           "id:3": 151,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 276,
-          "y:3": 228,
+          "x:3": 96,
+          "y:3": 120,
           "id:3": 152,
           "sizeY:3": 24
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": 156,
-          "y:3": 228,
+          "x:3": 96,
+          "y:3": 72,
           "id:3": 153,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": 396,
-          "y:3": 228,
+          "x:3": 132,
+          "y:3": 120,
           "id:3": 154,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": 456,
-          "y:3": 156,
+          "x:3": 180,
+          "y:3": 168,
           "id:3": 155,
           "sizeY:3": 24
-=======
-          "x:3": -756,
-          "y:3": -24,
-          "id:3": 144,
-          "sizeY:3": 24
->>>>>>> dev
         }
       },
       "lineID:3": 4,
@@ -13740,27 +13563,26 @@
       },
       "order:3": 5
     },
-<<<<<<< HEAD
     "6:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 312,
+          "x:3": 288,
           "y:3": 72,
           "id:3": 156,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 360,
+          "x:3": 336,
           "y:3": 108,
           "id:3": 157,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 312,
-          "y:3": 120,
+          "x:3": 240,
+          "y:3": 108,
           "id:3": 158,
           "sizeY:3": 24
         },
@@ -13773,113 +13595,113 @@
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 312,
+          "x:3": 288,
           "y:3": 24,
           "id:3": 160,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 360,
-          "y:3": 12,
+          "x:3": 336,
+          "y:3": 24,
           "id:3": 161,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 360,
-          "y:3": 60,
+          "x:3": 336,
+          "y:3": 72,
           "id:3": 162,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 168,
-          "y:3": 120,
+          "x:3": 192,
+          "y:3": 72,
           "id:3": 163,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 156,
+          "x:3": 144,
+          "y:3": 108,
           "id:3": 164,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 132,
+          "x:3": 192,
           "y:3": 24,
           "id:3": 165,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 168,
-          "y:3": 60,
+          "x:3": 144,
+          "y:3": 24,
           "id:3": 166,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 84,
+          "x:3": 144,
+          "y:3": 72,
           "id:3": 167,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 204,
+          "x:3": 192,
+          "y:3": 144,
           "id:3": 169,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 204,
+          "x:3": 192,
+          "y:3": 180,
           "id:3": 170,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 264,
-          "y:3": 204,
+          "x:3": 240,
+          "y:3": 180,
           "id:3": 171,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 312,
-          "y:3": 204,
+          "x:3": 288,
+          "y:3": 180,
           "id:3": 172,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 48,
-          "x:3": 348,
-          "y:3": 192,
+          "x:3": 228,
+          "y:3": 216,
           "id:3": 173,
           "sizeY:3": 48
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 360,
-          "y:3": 156,
+          "x:3": 288,
+          "y:3": 108,
           "id:3": 182,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 156,
+          "x:3": 288,
+          "y:3": 144,
           "id:3": 183,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 168,
-          "y:3": 168,
+          "x:3": 192,
+          "y:3": 108,
           "id:3": 196,
           "sizeY:3": 24
         },
@@ -13914,147 +13736,112 @@
         "0:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": 12,
+          "y:3": 72,
           "id:3": 214,
-=======
-    "5:10": {
-      "quests:9": {
-        "0:10": {
-          "sizeX:3": 24,
-          "x:3": -312,
-          "y:3": -168,
-          "id:3": 104,
->>>>>>> dev
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": 60,
-          "y:3": 12,
+          "x:3": 12,
+          "y:3": 108,
           "id:3": 215,
-=======
-          "x:3": -312,
-          "y:3": -132,
-          "id:3": 130,
->>>>>>> dev
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": 180,
-          "y:3": 12,
+          "x:3": 12,
+          "y:3": 144,
           "id:3": 216,
-=======
-          "x:3": -312,
-          "y:3": -96,
-          "id:3": 131,
->>>>>>> dev
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": 228,
-          "y:3": 12,
+          "x:3": 48,
+          "y:3": 108,
           "id:3": 217,
-=======
-          "x:3": -312,
-          "y:3": -60,
-          "id:3": 132,
->>>>>>> dev
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-<<<<<<< HEAD
-          "x:3": 180,
-          "y:3": 48,
-          "id:3": 218,
+          "x:3": 84,
+          "y:3": 108,
+          "id:3": 219,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 228,
-          "y:3": 48,
-          "id:3": 219,
-          "sizeY:3": 24
-        },
-        "6:10": {
-          "sizeX:3": 24,
-          "x:3": 228,
+          "x:3": 120,
           "y:3": 84,
           "id:3": 220,
           "sizeY:3": 24
         },
-        "7:10": {
-          "sizeX:3": 48,
-          "x:3": 108,
-          "y:3": 48,
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": 132,
           "id:3": 221,
-          "sizeY:3": 48
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": 168,
+          "id:3": 222,
+          "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 60,
-          "id:3": 222,
+          "x:3": 120,
+          "y:3": 204,
+          "id:3": 223,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 276,
-          "y:3": 24,
-          "id:3": 223,
+          "x:3": 120,
+          "y:3": 48,
+          "id:3": 224,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 276,
-          "y:3": 24,
-          "id:3": 224,
+          "x:3": 156,
+          "y:3": 204,
+          "id:3": 225,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 276,
-          "y:3": 24,
-          "id:3": 225,
+          "x:3": 156,
+          "y:3": 168,
+          "id:3": 226,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 276,
-          "y:3": 24,
-          "id:3": 226,
+          "x:3": 324,
+          "y:3": 36,
+          "id:3": 227,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 276,
-          "y:3": 24,
-          "id:3": 227,
+          "x:3": 324,
+          "y:3": 36,
+          "id:3": 228,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 276,
-          "y:3": 24,
-          "id:3": 228,
+          "x:3": 324,
+          "y:3": 36,
+          "id:3": 229,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 276,
-          "y:3": 24,
-          "id:3": 229,
-          "sizeY:3": 24
-        },
-        "16:10": {
-          "sizeX:3": 24,
-          "x:3": 276,
-          "y:3": 24,
+          "x:3": 324,
+          "y:3": 36,
           "id:3": 230,
           "sizeY:3": 24
         }
@@ -14062,44 +13849,20 @@
       "lineID:3": 7,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "Mekanising space",
           "icon:10": {
             "id:8": "mekanism:basicblock",
             "Count:3": 1,
             "Damage:2": 8,
-=======
-          "x:3": -312,
-          "y:3": -24,
-          "id:3": 133,
-          "sizeY:3": 24
-        }
-      },
-      "lineID:3": 5,
-      "properties:10": {
-        "betterquesting:10": {
-          "visibility:8": "NORMAL",
-          "name:8": "The arcade",
-          "icon:10": {
-            "id:8": "thermalfoundation:coin",
-            "Count:3": 1,
-            "Damage:2": 103,
->>>>>>> dev
             "OreDict:8": ""
           },
           "bg_image:8": "",
-          "bg_size:3": 256,
-<<<<<<< HEAD
+          "bg_size:3": 128,
           "desc:8": "No Description"
         }
       },
       "order:3": 7
-=======
-          "desc:8": "Use this to buy things a few tiers before they are available to you, NOT IMPLEMENTED YET"
-        }
-      },
-      "order:3": 0
->>>>>>> dev
     }
   },
   "questSettings:10": {
@@ -14111,7 +13874,7 @@
       "home_anchor_x:5": 0.5,
       "editmode:1": 1,
       "hardcore:1": 0,
-      "home_image:8": "betterquesting:textures/gui/default_title.png",
+      "home_image:8": "atm3-expert:textures/gui/title_card.png",
       "party_enable:1": 1,
       "pack_version:3": 0,
       "home_offset_x:3": -128,

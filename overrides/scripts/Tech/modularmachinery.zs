@@ -9,6 +9,7 @@ import crafttweaker.block.IBlockDefinition;
 import crafttweaker.block.IBlock;
 import crafttweaker.game.IGame;
 import mods.chisel.Carving;
+import mods.tconstruct.Casting;
 
 print("modular machinery recipes");
 
@@ -32,3 +33,6 @@ mods.chisel.Carving.addVariation("Blueprints", <modularmachinery:itemblueprint>)
 mods.chisel.Carving.addVariation("Blueprints", mag_fab);
 mods.chisel.Carving.addVariation("Blueprints", growth_tower);
 mods.chisel.Carving.addVariation("Blueprints", ind_chiller);
+
+#Modularium
+mods.tconstruct.Casting.addTableRecipe(<modularmachinery:itemmodularium>, <tconstruct:cast_custom>, <liquid:soldering_alloy>, 144, true, 50);

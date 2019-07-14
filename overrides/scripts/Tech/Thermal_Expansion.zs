@@ -159,13 +159,27 @@ recipes.addShaped("CTthermalturbine", <thermalexpansion:augment:640>,
 recipes.removeShaped(<thermalfoundation:upgrade:1>);
 recipes.addShaped("CTkit1", <thermalfoundation:upgrade:1>, [[null, <thermalfoundation:material:353>, null],[<thermalfoundation:material:353>, <thermalfoundation:material:288>, <thermalfoundation:material:353>], [<ic2:itemmisc:451>, <actuallyadditions:item_crystal_empowered>, <ic2:itemmisc:451>]]);
 
-#Signalum Upgrade Kit changes
-recipes.removeShaped(<thermalfoundation:upgrade:2>);
-recipes.addShaped("CTkit2", <thermalfoundation:upgrade:2>, [[null, <actuallyadditions:item_crystal_empowered:4>, null],[<thermalfoundation:material:357>, <ic2:itembatlamacrystal>.anyDamage(), <thermalfoundation:material:357>], [<alchemistry:ingot:62>, <ore:circuitAdvanced>, <alchemistry:ingot:62>]]);
+#signalum
+recipes.remove(<thermalfoundation:upgrade:2>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <thermalfoundation:upgrade:2>, [
+	[<thermalfoundation:material:352>, <thermalfoundation:material:165>, <appliedenergistics2:material:10>, <thermalfoundation:material:165>, <thermalfoundation:material:352>], 
+	[<thermalfoundation:material:165>, <thermalfoundation:material:515>, <contenttweaker:manadiamondplate>, <ic2:itemmisc:452>, <thermalfoundation:material:165>], 
+	[<appliedenergistics2:material:10>, <thermalfoundation:material:165>, <bloodmagic:slate:1>, <thermalfoundation:material:165>, <appliedenergistics2:material:10>], 
+	[<thermalfoundation:material:165>, <ic2:itemmisc:452>, <contenttweaker:manadiamondplate>, <thermalfoundation:material:515>, <thermalfoundation:material:165>], 
+	[<thermalfoundation:material:352>, <thermalfoundation:material:165>, <appliedenergistics2:material:10>, <thermalfoundation:material:165>, <thermalfoundation:material:352>]
+]);
 
-#Resonant Upgrade Kit changes
-recipes.removeShaped(<thermalfoundation:upgrade:3>);
-#change me// recipes.addShaped("CTkit3", <thermalfoundation:upgrade:3>, [[null, <thermalfoundation:material:359>, null],[<thermalfoundation:material:359>, <ic2:itemmisc:258>, <thermalfoundation:material:359>], [<ic2:ic2upgrades:32>, <thermalfoundation:material:359>, <ic2:ic2upgrades:32>]]);
+#resonant
+recipes.remove(<thermalfoundation:upgrade:3>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <thermalfoundation:upgrade:3>, [
+	[<enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>], 
+	[<enderio:item_material:58>, <forestry:chipsets:3>, <thaumcraft:ingot>, <actuallyadditions:item_crystal_empowered:4>, <thaumcraft:ingot>, <forestry:chipsets:3>, <enderio:item_material:58>], 
+	[<enderio:item_material:58>, <thaumcraft:ingot>, <plustic:osmiridiumingot>, <plustic:osmiridiumingot>, <plustic:osmiridiumingot>, <thaumcraft:ingot>, <enderio:item_material:58>], 
+	[<enderio:item_material:58>, <actuallyadditions:item_crystal_empowered:4>, <plustic:osmiridiumingot>, <mekanism:teleportationcore>, <plustic:osmiridiumingot>, <actuallyadditions:item_crystal_empowered:4>, <enderio:item_material:58>], 
+	[<enderio:item_material:58>, <thaumcraft:ingot>, <plustic:osmiridiumingot>, <plustic:osmiridiumingot>, <plustic:osmiridiumingot>, <thaumcraft:ingot>, <enderio:item_material:58>], 
+	[<enderio:item_material:58>, <forestry:chipsets:3>, <thaumcraft:ingot>, <actuallyadditions:item_crystal_empowered:4>, <thaumcraft:ingot>, <forestry:chipsets:3>, <enderio:item_material:58>], 
+	[<enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>]
+]);
 
 #fractioning still and gearworker for compactor
 recipes.remove(<thermalexpansion:machine:7>); 

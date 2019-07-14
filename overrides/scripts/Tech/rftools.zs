@@ -8,7 +8,7 @@ import crafttweaker.block.IBlockProperties;
 import crafttweaker.block.IBlockDefinition;
 import crafttweaker.block.IBlock;
 import crafttweaker.game.IGame;
-import mods.jei.JEI.removeAndHide;
+import mods.jei.JEI.removeAndHide as removal;
 import mods.forestry.ThermionicFabricator;
 
 print("RF tools recipes");
@@ -39,3 +39,6 @@ mods.forestry.ThermionicFabricator.addCast(<rftools:machine_frame>,
 [<contenttweaker:coldironplate>,<thermalfoundation:glass_alloy>,<contenttweaker:coldironplate>]], 
 <liquid: glass> * 400);
 
+
+#rftools flight controller
+removal(<rftools:flight_module>);
