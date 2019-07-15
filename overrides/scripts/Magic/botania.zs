@@ -206,7 +206,7 @@ mods.botania.ElvenTrade.addRecipe([<botania:dreamwood>], [<botania:livingwood>,<
 
 #Pixie Dust recipe
 mods.botania.ElvenTrade.removeRecipe(<botania:manaresource:8>);
-mods.botania.ElvenTrade.addRecipe([<botania:manaresource:8>], [<botania:quartz:5>,<botania:manaresource:1>]);
+mods.botania.ElvenTrade.addRecipe([<botania:manaresource:8>], [<botania:quartz:6>,<botania:manaresource:1>]);
 
 #Dragonstone recipe
 mods.botania.ElvenTrade.removeRecipe(<botania:manaresource:9>);
@@ -272,6 +272,6 @@ mods.botania.RuneAltar.addRecipe(<bloodmagic:decorative_brick>,[<ic2:itemmisc:20
 
 #Sunny quartz
 recipes.remove(<botania:quartz:6>);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<botania:quartz:6>, <minecraft:quartz>, 50000);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<botania:quartz:6>, <botania:quartz:1>, 50000);
 
 
