@@ -63,14 +63,6 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtArcaneStone", "", 5,
 		[null, <ore:livingrock>, null]]
 		);
 
-
-#essentia Tube
-mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:tube>);
-mods.thaumcraft.Crucible.registerRecipe("CtEtube","TUBES",<thaumcraft:tube>*12,
-				<ore:plateIron>,
-	[<aspect:vacuos>*10,<aspect:metallum>*10]
-	);
-
 #Essentia Smeltery
 recipes.remove(<thaumcraft:smelter_basic>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtEssentiaSmeltery", "ALUMENTUM", 50,
