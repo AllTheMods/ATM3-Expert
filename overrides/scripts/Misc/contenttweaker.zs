@@ -35,8 +35,8 @@ ManaSteelPlate.register();
 var corruptedStarlight = VanillaFactory.createFluid("Corrupted_Starlight", Color.fromHex("FF4D4D"));
 corruptedStarlight.register();
 
-var LonsdaleShard = VanillaFactory.createItem("LonsdaleShard");
-LonsdaleShard.register();
+var PlanetShard = VanillaFactory.createItem("PlanetShard");
+PlanetShard.register();
 
 var manaDiamondPlate = VanillaFactory.createItem("ManaDiamondPlate");
 manaDiamondPlate.register();
@@ -47,29 +47,6 @@ ElementiumProcessor.register();
 var ElementiumPrint = VanillaFactory.createItem("ElementiumPrint");
 ElementiumPrint.register();
 
-var CorruptedStarmetal = VanillaFactory.createItem("CorruptedStarmetal");
-CorruptedStarmetal.register();
-
 var CrystallisedBlood = VanillaFactory.createItem("CrystallisedBlood");
 CrystallisedBlood.register();
 
-#Infusion Block Contenttweaker Block Creation
-
-var infusionBlock = VanillaFactory.createBlock("infusion_block", <blockmaterial:rock>);
-infusionBlock.setBlockHardness(5.0);
-infusionBlock.setLightValue(2);
-infusionBlock.setBlockResistance(5.0);
-infusionBlock.setToolClass("pickaxe");
-infusionBlock.setToolLevel(2);
-infusionBlock.setBlockSoundType(<soundtype:stone>);	
-infusionBlock.register();
-
-
-var magmaCobble = VanillaFactory.createBlock("magma_soaked_cobblestone", <blockmaterial:rock>);
-magmaCobble.setBlockHardness(5.0);
-magmaCobble.setLightValue(1);
-magmaCobble.setBlockResistance(5.0);
-magmaCobble.setToolClass("pickaxe");
-magmaCobble.setToolLevel(2);
-magmaCobble.setBlockSoundType(<soundtype:stone>);	
-magmaCobble.register();
