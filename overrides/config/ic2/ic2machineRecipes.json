@@ -571,7 +571,8 @@
   "item.plutoniumDust_602955216": true,
   "item.plutoniumIngot_-1420216332": true,
   "item.thorium232Ingot_516971920": true,
-  "item.thorium230Ingot_1326318484": true
+  "item.thorium230Ingot_1326318484": true,
+  "item.denseIronPlate_1885833001": true
  },
  "massfabricatorAmplifier": {
   "ScrapAmplifier": true,
@@ -1484,7 +1485,23 @@
   "item.reEnrichedMOXRod_1189917384": true,
   "item.reEnrichedThorium232Rod_-670565881": true,
   "item.uraniumPurifiedCrushedOre_1265969566": true,
-  "item.uraniumCrushedOre_-1621447908": true
+  "item.uraniumCrushedOre_-1621447908": true,
+  "item.ironPurifiedCrushedOre": true,
+  "item.goldPurifiedCrushedOre": true,
+  "item.copperPurifiedCrushedOre": true,
+  "item.tinPurifiedCrushedOre": true,
+  "item.silverPurifiedCrushedOre": true,
+  "item.leadPurifiedCrushedOre": true,
+  "item.ironCrushedOre": true,
+  "item.goldCrushedOre": true,
+  "item.copperCrushedOre": true,
+  "item.tinCrushedOre": true,
+  "item.silverCrushedOre": true,
+  "item.leadCrushedOre": true,
+  "item.itemRodUranEnriched": true,
+  "item.reEnrichedThorium232Rod": true,
+  "item.uraniumPurifiedCrushedOre": true,
+  "item.uraniumCrushedOre": true
  },
  "rolling": {
   "copperPlateItemCasingRolling": true,
@@ -1536,7 +1553,26 @@
   "ic2exprecipe_Manasteel Plate_": true,
   "ic2exprecipe_Cold Iron Plate_": true,
   "ic2exprecipe_Quartz Plate_": true,
-  "ic2exprecipe_Mana Diamond Plate_": true
+  "ic2exprecipe_Mana Diamond Plate_": true,
+  "item.copperPlate_740445638": true,
+  "item.tinPlate_336652276": true,
+  "item.silverPlate_-1874874914": true,
+  "item.leadPlate_-785722752": true,
+  "item.ironPlate_-1533205592": true,
+  "item.goldPlate_-767507336": true,
+  "item.refinedIronPlate_772675144": true,
+  "item.steelPlate_1476571600": true,
+  "item.bronzePlate_-1970007612": true,
+  "item.copperCasing_-1052909696": true,
+  "item.tinCasing_1988225964": true,
+  "item.silverCasing_-359732736": true,
+  "item.leadCasing_2040344416": true,
+  "item.ironCasing_414298336": true,
+  "item.goldCasing_-1560671264": true,
+  "item.refinedIronCasing_-746960820": true,
+  "item.steelCasing_-1023636884": true,
+  "item.bronzeCasing_-870031712": true,
+  "tile.blockMiningPipe_-423695935": true
  },
  "extruding": {
   "copperCableExtruding": true,
@@ -1546,7 +1582,15 @@
   "tinCanExtruding": true,
   "ironFenceExtruding": true,
   "HVCableExtruding": true,
-  "emptyFuelRodExtruding": true
+  "emptyFuelRodExtruding": true,
+  "item.emptyFuelRod_559367375": true,
+  "item.itemCable_-1187056622": true,
+  "item.itemTinCable_-717541642": true,
+  "item.itemBronzeCable_-1989635772": true,
+  "item.itemGoldCable_-1026242519": true,
+  "item.itemTinCan_539437174": true,
+  "tile.blockFenceIron_-545046078": true,
+  "item.itemIronCable_216548277": true
  },
  "sawmill": {
   "Oak Wood Planks": true,

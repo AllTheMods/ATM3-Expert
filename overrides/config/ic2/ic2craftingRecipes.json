@@ -1964,5 +1964,9 @@
  "shaped_item.quadThorium230Rod_-1288781180": true,
  "shaped_item.quadThorium230Rod_1429451258": true,
  "shapeless_item.isotopicThorium230Rod_1554508514": true,
- "shapeless_item.singleThorium230Rod_1150986744": true
+ "shapeless_item.singleThorium230Rod_1150986744": true,
+ "shaped_tile.thermoElectricGenerator_-1695678795": true,
+ "shaped_tile.thermoElectricGeneratorMkII_1951045302": true,
+ "shaped_item.plutoniumRTG_219412709": true,
+ "shaped_item.thoriumRTG_-651320792": true
 }
