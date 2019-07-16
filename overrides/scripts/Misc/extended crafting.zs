@@ -72,7 +72,7 @@ recipes.addShaped(<extendedcrafting:trimmed:2>,
 recipes.remove(<extendedcrafting:frame>);
 recipes.addShaped(<extendedcrafting:frame>,
  [[<extendedcrafting:material>, <botania:elfglass>, <extendedcrafting:material>],
- [<atmtweaks:item_material:2>, <contenttweaker:corruptedstarmetal>, <atmtweaks:item_material:2>], 
+ [<atmtweaks:item_material:2>, <bitewolfbits:ingot_corruptmetal>, <atmtweaks:item_material:2>], 
  [<extendedcrafting:material>, <botania:elfglass>, <extendedcrafting:material>]]);
 
 #pedestal

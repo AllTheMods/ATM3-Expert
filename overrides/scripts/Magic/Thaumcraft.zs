@@ -33,7 +33,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtHellfire", "", 250,
 		[perditioAspect * 30, ignisAspect * 30],
 		<bloodmagic:soul_forge>,
 		[[<ic2c_extras:refinedironblock>, null, <ic2c_extras:refinedironblock>],
-		[<atum:porphyry>, <contenttweaker:lonsdaleshard>, <atum:porphyry>],
+		[<atum:porphyry>, <bitewolfbits:lonsdale_shard>, <atum:porphyry>],
 		[<atum:porphyry>, <minecraft:gold_block>, <atum:porphyry>]]
 		);
 		
@@ -169,7 +169,7 @@ mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:void_siphon>);
 mods.thaumcraft.Infusion.registerRecipe("CtTeruBozu", "VOIDSYPHON", <thaumcraft:void_siphon>, 2, 
 		[<aspect:vacuos> *100, <aspect:perditio> *100, <aspect:fabrico> *100, <aspect:alienis> *100],
 		<botania:pylon:1>, 
-		[<contenttweaker:infusion_block>, <minecraft:nether_star>, <thaumcraft:mechanism_complex>, <ore:plateBrass>, <ore:plateBrass>, <contenttweaker:infusion_block>, <thaumcraft:metal_void>]
+		[<bitewolfbits:infusion_block>, <minecraft:nether_star>, <thaumcraft:mechanism_complex>, <ore:plateBrass>, <ore:plateBrass>, <bitewolfbits:infusion_block>, <thaumcraft:metal_void>]
 	);
 
 #Alchemical Construct
@@ -314,14 +314,14 @@ recipes.remove(<bloodmagic:altar>);
 mods.thaumcraft.Infusion.registerRecipe("CtBloodAltar", "", 
 		<bloodmagic:altar>, 15, 
 		[<aspect:alkimia> *40, <aspect:mortuus> *25, <aspect:tenebrae> *25, <aspect:victus> *40],
-		<contenttweaker:lonsdaleshard>, 
+		<bitewolfbits:lonsdale_shard>, 
 		[<actuallyadditions:block_misc:2>, <minecraft:gold_block>, <contenttweaker:quartzingot>, <actuallyadditions:block_misc:2>, <actuallyadditions:block_crystal_empowered>, <contenttweaker:quartzingot>]
 	);
 	
 # Altar Block			
 			
 mods.thaumcraft.Infusion.registerRecipe("CtLonsdale", "", 
-		<contenttweaker:lonsdaleshard>, 10, 
+		<bitewolfbits:lonsdale_shard>, 10, 
 		[<aspect:mortuus> *12, <aspect:tenebrae> *42, <aspect:alienis> *12],
 		 <actuallyadditions:block_crystal_empowered:3>, 
 		[<bloodmagic:monster_soul>, <bloodmagic:monster_soul>, <bloodmagic:monster_soul>, <bloodmagic:monster_soul>]
@@ -358,7 +358,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtRechargePedestal", "BASE
 # Infusion Block
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtInfusionBlock", "BASEINFUSION", 50,
 		[aerAspect, terraAspect, aquaAspect, ignisAspect, ordoAspect, perditioAspect],
-		<contenttweaker:infusion_block>,
+		<bitewolfbits:infusion_block>,
 		[[<thaumcraft:stone_arcane_brick>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praecantatio"}]}), <thaumcraft:stone_arcane_brick>],
 		[<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "instrumentum"}]}), <thermalfoundation:glass:8>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "instrumentum"}]})],
 		[<thaumcraft:stone_arcane_brick>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praecantatio"}]}), <thaumcraft:stone_arcane_brick>]]
