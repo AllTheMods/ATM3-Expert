@@ -15,25 +15,37 @@ val ironPlate = <thermalfoundation:material:32>;
 val ironGear = <ore:ingotTin>;
 val cobbleTwoTimes = <ore:compressed1xCobblestone>;
 
+#Logistics pipes changes
+/// 
+recipes.remove(<logisticspipes:chip_basic_raw>);
+recipes.addShapedMirrored(<logisticspipes:chip_basic_raw> * 2, 
+ [[null, <thermalfoundation:material:32>, null],
+ [<ic2:itemmisc:53>, <minecraft:sandstone>, <ic2:itemmisc:53>], 
+ [null, <thermalfoundation:material:32>, null]]);
+
+
+#cinderpearl>>blaze powder
+recipes.removeShapeless(<minecraft:blaze_powder>, [<thaumcraft:cinderpearl>]);
+
 #Flint and Steel
 recipes.remove(<minecraft:flint_and_steel>);
 recipes.addShaped("CtFlintandSteel", <minecraft:flint_and_steel>,
-	[[<flintmod:tool_part_flint>, <ore:ingotRefinedIron>]]);
+	[[<ic2:itemmisc:255>, <ore:ingotRefinedIron>]]);
 
 
 # Rustic Advanced Condenser # blazing trail gate to thaum
 recipes.remove(<rustic:condenser_advanced>);
 recipes.addShaped("CtAdvancedCondenser", <rustic:condenser_advanced>,
-	[[null, <minecraft:netherbrick>, null],
-	[<minecraft:netherbrick>, <minecraft:bucket>, <minecraft:netherbrick>],
-	[<minecraft:netherbrick>, <thaumcraft:metal_thaumium>, <minecraft:netherbrick>]]);
+ [[null, <minecraft:netherbrick>, null],
+ [<minecraft:netherbrick>, <minecraft:bucket>, <minecraft:netherbrick>],
+ [<minecraft:netherbrick>, <thaumcraft:metal_thaumium>, <minecraft:netherbrick>]]);
 
 # Leather Strap
 recipes.remove(<simplyjetpacks:metaitem:4>);
 recipes.addShaped("CtLeatherStrap", <simplyjetpacks:metaitem:4>,
-	[[null, null, null],
-	[<minecraft:leather>, <botania:manaresource>, <minecraft:leather>],
-	[<minecraft:leather>, <botania:manaresource>, <minecraft:leather>]]);
+ [[null, null, null],
+ [<minecraft:leather>, <botania:manaresource>, <minecraft:leather>],
+ [<minecraft:leather>, <botania:manaresource>, <minecraft:leather>]]);
 
 #Drawer controller and slave
 recipes.remove(<storagedrawers:controller>);
@@ -100,6 +112,7 @@ furnace.remove(<draconicevolution:draconium_ingot>, <draconicevolution:draconium
 furnace.remove(<draconicevolution:draconium_ingot>, <draconicevolution:draconium_ore>);
 furnace.remove(<draconicevolution:draconium_ingot>, <draconicevolution:draconium_ore:1>);
 furnace.remove(<draconicevolution:draconium_ingot>, <draconicevolution:draconium_ore:2>);
+
 #Wither essence
 recipes.remove(<draconicevolution:draconic_core>);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<atmtweaks:item_material:10>, 
