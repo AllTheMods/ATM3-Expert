@@ -38,3 +38,5 @@ overrides/config/enderio/recipes/user/
 overrides/config/tool_progression/blocks\.cfg
 
 overrides/config/splash\.properties
+
+overrides/config/AppliedEnergistics2/CustomRecipes\.cfg
