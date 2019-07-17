@@ -89,12 +89,6 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtThaumometer", "", 20, []
 	[<ore:plateGold>, <botania:managlasspane>, <ore:plateGold>],
 	[<contenttweaker:manasteelplate>, <ore:plateGold>, <contenttweaker:manasteelplate>]]);
 
-#basic focus
-mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:focus_1>);
-mods.actuallyadditions.Empowerer.addRecipe(<thaumcraft:focus_1>, <ore:quicksilver>, <thaumcraft:mirrored_glass>, <actuallyadditions:item_crystal_empowered:2>, 
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}), 
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praecantatio"}]}), 50000, 40
-);
 
 #Vis Resonator
 recipes.remove(<thaumcraft:vis_resonator>);
