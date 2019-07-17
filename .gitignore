@@ -35,3 +35,6 @@ overrides/config/enderio/recipes/
 !overrides/config/enderio/recipes/user
 overrides/config/enderio/recipes/user/
 !overrides/config/enderio/recipes/user/user_recipes\.xml
+overrides/config/tool_progression/blocks\.cfg
+
+overrides/config/splash\.properties
