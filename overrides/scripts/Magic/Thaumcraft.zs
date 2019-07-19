@@ -25,17 +25,6 @@ val aquaAspect = <aspect:aqua>;
 val ignisAspect = <aspect:ignis>;
 val ordoAspect = <aspect:ordo>;
 val perditioAspect = <aspect:perditio>;
-
-#Hellfire Forge
-
-recipes.remove(<bloodmagic:soul_forge>);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtHellfire", "", 250,
-		[perditioAspect * 30, ignisAspect * 30],
-		<bloodmagic:soul_forge>,
-		[[<ic2c_extras:refinedironblock>, null, <ic2c_extras:refinedironblock>],
-		[<atum:porphyry>, <bitewolfbits:lonsdale_shard>, <atum:porphyry>],
-		[<atum:porphyry>, <minecraft:gold_block>, <atum:porphyry>]]
-		);
 		
 #cinderpearl
 recipes.remove(<thaumcraft:cinderpearl>);
@@ -292,24 +281,6 @@ mods.thaumcraft.Infusion.registerRecipe("CtBlackQuartzBlock", "", <actuallyaddit
 		[<aspect:spiritus> *10, <aspect:tenebrae> *24],
 		<minecraft:quartz_block>, 
 		[<astralsorcery:itemusabledust:1>, <actuallyadditions:item_misc:5>, <astralsorcery:itemusabledust:1>, <actuallyadditions:item_misc:5>]
-	);
-
-#Snare
-
-recipes.remove(<bloodmagic:soul_snare>);
-recipes.addShaped("CtSnare", <bloodmagic:soul_snare>, 
-		[[<botania:manaresource:16>, <ic2:itemmisc:53>, <botania:manaresource:16>],
-		[<ic2:itemmisc:53>, <astralsorcery:itemusabledust:1>, <ic2:itemmisc:53>],
-		[<botania:manaresource:16>, <ic2:itemmisc:53>, <botania:manaresource:16>]]
-	);
-	
-#Blood Magic Altar
-recipes.remove(<bloodmagic:altar>);
-mods.thaumcraft.Infusion.registerRecipe("CtBloodAltar", "", 
-		<bloodmagic:altar>, 15, 
-		[<aspect:alkimia> *40, <aspect:mortuus> *25, <aspect:tenebrae> *25, <aspect:victus> *40],
-		<bitewolfbits:lonsdale_shard>, 
-		[<actuallyadditions:block_misc:2>, <minecraft:gold_block>, <contenttweaker:quartzingot>, <actuallyadditions:block_misc:2>, <actuallyadditions:block_crystal_empowered>, <contenttweaker:quartzingot>]
 	);
 	
 # Altar Block			

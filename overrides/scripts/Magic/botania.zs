@@ -259,16 +259,6 @@ recipes.addShaped("CtManaweave",<botania:manaresource:22>,
 	#lust
 	mods.botania.RuneAltar.addRecipe(<botania:rune:9>, [<bloodmagic:slate:2>, <actuallyadditions:item_crystal_empowered>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "desiderium"}]}), <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "desiderium"}]}), <botania:manaresource>, <botania:manaresource>, manaDiamond, manaDiamond, <botania:rune:3>, <botania:rune:5>], 10000
 	);
-	
-	
-#Blood magic slate
-mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:stone>);
-mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:slate>, <botania:livingrock:4>, 0, 1000, 25, 5);
-
-
-#blood brick
-recipes.remove(<bloodmagic:decorative_brick>);
-mods.botania.RuneAltar.addRecipe(<bloodmagic:decorative_brick>,[<ic2:itemmisc:202>,<ic2:itemmisc:202>,<ic2:itemmisc:202>,<astralsorcery:itemcraftingcomponent:1>,<mekanism:polyethene>,<mekanism:polyethene>, <bloodmagic:blood_shard>], 10000);
 
 #Sunny quartz
 recipes.remove(<botania:quartz:6>);
