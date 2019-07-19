@@ -159,14 +159,14 @@ mods.jei.JEI.removeAndHide(<tconstruct:slimesling:3>);
 mods.jei.JEI.removeAndHide(<tconstruct:slimesling:4>);
 
 #Primal Mana
-mods.tconstruct.Alloy.addRecipe(<liquid:mana> * 25, [<liquid:gold> * 10, <liquid:liquid_death> * 5, <liquid:xpjuice> * 5, <liquid:manasteel> * 5, <liquid:pyrotheum> * 5 ]);
+mods.tconstruct.Alloy.addRecipe(<liquid:mana> * 288, [<liquid:gold> * 32, <liquid:liquid_death> * 100, <liquid:xpjuice> * 80, <liquid:manasteel> * 32, <liquid:pyrotheum> * 125 ]);
 
 #Runic Matrix
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:infusion_matrix>);
-mods.tconstruct.Casting.addBasinRecipe(<thaumcraft:infusion_matrix>, <bitewolfbits:infusion_block>, <liquid:mana>, 50, true, 1000);
+mods.tconstruct.Casting.addBasinRecipe(<thaumcraft:infusion_matrix>, <bitewolfbits:infusion_block>, <liquid:mana>, 288, true, 1000);
 
 #Mana Infused Ore
-mods.tconstruct.Casting.addBasinRecipe(<thermalfoundation:ore:8>, <thermalfoundation:ore:6>, <liquid:mana>, 10, true, 100);
+mods.tconstruct.Casting.addBasinRecipe(<thermalfoundation:ore:8>, <thermalfoundation:ore:6>, <liquid:mana>, 72, true, 100);
 
 #Firewood Gated
 recipes.remove(<tconstruct:firewood:1>);
