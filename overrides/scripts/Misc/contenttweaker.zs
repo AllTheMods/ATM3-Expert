@@ -50,3 +50,22 @@ ElementiumPrint.register();
 var CrystallisedBlood = VanillaFactory.createItem("CrystallisedBlood");
 CrystallisedBlood.register();
 
+var tier1 = VanillaFactory.createItem("Tier1");
+tier1.register();
+
+var tier2 = VanillaFactory.createItem("Tier2");
+tier2.register();
+
+var tier3 = VanillaFactory.createItem("Tier3");
+tier3.register();
+
+var tier4 = VanillaFactory.createItem("Tier4");
+tier4.register();
+
+var tier5 = VanillaFactory.createItem("Tier5");
+tier5.register();
+
+var tier6 = VanillaFactory.createItem("Tier6");
+tier6.register();
+
+
