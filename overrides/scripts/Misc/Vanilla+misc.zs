@@ -169,7 +169,6 @@ recipes.addShaped(<advancedrocketry:iquartzcrucible>,
 
 #furnace.remove array
 	val ingotArray = [
-	<ore:oreDraconium>,
 	<ore:ingotSilver>,
 	<ore:ingotIron>,
 	<ore:ingotIron>,
@@ -227,7 +226,6 @@ recipes.addShaped(<advancedrocketry:iquartzcrucible>,
 	<ore:quicksilver>]as IIngredient[];
 
 	val oreArray = [
-	<ore:ingotDraconium>,
 	<ore:oreSilver>,
 	<ore:oreIron>,
 	<ore:oreGold>,

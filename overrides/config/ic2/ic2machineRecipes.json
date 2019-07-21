@@ -419,7 +419,8 @@
   "item.thorium232Dust_1568978612": true,
   "item.plutoniumDust_1951673122": true,
   "item.thorium230Dust_967526265": true,
-  "item.thorium232Dust_-1552433607": true
+  "item.thorium232Dust_-1552433607": true,
+  "item.appliedenergistics2.material.ender_dust_1893555465": true
  },
  "extractor": {
   "Coal": true,
@@ -1432,7 +1433,11 @@
   "ingotRecycling_ingotPhotonium": true,
   "ingotRecycling_ingotFluidedmana": true,
   "ingotRecycling_ingotFluixSteel": true,
-  "ingotRecycling_ingotEnrichedlava": true
+  "ingotRecycling_ingotEnrichedlava": true,
+  "ingotRecycling_ingotCocoaButter": true,
+  "ingotRecycling_ingotUnsweetenedChocolate": true,
+  "ingotRecycling_ingotDarkChocolate": true,
+  "ingotRecycling_ingotRadaway_slow": true
  },
  "oreWashingPlant": {
   "Crushed Iron Ore": true,
@@ -1450,7 +1455,8 @@
   "item.silverCrushedOre_979726573": true,
   "item.leadCrushedOre_-746435810": true,
   "tile.gravel_-871245369": true,
-  "item.uraniumCrushedOre_608728113": true
+  "item.uraniumCrushedOre_608728113": true,
+  "item.uraniumCrushedOre_-1791596238": true
  },
  "thermalCentrifuge": {
   "Purified Crushed Iron Ore": true,
@@ -1501,7 +1507,9 @@
   "item.itemRodUranEnriched": true,
   "item.reEnrichedThorium232Rod": true,
   "item.uraniumPurifiedCrushedOre": true,
-  "item.uraniumCrushedOre": true
+  "item.uraniumCrushedOre": true,
+  "item.itemCellUranEnriched": true,
+  "item.reEnrichedThorium232Cell": true
  },
  "rolling": {
   "copperPlateItemCasingRolling": true,

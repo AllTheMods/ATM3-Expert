@@ -25,7 +25,8 @@ val aquaAspect = <aspect:aqua>;
 val ignisAspect = <aspect:ignis>;
 val ordoAspect = <aspect:ordo>;
 val perditioAspect = <aspect:perditio>;
-		
+
+<thaumcraft:salis_mundus>.addTooltip(format.yellow("Accepts any crystal"));		
 #cinderpearl
 recipes.remove(<thaumcraft:cinderpearl>);
 
@@ -57,7 +58,7 @@ recipes.remove(<thaumcraft:smelter_basic>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtEssentiaSmeltery", "ALUMENTUM", 50,
         [terraAspect, aquaAspect, ignisAspect],
         <thaumcraft:smelter_basic>,
-        [[<railcraft:plate:11>, <thaumcraft:crucible>, <railcraft:plate:11>],
+        [[<thaumcraft:plate>, <thaumcraft:crucible>, <thaumcraft:plate>],
         [<atum:limestone_brick_small>, <tconstruct:seared_furnace_controller>, <atum:limestone_brick_small>],
         [<atum:limestone_brick_small>, <ore:livingrock>, <atum:limestone_brick_small>]]
         );
@@ -94,7 +95,7 @@ mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:caster_basic>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtCastersGauntlet","BASEALCHEMY",100,
         [aerAspect, terraAspect, aquaAspect, ignisAspect, ordoAspect, perditioAspect],
         <thaumcraft:caster_basic>,
-        [[<railcraft:plate:11>, <contenttweaker:manasteelplate>, <railcraft:plate:11>],
+        [[<thaumcraft:plate>, <contenttweaker:manasteelplate>, <thaumcraft:plate>],
         [<ore:leather>, <thaumcraft:vis_resonator>, <ore:leather>],
         [<ore:leather>, <thaumcraft:thaumometer>, <ore:leather>]]
     );
@@ -292,8 +293,6 @@ mods.thaumcraft.Infusion.registerRecipe("CtLonsdale", "",
 		[<bloodmagic:monster_soul>, <bloodmagic:monster_soul>, <bloodmagic:monster_soul>, <bloodmagic:monster_soul>]
 	); 	
 
-#Remove Void Powder from Railcraft
-recipes.removeShaped(<railcraft:dust:7>);
 
 #Greatwood Plank Recipe Changes
 recipes.remove(<thaumcraft:plank_greatwood>);
