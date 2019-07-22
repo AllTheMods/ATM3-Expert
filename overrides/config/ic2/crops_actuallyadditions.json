@@ -1,0 +1,267 @@
+{
+	"crops":
+	[
+		{
+			"name": "Canola",
+			"owner": "actuallyadditions",
+			"id": "canola_plant",
+			"discovered": "Oly2o6",
+			"dropchance": 1.0,
+			"optimalstage": 4,
+			"totalstages": 4,
+			"attributes": ["Canola", "Flower", "Yellow"],
+			"props":
+			{
+				"tier": 2,
+				"chemistry": 1,
+				"consumable": 1,
+				"defensive": 0,
+				"colorful": 5,
+				"weed": 1
+			},
+			"display":
+			{
+				"name": "actuallyadditions:item_misc",
+				"meta": 13
+			},
+			"defaultStage":
+			{
+				"points": 400,
+				"redstoneStrength": 0,
+				"lightLevel": 0,
+				"requirements": 
+				{
+					"light": [10]
+				}
+			},
+			"stages":
+			[
+				{
+					"index": 1,
+					"parentIndex": -1,
+					"textures": ["actuallyadditions:blocks/block_canola_stage_1"]
+				},
+				{
+					"index": 2,
+					"textures": ["actuallyadditions:blocks/block_canola_stage_2"]
+				},
+				{
+					"index": 3,
+					"textures": ["actuallyadditions:blocks/block_canola_stage_3"]
+				},
+				{
+					"index": 4,
+					"textures": ["actuallyadditions:blocks/block_canola_stage_4"],
+					"points": 600,
+					"drop"://The Drop of the crop at the stage. Like the "Display" but with the amount of items being controlled. [Optional]
+					{
+						"name": "actuallyadditions:item_misc",
+						"count": 1,
+						"meta": 13
+					},
+					"seedDrop"://Option to enable Seed Mode on the crop and what the drop should be. [Optional]
+					{
+						"name": "actuallyadditions:item_canola_seed",
+						"count": 1,
+						"meta": 0
+					}
+				}
+			]
+		},
+		{
+			"name": "Rice",
+			"owner": "actuallyadditions",
+			"id": "rice",
+			"discovered": "Oly2o6",
+			"dropchance": 1.0,
+			"optimalstage": 7,
+			"totalstages": 7,
+			"attributes": ["White", "Rice", "Food", "Wheat"],
+			"props":
+			{
+				"tier": 1,
+				"chemistry": 0,
+				"consumable": 4,
+				"defensive": 0,
+				"colorful": 1,
+				"weed": 1
+			},
+			"display":
+			{
+				"name": "actuallyadditions:item_food",
+				"meta": 16
+			},
+			"defaultStage":
+			{
+				"points": 200,
+				"redstoneStrength": 0,
+				"lightLevel": 0,
+				"requirements": 
+				{
+					"light": [10],
+					"humidity": [10]
+				}
+			},
+			"stages":
+			[
+				{
+					"index": 1,
+					"parentIndex": -1,
+					"textures": ["actuallyadditions:blocks/block_rice_stage_1"]
+				},
+				{
+					"index": 2,
+					"textures": ["actuallyadditions:blocks/block_rice_stage_2"]
+				},
+				{
+					"index": 3,
+					"textures": ["actuallyadditions:blocks/block_rice_stage_2"]
+				},
+				{
+					"index": 4,
+					"textures": ["actuallyadditions:blocks/block_rice_stage_3"]
+				},
+				{
+					"index": 5,
+					"textures": ["actuallyadditions:blocks/block_rice_stage_4"]
+				},
+				{
+					"index": 6,
+					"textures": ["actuallyadditions:blocks/block_rice_stage_5"]
+				},
+				{
+					"index": 7,
+					"textures": ["actuallyadditions:blocks/block_rice_stage_6"],
+					"drop"://The Drop of the crop at the stage. Like the "Display" but with the amount of items being controlled. [Optional]
+					{
+						"name": "actuallyadditions:item_food",
+						"count": 1,
+						"meta": 16
+					},
+					"seedDrop"://Option to enable Seed Mode on the crop and what the drop should be. [Optional]
+					{
+						"name": "actuallyadditions:item_rice_seed",
+						"count": 1,
+						"meta": 0
+					}
+				}
+			]
+		},
+		{
+			"name": "Flax",
+			"owner": "actuallyadditions",
+			"id": "flax",
+			"discovered": "Oly2o6",
+			"dropchance": 1.0,
+			"optimalstage": 6,
+			"totalstages": 6,
+			"attributes": ["Magenta", "Leaves", "Ingredient"],
+			"props":
+			{
+				"tier": 2,
+				"chemistry": 1,
+				"consumable": 2,
+				"defensive": 0,
+				"colorful": 3,
+				"weed": 0
+			},
+			"display":
+			{
+				"name": "minecraft:string"
+			},
+			"defaultStage":
+			{
+				"points": 300,
+				"redstoneStrength": 0,
+				"lightLevel": 0,
+				"requirements": 
+				{
+					"light": [10]
+				}
+			},
+			"stages":
+			[
+				{
+					"index": 1,
+					"parentIndex": -1,
+					"textures": ["actuallyadditions:blocks/block_flax_stage_1"]
+				},
+				{
+					"index": 2,
+					"textures": ["actuallyadditions:blocks/block_flax_stage_2"]
+				},
+				{
+					"index": 3,
+					"textures": ["actuallyadditions:blocks/block_flax_stage_3"]
+				},
+				{
+					"index": 4,
+					"textures": ["actuallyadditions:blocks/block_flax_stage_4"]
+				},
+				{
+					"index": 5,
+					"textures": ["actuallyadditions:blocks/block_flax_stage_5"],
+					"points": 200
+				},
+				{
+					"index": 6,
+					"textures": ["actuallyadditions:blocks/block_flax_stage_6"],
+					"points": 200,
+					"drop"://The Drop of the crop at the stage. Like the "Display" but with the amount of items being controlled. [Optional]
+					{
+						"name": "minecraft:string",
+						"count": 2
+					},
+					"seedDrop"://Option to enable Seed Mode on the crop and what the drop should be. [Optional]
+					{
+						"name": "actuallyadditions:item_flax_seed",
+						"count": 1,
+						"meta": 0
+					}
+				}
+			]
+		}
+	],
+	"seeds":
+	[
+		{
+			"owner": "actuallyadditions",
+			"id": "canola_plant",
+			"seed":
+			{
+				"name": "actuallyadditions:item_canola_seed",
+				"count": 1,
+			},
+			"growthStep": 1,
+			"statGrowth": 1,
+			"statGain": 1,
+			"statResistance": 1
+		},
+		{
+			"owner": "actuallyadditions",
+			"id": "rice",
+			"seed":
+			{
+				"name": "actuallyadditions:item_rice_seed",
+				"count": 1,
+			},
+			"growthStep": 1,
+			"statGrowth": 1,
+			"statGain": 1,
+			"statResistance": 1
+		},
+		{
+			"owner": "actuallyadditions",
+			"id": "flax",
+			"seed":
+			{
+				"name": "actuallyadditions:item_flax_seed",
+				"count": 1,
+			},
+			"growthStep": 1,
+			"statGrowth": 1,
+			"statGain": 1,
+			"statResistance": 1
+		}
+	]
+}
