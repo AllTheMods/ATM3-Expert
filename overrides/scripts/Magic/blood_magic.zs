@@ -46,4 +46,4 @@ mods.thaumcraft.Infusion.registerRecipe("CtBloodAltar", "",
 
 	
 #crystal blood pile
-mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:crystallisedblood>, <mekanism:polyethene>, 3, 25000, 50, 10);
+mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:crystallisedblood>, <botania:manaresource:8>, 3, 30000, 50, 10);
