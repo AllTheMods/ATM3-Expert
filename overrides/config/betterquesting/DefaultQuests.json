@@ -42,10 +42,13 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "flintmod:axe_flint",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -115,14 +118,14 @@
                   "Damage:2": 0
                 }
               },
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 1,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "tconstruct:tooltables",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 4
+              "Damage:2": 4,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "tconstruct:tooltables",
@@ -134,14 +137,14 @@
                   "Damage:2": 0
                 }
               },
-              "OreDict:8": "",
-              "Damage:3": 2
+              "Damage:2": 2,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "tconstruct:tooltables",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 3
+              "Damage:2": 3,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -191,8 +194,8 @@
             "0:10": {
               "id:8": "ceramics:unfired_clay",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 4
+              "Damage:2": 4,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -242,8 +245,8 @@
             "0:10": {
               "id:8": "minecraft:furnace",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -293,26 +296,26 @@
             "0:10": {
               "id:8": "tconstruct:smeltery_controller",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "tconstruct:seared",
               "Count:3": 17,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "tconstruct:seared_tank",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "tconstruct:smeltery_io",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -362,8 +365,8 @@
             "0:10": {
               "id:8": "tconstruct:pattern",
               "Count:3": 1,
-              "OreDict:8": "pattern",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": "pattern"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -413,14 +416,14 @@
             "0:10": {
               "id:8": "minecraft:planks",
               "Count:3": 16,
-              "OreDict:8": "plankWood",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": "plankWood"
             },
             "1:10": {
               "id:8": "minecraft:log",
               "Count:3": 16,
-              "OreDict:8": "logWood",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": "logWood"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -476,8 +479,8 @@
               "tag:10": {
                 "Material:8": "flint"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "tconstruct:shovel_head",
@@ -485,8 +488,8 @@
               "tag:10": {
                 "Material:8": "flint"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "tconstruct:axe_head",
@@ -494,8 +497,8 @@
               "tag:10": {
                 "Material:8": "flint"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "tconstruct:sword_blade",
@@ -503,8 +506,8 @@
               "tag:10": {
                 "Material:8": "flint"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -555,26 +558,26 @@
             "0:10": {
               "id:8": "tcomplement:porcelain_melter",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "tcomplement:porcelain_melter",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 8
+              "Damage:2": 8,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "ceramics:faucet",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "tcomplement:porcelain_casting",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 1,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -625,8 +628,8 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -677,10 +680,13 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "actuallyadditions:item_bag",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -692,13 +698,16 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "thermalexpansion:satchel",
               "Count:3": 1,
               "tag:10": {
                 "Accessible:1": 1
               },
-              "OreDict:8": "",
-              "Damage:3": 100
+              "Damage:2": 100,
+              "OreDict:8": ""
             }
           }
         }
@@ -820,14 +829,14 @@
             "0:10": {
               "id:8": "minecraft:iron_ingot",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "thermalfoundation:material",
               "Count:3": 4,
-              "OreDict:8": "ingotCopper",
-              "Damage:3": 128
+              "Damage:2": 128,
+              "OreDict:8": "ingotCopper"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -909,8 +918,8 @@
             "0:10": {
               "id:8": "botania:livingwood",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -960,8 +969,8 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:crafting"
@@ -1104,8 +1113,8 @@
             "0:10": {
               "id:8": "tconstruct:seared",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1351,8 +1360,8 @@
             "0:10": {
               "id:8": "ic2:blockmachinelv",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 3
+              "Damage:2": 3,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1408,8 +1417,8 @@
               "tag:10": {
                 "type:8": "puredaisy"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1470,8 +1479,8 @@
             "0:10": {
               "id:8": "immersiveengineering:stone_decoration",
               "Count:3": 27,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1483,10 +1492,10 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
+              "id:8": "contenttweaker:tier1",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -1507,8 +1516,12 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "railcraft:equipment",
+            "id:8": "betterquesting:placeholder",
             "Count:3": 1,
+            "tag:10": {
+              "orig_meta:3": 0,
+              "orig_id:8": "railcraft:equipment"
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -1532,10 +1545,14 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "railcraft:equipment",
+              "id:8": "betterquesting:placeholder",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_id:8": "railcraft:equipment"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1585,8 +1602,8 @@
             "0:10": {
               "id:8": "ic2:blockgenerator",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1598,7 +1615,8 @@
       "questID:3": 32,
       "preRequisites:11": [
         40,
-        233
+        233,
+        248
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1637,8 +1655,8 @@
             "0:10": {
               "id:8": "botania:pool",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 2
+              "Damage:2": 2,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1688,14 +1706,14 @@
             "0:10": {
               "id:8": "thermalfoundation:material",
               "Count:3": 3,
-              "OreDict:8": "",
-              "Damage:3": 32
+              "Damage:2": 32,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "thermalfoundation:material",
               "Count:3": 3,
-              "OreDict:8": "",
-              "Damage:3": 354
+              "Damage:2": 354,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1745,8 +1763,8 @@
             "0:10": {
               "id:8": "tconstruct:cast_custom",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 3
+              "Damage:2": 3,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1809,14 +1827,17 @@
                 "Energy:3": 0,
                 "Level:1": 0
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "minecraft:water_bucket",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1866,14 +1887,14 @@
             "0:10": {
               "id:8": "thermalfoundation:upgrade",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "thermalexpansion:augment",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 640
+              "Damage:2": 640,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:crafting"
@@ -1923,8 +1944,8 @@
             "0:10": {
               "id:8": "ic2c_extras:orewashingplant",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1975,8 +1996,8 @@
             "0:10": {
               "id:8": "ic2:blockmachinelv",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 5
+              "Damage:2": 5,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2026,8 +2047,8 @@
             "0:10": {
               "id:8": "botania:altar",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2039,10 +2060,10 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
+              "id:8": "contenttweaker:tier1",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -2096,8 +2117,8 @@
               "tag:10": {
                 "type:8": "munchdew"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2148,18 +2169,21 @@
             "0:10": {
               "id:8": "botania:spreader",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "botania:twigwand",
               "Count:3": 1,
               "tag:10": {
                 "color1:3": 0,
                 "color2:3": 0
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2240,8 +2264,8 @@
             "0:10": {
               "id:8": "minecraft:bucket",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2291,8 +2315,8 @@
             "0:10": {
               "id:8": "immersiveengineering:stone_decoration",
               "Count:3": 27,
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 1,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2342,8 +2366,8 @@
             "0:10": {
               "id:8": "ic2:itemmisc",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 256
+              "Damage:2": 256,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2406,10 +2430,10 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
+              "id:8": "contenttweaker:tier1",
               "Count:3": 3,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -2461,8 +2485,8 @@
             "0:10": {
               "id:8": "immersiveengineering:metal_decoration1",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 1,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "immersiveengineering:conveyor",
@@ -2470,26 +2494,26 @@
               "tag:10": {
                 "conveyorType:8": "immersiveengineering:conveyor"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "immersiveengineering:metal_decoration0",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 3
+              "Damage:2": 3,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "immersiveengineering:metal_decoration0",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 5
+              "Damage:2": 5,
+              "OreDict:8": ""
             },
             "4:10": {
               "id:8": "minecraft:piston",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2539,8 +2563,8 @@
             "0:10": {
               "id:8": "immersiveengineering:treated_wood",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2590,14 +2614,14 @@
             "0:10": {
               "id:8": "thermalfoundation:upgrade",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "thermalexpansion:augment",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 640
+              "Damage:2": 640,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2648,10 +2672,13 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "immersiveengineering:tool",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 3
+              "Damage:2": 3,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2702,8 +2729,8 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2726,8 +2753,12 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "railcraft:boiler_tank_pressure_low",
+            "id:8": "betterquesting:placeholder",
             "Count:3": 1,
+            "tag:10": {
+              "orig_meta:3": 0,
+              "orig_id:8": "railcraft:boiler_tank_pressure_low"
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -2751,16 +2782,24 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "railcraft:boiler_tank_pressure_low",
+              "id:8": "betterquesting:placeholder",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_id:8": "railcraft:boiler_tank_pressure_low"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "railcraft:boiler_firebox_solid",
+              "id:8": "betterquesting:placeholder",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_id:8": "railcraft:boiler_firebox_solid"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2811,8 +2850,8 @@
             "0:10": {
               "id:8": "immersiveengineering:wooden_device0",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 2
+              "Damage:2": 2,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2862,8 +2901,8 @@
             "0:10": {
               "id:8": "ic2:blockelectric",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2875,10 +2914,10 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
+              "id:8": "contenttweaker:tier1",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -3022,8 +3061,8 @@
               "tag:10": {
                 "Material:8": "vitrified_sand"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3074,8 +3113,8 @@
             "0:10": {
               "id:8": "ic2:blockmachinelv",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:crafting"
@@ -3087,10 +3126,10 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
+              "id:8": "contenttweaker:tier1",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -3138,14 +3177,14 @@
             "0:10": {
               "id:8": "atum:kiln",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "atum:limestone_brick_small",
               "Count:3": 6,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3229,8 +3268,8 @@
               "tag:10": {
                 "Material:8": "manasteel"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3281,10 +3320,13 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "immersiveengineering:tool",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3461,8 +3503,8 @@
             "0:10": {
               "id:8": "actuallyadditions:block_atomic_reconstructor",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:crafting"
@@ -3512,8 +3554,8 @@
             "0:10": {
               "id:8": "thermalexpansion:frame",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:crafting"
@@ -3525,10 +3567,10 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
+              "id:8": "contenttweaker:tier2",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -3635,8 +3677,8 @@
                 ],
                 "Level:1": 0
               },
-              "OreDict:8": "",
-              "Damage:3": 8
+              "Damage:2": 8,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "thermalexpansion:machine",
@@ -3655,8 +3697,8 @@
                 ],
                 "Level:1": 0
               },
-              "OreDict:8": "",
-              "Damage:3": 6
+              "Damage:2": 6,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:crafting"
@@ -3716,8 +3758,8 @@
             "0:10": {
               "id:8": "rftools:storage_scanner",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3729,10 +3771,10 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
+              "id:8": "contenttweaker:tier2",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -3780,8 +3822,8 @@
             "0:10": {
               "id:8": "botania:pool",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3831,8 +3873,8 @@
             "0:10": {
               "id:8": "rftools:modular_storage",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:crafting"
@@ -3882,8 +3924,8 @@
             "0:10": {
               "id:8": "storagedrawers:controller",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:crafting"
@@ -3961,8 +4003,8 @@
                 ],
                 "Level:1": 0
               },
-              "OreDict:8": "",
-              "Damage:3": 3
+              "Damage:2": 3,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:crafting"
@@ -4043,8 +4085,8 @@
             "0:10": {
               "id:8": "thermalfoundation:glass",
               "Count:3": 4,
-              "OreDict:8": "blockGlassHardened",
-              "Damage:3": 3
+              "Damage:2": 3,
+              "OreDict:8": "blockGlassHardened"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4278,7 +4320,7 @@
     "86:10": {
       "questID:3": 86,
       "preRequisites:11": [
-        102
+        112
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4318,10 +4360,13 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "atum:scarab",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4333,10 +4378,10 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
+              "id:8": "contenttweaker:tier2",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -4385,34 +4430,43 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "thaumcraft:thaumonomicon",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "thaumcraft:table_wood",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "thaumcraft:thaumometer",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "thaumcraft:scribing_tools",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "4:10": {
               "id:8": "thaumcraft:arcane_workbench",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4512,14 +4566,14 @@
                 "agri_seed:8": "resource:ferranium_plant",
                 "agri_growth:1": 1
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "actuallyadditions:block_crystal_empowered",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 5
+              "Damage:2": 5,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4662,26 +4716,26 @@
             "0:10": {
               "id:8": "thaumcraft:crucible",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "thaumcraft:nitor_yellow",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "thaumcraft:ingot",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 2
+              "Damage:2": 2,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "thaumcraft:ingot",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4693,10 +4747,10 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
+              "id:8": "contenttweaker:tier2",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -4744,26 +4798,26 @@
             "0:10": {
               "id:8": "thaumcraft:smelter_basic",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "thaumcraft:alembic",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "thaumcraft:jar_normal",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "thaumcraft:tube",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4814,26 +4868,26 @@
             "0:10": {
               "id:8": "thaumcraft:infusion_matrix",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "thaumcraft:pedestal_arcane",
               "Count:3": 9,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "thaumcraft:stone_arcane",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "thaumcraft:stone_arcane_brick",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4935,10 +4989,13 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "thaumcraft:caster_basic",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4996,8 +5053,8 @@
             "0:10": {
               "id:8": "thaumcraft:nugget",
               "Count:3": 16,
-              "OreDict:8": "",
-              "Damage:3": 9
+              "Damage:2": 9,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5078,14 +5135,14 @@
             "0:10": {
               "id:8": "tcomplement:porcelain_melter",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "tcomplement:porcelain_alloy_tank",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5128,7 +5185,7 @@
       "questID:3": 102,
       "preRequisites:11": [
         78,
-        112
+        95
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5167,8 +5224,8 @@
             "0:10": {
               "id:8": "actuallyadditions:block_display_stand",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:crafting"
@@ -5221,8 +5278,8 @@
             "0:10": {
               "id:8": "atum:limestone",
               "Count:3": 16,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5268,10 +5325,10 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
+              "id:8": "contenttweaker:tier1",
               "Count:3": 3,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5285,8 +5342,8 @@
             "0:10": {
               "id:8": "ic2:ic2upgrades",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -5512,7 +5569,7 @@
     "112:10": {
       "questID:3": 112,
       "preRequisites:11": [
-        95
+        102
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5551,14 +5608,27 @@
             "0:10": {
               "id:8": "actuallyadditions:block_empowerer",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tier2",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "113:10": {
       "questID:3": 113,
@@ -5974,8 +6044,8 @@
             "0:10": {
               "id:8": "actuallyadditions:item_misc",
               "Count:3": 32,
-              "OreDict:8": "",
-              "Damage:3": 5
+              "Damage:2": 5,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6025,20 +6095,20 @@
             "0:10": {
               "id:8": "minecraft:glowstone_dust",
               "Count:3": 16,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "minecraft:diamond",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "minecraft:quartz",
               "Count:3": 16,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6089,10 +6159,13 @@
           "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "astralsorcery:blockaltar",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:crafting"
@@ -6104,10 +6177,10 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
+              "id:8": "contenttweaker:tier3",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 96
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -6155,14 +6228,14 @@
             "0:10": {
               "id:8": "bloodmagic:altar",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "bloodmagic:soul_snare",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:crafting"
@@ -6174,10 +6247,10 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
+              "id:8": "contenttweaker:tier3",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 96
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -6267,10 +6340,10 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
+              "id:8": "contenttweaker:tier1",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6282,6 +6355,9 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "thermalexpansion:satchel",
               "Count:3": 1,
               "tag:10": {
@@ -6294,8 +6370,8 @@
                 "Inventory:10": {},
                 "Accessible:1": 1
               },
-              "OreDict:8": "",
-              "Damage:3": 2
+              "Damage:2": 2,
+              "OreDict:8": ""
             }
           }
         }
@@ -6342,10 +6418,10 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
+              "id:8": "contenttweaker:tier1",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6357,16 +6433,22 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "tconstruct:slimesling",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "tconstruct:slime_boots",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -6410,10 +6492,10 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
+              "id:8": "contenttweaker:tier1",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6427,8 +6509,8 @@
             "0:10": {
               "id:8": "thaumcraft:everfull_urn",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -6475,10 +6557,10 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
+              "id:8": "contenttweaker:tier1",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6490,10 +6572,13 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "immersivepetroleum:schematic",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -6547,60 +6632,63 @@
               "tag:10": {
                 "dynamicmachine:8": "modularmachinery:industrial_chiller"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "quark:snow_bricks",
               "Count:3": 24,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "modularmachinery:blockoutputbus",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "modularmachinery:blockinputbus",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "4:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "forge:bucketfilled",
               "Count:3": 2,
               "tag:10": {
                 "FluidName:8": "cryotheum",
                 "Amount:3": 1000
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "5:10": {
               "id:8": "modularmachinery:blockcontroller",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "6:10": {
               "id:8": "modularmachinery:blockenergyinputhatch",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "7:10": {
               "id:8": "modularmachinery:blockcasing",
               "Count:3": 5,
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 1,
+              "OreDict:8": ""
             },
             "8:10": {
               "id:8": "modularmachinery:blockfluidinputhatch",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6650,20 +6738,20 @@
             "0:10": {
               "id:8": "contenttweaker:quartzingot",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "contenttweaker:unrefinedhotsteel",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "thermalfoundation:material",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 160
+              "Damage:2": 160,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6675,10 +6763,10 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
+              "id:8": "contenttweaker:tier3",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 96
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -6726,20 +6814,20 @@
             "0:10": {
               "id:8": "minecraft:hopper",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "immersiveengineering:metal_device1",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "immersiveengineering:stone_decoration",
               "Count:3": 27,
-              "OreDict:8": "",
-              "Damage:3": 2
+              "Damage:2": 2,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:crafting"
@@ -6751,13 +6839,16 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "immersivepetroleum:schematic",
               "Count:3": 1,
               "tag:10": {
                 "multiblock:8": "IE:BlastFurnaceAdvanced"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -6805,26 +6896,26 @@
             "0:10": {
               "id:8": "advgenerators:turbine_steel",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "advgenerators:fluid_input",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "advgenerators:turbine_controller",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "advgenerators:rf_output",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:crafting"
@@ -6875,32 +6966,16 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "forge:bucketfilled",
+              "id:8": "immersiveengineering:material",
               "Count:3": 1,
-              "tag:10": {
-                "FluidName:8": "diesel",
-                "Amount:3": 1000
-              },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 18,
+              "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "immersivepetroleum:material",
-              "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
-            },
-            "2:10": {
               "id:8": "immersiveengineering:material",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 18
-            },
-            "3:10": {
-              "id:8": "immersiveengineering:material",
-              "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 19
+              "Damage:2": 19,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6950,38 +7025,51 @@
             "0:10": {
               "id:8": "appliedenergistics2:energy_acceptor",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "appliedenergistics2:part",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 360
+              "Damage:2": 360,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "appliedenergistics2:material",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 35
+              "Damage:2": 35,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "appliedenergistics2:drive",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "4:10": {
               "id:8": "appliedenergistics2:part",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 16
+              "Damage:2": 16,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:crafting"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tier3",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "140:10": {
       "questID:3": 140,
@@ -7025,14 +7113,14 @@
             "0:10": {
               "id:8": "ic2:blockgenerator",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 5
+              "Damage:2": 5,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "ic2:blockchambers",
               "Count:3": 6,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:crafting"
@@ -7082,8 +7170,8 @@
             "0:10": {
               "id:8": "extendedcrafting:material",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -7095,10 +7183,10 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
+              "id:8": "contenttweaker:tier3",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 96
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -7147,8 +7235,8 @@
             "0:10": {
               "id:8": "extendedcrafting:table_advanced",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:crafting"
@@ -7198,8 +7286,8 @@
             "0:10": {
               "id:8": "atmtweaks:item_material",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 1,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -7249,8 +7337,8 @@
             "0:10": {
               "id:8": "immersiveengineering:metal_device1",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 13
+              "Damage:2": 13,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -7331,20 +7419,20 @@
             "0:10": {
               "id:8": "ic2c_extras:metalbender",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "ic2c_extras:rollingpress",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "ic2c_extras:gearingpress",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:crafting"
@@ -7398,8 +7486,8 @@
             "0:10": {
               "id:8": "bloodmagic:slate",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -7449,14 +7537,14 @@
             "0:10": {
               "id:8": "bloodmagic:blood_rune",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "bloodmagic:slate",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 1,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -7510,13 +7598,16 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "bloodmagic:blood_orb",
               "Count:3": 1,
               "tag:10": {
                 "orb:8": "bloodmagic:magician"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -7566,8 +7657,8 @@
             "0:10": {
               "id:8": "bloodmagic:slate",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 2
+              "Damage:2": 2,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -7617,8 +7708,8 @@
             "0:10": {
               "id:8": "extendedcrafting:material",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 7
+              "Damage:2": 7,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -7669,10 +7760,13 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "astralsorcery:itemlinkingtool",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -7783,8 +7877,8 @@
             "0:10": {
               "id:8": "astralsorcery:itemcraftingcomponent",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 1,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -7835,14 +7929,27 @@
             "0:10": {
               "id:8": "atmtweaks:item_material",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 2
+              "Damage:2": 2,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tier3",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "156:10": {
       "questID:3": 156,
@@ -7886,8 +7993,8 @@
             "0:10": {
               "id:8": "enderio:item_material",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 1,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -7937,14 +8044,14 @@
             "0:10": {
               "id:8": "enderio:block_alloy_smelter",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "enderio:block_sag_mill",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -7994,14 +8101,27 @@
             "0:10": {
               "id:8": "enderio:block_vat",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tier4",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "159:10": {
       "questID:3": 159,
@@ -8043,14 +8163,27 @@
             "0:10": {
               "id:8": "alchemistry:chemical_dissolver",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tier4",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "160:10": {
       "questID:3": 160,
@@ -8094,20 +8227,20 @@
             "0:10": {
               "id:8": "alchemistry:element",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 32
+              "Damage:2": 32,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "alchemistry:compound",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 22
+              "Damage:2": 22,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "alchemistry:element",
               "Count:3": 16,
-              "OreDict:8": "",
-              "Damage:3": 16
+              "Damage:2": 16,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -8157,14 +8290,14 @@
             "0:10": {
               "id:8": "alchemistry:chemical_combiner",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "alchemistry:ingot",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 3
+              "Damage:2": 3,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -8215,14 +8348,27 @@
             "0:10": {
               "id:8": "enderio:item_basic_capacitor",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tier4",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "163:10": {
       "questID:3": 163,
@@ -8267,14 +8413,14 @@
             "0:10": {
               "id:8": "botania:alfheimportal",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "botania:pylon",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 1,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -8324,26 +8470,26 @@
             "0:10": {
               "id:8": "botania:manaresource",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 9
+              "Damage:2": 9,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "botania:manaresource",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 8
+              "Damage:2": 8,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "botania:dreamwood",
               "Count:3": 16,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "botania:manaresource",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 7
+              "Damage:2": 7,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -8399,8 +8545,8 @@
               "tag:10": {
                 "type:8": "petro_petunia"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -8450,26 +8596,26 @@
             "0:10": {
               "id:8": "botania:terraplate",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "minecraft:lapis_block",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "botania:livingrock",
               "Count:3": 5,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "botania:spark",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -8519,14 +8665,27 @@
             "0:10": {
               "id:8": "botania:manaresource",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 4
+              "Damage:2": 4,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 1,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tier4",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "168:10": {
       "questID:3": 168,
@@ -8602,14 +8761,27 @@
             "0:10": {
               "id:8": "industrialforegoing:mob_relocator",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tier4",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "170:10": {
       "questID:3": 170,
@@ -8658,14 +8830,17 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "forge:bucketfilled",
               "Count:3": 2,
               "tag:10": {
                 "FluidName:8": "vapor_of_levity",
                 "Amount:3": 1000
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -8715,32 +8890,32 @@
             "0:10": {
               "id:8": "alchemistry:ingot",
               "Count:3": 100,
-              "OreDict:8": "",
-              "Damage:3": 74
+              "Damage:2": 74,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "alchemistry:ingot",
               "Count:3": 100,
-              "OreDict:8": "",
-              "Damage:3": 60
+              "Damage:2": 60,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "alchemistry:ingot",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 34
+              "Damage:2": 34,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "extendedcrafting:storage",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 2
+              "Damage:2": 2,
+              "OreDict:8": ""
             },
             "4:10": {
               "id:8": "minecraft:nether_star",
               "Count:3": 3,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -8790,20 +8965,20 @@
             "0:10": {
               "id:8": "alchemistry:fusion_casing",
               "Count:3": 98,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "alchemistry:fusion_controller",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "alchemistry:fusion_core",
               "Count:3": 3,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -8853,14 +9028,27 @@
             "0:10": {
               "id:8": "mekanism:ingot",
               "Count:3": 8,
-              "OreDict:8": "ingotOsmium",
-              "Damage:3": 1
+              "Damage:2": 1,
+              "OreDict:8": "ingotOsmium"
             }
           },
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tier4",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "174:10": {
       "questID:3": 174,
@@ -8902,8 +9090,8 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -8951,8 +9139,8 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -9000,8 +9188,8 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -9049,8 +9237,8 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -9100,26 +9288,26 @@
             "0:10": {
               "id:8": "actuallyadditions:block_canola_press",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "actuallyadditions:block_oil_generator",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "actuallyadditions:block_fermenting_barrel",
               "Count:3": 3,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "actuallyadditions:block_farmer",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -9130,8 +9318,8 @@
     "179:10": {
       "questID:3": 179,
       "preRequisites:11": [
-        102,
-        178
+        178,
+        112
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -9170,8 +9358,8 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -9221,8 +9409,8 @@
             "0:10": {
               "id:8": "actuallyadditions:block_battery_box",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -9272,8 +9460,8 @@
             "0:10": {
               "id:8": "actuallyadditions:block_crystal_empowered",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 5
+              "Damage:2": 5,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -9323,26 +9511,26 @@
             "0:10": {
               "id:8": "enderio:item_liquid_conduit",
               "Count:3": 16,
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 1,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "enderio:item_power_conduit",
               "Count:3": 16,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "enderio:item_item_conduit",
               "Count:3": 16,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "enderio:item_redstone_conduit",
               "Count:3": 16,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -9392,8 +9580,8 @@
             "0:10": {
               "id:8": "enderio:block_powered_spawner",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -9417,7 +9605,7 @@
             "id:8": "enderio:item_soul_vial",
             "Count:3": 1,
             "tag:10": {
-              "entityId:8": "minecraft:wither_skeleton"
+              "entityId:8": "minecraft:witch"
             },
             "Damage:2": 1,
             "OreDict:8": ""
@@ -9442,10 +9630,10 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
+              "id:8": "contenttweaker:tier4",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 97
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -9460,10 +9648,10 @@
               "id:8": "enderio:item_soul_vial",
               "Count:3": 1,
               "tag:10": {
-                "entityId:8": "minecraft:wither_skeleton"
+                "entityId:8": "minecraft:witch"
               },
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 1,
+              "OreDict:8": ""
             }
           }
         }
@@ -9569,10 +9757,10 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
-              "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 97
+              "id:8": "contenttweaker:tier4",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -9586,8 +9774,8 @@
             "0:10": {
               "id:8": "enderio:item_basic_capacitor",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 2
+              "Damage:2": 2,
+              "OreDict:8": ""
             }
           }
         }
@@ -9606,12 +9794,15 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "enderio:item_soul_vial",
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "ic2:itemarmorjetpacknuclear",
             "Count:3": 1,
             "tag:10": {
-              "entityId:8": "minecraft:wither_skeleton"
+              "charge:3": 30000
             },
-            "Damage:2": 1,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -9634,10 +9825,10 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
-              "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 97
+              "id:8": "contenttweaker:tier4",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -9649,13 +9840,16 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "enderio:item_soul_vial",
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "ic2:itemarmorjetpacknuclear",
               "Count:3": 1,
               "tag:10": {
-                "entityId:8": "minecraft:wither_skeleton"
+                "charge:3": 30000
               },
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -9702,10 +9896,10 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
+              "id:8": "contenttweaker:tier4",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 97
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -9722,8 +9916,8 @@
               "tag:10": {
                 "entityId:8": "minecraft:wither_skeleton"
               },
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 1,
+              "OreDict:8": ""
             }
           }
         }
@@ -9742,12 +9936,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "enderio:item_soul_vial",
+            "id:8": "atmtweaks:item_material",
             "Count:3": 1,
-            "tag:10": {
-              "entityId:8": "minecraft:wither_skeleton"
-            },
-            "Damage:2": 1,
+            "Damage:2": 2,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -9770,10 +9961,10 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
-              "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 97
+              "id:8": "contenttweaker:tier4",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -9785,13 +9976,10 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "enderio:item_soul_vial",
-              "Count:3": 1,
-              "tag:10": {
-                "entityId:8": "minecraft:wither_skeleton"
-              },
-              "OreDict:8": "",
-              "Damage:3": 1
+              "id:8": "atmtweaks:item_material",
+              "Count:3": 4,
+              "Damage:2": 2,
+              "OreDict:8": ""
             }
           }
         }
@@ -9827,7 +10015,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "tier 2 slot machine",
+          "name:8": "Tier 2 slot machine",
           "desc:8": "No Description"
         }
       },
@@ -9841,10 +10029,10 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "thermalfoundation:coin",
+              "id:8": "contenttweaker:tier2",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -9856,19 +10044,25 @@
           "index:3": 0,
           "choices:9": {
             "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "botania:travelbelt",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "thaumcraft:traveller_boots",
               "Count:3": 1,
               "tag:10": {
                 "tc.charge:3": 240
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -9890,7 +10084,7 @@
             "ForgeCaps:10": {
               "astralsorcery:cap_item_amulet_holder:10": {}
             },
-            "id:8": "thermalfoundation:tool.hammer_bronze",
+            "id:8": "thermalfoundation:tool.hammer_nickel",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -9916,12 +10110,12 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "tconstruct:sharpening_kit",
-              "Count:3": 8,
+              "Count:3": 16,
               "tag:10": {
                 "Material:8": "vitrified_sand"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -9933,10 +10127,13 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "thermalfoundation:tool.hammer_bronze",
-              "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "thermalfoundation:tool.hammer_nickel",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -9955,7 +10152,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "thermalfoundation:upgrade",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -9966,12 +10163,43 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Tier 2 slot machine",
+          "desc:8": ""
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tier2",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "thermalfoundation:upgrade",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "194:10": {
       "questID:3": 194,
@@ -9986,7 +10214,13 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {
+                "AS_Amulet_HolderLeast:4": -5690179911648117992,
+                "AS_Amulet_HolderMost:4": -1301876571505209519
+              }
+            },
+            "id:8": "extrautils2:itembuilderswand",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -9997,12 +10231,49 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Tier 2 slot machine",
+          "desc:8": ""
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tier2",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {
+                  "AS_Amulet_HolderLeast:4": -5690179911648117992,
+                  "AS_Amulet_HolderMost:4": -1301876571505209519
+                }
+              },
+              "id:8": "extrautils2:itembuilderswand",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "195:10": {
       "questID:3": 195,
@@ -10017,7 +10288,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "actuallyadditions:block_giant_chest",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -10028,12 +10299,43 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Tier 2 slot machine",
+          "desc:8": ""
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tier2",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "actuallyadditions:block_giant_chest",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "196:10": {
       "questID:3": 196,
@@ -10077,26 +10379,26 @@
             "0:10": {
               "id:8": "appliedenergistics2:part",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 340
+              "Damage:2": 340,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "appliedenergistics2:crafting_unit",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "appliedenergistics2:material",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 52
+              "Damage:2": 52,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "appliedenergistics2:controller",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -10158,14 +10460,14 @@
                 "agri_seed:8": "resource:diamahlia_plant",
                 "agri_growth:1": 1
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "actuallyadditions:block_crystal_empowered",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 2
+              "Damage:2": 2,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -10213,14 +10515,14 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -10268,14 +10570,14 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -10323,14 +10625,14 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -10392,14 +10694,14 @@
                 "agri_seed:8": "resource:cuprosia_plant",
                 "agri_growth:1": 1
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "thermalfoundation:glass",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -10447,14 +10749,14 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -10516,14 +10818,14 @@
                 "agri_seed:8": "resource:osmonium_plant",
                 "agri_growth:1": 1
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "mekanism:basicblock",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -10571,14 +10873,14 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -10626,14 +10928,14 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -10681,14 +10983,14 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -10736,14 +11038,14 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -10791,14 +11093,14 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -10846,14 +11148,14 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -10901,14 +11203,14 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -10956,14 +11258,14 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -11011,14 +11313,14 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -11080,14 +11382,14 @@
                 "agri_seed:8": "resource:aurigold_plant",
                 "agri_growth:1": 1
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "actuallyadditions:block_crystal_empowered",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 3
+              "Damage:2": 3,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -11137,14 +11439,14 @@
             "0:10": {
               "id:8": "extendedcrafting:ender_crafter",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "extendedcrafting:ender_alternator",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -11194,8 +11496,8 @@
             "0:10": {
               "id:8": "mekanism:basicblock",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 8
+              "Damage:2": 8,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -11246,34 +11548,49 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "mekanism:machineblock",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "mekanism:machineblock2",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 10
+              "Damage:2": 10,
+              "OreDict:8": ""
             },
             "2:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "mekanism:machineblock2",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "mekanism:machineblock2",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 4
+              "Damage:2": 4,
+              "OreDict:8": ""
             },
             "4:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "mekanism:machineblock",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 8
+              "Damage:2": 8,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -11323,8 +11640,8 @@
             "0:10": {
               "id:8": "mekanism:polyethene",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 2
+              "Damage:2": 2,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -11380,8 +11697,8 @@
               "tag:10": {
                 "tier:3": 0
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "mekanism:transmitter",
@@ -11389,8 +11706,8 @@
               "tag:10": {
                 "tier:3": 0
               },
-              "OreDict:8": "",
-              "Damage:3": 2
+              "Damage:2": 2,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "mekanism:transmitter",
@@ -11398,8 +11715,8 @@
               "tag:10": {
                 "tier:3": 0
               },
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 1,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -11449,20 +11766,20 @@
             "0:10": {
               "id:8": "ic2:blockmachinehv",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 1,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "ic2:itemmisc",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 202
+              "Damage:2": 202,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "ic2:blockmachinelv",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 7
+              "Damage:2": 7,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -11512,8 +11829,8 @@
             "0:10": {
               "id:8": "bloodmagic:decorative_brick",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -11563,86 +11880,86 @@
             "0:10": {
               "id:8": "libvulpes:holoprojector",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "libvulpes:hatch",
               "Count:3": 3,
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 1,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "libvulpes:hatch",
               "Count:3": 3,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "libvulpes:coil0",
               "Count:3": 2,
-              "OreDict:8": "blockCoil",
-              "Damage:3": 4
+              "Damage:2": 4,
+              "OreDict:8": "blockCoil"
             },
             "4:10": {
               "id:8": "libvulpes:elitemotor",
               "Count:3": 2,
-              "OreDict:8": "blockMotor",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": "blockMotor"
             },
             "5:10": {
               "id:8": "advancedrocketry:sawblade",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "6:10": {
               "id:8": "libvulpes:forgepowerinput",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "7:10": {
               "id:8": "advancedrocketry:crystallizer",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "8:10": {
               "id:8": "advancedrocketry:cuttingmachine",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "9:10": {
               "id:8": "advancedrocketry:iquartzcrucible",
               "Count:3": 6,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "10:10": {
               "id:8": "libvulpes:structuremachine",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "11:10": {
               "id:8": "libvulpes:hatch",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 2
+              "Damage:2": 2,
+              "OreDict:8": ""
             },
             "12:10": {
               "id:8": "libvulpes:hatch",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 3
+              "Damage:2": 3,
+              "OreDict:8": ""
             },
             "13:10": {
               "id:8": "advancedrocketry:crystallizer",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -11692,8 +12009,8 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -11759,32 +12076,35 @@
             "0:10": {
               "id:8": "advancedrocketry:rocketbuilder",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "advancedrocketry:fuelingstation",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "libvulpes:linker",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "advancedrocketry:launchpad",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "4:10": {
               "id:8": "advancedrocketry:planetidchip",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -11807,9 +12127,12 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "advancedrocketry:nitrogenfluid",
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "astralsorcery:blockaltar",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 2,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -11819,7 +12142,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Finishing your astral altars",
-          "desc:8": "Insert drizz here"
+          "desc:8": "This altar can get you some powerful things, it isnt exactly needed at this stage but it will be nice to have and get some of the cool things it has to offer"
         }
       },
       "tasks:9": {
@@ -11832,10 +12155,13 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:stone",
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "astralsorcery:blockaltar",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 2,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -11901,8 +12227,8 @@
             "0:10": {
               "id:8": "libvulpes:productcrystal",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -11952,8 +12278,8 @@
             "0:10": {
               "id:8": "libvulpes:productcrystal",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -11976,7 +12302,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "advancedrocketry:warpcore",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -11987,8 +12313,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Warping around",
+          "desc:8": "Now that you have got to the planet luna its time you explored into other areas, demios will be where you want to head next to get yourself some magma cobblestone to process into planet shards"
         }
       },
       "tasks:9": {
@@ -12001,10 +12327,16 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:stone",
+              "id:8": "advancedrocketry:warpmonitor",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "advancedrocketry:warpcore",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -12055,28 +12387,40 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "bloodmagic:monster_soul",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 1,
+              "OreDict:8": ""
             },
             "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "bloodmagic:monster_soul",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 2
+              "Damage:2": 2,
+              "OreDict:8": ""
             },
             "2:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "bloodmagic:monster_soul",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 3
+              "Damage:2": 3,
+              "OreDict:8": ""
             },
             "3:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
               "id:8": "bloodmagic:monster_soul",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 4
+              "Damage:2": 4,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -12124,10 +12468,10 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:stone",
+              "id:8": "contenttweaker:crystallisedblood",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -12137,7 +12481,9 @@
     },
     "230:10": {
       "questID:3": 230,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        239
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -12175,8 +12521,8 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -12226,8 +12572,8 @@
             "0:10": {
               "id:8": "advgenerators:eu_output_mv",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -12277,8 +12623,8 @@
             "0:10": {
               "id:8": "botania:livingrock",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -12328,8 +12674,8 @@
             "0:10": {
               "id:8": "botania:livingrock",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -12443,9 +12789,16 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "extendedcrafting:material",
-            "Count:3": 2,
-            "Damage:2": 40,
+            "id:8": "tconstruct:toolforge",
+            "Count:3": 1,
+            "tag:10": {
+              "textureBlock:10": {
+                "id:8": "enderio:block_alloy",
+                "Count:1": 1,
+                "Damage:2": 0
+              }
+            },
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -12454,12 +12807,50 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Tier 1 slot machine",
+          "name:8": "Tier 2 slot machine",
           "desc:8": ""
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tier2",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "tconstruct:toolforge",
+              "Count:3": 1,
+              "tag:10": {
+                "textureBlock:10": {
+                  "id:8": "enderio:block_alloy",
+                  "Count:1": 1,
+                  "Damage:2": 0
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "238:10": {
       "questID:3": 238,
@@ -12503,26 +12894,26 @@
             "0:10": {
               "id:8": "logisticspipes:power_junction",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "logisticspipes:pipe_request",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "logisticspipes:pipe_transport_basic",
               "Count:3": 16,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "logisticspipes:pipe_basic",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -12532,7 +12923,11 @@
     },
     "239:10": {
       "questID:3": 239,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        229,
+        228,
+        243
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -12543,7 +12938,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "bitewolfbits:ingot_corruptmetal",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -12554,8 +12949,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Torturing starmetal",
+          "desc:8": "By roughing up some of your astral ingots with the pure evil located inside of blood magic and the out of this world planet shards you have found a way to make an ingot far beyond the powers of both when made inside of your magmatic fabricator"
         }
       },
       "tasks:9": {
@@ -12568,10 +12963,10 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:stone",
-              "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "id:8": "bitewolfbits:ingot_corruptmetal",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -12581,7 +12976,9 @@
     },
     "240:10": {
       "questID:3": 240,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        241
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -12619,8 +13016,8 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -12630,7 +13027,9 @@
     },
     "241:10": {
       "questID:3": 241,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        242
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -12668,8 +13067,8 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -12679,7 +13078,9 @@
     },
     "242:10": {
       "questID:3": 242,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        230
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -12717,8 +13118,8 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -12728,7 +13129,9 @@
     },
     "243:10": {
       "questID:3": 243,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        227
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -12739,7 +13142,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "contenttweaker:planetshard",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -12750,8 +13153,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Shards of mysterious planets",
+          "desc:8": "After your short trip to Demios to locate some precious rock found on the surface, you have found a recipe that allows you to convert these into the needed planet shards for your attempt to create corrupted starmetal, these will be beneficial in the recipe and cannot be left out"
         }
       },
       "tasks:9": {
@@ -12764,10 +13167,10 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:stone",
+              "id:8": "contenttweaker:planetshard",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -12815,8 +13218,8 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -12864,8 +13267,8 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -12913,151 +13316,411 @@
             "0:10": {
               "id:8": "minecraft:stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
+    },
+    "247:10": {
+      "questID:3": 247,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {
+                "AS_Amulet_HolderLeast:4": -5690179911648117992,
+                "AS_Amulet_HolderMost:4": -1301876571505209519
+              }
+            },
+            "id:8": "thermalexpansion:tank",
+            "Count:3": 1,
+            "tag:10": {
+              "RSControl:1": 0,
+              "Creative:1": 0,
+              "Fluid:10": {
+                "FluidName:8": "cryotheum",
+                "Amount:3": 10000
+              },
+              "Level:1": 0,
+              "Lock:1": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Tier 3 slot machine",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tier3",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {
+                  "AS_Amulet_HolderLeast:4": -5690179911648117992,
+                  "AS_Amulet_HolderMost:4": -1301876571505209519
+                }
+              },
+              "id:8": "thermalexpansion:tank",
+              "Count:3": 1,
+              "tag:10": {
+                "RSControl:1": 0,
+                "Creative:1": 0,
+                "Fluid:10": {
+                  "FluidName:8": "cryotheum",
+                  "Amount:3": 10000
+                },
+                "Level:1": 0,
+                "Lock:1": 0
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "248:10": {
+      "questID:3": 248,
+      "preRequisites:11": [
+        48
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botania:livingrock",
+            "Count:3": 4,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Living totally rocks",
+          "desc:8": "Now that we have that Pure Daisy let\u0027s make some Living rock and some Living wood. These will be needed for later on."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:livingwood",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "249:10": {
+      "questID:3": 249,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thermaldynamics:duct_0",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Tier 3 slot machine",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tier3",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "thermaldynamics:duct_0",
+              "Count:3": 8,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "250:10": {
+      "questID:3": 250,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thermaldynamics:duct_32",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Tier 3 slot machine",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tier3",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "thermaldynamics:duct_32",
+              "Count:3": 16,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "251:10": {
+      "questID:3": 251,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thermaldynamics:servo",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Tier 3 slot machine",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tier3",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "thermaldynamics:servo",
+              "Count:3": 2,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "252:10": {
+      "questID:3": 252,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thermaldynamics:retriever",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Tier 3 slot machine",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tier3",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "thermaldynamics:retriever",
+              "Count:3": 2,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
     "0:10": {
-      "quests:9": {
-        "0:10": {
-          "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 24,
-          "id:3": 104,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 60,
-          "id:3": 130,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 96,
-          "id:3": 131,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 132,
-          "id:3": 132,
-          "sizeY:3": 24
-        },
-        "4:10": {
-          "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 168,
-          "id:3": 133,
-          "sizeY:3": 24
-        },
-        "5:10": {
-          "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 24,
-          "id:3": 184,
-          "sizeY:3": 24
-        },
-        "6:10": {
-          "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 60,
-          "id:3": 187,
-          "sizeY:3": 24
-        },
-        "7:10": {
-          "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 96,
-          "id:3": 188,
-          "sizeY:3": 24
-        },
-        "8:10": {
-          "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 132,
-          "id:3": 189,
-          "sizeY:3": 24
-        },
-        "9:10": {
-          "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 168,
-          "id:3": 190,
-          "sizeY:3": 24
-        },
-        "10:10": {
-          "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 24,
-          "id:3": 191,
-          "sizeY:3": 24
-        },
-        "11:10": {
-          "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 96,
-          "id:3": 192,
-          "sizeY:3": 24
-        },
-        "12:10": {
-          "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 96,
-          "id:3": 193,
-          "sizeY:3": 24
-        },
-        "13:10": {
-          "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 132,
-          "id:3": 194,
-          "sizeY:3": 24
-        },
-        "14:10": {
-          "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 168,
-          "id:3": 195,
-          "sizeY:3": 24
-        },
-        "15:10": {
-          "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 60,
-          "id:3": 237,
-          "sizeY:3": 24
-        }
-      },
-      "lineID:3": 5,
-      "properties:10": {
-        "betterquesting:10": {
-          "visibility:8": "NORMAL",
-          "name:8": "The arcade",
-          "icon:10": {
-            "id:8": "thermalfoundation:coin",
-            "Count:3": 1,
-            "Damage:2": 103,
-            "OreDict:8": ""
-          },
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": "Use this to buy things a few tiers before they are available to you, NOT IMPLEMENTED YET"
-        }
-      },
-      "order:3": 0
-    },
-    "1:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
@@ -13186,7 +13849,7 @@
       },
       "order:3": 1
     },
-    "2:10": {
+    "1:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
@@ -13355,6 +14018,13 @@
           "y:3": 180,
           "id:3": 238,
           "sizeY:3": 24
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": 180,
+          "id:3": 248,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 1,
@@ -13363,6 +14033,9 @@
           "visibility:8": "ALWAYS",
           "name:8": "Tier 1, The classics",
           "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
             "id:8": "ic2:itembatre",
             "Count:3": 1,
             "tag:10": {
@@ -13378,7 +14051,7 @@
       },
       "order:3": 2
     },
-    "3:10": {
+    "2:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
@@ -13567,7 +14240,7 @@
       },
       "order:3": 3
     },
-    "4:10": {
+    "3:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
@@ -13860,7 +14533,7 @@
       },
       "order:3": 4
     },
-    "5:10": {
+    "4:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
@@ -14049,6 +14722,174 @@
       },
       "order:3": 5
     },
+    "5:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 24,
+          "id:3": 104,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 60,
+          "id:3": 130,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 96,
+          "id:3": 131,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 132,
+          "id:3": 132,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 168,
+          "id:3": 133,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": 168,
+          "y:3": 168,
+          "id:3": 184,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": 168,
+          "y:3": 24,
+          "id:3": 187,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 168,
+          "y:3": 96,
+          "id:3": 188,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 168,
+          "y:3": 132,
+          "id:3": 189,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": 168,
+          "y:3": 60,
+          "id:3": 190,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 60,
+          "id:3": 191,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": 96,
+          "id:3": 192,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 96,
+          "id:3": 193,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 132,
+          "id:3": 194,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 168,
+          "id:3": 195,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 24,
+          "id:3": 237,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": 24,
+          "id:3": 247,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": 60,
+          "id:3": 249,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": 96,
+          "id:3": 250,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": 132,
+          "id:3": 251,
+          "sizeY:3": 24
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": 168,
+          "id:3": 252,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 5,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "The arcade",
+          "icon:10": {
+            "id:8": "thermalfoundation:coin",
+            "Count:3": 1,
+            "Damage:2": 103,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "6 Coins per tier, so dont forget to spend them wisely"
+        }
+      },
+      "order:3": 0
+    },
     "6:10": {
       "quests:9": {
         "0:10": {
@@ -14221,170 +15062,121 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": 72,
+          "x:3": 48,
+          "y:3": 192,
           "id:3": 214,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": 108,
+          "x:3": 48,
+          "y:3": 156,
           "id:3": 215,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": 144,
+          "x:3": 48,
+          "y:3": 108,
           "id:3": 216,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
           "x:3": 48,
-          "y:3": 108,
+          "y:3": 72,
           "id:3": 217,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
           "x:3": 84,
-          "y:3": 108,
+          "y:3": 72,
           "id:3": 219,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
           "x:3": 120,
-          "y:3": 84,
+          "y:3": 108,
           "id:3": 220,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 120,
-          "y:3": 132,
+          "x:3": 84,
+          "y:3": 108,
           "id:3": 221,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 120,
-          "y:3": 168,
+          "x:3": 84,
+          "y:3": 156,
           "id:3": 222,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 120,
-          "y:3": 204,
+          "x:3": 84,
+          "y:3": 192,
           "id:3": 223,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
           "x:3": 120,
-          "y:3": 48,
+          "y:3": 72,
           "id:3": 224,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 156,
-          "y:3": 204,
+          "x:3": 120,
+          "y:3": 192,
           "id:3": 225,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 156,
-          "y:3": 168,
+          "x:3": 120,
+          "y:3": 156,
           "id:3": 226,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
           "x:3": 156,
-          "y:3": 132,
+          "y:3": 192,
           "id:3": 227,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
           "x:3": 156,
-          "y:3": 84,
+          "y:3": 108,
           "id:3": 228,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 120,
-          "y:3": 12,
+          "x:3": 156,
+          "y:3": 72,
           "id:3": 229,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 156,
-          "y:3": 12,
-          "id:3": 230,
+          "x:3": 192,
+          "y:3": 132,
+          "id:3": 239,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
           "x:3": 156,
-          "y:3": 48,
-          "id:3": 239,
-          "sizeY:3": 24
-        },
-        "17:10": {
-          "sizeX:3": 24,
-          "x:3": 192,
-          "y:3": 84,
-          "id:3": 240,
-          "sizeY:3": 24
-        },
-        "18:10": {
-          "sizeX:3": 24,
-          "x:3": 192,
-          "y:3": 48,
-          "id:3": 241,
-          "sizeY:3": 24
-        },
-        "19:10": {
-          "sizeX:3": 24,
-          "x:3": 192,
-          "y:3": 12,
-          "id:3": 242,
-          "sizeY:3": 24
-        },
-        "20:10": {
-          "sizeX:3": 24,
-          "x:3": 192,
-          "y:3": 132,
+          "y:3": 156,
           "id:3": 243,
-          "sizeY:3": 24
-        },
-        "21:10": {
-          "sizeX:3": 24,
-          "x:3": 192,
-          "y:3": 168,
-          "id:3": 244,
-          "sizeY:3": 24
-        },
-        "22:10": {
-          "sizeX:3": 24,
-          "x:3": 192,
-          "y:3": 204,
-          "id:3": 245,
-          "sizeY:3": 24
-        },
-        "23:10": {
-          "sizeX:3": 24,
-          "x:3": 264,
-          "y:3": 108,
-          "id:3": 246,
           "sizeY:3": 24
         }
       },
@@ -14392,7 +15184,7 @@
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
-          "name:8": "Mekanising space",
+          "name:8": "Tier 5 Corrupting Space",
           "icon:10": {
             "id:8": "mekanism:basicblock",
             "Count:3": 1,
