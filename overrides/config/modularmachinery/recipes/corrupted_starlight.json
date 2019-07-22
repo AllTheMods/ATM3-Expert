@@ -30,6 +30,12 @@
         {
             "type": "item",
             "io-type": "input",
+            "item": "contenttweaker:planetshard",
+            "amount": 3
+        },
+        {
+            "type": "item",
+            "io-type": "input",
             "item": "bloodmagic:demon_crystal@4",
             "amount": 1
         },
