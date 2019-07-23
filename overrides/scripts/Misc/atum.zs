@@ -39,7 +39,7 @@ mods.atum.Kiln.addRecipe(<ceramics:unfired_clay:6>, <ceramics:faucet>, 0.4);
 
 #scarab
 recipes.remove(<atum:scarab>);
-mods.actuallyadditions.Empowerer.addRecipe(<atum:scarab>, <actuallyadditions:item_crystal_empowered:4>, <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <contenttweaker:manadiamondplate>, <thermalfoundation:glass:3>, <ic2:itemmisc:257>, 150000, 2400);
+mods.actuallyadditions.Empowerer.addRecipe(<atum:scarab>, <actuallyadditions:item_crystal_empowered:4>, <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <contenttweaker:manadiamondplate>, <thermalfoundation:glass:3>, <thaumcraft:plate:2>, 150000, 2400);
 
 #porcelain again
 mods.tconstruct.Drying.addRecipe(<ceramics:unfired_clay:5>,unfired, 160);
