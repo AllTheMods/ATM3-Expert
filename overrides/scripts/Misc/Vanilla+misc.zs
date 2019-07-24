@@ -15,6 +15,9 @@ val ironPlate = <thermalfoundation:material:32>;
 val ironGear = <ore:ingotTin>;
 val cobbleTwoTimes = <ore:compressed1xCobblestone>;
 
+#descriptions
+<minecraft:diamond>.addTooltip(format.red("Found in the Nether"));
+<actuallyadditions:item_misc:5>.addTooltip(format.gold("Found in the Atum"));
 #building gadgets
 recipes.remove(<buildinggadgets:destructiontool>);
 recipes.remove(<buildinggadgets:buildingtool>);
