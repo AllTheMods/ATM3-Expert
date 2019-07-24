@@ -15,6 +15,10 @@ val ironPlate = <thermalfoundation:material:32>;
 val ironGear = <ore:ingotTin>;
 val cobbleTwoTimes = <ore:compressed1xCobblestone>;
 
+#time in a bottle
+recipes.remove(<randomthings:timeinabottle>);
+recipes.addShaped(<randomthings:timeinabottle>, [[<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered:3>],[<forge:bucketfilled>, <minecraft:clock>, <thermalfoundation:storage_alloy>], [<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_crystal_empowered:4>]]);
+
 #descriptions
 <minecraft:diamond>.addTooltip(format.red("Found in the Nether"));
 <actuallyadditions:item_misc:5>.addTooltip(format.gold("Found in the Atum"));
