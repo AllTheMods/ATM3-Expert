@@ -15,6 +15,12 @@ val ironPlate = <thermalfoundation:material:32>;
 val ironGear = <ore:ingotTin>;
 val cobbleTwoTimes = <ore:compressed1xCobblestone>;
 
+#building gadgets
+recipes.remove(<buildinggadgets:destructiontool>);
+recipes.remove(<buildinggadgets:buildingtool>);
+recipes.addShaped(<buildinggadgets:destructiontool>, [[<actuallyadditions:item_crystal:5>, <minecraft:ender_pearl>, <actuallyadditions:item_crystal:5>],[<minecraft:ender_pearl>, <thermalfoundation:material:640>, <minecraft:ender_pearl>], [<actuallyadditions:item_crystal:5>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal:5>]]);
+recipes.addShaped(<buildinggadgets:buildingtool>, [[<actuallyadditions:item_crystal:5>, <minecraft:gold_ingot>, <actuallyadditions:item_crystal:5>],[<actuallyadditions:item_crystal_empowered:1>, <thermalfoundation:material:640>, <actuallyadditions:item_crystal_empowered:1>], [<actuallyadditions:item_crystal:5>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal:5>]]);
+
 #Logistics pipes changes
 /// 
 recipes.remove(<logisticspipes:chip_basic_raw>);
