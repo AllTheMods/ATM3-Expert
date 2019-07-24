@@ -12,6 +12,12 @@ import mods.jei.JEI.removeAndHide;
 
 print("xu2 changes");
 
+#drums
+recipes.remove(<extrautils2:drum:1>);
+recipes.remove(<extrautils2:drum>);
+recipes.addShaped(<extrautils2:drum:1>, [[<contenttweaker:coldironingot>, <quark:obsidian_pressure_plate>, <contenttweaker:coldironingot>],[<contenttweaker:coldironingot>, <extrautils2:drum>, <contenttweaker:coldironingot>], [<contenttweaker:coldironingot>, <quark:obsidian_pressure_plate>, <contenttweaker:coldironingot>]]);
+recipes.addShaped(<extrautils2:drum>, [[<tconstruct:seared>, <minecraft:stone_pressure_plate>, <tconstruct:seared>],[<tconstruct:seared>, <xlfoodmod:bowl>, <tconstruct:seared>], [<tconstruct:seared>, <minecraft:stone_pressure_plate>, <tconstruct:seared>]]);
+
 #crusher and furnace
 mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:furnace"}));
 mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:crusher"}));
