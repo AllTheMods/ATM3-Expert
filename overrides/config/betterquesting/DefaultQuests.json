@@ -4501,7 +4501,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "Information",
-          "desc:8": "The quest book will have a standard progression line that you will need to follow, however there will be optional quests which will not be square in BQ that will help you along your way, but are not needed as they dont lead into other quests in order to reach the next tier."
+          "desc:8": "The quest book will have a standard progression line that you will need to follow, however there will be optional quests which will not be square in BQ that will help you along your way, but are not needed as they dont lead into other quests in order to reach the next tier.\n\nsingle block fluid containers are frowned upon in this modpack, so multiblock immersive tanks are your best bet for a long time, However, energy is the opposite, as you wont get \"multiblock\" energy storage till rftools powercells, and actual multiblock storage with draconic so bare all this in mind"
         }
       },
       "tasks:9": {
@@ -7963,7 +7963,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "enderio:item_material",
@@ -8014,7 +8014,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "enderio:block_alloy_smelter",
@@ -8071,7 +8071,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "enderio:block_vat",
@@ -8260,7 +8260,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "alchemistry:chemical_combiner",
@@ -8318,7 +8318,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "enderio:item_basic_capacitor",
@@ -8383,7 +8383,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "botania:alfheimportal",
@@ -8440,7 +8440,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "botania:manaresource",
@@ -8566,7 +8566,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "botania:terraplate",
@@ -8635,7 +8635,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "botania:manaresource",
@@ -8731,7 +8731,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "industrialforegoing:mob_relocator",
@@ -8795,7 +8795,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -8860,7 +8860,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "alchemistry:ingot",
@@ -8935,7 +8935,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "alchemistry:fusion_core",
@@ -8998,7 +8998,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "alchemistry:ingot",
@@ -9481,7 +9481,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "enderio:item_power_conduit",
@@ -9550,7 +9550,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "enderio:block_powered_spawner",
@@ -10349,7 +10349,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "appliedenergistics2:crafting_unit",
@@ -11409,7 +11409,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "extendedcrafting:ender_crafter",
@@ -11466,7 +11466,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "mekanism:basicblock",
@@ -11517,7 +11517,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -11610,7 +11610,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "mekanism:polyethene",
@@ -11736,7 +11736,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "ic2:blockmachinehv",
@@ -11799,7 +11799,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "bloodmagic:decorative_brick",
@@ -11850,7 +11850,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "libvulpes:hatch",
@@ -11979,7 +11979,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "libvulpes:productingot",
@@ -12046,7 +12046,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:rocketbuilder",
@@ -12124,7 +12124,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -12181,7 +12181,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:fireworks",
@@ -12248,7 +12248,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "libvulpes:productcrystal",
@@ -12299,7 +12299,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:warpcore",
@@ -12356,7 +12356,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -12440,7 +12440,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "contenttweaker:crystallisedblood",
@@ -12542,7 +12542,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advgenerators:eu_output_mv",
@@ -12935,7 +12935,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "bitewolfbits:ingot_corruptmetal",
@@ -13139,7 +13139,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "contenttweaker:planetshard",
@@ -13434,8 +13434,8 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "botania:livingrock",
-            "Count:3": 4,
+            "id:8": "botania:livingwood",
+            "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -13445,7 +13445,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Living totally rocks",
+          "name:8": "Wood you risk it",
           "desc:8": "Now that we have that Pure Daisy let\u0027s make some Living rock and some Living wood. These will be needed for later on."
         }
       },
@@ -13847,7 +13847,7 @@
           "desc:8": "§0§1§k§k§k§l§m§n§o§r§r§r§r§r§r§k§l§m§rStart here, dont collect 200"
         }
       },
-      "order:3": 1
+      "order:3": 2
     },
     "1:10": {
       "quests:9": {
@@ -14049,7 +14049,7 @@
           "desc:8": "Tech nerds and Botanical advancements"
         }
       },
-      "order:3": 2
+      "order:3": 3
     },
     "2:10": {
       "quests:9": {
@@ -14238,7 +14238,7 @@
           "desc:8": "Reconstructing vanilla and melting the nether"
         }
       },
-      "order:3": 3
+      "order:3": 4
     },
     "3:10": {
       "quests:9": {
@@ -14372,8 +14372,8 @@
       "lineID:3": 3,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "ALWAYS",
-          "name:8": "Tier 2.5, Bees and Seeds",
+          "visibility:8": "HIDDEN",
+          "name:8": "",
           "icon:10": {
             "ForgeCaps:10": {
               "astralsorcery:cap_item_amulet_holder:10": {}
@@ -14528,10 +14528,10 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "This tier is mostly optional and allows for easier generation of resources, enter at own risk"
+          "desc:8": ""
         }
       },
-      "order:3": 4
+      "order:3": 0
     },
     "4:10": {
       "quests:9": {
@@ -14888,7 +14888,7 @@
           "desc:8": "6 Coins per tier, so dont forget to spend them wisely"
         }
       },
-      "order:3": 0
+      "order:3": 1
     },
     "6:10": {
       "quests:9": {
@@ -15197,6 +15197,26 @@
         }
       },
       "order:3": 7
+    },
+    "8:10": {
+      "quests:9": {},
+      "lineID:3": 8,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Tier 6, Environment nuking",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 8
     }
   },
   "questSettings:10": {
