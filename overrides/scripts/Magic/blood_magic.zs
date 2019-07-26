@@ -22,7 +22,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtHellfire", "", 250,
 		[perditioAspect * 30, ignisAspect * 30],
 		<bloodmagic:soul_forge>,
 		[[<ic2c_extras:refinedironblock>, null, <ic2c_extras:refinedironblock>],
-		[<atum:porphyry>, <bitewolfbits:lonsdale_shard>, <atum:porphyry>],
+		[<atum:porphyry>, <contenttweaker:lonsdale>, <atum:porphyry>],
 		[<atum:porphyry>, <minecraft:gold_block>, <atum:porphyry>]]
 		);
 
@@ -40,7 +40,7 @@ recipes.remove(<bloodmagic:altar>);
 mods.thaumcraft.Infusion.registerRecipe("CtBloodAltar", "", 
 		<bloodmagic:altar>, 15, 
 		[<aspect:alkimia> *40, <aspect:mortuus> *25, <aspect:tenebrae> *25, <aspect:victus> *40],
-		<bitewolfbits:lonsdale_shard>, 
+		<contenttweaker:lonsdale>, 
 		[<actuallyadditions:block_misc:2>, <minecraft:gold_block>, <contenttweaker:quartzingot>, <actuallyadditions:block_misc:2>, <actuallyadditions:block_crystal_empowered>, <contenttweaker:quartzingot>]
 	);
 

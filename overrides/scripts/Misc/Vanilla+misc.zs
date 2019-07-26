@@ -21,7 +21,7 @@ recipes.addShaped(<randomthings:timeinabottle>, [[<actuallyadditions:item_crysta
 
 #descriptions
 <minecraft:diamond>.addTooltip(format.red("Found in the Nether"));
-<actuallyadditions:item_misc:5>.addTooltip(format.gold("Found in the Atum"));
+<actuallyadditions:item_misc:5>.addTooltip(format.gold("Found in Atum"));
 #building gadgets
 recipes.remove(<buildinggadgets:destructiontool>);
 recipes.remove(<buildinggadgets:buildingtool>);
@@ -185,8 +185,8 @@ recipes.remove(<deepmoblearning:simulation_chamber>);
 recipes.remove(<deepmoblearning:extraction_chamber>);
 recipes.remove(<deepmoblearning:machine_casing>);
 recipes.addShaped(<deepmoblearning:simulation_chamber>, [[<industrialforegoing:mob_imprisonment_tool>, <industrialforegoing:pink_slime_ingot>, <industrialforegoing:mob_imprisonment_tool>],[<industrialforegoing:mob_relocator>, <deepmoblearning:machine_casing>, <industrialforegoing:mob_relocator>], [<industrialforegoing:mob_imprisonment_tool>, <industrialforegoing:mob_duplicator>, <industrialforegoing:mob_imprisonment_tool>]]);
-recipes.addShaped(<deepmoblearning:extraction_chamber>, [[<ic2:itemscrapbox>, <ic2:itemscrapbox>, <ic2:itemscrapbox>],[<contenttweaker:elementiumprocessor>, <deepmoblearning:machine_casing>, <contenttweaker:elementiumprocessor>], [<bitewolfbits:ingot_corruptmetal>, <minecraft:comparator>, <bitewolfbits:ingot_corruptmetal>]]);
-recipes.addShaped(<deepmoblearning:machine_casing>, [[<deepmoblearning:soot_covered_plate>, <contenttweaker:planetshard>, <deepmoblearning:soot_covered_plate>],[<ic2:blockmachinemv>, <bitewolfbits:ingot_corruptmetal>, <libvulpes:advancedmotor>], [<deepmoblearning:soot_covered_plate>, <ic2:itemmisc:202>, <deepmoblearning:soot_covered_plate>]]);
+recipes.addShaped(<deepmoblearning:extraction_chamber>, [[<ic2:itemscrapbox>, <ic2:itemscrapbox>, <ic2:itemscrapbox>],[<contenttweaker:elementiumprocessor>, <deepmoblearning:machine_casing>, <contenttweaker:elementiumprocessor>], [<contenttweaker:corruptedstarmetal>, <minecraft:comparator>, <contenttweaker:corruptedstarmetal>]]);
+recipes.addShaped(<deepmoblearning:machine_casing>, [[<deepmoblearning:soot_covered_plate>, <contenttweaker:planetshard>, <deepmoblearning:soot_covered_plate>],[<ic2:blockmachinemv>, <contenttweaker:corruptedstarmetal>, <libvulpes:advancedmotor>], [<deepmoblearning:soot_covered_plate>, <ic2:itemmisc:202>, <deepmoblearning:soot_covered_plate>]]);
 
 
 #furnace.remove array
