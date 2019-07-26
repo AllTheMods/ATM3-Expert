@@ -35,4 +35,4 @@ mods.chisel.Carving.addVariation("Blueprints", growth_tower);
 mods.chisel.Carving.addVariation("Blueprints", ind_chiller);
 
 #Modularium
-mods.tconstruct.Casting.addTableRecipe(<modularmachinery:itemmodularium>, <tconstruct:cast_custom>, <liquid:soldering_alloy>, 144, true, 50);
+mods.tconstruct.Casting.addTableRecipe(<modularmachinery:itemmodularium>, <tconstruct:cast_custom>, <liquid:soldering_alloy>, 144, false, 50);
