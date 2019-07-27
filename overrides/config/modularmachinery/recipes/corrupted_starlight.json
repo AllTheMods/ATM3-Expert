@@ -12,7 +12,7 @@
 		{
             "type": "item",
             "io-type": "output",
-            "item": "bitewolfbits:ingot_corruptmetal",
+            "item": "contenttweaker:corruptedstarmetal",
             "amount": 1
         },
         {
