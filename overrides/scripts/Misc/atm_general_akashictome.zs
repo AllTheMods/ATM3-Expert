@@ -131,6 +131,22 @@ print(" ================================================== ");
 					"akashictome:definedMod": "openblocks"
 				},
 				Damage: 0 as short
+			},
+			rftools1: {
+				id: "rftools:rftools_shape_manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "rftools1"
+				},
+				Damage: 0 as short
+			},
+			envtech: {
+				id: "valkyrielib:guide",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "envtech"
+				},
+				Damage: 0 as short
 			}
 		}
 	}
@@ -150,6 +166,9 @@ print(" ================================================== ");
 
 	// Starting item 
 	mods.initialinventory.InvHandler.addStartingItem(completeTome);
+	
+	// Quest book
+	mods.initialinventory.InvHandler.addStartingItem(<questbook:itemquestbook>);
 
 //====== Tooltip for added books ====
 // 
@@ -166,9 +185,10 @@ print(" ================================================== ");
 		<guideapi:bloodmagic-guide>,
 		<opencomputers:tool:4>,
 		<xnet:xnet_manual>,
-		<rftools:rftools_shape_manual>,
-		<openblocks:info_book>,
 		<forestry:book_forester>,
+		<openblocks:info_book>,
+		<rftools:rftools_shape_manual>,
+		<valkyrielib:guide>
 		] as IItemStack[];
 
 	for itemBook in addedBooks {
