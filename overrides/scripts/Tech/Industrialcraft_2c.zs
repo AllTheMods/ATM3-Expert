@@ -12,6 +12,7 @@ import mods.jei.JEI.removeAndHide as removal;
 import mods.immersiveengineering.BlastFurnace;
 import mods.forestry.ThermionicFabricator;
 import mods.ic2.MetalFormer;
+import mods.ic2.Macerator;
 
 print("ic2 changes");
 val plutonium = mods.alchemistry.Util.get("plutonium");
@@ -23,6 +24,7 @@ val hvCable = <ic2:itemcable:5>;
 val copperCable = <ic2:itemcable>;
 val goldCable = <ic2:itemcable:2>;
 val ironPlate = <ore:plateIron>;
+val coffeePowder = <ic2:itemmisc:154>;
 
 #flux generators
 removal(<ic2:blockcompactedgenerator:6>);
@@ -51,7 +53,6 @@ mods.alchemistry.Dissolver.addRecipe(<ic2:itemmisc:500>, true, 1,
 mods.jei.JEI.removeAndHide(<ic2:blockmachinelv:15>);
 mods.jei.JEI.removeAndHide(<ic2:blockgenerator:1>);
 mods.jei.JEI.removeAndHide(<ic2:blockgenerator:8>);
-mods.jei.JEI.removeAndHide(<ic2:itemcrop>);
 recipes.remove(<ic2:itemmisc:500>);
 
 #Macerator
@@ -125,3 +126,7 @@ recipes.addShaped("CTmixedmetal", <ic2:itemmisc:56> * 2,
  [[<thermalfoundation:material:160>, <thermalfoundation:material:160>, <thermalfoundation:material:160>],
  [<thermalfoundation:material:163>, <thermalfoundation:material:163>, <thermalfoundation:material:163>], 
  [<thermalfoundation:material:134>, <thermalfoundation:material:134>, <thermalfoundation:material:134>]]);
+
+#coffee recipes
+recipes.addShapeless("coffee_powder", coffeePowder, [<actuallyadditions:item_coffee_beans>]);
+Macerator.addRecipe(coffeePowder * 3, <actuallyadditions:item_coffee_beans>);
