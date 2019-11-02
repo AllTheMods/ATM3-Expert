@@ -68,4 +68,31 @@ tier5.register();
 var tier6 = VanillaFactory.createItem("Tier6");
 tier6.register();
 
+var CorruptedStarmetal = VanillaFactory.createItem("CorruptedStarmetal");
+CorruptedStarmetal.register();
+
+var Lonsdale = VanillaFactory.createItem("Lonsdale");
+Lonsdale.register();
+
+#Infusion Block Contenttweaker Block Creation
+
+var infusionBlock = VanillaFactory.createBlock("infusion_block", <blockmaterial:rock>);
+infusionBlock.setBlockHardness(5.0);
+infusionBlock.setLightValue(2);
+infusionBlock.setBlockResistance(5.0);
+infusionBlock.setToolClass("pickaxe");
+infusionBlock.setToolLevel(2);
+infusionBlock.setBlockSoundType(<soundtype:stone>);	
+infusionBlock.register();
+
+
+var magmaCobble = VanillaFactory.createBlock("magma_soaked_cobblestone", <blockmaterial:rock>);
+magmaCobble.setBlockHardness(5.0);
+magmaCobble.setLightValue(1);
+magmaCobble.setBlockResistance(5.0);
+magmaCobble.setToolClass("pickaxe");
+magmaCobble.setToolLevel(2);
+magmaCobble.setBlockSoundType(<soundtype:stone>);	
+magmaCobble.register();
+
 

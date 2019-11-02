@@ -131,6 +131,22 @@ print(" ================================================== ");
 					"akashictome:definedMod": "openblocks"
 				},
 				Damage: 0 as short
+			},
+			rftools1: {
+				id: "rftools:rftools_shape_manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "rftools1"
+				},
+				Damage: 0 as short
+			},
+			envtech: {
+				id: "valkyrielib:guide",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "envtech"
+				},
+				Damage: 0 as short
 			}
 		}
 	}
@@ -140,7 +156,7 @@ print(" ================================================== ");
 	//metadata to item
 	completeTome.addTooltip(format.aqua("Contains all basic mod manuals/guides aleady included"));
 	mods.jei.JEI.addDescription(completeTome, "The Akashic tome is a book for your books...",
-											  "This recipe of 1 dirt = full book is add by All the Mods to ALREADY                                                                                        contain most/all modded manuals as a convenience for our players");
+											  "This recipe of 1 dirt = full book is added by All the Mods to ALREADY                                                                                        contain most/all modded manuals as a convenience for our players");
 
 	//add the full book to JEI as it's own entry 
 	mods.jei.JEI.addItem(completeTome);
@@ -166,9 +182,10 @@ print(" ================================================== ");
 		<guideapi:bloodmagic-guide>,
 		<opencomputers:tool:4>,
 		<xnet:xnet_manual>,
-		<rftools:rftools_shape_manual>,
-		<openblocks:info_book>,
 		<forestry:book_forester>,
+		<openblocks:info_book>,
+		<rftools:rftools_shape_manual>,
+		<valkyrielib:guide>
 		] as IItemStack[];
 
 	for itemBook in addedBooks {

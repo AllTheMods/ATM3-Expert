@@ -153,7 +153,7 @@ mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:void_siphon>);
 mods.thaumcraft.Infusion.registerRecipe("CtTeruBozu", "VOIDSYPHON", <thaumcraft:void_siphon>, 2, 
 		[<aspect:vacuos> *100, <aspect:perditio> *100, <aspect:fabrico> *100, <aspect:alienis> *100],
 		<botania:pylon:1>, 
-		[<bitewolfbits:infusion_block>, <minecraft:nether_star>, <thaumcraft:mechanism_complex>, <ore:plateBrass>, <ore:plateBrass>, <bitewolfbits:infusion_block>, <thaumcraft:metal_void>]
+		[<contenttweaker:infusion_block>, <minecraft:nether_star>, <thaumcraft:mechanism_complex>, <ore:plateBrass>, <ore:plateBrass>, <contenttweaker:infusion_block>, <thaumcraft:metal_void>]
 	);
 
 #Alchemical Construct
@@ -287,7 +287,7 @@ mods.thaumcraft.Infusion.registerRecipe("CtBlackQuartzBlock", "", <actuallyaddit
 # Altar Block			
 			
 mods.thaumcraft.Infusion.registerRecipe("CtLonsdale", "", 
-		<bitewolfbits:lonsdale_shard>, 10, 
+		<contenttweaker:lonsdale>, 10, 
 		[<aspect:mortuus> *12, <aspect:tenebrae> *42, <aspect:alienis> *12],
 		 <actuallyadditions:block_crystal_empowered:3>, 
 		[<bloodmagic:monster_soul>, <bloodmagic:monster_soul>, <bloodmagic:monster_soul>, <bloodmagic:monster_soul>]
@@ -322,7 +322,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtRechargePedestal", "BASE
 # Infusion Block
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtInfusionBlock", "BASEINFUSION", 50,
 		[aerAspect, terraAspect, aquaAspect, ignisAspect, ordoAspect, perditioAspect],
-		<bitewolfbits:infusion_block>,
+		<contenttweaker:infusion_block>,
 		[[<thaumcraft:stone_arcane_brick>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praecantatio"}]}), <thaumcraft:stone_arcane_brick>],
 		[<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "instrumentum"}]}), <thermalfoundation:glass:8>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "instrumentum"}]})],
 		[<thaumcraft:stone_arcane_brick>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praecantatio"}]}), <thaumcraft:stone_arcane_brick>]]

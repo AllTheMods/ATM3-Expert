@@ -1,13 +1,13 @@
 {
-  "path": "resource/plants/plombean_plant.json",
+  "path": "resource/plants/argentum_plant.json",
   "enabled": true,
-  "id": "resource:plombean_plant",
-  "plant_name": "Plombean",
-  "seed_name": "Plombean Seeds",
+  "id": "resource:argentum_plant",
+  "plant_name": "Argentum",
+  "seed_name": "Argentum Seeds",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "In ancient times this plant was thought to bear a lifegiving fruit. Nowadays we know better."
+    "default": "Known as the engineer\u0027s delight, this plant produces a substance of incredible shine."
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,
@@ -27,7 +27,7 @@
         "max": 2,
         "chance": 0.95,
         "required": true,
-        "item": "oredict:nuggetLead",
+        "item": "oredict:nuggetSilver",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
@@ -52,7 +52,7 @@
         "max_y": -2,
         "max_z": 0,
         "item": "thermalfoundation:glass",
-        "meta": 3,
+        "meta": 2,
         "tags": "",
         "ignoreMeta": false,
         "ignoreTags": [],
@@ -62,16 +62,16 @@
   },
   "texture": {
     "render_type": "hash",
-    "seed_texture": "agricraft:items/seed_plombean",
+    "seed_texture": "agricraft:items/seed_platiolus",
     "plant_textures": [
-      "agricraft:blocks/crop_plombean1",
-      "agricraft:blocks/crop_plombean1",
-      "agricraft:blocks/crop_plombean1",
-      "agricraft:blocks/crop_plombean2",
-      "agricraft:blocks/crop_plombean2",
-      "agricraft:blocks/crop_plombean2",
-      "agricraft:blocks/crop_plombean3",
-      "agricraft:blocks/crop_plombean4"
+      "agricraft:blocks/crop_platiolus1",
+      "agricraft:blocks/crop_platiolus1",
+      "agricraft:blocks/crop_platiolus1",
+      "agricraft:blocks/crop_platiolus2",
+      "agricraft:blocks/crop_platiolus2",
+      "agricraft:blocks/crop_platiolus2",
+      "agricraft:blocks/crop_platiolus3",
+      "agricraft:blocks/crop_platiolus4"
     ]
   }
 }

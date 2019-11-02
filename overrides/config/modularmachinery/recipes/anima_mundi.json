@@ -1,60 +1,54 @@
 {
     "machine": "mag_fab",
-    "registryName": "mag_fab_starlight",
-    "recipeTime": 300,
+    "registryName": "mag_fab_mundi",
+    "recipeTime": 4000,
     "requirements": [
         
 		{
             "type": "energy",
             "io-type": "input",
-            "energyPerTick": 1600
+            "energyPerTick": 20000
         },        
 		{
             "type": "item",
             "io-type": "output",
-            "item": "contenttweaker:corruptedstarmetal",
-            "amount": 1
+            "item": "atmtweaks:item_material@4",
+            "amount": 4
         },
         {
             "type": "fluid",
             "io-type": "input",
-            "fluid": "corrupted_starlight",
-            "amount": 2500
+            "fluid": "neutron",
+            "amount": 8000
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "astralsorcery:itemcraftingcomponent@1",
-            "amount": 2
-        },
-        {
-            "type": "item",
-            "io-type": "input",
-            "item": "contenttweaker:planetshard",
+            "item": "astralsorcery:itemshiftingstar",
             "amount": 3
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "bloodmagic:demon_crystal@4",
-            "amount": 1
+            "item": "contenttweaker:corruptedstarmetal",
+            "amount": 8
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "bloodmagic:demon_crystal@3",
-            "amount": 1
+            "item": "astralsorcery:itemcraftingcomponent@1",
+            "amount": 16
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "ic2:itemmisc@202",
+            "amount": 16
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "bloodmagic:demon_crystal@2",
-            "amount": 1
-        },
-        {
-            "type": "item",
-            "io-type": "input",
-            "item": "bloodmagic:demon_crystal@1",
+            "item": "astralsorcery:itemcape",
             "amount": 1
         }
     ]

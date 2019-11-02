@@ -18,7 +18,7 @@ val growth_tower = <modularmachinery:itemblueprint>.withTag({dynamicmachine: "mo
 val ind_chiller = <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:industrial_chiller"});
 
 #machine vent
-recipes.addShaped(<modularmachinery:blockcasing:1> * 2, [[<ic2:blockutility:2>, <minecraft:iron_bars>, <ic2:blockutility:2>],[<thermalfoundation:glass:3>, <minecraft:iron_bars>, <thermalfoundation:glass:3>], [<ic2:blockutility:2>, <minecraft:iron_bars>, <ic2:blockutility:2>]]);
+recipes.addShaped(<modularmachinery:blockcasing:1> * 2, [[<botania:livingrock:1>, <minecraft:iron_bars>, <botania:livingrock:1>],[<thermalfoundation:glass:3>, <minecraft:iron_bars>, <thermalfoundation:glass:3>], [<botania:livingrock:1>, <minecraft:iron_bars>, <botania:livingrock:1>]]);
 
 #modularium
 recipes.remove(<modularmachinery:itemmodularium>);
@@ -35,4 +35,4 @@ mods.chisel.Carving.addVariation("Blueprints", growth_tower);
 mods.chisel.Carving.addVariation("Blueprints", ind_chiller);
 
 #Modularium
-mods.tconstruct.Casting.addTableRecipe(<modularmachinery:itemmodularium>, <tconstruct:cast_custom>, <liquid:soldering_alloy>, 144, true, 50);
+mods.tconstruct.Casting.addTableRecipe(<modularmachinery:itemmodularium>, <tconstruct:cast_custom>, <liquid:soldering_alloy>, 144, false, 50);

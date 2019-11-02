@@ -8,8 +8,12 @@ import crafttweaker.block.IBlockProperties;
 import crafttweaker.block.IBlockDefinition;
 import crafttweaker.block.IBlock;
 import crafttweaker.game.IGame;
-import mods.jei.JEI.removeAndHide;
+import mods.jei.JEI.removeAndHide as removal;
 import mods.botania.ManaInfusion;
+
+#induction cells
+removal(<mekanism:basicblock2:4>);
+removal(<mekanism:basicblock2:3>);
 
 #universal cable
 recipes.remove(<mekanism:transmitter:0>);

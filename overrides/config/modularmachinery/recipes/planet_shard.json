@@ -1,0 +1,43 @@
+{
+    "machine": "mag_fab",
+    "registryName": "mag_fab_planetshard",
+    "recipeTime": 100,
+    "requirements": [
+        
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1000
+        },        
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "contenttweaker:planetshard",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "lava",
+            "amount": 2000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "astralsorcery:itemusabledust@1",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:magma_soaked_cobblestone",
+            "amount": 16
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ic2c_extras:stonedust",
+            "amount": 4
+        }
+    ]
+}

@@ -127,6 +127,11 @@ recipes.addShaped("CTmixedmetal", <ic2:itemmisc:56> * 2,
  [<thermalfoundation:material:163>, <thermalfoundation:material:163>, <thermalfoundation:material:163>], 
  [<thermalfoundation:material:134>, <thermalfoundation:material:134>, <thermalfoundation:material:134>]]);
 
+
 #coffee recipes
 recipes.addShapeless("coffee_powder", coffeePowder, [<actuallyadditions:item_coffee_beans>]);
 Macerator.addRecipe(coffeePowder * 3, <actuallyadditions:item_coffee_beans>);
+
+#reactor chamber
+recipes.remove(<ic2:blockchambers>);
+recipes.addShaped(<ic2:blockchambers>, [[null, <ic2:itemmisc:259>, null],[<ic2:itemmisc:259>, <ic2:blockmachinemv>, <ic2:itemmisc:259>], [null, <ic2:itemmisc:259>, null]]);

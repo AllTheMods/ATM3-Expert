@@ -21,7 +21,11 @@ val bronze = <thermalfoundation:material:163>;
 val stonegear = <thermalfoundation:material:23>;
 val ironplate = <thermalfoundation:material:32>;
 val iron = <minecraft:iron_ingot>;
-#Override gear recipes removal and iron plate
+
+#basic tank 
+recipes.removeShaped(<thermalexpansion:tank>);
+recipes.addShaped(<thermalexpansion:tank>, [[null, <thermalfoundation:material:128>, null],[<thermalfoundation:material:128>, <extrautils2:drum>, <thermalfoundation:material:128>], [<contenttweaker:coldironplate>, <thermalfoundation:material:512>, <contenttweaker:coldironplate>]]);
+
 
 #pulveriser
 recipes.remove(<thermalexpansion:machine:1>);
