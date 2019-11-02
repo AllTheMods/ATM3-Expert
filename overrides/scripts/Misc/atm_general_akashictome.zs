@@ -156,7 +156,7 @@ print(" ================================================== ");
 	//metadata to item
 	completeTome.addTooltip(format.aqua("Contains all basic mod manuals/guides aleady included"));
 	mods.jei.JEI.addDescription(completeTome, "The Akashic tome is a book for your books...",
-											  "This recipe of 1 dirt = full book is add by All the Mods to ALREADY                                                                                        contain most/all modded manuals as a convenience for our players");
+											  "This recipe of 1 dirt = full book is added by All the Mods to ALREADY                                                                                        contain most/all modded manuals as a convenience for our players");
 
 	//add the full book to JEI as it's own entry 
 	mods.jei.JEI.addItem(completeTome);
@@ -166,9 +166,6 @@ print(" ================================================== ");
 
 	// Starting item 
 	mods.initialinventory.InvHandler.addStartingItem(completeTome);
-	
-	// Quest book
-	mods.initialinventory.InvHandler.addStartingItem(<questbook:itemquestbook>);
 
 //====== Tooltip for added books ====
 // 
