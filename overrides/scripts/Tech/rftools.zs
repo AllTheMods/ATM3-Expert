@@ -42,3 +42,16 @@ mods.forestry.ThermionicFabricator.addCast(<rftools:machine_frame>,
 
 #rftools flight controller
 removal(<rftools:flight_module>);
+
+#temp
+recipes.remove(<aroma1997sdimension:miningmultitool>);
+
+#shape cards
+recipes.remove(<rftools:shape_card:4>);
+recipes.remove(<rftools:shape_card:3>);
+recipes.remove(<rftools:shape_card:2>);
+recipes.addShaped(<rftools:shape_card:4>, [[<threng:material:13>, <contenttweaker:corruptedstarmetal>, <ic2:itemmisc:264>],[<contenttweaker:corruptedstarmetal>, <rftools:shape_card:2>, <contenttweaker:corruptedstarmetal>], [<ic2:itemmisc:264>, <contenttweaker:corruptedstarmetal>, <threng:material:13>]]);
+recipes.addShaped(<rftools:shape_card:3>, [[<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>],[<minecraft:dirt>, <rftools:shape_card:6>, <minecraft:dirt>], [<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>]]);
+recipes.addShaped(<rftools:shape_card:3>, [[<minecraft:nether_star>, <contenttweaker:corruptedstarmetal>, <minecraft:nether_star>],[<contenttweaker:corruptedstarmetal>, <rftools:shape_card:2>, <contenttweaker:corruptedstarmetal>], [<minecraft:nether_star>, <contenttweaker:corruptedstarmetal>, <minecraft:nether_star>]]);
+recipes.addShaped(<rftools:shape_card:2>, [[<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>],[<minecraft:dirt>, <rftools:shape_card:5>, <minecraft:dirt>], [<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>]]);
+recipes.addShaped(<rftools:shape_card:2>, [[<thaumcraft:elemental_pick>, <contenttweaker:elementiumprocessor>, <contenttweaker:quartzingot>],[<industrialforegoing:laser_drill>, <rftools:shape_card>, <industrialforegoing:laser_drill>], [<contenttweaker:quartzingot>, <contenttweaker:elementiumprocessor>, <thaumcraft:elemental_pick>]]);
