@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/Tier2"
+    "layer0": "contenttweaker:items/manasteelplate"
   }
 }
