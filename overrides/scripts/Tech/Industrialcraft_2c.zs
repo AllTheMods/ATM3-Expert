@@ -13,6 +13,7 @@ import mods.immersiveengineering.BlastFurnace;
 import mods.forestry.ThermionicFabricator;
 import mods.ic2.MetalFormer;
 import mods.ic2.Macerator;
+import mods.ic2.ThermalCentrifuge;
 
 print("ic2 changes");
 val plutonium = mods.alchemistry.Util.get("plutonium");
@@ -135,3 +136,18 @@ Macerator.addRecipe(coffeePowder * 3, <actuallyadditions:item_coffee_beans>);
 #reactor chamber
 recipes.remove(<ic2:blockchambers>);
 recipes.addShaped(<ic2:blockchambers>, [[null, <ic2:itemmisc:259>, null],[<ic2:itemmisc:259>, <ic2:blockmachinemv>, <ic2:itemmisc:259>], [null, <ic2:itemmisc:259>, null]]);
+
+#crushed and purified crushed ore recipes
+ThermalCentrifuge.addRecipe([<thermalfoundation:material>, <ic2c_extras:goldtinydust>], <ore:crushedPurifiedIron>, 400);
+ThermalCentrifuge.addRecipe([<thermalfoundation:material:1>, <ic2c_extras:silvertinydust>], <ore:crushedPurifiedGold>, 400);
+ThermalCentrifuge.addRecipe([<thermalfoundation:material:64>, <ic2c_extras:tintinydust>], <ore:crushedPurifiedCopper>, 400);
+ThermalCentrifuge.addRecipe([<thermalfoundation:material:65>, <ic2c_extras:irontinydust>], <ore:crushedPurifiedTin>, 400);
+ThermalCentrifuge.addRecipe([<thermalfoundation:material:66>, <ic2c_extras:leadtinydust>], <ore:crushedPurifiedSilver>, 400);
+ThermalCentrifuge.addRecipe([<thermalfoundation:material:67>, <ic2c_extras:coppertinydust>], <ore:crushedPurifiedLead>, 400);
+
+ThermalCentrifuge.addRecipe([<thermalfoundation:material>, <ic2c_extras:goldtinydust>, <ic2c_extras:stonedust>], <ore:crushedIron>, 600);
+ThermalCentrifuge.addRecipe([<thermalfoundation:material:1>, <ic2c_extras:silvertinydust>, <ic2c_extras:stonedust>], <ore:crushedGold>, 600);
+ThermalCentrifuge.addRecipe([<thermalfoundation:material:64>, <ic2c_extras:tintinydust>, <ic2c_extras:stonedust>], <ore:crushedCopper>, 600);
+ThermalCentrifuge.addRecipe([<thermalfoundation:material:65>, <ic2c_extras:irontinydust>, <ic2c_extras:stonedust>], <ore:crushedTin>, 600);
+ThermalCentrifuge.addRecipe([<thermalfoundation:material:66>, <ic2c_extras:leadtinydust>, <ic2c_extras:stonedust>], <ore:crushedSilver>, 600);
+ThermalCentrifuge.addRecipe([<thermalfoundation:material:67>, <ic2c_extras:coppertinydust>, <ic2c_extras:stonedust>], <ore:crushedLead>, 600);
