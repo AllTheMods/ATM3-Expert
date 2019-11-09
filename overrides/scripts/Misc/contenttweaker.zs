@@ -14,64 +14,64 @@ moltenGrout.register();
 var solderingalloy =  VanillaFactory.createFluid("Soldering_Alloy", Color.fromHex("959191"));
 solderingalloy.register();
 
-var coldIronIngot = VanillaFactory.createItem("ColdIronIngot");
+var coldIronIngot = VanillaFactory.createItem("coldironingot");
 coldIronIngot.register();
 
-var coldIronPlate = VanillaFactory.createItem("ColdIronPlate");
+var coldIronPlate = VanillaFactory.createItem("coldironplate");
 coldIronPlate.register();
 
-var UnrefinedHotSteel = VanillaFactory.createItem("UnrefinedHotSteel");
+var UnrefinedHotSteel = VanillaFactory.createItem("unrefinedhotsteel");
 UnrefinedHotSteel.register();
 
-var QuartzIngot = VanillaFactory.createItem("QuartzIngot");
+var QuartzIngot = VanillaFactory.createItem("quartzingot");
 QuartzIngot.register();
 
-var QuartzPlate = VanillaFactory.createItem("QuartzPlate");
+var QuartzPlate = VanillaFactory.createItem("quartzplate");
 QuartzPlate.register();
 
-var ManaSteelPlate = VanillaFactory.createItem("ManaSteelPlate");
+var ManaSteelPlate = VanillaFactory.createItem("manasteelplate");
 ManaSteelPlate.register();
 
 var corruptedStarlight = VanillaFactory.createFluid("Corrupted_Starlight", Color.fromHex("FF4D4D"));
 corruptedStarlight.register();
 
-var PlanetShard = VanillaFactory.createItem("PlanetShard");
+var PlanetShard = VanillaFactory.createItem("planetshard");
 PlanetShard.register();
 
-var manaDiamondPlate = VanillaFactory.createItem("ManaDiamondPlate");
+var manaDiamondPlate = VanillaFactory.createItem("manadiamondplate");
 manaDiamondPlate.register();
 
-var ElementiumProcessor = VanillaFactory.createItem("ElementiumProcessor");
+var ElementiumProcessor = VanillaFactory.createItem("elementiumprocessor");
 ElementiumProcessor.register();
 
-var ElementiumPrint = VanillaFactory.createItem("ElementiumPrint");
+var ElementiumPrint = VanillaFactory.createItem("elementiumprint");
 ElementiumPrint.register();
 
-var CrystallisedBlood = VanillaFactory.createItem("CrystallisedBlood");
+var CrystallisedBlood = VanillaFactory.createItem("crystallisedblood");
 CrystallisedBlood.register();
 
-var tier1 = VanillaFactory.createItem("Tier1");
+var tier1 = VanillaFactory.createItem("tier1");
 tier1.register();
 
-var tier2 = VanillaFactory.createItem("Tier2");
+var tier2 = VanillaFactory.createItem("tier2");
 tier2.register();
 
-var tier3 = VanillaFactory.createItem("Tier3");
+var tier3 = VanillaFactory.createItem("tier3");
 tier3.register();
 
-var tier4 = VanillaFactory.createItem("Tier4");
+var tier4 = VanillaFactory.createItem("tier4");
 tier4.register();
 
-var tier5 = VanillaFactory.createItem("Tier5");
+var tier5 = VanillaFactory.createItem("tier5");
 tier5.register();
 
-var tier6 = VanillaFactory.createItem("Tier6");
+var tier6 = VanillaFactory.createItem("tier6");
 tier6.register();
 
-var CorruptedStarmetal = VanillaFactory.createItem("CorruptedStarmetal");
+var CorruptedStarmetal = VanillaFactory.createItem("corruptedstarmetal");
 CorruptedStarmetal.register();
 
-var Lonsdale = VanillaFactory.createItem("Lonsdale");
+var Lonsdale = VanillaFactory.createItem("lonsdale");
 Lonsdale.register();
 
 #Infusion Block Contenttweaker Block Creation

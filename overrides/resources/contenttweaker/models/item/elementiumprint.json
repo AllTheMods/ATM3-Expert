@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/ElementiumPrint"
+    "layer0": "contenttweaker:items/elementiumprint"
   }
 }
