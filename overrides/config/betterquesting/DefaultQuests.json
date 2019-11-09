@@ -1119,7 +1119,7 @@
           "ismain:1": 0,
           "repeat_relative:1": 1,
           "name:8": "Time to sear some things!",
-          "desc:8": "Now that you have obtained an extra melter and an alloy tank, you will want to use your alloy tank and get some clay and sand. Now melt that clay and sand down in the porcelain melter to get some molten clay and molten sand, now combine those in an alloy tank then pour over some gravel in a basin to make your first seared stone!"
+          "desc:8": "Now that you have obtained an extra melter and an alloy tank you will want to use these to get seared stone, place a melter on either side of the alloy tank with heaters below all 3 and add some clay and compressed sand, and then pour the molten grout over some gravel and you will now have seared stone."
         }
       },
       "tasks:9": {
@@ -1662,7 +1662,7 @@
           "icon:10": {
             "id:8": "botania:pool",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 2,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -2450,7 +2450,7 @@
           "ismain:1": 0,
           "repeat_relative:1": 1,
           "name:8": "Nether",
-          "desc:8": "The nether, much like the overworld, will have specific ores that will only spawn in the nether. These ore will be Diamonds ore, nickel ore, lapis ore, ardite ore, cobalt ore, Nether Quartz, and silver ore. Though some of these ores you will not be able to mine at first so keep that in mind as you go explore the nether. Also the mobs that you encounter in the nether may be a little hard to fight than the ones in the over world so you may want to make some armor before your first exploration into the nether."
+          "desc:8": "The nether, much like the overworld, will have specific ores that will only spawn in the nether. primarily you will care about diamond, but there is also ardite ore, cobalt ore and Nether Quartz. Though some of these ores you will not be able to mine at first so keep that in mind as you go explore the nether. Also the mobs that you encounter in the nether may be a little hard to fight than the ones in the overworld so you may want to make some armor before your first exploration."
         }
       },
       "tasks:9": {
@@ -3223,7 +3223,7 @@
           "ismain:1": 0,
           "repeat_relative:1": 1,
           "name:8": "When bigger isnt better",
-          "desc:8": "You will have to make a Kiln to progress, the porcelain should be smelted into brick and used in the porcelain melter recipe, do not smelt all of your porcelain though, as things like faucets need raw, not brick.\n\nNOTE: this is a 2x2x2 multiblock where the top 2 front blocks are kiln, and the rest is small limestone bricks\n"
+          "desc:8": "To make your porcelain into bricks you will need to dry it on drying racks! Do not dry all of your porcelain though, as things like faucets need raw, not brick and should be smelted inside of the kiln.\n\nNOTE: The kiln is a 2x2x2 multiblock where the top 2 front blocks are kiln, and the other 6 blocks are small limestone bricks to form the multiblock\n"
         }
       },
       "tasks:9": {
@@ -3245,6 +3245,19 @@
               "id:8": "atum:limestone_brick_small",
               "Count:3": 6,
               "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "tconstruct:rack",
+              "Count:3": 4,
+              "tag:10": {
+                "textureBlock:10": {
+                  "id:8": "minecraft:wooden_slab",
+                  "Count:1": 1,
+                  "Damage:2": 0
+                }
+              },
+              "Damage:2": 1,
               "OreDict:8": ""
             }
           },
@@ -5222,7 +5235,7 @@
           "ismain:1": 0,
           "repeat_relative:1": 1,
           "name:8": "Alloying the basic way",
-          "desc:8": "Alloying has always been an easy job, until someone took away your smeltery, to make the alloy tank work you will need a porcelain melter on either side of this, with heaters below to melt the bluid, and also alloy them\n\nNOTE: you can get away with one heater for the 3 blocks if you just pick it up and move them, but it is recommended to make at least 1 more"
+          "desc:8": "Alloying has always been an easy job, until someone took away your smeltery, to make the alloy tank work you will need a porcelain melter on either side of this, with heaters below (including the alloy tank), to melt the items into fluid, and alloy them\n\nNOTE: you can get away with one heater for the 3 blocks if you just pick it up and move them to where the heat is needed, but it is recommended to make at least 1 more"
         }
       },
       "tasks:9": {
@@ -7527,7 +7540,7 @@
     "146:10": {
       "questID:3": 146,
       "preRequisites:11": [
-        59
+        38
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -12452,7 +12465,7 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "libvulpes:productcrystal",
+              "id:8": "libvulpes:productgem",
               "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -12478,7 +12491,7 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "libvulpes:productcrystal",
+            "id:8": "libvulpes:productgem",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -12504,7 +12517,7 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "libvulpes:productcrystal",
+              "id:8": "libvulpes:productgem",
               "Count:3": 8,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -14101,7 +14114,7 @@
           "desc:8": "§0§1§k§k§k§l§m§n§o§r§r§r§r§r§r§k§l§m§rStart here, dont collect 200"
         }
       },
-      "order:3": 2
+      "order:3": 1
     },
     "1:10": {
       "quests:9": {
@@ -14164,14 +14177,14 @@
         "8:10": {
           "sizeX:3": 24,
           "x:3": 324,
-          "y:3": 132,
+          "y:3": 84,
           "id:3": 37,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
           "x:3": 324,
-          "y:3": 180,
+          "y:3": 132,
           "id:3": 38,
           "sizeY:3": 24
         },
@@ -14255,7 +14268,7 @@
         "21:10": {
           "sizeX:3": 24,
           "x:3": 324,
-          "y:3": 84,
+          "y:3": 180,
           "id:3": 146,
           "sizeY:3": 24
         },
@@ -14303,7 +14316,7 @@
           "desc:8": "Tech nerds and Botanical advancements"
         }
       },
-      "order:3": 3
+      "order:3": 2
     },
     "2:10": {
       "quests:9": {
@@ -14492,7 +14505,7 @@
           "desc:8": "Reconstructing vanilla and melting the nether"
         }
       },
-      "order:3": 4
+      "order:3": 3
     },
     "3:10": {
       "quests:9": {
@@ -14681,7 +14694,7 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 5
+      "order:3": 4
     },
     "4:10": {
       "quests:9": {
@@ -14849,7 +14862,7 @@
           "desc:8": "6 Coins per tier, so dont forget to spend them wisely"
         }
       },
-      "order:3": 1
+      "order:3": 0
     },
     "5:10": {
       "quests:9": {
@@ -15017,7 +15030,7 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 6
+      "order:3": 5
     },
     "6:10": {
       "quests:9": {
@@ -15157,7 +15170,7 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 7
+      "order:3": 6
     },
     "7:10": {
       "quests:9": {},
@@ -15177,7 +15190,7 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 8
+      "order:3": 7
     }
   },
   "questSettings:10": {
