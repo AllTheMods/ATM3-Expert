@@ -147,6 +147,14 @@ print(" ================================================== ");
 					"akashictome:definedMod": "envtech"
 				},
 				Damage: 0 as short
+			},
+			totemic: {
+				id: "totemic:totempedia",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "totemic"
+				},
+				Damage: 0 as short
 			}
 		}
 	}
@@ -185,7 +193,8 @@ print(" ================================================== ");
 		<forestry:book_forester>,
 		<openblocks:info_book>,
 		<rftools:rftools_shape_manual>,
-		<valkyrielib:guide>
+		<valkyrielib:guide>,
+		<totemic:totempedia>
 		] as IItemStack[];
 
 	for itemBook in addedBooks {
