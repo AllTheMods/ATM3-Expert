@@ -22,6 +22,13 @@ val stonegear = <thermalfoundation:material:23>;
 val ironplate = <thermalfoundation:material:32>;
 val iron = <minecraft:iron_ingot>;
 
+#boiler conversion
+recipes.remove(<thermalexpansion:augment:576>);
+recipes.addShaped(<thermalexpansion:augment:576>,
+ [[null, <thermalexpansion:tank>, null],
+ [<minecraft:redstone>, <minecraft:flint_and_steel>, <minecraft:redstone>], 
+ [<minecraft:iron_ingot>, <thermalfoundation:material:513>, <minecraft:iron_ingot>]]);
+
 #basic tank 
 recipes.removeShaped(<thermalexpansion:tank>);
 recipes.addShaped(<thermalexpansion:tank>, [[null, <thermalfoundation:material:128>, null],[<thermalfoundation:material:128>, <extrautils2:drum>, <thermalfoundation:material:128>], [<contenttweaker:coldironplate>, <thermalfoundation:material:512>, <contenttweaker:coldironplate>]]);
@@ -153,7 +160,6 @@ recipes.addShaped("CTsteamdynamo", <thermalexpansion:dynamo>,
 
 #steam augment
 recipes.remove(<thermalexpansion:augment:640>);
-recipes.remove(<thermalexpansion:augment:576>);
 recipes.addShaped("CTthermalturbine", <thermalexpansion:augment:640>, 
 [[null, <thermalfoundation:material:24>, null],
 [<thermalfoundation:material:128>, <ic2c_extras:heatconductor>, <thermalfoundation:material:128>],
