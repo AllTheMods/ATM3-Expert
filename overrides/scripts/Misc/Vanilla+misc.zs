@@ -39,6 +39,24 @@ recipes.addShapedMirrored(<logisticspipes:chip_basic_raw> * 2,
  [[null, <thermalfoundation:material:32>, null],
  [<ic2:itemmisc:53>, <minecraft:sandstone>, <ic2:itemmisc:53>], 
  [null, <thermalfoundation:material:32>, null]]);
+ 
+recipes.remove(<logisticspipes:chip_fpga_raw>);
+recipes.addShaped(<logisticspipes:chip_fpga_raw> * 16, 
+ [[<ore:sand>, <ic2:itemmisc:53>, <ore:sand>],
+ [<minecraft:gold_ingot>, <minecraft:redstone>, <minecraft:gold_ingot>], 
+ [<ore:sand>, <minecraft:dye:4>, <ore:sand>]]);
+
+recipes.remove(<logisticspipes:pipe_request_mk2>);
+recipes.addShaped(<logisticspipes:pipe_request_mk2>,
+ [[<minecraft:gold_ingot>, <logisticspipes:chip_advanced>, <minecraft:redstone>],
+ [<contenttweaker:manadiamondplate>, <logisticspipes:pipe_request>, <contenttweaker:manadiamondplate>],
+ [<minecraft:redstone>, <logisticspipes:chip_advanced>, <minecraft:gold_ingot>]]);
+
+recipes.remove(<logisticspipes:pipe_request>);
+recipes.addShaped(<logisticspipes:pipe_request>,
+ [[<thermalfoundation:material:354>, <thermalfoundation:material:354>, <minecraft:redstone>],
+ [<logisticspipes:pipe_basic>, <logisticspipes:chip_basic>, <logisticspipes:pipe_basic>], 
+ [<minecraft:redstone>, <thermalfoundation:material:354>, <thermalfoundation:material:354>]]);
 
 
 #cinderpearl>>blaze powder
@@ -47,7 +65,7 @@ recipes.removeShapeless(<minecraft:blaze_powder>, [<thaumcraft:cinderpearl>]);
 #Flint and Steel
 recipes.remove(<minecraft:flint_and_steel>);
 recipes.addShaped("CtFlintandSteel", <minecraft:flint_and_steel>,
-	[[<ic2:itemmisc:255>, <ore:ingotRefinedIron>]]);
+	[[<ic2:itemmisc:256>, <ore:ingotRefinedIron>]]);
 
 
 # Rustic Advanced Condenser # blazing trail gate to thaum
