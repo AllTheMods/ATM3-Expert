@@ -15,6 +15,12 @@ val ironPlate = <thermalfoundation:material:32>;
 val ironGear = <ore:ingotTin>;
 val cobbleTwoTimes = <ore:compressed1xCobblestone>;
 
+#diamond gear 
+recipes.addShaped(<thermalfoundation:material:26>,
+ [[null, <minecraft:diamond>, null],
+ [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>], 
+ [null, <minecraft:diamond>, null]]);
+
 #high oven
 recipes.remove(<tcomplement:high_oven_controller>);
 
