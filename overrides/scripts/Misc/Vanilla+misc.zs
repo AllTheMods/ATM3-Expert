@@ -15,6 +15,9 @@ val ironPlate = <thermalfoundation:material:32>;
 val ironGear = <ore:ingotTin>;
 val cobbleTwoTimes = <ore:compressed1xCobblestone>;
 
+#high oven
+recipes.remove(<tcomplement:high_oven_controller>);
+
 #fluxcore
 recipes.remove(<fluxnetworks:fluxcore>);
 
