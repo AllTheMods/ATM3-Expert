@@ -124,14 +124,6 @@ print(" ================================================== ");
 				},
 				Damage: 0 as short
 			},
-			openblocks: {
-				id: "openblocks:info_book",
-				Count: 1 as byte,
-				tag: {
-					"akashictome:definedMod": "openblocks"
-				},
-				Damage: 0 as short
-			},
 			rftools1: {
 				id: "rftools:rftools_shape_manual",
 				Count: 1 as byte,
@@ -188,7 +180,6 @@ print(" ================================================== ");
 		<extrautils2:book>,
 		<thermalfoundation:tome_lexicon>,
 		<guideapi:bloodmagic-guide>,
-		<opencomputers:tool:4>,
 		<xnet:xnet_manual>,
 		<forestry:book_forester>,
 		<openblocks:info_book>,
