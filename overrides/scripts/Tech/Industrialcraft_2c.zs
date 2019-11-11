@@ -14,6 +14,7 @@ import mods.forestry.ThermionicFabricator;
 import mods.ic2.MetalFormer;
 import mods.ic2.Macerator;
 import mods.ic2.ThermalCentrifuge;
+import mods.ic2.LiquidFuelGenerator;
 
 print("ic2 changes");
 val plutonium = mods.alchemistry.Util.get("plutonium");
@@ -26,6 +27,10 @@ val copperCable = <ic2:itemcable>;
 val goldCable = <ic2:itemcable:2>;
 val ironPlate = <ore:plateIron>;
 val coffeePowder = <ic2:itemmisc:154>;
+
+#liquid fuels
+//Arguments: liquid, ticks, powerOutput >> eu per tick
+LiquidFuelGenerator.addFluid(<liquid:refinedcanolaoil>, 800, 20);
 
 #flux generators
 removal(<ic2:blockcompactedgenerator:6>);
@@ -113,6 +118,14 @@ MetalFormer.addRollingRecipe(<contenttweaker:manasteelplate>, <botania:manaresou
 MetalFormer.addRollingRecipe(<contenttweaker:coldironplate>, <contenttweaker:coldironingot>);
 MetalFormer.addRollingRecipe(<contenttweaker:quartzplate>, <contenttweaker:quartzingot>);
 MetalFormer.addRollingRecipe(<contenttweaker:manadiamondplate>, <botania:manaresource:2>);
+MetalFormer.addRollingRecipe(<thermalfoundation:material:355>, <thermalfoundation:material:163>);
+MetalFormer.addRollingRecipe(<thermalfoundation:material:32>, <minecraft:iron_ingot>);
+MetalFormer.addRollingRecipe(<thermalfoundation:material:322>, <thermalfoundation:material:130>);
+MetalFormer.addRollingRecipe(<thermalfoundation:material:320>, <thermalfoundation:material:128>);
+MetalFormer.addRollingRecipe(<thermalfoundation:material:352>, <thermalfoundation:material:160>);
+MetalFormer.addRollingRecipe(<thermalfoundation:material:33>, <minecraft:gold_ingot>);
+MetalFormer.addRollingRecipe(<thermalfoundation:material:323>, <thermalfoundation:material:131>);
+MetalFormer.addRollingRecipe(<thermalfoundation:material:321>, <thermalfoundation:material:129>);
 
 #electric furnace// ic2
 recipes.remove(<ic2:blockmachinelv:2>);
@@ -128,6 +141,8 @@ recipes.addShaped("CTmixedmetal", <ic2:itemmisc:56> * 2,
  [<thermalfoundation:material:163>, <thermalfoundation:material:163>, <thermalfoundation:material:163>], 
  [<thermalfoundation:material:134>, <thermalfoundation:material:134>, <thermalfoundation:material:134>]]);
 
+#macerator obsidian
+Macerator.addRecipe(<thermalfoundation:material:770> *4, <minecraft:obsidian>);
 
 #coffee recipes
 recipes.addShapeless("coffee_powder", coffeePowder, [<actuallyadditions:item_coffee_beans>]);
