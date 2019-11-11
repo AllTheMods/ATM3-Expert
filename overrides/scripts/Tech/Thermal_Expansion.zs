@@ -51,7 +51,7 @@ recipes.addShaped(<thermalexpansion:machine>,
 #induction smelter
 recipes.remove(<thermalexpansion:machine:3>);
 recipes.addShaped("CTinductsmelter", <thermalexpansion:machine:3>,
- [[<immersiveengineering:wirecoil:5>, <thermalexpansion:machine:*>, <immersiveengineering:wirecoil:5>],
+ [[<immersiveengineering:wirecoil:5>, <tcomplement:alloy_tank>, <immersiveengineering:wirecoil:5>],
  [<minecraft:soul_sand>, <thermalexpansion:frame>, <minecraft:soul_sand>], 
  [<thermalfoundation:material:290>, <ic2:itemmisc:451>, <thermalfoundation:material:290>]]);
 
