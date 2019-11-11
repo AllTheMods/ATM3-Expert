@@ -10,6 +10,9 @@ import crafttweaker.block.IBlock;
 import crafttweaker.game.IGame;
 import mods.jei.JEI.removeAndHide;
 import mods.bloodmagic.BloodAltar;
+import mods.immersiveengineering.ArcFurnace;
+import mods.thermalexpansion.RedstoneFurnace;
+import mods.thermalexpansion.InductionSmelter;
 
 print("Draconic changes start here");
 
@@ -21,3 +24,9 @@ recipes.addShaped(<draconicevolution:draconium_ingot>,
  [<draconicevolution:nugget>, <draconicevolution:nugget>, <draconicevolution:nugget>], 
  [<draconicevolution:nugget>, <draconicevolution:nugget>, <draconicevolution:nugget>]]);
 mods.bloodmagic.BloodAltar.addRecipe(<draconicevolution:draconium_ingot>, <draconicevolution:draconium_dust>, 4, 50000, 25, 5);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<draconicevolution:draconium_ingot>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<draconicevolution:draconium_ingot>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>, <draconicevolution:draconium_dust>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>, <draconicevolution:draconium_ore>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:865>, <draconicevolution:draconium_dust>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:866>, <draconicevolution:draconium_dust>);
