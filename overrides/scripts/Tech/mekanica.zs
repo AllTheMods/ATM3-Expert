@@ -11,6 +11,13 @@ import crafttweaker.game.IGame;
 import mods.jei.JEI.removeAndHide as removal;
 import mods.botania.ManaInfusion;
 
+#Basic tank
+recipes.remove(<mekanism:machineblock2:11>);
+recipes.addShaped(<mekanism:machineblock2:11>,
+ [[<minecraft:redstone>, <minecraft:iron_ingot>, <minecraft:redstone>],
+ [<mekanism:ingot:1>, <extrautils2:drum>, <mekanism:ingot:1>], 
+ [<minecraft:redstone>, <minecraft:iron_ingot>, <minecraft:redstone>]]);
+
 #induction cells
 removal(<mekanism:basicblock2:4>);
 removal(<mekanism:basicblock2:3>);
