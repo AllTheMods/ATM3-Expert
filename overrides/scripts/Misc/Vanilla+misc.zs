@@ -15,6 +15,16 @@ val ironPlate = <thermalfoundation:material:32>;
 val ironGear = <ore:ingotTin>;
 val cobbleTwoTimes = <ore:compressed1xCobblestone>;
 
+#iron plate @quark
+recipes.removeShaped(<quark:iron_plate> * 24,
+ [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+ [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>], 
+ [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
+recipes.addShaped(<quark:iron_plate> * 24,
+ [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+ [null, <minecraft:iron_ingot>, null], 
+ [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>]]);
+
 #diamond gear 
 recipes.addShaped(<thermalfoundation:material:26>,
  [[null, <minecraft:diamond>, null],
