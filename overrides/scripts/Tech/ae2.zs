@@ -13,6 +13,13 @@ import mods.forestry.ThermionicFabricator; # mods.forestry.ThermionicFabricator.
 
 print("AE2 recipe changes");
 
+#circuit etcher
+recipes.remove(<threng:machine:2>);
+recipes.addShaped(<threng:machine:2>,
+ [[<appliedenergistics2:material:14>, <enderio:item_material:1>, <appliedenergistics2:material:15>],
+ [<contenttweaker:elementiumprocessor>, <threng:material:4>, <contenttweaker:elementiumprocessor>],
+ [<appliedenergistics2:material:13>, <teslacorelib:machine_case>, <appliedenergistics2:material:19>]]);
+
 #elementiumprocessor
 mods.appliedenergistics2.Inscriber.addRecipe(<contenttweaker:elementiumprocessor>, <contenttweaker:elementiumprint>, false, <ore:dustRedstone>, <appliedenergistics2:material:20>);
 mods.appliedenergistics2.Inscriber.addRecipe(<contenttweaker:elementiumprint>, <botania:manaresource:7>, true, <appliedenergistics2:material:14>);
