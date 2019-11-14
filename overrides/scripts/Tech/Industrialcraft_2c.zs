@@ -28,6 +28,12 @@ val goldCable = <ic2:itemcable:2>;
 val ironPlate = <ore:plateIron>;
 val coffeePowder = <ic2:itemmisc:154>;
 
+#obsidian blade using thermal obsidian dust
+recipes.addShaped(<ic2:itemmisc:302>,
+ [[<thermalfoundation:material:770>, <thermalfoundation:material:770>, <thermalfoundation:material:770>],
+ [<thermalfoundation:material:770>, <minecraft:flint>, <thermalfoundation:material:770>], 
+ [<thermalfoundation:material:770>, <thermalfoundation:material:770>, <thermalfoundation:material:770>]]);
+
 #liquid fuels
 //Arguments: liquid, ticks, powerOutput >> eu per tick
 LiquidFuelGenerator.addFluid(<liquid:refinedcanolaoil>, 800, 20);
