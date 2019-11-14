@@ -49,13 +49,13 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<atmtweaks:item_material:5>,
 #field core
 mods.extendedcrafting.TableCrafting.addShaped(0, <atmtweaks:item_material:7>, [
 	[<atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, null, null, null, null, null], 
-	[<atmtweaks:item_material:2>, <overloaded:compressed_sand:7>, <draconicevolution:dragon_heart>, <atmtweaks:item_material:2>, null, null, null, null, null], 
-	[<atmtweaks:item_material:2>, <draconicevolution:dragon_heart>, <overloaded:compressed_cobblestone:7>, <atmtweaks:item_material:2>, <contenttweaker:corruptedstarmetal>, null, null, null, null], 
+	[<atmtweaks:item_material:2>, <thaumcraft:primordial_pearl>, <draconicevolution:dragon_heart>, <atmtweaks:item_material:2>, null, null, null, null, null], 
+	[<atmtweaks:item_material:2>, <draconicevolution:dragon_heart>, <minecraft:beacon>, <atmtweaks:item_material:2>, <contenttweaker:corruptedstarmetal>, null, null, null, null], 
 	[<atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, null, null, null], 
 	[null, null, <contenttweaker:corruptedstarmetal>, <atmtweaks:item_material:2>, <extrautils2:opinium:8>, <atmtweaks:item_material:2>, <contenttweaker:corruptedstarmetal>, null, null], 
 	[null, null, null, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>], 
-	[null, null, null, null, <contenttweaker:corruptedstarmetal>, <atmtweaks:item_material:2>, <overloaded:compressed_gravel:7>, <ore:gaiaIngot>, <atmtweaks:item_material:2>], 
-	[null, null, null, null, null, <atmtweaks:item_material:2>, <ore:gaiaIngot>, <overloaded:compressed_dirt:7>, <atmtweaks:item_material:2>], 
+	[null, null, null, null, <contenttweaker:corruptedstarmetal>, <atmtweaks:item_material:2>, <minecraft:beacon>, <ore:gaiaIngot>, <atmtweaks:item_material:2>], 
+	[null, null, null, null, null, <atmtweaks:item_material:2>, <ore:gaiaIngot>, <thaumcraft:primordial_pearl>, <atmtweaks:item_material:2>], 
 	[null, null, null, null, null, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>]
 ]);
 
