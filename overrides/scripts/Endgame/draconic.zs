@@ -28,8 +28,4 @@ recipes.addShaped(<draconicevolution:draconium_ingot>,
 mods.bloodmagic.BloodAltar.addRecipe(<draconicevolution:draconium_ingot>, <draconicevolution:draconium_dust>, 4, 50000, 25, 5);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<draconicevolution:draconium_ingot>);
 mods.thermalexpansion.RedstoneFurnace.removeRecipe(<draconicevolution:draconium_ingot>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>, <draconicevolution:draconium_dust>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>, <draconicevolution:draconium_ore>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:865>, <draconicevolution:draconium_dust>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:866>, <draconicevolution:draconium_dust>);
 furnace.remove(<draconicevolution:draconium_ingot>);
