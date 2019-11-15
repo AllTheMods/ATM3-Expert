@@ -25,7 +25,7 @@ val iron = <minecraft:iron_ingot>;
 #boiler conversion
 recipes.remove(<thermalexpansion:augment:576>);
 recipes.addShaped(<thermalexpansion:augment:576>,
- [[null, <thermalexpansion:tank>, null],
+ [[null, <minecraft:furnace>, null],
  [<minecraft:redstone>, <minecraft:flint_and_steel>, <minecraft:redstone>], 
  [<minecraft:iron_ingot>, <thermalfoundation:material:513>, <minecraft:iron_ingot>]]);
 
