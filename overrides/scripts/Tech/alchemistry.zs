@@ -32,6 +32,7 @@ recipes.remove(<alchemistry:chemical_dissolver>);
 recipes.remove(<alchemistry:chemical_combiner>);
 recipes.addShaped(<alchemistry:chemical_dissolver>, [[<actuallyadditions:item_crystal_empowered:3>, <atmtweaks:item_material:2>, <actuallyadditions:item_crystal_empowered:3>],[<actuallyadditions:item_crystal_empowered:3>, <minecraft:magma>, <actuallyadditions:item_crystal_empowered:3>], [<minecraft:magma>, <teslacorelib:machine_case>, <minecraft:magma>]]);
 recipes.addShaped(<alchemistry:chemical_combiner>, [[<actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered:2>],[<atmtweaks:item_material:2>, <botania:rune>, <atmtweaks:item_material:2>], [<immersiveengineering:metal_decoration0:4>, <immersiveengineering:metal_decoration0:4>, <immersiveengineering:metal_decoration0:4>]]);
+mods.alchemistry.Combiner.removeRecipe(<nuclearcraft:ingot:11>);
 
 #fusion controller
 recipes.remove(<alchemistry:fusion_controller>);
