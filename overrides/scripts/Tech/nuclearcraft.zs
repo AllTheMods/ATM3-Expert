@@ -18,7 +18,9 @@ print("nuclearcraft  changes");
 recipes.remove(<nuclearcraft:part:4>);
 recipes.remove(<nuclearcraft:part:8>);
 recipes.remove(<nuclearcraft:part:10>);
+recipes.remove(<nuclearcraft:part:7>);
 recipes.addShaped(<nuclearcraft:part:8>, [[<thermalfoundation:material:160>, <thermalfoundation:material:160>, <botania:manaresource:7>],[<nuclearcraft:part:4>, <nuclearcraft:part:4>, <libvulpes:productrod:4>], [<thermalfoundation:material:160>, <thermalfoundation:material:160>, <botania:manaresource:7>]]);
 recipes.addShaped(<nuclearcraft:part:4>, [[<thermalfoundation:material:160>, <libvulpes:productsheet:4>, <thermalfoundation:material:160>],[<thermalfoundation:material:160>, <libvulpes:productrod:4>, <thermalfoundation:material:160>], [<thermalfoundation:material:160>, <libvulpes:productsheet:4>, <thermalfoundation:material:160>]]);
 recipes.addShaped(<nuclearcraft:part:10>, [[<thermalfoundation:material:160>, <botania:manaresource:7>, <thermalfoundation:material:160>],[<nuclearcraft:alloy:1>, <contenttweaker:corruptedstarmetal>, <nuclearcraft:alloy:1>], [<thermalfoundation:material:160>, <botania:manaresource:7>, <thermalfoundation:material:160>]]);
+recipes.addShaped(<nuclearcraft:part:7>, [[<nuclearcraft:alloy:6>, null, <nuclearcraft:alloy:6>],[<thermaldynamics:servo:4>, <mekanism:ingot:1>, <thermaldynamics:servo:4>], [<nuclearcraft:alloy:15>, <contenttweaker:planetshard>, <nuclearcraft:alloy:15>]]);
 
