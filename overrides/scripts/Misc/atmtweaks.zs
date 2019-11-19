@@ -71,3 +71,14 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <atmtweaks:item_material:8>, [
 	[<advgenerators:turbine_rotor_manyullyn>, <nuclearcraft:turbine_rotor_blade_extreme>, <advgenerators:turbine_rotor_manyullyn>, <atmtweaks:item_material:2>, <advgenerators:power_io>, <atmtweaks:item_material:2>, <advgenerators:turbine_rotor_enderium>, <nuclearcraft:turbine_rotor_blade_extreme>, <advgenerators:turbine_rotor_enderium>], 
 	[<nuclearcraft:turbine_rotor_blade_extreme>, <advgenerators:turbine_rotor_manyullyn>, <atmtweaks:item_material:2>, null, <advgenerators:power_io>, null, <atmtweaks:item_material:2>, <advgenerators:turbine_rotor_enderium>, <nuclearcraft:turbine_rotor_blade_extreme>]
 ]);
+
+
+#sphere
+    mods.botania.RuneAltar.addRecipe(<atmtweaks:item_material:6>, [<thaumcraft:voidseer_charm>, <thaumcraft:primordial_pearl>, <thaumcraft:causality_collapser>, <botania:manaresource:14>, <thaumcraft:ingot:1>, <draconicevolution:wyvern_core>], 25000
+	);
+	
+#dragon essence
+mods.extendedcrafting.CombinationCrafting.addRecipe(<atmtweaks:item_material:9>, 
+ 100000000, 10000, <draconicevolution:dragon_heart>, 
+[<draconicevolution:awakened_core>, <deepmoblearning:pristine_matter_dragon>, <draconicevolution:ender_energy_manipulator>, 
+ <extrautils2:passivegenerator:8>, <minecraft:dragon_egg>, <enderio:item_material:44>,  <ic2:itemmisc:59>]);
