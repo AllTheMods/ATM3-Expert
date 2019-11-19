@@ -25,7 +25,7 @@ recipes.addShaped("CTlumincrafter", <astralsorcery:blockaltar>, [[<astralsorcery
 #Sooty stoneMarble
 recipes.remove(<astralsorcery:blockblackmarble>);
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/marble_black_raw");
-recipes.addShaped("CTSootyMarble", <astralsorcery:blockblackmarble>,
+recipes.addShaped("CTSootyMarble", <astralsorcery:blockblackmarble> *4,
     [[<ore:stoneMarble>,<ore:stoneMarble>, <ore:stoneMarble>],
     [<ore:stoneMarble>, <ore:dustQuartzBlack>, <ore:stoneMarble>],
     [<ore:stoneMarble>,<ore:stoneMarble>,<ore:stoneMarble>]]);
