@@ -180,13 +180,7 @@ mods.thaumcraft.Crucible.registerRecipe("CtCrucible", "EVERFULLURN", <thaumcraft
 			<astralsorcery:itemcraftingcomponent:3>, 
 			[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>, <ore:enderpearl>]
 		);
-	#essemtia mirror
-	mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:mirror_essentia>);
-	mods.thaumcraft.Infusion.registerRecipe("CtEssentiaMirror", "ESSENTIAMIRROR", <thaumcraft:mirror_essentia>, 4, 
-			[<aspect:motus>, aquaAspect, <aspect:permutatio>],
-			<astralsorcery:itemcraftingcomponent:3>,
-			[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:enderpearl>]
-		);
+
 
 #workbench Charger
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:arcane_workbench_charger>);
