@@ -43,19 +43,19 @@ recipes.addShaped(<atmtweaks:item_material>,
 mods.extendedcrafting.CombinationCrafting.addRecipe(<atmtweaks:item_material:5>, 
  100000000, 5000, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "xpjuice", Amount: 500000}, Level: 4 as byte, Lock: 0 as byte}), 
 [<actuallyadditions:block_xp_solidifier>, <actuallyadditions:item_solidified_experience>, <environmentaltech:aethium_crystal>, <extrautils2:decorativesolidwood:1>,
-<thaumcraft:primordial_pearl>, <actuallyadditions:item_solidified_experience>, <actuallyadditions:item_solidified_experience>, <contenttweaker:corruptedstarmetal>, 
+<rftools:peaceful_module>, <actuallyadditions:item_solidified_experience>, <actuallyadditions:item_solidified_experience>, <contenttweaker:corruptedstarmetal>, 
 <thaumcraft:alumentum>, <extendedcrafting:trimmed:2>]);
 
 #field core
 mods.extendedcrafting.TableCrafting.addShaped(0, <atmtweaks:item_material:7>, [
 	[<atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, null, null, null, null, null], 
-	[<atmtweaks:item_material:2>, <thaumcraft:primordial_pearl>, <draconicevolution:dragon_heart>, <atmtweaks:item_material:2>, null, null, null, null, null], 
+	[<atmtweaks:item_material:2>, <ic2:itemmisc:264>, <draconicevolution:dragon_heart>, <atmtweaks:item_material:2>, null, null, null, null, null], 
 	[<atmtweaks:item_material:2>, <draconicevolution:dragon_heart>, <minecraft:beacon>, <atmtweaks:item_material:2>, <contenttweaker:corruptedstarmetal>, null, null, null, null], 
 	[<atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, null, null, null], 
 	[null, null, <contenttweaker:corruptedstarmetal>, <atmtweaks:item_material:2>, <extrautils2:opinium:8>, <atmtweaks:item_material:2>, <contenttweaker:corruptedstarmetal>, null, null], 
 	[null, null, null, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>], 
 	[null, null, null, null, <contenttweaker:corruptedstarmetal>, <atmtweaks:item_material:2>, <minecraft:beacon>, <ore:gaiaIngot>, <atmtweaks:item_material:2>], 
-	[null, null, null, null, null, <atmtweaks:item_material:2>, <ore:gaiaIngot>, <thaumcraft:primordial_pearl>, <atmtweaks:item_material:2>], 
+	[null, null, null, null, null, <atmtweaks:item_material:2>, <ore:gaiaIngot>, <ic2:itemmisc:264>, <atmtweaks:item_material:2>], 
 	[null, null, null, null, null, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>]
 ]);
 
