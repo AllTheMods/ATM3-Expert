@@ -82,3 +82,13 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<atmtweaks:item_material:9>,
  100000000, 10000, <draconicevolution:dragon_heart>, 
 [<draconicevolution:awakened_core>, <deepmoblearning:pristine_matter_dragon>, <draconicevolution:ender_energy_manipulator>, 
  <extrautils2:passivegenerator:8>, <minecraft:dragon_egg>, <enderio:item_material:44>,  <ic2:itemmisc:59>]);
+
+#creative items
+recipes.addShaped(<mekanism:machineblock2:11>, [[null, null, null],[<mekanism:machineblock2:11>, <atmtweaks:item_material:*>, null], [null, null, null]]);
+recipes.addShaped(<thermalfoundation:upgrade:256>, [[null, null, null],[<thermalfoundation:upgrade:35>, <atmtweaks:item_material:*>, null], [null, null, null]]);
+recipes.addShaped(<bloodmagic:activation_crystal:2>, [[null, null, null],[null, <bloodmagic:activation_crystal:*>, null], [null, <atmtweaks:item_material>, null]]);
+recipes.addShaped(<tconstruct:materials:50> * 64, [[<minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>],[<minecraft:skull:1>, <atmtweaks:item_material:*>, <minecraft:skull:1>], [<minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>]]);
+recipes.addShaped(<wct:wct_creative>, [[null, null, null],[<atmtweaks:item_material>, <wct:wct:*>, null], [null, null, null]]);
+recipes.addShaped(<psi:cad_assembly:5>, [[null, null, null],[<psi:cad_assembly:4>, <atmtweaks:item_material>, <psi:cad_assembly:3>], [null, null, null]]);
+recipes.addShaped(<botania:pool:1>, [[<botania:pool:3>, <botania:pool:3>, <botania:pool:3>],[<botania:pool:3>, <botania:manatablet>, <botania:pool:3>], [<botania:pool:3>, <botania:pool:3>, <botania:pool:3>]]);
+recipes.addShaped(<botania:manatablet>, [[<botania:manatablet>, <botania:manatablet>, <botania:manatablet>],[<botania:manatablet>, <atmtweaks:item_material>, <botania:manatablet>], [<botania:manatablet>, <botania:manatablet>, <botania:manatablet>]]);
