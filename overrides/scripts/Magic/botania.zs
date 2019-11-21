@@ -194,7 +194,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <botania:alfheimportal>, [
 
 #Elementium recipe
 mods.botania.ElvenTrade.removeRecipe(<botania:manaresource:7>);
-mods.botania.ElvenTrade.addRecipe([<botania:manaresource:7>], [<astralsorcery:itemcraftingcomponent:1>*2]);
+mods.botania.ElvenTrade.addRecipe([<botania:manaresource:7>], [<astralsorcery:itemcraftingcomponent:1>]);
 
 #Elven Quartz
 mods.botania.ElvenTrade.removeRecipe(<botania:quartz:5>);
