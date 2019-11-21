@@ -22,6 +22,10 @@ val stonegear = <thermalfoundation:material:23>;
 val ironplate = <thermalfoundation:material:32>;
 val iron = <minecraft:iron_ingot>;
 
+#lead block fixed
+recipes.addShapeless(<thermalfoundation:storage:3>, [<ore:ingotLead>,<ore:ingotLead>,<ore:ingotLead>,<ore:ingotLead>,<ore:ingotLead>,<ore:ingotLead>,<ore:ingotLead>,<ore:ingotLead>,<ore:ingotLead>]);
+recipes.remove(<thermalfoundation:storage:3>);
+
 #boiler conversion
 recipes.remove(<thermalexpansion:augment:576>);
 recipes.addShaped(<thermalexpansion:augment:576>,
