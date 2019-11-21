@@ -193,6 +193,12 @@ recipes.addShaped(<superfactorymanager:cable> * 2,
 #remove pyrotheum hardened glass recipes
 recipes.removeShaped(<ore:blockGlassHardened>);
 
+#Mining turtles
+recipes.remove(<computercraft:turtle:1>);
+recipes.remove(<computercraft:turtle_advanced>.withTag({leftUpgrade: 5 as short}));
+recipes.addShaped(<computercraft:turtle_advanced>.withTag({leftUpgrade: 5 as short}), [[<minecraft:gold_ingot>, <actuallyadditions:block_crystal_empowered:5>, <minecraft:gold_ingot>],[<minecraft:gold_ingot>, <computercraft:turtle:1>, <minecraft:gold_ingot>], [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>]]);
+recipes.addShaped(<computercraft:turtle:1>, [[<ic2:itemmisc:53>, <ic2:itemmisc:53>, <ic2:itemmisc:53>],[<ic2:itemmisc:452>, <computercraft:computer:*>, <thaumcraft:elemental_pick>], [<ic2:itemmisc:53>, <ic2:itemmisc:53>, <ic2:itemmisc:53>]]);
+
 #xnet changes 
 
 #routing cable
