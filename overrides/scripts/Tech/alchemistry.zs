@@ -2,6 +2,8 @@ val strontium = mods.alchemistry.Util.get("strontium");
 val bohrium = mods.alchemistry.Util.get("bohrium");
 val tungsten = mods.alchemistry.Util.get("tungsten");
 val fermium = mods.alchemistry.Util.get("fermium");
+val thorium = mods.alchemistry.Util.get("thorium");
+val mercury = mods.alchemistry.Util.get("mercury");
 
 <alchemistry:element:38>.addTooltip(format.red("Combine in fusion multiblock for osmium"));
 
@@ -25,7 +27,10 @@ mods.alchemistry.Dissolver.addRecipe(<immersivepetroleum:material>, true, 1,
 [[8, strontium *8]]);
 
 mods.alchemistry.Dissolver.addRecipe(<botania:manaresource:4>, true, 1,
-[[100, strontium *8], [100, fermium *8]]);
+[[100, strontium *12], [100, fermium *12]]);
+
+mods.alchemistry.Dissolver.addRecipe(<immersivepetroleum:material>, true, 1,
+[[100, <appliedenergistics2:material> *16], [55, mercury *12], [60, fermium *12]]);
 
 #dissolver and combiner
 recipes.remove(<alchemistry:chemical_dissolver>);
