@@ -130,10 +130,10 @@ recipes.addShaped("CTbucket", <minecraft:bucket>,
  
 #furnace change
 recipes.removeShaped(<minecraft:furnace>);
-recipes.addShaped("CtFurnace",<minecraft:furnace>,
- [[cobbleTwoTimes,cobbleTwoTimes,cobbleTwoTimes],
- [cobbleTwoTimes,<minecraft:chest>,cobbleTwoTimes],
- [cobbleTwoTimes,ironGear,cobbleTwoTimes]]);
+recipes.addShaped(<minecraft:furnace>,
+ [[<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>],
+ [<ore:blockSeared>, null, <ore:blockSeared>], 
+ [<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>]]);
 
 #Charcoal
 furnace.remove(<ore:charcoal>,<ore:logWood>);
@@ -151,8 +151,7 @@ recipes.addShaped("CTdracchest", <draconicevolution:draconium_chest>,
  [<ironchest:iron_chest:6>, <thermalexpansion:frame>, <ironchest:iron_chest:6>], 
  [<ic2:blockmachinelv:1>, <ic2:blockmachinelv:1>, <ic2:blockmachinelv:1>]]);
 
-#flroalchemy jei integration
-
+#floralchemy jei integration
 //addDescription(IItemStack[] item, string... desc);
 mods.jei.JEI.addDescription([<botania:specialflower>.withTag({type: "petro_petunia"}), <botania:floatingspecialflower>.withTag({type: "petro_petunia"})],
 ["acceptable fuels must be placed 1y below either in a tank or in world", 
