@@ -163,14 +163,9 @@ mods.jei.JEI.addDescription([<botania:specialflower>.withTag({type: "petro_petun
  "Diesel", 
  "Syngas"]);
 
- #VANILLA + MISC draconium removal
-furnace.remove(<draconicevolution:draconium_ingot>, <draconicevolution:draconium_dust>);
-furnace.remove(<draconicevolution:draconium_ingot>, <draconicevolution:draconium_ore>);
-furnace.remove(<draconicevolution:draconium_ingot>, <draconicevolution:draconium_ore:1>);
-furnace.remove(<draconicevolution:draconium_ingot>, <draconicevolution:draconium_ore:2>);
 
 #Wither essence
-recipes.remove(<draconicevolution:draconic_core>);
+recipes.removeShapeless(<draconicevolution:draconic_core>);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<atmtweaks:item_material:10>, 
  16000000, 10000, <atmtweaks:item_material:1>, 
 [<ore:blockNetherStar>, <minecraft:skull:1>, 
