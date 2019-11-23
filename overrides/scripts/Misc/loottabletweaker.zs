@@ -3,8 +3,6 @@ import mods.ltt.LootTable;
 var lootremovals as string[] = [
 	
 	"actuallyadditions:block_misc:4",
-	
-	
 	"minecraft:iron_ingot",
 	"minecraft:gold_ingot",
 	"minecraft:iron_pickaxe",
@@ -14,7 +12,7 @@ var lootremovals as string[] = [
     "ore:plateSteel",
 	"ore:toolHoe",
 	"minecraft:quartz",
-	"botania:manaresource",
+	"ore:ingotManasteel",
 	"minecraft:diamond",
 	"ore:ingotSteel",
 	"minecraft:emerald",
