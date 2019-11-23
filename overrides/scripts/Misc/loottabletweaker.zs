@@ -35,6 +35,7 @@ var lootremovals as string[] = [
 	"ore:ingotPulsatingIron",
 	"botania:overgrowthseed",
 	"enderio:item_travel_staff",
+	"<minecraft:furnace>",
 	"enderio:item_alloy_ingot:6",
 	"enderio:item_alloy_ingot:5",
 	"minecraft:redstone"
