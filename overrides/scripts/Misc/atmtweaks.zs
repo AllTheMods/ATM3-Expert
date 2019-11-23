@@ -47,7 +47,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<atmtweaks:item_material:5>,
 <thaumcraft:alumentum>, <extendedcrafting:trimmed:2>]);
 
 #field core
-mods.extendedcrafting.TableCrafting.addShaped(0, <atmtweaks:item_material:7>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <atmtweaks:item_material:7> *2, [
 	[<atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, <atmtweaks:item_material:2>, null, null, null, null, null], 
 	[<atmtweaks:item_material:2>, <ic2:itemmisc:264>, <draconicevolution:dragon_heart>, <atmtweaks:item_material:2>, null, null, null, null, null], 
 	[<atmtweaks:item_material:2>, <draconicevolution:dragon_heart>, <minecraft:beacon>, <atmtweaks:item_material:2>, <contenttweaker:corruptedstarmetal>, null, null, null, null], 
