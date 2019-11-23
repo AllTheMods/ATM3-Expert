@@ -29,3 +29,13 @@ mods.bloodmagic.BloodAltar.addRecipe(<draconicevolution:draconium_ingot>, <draco
 mods.immersiveengineering.ArcFurnace.removeRecipe(<draconicevolution:draconium_ingot>);
 mods.thermalexpansion.RedstoneFurnace.removeRecipe(<draconicevolution:draconium_ingot>);
 furnace.remove(<draconicevolution:draconium_ingot>);
+
+#Draconic core
+recipes.removeShapeless(<draconicevolution:draconic_core>);
+recipes.addShaped(<draconicevolution:draconic_core>, 
+ [[<thermalfoundation:material:294>, <botania:manaresource:7>, <contenttweaker:planetshard>],
+ [<draconicevolution:draconium_ingot>, <contenttweaker:corruptedstarmetal>, <draconicevolution:draconium_ingot>],
+ [<contenttweaker:planetshard>, <thaumcraft:ingot>, <thermalfoundation:material:295>]]);
+
+ #Wyvern Core
+ 

@@ -165,7 +165,6 @@ mods.jei.JEI.addDescription([<botania:specialflower>.withTag({type: "petro_petun
 
 
 #Wither essence
-recipes.removeShapeless(<draconicevolution:draconic_core>);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<atmtweaks:item_material:10>, 
  16000000, 10000, <atmtweaks:item_material:1>, 
 [<ore:blockNetherStar>, <minecraft:skull:1>, 
