@@ -27,7 +27,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <atmtweaks:item_material:1>, [
 mods.forestry.ThermionicFabricator.addCast(<atmtweaks:item_material:2> *3, 
 [[<thermalfoundation:material:352>,<bloodmagic:slate:2>,<contenttweaker:manasteelplate>], 
 [<astralsorcery:itemcraftingcomponent:1>,<appliedenergistics2:material:43>,<astralsorcery:itemcraftingcomponent:1>],
-[<contenttweaker:manasteelplate>,<thermalfoundation:glass_alloy>,<thermalfoundation:material:352>]], 
+[<contenttweaker:manasteelplate>,<enderio:item_material:77>,<thermalfoundation:material:352>]], 
 <liquid: glass> * 1000);
 
 #forged industrium ingot
