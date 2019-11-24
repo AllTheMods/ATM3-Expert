@@ -81,14 +81,6 @@ recipes.removeShaped(<thermalfoundation:material:257>);
 #iron gear
 recipes.removeShaped(<thermalfoundation:material:24>);
 
-#Charcoal
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<thermalfoundation:material:801>);
-mods.thermalexpansion.RedstoneFurnace.removePyrolysisRecipe(<thermalfoundation:material:801>);
-mods.thermalexpansion.RedstoneFurnace.removePyrolysisRecipe(<minecraft:log:3>);
-mods.thermalexpansion.RedstoneFurnace.removePyrolysisRecipe(<minecraft:hay_block>);
-mods.thermalexpansion.RedstoneFurnace.removePyrolysisRecipe(<minecraft:cactus>);
-mods.thermalexpansion.RedstoneFurnace.removePyrolysisRecipe(<minecraft:reeds>);
-
 #thermal coils
 recipes.addShaped("CTtransmission", <thermalfoundation:material:514>,
 [[null, null, <actuallyadditions:item_crystal>],
