@@ -45,7 +45,7 @@ recipes.addShaped(<randomthings:timeinabottle>, [[<actuallyadditions:item_crysta
 <minecraft:diamond>.addTooltip(format.red("Found in the Nether"));
 <actuallyadditions:item_misc:5>.addTooltip(format.gold("Found in Atum"));
 <thermalfoundation:material:132>.addTooltip(format.red("Found in the Nether"));
-
+<minecraft:coal:1>.addTooltip(format.red("Made with Forestry piles"));
 
 #building gadgets
 recipes.remove(<buildinggadgets:destructiontool>);
