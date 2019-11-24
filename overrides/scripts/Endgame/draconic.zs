@@ -39,7 +39,7 @@ recipes.addShaped(<draconicevolution:draconic_core>,
 
 #Wyvern Core
  mods.extendedcrafting.CombinationCrafting.addRecipe(<draconicevolution:wyvern_core>, 
- 100000000, 10000, <draconicevolution:wyvern_core>, <actuallyadditions:item_crystal_empowered:5>,
+ 100000000, 10000, <draconicevolution:wyvern_core>, [<actuallyadditions:item_crystal_empowered:5>,
  <actuallyadditions:item_crystal_empowered:4>, <ore:eternalLifeEssence>,
  <actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered>,
  <actuallyadditions:item_crystal_empowered:1>, <thaumcraft:plate:3>, <environmentaltech:kyronite_crystal>]);
