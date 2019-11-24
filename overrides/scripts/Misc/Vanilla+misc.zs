@@ -83,12 +83,6 @@ recipes.addShaped(<logisticspipes:pipe_request>,
 #cinderpearl>>blaze powder
 recipes.removeShapeless(<minecraft:blaze_powder>, [<thaumcraft:cinderpearl>]);
 
-#Flint and Steel
-recipes.remove(<minecraft:flint_and_steel>);
-recipes.addShaped("CtFlintandSteel", <minecraft:flint_and_steel>,
-	[[<ic2:itemmisc:256>, <ore:ingotRefinedIron>]]);
-
-
 # Rustic Advanced Condenser # blazing trail gate to thaum
 recipes.remove(<rustic:condenser_advanced>);
 recipes.addShaped("CtAdvancedCondenser", <rustic:condenser_advanced>,
