@@ -54,20 +54,6 @@ recipes.addShaped("CTScaffolding",<immersiveengineering:metal_decoration1:1> * 4
 [null, <immersiveengineering:material:1>,null],
 [<immersiveengineering:material:1>,null, <immersiveengineering:material:1>]]);
 
-#heavy block
-recipes.remove(<immersiveengineering:metal_decoration0:5>);
-recipes.addShaped("CTHeavyBlock",<immersiveengineering:metal_decoration0:5>,
-[[<ic2:itemmisc:53>,<immersiveengineering:material:8>, <ic2:itemmisc:53>],
-[<minecraft:piston>, <ore:ingotElectrum>,<minecraft:piston>],
-[<ic2:itemmisc:53>,<immersiveengineering:material:8>, <ic2:itemmisc:53>]]);
-
-#light block
-recipes.remove(<immersiveengineering:metal_decoration0:4>);
-recipes.addShaped("CTLightBlock",<immersiveengineering:metal_decoration0:4>,
-[[<ore:ingotSteel>,<immersiveengineering:material:9>, <ore:ingotSteel>],
-[<ore:ingotCopper>, <ore:ingotCopper>,<ore:ingotCopper>],
-[<ore:ingotSteel>,<immersiveengineering:material:9>, <ore:ingotSteel>]]);
-
 #iron component
 recipes.remove(<immersiveengineering:material:8>);
 recipes.addShaped("CTIronComp",<immersiveengineering:material:8>,
