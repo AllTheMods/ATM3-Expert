@@ -52,5 +52,5 @@ mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:crystallisedblood>, <botani
 recipes.remove(<bloodmagic:incense_altar>);
 recipes.addShaped(<bloodmagic:incense_altar>,
  [[null, <botania:grassseeds:1>, null],
- [<immersiveengineering:material:18>, <bloodmagic:slate:2>, <immersiveengineering:material:18>], 
- [<ore:plankWood>, <bloodmagic:slate:2>, <ore:plankWood>]]);
+ [<immersiveengineering:material:18>, <bloodmagic:slate:1>, <immersiveengineering:material:18>], 
+ [<ore:plankWood>, <bloodmagic:slate:1>, <ore:plankWood>]]);
