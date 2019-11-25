@@ -31,13 +31,14 @@ mods.thermalexpansion.RedstoneFurnace.removeRecipe(<draconicevolution:draconium_
 furnace.remove(<draconicevolution:draconium_ingot>);
 
 #Draconic core
-recipes.removeShapeless(<draconicevolution:draconic_core>);
+recipes.remove(<draconicevolution:draconic_core>);
 recipes.addShaped(<draconicevolution:draconic_core>, 
  [[<thermalfoundation:material:294>, <botania:manaresource:7>, <contenttweaker:planetshard>],
  [<draconicevolution:draconium_ingot>, <contenttweaker:corruptedstarmetal>, <draconicevolution:draconium_ingot>],
  [<contenttweaker:planetshard>, <thaumcraft:ingot>, <thermalfoundation:material:295>]]);
 
 #Wyvern Core
+recipes.remove(<draconicevolution:wyvern_core>);
  mods.extendedcrafting.CombinationCrafting.addRecipe(<draconicevolution:wyvern_core>, 
  100000000, 10000, <draconicevolution:wyvern_core>, [<actuallyadditions:item_crystal_empowered:5>,
  <actuallyadditions:item_crystal_empowered:4>, <ore:eternalLifeEssence>,
