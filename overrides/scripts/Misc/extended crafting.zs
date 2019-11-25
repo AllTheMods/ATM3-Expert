@@ -84,7 +84,7 @@ recipes.addShaped(<extendedcrafting:pedestal>,
 
 #Black Paper
 recipes.remove(<enderio:item_material:77>);
-mods.extendedcrafting.TableCrafting.addShaped(0, <minecraft:coal:1>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <enderio:item_material:77>, [
 	[<ore:dustCharcoal>, null, null, null, <ore:dustCharcoal>], 
 	[null, <ore:dustCharcoal>, <ore:paper>, <ore:dustCharcoal>, null], 
 	[null, <ore:paper>, <ore:paper>, <ore:paper>, null], 
