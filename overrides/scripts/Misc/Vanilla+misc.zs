@@ -25,6 +25,13 @@ recipes.addShaped(<quark:iron_plate> * 24,
  [null, <minecraft:iron_ingot>, null], 
  [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>]]);
 
+#advanced rocketry circuit
+ recipes.remove(<advancedrocketry:ic:4>);
+ recipes.remove(<advancedrocketry:ic:5>);
+ recipes.remove(<advancedrocketry:ic:3>);
+ mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:4>);
+ mods.advancedrocketry.PrecisionAssembler.addRecipe(<advancedrocketry:ic:4>, 80, 100, <thermalfoundation:material:352>, <thermalfoundation:material:33>, <minecraft:redstone>);
+ 
 #diamond gear 
 recipes.addShaped(<thermalfoundation:material:26>,
  [[null, <minecraft:diamond>, null],
