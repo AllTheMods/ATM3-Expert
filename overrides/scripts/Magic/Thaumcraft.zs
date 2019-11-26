@@ -147,10 +147,10 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtCondenser", "BASEARTIFIC
 		[<thermalfoundation:material:352>, <thaumcraft:mechanism_complex>, <thaumcraft:crystal_vitium>]]
 		);
 		
-#Void Syphon
+#Void Siphon
 
 mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:void_siphon>);
-mods.thaumcraft.Infusion.registerRecipe("CtTeruBozu", "VOIDSYPHON", <thaumcraft:void_siphon>, 2, 
+mods.thaumcraft.Infusion.registerRecipe("CtTeruBozu", "VOIDSIPHON", <thaumcraft:void_siphon>, 2, 
 		[<aspect:vacuos> *100, <aspect:perditio> *100, <aspect:fabrico> *100, <aspect:alienis> *100],
 		<botania:pylon:1>, 
 		[<contenttweaker:infusion_block>, <minecraft:nether_star>, <thaumcraft:mechanism_complex>, <ore:plateBrass>, <ore:plateBrass>, <contenttweaker:infusion_block>, <thaumcraft:metal_void>]
