@@ -195,6 +195,8 @@ mods.jei.JEI.hide(<thermalexpansion:augment:369>);
 recipes.remove(<thermalexpansion:augment:368>); 
 mods.jei.JEI.hide(<thermalexpansion:augment:368>);
 mods.jei.JEI.hide(<thermalexpansion:augment:337>);
+mods.jei.JEI.hide(<liquid:refined_biofuel>);
+mods.jei.JEI.hide(<liquid:refined_fuel>);
 
 #Energy cell frame
 recipes.remove(<thermalexpansion:frame:128>);
