@@ -43,9 +43,6 @@ mods.forestry.ThermionicFabricator.addCast(<rftools:machine_frame>,
 #rftools flight controller
 removal(<rftools:flight_module>);
 
-#temp
-recipes.remove(<aroma1997sdimension:miningmultitool>);
-
 #shape cards
 recipes.remove(<rftools:shape_card:4>);
 recipes.remove(<rftools:shape_card:3>);
