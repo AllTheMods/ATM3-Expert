@@ -450,40 +450,5 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtMind", "MINDCLOCKWORK", 
 		[<ore:plateBrass>, <thaumcraft:redstone_relay>, <ore:plateBrass>]]
 		);
 
-#Elemental Hoe
-mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:elemental_hoe>);
-mods.thaumcraft.Infusion.registerRecipe("CtElementalHoe", "ELEMENTALTOOLS", 
-		<thaumcraft:elemental_hoe>, 10, 
-		[<aspect:herba> *40, <aspect:lux> *25, <aspect:instrumentum> *25, <aspect:victus> *20],
-		<thaumcraft:thaumium_hoe>, 
-		[<thaumcraft:plank_greatwood>, <actuallyadditions:block_misc:2>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "herba"}]}), <actuallyadditions:item_misc:24>, <actuallyadditions:block_misc:2>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "herba"}]})]
-	);		
-
-#Sword of the Zephyr
-mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:elemental_sword>);
-mods.thaumcraft.Infusion.registerRecipe("CtElementalSword", "ELEMENTALTOOLS", 
-		<thaumcraft:elemental_sword>, 10, 
-		[<aspect:aer> *20, <aspect:volatus> *25, <aspect:instrumentum> *25, <aspect:aversio> *40],
-		<thaumcraft:thaumium_sword>, 
-		[<thaumcraft:plank_greatwood>, <actuallyadditions:block_misc:2>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "aer"}]}), <minecraft:skull:1>, <actuallyadditions:block_misc:2>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "aer"}]})]
-	);	
-	
-#Pick of the core
-mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:elemental_pick>);
-mods.thaumcraft.Infusion.registerRecipe("CtElementalpick", "ELEMENTALTOOLS", 
-		<thaumcraft:elemental_pick>, 10, 
-		[<aspect:potentia> *40, <aspect:fabrico> *25, <aspect:metallum> *20, <aspect:vitreus> *20],
-		<thaumcraft:thaumium_pick>, 
-		[<thaumcraft:plank_greatwood>, <actuallyadditions:block_misc:2>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "instrumentum"}]}), <thermalfoundation:ore:8>, <actuallyadditions:block_misc:2>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "instrumentum"}]})]
-	);		
-	
-#Elemental Axe
-mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:elemental_axe>);
-mods.thaumcraft.Infusion.registerRecipe("CtElementalAxe", "ELEMENTALTOOLS", 
-		<thaumcraft:elemental_axe>, 10, 
-		[<aspect:herba> *40, <aspect:metallum> *25, <aspect:instrumentum> *25, <aspect:humanus> *20],
-		<thaumcraft:thaumium_axe>, 
-		[<thaumcraft:plank_greatwood>, <actuallyadditions:block_misc:2>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "fabrico"}]}), <botania:manasteelaxe>, <actuallyadditions:block_misc:2>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "fabrico"}]})]
-	);		
 	
 	
