@@ -79,7 +79,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <atmtweaks:item_material:8>, [
 
 
 #sphere
-    mods.botania.RuneAltar.addRecipe(<atmtweaks:item_material:6>, [<thaumcraft:voidseer_charm>, <thaumcraft:primordial_pearl>, <thaumcraft:causality_collapser>, <botania:manaresource:14>, <thaumcraft:ingot:1>, <draconicevolution:wyvern_core>], 25000
+    mods.botania.RuneAltar.addRecipe(<atmtweaks:item_material:6>, [<thaumcraft:voidseer_charm>, <thaumcraft:causality_collapser>, <botania:manaresource:14>, <thaumcraft:ingot:1>, <draconicevolution:wyvern_core>], 25000
 	);
 	
 #dragon essence
