@@ -11,6 +11,11 @@ import crafttweaker.game.IGame;
 import mods.jei.JEI.removeAndHide;
 import mods.forestry.ThermionicFabricator;
 
+val atmStarReturnOrb = <atmtweaks:item_material:0>.transformReplace(<atmtweaks:item_material:5>);
+val mekCube = <mekanism:energycube>.withTag({tier: 3, mekData: {energyStored: 1.28E8}});
+val fullTablet = <botania:manatablet>.withTag({mana: 500000});
+val creativeTablet = <botania:manatablet>.withTag({mana: 500000, creative: 1 as byte});
+val Astar = <atmtweaks:item_material>.reuse();
 
 #recipes that use the bigger tables
 #growth essence
@@ -84,13 +89,155 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<atmtweaks:item_material:9>,
  <extrautils2:passivegenerator:8>, <minecraft:dragon_egg>, <enderio:item_material:44>,  <ic2:itemmisc:59>]);
 
 #creative items
-recipes.addShaped(<mekanism:machineblock2:11>, [[null, null, null],[<mekanism:machineblock2:11>, <atmtweaks:item_material:*>, null], [null, null, null]]);
-recipes.addShaped(<thermalfoundation:upgrade:256>, [[null, null, null],[<thermalfoundation:upgrade:35>, <atmtweaks:item_material:*>, null], [null, null, null]]);
-recipes.addShaped(<bloodmagic:activation_crystal:2>, [[null, null, null],[null, <bloodmagic:activation_crystal:*>, null], [null, <atmtweaks:item_material>, null]]);
-recipes.addShaped(<tconstruct:materials:50> * 64, [[<minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>],[<minecraft:skull:1>, <atmtweaks:item_material:*>, <minecraft:skull:1>], [<minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>]]);
-recipes.addShaped(<wct:wct_creative>, [[null, null, null],[<atmtweaks:item_material>, <wct:wct:*>, null], [null, null, null]]);
-recipes.addShaped(<psi:cad_assembly:5>, [[null, null, null],[<psi:cad_assembly:4>, <atmtweaks:item_material>, <psi:cad_assembly:3>], [null, null, null]]);
-recipes.addShaped(<botania:pool:1>, [[<botania:pool:3>, <botania:pool:3>, <botania:pool:3>],[<botania:pool:3>, <botania:manatablet>, <botania:pool:3>], [<botania:pool:3>, <botania:pool:3>, <botania:pool:3>]]);
-recipes.addShaped(<botania:manatablet>, [[<botania:manatablet>, <botania:manatablet>, <botania:manatablet>],[<botania:manatablet>, <atmtweaks:item_material>, <botania:manatablet>], [<botania:manatablet>, <botania:manatablet>, <botania:manatablet>]]);
-recipes.addShaped(<draconicevolution:draconium_capacitor:2>, [[null, <draconicevolution:draconium_capacitor:1>, null],[<draconicevolution:draconium_capacitor:1>, <atmtweaks:item_material>, <draconicevolution:draconium_capacitor:1>], [null, <draconicevolution:draconium_capacitor:1>, null]]);
-recipes.addShaped(<draconicevolution:creative_rf_source>, [[null, <mekanism:energycube:*>, null],[<mekanism:energycube:*>, <atmtweaks:item_material>, <mekanism:energycube:*>], [null, <mekanism:energycube:*>, null]]);
+
+recipes.addShaped(<tconstruct:materials:50> * 16,
+ [[<minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>],
+ [<minecraft:skull:1>, Astar, <minecraft:skull:1>],
+ [<minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>]]);
+ <tconstruct:materials:50>.addTooltip("Does not consume the ATM Star when crafted");
+
+recipes.addShaped(<wct:wct_creative>,
+ [[null, null, null],
+ [Astar, <wct:wct:*>, null],
+ [null, null, null]]);
+ <wct:wct_creative>.addTooltip("Does not consume the ATM Star when crafted");
+
+recipes.addShaped(<psi:cad_assembly:5>,
+ [[null, null, null],
+ [<psi:cad_assembly:4>, Astar, <psi:cad_assembly:3>],
+ [null, null, null]]);
+ <psi:cad_assembly:5>.addTooltip("Does not consume the ATM Star when crafted");
+
+recipes.addShaped(<botania:pool:1>,
+ [[<botania:pool:3>, <botania:pool:3>, <botania:pool:3>],
+ [<botania:pool:3>, <botania:manatablet>, <botania:pool:3>], 
+ [<botania:pool:3>, <botania:pool:3>, <botania:pool:3>]]);
+ <botania:pool:1>.addTooltip("Does not consume the ATM Star when crafted");
+
+recipes.addShaped(creativeTablet, 
+ [[fullTablet, fullTablet, fullTablet],
+ [fullTablet, Astar, fullTablet], 
+ [fullTablet, fullTablet, fullTablet]]);
+creativeTablet.addTooltip("Does not consume the ATM Star when crafted");
+
+recipes.addShaped(<draconicevolution:draconium_capacitor:2>,
+ [[null, <draconicevolution:draconium_capacitor:1>, null],
+ [<draconicevolution:draconium_capacitor:1>, Astar, <draconicevolution:draconium_capacitor:1>], 
+ [null, <draconicevolution:draconium_capacitor:1>, null]]);
+<draconicevolution:draconium_capacitor:2>.addTooltip("Does not consume the ATM Star when crafted");
+
+recipes.addShaped(<draconicevolution:creative_rf_source>,
+ [[null, mekCube, null],
+ [mekCube, Astar, mekCube], 
+ [null, mekCube, null]]);
+ <draconicevolution:creative_rf_source>.addTooltip("Does not consume the ATM Star when crafted");
+
+var creativeMekTank = <mekanism:machineblock2:11>.withTag({tier: 4});
+recipes.addShapedMirrored("CreativeTank", creativeMekTank, [
+	[<mekanism:machineblock:12>, <mekanism:machineblock2:11>, <mekanism:machineblock:12>],
+	[<mekanism:machineblock2:11>, atmStarReturnOrb, <mekanism:machineblock2:11>],
+	[<mekanism:machineblock:12>, <mekanism:machineblock2:11>, <mekanism:machineblock:12>]
+	]);
+creativeMekTank.addTooltip("Does not consume the ATM Star when crafted");
+
+	// AE2 Creative ENERGY Cell
+	recipes.addShapedMirrored("CreativeAEEnergy", <appliedenergistics2:creative_energy_cell>, [
+		[<appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>],
+		[<appliedenergistics2:dense_energy_cell>, atmStarReturnOrb, <appliedenergistics2:dense_energy_cell>],
+		[<appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>]
+		]);
+	<appliedenergistics2:creative_energy_cell>.addTooltip("Does not consume the ATM Star when crafted");
+	
+	// Creative Bookcase
+	recipes.addShaped("CBookcase", <bibliocraft:bookcasecreative>, [
+		[<bibliocraft:bookcase>, <bibliocraft:bookcase>, <bibliocraft:bookcase>],
+		[<bibliocraft:bookcase>, atmStarReturnOrb, <bibliocraft:bookcase>],
+		[<bibliocraft:bookcase>, <bibliocraft:bookcase>, <bibliocraft:bookcase>]
+	]);
+	<bibliocraft:bookcasecreative>.addTooltip("Does not consume the ATM Star when crafted");
+	
+	// Creative Flux Magnet
+	recipes.addShapeless("CFluxMag",
+		<thermalinnovation:magnet:32000>.withTag({Energy: 600000}), [
+			atmStarReturnOrb, <thermalinnovation:magnet:4>, <thermalinnovation:magnet:4>
+		]);
+	<thermalinnovation:magnet:32000>.addTooltip("Does not consume the ATM Star when crafted");
+	
+	// Creative Flux Saw
+	recipes.addShapeless("CFluxSaw",
+		<thermalinnovation:saw:32000>.withTag({Energy: 600000}), [
+			atmStarReturnOrb, <thermalinnovation:saw:4>, <thermalinnovation:saw:4>
+		]);
+	<thermalinnovation:saw:32000>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
+	
+	// Creative Flux Bore
+	recipes.addShapeless("CFluxBore",
+		<thermalinnovation:drill:32000>.withTag({Energy: 600000}), [
+			atmStarReturnOrb, <thermalinnovation:drill:4>, <thermalinnovation:drill:4>
+		]);
+	<thermalinnovation:drill:32000>.addTooltip("Does not consume the ATM Star when crafted");
+		
+	// Creative Jetpack
+	recipes.addShapeless("CJetpack",
+		<simplyjetpacks:itemjetpack:0>.withTag({Energy: 200000}), [
+			atmStarReturnOrb, <simplyjetpacks:itemjetpack:13>, <simplyjetpacks:itemjetpack:4>
+		]);
+	<simplyjetpacks:itemjetpack:0>.addTooltip("Does not consume the ATM Star when crafted");
+	
+	// Creative Flux Pack
+	recipes.addShapeless("CFluxPack",
+		<simplyjetpacks:itemfluxpack:0>.withTag({Energy: 2000000}), [
+			atmStarReturnOrb, <simplyjetpacks:itemfluxpack:8>, <simplyjetpacks:itemfluxpack:3>
+		]);
+	<simplyjetpacks:itemfluxpack:0>.addTooltip("Does not consume the ATM Star when crafted");
+	
+	// Overloaded Tool
+	recipes.remove(<overloaded:multi_tool>);
+	recipes.addShaped("OLTool", <overloaded:multi_tool>.withTag({IntEnergyStorage: {Count: 0 as long}}), [
+		[<minecraft:nether_star>, <minecraft:iron_ingot>, null],
+		[<minecraft:iron_ingot>, atmStarReturnOrb, <overloaded:nether_star_block>],
+		[null, <overloaded:nether_star_block>, <minecraft:iron_block>]
+		]);
+	<overloaded:multi_tool>.addTooltip("Does not consume the ATM Star when crafted");
+		
+	// Overloaded Armor Legs
+	recipes.remove(<overloaded:multi_leggings>);
+	recipes.addShaped("OLLegs", <overloaded:multi_leggings>.withTag({IntEnergyStorage: {Count: 0 as long}}), [
+		[<overloaded:nether_star_block>, atmStarReturnOrb, <overloaded:nether_star_block>],
+		[<overloaded:nether_star_block>, null, <overloaded:nether_star_block>],
+		[<overloaded:nether_star_block>, null, <overloaded:nether_star_block>]
+		]);
+	<overloaded:multi_leggings>.addTooltip("Does not consume the ATM Star when crafted");
+		
+	// Overloaded Armor Helm
+	recipes.remove(<overloaded:multi_helmet>);
+	recipes.addShaped("OLHelm", <overloaded:multi_helmet>.withTag({IntEnergyStorage: {Count: 0 as long}}), [
+		[<overloaded:nether_star_block>, atmStarReturnOrb, <overloaded:nether_star_block>],
+		[<overloaded:nether_star_block>, null, <overloaded:nether_star_block>]
+		]);
+	<overloaded:multi_helmet>.addTooltip("Does not consume the ATM Star when crafted");
+		
+	// Overloaded Armor Chest
+	recipes.remove(<overloaded:multi_chestplate>);
+	recipes.addShaped("OLChest", <overloaded:multi_chestplate>.withTag({IntEnergyStorage: {Count: 0 as long}}), [
+		[<overloaded:nether_star_block>, null, <overloaded:nether_star_block>],
+		[<overloaded:nether_star_block>, atmStarReturnOrb, <overloaded:nether_star_block>],
+		[<overloaded:nether_star_block>, <overloaded:nether_star_block>, <overloaded:nether_star_block>]
+		]);
+	<overloaded:multi_chestplate>.addTooltip("Does not consume the ATM Star when crafted");
+		
+	// Overloaded Armor Feet
+	recipes.remove(<overloaded:multi_boots>);
+	recipes.addShaped("OLFeet", <overloaded:multi_boots>.withTag({IntEnergyStorage: {Count: 0 as long}}), [
+		[<overloaded:nether_star_block>, null, <overloaded:nether_star_block>],
+		[<overloaded:nether_star_block>, atmStarReturnOrb, <overloaded:nether_star_block>]
+		]);
+	<overloaded:multi_boots>.addTooltip("Does not consume the ATM Star when crafted");
+
+	// RFTools Creative Powercell
+	recipes.addShapedMirrored("CreativeRFToolsRF", <rftools:powercell_creative>, [
+		[<rftools:powercell_advanced>, <rftools:powercell_card>, <rftools:powercell_advanced>],
+		[<rftools:powercell_card>, atmStarReturnOrb, <rftools:powercell_card>],
+		[<rftools:powercell_advanced>, <rftools:powercell_card>, <rftools:powercell_advanced>]
+		]);
+	<rftools:powercell_creative>.addTooltip("Does not consume the ATM Star when crafted");
