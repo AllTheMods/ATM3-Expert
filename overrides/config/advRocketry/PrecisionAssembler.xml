@@ -73,16 +73,6 @@
 			<itemStack>advancedrocketry:dataunit</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="200" power ="10">
-		<input>
-			<itemStack>minecraft:redstone</itemStack>
-			<itemStack>ic2:plate</itemStack>
-			<itemStack>ic2:plate</itemStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:ic 1 4</itemStack>
-		</output>
-	</Recipe>
 	<Recipe timeRequired="900" power ="100">
 		<input>
 			<itemStack>minecraft:gold_ingot</itemStack>
