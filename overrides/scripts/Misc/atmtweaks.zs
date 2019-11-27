@@ -241,3 +241,12 @@ creativeMekTank.addTooltip("Does not consume the ATM Star when crafted");
 		[<rftools:powercell_advanced>, <rftools:powercell_card>, <rftools:powercell_advanced>]
 		]);
 	<rftools:powercell_creative>.addTooltip("Does not consume the ATM Star when crafted");
+	
+	// Mek Energy Cube
+	var creativeMekCube = <mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}});
+	recipes.addShapedMirrored("CreativeCube", creativeMekCube, [
+		[<mekanism:machineblock2:13>, <mekanism:energycube>, <mekanism:machineblock2:13>],
+		[<mekanism:energycube>, atmStarReturnOrb, <mekanism:energycube>],
+		[<mekanism:machineblock2:13>, <mekanism:energycube>, <mekanism:machineblock2:13>]
+		]);
+	creativeMekCube.addTooltip("Does not consume the ATM Star when crafted");
