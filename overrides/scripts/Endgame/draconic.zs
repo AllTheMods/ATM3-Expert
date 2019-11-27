@@ -27,7 +27,7 @@ recipes.addShaped(<draconicevolution:draconium_ingot>,
 #Removing draconium ingots from being obtained without blood magic/ adding them to blood magic
 mods.bloodmagic.BloodAltar.addRecipe(<draconicevolution:draconium_ingot>, <draconicevolution:draconium_dust>, 4, 50000, 25, 5);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<draconicevolution:draconium_ingot>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<draconicevolution:draconium_ingot>);
+//mods.thermalexpansion.RedstoneFurnace.removeRecipe(<draconicevolution:draconium_ingot>);
 furnace.remove(<draconicevolution:draconium_ingot>);
 
 #Draconic core
