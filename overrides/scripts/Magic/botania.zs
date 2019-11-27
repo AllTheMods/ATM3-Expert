@@ -60,6 +60,7 @@ mods.thermalexpansion.Transposer.addFillRecipe(<botania:pool>,<botania:pool:2>,<
 #mana infusion
 	#ManaSteel
 	mods.botania.ManaInfusion.removeRecipe(<ore:ingotManasteel>);
+	mods.botania.ManaInfusion.removeRecipe(<ore:ingotManasteel>);
 	mods.botania.ManaInfusion.addInfusion(<botania:manaresource>,<ic2:itemmisc:53>,2500);
 	#manaDiamond
 	mods.botania.ManaInfusion.removeRecipe(<botania:manaresource:2>);
@@ -193,6 +194,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <botania:alfheimportal>, [
 
 
 #Elementium recipe
+mods.botania.ElvenTrade.removeRecipe(<botania:storage:2>);
 mods.botania.ElvenTrade.removeRecipe(<botania:manaresource:7>);
 mods.botania.ElvenTrade.addRecipe([<botania:manaresource:7>], [<astralsorcery:itemcraftingcomponent:1>]);
 
