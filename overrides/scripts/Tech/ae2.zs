@@ -42,9 +42,9 @@ recipes.addShaped("CTaeenergyinput", <appliedenergistics2:energy_acceptor>, [[<c
 #me controller
 recipes.remove(<appliedenergistics2:controller>);
 recipes.addShaped("CTmecontroller", <appliedenergistics2:controller>, 
- [[<contenttweaker:elementiumprocessor>, <alchemistry:ingot:94>, <contenttweaker:elementiumprocessor>],
+ [[<contenttweaker:elementiumprocessor>, <ore:ingotPlutonium>, <contenttweaker:elementiumprocessor>],
  [<appliedenergistics2:material:12>, <actuallyadditions:block_crystal_empowered:5>, <appliedenergistics2:material:12>],
- [<contenttweaker:elementiumprocessor>, <alchemistry:ingot:94>, <contenttweaker:elementiumprocessor>]]);
+ [<contenttweaker:elementiumprocessor>, <ore:ingotPlutonium>, <contenttweaker:elementiumprocessor>]]);
 
 #inscriber
 recipes.remove(<appliedenergistics2:inscriber>);
