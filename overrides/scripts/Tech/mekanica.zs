@@ -38,7 +38,7 @@ mods.extendedcrafting.EnderCrafting.addShaped(<mekanism:basicblock:8>, [
 ]);
 
 #osmium duplication
-mods.botania.ManaInfusion.addConjuration(<mekanism:ingot:1>, <mekanism:ingot:1> * 2, 25000);
+mods.botania.ManaInfusion.addConjuration(<mekanism:ingot:1> *2, <mekanism:ingot:1>, 25000);
 recipes.addShaped("CTuuosmium", <mekanism:ingot:1> * 3, 
  [[<ic2:itemmisc:202>, <ic2:itemmisc:202>, <ic2:itemmisc:202>],
  [<ic2:itemmisc:202>, <mekanism:ingot:1>, <ic2:itemmisc:202>],
