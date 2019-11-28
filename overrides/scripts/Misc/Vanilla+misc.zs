@@ -27,6 +27,14 @@ recipes.addShaped(<quark:iron_plate> * 24,
 #litherite // recipe inside MM configs
  recipes.remove(<environmentaltech:litherite_crystal>);
  
+#translocators
+recipes.remove(<translocators:translocator_part:1>);
+recipes.remove(<translocators:translocator_part>);
+
+recipes.addShaped(<translocators:translocator_part:1> * 2, [[<actuallyadditions:item_crystal>, <minecraft:ender_eye>, <actuallyadditions:item_crystal>],[<minecraft:iron_ingot>, <minecraft:piston>, <minecraft:iron_ingot>], [<actuallyadditions:item_crystal>, <appliedenergistics2:material:22>, <actuallyadditions:item_crystal>]]);
+recipes.addShaped(<translocators:translocator_part> * 2, [[<actuallyadditions:item_crystal>, <minecraft:ender_pearl>, <actuallyadditions:item_crystal>],[<minecraft:iron_ingot>, <minecraft:piston>, <minecraft:iron_ingot>], [<actuallyadditions:item_crystal>, <appliedenergistics2:material:22>, <actuallyadditions:item_crystal>]]);
+
+ 
 #advanced rocketry circuit
  mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:4>);
  mods.advancedrocketry.PrecisionAssembler.addRecipe(<advancedrocketry:ic:4>, 80, 100, <thermalfoundation:material:352>, <thermalfoundation:material:33>, <minecraft:redstone>);
