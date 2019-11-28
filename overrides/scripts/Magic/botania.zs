@@ -59,7 +59,7 @@ mods.thermalexpansion.Transposer.addFillRecipe(<botania:pool>,<botania:pool:2>,<
 
 #mana infusion
 	#ManaSteel
-	mods.botania.ManaInfusion.removeRecipe(<ore:ingotManasteel>);
+	mods.botania.ManaInfusion.removeRecipe(<botania:storage>);
 	mods.botania.ManaInfusion.removeRecipe(<ore:ingotManasteel>);
 	mods.botania.ManaInfusion.addInfusion(<botania:manaresource>,<ic2:itemmisc:53>,2500);
 	#manaDiamond
