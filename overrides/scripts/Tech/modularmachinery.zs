@@ -46,3 +46,9 @@ recipes.addShaped(<modularmachinery:blockfluidoutputhatch:3>, [[null, <botania:m
 recipes.addShaped(<modularmachinery:blockfluidinputhatch:3>, [[null, <botania:manaresource:7>, null],[<botania:manaresource:7>, <modularmachinery:blockfluidinputhatch:2>, <botania:manaresource:7>], [null, <botania:manaresource:7>, null]]);
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch:2>, [[null, <appliedenergistics2:material>, null],[<appliedenergistics2:material>, <modularmachinery:blockfluidoutputhatch:1>, <appliedenergistics2:material>], [null, <appliedenergistics2:material>, null]]);
 recipes.addShaped(<modularmachinery:blockfluidinputhatch:2>, [[null, <appliedenergistics2:material>, null],[<appliedenergistics2:material>, <modularmachinery:blockfluidinputhatch:1>, <appliedenergistics2:material>], [null, <appliedenergistics2:material>, null]]);
+
+#item hatches
+recipes.addShaped(<modularmachinery:blockoutputbus:3>, [[null, <botania:manaresource:7>, null],[<botania:manaresource:7>, <modularmachinery:blockoutputbus:2>, <botania:manaresource:7>], [null, <botania:manaresource:7>, null]]);
+recipes.addShaped(<modularmachinery:blockinputbus:3>, [[null, <botania:manaresource:7>, null],[<botania:manaresource:7>, <modularmachinery:blockinputbus:2>, <botania:manaresource:7>], [null, <botania:manaresource:7>, null]]);
+recipes.addShaped(<modularmachinery:blockinputbus:2>, [[null, <appliedenergistics2:material>, null],[<appliedenergistics2:material>, <modularmachinery:blockinputbus:1>, <appliedenergistics2:material>], [null, <appliedenergistics2:material>, null]]);
+recipes.addShaped(<modularmachinery:blockoutputbus:2>, [[null, <appliedenergistics2:material>, null],[<appliedenergistics2:material>, <modularmachinery:blockoutputbus:1>, <appliedenergistics2:material>], [null, <appliedenergistics2:material>, null]]);
