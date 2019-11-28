@@ -24,7 +24,9 @@ recipes.addShaped(<quark:iron_plate> * 24,
  [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
  [null, <minecraft:iron_ingot>, null], 
  [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>]]);
-
+#litherite // recipe inside MM configs
+ recipes.remove(<environmentaltech:litherite_crystal>);
+ 
 #advanced rocketry circuit
  mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:4>);
  mods.advancedrocketry.PrecisionAssembler.addRecipe(<advancedrocketry:ic:4>, 80, 100, <thermalfoundation:material:352>, <thermalfoundation:material:33>, <minecraft:redstone>);
