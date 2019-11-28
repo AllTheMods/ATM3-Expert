@@ -36,3 +36,13 @@ mods.chisel.Carving.addVariation("Blueprints", ind_chiller);
 
 #Modularium
 mods.tconstruct.Casting.addTableRecipe(<modularmachinery:itemmodularium>, <tconstruct:cast_custom>, <liquid:soldering_alloy>, 144, false, 50);
+
+#bigger fluid hatches
+recipes.addShapeless(<modularmachinery:blockfluidinputhatch:5>, [<contenttweaker:corruptedstarmetal>,<modularmachinery:blockfluidinputhatch:4>]);
+recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:5>, [<contenttweaker:corruptedstarmetal>,<modularmachinery:blockfluidoutputhatch:4>]);
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch:4>, [[null, <contenttweaker:planetshard>, null],[<contenttweaker:planetshard>, <modularmachinery:blockfluidoutputhatch:3>, <contenttweaker:planetshard>], [null, <contenttweaker:planetshard>, null]]);
+recipes.addShaped(<modularmachinery:blockfluidinputhatch:4>, [[null, <contenttweaker:planetshard>, null],[<contenttweaker:planetshard>, <modularmachinery:blockfluidinputhatch:3>, <contenttweaker:planetshard>], [null, <contenttweaker:planetshard>, null]]);
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch:3>, [[null, <botania:manaresource:7>, null],[<botania:manaresource:7>, <modularmachinery:blockfluidoutputhatch:2>, <botania:manaresource:7>], [null, <botania:manaresource:7>, null]]);
+recipes.addShaped(<modularmachinery:blockfluidinputhatch:3>, [[null, <botania:manaresource:7>, null],[<botania:manaresource:7>, <modularmachinery:blockfluidinputhatch:2>, <botania:manaresource:7>], [null, <botania:manaresource:7>, null]]);
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch:2>, [[null, <appliedenergistics2:material>, null],[<appliedenergistics2:material>, <modularmachinery:blockfluidoutputhatch:1>, <appliedenergistics2:material>], [null, <appliedenergistics2:material>, null]]);
+recipes.addShaped(<modularmachinery:blockfluidinputhatch:2>, [[null, <appliedenergistics2:material>, null],[<appliedenergistics2:material>, <modularmachinery:blockfluidinputhatch:1>, <appliedenergistics2:material>], [null, <appliedenergistics2:material>, null]]);
