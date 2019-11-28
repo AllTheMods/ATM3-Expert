@@ -27,6 +27,10 @@ recipes.addShaped(<quark:iron_plate> * 24,
 #litherite // recipe inside MM configs
  recipes.remove(<environmentaltech:litherite_crystal>);
  
+#bee receptacle
+recipes.remove(<gendustry:bee_receptacle>);
+recipes.addShaped(<gendustry:bee_receptacle>, [[<thermalfoundation:material:163>, <atmtweaks:item_material:2>, <thermalfoundation:material:163>],[<atmtweaks:item_material:2>, <minecraft:glass>, <atmtweaks:item_material:2>], [<thermalfoundation:material:163>, <minecraft:redstone>, <thermalfoundation:material:163>]]);
+
 #translocators
 recipes.remove(<translocators:translocator_part:1>);
 recipes.remove(<translocators:translocator_part>);
