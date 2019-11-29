@@ -96,12 +96,12 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:block_cry
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal:2>, 
      <thermalfoundation:material:70>, <nuclearcraft:gem_dust:2>, <thaumcraft:ingot>, <botania:dye:3>, 4000000, 500);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:block_crystal_empowered:2>, 4000000, 400000, <actuallyadditions:block_crystal:2>, 
+mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:block_crystal_empowered:2>, 4000000, 40000, <actuallyadditions:block_crystal:2>, 
     [<thermalfoundation:material:70>, <nuclearcraft:gem_dust:2>, <thaumcraft:ingot>, <botania:dye:3>]);
 
 #emeradic
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:4>, <actuallyadditions:block_crystal:4>, 
      <minecraft:slime_ball>, <actuallyadditions:item_solidified_experience>, <minecraft:ender_pearl>, <botania:dye:5>, 6000000, 700);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:block_crystal_empowered:4>, 6000000, 9000, <actuallyadditions:block_crystal:4>, 
+mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:block_crystal_empowered:4>, 6000000, 90000, <actuallyadditions:block_crystal:4>, 
     [<minecraft:slime_ball>, <actuallyadditions:item_solidified_experience>, <minecraft:ender_pearl>, <botania:dye:5>]);
