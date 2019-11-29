@@ -68,28 +68,28 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:item_crys
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:3>, <actuallyadditions:block_crystal:3>, 
      <actuallyadditions:item_misc:22>, <actuallyadditions:item_misc:17>, <ic2:itemmisc:254>, <botania:dye:15>, 500000, 400);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:block_crystal_empowered:3>, 500000, 50000, <actuallyadditions:block_crystal:3>, 
+mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:block_crystal_empowered:3>, 50000, 50000, <actuallyadditions:block_crystal:3>, 
     [<actuallyadditions:item_misc:22>, <actuallyadditions:item_misc:17>, <ic2:itemmisc:254>, <botania:dye:15>]);
 
 #enori
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:item_crystal:5>, 
      <tconstruct:materials>, <minecraft:dye:15>, <ic2c_extras:refinedironcasing>, <botania:dye>, 1500000, 400);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:block_crystal_empowered:5>, 1500000, 200000, <actuallyadditions:block_crystal:5>, 
+mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:block_crystal_empowered:5>, 1500000, 20000, <actuallyadditions:block_crystal:5>, 
     [<tconstruct:materials>, <minecraft:dye:15>, <ic2c_extras:refinedironcasing>, <botania:dye>]);
 
 #restonia	
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered>, <actuallyadditions:block_crystal>, 
      <actuallyadditions:item_misc:23>, <minecraft:apple>, <minecraft:red_mushroom>, <botania:dye:14>, 1500000, 400);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:block_crystal_empowered>, 1500000, 200000, <actuallyadditions:block_crystal>, 
+mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:block_crystal_empowered>, 1500000, 20000, <actuallyadditions:block_crystal>, 
     [<actuallyadditions:item_misc:23>, <minecraft:apple>, <minecraft:red_mushroom>, <botania:dye:14>]);
 	
 #palis
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:1>, <actuallyadditions:block_crystal:1>, 
      <minecraft:prismarine_crystals>, <minecraft:dye:6>, <minecraft:prismarine_shard>, <botania:dye:11>, 2100000, 400);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:block_crystal_empowered:1>, 2100000, 210000, <actuallyadditions:block_crystal:1>, 
+mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:block_crystal_empowered:1>, 2100000, 21000, <actuallyadditions:block_crystal:1>, 
     [<minecraft:prismarine_crystals>, <minecraft:dye:6>, <minecraft:prismarine_shard>, <botania:dye:11>]);
  
 #diamatine
