@@ -38,6 +38,10 @@ recipes.remove(<translocators:translocator_part>);
 recipes.addShaped(<translocators:translocator_part:1> * 2, [[<actuallyadditions:item_crystal>, <minecraft:ender_eye>, <actuallyadditions:item_crystal>],[<minecraft:iron_ingot>, <minecraft:piston>, <minecraft:iron_ingot>], [<actuallyadditions:item_crystal>, <appliedenergistics2:material:22>, <actuallyadditions:item_crystal>]]);
 recipes.addShaped(<translocators:translocator_part> * 2, [[<actuallyadditions:item_crystal>, <minecraft:ender_pearl>, <actuallyadditions:item_crystal>],[<minecraft:iron_ingot>, <minecraft:piston>, <minecraft:iron_ingot>], [<actuallyadditions:item_crystal>, <appliedenergistics2:material:22>, <actuallyadditions:item_crystal>]]);
 
+#beacon
+recipes.remove(<minecraft:beacon>);
+recipes.addShaped(<minecraft:beacon>, [[<enderio:block_enlightened_fused_quartz>, <contenttweaker:corruptedstarmetal>, <enderio:block_enlightened_fused_quartz>],[<enderio:block_enlightened_fused_quartz>, <contenttweaker:corruptedstarmetal>, <enderio:block_enlightened_fused_quartz>], [<botania:manaresource:14>, <plustic:mirionblock>, <botania:manaresource:14>]]);
+
  
 #advanced rocketry circuit
  mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:4>);
