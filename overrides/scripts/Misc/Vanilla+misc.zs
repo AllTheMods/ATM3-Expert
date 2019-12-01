@@ -15,6 +15,26 @@ val ironPlate = <thermalfoundation:material:32>;
 val ironGear = <ore:ingotTin>;
 val cobbleTwoTimes = <ore:compressed1xCobblestone>;
 
+#Adding Tooltips to ores and resources about mining level and dim
+<minecraft:iron_ingot>.addTooltip(format.red("Found in caves under y: 64"));
+<minecraft:iron_ore>.addTooltip(format.red("Found in caves under y: 64"));
+<minecraft:gold_ingot>.addTooltip(format.red("Found in caves under y: 32"));
+<minecraft:gold_ore>.addTooltip(format.red("Found in caves under y: 32"));
+<minecraft:redstone>.addTooltip(format.red("Found in caves under y: 32"));
+<minecraft:redstone_ore>.addTooltip(format.red("Found in caves under y: 32"));
+<minecraft:dye:4>.addTooltip(format.red("Found in caves under y: 32"));
+<minecraft:lapis_ore>.addTooltip(format.red("Found in caves under y: 32"));
+<minecraft:redstone_ore>.addTooltip(format.red("Found in caves under y: 32"));
+<minecraft:coal:0>.addTooltip(format.red("Found in caves under y: 128"));
+<minecraft:coal_ore>.addTooltip(format.red("Found in caves under y: 128"));
+
+<thermalfoundation:ore:0>.addTooltip(format.red("Found in caves under y: 45"));
+<thermalfoundation:ore:1>.addTooltip(format.red("Found in caves under y: 80"));
+<thermalfoundation:ore:2>.addTooltip(format.red("Found in caves under y: 30"));
+<thermalfoundation:ore:3>.addTooltip(format.red("Found in caves under y: 30"));
+<thermalfoundation:ore:5>.addTooltip(format.red("Found in caves under y: 20"));
+<thermalfoundation:ore:6>.addTooltip(format.red("Found in caves under y: 10"));
+
 #iron plate @quark
 recipes.removeShaped(<quark:iron_plate> * 24,
  [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
@@ -166,10 +186,10 @@ recipes.addShaped("CTdracchest", <draconicevolution:draconium_chest>,
 #floralchemy jei integration
 //addDescription(IItemStack[] item, string... desc);
 mods.jei.JEI.addDescription([<botania:specialflower>.withTag({type: "petro_petunia"}), <botania:floatingspecialflower>.withTag({type: "petro_petunia"})],
-["acceptable fuels must be placed 1y below either in a tank or in world", 
- "Refined canola", 
- "crystalised oil",
- "empowered oil",
+["Acceptable fuels must be placed 1 y-level below petro petunia, either in a tank or in-world", 
+ "Refined Canola Oil", 
+ "Crystallized Oil",
+ "Empowered Oil",
  "Biodiesel", 
  "Diesel", 
  "Syngas"]);

@@ -110,7 +110,7 @@
 				"cluster-size": 8
 			},
 			"cluster-count": 4,
-			"ground-level": 25,
+			"ground-level": 30,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
