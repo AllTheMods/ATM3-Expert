@@ -19,9 +19,10 @@ recipes.addShaped(<extrautils2:drum:1>, [[<contenttweaker:coldironingot>, <quark
 recipes.addShaped(<extrautils2:drum>, [[<tconstruct:seared>, <minecraft:stone_pressure_plate>, <tconstruct:seared>],[<tconstruct:seared>, <xlfoodmod:bowl>, <tconstruct:seared>], [<tconstruct:seared>, <minecraft:stone_pressure_plate>, <tconstruct:seared>]]);
 
 #crusher and furnace
+recipes.remove(<extrautils2:teleporter:1>);
 mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:furnace"}));
 mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:crusher"}));
-
+mods.jei.JEI.removeAndHide(<extrautils2:machine>);
 
 #angel ring
 recipes.remove(<extrautils2:angelring:1>);
