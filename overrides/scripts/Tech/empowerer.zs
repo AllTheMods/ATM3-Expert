@@ -72,7 +72,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:block_cry
     [<actuallyadditions:item_misc:22>, <actuallyadditions:item_misc:17>, <ic2:itemmisc:254>, <botania:dye:15>]);
 
 #enori
-mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:item_crystal:5>, 
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal:5>, 
      <tconstruct:materials>, <minecraft:dye:15>, <ic2c_extras:refinedironcasing>, <botania:dye>, 1500000, 400);
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:block_crystal_empowered:5>, 1500000, 20000, <actuallyadditions:block_crystal:5>, 
