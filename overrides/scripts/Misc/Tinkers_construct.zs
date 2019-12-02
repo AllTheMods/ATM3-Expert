@@ -144,7 +144,7 @@ mods.tconstruct.Casting.addBasinRecipe(<tcomplement:alloy_tank>,<tcomplement:por
 
 #slime boots
 recipes.remove(<tconstruct:slime_boots>);
-recipes.addShaped("CTtcbootsgreen", <tconstruct:slime_boots>, [[null, null, null],[<ic2:itemmisc:450>, <ic2:itemmisc:254>, <ic2:itemmisc:450>], [<tconstruct:slime>, <ic2:itemarmorrubboots>, <tconstruct:slime>]]);
+recipes.addShaped("CTtcbootsgreen", <tconstruct:slime_boots>, [[null, null, null],[<ic2:itemmisc:450>, <ic2:itemmisc:254>, <ic2:itemmisc:450>], [<tconstruct:slime_congealed>, <ic2:itemarmorrubboots>, <tconstruct:slime_congealed>]]);
 mods.jei.JEI.removeAndHide(<tconstruct:slime_boots:1>);
 mods.jei.JEI.removeAndHide(<tconstruct:slime_boots:2>);
 mods.jei.JEI.removeAndHide(<tconstruct:slime_boots:3>);
@@ -152,7 +152,7 @@ mods.jei.JEI.removeAndHide(<tconstruct:slime_boots:4>);
 
 #slimesling
 recipes.remove(<tconstruct:slimesling>);
-recipes.addShaped(<tconstruct:slimesling>, [[<actuallyadditions:item_crystal:2>, <tconstruct:slime>, <actuallyadditions:item_crystal:2>],[<minecraft:slime_ball>, null, <minecraft:slime_ball>], [null, <minecraft:slime_ball>, null]]);
+recipes.addShaped(<tconstruct:slimesling>, [[<actuallyadditions:item_crystal:2>, <tconstruct:slime_congealed>, <actuallyadditions:item_crystal:2>],[<tconstruct:slime_congealed>, null, <minecraft:slime_ball>], [null, <tconstruct:slime_congealed>, null]]);
 mods.jei.JEI.removeAndHide(<tconstruct:slimesling:1>);
 mods.jei.JEI.removeAndHide(<tconstruct:slimesling:2>);
 mods.jei.JEI.removeAndHide(<tconstruct:slimesling:3>);
