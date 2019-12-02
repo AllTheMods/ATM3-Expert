@@ -201,10 +201,96 @@ recipes.addShaped(<superfactorymanager:cable> * 2,
 recipes.removeShaped(<ore:blockGlassHardened>);
 
 #Mining turtles
-recipes.remove(<computercraft:turtle:1>);
-recipes.remove(<computercraft:turtle_advanced>.withTag({leftUpgrade: 5 as short}));
-recipes.addShaped(<computercraft:turtle_advanced>.withTag({leftUpgrade: 5 as short}), [[<minecraft:gold_ingot>, <actuallyadditions:block_crystal_empowered:5>, <minecraft:gold_ingot>],[<minecraft:gold_ingot>, <computercraft:turtle:1>, <minecraft:gold_ingot>], [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>]]);
-recipes.addShaped(<computercraft:turtle:1>, [[<ic2:itemmisc:53>, <ic2:itemmisc:53>, <ic2:itemmisc:53>],[<ic2:itemmisc:452>, <computercraft:computer:*>, <thaumcraft:elemental_pick>], [<ic2:itemmisc:53>, <ic2:itemmisc:53>, <ic2:itemmisc:53>]]);
+mods.jei.JEI.hide(<computercraft:turtle:0>);
+var regularTurtle = <computercraft:turtle_expanded> | <computercraft:turtle:*>;
+recipes.removeByRecipeName("computercraft:normal_turtle");
+recipes.addShaped("turtle", <computercraft:turtle_expanded>, [
+[<ore:ingotRefinedIron>, <ore:ingotRefinedIron>, <ore:ingotRefinedIron>], 
+[<ore:ingotRefinedIron>, <computercraft:computer>.marked("nbt"), <ore:ingotRefinedIron>], 
+[<ore:ingotRefinedIron>, <ic2:itemmisc:452>, <ore:ingotRefinedIron>]],
+function(out, ins, cInfo){
+	return out.withTag(ins.nbt.tag);
+},
+null);
+recipes.removeByRecipeName("computercraft:advanced_turtle");
+recipes.addShaped("advanced_turtle", <computercraft:turtle_advanced>, [[<ore:ingotGold>, <actuallyadditions:block_crystal_empowered:5>, <ore:ingotGold>], [<ore:ingotGold>, <computercraft:computer:16384>.marked("nbt"), <ore:ingotGold>], [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]]
+function(out, ins, cInfo){
+	return out.withTag(ins.nbt.tag);
+},
+null);
+recipes.removeByRecipeName("computercraft:advanced_turtle_upgrade");
+recipes.addShaped("turtle_upgrade", <computercraft:turtle_advanced>, [
+[<ore:ingotGold>, <actuallyadditions:block_crystal_empowered:5>, <ore:ingotGold>], 
+[<ore:ingotGold>, regularTurtle.marked("nbt"), <ore:ingotGold>], 
+[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]], 
+function(out, ins, cInfo){
+	return out.withTag(ins.nbt.tag);
+},
+null);
+recipes.remove(<computercraft:turtle_advanced>.withTag({rightUpgrade: "minecraft:diamond_pickaxe"}));
+recipes.remove(<computercraft:turtle_expanded>.withTag({rightUpgrade: "minecraft:diamond_pickaxe"}));
+recipes.remove(<computercraft:turtle_advanced>.withTag({leftUpgrade: "minecraft:diamond_pickaxe"}));
+recipes.remove(<computercraft:turtle_expanded>.withTag({leftUpgrade: "minecraft:diamond_pickaxe"}));
+recipes.addShaped("mining_turtle_advanced_right", <computercraft:turtle_advanced>.withTag({rightUpgrade: "minecraft:diamond_pickaxe"}), [
+[<thaumcraft:elemental_pick>, <computercraft:turtle_advanced>.marked("nbt")]
+],
+function(out, ins, cInfo){
+	if (!(ins.nbt.tag has "rightUpgrade")){
+		val tagMap = ins.nbt.tag + {
+					  rightUpgrade: "minecraft:diamond_pickaxe"
+					 } as IData;
+		return out.withTag(tagMap);
+	} else {
+	 	return null;
+	}
+	
+},
+null);
+recipes.addShaped("mining_turtle_right", <computercraft:turtle_expanded>.withTag({rightUpgrade: "minecraft:diamond_pickaxe"}), [
+[<thaumcraft:elemental_pick>, regularTurtle.marked("nbt")]
+],
+function(out, ins, cInfo){
+	if (!(ins.nbt.tag has "rightUpgrade")){
+		val tagMap = ins.nbt.tag + {
+					  rightUpgrade: "minecraft:diamond_pickaxe"
+					 } as IData;
+		return out.withTag(tagMap);
+	} else {
+	 	return null;
+	}
+	
+},
+null);
+recipes.addShaped("mining_turtle_advanced_left",<computercraft:turtle_advanced>.withTag({leftUpgrade: "minecraft:diamond_pickaxe"}), [
+[<computercraft:turtle_advanced>.marked("nbt"), <thaumcraft:elemental_pick>]
+],
+function(out, ins, cInfo){
+	if (!(ins.nbt.tag has "leftUpgrade")){
+		val tagMap = ins.nbt.tag + {
+					  leftUpgrade: "minecraft:diamond_pickaxe"
+					 } as IData;
+		return out.withTag(tagMap);
+	} else {
+	 	return null;
+	}
+	
+},
+null);
+recipes.addShaped("mining_turtle_left",<computercraft:turtle_expanded>.withTag({leftUpgrade: "minecraft:diamond_pickaxe"}), [
+[regularTurtle.marked("nbt"), <thaumcraft:elemental_pick>]
+],
+function(out, ins, cInfo){
+	if (!(ins.nbt.tag has "leftUpgrade")){
+		val tagMap = ins.nbt.tag + {
+					  leftUpgrade: "minecraft:diamond_pickaxe"
+					 } as IData;
+		return out.withTag(tagMap);
+	} else {
+	 	return null;
+	}
+	
+},
+null);
 
 #xnet changes 
 
