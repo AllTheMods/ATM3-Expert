@@ -354,17 +354,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtAdvancedAlchemical", "IM
 		[<thaumcraft:plate:3>, <actuallyadditions:item_misc:5>, <thaumcraft:plate:3>],
 		[<bloodmagic:slate:3>, <thaumcraft:metal_alchemical>, <bloodmagic:slate:3>]]
 		);
-		
-# White Tallow Candle	
-recipes.remove(<thaumcraft:candle_white>);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtWhiteCandle", "HEDGEALCHEMY", 5,
-		[ignisAspect * 4],
-		<thaumcraft:candle_white>,
-		[[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "lux"}]}), <ore:clothManaweave>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "lux"}]})],
-		[null, <thaumcraft:tallow>, null],
-		[<thaumcraft:tallow>, <thaumcraft:tallow>, <thaumcraft:tallow>]]
-		);
-		
+				
 #Warded Jar
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:jar_normal>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtWarded Jar", "WARDEDJARS", 5,
