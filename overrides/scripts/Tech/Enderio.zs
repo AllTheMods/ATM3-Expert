@@ -33,7 +33,7 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<enderio:item_material:48> *4, 
 
 #regular chassis
 recipes.remove(<enderio:item_material>);
-recipes.addShaped("CTeiosimpchassis", <enderio:item_material>, [[<enderio:block_dark_iron_bars>, <minecraft:iron_ingot>, <enderio:block_dark_iron_bars>],[<alchemistry:element:32>, <enderio:item_material:20>, <alchemistry:compound:22>], [<enderio:block_dark_iron_bars>, <atmtweaks:item_material:2>, <enderio:block_dark_iron_bars>]]);
+recipes.addShaped("CTeiosimpchassis", <enderio:item_material>, [[<enderio:block_dark_iron_bars>, <ic2c_extras:plutoniumdust>, <enderio:block_dark_iron_bars>],[<alchemistry:element:32>, <enderio:item_material:20>, <alchemistry:compound:22>], [<enderio:block_dark_iron_bars>, <atmtweaks:item_material:2>, <enderio:block_dark_iron_bars>]]);
 
 #end machine chassis
 recipes.remove(<enderio:item_material:66>);
