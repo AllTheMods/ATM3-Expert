@@ -185,9 +185,9 @@ recipes.remove(<botania:alfheimportal>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <botania:alfheimportal>, [
 	[<botania:livingwood>, <botania:livingwood>, <botania:livingwood>, <astralsorcery:itemcraftingcomponent:1>, <botania:livingwood>, <botania:livingwood>, <botania:livingwood>], 
 	[<botania:livingwood>, <bloodmagic:slate:2>, <ic2:itemmisc:256>, <alchemistry:ingot:100>, <contenttweaker:manadiamondplate>, <bloodmagic:slate:2>, <botania:livingwood>], 
-	[<botania:livingwood>, <contenttweaker:manadiamondplate>, <botania:manaresource:18>, <botania:manaresource:4>, <forge:bucketfilled>, <ic2:itemmisc:256>, <botania:livingwood>], 
+	[<botania:livingwood>, <contenttweaker:manadiamondplate>, <botania:manaresource:18>, <botania:manaresource:4>, voiddew, <ic2:itemmisc:256>, <botania:livingwood>], 
 	[<botania:manaresource:4>, <enderio:item_alloy_ingot:8>, <thaumcraft:ingot>, <atmtweaks:item_material:2>, <thaumcraft:ingot>, <enderio:item_alloy_ingot:8>, <botania:manaresource:4>], 
-	[<botania:livingwood>, <ic2:itemmisc:256>, <forge:bucketfilled>, <botania:manaresource:4>, <botania:manaresource:18>, <contenttweaker:manadiamondplate>, <botania:livingwood>], 
+	[<botania:livingwood>, <ic2:itemmisc:256>, voiddew, <botania:manaresource:4>, <botania:manaresource:18>, <contenttweaker:manadiamondplate>, <botania:livingwood>], 
 	[<botania:livingwood>, <bloodmagic:slate:2>, <contenttweaker:manadiamondplate>, <alchemistry:ingot:100>, <ic2:itemmisc:256>, <bloodmagic:slate:2>, <botania:livingwood>], 
 	[<botania:livingwood>, <botania:livingwood>, <botania:livingwood>, <astralsorcery:itemcraftingcomponent:1>, <botania:livingwood>, <botania:livingwood>, <botania:livingwood>]
 ]);
