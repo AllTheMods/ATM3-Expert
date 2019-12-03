@@ -166,6 +166,7 @@ print(" ================================================== ");
 
 	// Starting item 
 	mods.initialinventory.InvHandler.addStartingItem(completeTome);
+    mods.initialinventory.InvHandler.addStartingItem(<ftbquests:book>);
 
 //====== Tooltip for added books ====
 // 
