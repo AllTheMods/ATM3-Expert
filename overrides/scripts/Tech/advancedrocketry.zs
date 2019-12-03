@@ -23,7 +23,7 @@ recipes.addShaped(<libvulpes:hatch>, [[<ic2:itemmisc:202>, <thermaldynamics:filt
 #ADVANCED ROCKETRY
 recipes.remove(<libvulpes:structuremachine>);
 recipes.addShaped(<libvulpes:structuremachine>,
- [[null, <mekanism:controlcircuit:3>, null],
+ [[<mekanism:polyethene:2>, <mekanism:controlcircuit:3>, <mekanism:polyethene:2>],
  [<contenttweaker:elementiumprocessor>, <ic2:blockmachinemv>, <contenttweaker:quartzingot>],
- [null, <ic2:itemmisc:451>, null]]);
+ [<mekanism:polyethene:2>, <ic2:itemmisc:451>, <mekanism:polyethene:2>]]);
  
