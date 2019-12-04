@@ -12,7 +12,7 @@ var lootremovals as string[] = [
     "ore:plateSteel",
 	"ore:toolHoe",
 	"minecraft:quartz",
-	"ore:ingotManasteel",
+	"botania:manaresource:0",
 	"minecraft:diamond",
 	"ore:ingotSteel",
 	"minecraft:emerald",
