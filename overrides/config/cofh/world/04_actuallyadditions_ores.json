@@ -1,19 +1,18 @@
 {
 	"populate": {
 		"black_quartz_ore": {
-			"distribution": "uniform",
+			"distribution": "cave",
 			"generator": {
 				"block":
  { "name": "actuallyadditions:block_misc",
 					"metadata": 3
 					},
 				"material": "atum:limestone",
-				"cluster-size": 5
+				"cluster-size": 8
 			},
-			"cluster-count": 5,
-			"chunk-chance": 2,
-			"min-height": 10,
-			"max-height": 120,
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"ground-level": 48,
 			"biome": "all",
 			"retrogen": true,
 			"dimension": "all"
