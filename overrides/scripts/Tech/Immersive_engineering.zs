@@ -85,20 +85,21 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:unrefinedhotste
 #Black iron (extendedcrafting)
 mods.immersiveengineering.BlastFurnace.addRecipe(<extendedcrafting:material>, <immersiveengineering:material:19>, 1000, <thermalfoundation:material:865>);
 
-#Light block
-#recipes.remove(<immersiveengineering:metal_decoration0:4>);
-#recipes.addShaped("CTHeavyBlock",<immersiveengineering:metal_decoration0:5>,
-#[[<ic2:itemmisc:53>,<immersiveengineering:material:8>, <ic2:itemmisc:53>],
-#[<minecraft:piston>, <ore:ingotElectrum>,<minecraft:piston>],
-#[<ic2:itemmisc:53>,<immersiveengineering:material:8>, <ic2:itemmisc:53>]]);
+/*
+Light block
+recipes.remove(<immersiveengineering:metal_decoration0:4>);
+recipes.addShaped("CTHeavyBlock",<immersiveengineering:metal_decoration0:5>,
+[[<ic2:itemmisc:53>,<immersiveengineering:material:8>, <ic2:itemmisc:53>],
+[<minecraft:piston>, <ore:ingotElectrum>,<minecraft:piston>],
+[<ic2:itemmisc:53>,<immersiveengineering:material:8>, <ic2:itemmisc:53>]]);
 
 #Heavy block
-#recipes.remove(<immersiveengineering:metal_decoration0:5>);
-#recipes.addShaped("CTLightBlock",<immersiveengineering:metal_decoration0:4>,
-#[[<ore:ingotSteel>,<immersiveengineering:material:9>, <ore:ingotSteel>],
-#[<ore:ingotCopper>, <ore:ingotCopper>,<ore:ingotCopper>],
-#[<ore:ingotSteel>,<immersiveengineering:material:9>, <ore:ingotSteel>]]);
-
+recipes.remove(<immersiveengineering:metal_decoration0:5>);
+recipes.addShaped("CTLightBlock",<immersiveengineering:metal_decoration0:4>,
+[[<ore:ingotSteel>,<immersiveengineering:material:9>, <ore:ingotSteel>],
+[<ore:ingotCopper>, <ore:ingotCopper>,<ore:ingotCopper>],
+[<ore:ingotSteel>,<immersiveengineering:material:9>, <ore:ingotSteel>]]);
+*/
 
 
 

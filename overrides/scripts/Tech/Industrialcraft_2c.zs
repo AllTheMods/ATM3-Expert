@@ -28,6 +28,9 @@ val goldCable = <ic2:itemcable:2>;
 val ironPlate = <ore:plateIron>;
 val coffeePowder = <ic2:itemmisc:154>;
 
+#crafting hammer
+recipes.remove(<ic2c_extras:craftinghammer>);
+
 #obsidian blade using thermal obsidian dust
 recipes.addShaped(<ic2:itemmisc:302>,
  [[<thermalfoundation:material:770>, <thermalfoundation:material:770>, <thermalfoundation:material:770>],
@@ -96,7 +99,8 @@ furnace.remove(<ic2c_extras:refinedironblock>,<minecraft:iron_block>);
 mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
 mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
 mods.immersiveengineering.BlastFurnace.addRecipe(<ic2:itemmisc:53>,<minecraft:iron_ingot>,2000,<immersiveengineering:material:7>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<ic2c_extras:refinedironblock>,<minecraft:iron_block>,8000,<immersiveengineering:material:7>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ic2c_extras:refinedironblock>,<minecraft:iron_block>,8000,<immersiveengineering:material:7> *4);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ic2c_extras:refinedironplate>,<thermalfoundation:material:32>,2000,<immersiveengineering:material:7>);
 
 #machine block
 recipes.addShaped("CTbasicframe", <ic2:blockmachinelv>, 

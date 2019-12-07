@@ -62,11 +62,6 @@ recipes.remove(<translocators:translocator_part>);
 
 recipes.addShaped(<translocators:translocator_part:1> * 2, [[<actuallyadditions:item_crystal>, <minecraft:ender_eye>, <actuallyadditions:item_crystal>],[<minecraft:iron_ingot>, <minecraft:piston>, <minecraft:iron_ingot>], [<actuallyadditions:item_crystal>, <appliedenergistics2:material:22>, <actuallyadditions:item_crystal>]]);
 recipes.addShaped(<translocators:translocator_part> * 2, [[<actuallyadditions:item_crystal>, <minecraft:ender_pearl>, <actuallyadditions:item_crystal>],[<minecraft:iron_ingot>, <minecraft:piston>, <minecraft:iron_ingot>], [<actuallyadditions:item_crystal>, <appliedenergistics2:material:22>, <actuallyadditions:item_crystal>]]);
-
-#beacon
-recipes.remove(<minecraft:beacon>);
-recipes.addShaped(<minecraft:beacon>, [[<enderio:block_enlightened_fused_quartz>, <contenttweaker:corruptedstarmetal>, <enderio:block_enlightened_fused_quartz>],[<enderio:block_enlightened_fused_quartz>, <contenttweaker:corruptedstarmetal>, <enderio:block_enlightened_fused_quartz>], [<botania:manaresource:14>, <plustic:mirionblock>, <botania:manaresource:14>]]);
-
  
 #advanced rocketry circuit
  mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:4>);
@@ -83,16 +78,6 @@ recipes.remove(<tcomplement:high_oven_controller>);
 
 #fluxcore
 recipes.remove(<fluxnetworks:fluxcore>);
-
-#time in a bottle
-recipes.remove(<randomthings:timeinabottle>);
-recipes.addShaped(<randomthings:timeinabottle>, [[<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered:3>],[<forge:bucketfilled>, <minecraft:clock>, <thermalfoundation:storage_alloy>], [<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_crystal_empowered:4>]]);
-
-#building gadgets
-recipes.remove(<buildinggadgets:destructiontool>);
-recipes.remove(<buildinggadgets:buildingtool>);
-recipes.addShaped(<buildinggadgets:destructiontool>, [[<actuallyadditions:item_crystal:5>, <minecraft:ender_pearl>, <actuallyadditions:item_crystal:5>],[<minecraft:ender_pearl>, <thermalfoundation:material:640>, <minecraft:ender_pearl>], [<actuallyadditions:item_crystal:5>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal:5>]]);
-recipes.addShaped(<buildinggadgets:buildingtool>, [[<actuallyadditions:item_crystal:5>, <minecraft:gold_ingot>, <actuallyadditions:item_crystal:5>],[<actuallyadditions:item_crystal_empowered:1>, <thermalfoundation:material:640>, <actuallyadditions:item_crystal_empowered:1>], [<actuallyadditions:item_crystal:5>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal:5>]]);
 
 #Logistics pipes changes
 /// 

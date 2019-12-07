@@ -81,9 +81,6 @@ mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_cry
 var aaDisable  = [
 <actuallyadditions:block_bio_reactor>,
 <actuallyadditions:block_leaf_generator>,
-<actuallyadditions:block_giant_chest_large>,
-<actuallyadditions:block_giant_chest_medium>,
-<actuallyadditions:block_giant_chest>,
 	<actuallyadditions:item_misc:18>,
 	<actuallyadditions:item_more_damage_lens>,
 	<actuallyadditions:item_explosion_lens>,
@@ -116,10 +113,6 @@ var aaDisable  = [
 	<actuallyadditions:item_drill:13>,
 	<actuallyadditions:item_drill:14>,
 	<actuallyadditions:item_drill:15>,
-	<actuallyadditions:item_chest_to_crate_upgrade>,
-	<actuallyadditions:item_small_to_medium_crate_upgrade>,
-	<actuallyadditions:item_medium_to_large_crate_upgrade>,
-	<actuallyadditions:item_crate_keeper>,
 	<actuallyadditions:block_heat_collector>,
 	<actuallyadditions:item_wings_of_the_bats>,
 	<actuallyadditions:block_furnace_solar>
