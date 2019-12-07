@@ -26,4 +26,5 @@ recipes.addShaped(<libvulpes:structuremachine>,
  [[<mekanism:polyethene:2>, <mekanism:controlcircuit:3>, <mekanism:polyethene:2>],
  [<contenttweaker:elementiumprocessor>, <ic2:blockmachinemv>, <contenttweaker:quartzingot>],
  [<mekanism:polyethene:2>, <ic2:itemmisc:451>, <mekanism:polyethene:2>]]);
- 
+ recipes.remove(<advancedrocketry:platepress>);
+
