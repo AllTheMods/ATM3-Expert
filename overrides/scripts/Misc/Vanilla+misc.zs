@@ -107,7 +107,7 @@ recipes.addShaped(<logisticspipes:pipe_request>,
 
 
 #cinderpearl>>blaze powder
-recipes.removeShapeless(<minecraft:blaze_powder>, [<thaumcraft:cinderpearl>]);
+recipes.remove(<minecraft:blaze_powder>, [<thaumcraft:cinderpearl>]);
 
 # Rustic Advanced Condenser # blazing trail gate to thaum
 recipes.remove(<rustic:condenser_advanced>);
