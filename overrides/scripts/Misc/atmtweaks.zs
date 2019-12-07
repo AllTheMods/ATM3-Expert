@@ -191,49 +191,6 @@ creativeMekTank.addTooltip("Does not consume the ATM Star when crafted");
 		]);
 	<simplyjetpacks:itemfluxpack:0>.addTooltip("Does not consume the ATM Star when crafted");
 	
-	// Overloaded Tool
-	recipes.remove(<overloaded:multi_tool>);
-	recipes.addShaped("OLTool", <overloaded:multi_tool>.withTag({IntEnergyStorage: {Count: 0 as long}}), [
-		[<minecraft:nether_star>, <minecraft:iron_ingot>, null],
-		[<minecraft:iron_ingot>, atmStarReturnOrb, <overloaded:nether_star_block>],
-		[null, <overloaded:nether_star_block>, <minecraft:iron_block>]
-		]);
-	<overloaded:multi_tool>.addTooltip("Does not consume the ATM Star when crafted");
-		
-	// Overloaded Armor Legs
-	recipes.remove(<overloaded:multi_leggings>);
-	recipes.addShaped("OLLegs", <overloaded:multi_leggings>.withTag({IntEnergyStorage: {Count: 0 as long}}), [
-		[<overloaded:nether_star_block>, atmStarReturnOrb, <overloaded:nether_star_block>],
-		[<overloaded:nether_star_block>, null, <overloaded:nether_star_block>],
-		[<overloaded:nether_star_block>, null, <overloaded:nether_star_block>]
-		]);
-	<overloaded:multi_leggings>.addTooltip("Does not consume the ATM Star when crafted");
-		
-	// Overloaded Armor Helm
-	recipes.remove(<overloaded:multi_helmet>);
-	recipes.addShaped("OLHelm", <overloaded:multi_helmet>.withTag({IntEnergyStorage: {Count: 0 as long}}), [
-		[<overloaded:nether_star_block>, atmStarReturnOrb, <overloaded:nether_star_block>],
-		[<overloaded:nether_star_block>, null, <overloaded:nether_star_block>]
-		]);
-	<overloaded:multi_helmet>.addTooltip("Does not consume the ATM Star when crafted");
-		
-	// Overloaded Armor Chest
-	recipes.remove(<overloaded:multi_chestplate>);
-	recipes.addShaped("OLChest", <overloaded:multi_chestplate>.withTag({IntEnergyStorage: {Count: 0 as long}}), [
-		[<overloaded:nether_star_block>, null, <overloaded:nether_star_block>],
-		[<overloaded:nether_star_block>, atmStarReturnOrb, <overloaded:nether_star_block>],
-		[<overloaded:nether_star_block>, <overloaded:nether_star_block>, <overloaded:nether_star_block>]
-		]);
-	<overloaded:multi_chestplate>.addTooltip("Does not consume the ATM Star when crafted");
-		
-	// Overloaded Armor Feet
-	recipes.remove(<overloaded:multi_boots>);
-	recipes.addShaped("OLFeet", <overloaded:multi_boots>.withTag({IntEnergyStorage: {Count: 0 as long}}), [
-		[<overloaded:nether_star_block>, null, <overloaded:nether_star_block>],
-		[<overloaded:nether_star_block>, atmStarReturnOrb, <overloaded:nether_star_block>]
-		]);
-	<overloaded:multi_boots>.addTooltip("Does not consume the ATM Star when crafted");
-
 	// RFTools Creative Powercell
 	recipes.addShapedMirrored("CreativeRFToolsRF", <rftools:powercell_creative>, [
 		[<rftools:powercell_advanced>, <rftools:powercell_card>, <rftools:powercell_advanced>],
