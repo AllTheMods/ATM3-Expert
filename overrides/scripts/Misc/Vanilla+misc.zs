@@ -105,10 +105,6 @@ recipes.addShaped(<logisticspipes:pipe_request>,
  [<logisticspipes:pipe_basic>, <logisticspipes:chip_basic>, <logisticspipes:pipe_basic>], 
  [<minecraft:redstone>, <thermalfoundation:material:354>, <thermalfoundation:material:354>]]);
 
-
-#cinderpearl>>blaze powder
-recipes.remove(<minecraft:blaze_powder>, [<thaumcraft:cinderpearl>]);
-
 # Rustic Advanced Condenser # blazing trail gate to thaum
 recipes.remove(<rustic:condenser_advanced>);
 recipes.addShaped("CtAdvancedCondenser", <rustic:condenser_advanced>,
@@ -130,9 +126,6 @@ recipes.addShaped("CTdrawercontroller", <storagedrawers:controller>,
  [<randomthings:stableenderpearl>, <thermalexpansion:frame:64>, <randomthings:stableenderpearl>], 
  [<actuallyadditions:item_crystal>, <actuallyadditions:block_testifi_bucks_green_wall>, <actuallyadditions:item_crystal>]]);
  removal(<storagedrawers:controllerslave>);
-
-#duplicate nether star block
-removal(<overloaded:nether_star_block>);
 
 #Quartz ingot
 recipes.addShaped("CCTquartzingot", <contenttweaker:quartzingot>, 
