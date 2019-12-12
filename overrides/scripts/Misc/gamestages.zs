@@ -75,6 +75,7 @@ val AL = Astorage.length;
 */
 
 #Nether// End// Atum
-mods.DimensionStages.addDimensionStage(nether, -1);
- mods.DimensionStages.addDimensionStage(end, 1); 
-  mods.DimensionStages.addDimensionStage(atum, 17); 
+mods.DimensionStages.addDimensionStage("nether", -1);
+ mods.DimensionStages.addDimensionStage("end", 1); 
+  mods.DimensionStages.addDimensionStage("atum", 17); 
+  
