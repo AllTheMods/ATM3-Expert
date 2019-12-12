@@ -28,8 +28,15 @@ val goldCable = <ic2:itemcable:2>;
 val ironPlate = <ore:plateIron>;
 val coffeePowder = <ic2:itemmisc:154>;
 
+#blank press and rolling press
+recipes.addShaped(<ic2c_extras:rollingpress>, [[null, <thermalfoundation:material:32>, null],[<thermalfoundation:material:32>, <ic2c_extras:blankpress>, <thermalfoundation:material:32>], [null, <thermalfoundation:material:32>, null]]);
+recipes.addShaped(<ic2c_extras:blankpress> * 3, [[<thermalfoundation:material:32>, <ic2c_extras:refinedironplate>, null],[<ic2c_extras:refinedironplate>, <ic2c_extras:refinedironplate>, null], [null, null, null]]);
+
 #crafting hammer
 recipes.remove(<ic2c_extras:craftinghammer>);
+
+#machine casing refined iron recipe
+recipes.removeShaped(<ic2:itemmisc:53> * 8, [[null, null, null],[null, <ic2:blockmachinelv>, null], [null, null, null]]);
 
 #obsidian blade using thermal obsidian dust
 recipes.addShaped(<ic2:itemmisc:302>,
