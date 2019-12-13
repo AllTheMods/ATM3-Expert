@@ -28,3 +28,9 @@ recipes.addShaped(<libvulpes:structuremachine>,
  [<mekanism:polyethene:2>, <ic2:itemmisc:451>, <mekanism:polyethene:2>]]);
  recipes.remove(<advancedrocketry:platepress>);
 
+#precision assembler = very broken
+recipes.addShaped(<advancedrocketry:dataunit>, [[<minecraft:emerald>, <ic2:itemmisc:202>, null],[<minecraft:redstone>, <minecraft:emerald>, null], [null, null, null]]);
+recipes.addShaped(<advancedrocketry:itemcircuitplate>, [[<minecraft:redstone>, <minecraft:gold_ingot>, null],[<minecraft:gold_ingot>, <ic2:itemmisc:202>, null], [null, null, null]]);
+recipes.addShaped(<advancedrocketry:itemupgrade>, [[<minecraft:redstone>, <minecraft:redstone_torch>, <minecraft:redstone>],[<advancedrocketry:ic:3>, <ic2:itemmisc:202>, <advancedrocketry:ic>], [<minecraft:redstone>, <minecraft:redstone_torch>, <minecraft:redstone>]]);
+recipes.addShaped(<advancedrocketry:ic:1>, [[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],[<minecraft:ender_eye>, <ic2:itemmisc:202>, <advancedrocketry:itemcircuitplate>], [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]]);
+recipes.addShaped(<thermalexpansion:augment:576>, [[<minecraft:redstone>, <minecraft:glass>, <minecraft:redstone>],[<minecraft:glass>, <extrautils2:drum>, <minecraft:glass>], [<minecraft:redstone>, <thermalfoundation:material:256>, <minecraft:redstone>]]);
