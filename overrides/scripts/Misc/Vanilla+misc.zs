@@ -24,7 +24,6 @@ val cobbleTwoTimes = <ore:compressed1xCobblestone>;
 <minecraft:redstone_ore>.addTooltip(format.red("Found in caves under y: 32"));
 <minecraft:dye:4>.addTooltip(format.red("Found in caves under y: 32"));
 <minecraft:lapis_ore>.addTooltip(format.red("Found in caves under y: 32"));
-<minecraft:redstone_ore>.addTooltip(format.red("Found in caves under y: 32"));
 <minecraft:coal:0>.addTooltip(format.red("Found in caves under y: 128"));
 <minecraft:coal_ore>.addTooltip(format.red("Found in caves under y: 128"));
 
@@ -32,8 +31,8 @@ val cobbleTwoTimes = <ore:compressed1xCobblestone>;
 <thermalfoundation:ore:1>.addTooltip(format.red("Found in caves under y: 80"));
 <thermalfoundation:ore:2>.addTooltip(format.red("Found in caves under y: 30"));
 <thermalfoundation:ore:3>.addTooltip(format.red("Found in caves under y: 30"));
-<thermalfoundation:ore:5>.addTooltip(format.red("Found in caves under y: 20"));
-<thermalfoundation:ore:6>.addTooltip(format.red("Found in caves under y: 10"));
+<thermalfoundation:ore:5>.addTooltip(format.red("Found in caves under y: 40"));
+<thermalfoundation:ore:6>.addTooltip(format.red("Found in caves under y: 16"));
 
 <minecraft:diamond>.addTooltip(format.red("Found in Nether surfaces under y: 120"));
 <actuallyadditions:item_misc:5>.addTooltip(format.red("Found in Atum under y: 48"));

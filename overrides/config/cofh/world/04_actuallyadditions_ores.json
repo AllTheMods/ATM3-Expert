@@ -14,7 +14,7 @@
 			"chunk-chance": 1,
 			"ground-level": 48,
 			"biome": "all",
-			"retrogen": true,
+			"retrogen": false,
 			"dimension": "all"
 		}
 	}

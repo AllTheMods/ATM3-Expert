@@ -15,7 +15,7 @@
 			"chunk-chance": 1,
 			"ground-level": 120,
 			"biome": "all",
-			"retrogen": true,
+			"retrogen": false,
 			"dimension": "all"
 		},
 		
@@ -33,7 +33,7 @@
 			"chunk-chance": 1,
 			"ground-level": 120,
 			"biome": "all",
-			"retrogen": true,
+			"retrogen": false,
 			"dimension": "all"
 		},
 		
@@ -51,7 +51,7 @@
 			"chunk-chance": 1,
 			"ground-level": 120,
 			"biome": "all",
-			"retrogen": true,
+			"retrogen": false,
 			"dimension": "all"
 		},
 		
@@ -69,7 +69,7 @@
 			"chunk-chance": 8,
 			"ground-level": 60,
 			"biome": "all",
-			"retrogen": true,
+			"retrogen": false,
 			"dimension": "all"
 		},
 		
@@ -87,7 +87,7 @@
 			"chunk-chance": 1,
 			"ground-level": 120,
 			"biome": "all",
-			"retrogen": true,
+			"retrogen": false,
 			"dimension": "all"
 		},
 		
@@ -105,7 +105,7 @@
 			"chunk-chance": 1,
 			"ground-level": 120,
 			"biome": "all",
-			"retrogen": true,
+			"retrogen": false,
 			"dimension": "all"
 		},
 		
@@ -123,7 +123,7 @@
 			"chunk-chance": 1,
 			"ground-level": 120,
 			"biome": "all",
-			"retrogen": true,
+			"retrogen": false,
 			"dimension": "all"
 		},
 		
@@ -141,7 +141,7 @@
 			"chunk-chance": 2,
 			"ground-level": 60,
 			"biome": "all",
-			"retrogen": true,
+			"retrogen": false,
 			"dimension": "all"
 		},
 		
@@ -159,7 +159,7 @@
 			"chunk-chance": 1,
 			"ground-level": 120,
 			"biome": "all",
-			"retrogen": true,
+			"retrogen": false,
 			"dimension": "all"
 		},
 		
@@ -177,7 +177,7 @@
 			"chunk-chance": 2,
 			"ground-level": 60,
 			"biome": "all",
-			"retrogen": true,
+			"retrogen": false,
 			"dimension": "all"
 		}
 	}

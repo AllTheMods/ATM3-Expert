@@ -131,7 +131,7 @@
 			},
 			"cluster-count": 12,
 			"ground-level": 128,
-			"retrogen": true,
+			"retrogen": false,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
@@ -151,7 +151,7 @@
 			},
 			"cluster-count": 10,
 			"ground-level": 64,
-			"retrogen": true,
+			"retrogen": false,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
@@ -171,7 +171,7 @@
 			},
 			"cluster-count": 5,
 			"ground-level": 32,
-			"retrogen": true,
+			"retrogen": false,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
@@ -191,7 +191,7 @@
 			},
 			"cluster-count": 4,
 			"ground-level": 32,
-			"retrogen": true,
+			"retrogen": false,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
@@ -212,7 +212,7 @@
 			"cluster-count": 0,
 			"min-height": 0,
 			"max-height": 1,
-			"retrogen": true,
+			"retrogen": false,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
@@ -233,7 +233,7 @@
 			},
 			"cluster-count": 1,
 			"ground-level": 32,
-			"retrogen": true,
+			"retrogen": false,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
