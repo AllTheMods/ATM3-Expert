@@ -85,6 +85,20 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:unrefinedhotste
 #Black iron (extendedcrafting)
 mods.immersiveengineering.BlastFurnace.addRecipe(<extendedcrafting:material>, <immersiveengineering:material:19>, 1000, <thermalfoundation:material:865>);
 
+#HV capacitor
+recipes.remove(<immersiveengineering:metal_device0:2>);
+recipes.addShaped(<immersiveengineering:metal_device0:2>, 
+ [[<thermalfoundation:material:160>, <thermalfoundation:material:160>, <thermalfoundation:material:160>],
+ [<thermalfoundation:material:132>, <thermalfoundation:storage:3>, <thermalfoundation:material:132>], 
+ [<immersiveengineering:treated_wood>, <immersiveengineering:metal_device0:1>, <immersiveengineering:treated_wood>]]);
+
+#MV capacitor
+recipes.remove(<immersiveengineering:metal_device0:1>);
+recipes.addShaped(<immersiveengineering:metal_device0:1>,
+ [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+ [<thermalfoundation:material:161>, <actuallyadditions:item_crystal>, <thermalfoundation:material:161>], 
+ [<immersiveengineering:treated_wood>, <immersiveengineering:metal_device0>, <immersiveengineering:treated_wood>]]);
+
 /*
 Light block
 recipes.remove(<immersiveengineering:metal_decoration0:4>);
