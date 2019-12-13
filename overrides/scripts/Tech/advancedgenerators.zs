@@ -10,6 +10,7 @@ import crafttweaker.block.IBlock;
 import crafttweaker.game.IGame;
 import mods.jei.JEI.removeAndHide;
 
+val germanium = <alchemistry:ingot:32>;
 print("advanced generator recipes");
 
 #Remove and hide
@@ -51,6 +52,6 @@ recipes.addShaped(<advgenerators:turbine_rotor_adv_alloy>, [[<advgenerators:turb
 recipes.addShaped(<advgenerators:turbine_blade_adv_alloy> * 4, [[null, <ic2:itemmisc:257>, <ic2:itemmisc:257>],[null, <ic2:itemmisc:257>, <ic2:itemmisc:257>], [null, null, <ic2:itemmisc:257>]]);
 recipes.addShaped(<advgenerators:eu_output_iv>, [[null, <ic2:blockelectric:13>, null],[<ic2:itemcable:16>, <advgenerators:eu_output_hv>, <ic2:itemcable:16>], [null, <ic2:blockelectric:13>, null]]);
 recipes.addShaped(<advgenerators:eu_output_ev>, [[null, <ic2:blockelectric:11>, null],[<ic2:itemcable:9>, <advgenerators:eu_output_hv>, <ic2:itemcable:9>], [null, <ic2:blockelectric:11>, null]]);
-recipes.addShaped(<advgenerators:eu_output_hv>, [[null, <ic2:blockelectric:10>, null],[<ic2:itemcable:8>, <advgenerators:forge_output>, <ic2:itemcable:8>], [null, <ic2:blockelectric:10>, null]]);
-recipes.addShaped(<advgenerators:eu_output_mv>, [[null, <ic2:blockelectric:9>, null],[<ic2:itemcable:4>, <advgenerators:forge_output>, <ic2:itemcable:4>], [null, <ic2:blockelectric:9>, null]]);
-recipes.addShaped(<advgenerators:eu_output_lv>, [[null, <ic2:blockelectric:8>, null],[<ic2:itemcable:1>, <advgenerators:forge_output>, <ic2:itemcable:1>], [null, <ic2:blockelectric:8>, null]]);
+recipes.addShaped(<advgenerators:eu_output_hv>, [[germanium, <ic2:blockelectric:10>, germanium],[<ic2:itemcable:8>, <advgenerators:forge_output>, <ic2:itemcable:8>], [germanium, <ic2:blockelectric:10>, germanium]]);
+recipes.addShaped(<advgenerators:eu_output_mv>, [[germanium, <ic2:blockelectric:9>, germanium],[<ic2:itemcable:4>, <advgenerators:forge_output>, <ic2:itemcable:4>], [germanium, <ic2:blockelectric:9>, germanium]]);
+recipes.addShaped(<advgenerators:eu_output_lv>, [[germanium, <ic2:blockelectric:8>, germanium],[<ic2:itemcable:1>, <advgenerators:forge_output>, <ic2:itemcable:1>], [germanium, <ic2:blockelectric:8>, germanium]]);
