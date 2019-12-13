@@ -73,6 +73,17 @@ recipes.addShaped(<thermalfoundation:material:26>,
  [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>], 
  [null, <minecraft:diamond>, null]]);
 
+#flint and steel
+recipes.remove(<minecraft:flint_and_steel>);
+recipes.addShapeless(<minecraft:flint_and_steel>, [<ic2:itemmisc:53>,<ic2:itemmisc:256>]);
+
+#fire charge
+recipes.remove(<minecraft:fire_charge>);
+recipes.addShaped(<minecraft:fire_charge>,
+ [[null, <minecraft:stick>, null],
+ [<minecraft:stick>, <minecraft:wheat>, <minecraft:stick>], 
+ [null, <minecraft:stick>, null]]);
+
 #high oven
 recipes.remove(<tcomplement:high_oven_controller>);
 
