@@ -58,8 +58,6 @@ recipes.addShaped("CtSmeltControl",<tconstruct:smeltery_controller>,
 [searedStone,<tcomplement:porcelain_melter>,searedStone],
 [<minecraft:brick>, tin,<minecraft:brick>]]);
 
-
-
 #patterns
 #recipes.removeShaped(<tconstruct:pattern>);
 #mods.tconstruct.Drying.addRecipe(<tconstruct:pattern>,<tconstruct:pattern>, 300);
@@ -75,6 +73,10 @@ mods.tconstruct.Alloy.removeRecipe(<liquid:lumium>, [<liquid:tin>, <liquid:silve
 mods.tconstruct.Alloy.removeRecipe(<liquid:conductive_iron>, [<liquid:redstone>, <liquid:iron>]);
 mods.tconstruct.Alloy.removeRecipe(<liquid:energetic_alloy>, [<liquid:redstone>, <liquid:gold>, <liquid:glowstone>]);
 
+mods.tconstruct.Alloy.removeRecipe(<liquid:signalum>);
+mods.tconstruct.Alloy.removeRecipe(<liquid:enderium>);
+mods.tconstruct.Alloy.removeRecipe(<liquid:dark_steel>);
+mods.tconstruct.Alloy.removeRecipe(<liquid:hard_carbon>);
 
 #add sand pickaxe
 
@@ -105,6 +107,27 @@ mods.tconstruct.Melting.addRecipe(<liquid:molten_sand> * 1296,<extrautils2:compr
 mods.tconstruct.Melting.removeRecipe(<liquid:clay>);
 mods.tconstruct.Melting.addRecipe(<liquid:clay> * 144,<minecraft:clay_ball>, 350);
 mods.tconstruct.Melting.addRecipe(<liquid:clay> * 576,<minecraft:clay>, 400);
+
+mods.tconstruct.Melting.removeRecipe(<liquid:steel>, <immersiveengineering:sword_steel>);
+mods.tconstruct.Melting.removeRecipe(<liquid:steel>, <immersiveengineering:shovel_steel>);
+mods.tconstruct.Melting.removeRecipe(<liquid:steel>, <immersiveengineering:axe_steel>);
+mods.tconstruct.Melting.removeRecipe(<liquid:steel>, <immersiveengineering:pickaxe_steel>);
+mods.tconstruct.Melting.removeRecipe(<liquid:steel>, <immersiveengineering:material:16>);
+mods.tconstruct.Melting.removeRecipe(<liquid:steel>, <immersiveengineering:steel_armor_legs>);
+mods.tconstruct.Melting.removeRecipe(<liquid:steel>, <immersiveengineering:steel_armor_head>);
+mods.tconstruct.Melting.removeRecipe(<liquid:steel>, <immersiveengineering:steel_armor_chest>);
+mods.tconstruct.Melting.removeRecipe(<liquid:steel>, <immersiveengineering:steel_armor_feet>);
+
+mods.tconstruct.Melting.removeRecipe(<liquid:dark_steel>, <enderio:item_dark_steel_helmet>);
+mods.tconstruct.Melting.removeRecipe(<liquid:dark_steel>, <enderio:item_dark_steel_chestplate>);
+mods.tconstruct.Melting.removeRecipe(<liquid:dark_steel>, <enderio:item_dark_steel_leggings>);
+mods.tconstruct.Melting.removeRecipe(<liquid:dark_steel>, <enderio:item_dark_steel_boots>);
+mods.tconstruct.Melting.removeRecipe(<liquid:dark_steel>, <enderio:item_dark_steel_pickaxe>);
+mods.tconstruct.Melting.removeRecipe(<liquid:dark_steel>, <enderio:item_dark_steel_axe>);
+mods.tconstruct.Melting.removeRecipe(<liquid:dark_steel>, <enderio:item_dark_steel_crook>);
+mods.tconstruct.Melting.removeRecipe(<liquid:dark_steel>, <enderio:item_dark_steel_shears>);
+mods.tconstruct.Melting.removeRecipe(<liquid:dark_steel>, <enderio:item_dark_steel_sword>);
+
 #alloys
 #liquid grout
 mods.tconstruct.Alloy.addRecipe(<liquid:liquid_grout> * 576, [<liquid:molten_sand> * 144, <liquid:clay> * 144]);
