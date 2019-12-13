@@ -29,6 +29,8 @@ import crafttweaker.item.IItemStack;
   LootTables.getTable("minecraft:chests/simple_dungeon").removePool("Ender IO");
    LootTables.getTable("minecraft:chests/village_blacksmith").removePool("Ender IO");
     LootTables.getTable("minecraft:chests/abandoned_mineshaft").removePool("Ender IO");
-
+	     LootTables.getTable("minecraft:chests/jungle_temple").removePool("Ender IO");
+	      LootTables.getTable("minecraft:chests/desert_pyramid").removePool("Ender IO");
+		  
 #diamond loot removals
   LootTables.getTable("minecraft:chests/abandoned_mineshaft").getPool("main").removeEntry("<minecraft:diamond>");
