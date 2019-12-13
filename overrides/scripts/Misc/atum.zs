@@ -30,15 +30,14 @@ recipes.removeShaped(<atum:limestone_brick_small>);
 recipes.addShaped("CtAtumSmallBrick",<atum:limestone_brick_small>,
 [[<extrautils2:compressedsand>,<minecraft:clay_ball>]]);
 
-#add porcelain
-mods.atum.Kiln.addRecipe(unfired, <ceramics:unfired_clay:5>, 0.4);
-#porcerlain barrel 
-mods.atum.Kiln.addRecipe(<ceramics:clay_barrel_unfired:2>, <ceramics:porcelain_barrel>, 0.4);
+#porcerlain barrel  mods.tconstruct.Drying.addRecipe();
+mods.tconstruct.Drying.addRecipe(<ceramics:clay_barrel_unfired:2>, <ceramics:porcelain_barrel>, 300);
+
 #faucet
-mods.atum.Kiln.addRecipe(<ceramics:unfired_clay:6>, <ceramics:faucet>, 0.4);
+mods.tconstruct.Drying.addRecipe(<ceramics:unfired_clay:6>, <ceramics:faucet>, 300);
 
 #channel
-mods.atum.Kiln.addRecipe(<ceramics:unfired_clay:7>, <ceramics:channel>, 0.4);
+mods.tconstruct.Drying.addRecipe(<ceramics:unfired_clay:7>, <ceramics:channel>, 300);
 
 #scarab
 recipes.remove(<atum:scarab>);
