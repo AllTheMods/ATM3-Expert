@@ -18,6 +18,10 @@ print("Actually additions changes");
 recipes.remove(<actuallyadditions:item_bag>);
 recipes.addShaped("CTaabag", <actuallyadditions:item_bag>, [[<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],[<minecraft:stick>, <ore:chest>, <minecraft:leather>], [<minecraft:stick>, <minecraft:leather>, <minecraft:leather>]]);
 
+#block breaker
+recipes.remove(<actuallyadditions:block_breaker>);
+recipes.addShaped(<actuallyadditions:block_breaker>, [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],[<minecraft:cobblestone>, <actuallyadditions:item_misc:7>, <thermalfoundation:material:160>], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
+
 
 #iron casing
 recipes.removeShaped(<actuallyadditions:block_misc:9>);

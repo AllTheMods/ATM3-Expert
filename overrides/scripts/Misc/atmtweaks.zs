@@ -110,7 +110,7 @@ recipes.addShaped(<psi:cad_assembly:5>,
 
 recipes.addShaped(<botania:pool:1>,
  [[<botania:pool:3>, <botania:pool:3>, <botania:pool:3>],
- [<botania:pool:3>, <botania:manatablet>, <botania:pool:3>], 
+ [<botania:pool:3>, Astar, <botania:pool:3>], 
  [<botania:pool:3>, <botania:pool:3>, <botania:pool:3>]]);
  <botania:pool:1>.addTooltip("Does not consume the ATM Star when crafted");
 
