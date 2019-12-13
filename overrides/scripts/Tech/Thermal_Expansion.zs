@@ -29,9 +29,9 @@ recipes.remove(<thermalfoundation:storage:3>);
 #boiler conversion
 recipes.remove(<thermalexpansion:augment:576>);
 recipes.addShaped(<thermalexpansion:augment:576>,
- [[null, <minecraft:furnace>, null],
- [<minecraft:redstone>, <minecraft:flint_and_steel>, <minecraft:redstone>], 
- [<minecraft:iron_ingot>, <thermalfoundation:material:513>, <minecraft:iron_ingot>]]);
+ [[<minecraft:redstone>, <minecraft:glass>, <minecraft:redstone>],
+ [<minecraft:glass>, <extrautils2:drum>, <minecraft:glass>], 
+ [<minecraft:redstone>, <thermalfoundation:material:256>, <minecraft:redstone>]]);
 
 #basic tank 
 recipes.removeShaped(<thermalexpansion:tank>);
