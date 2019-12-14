@@ -16,7 +16,7 @@ print("Actually additions changes");
 
 #storage crates
 recipes.remove(<actuallyadditions:block_giant_chest>);
-recipes.addShaped(<actuallyadditions:block_giant_chest>, [[<ore:chest>, <ic2:itemmisc:53>, <ore:chest>],[<ic2:itemmisc:53>, <actuallyadditions:block_misc:4>, <ic2:itemmisc:53>],[<ore:chest>, <ic2:itemmisc:53>, <ore:chest>]]);
+recipes.addShaped(<actuallyadditions:block_giant_chest>, [[<ore:chest>, <ic2:itemmisc:53>, <ore:chest>],[<ic2:itemmisc:53>, <botania:livingwood:0>, <ic2:itemmisc:53>],[<ore:chest>, <ic2:itemmisc:53>, <ore:chest>]]);
 
 #bag
 recipes.remove(<actuallyadditions:item_bag>);
