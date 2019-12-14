@@ -33,7 +33,8 @@ val coffeePowder = <ic2:itemmisc:154>;
 ScrapBox.removeDrop(<minecraft:netherrack>);
 ScrapBox.removeDrop(<minecraft:nether_star>);
 ScrapBox.removeDrop(<minecraft:diamond>);
-ScrapBox.removeDrop(<minecraft:glowstone_dust);
+ScrapBox.removeDrop(<minecraft:glowstone_dust>);
+ScrapBox.removeDrop(<minecraft:soul_sand>);
 
 #blank press and rolling press
 recipes.addShaped(<ic2c_extras:rollingpress>, [[null, <thermalfoundation:material:32>, null],[<thermalfoundation:material:32>, <ic2c_extras:blankpress>, <thermalfoundation:material:32>], [null, <thermalfoundation:material:32>, null]]);
