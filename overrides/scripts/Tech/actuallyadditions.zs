@@ -14,6 +14,10 @@ import mods.actuallyadditions.AtomicReconstructor;
 
 print("Actually additions changes");
 
+#storage crates
+recipes.remove(<actuallyadditions:block_giant_chest>);
+recipes.addShaped(<actuallyadditions:block_giant_chest>, [[<ore:chest>, <ic2:itemmisc:53>, <ore:chest>],[<ic2:itemmisc:53>, <botania:livingwood:0>, <ic2:itemmisc:53>],[<ore:chest>, <ic2:itemmisc:53>, <ore:chest>]]);
+
 #bag
 recipes.remove(<actuallyadditions:item_bag>);
 recipes.addShaped("CTaabag", <actuallyadditions:item_bag>, [[<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],[<minecraft:stick>, <ore:chest>, <minecraft:leather>], [<minecraft:stick>, <minecraft:leather>, <minecraft:leather>]]);

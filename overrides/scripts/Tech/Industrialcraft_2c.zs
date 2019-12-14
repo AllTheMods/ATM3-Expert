@@ -15,6 +15,7 @@ import mods.ic2.MetalFormer;
 import mods.ic2.Macerator;
 import mods.ic2.ThermalCentrifuge;
 import mods.ic2.LiquidFuelGenerator;
+import mods.ic2.ScrapBox;
 
 print("ic2 changes");
 val plutonium = mods.alchemistry.Util.get("plutonium");
@@ -27,6 +28,12 @@ val copperCable = <ic2:itemcable>;
 val goldCable = <ic2:itemcable:2>;
 val ironPlate = <ore:plateIron>;
 val coffeePowder = <ic2:itemmisc:154>;
+
+#remove drops from scrapbox
+ScrapBox.removeDrop(<minecraft:netherrack>);
+ScrapBox.removeDrop(<minecraft:nether_star>);
+ScrapBox.removeDrop(<minecraft:diamond>);
+ScrapBox.removeDrop(<minecraft:glowstone_dust);
 
 #blank press and rolling press
 recipes.addShaped(<ic2c_extras:rollingpress>, [[null, <thermalfoundation:material:32>, null],[<thermalfoundation:material:32>, <ic2c_extras:blankpress>, <thermalfoundation:material:32>], [null, <thermalfoundation:material:32>, null]]);

@@ -29,7 +29,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("CtHellfire", "", 250,
 #Snare
 
 recipes.remove(<bloodmagic:soul_snare>);
-recipes.addShaped("CtSnare", <bloodmagic:soul_snare>, 
+recipes.addShaped("CtSnare", <bloodmagic:soul_snare> * 3, 
 		[[<botania:manaresource:16>, <ic2:itemmisc:53>, <botania:manaresource:16>],
 		[<ic2:itemmisc:53>, <astralsorcery:itemusabledust:1>, <ic2:itemmisc:53>],
 		[<botania:manaresource:16>, <ic2:itemmisc:53>, <botania:manaresource:16>]]
