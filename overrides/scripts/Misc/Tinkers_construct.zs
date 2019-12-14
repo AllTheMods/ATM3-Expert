@@ -12,6 +12,7 @@ import mods.tcomplement.Overrides;
 import mods.tconstruct.Drying;
 import mods.tconstruct.Alloy;
 import mods.jei.JEI.removeAndHide;
+import mods.immersiveengineering.ArcFurnace;
 
 print("Tinkers changes start here");
 
@@ -19,6 +20,11 @@ val searedStone = <ore:blockSeared>;
 val tin = <thermalfoundation:material:129>;
 val porcelainBrick = <ceramics:unfired_clay:5>;
 val flintshard = <tconstruct:shard>.withTag({Material: "flint"});
+
+#add osmiridium & osgloglas to arc furnace
+mods.immersiveengineering.ArcFurnace.addRecipe(<plustic:osmiridiumingot>, <ore:ingotOsmium>, null, 400, 512, [<ore:ingotIridium>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<plustic:osgloglasingot>, <ore:ingotOsmium>, null, 400, 512, [<ore:ingotRefinedObsidian>, <ore:ingotRefinedGlowstone>]);
+
 
 #flint shard
 recipes.addShapeless(flintshard * 4, [<minecraft:flint>]);
