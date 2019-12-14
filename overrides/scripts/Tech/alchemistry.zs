@@ -7,6 +7,10 @@ val mercury = mods.alchemistry.Util.get("mercury");
 
 <alchemistry:element:38>.addTooltip(format.red("Combine in fusion multiblock for osmium"));
 
+#remove manganese from liquifier and chemical combiner
+mods.alchemistry.Liquifier.removeRecipe(<alchemistry:element:25>);
+mods.alchemistry.Combiner.removeRecipe(<nuclearcraft:dust:11>);
+
 #remove diorite
 mods.alchemistry.Dissolver.removeRecipe(<minecraft:stone:3>);
 mods.alchemistry.Dissolver.removeRecipe(<minecraft:stone:4>);
