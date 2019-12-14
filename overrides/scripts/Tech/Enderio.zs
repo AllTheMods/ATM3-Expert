@@ -14,7 +14,7 @@ import mods.immersiveengineering.ArcFurnace;
 val bohrium = <alchemistry:ingot:107>;
 
 #dark steel
-mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:6>, <thermalfoundation:material:160>, <immersiveengineering:material:18>, 200, 0, [<immersiveengineering:material:19>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:6>, <thermalfoundation:material:160>, <immersiveengineering:material:17>, 200, 512, [<immersiveengineering:material:19>]);
 
 #removals
 mods.jei.JEI.removeAndHide(<enderio:block_simple_furnace>);

@@ -15,6 +15,9 @@ val ironPlate = <thermalfoundation:material:32>;
 val ironGear = <ore:ingotTin>;
 val cobbleTwoTimes = <ore:compressed1xCobblestone>;
 
+#temp removed exchanging gadget
+recipes.remove(<buildinggadgets:exchangertool>);
+
 #scannables mod recipe changes
 recipes.remove(<scannable:scanner>);
 recipes.addShaped(<scannable:scanner>.withTag({energy: 5000 as short}), [[<ic2:itemmisc:53>, <botania:livingrock:0>, <ic2:itemmisc:53>],[<minecraft:iron_bars>, <minecraft:redstone_block>, <minecraft:iron_bars>],[<minecraft:gold_ingot>, <botania:livingrock:0>, <minecraft:gold_ingot>]]);

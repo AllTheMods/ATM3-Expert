@@ -12,6 +12,10 @@ import mods.actuallyadditions.Empowerer;
 
 print("Industrial foregoing");
 
+#make breaker require steel gear
+recipes.remove(<industrialforegoing:block_destroyer>);
+recipes.addShaped(<industrialforegoing:block_destroyer>, [[<industrialforegoing:plastic>, <thermalfoundation:material:288>, <industrialforegoing:plastic>], [<minecraft:iron_pickaxe>, <teslacorelib:machine_case>, <minecraft:iron_shovel>], [<thermalfoundation:material:24>, <minecraft:redstone>, <thermalfoundation:material:24>]]);
+
 #machine casing
 recipes.remove(<teslacorelib:machine_case>);
 mods.actuallyadditions.Empowerer.addRecipe(<teslacorelib:machine_case>, <actuallyadditions:block_crystal>, <actuallyadditions:item_crystal:5>, <contenttweaker:quartzplate>, <actuallyadditions:item_crystal:5>, <contenttweaker:quartzplate>, 12500, 400);
