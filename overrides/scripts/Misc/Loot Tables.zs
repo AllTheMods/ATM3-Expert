@@ -30,7 +30,34 @@ import crafttweaker.item.IItemStack;
    LootTables.getTable("minecraft:chests/village_blacksmith").removePool("Ender IO");
     LootTables.getTable("minecraft:chests/abandoned_mineshaft").removePool("Ender IO");
 	     LootTables.getTable("minecraft:chests/jungle_temple").removePool("Ender IO");
-	      LootTables.getTable("minecraft:chests/desert_pyramid").removePool("Ender IO");
-		  
+	       LootTables.getTable("minecraft:chests/desert_pyramid").removePool("Ender IO");
+            LootTables.getTable("minecraft:chests/nether_bridge").removePool("Ender IO");		
+	         LootTables.getTable("minecraft:chests/end_city_treasure").removePool("Ender IO");
+              LootTables.getTable("minecraft:chests/woodland_mansion").removePool("Ender IO");		
+
 #diamond loot removals
   LootTables.getTable("minecraft:chests/abandoned_mineshaft").getPool("main").removeEntry("<minecraft:diamond>");
+   LootTables.getTable("minecraft:chests/jungle_temple").getPool("main").removeEntry("<minecraft:diamond>");
+    LootTables.getTable("minecraft:chests/desert_pyramid").getPool("main").removeEntry("<minecraft:diamond>");
+      LootTables.getTable("minecraft:chests/stronghold_corridor").getPool("main").removeEntry("<minecraft:diamond>");
+       LootTables.getTable("minecraft:chests/village_blacksmith").getPool("main").removeEntry("<minecraft:diamond>");
+
+#bucket
+  LootTables.getTable("minecraft:chests/simple_dungeon").getPool("main").removeEntry("<minecraft:bucket>");
+    LootTables.getTable("minecraft:chests/woodland_mansion").getPool("main").removeEntry("<minecraft:bucket>");
+
+#iridium
+  LootTables.getTable("minecraft:chests/simple_dungeon").getPool("main").removeEntry("<ic2c_extras:iridiumshard>");
+   LootTables.getTable("minecraft:chests/nether_bridge").getPool("main").removeEntry("<ic2c_extras:iridiumshard>");
+    LootTables.getTable("minecraft:chests/stronghold_corridor").getPool("main").removeEntry("<ic2c_extras:iridiumshard>");
+     LootTables.getTable("minecraft:chests/stronghold_crossing").getPool("main").removeEntry("<ic2c_extras:iridiumshard>");
+      LootTables.getTable("minecraft:chests/jungle_temple").getPool("main").removeEntry("<ic2c_extras:iridiumshard>");
+       LootTables.getTable("minecraft:chests/desert_pyramid").getPool("main").removeEntry("<ic2c_extras:iridiumshard>");
+
+#iridium
+  LootTables.getTable("minecraft:chests/simple_dungeon").getPool("main").removeEntry("<ic2c_extras:plutoniumtinydust>");
+   LootTables.getTable("minecraft:chests/nether_bridge").getPool("main").removeEntry("<ic2c_extras:plutoniumtinydust>");
+    LootTables.getTable("minecraft:chests/stronghold_corridor").getPool("main").removeEntry("<ic2c_extras:plutoniumtinydust>");
+     LootTables.getTable("minecraft:chests/stronghold_crossing").getPool("main").removeEntry("<ic2c_extras:plutoniumtinydust>");
+      LootTables.getTable("minecraft:chests/jungle_temple").getPool("main").removeEntry("<ic2c_extras:plutoniumtinydust>");
+       LootTables.getTable("minecraft:chests/desert_pyramid").getPool("main").removeEntry("<ic2c_extras:plutoniumtinydust>");
