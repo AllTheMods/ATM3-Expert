@@ -13,6 +13,9 @@ import mods.forestry.ThermionicFabricator; # mods.forestry.ThermionicFabricator.
 
 print("AE2 recipe changes");
 
+#elementium processor in circuit etcher
+mods.threng.Etcher.addRecipe(<contenttweaker:elementiumprint>, <botania:manaresource:7>);
+
 #certus gen from end ores
 furnace.addRecipe(<appliedenergistics2:material:1> * 2, <netherendingores:ore_end_modded_1:10>, 0.0);
 furnace.addRecipe(<appliedenergistics2:material> * 4, <netherendingores:ore_end_modded_1:9>, 0.0);
