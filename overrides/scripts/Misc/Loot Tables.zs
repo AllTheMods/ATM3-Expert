@@ -21,6 +21,18 @@ import crafttweaker.item.IItemStack;
 "minecraft:chests/end_city_treasure"
 */
 
+ 
+#Botania resource removals 
+ LootTables.getTable("botania:inject/stronghold_corridor").getPool("main").removeEntry("botania:manaResource"); 
+  
+ LootTables.getTable("botania:inject/simple_dungeon").getPool("main").removeEntry("botania:manaResource"); 
+ 
+#enderio removals 
+ LootTables.getTable("minecraft:chests/simple_dungeon").removePool("Ender IO"); 
+ 
+ 
+
+/*
 #Botania resource removals
   LootTables.getTable("botania:inject/stronghold_corridor").getPool("main").removeEntry("botania:manaResource");
    LootTables.getTable("botania:inject/simple_dungeon").getPool("main").removeEntry("botania:manaResource");
@@ -61,3 +73,4 @@ import crafttweaker.item.IItemStack;
      LootTables.getTable("minecraft:chests/stronghold_crossing").getPool("main").removeEntry("<ic2c_extras:plutoniumtinydust>");
       LootTables.getTable("minecraft:chests/jungle_temple").getPool("main").removeEntry("<ic2c_extras:plutoniumtinydust>");
        LootTables.getTable("minecraft:chests/desert_pyramid").getPool("main").removeEntry("<ic2c_extras:plutoniumtinydust>");
+*/
