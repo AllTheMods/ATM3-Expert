@@ -15,8 +15,6 @@ val ironPlate = <thermalfoundation:material:32>;
 val ironGear = <ore:ingotTin>;
 val cobbleTwoTimes = <ore:compressed1xCobblestone>;
 
-#temp removed exchanging gadget
-recipes.remove(<buildinggadgets:exchangertool>);
 
 #scannables mod recipe changes
 recipes.remove(<scannable:scanner>);

@@ -34,21 +34,30 @@ val AL = Astorage.length;
 */
 
 #building gadgets
- mods.recipestages.Recipes.setRecipeStageByMod("gadgets", "buildinggadgets");
-  recipes.remove(<buildinggadgets:destructiontool>);
-   mods.recipestages.Recipes.addShaped("gadgets", 
+mods.recipestages.Recipes.setRecipeStageByMod("gadgets", "buildinggadgets");
+
+recipes.remove(<buildinggadgets:destructiontool>);
+mods.recipestages.Recipes.addShaped("gadgets", 
     <buildinggadgets:destructiontool>, 
     [[<actuallyadditions:item_crystal:5>, <minecraft:ender_pearl>, <actuallyadditions:item_crystal:5>],
     [<minecraft:ender_pearl>, <thermalfoundation:material:640>, <minecraft:ender_pearl>], 
     [<actuallyadditions:item_crystal:5>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal:5>]]);
 
-  recipes.remove(<buildinggadgets:buildingtool>);
-   mods.recipestages.Recipes.addShaped("gadgets", 
+recipes.remove(<buildinggadgets:buildingtool>);
+mods.recipestages.Recipes.addShaped("gadgets", 
     <buildinggadgets:buildingtool>, 
     [[<actuallyadditions:item_crystal:5>, <minecraft:gold_ingot>, <actuallyadditions:item_crystal:5>],
     [<actuallyadditions:item_crystal_empowered:1>, <thermalfoundation:material:640>, <actuallyadditions:item_crystal_empowered:1>], 
     [<actuallyadditions:item_crystal:5>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal:5>]]);
 
+recipes.remove(<buildinggadgets:exchangertool>);
+mods.recipestages.Recipes.addShaped("gadgets",
+		<buildinggadgets:exchangertool>,
+		[[<actuallyadditions:item_crystal:5>, <minecraft:gold_ingot>, <actuallyadditions:item_crystal:5>],
+		[<actuallyadditions:item_crystal_empowered:2>, <thermalfoundation:material:640>, <actuallyadditions:item_crystal_empowered:2>], 
+		[<actuallyadditions:item_crystal:5>, <actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal:5>]]);
+
+	
 /*
   Start of tier 3
   Game Stages
