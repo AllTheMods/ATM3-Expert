@@ -11,6 +11,10 @@ import crafttweaker.game.IGame;
 import mods.jei.JEI.removeAndHide as removal;
 import mods.botania.ManaInfusion;
 
+#enriched iron to TE steel blend rather than Mek steel dust
+mods.mekanism.infuser.removeRecipe(<mekanism:otherdust:1>);
+mods.mekanism.infuser.addRecipe("CARBON", 40, <mekanism:enrichediron>, <thermalfoundation:material:96>);
+
 #Basic tank
 recipes.remove(<mekanism:machineblock2:11>);
 recipes.addShaped(<mekanism:machineblock2:11>,
