@@ -112,7 +112,7 @@ val EC = Econtrol.length;
  recipes.remove(<randomthings:timeinabottle>);
   mods.recipestages.Recipes.addShaped("bottledtime", <randomthings:timeinabottle>, 
    [[<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered:3>],
-   [<thermalfoundation:storage_alloy>, <minecraft:clock>, <thermalfoundation:storage_alloy>],
+   [<ore:blockSteel>, <minecraft:clock>, <ore:blockSteel>],
    [<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_crystal_empowered:4>]]);
    
 /*
