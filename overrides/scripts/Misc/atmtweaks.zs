@@ -11,7 +11,8 @@ import crafttweaker.game.IGame;
 import mods.jei.JEI.removeAndHide;
 import mods.forestry.ThermionicFabricator;
 
-val atmStarReturnOrb = <atmtweaks:item_material:0>.transformReplace(<atmtweaks:item_material:5>);
+#val atmStarReturnOrb = <atmtweaks:item_material:0>.transformReplace(<atmtweaks:item_material:5>);
+val atmStarReturnOrb = <atmtweaks:item_material:0>.transformReplace(<atmtweaks:item_material:0>);
 val mekCube = <mekanism:energycube>.withTag({tier: 3, mekData: {energyStored: 1.28E8}});
 val fullTablet = <botania:manatablet>.withTag({mana: 500000});
 val creativeTablet = <botania:manatablet>.withTag({mana: 500000, creative: 1 as byte});
@@ -36,7 +37,16 @@ mods.forestry.ThermionicFabricator.addCast(<atmtweaks:item_material:2> *3,
 <liquid: glass> * 1000);
 
 #forged industrium ingot
-mods.extendedcrafting.TableCrafting.addShapeless(0, <atmtweaks:item_material:3>, [<ore:ingotOsgloglas>, <ore:ingotKnightslime>, <ore:ingotManyullyn>, <ore:ingotEnderium>, <ore:ingotLumium>, <ore:ingotSignalum>, <ore:ingotConstantan>, <atmtweaks:item_material:2>, <ore:ingotInvar>, <ore:ingotManasteel>, <ore:ingotAlubrass>, <contenttweaker:quartzingot>, <ore:ingotLithium>, <ore:ingotTerrasteel>, <ore:ingotVibrantAlloy>, <ore:ingotDarkSteel>, <ore:ingotGold>, <ore:ingotElvenElementium>, <ore:gaiaIngot>, <ore:ingotTitaniumAluminide>, <ore:ingotSiliconCarbide>, <ore:ingotEnrichedUranium>, <ore:ingotDraconiumAwakened>, <ore:ingotSoularium>, <ore:ingotPulsatingIron>, <ore:ingotManganeseOxide>, <ore:ingotTitanium>, <ore:ingotEndSteel>, <ore:itemSilicon>, <ore:ingotManganeseDioxide>, <contenttweaker:coldironingot>, <ore:ingotPigiron>, <ore:ingotConductiveIron>, <ore:ingotRedstoneAlloy>, <ore:ingotAlumite>, <ore:ingotTitaniumIridium>, <ore:ingotAstralStarmetal>, <ore:ingotRefinedGlowstone>, <ore:ingotHSLASteel>, <ore:ingotOsmiridium>, <ore:ingotIron>, <ore:ingotEnergeticAlloy>, <ore:ballRedstoneAlloy>, <ore:ballConstructionAlloy>, <ore:ballEndSteel>, <ore:ballSoularium>, <ore:ballEnergeticAlloy>, <ore:itemGrindingBallSignalum>, <ore:itemGrindingBallEnderium>, <contenttweaker:corruptedstarmetal>, <ore:ballPulsatingIron>, <ore:ballElectricalSteel>, <ore:ballVibrantAlloy>, <ore:ballDarkSteel>, <ore:ballConductiveIron>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <draconicevolution:chaos_shard>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:itemGrindingBallLumium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered:4>, <actuallyadditions:item_crystal_empowered:2>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_crystal_empowered:4>, <actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>]);
+mods.extendedcrafting.TableCrafting.addShapeless(0, <atmtweaks:item_material:3>, 
+	[<ore:ingotOsgloglas>, <ore:ingotKnightslime>, <ore:ingotManyullyn>, <ore:ingotEnderium>, <ore:ingotLumium>, <ore:ingotSignalum>, <ore:ingotConstantan>, <atmtweaks:item_material:2>, <ore:ingotInvar>, 
+	<ore:ingotManasteel>, <ore:ingotAlubrass>, <contenttweaker:quartzingot>, <ore:ingotLithium>, <ore:ingotTerrasteel>, <ore:ingotVibrantAlloy>, <ore:ingotDarkSteel>, <ore:ingotGold>, <ore:ingotElvenElementium>, 
+	<ore:gaiaIngot>, <ore:ingotTitaniumAluminide>, <ore:ingotSiliconCarbide>, <ore:ingotEnrichedUranium>, <ore:ingotDraconiumAwakened>, <ore:ingotSoularium>, <ore:ingotPulsatingIron>, <ore:ingotManganeseOxide>, <ore:ingotTitanium>, 
+	<ore:ingotEndSteel>, <ore:itemSilicon>, <ore:ingotManganeseDioxide>, <contenttweaker:coldironingot>, <ore:ingotPigiron>, <ore:ingotConductiveIron>, <ore:ingotRedstoneAlloy>, <ore:ingotAlumite>, <ore:ingotTitaniumIridium>, 
+	<ore:ingotAstralStarmetal>, <ore:ingotRefinedGlowstone>, <ore:ingotHSLASteel>, <ore:ingotOsmiridium>, <ore:ingotIron>, <ore:ingotEnergeticAlloy>, <ore:ballRedstoneAlloy>, <ore:ballConstructionAlloy>, <ore:ballEndSteel>,
+	<ore:ballSoularium>, <ore:ballEnergeticAlloy>, <ore:itemGrindingBallSignalum>, <ore:itemGrindingBallEnderium>, <contenttweaker:corruptedstarmetal>, <ore:ballPulsatingIron>, <ore:ballElectricalSteel>, <ore:ballVibrantAlloy>, <ore:ballDarkSteel>,
+	<ore:ballConductiveIron>, <ore:gemDilithium>, <ore:gemDilithium>, <ore:gemDilithium>, <draconicevolution:chaos_shard>, <ore:gemDilithium>, <ore:gemDilithium>, <ore:gemDilithium>, <ore:itemGrindingBallLumium>, 
+	<ore:gemDilithium>, <ore:gemDilithium>, <ore:gemDilithium>, <actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered:4>, <actuallyadditions:item_crystal_empowered:2>, <ore:gemDilithium>, <ore:gemDilithium>, <ore:gemDilithium>, 
+	<actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_crystal_empowered:4>, <actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>]);
 
 #atmstar
 recipes.addShaped(<atmtweaks:item_material>, 
