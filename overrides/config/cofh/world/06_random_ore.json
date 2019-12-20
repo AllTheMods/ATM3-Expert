@@ -55,6 +55,22 @@
 			"biome": "all",
 			"retrogen": false,
 			"dimension": "all"
+		},
+		
+		"sky_stone": {
+			"distribution": "cave",
+			"generator": {
+				"block": {
+					"name": "appliedenergistics2:sky_stone_block"
+				},
+				"material": "atum:limestone",
+				"cluster-size": 33,
+			},
+			"cluster-count": 10,
+			"ground-level": 48,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": "all"
 		}
 	}
 }
