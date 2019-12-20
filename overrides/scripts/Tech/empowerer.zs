@@ -15,7 +15,25 @@ print("Actually additions empowerer changes");
 
 #machine casing
 recipes.remove(<teslacorelib:machine_case>);
-mods.actuallyadditions.Empowerer.addRecipe(<teslacorelib:machine_case>, <actuallyadditions:block_crystal>, <actuallyadditions:item_crystal:5>, <contenttweaker:quartzplate>, <actuallyadditions:item_crystal:5>, <contenttweaker:quartzplate>, 12500, 400);
+mods.actuallyadditions.Empowerer.addRecipe(<teslacorelib:machine_case>, <actuallyadditions:block_crystal>,
+	<actuallyadditions:item_crystal:5>, <contenttweaker:quartzplate>, <actuallyadditions:item_crystal:5>, <contenttweaker:quartzplate>,
+	12500, 400, [0.5, 0.3, 0.2]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<teslacorelib:machine_case>, 12500 * 4, 400, <actuallyadditions:block_crystal>, 
+	[<actuallyadditions:item_crystal:5>, <contenttweaker:quartzplate>, <actuallyadditions:item_crystal:5>, <contenttweaker:quartzplate>]);
+
+#ae2 presses
+mods.actuallyadditions.Empowerer.addRecipe(<appliedenergistics2:material:13>, <minecraft:iron_block>,
+	<appliedenergistics2:quartz_block>, <thermalfoundation:material:160>, <appliedenergistics2:material:45>, <appliedenergistics2:fluix_block>,
+	50000, 600, [0.5, 0.3, 0.2]);
+mods.actuallyadditions.Empowerer.addRecipe(<appliedenergistics2:material:14>, <minecraft:iron_block>,
+	<minecraft:diamond_block>, <thermalfoundation:material:160>, <appliedenergistics2:material:45>, <appliedenergistics2:fluix_block>,
+	50000, 600, [0.5, 0.3, 0.2]);
+mods.actuallyadditions.Empowerer.addRecipe(<appliedenergistics2:material:15>, <minecraft:iron_block>,
+	<minecraft:gold_block>, <thermalfoundation:material:160>, <appliedenergistics2:material:45>, <appliedenergistics2:fluix_block>,
+	50000, 600, [0.5, 0.3, 0.2]);
+mods.actuallyadditions.Empowerer.addRecipe(<appliedenergistics2:material:19>, <minecraft:iron_block>,
+	<appliedenergistics2:material:5>, <thermalfoundation:material:160>, <appliedenergistics2:material:45>, <appliedenergistics2:fluix_block>,
+	50000, 600, [0.5, 0.3, 0.2]);
 
 #remove
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:*>);
