@@ -12,6 +12,10 @@ import mods.jei.JEI.removeAndHide;
 
 print("xu2 changes");
 
+#climograph base block
+recipes.remove(<extrautils2:terraformer:9>);
+recipes.addShaped(<extrautils2:terraformer:9>, [[<minecraft:iron_ingot>, <minecraft:diamond>, <minecraft:iron_ingot>], [<ore:treeSapling>, <ore:blockSteel>, <ore:treeSapling>], [<minecraft:iron_ingot>, <minecraft:diamond>, <minecraft:iron_ingot>]]);
+
 #drums
 recipes.remove(<extrautils2:drum:1>);
 recipes.remove(<extrautils2:drum>);
