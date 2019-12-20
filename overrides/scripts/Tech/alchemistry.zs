@@ -31,7 +31,7 @@ mods.alchemistry.Dissolver.addRecipe(<immersivepetroleum:material>, true, 1,
 [[8, strontium *8]]);
 
 mods.alchemistry.Dissolver.addRecipe(<botania:manaresource:4>, true, 1,
-[[100, strontium *12], [100, fermium *12]]);
+[[1, strontium *12], [3, fermium *12]]);
 
 mods.alchemistry.Dissolver.addRecipe(<appliedenergistics2:material>, true, 1,
 [ [55, mercury *12], [95, thorium *16]]);
