@@ -5,6 +5,7 @@
 <ore:blockCrystalEmpoweredEmeradic>.add(<actuallyadditions:block_crystal_empowered:4>);
 <ore:blockCrystalEmpoweredEnori>.add(<actuallyadditions:block_crystal_empowered:5>);
 <ore:blockQuartzBlack>.add(<actuallyadditions:block_misc:2>);
+<ore:blockQuartzEthetic>.add(<actuallyadditions:block_testifi_bucks_white_wall>);
 <ore:blockGlassHardenedCopper>.add(<thermalfoundation:glass:0>);
 <ore:blockGlassHardenedTin>.add(<thermalfoundation:glass:1>);
 <ore:blockGlassHardenedSilver>.add(<thermalfoundation:glass:2>);

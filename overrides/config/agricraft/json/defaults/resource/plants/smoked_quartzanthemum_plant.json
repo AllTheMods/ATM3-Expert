@@ -64,14 +64,14 @@
     "render_type": "hash",
     "seed_texture": "agricraft:items/seed_plombean",
     "plant_textures": [
-      "resources/crops/crop_black1",
-      "resources/crops/crop_black1",
-      "resources/crops/crop_black1",
-      "resources/crops/crop_black2",
-      "resources/crops/crop_black2",
-      "resources/crops/crop_black3",
-      "resources/crops/crop_black3",
-      "resources/crops/crop_black4"
+      "agricraft_crops:crop_black1",
+      "agricraft_crops:crop_black1",
+      "agricraft_crops:crop_black1",
+      "agricraft_crops:crop_black2",
+      "agricraft_crops:crop_black2",
+      "agricraft_crops:crop_black3",
+      "agricraft_crops:crop_black3",
+      "agricraft_crops:crop_black4"
     ]
   }
 }
