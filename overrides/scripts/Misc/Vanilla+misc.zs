@@ -227,70 +227,8 @@ function(out, ins, cInfo){
 	return out.withTag(ins.nbt.tag);
 },
 null);
-recipes.remove(<computercraft:turtle_advanced>.withTag({rightUpgrade: "minecraft:diamond_pickaxe"}));
-recipes.remove(<computercraft:turtle_expanded>.withTag({rightUpgrade: "minecraft:diamond_pickaxe"}));
-recipes.remove(<computercraft:turtle_advanced>.withTag({leftUpgrade: "minecraft:diamond_pickaxe"}));
-recipes.remove(<computercraft:turtle_expanded>.withTag({leftUpgrade: "minecraft:diamond_pickaxe"}));
-recipes.addShaped("mining_turtle_advanced_right", <computercraft:turtle_advanced>.withTag({rightUpgrade: "minecraft:diamond_pickaxe"}), [
-[<thaumcraft:elemental_pick>, <computercraft:turtle_advanced>.marked("nbt")]
-],
-function(out, ins, cInfo){
-	if (!(ins.nbt.tag has "rightUpgrade")){
-		val tagMap = ins.nbt.tag + {
-					  rightUpgrade: "minecraft:diamond_pickaxe"
-					 } as IData;
-		return out.withTag(tagMap);
-	} else {
-	 	return null;
-	}
-	
-},
-null);
-recipes.addShaped("mining_turtle_right", <computercraft:turtle_expanded>.withTag({rightUpgrade: "minecraft:diamond_pickaxe"}), [
-[<thaumcraft:elemental_pick>, regularTurtle.marked("nbt")]
-],
-function(out, ins, cInfo){
-	if (!(ins.nbt.tag has "rightUpgrade")){
-		val tagMap = ins.nbt.tag + {
-					  rightUpgrade: "minecraft:diamond_pickaxe"
-					 } as IData;
-		return out.withTag(tagMap);
-	} else {
-	 	return null;
-	}
-	
-},
-null);
-recipes.addShaped("mining_turtle_advanced_left",<computercraft:turtle_advanced>.withTag({leftUpgrade: "minecraft:diamond_pickaxe"}), [
-[<computercraft:turtle_advanced>.marked("nbt"), <thaumcraft:elemental_pick>]
-],
-function(out, ins, cInfo){
-	if (!(ins.nbt.tag has "leftUpgrade")){
-		val tagMap = ins.nbt.tag + {
-					  leftUpgrade: "minecraft:diamond_pickaxe"
-					 } as IData;
-		return out.withTag(tagMap);
-	} else {
-	 	return null;
-	}
-	
-},
-null);
-recipes.addShaped("mining_turtle_left",<computercraft:turtle_expanded>.withTag({leftUpgrade: "minecraft:diamond_pickaxe"}), [
-[regularTurtle.marked("nbt"), <thaumcraft:elemental_pick>]
-],
-function(out, ins, cInfo){
-	if (!(ins.nbt.tag has "leftUpgrade")){
-		val tagMap = ins.nbt.tag + {
-					  leftUpgrade: "minecraft:diamond_pickaxe"
-					 } as IData;
-		return out.withTag(tagMap);
-	} else {
-	 	return null;
-	}
-	
-},
-null);
+dan200.computercraft.turtle.removeUpgrade(<minecraft:diamond_pickaxe>);
+dan200.computercraft.turtle.addTool("minecraft:diamond_pickaxe", <thaumcraft:elemental_pick>, <minecraft:diamond_pickaxe>);
 
 #xnet changes 
 
