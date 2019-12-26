@@ -213,7 +213,7 @@ function(out, ins, cInfo){
 },
 null);
 recipes.removeByRecipeName("computercraft:advanced_turtle");
-recipes.addShaped("advanced_turtle", <computercraft:turtle_advanced>, [[<ore:ingotGold>, <actuallyadditions:block_crystal_empowered:5>, <ore:ingotGold>], [<ore:ingotGold>, <computercraft:computer:16384>.marked("nbt"), <ore:ingotGold>], [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]]
+recipes.addShaped("advanced_turtle", <computercraft:turtle_advanced>, [[<ore:ingotGold>, <actuallyadditions:block_crystal_empowered:5>, <ore:ingotGold>], [<ore:ingotGold>, <computercraft:computer:16384>.marked("nbt"), <ore:ingotGold>], [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]],
 function(out, ins, cInfo){
 	return out.withTag(ins.nbt.tag);
 },
