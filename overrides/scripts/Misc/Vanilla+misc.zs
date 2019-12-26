@@ -229,6 +229,7 @@ function(out, ins, cInfo){
 null);
 dan200.computercraft.turtle.removeUpgrade(<minecraft:diamond_pickaxe>);
 dan200.computercraft.turtle.addTool("minecraft:diamond_pickaxe", <thaumcraft:elemental_pick>, <minecraft:diamond_pickaxe>);
+recipes.addShapeless("thaum_pickaxe_enchant_clear", <thaumcraft:elemental_pick>, [<thaumcraft:elemental_pick>]);
 
 #xnet changes 
 
