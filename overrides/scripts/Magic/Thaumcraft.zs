@@ -200,7 +200,7 @@ recipes.remove(<thaumcraft:baubles:*>);
 				[ordoAspect *2, ignisAspect *2],
 		 		<thaumcraft:baubles:1>, 
 				[[null, <ore:plateGold>, <ore:clusterCopper>],
-				[<ore:goldPlate>, null, <ore:plateGold>],
+				[<ore:plateGold>, null, <ore:plateGold>],
 				[null, <ore:plateGold>, null]]
 			);
 		#mundane Belt
