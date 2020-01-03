@@ -9,6 +9,7 @@ import crafttweaker.block.IBlockDefinition;
 import crafttweaker.block.IBlock;
 import crafttweaker.game.IGame;
 import mods.jei.JEI.removeAndHide;
+import mods.advancedrocketry.PrecisionAssembler;
 
 #will be sorted later
 recipes.remove(<libvulpes:holoprojector>);
@@ -34,3 +35,14 @@ recipes.addShaped(<advancedrocketry:itemcircuitplate>, [[<minecraft:redstone>, <
 recipes.addShaped(<advancedrocketry:itemupgrade>, [[<minecraft:redstone>, <minecraft:redstone_torch>, <minecraft:redstone>],[<advancedrocketry:ic:3>, <ic2:itemmisc:202>, <advancedrocketry:ic>], [<minecraft:redstone>, <minecraft:redstone_torch>, <minecraft:redstone>]]);
 recipes.addShaped(<advancedrocketry:ic:1>, [[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],[<minecraft:ender_eye>, <ic2:itemmisc:202>, <advancedrocketry:itemcircuitplate>], [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]]);
 recipes.addShaped(<thermalexpansion:augment:576>, [[<minecraft:redstone>, <minecraft:glass>, <minecraft:redstone>],[<minecraft:glass>, <extrautils2:drum>, <minecraft:glass>], [<minecraft:redstone>, <thermalfoundation:material:256>, <minecraft:redstone>]]);
+
+mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:3>);
+mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:3>);
+mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:4>);
+mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:4>);
+mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:5>);
+mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:ic:5>);
+mods.advancedrocketry.PrecisionAssembler.addRecipe(<advancedrocketry:ic:3>*1, 200, 10, <thermalfoundation:material:352>*1, <thermalfoundation:material:320>*1, <minecraft:redstone>*1);
+mods.advancedrocketry.PrecisionAssembler.addRecipe(<advancedrocketry:ic:4>*1, 200, 10, <thermalfoundation:material:352>*1, <thermalfoundation:material:33>*1, <minecraft:redstone>*1);
+mods.advancedrocketry.PrecisionAssembler.addRecipe(<advancedrocketry:ic:5>*1, 200, 10, <thermalfoundation:material:352>*1, <minecraft:dye:4>*1, <minecraft:redstone>*1);
+#output, ticks, rf/t, inputs
