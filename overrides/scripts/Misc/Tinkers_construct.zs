@@ -16,6 +16,9 @@ import mods.immersiveengineering.ArcFurnace;
 
 print("Tinkers changes start here");
 
+#remove efln
+recipes.remove(<tconstruct:throwball:1>);
+
 val searedStone = <ore:blockSeared>;
 val tin = <thermalfoundation:material:129>;
 val porcelainBrick = <ceramics:unfired_clay:5>;
