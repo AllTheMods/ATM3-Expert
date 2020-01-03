@@ -14,7 +14,7 @@ import mods.forestry.ThermionicFabricator; # mods.forestry.ThermionicFabricator.
 print("AE2 recipe changes");
 
 #elementium processor in circuit etcher
-mods.threng.Etcher.addRecipe(<contenttweaker:elementiumprint>, <botania:manaresource:7>);
+mods.threng.Etcher.addRecipe(<contenttweaker:elementiumprocessor>, <botania:manaresource:7>);
 
 #certus gen from end ores
 furnace.addRecipe(<appliedenergistics2:material:1> * 2, <netherendingores:ore_end_modded_1:10>, 0.0);
@@ -32,10 +32,10 @@ mods.appliedenergistics2.Inscriber.addRecipe(<contenttweaker:elementiumprint>, <
 
 #quartz glass
 recipes.remove(<appliedenergistics2:quartz_glass>);
-mods.forestry.ThermionicFabricator.addCast(<appliedenergistics2:quartz_glass> *3, 
- [[<botania:quartz:6>, <botania:managlass>, <botania:quartz:1>], 
+mods.forestry.ThermionicFabricator.addCast(<appliedenergistics2:quartz_glass> *3,
+ [[<botania:quartz:6>, <botania:managlass>, <botania:quartz:1>],
  [<botania:managlass>, <thermalfoundation:glass_alloy>, <botania:managlass>],
- [<botania:quartz:1>, <botania:managlass>, <botania:quartz:6>]], 
+ [<botania:quartz:1>, <botania:managlass>, <botania:quartz:6>]],
  <liquid: glass> * 250);
 
 #energy acceptor
@@ -44,7 +44,7 @@ recipes.addShaped("CTaeenergyinput", <appliedenergistics2:energy_acceptor>, [[<c
 
 #me controller
 recipes.remove(<appliedenergistics2:controller>);
-recipes.addShaped("CTmecontroller", <appliedenergistics2:controller>, 
+recipes.addShaped("CTmecontroller", <appliedenergistics2:controller>,
  [[<contenttweaker:elementiumprocessor>, <ore:ingotPlutonium>, <contenttweaker:elementiumprocessor>],
  [<appliedenergistics2:material:12>, <actuallyadditions:block_crystal_empowered:5>, <appliedenergistics2:material:12>],
  [<contenttweaker:elementiumprocessor>, <ore:ingotPlutonium>, <contenttweaker:elementiumprocessor>]]);
@@ -57,9 +57,9 @@ recipes.addShaped("CTae2inscriber", <appliedenergistics2:inscriber>, [[<thermalf
 recipes.remove(<appliedenergistics2:drive>);
 recipes.addShaped("CTae2drive", <appliedenergistics2:drive>, [[<thermalfoundation:material:160>, <ore:stickSteel>, <thermalfoundation:material:160>],[<contenttweaker:quartzingot>, <rftools:modular_storage>, <contenttweaker:quartzingot>], [<thermalfoundation:material:160>, <ore:stickSteel>, <thermalfoundation:material:160>]]);
 
-#crafting unit 
+#crafting unit
 recipes.remove(<appliedenergistics2:crafting_unit>);
-recipes.addShapedMirrored(<appliedenergistics2:crafting_unit>, 
+recipes.addShapedMirrored(<appliedenergistics2:crafting_unit>,
  [[<appliedenergistics2:material:7>, <thermalfoundation:material:160>, <appliedenergistics2:material:7>],
  [<contenttweaker:quartzplate>, <contenttweaker:elementiumprocessor>, <contenttweaker:quartzplate>],
  [<appliedenergistics2:material:7>, <thermalfoundation:material:160>, <appliedenergistics2:material:7>]]);
@@ -85,15 +85,15 @@ recipes.remove(<appliedenergistics2:material:9>);
 recipes.addShaped("CTfluixpearl", <appliedenergistics2:material:9>, [[null, <appliedenergistics2:material:12>, null],[<appliedenergistics2:material:12>, <rftools:infused_enderpearl>, <appliedenergistics2:material:12>], [null, <appliedenergistics2:material:12>, null]]);
 
 #quartz glass
-mods.forestry.ThermionicFabricator.addCast(<appliedenergistics2:quartz_glass> *2, 
+mods.forestry.ThermionicFabricator.addCast(<appliedenergistics2:quartz_glass> *2,
 [[null, <ore:dustQuartz>, null],
 [<ore:dustQuartz>, <botania:managlass>, <ore:dustQuartz>],
-[null, <ore:dustQuartz>, null]], 
+[null, <ore:dustQuartz>, null]],
 <liquid: glass> * 100);
 
 #pattern terminal
 recipes.remove(<appliedenergistics2:part:340>);
-recipes.addShapeless("Ctpatternterminal", <appliedenergistics2:part:340>, 
+recipes.addShapeless("Ctpatternterminal", <appliedenergistics2:part:340>,
 [<appliedenergistics2:part:360>,<contenttweaker:elementiumprocessor>]);
 
 #ae2 tool removal
