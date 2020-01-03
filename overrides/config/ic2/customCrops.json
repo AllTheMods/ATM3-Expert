@@ -356,6 +356,74 @@
       ]
     },
     {
+      "name": "Smoked Quartzanthemum",
+      "owner": "resource",
+      "id": "smoked_quartzanthemum",
+      "discovered": "Oly2o6",
+      "dropchance": 0.386890469,
+      "optimalstage": 4,
+      "totalstages": 4,
+      "attributes": ["Black", "Leaves", "Metal", "Gem"],
+      "props":
+      {
+        "tier": 6,
+        "chemistry": 2,
+        "consumable": 0,
+        "defensive": 0,
+        "colorful": 1,
+        "weed": 0
+      },
+      "display":
+      {
+        "name": "actuallyadditions:item_misc",
+        "meta": 5
+      },
+      "defaultStage":
+      {
+        "points": 600,
+        "redstoneStrength": 0,
+        "resetStage": 2,
+        "lightLevel": 0
+      },
+      "stages":
+      [
+        {
+          "index": 1,
+          "parentIndex": -1,
+          "textures": ["ic2c_crop_overrides:crop_metal_stage_1"]
+        },
+        {
+          "index": 2,
+          "textures": ["ic2c_crop_overrides:crop_metal_stage_2"]
+        },
+        {
+          "index": 3,
+          "textures": ["ic2c_crop_overrides:crop_metal_stage_3"],
+          "points": 1800,
+          "requirements":
+          {
+            "block":
+            [
+              {
+                "ore": true,
+                "name": "blockQuartzBlack"
+              }
+            ]
+          }
+        },
+        {
+          "index": 4,
+          "textures": ["ic2c_crop_overrides:crop_smoked_quartzanthemum"],
+          "drop":
+          {
+            "name": "actuallyadditions:item_misc",
+            "count": 1,
+            "meta": 5
+          }
+        }
+      ]
+    },
+    {
       "name": "Quartzanthemum",
       "owner": "resource",
       "id": "quartzanthemum",
@@ -405,7 +473,7 @@
             [
               {
                 "ore": true,
-                "name": "blockQuartzBlack"
+                "name": "blockQuartzEthetic"
               }
             ]
           }
