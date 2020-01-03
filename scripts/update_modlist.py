@@ -43,6 +43,8 @@ def main():
             f.write("<li>")
             f.write("<a href='{}'>".format(mod["websiteUrl"]))
             f.write(mod["name"])
+            authors = [a["name"] for a in mod["authors"]]
+            f.write(" (by {})".format(", ".join(authors)))
             f.write("</a>")
             f.write("</li>\n")
         f.write("</ul>\n")
