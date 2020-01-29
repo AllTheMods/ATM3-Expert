@@ -252,3 +252,89 @@ recipes.addShaped("CtPyroLoop",<thermalexpansion:augment:352>,
  [<forestry:bee_drone_ge>.withTag({MaxH: 70, Mate: {Chromosomes: [{UID1: "magicbees.speciesTEPyro", UID0: "magicbees.speciesTEPyro", Slot: 0 as byte}, {UID1: "", UID0: "", Slot: 1 as byte}, {UID1: "", UID0: "", Slot: 2 as byte}, {UID1: "", UID0: "", Slot: 3 as byte}, {UID1: "", UID0: "", Slot: 4 as byte}, {UID1: "", UID0: "", Slot: 5 as byte}, {UID1: "", UID0: "", Slot: 6 as byte}, {UID1: "", UID0: "", Slot: 7 as byte}, {UID1: "", UID0: "", Slot: 8 as byte}, {UID1: "", UID0: "", Slot: 9 as byte}, {UID1: "", UID0: "", Slot: 10 as byte}, {UID1: "", UID0: "", Slot: 11 as byte}, {UID1: "", UID0: "", Slot: 12 as byte}]}, Health: 70, IsAnalyzed: 0 as byte, Genome: {Chromosomes: [{UID1: "magicbees.speciesTEPyro", UID0: "magicbees.speciesTEPyro", Slot: 0 as byte}, {UID1: "", UID0: "", Slot: 1 as byte}, {UID1: "", UID0: "", Slot: 2 as byte}, {UID1: "", UID0: "", Slot: 3 as byte}, {UID1: "", UID0: "", Slot: 4 as byte}, {UID1: "", UID0: "", Slot: 5 as byte}, {UID1: "", UID0: "", Slot: 6 as byte}, {UID1: "", UID0: "", Slot: 7 as byte}, {UID1: "", UID0: "", Slot: 8 as byte}, {UID1: "", UID0: "", Slot: 9 as byte}, {UID1: "", UID0: "", Slot: 10 as byte}, {UID1: "", UID0: "", Slot: 11 as byte}, {UID1: "", UID0: "", Slot: 12 as byte}]}}),<thermalfoundation:material:515>,<forestry:bee_drone_ge>.withTag({MaxH: 70, Mate: {Chromosomes: [{UID1: "magicbees.speciesTEPyro", UID0: "magicbees.speciesTEPyro", Slot: 0 as byte}, {UID1: "", UID0: "", Slot: 1 as byte}, {UID1: "", UID0: "", Slot: 2 as byte}, {UID1: "", UID0: "", Slot: 3 as byte}, {UID1: "", UID0: "", Slot: 4 as byte}, {UID1: "", UID0: "", Slot: 5 as byte}, {UID1: "", UID0: "", Slot: 6 as byte}, {UID1: "", UID0: "", Slot: 7 as byte}, {UID1: "", UID0: "", Slot: 8 as byte}, {UID1: "", UID0: "", Slot: 9 as byte}, {UID1: "", UID0: "", Slot: 10 as byte}, {UID1: "", UID0: "", Slot: 11 as byte}, {UID1: "", UID0: "", Slot: 12 as byte}]}, Health: 70, IsAnalyzed: 0 as byte, Genome: {Chromosomes: [{UID1: "magicbees.speciesTEPyro", UID0: "magicbees.speciesTEPyro", Slot: 0 as byte}, {UID1: "", UID0: "", Slot: 1 as byte}, {UID1: "", UID0: "", Slot: 2 as byte}, {UID1: "", UID0: "", Slot: 3 as byte}, {UID1: "", UID0: "", Slot: 4 as byte}, {UID1: "", UID0: "", Slot: 5 as byte}, {UID1: "", UID0: "", Slot: 6 as byte}, {UID1: "", UID0: "", Slot: 7 as byte}, {UID1: "", UID0: "", Slot: 8 as byte}, {UID1: "", UID0: "", Slot: 9 as byte}, {UID1: "", UID0: "", Slot: 10 as byte}, {UID1: "", UID0: "", Slot: 11 as byte}, {UID1: "", UID0: "", Slot: 12 as byte}]}})],
  [null,<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "lava", Amount: 500000}, Level: 4 as byte, Lock: 0 as byte}),null]]);
 
+#Nether ore processing
+
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:1>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:2>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:3>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:4>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:5>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:6>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:7>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:8>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:11>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:12>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:14>);
+
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_vanilla>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_vanilla:1>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_vanilla:2>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_vanilla:3>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_vanilla:4>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_vanilla:5>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_vanilla:6>);
+
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:1>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:2>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:3>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:4>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:5>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:6>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:7>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:8>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:11>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:12>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:14>);
+
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_vanilla>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_vanilla:1>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_vanilla:2>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_vanilla:3>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_vanilla:4>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_vanilla:5>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_vanilla:6>);
+
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:4> * 2, <netherendingores:ore_nether_modded_1>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore> * 2, <netherendingores:ore_nether_modded_1:1>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:7> * 2, <netherendingores:ore_nether_modded_1:2>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:3> * 2, <netherendingores:ore_nether_modded_1:3>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:8> * 2, <netherendingores:ore_nether_modded_1:4>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:5> * 2, <netherendingores:ore_nether_modded_1:5>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:6> * 2, <netherendingores:ore_nether_modded_1:6>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:2> * 2, <netherendingores:ore_nether_modded_1:7>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:1> * 2, <netherendingores:ore_nether_modded_1:8>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<mekanism:oreblock> * 2, <netherendingores:ore_nether_modded_1:11>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<ic2:blockmetal:2> * 2, <netherendingores:ore_nether_modded_1:12>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<libvulpes:ore0> * 2, <netherendingores:ore_nether_modded_1:14>, 960);
+
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:coal_ore> * 2, <netherendingores:ore_nether_vanilla>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:diamond_ore> * 2, <netherendingores:ore_nether_vanilla:1>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:emerald_ore> * 2, <netherendingores:ore_nether_vanilla:2>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:gold_ore> * 2, <netherendingores:ore_nether_vanilla:3>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:iron_ore> * 2, <netherendingores:ore_nether_vanilla:4>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:lapis_ore> * 2, <netherendingores:ore_nether_vanilla:5>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:redstone_ore> * 2, <netherendingores:ore_nether_vanilla:6>, 960);
+
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:4> * 2, <netherendingores:ore_end_modded_1>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore> * 2, <netherendingores:ore_end_modded_1:1>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:7> * 2, <netherendingores:ore_end_modded_1:2>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:3> * 2, <netherendingores:ore_end_modded_1:3>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:8> * 2, <netherendingores:ore_end_modded_1:4>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:5> * 2, <netherendingores:ore_end_modded_1:5>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:6> * 2, <netherendingores:ore_end_modded_1:6>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:2> * 2, <netherendingores:ore_end_modded_1:7>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:1> * 2, <netherendingores:ore_end_modded_1:8>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<mekanism:oreblock> * 2, <netherendingores:ore_end_modded_1:11>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<ic2:blockmetal:2> * 2, <netherendingores:ore_end_modded_1:12>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<libvulpes:ore0> * 2, <netherendingores:ore_end_modded_1:14>, 960);
+
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:coal_ore> * 2, <netherendingores:ore_end_vanilla>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:diamond_ore> * 2, <netherendingores:ore_end_vanilla:1>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:emerald_ore> * 2, <netherendingores:ore_end_vanilla:2>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:gold_ore> * 2, <netherendingores:ore_end_vanilla:3>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:iron_ore> * 2, <netherendingores:ore_end_vanilla:4>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:lapis_ore> * 2, <netherendingores:ore_end_vanilla:5>, 960);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:redstone_ore> * 2, <netherendingores:ore_end_vanilla:6>, 960);
+
