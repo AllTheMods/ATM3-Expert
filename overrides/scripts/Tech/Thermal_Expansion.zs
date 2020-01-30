@@ -254,87 +254,53 @@ recipes.addShaped("CtPyroLoop",<thermalexpansion:augment:352>,
 
 #Nether ore processing
 
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:1>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:2>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:3>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:4>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:5>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:6>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:7>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:8>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:11>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:12>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_modded_1:14>);
 
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_vanilla>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_vanilla:1>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_vanilla:2>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_vanilla:3>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_vanilla:4>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_vanilla:5>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_nether_vanilla:6>);
+processNetherWithSmelting(<thermalfoundation:material:68>, <netherendingores:ore_nether_modded_1>, <netherendingores:ore_end_modded_1>, <thermalfoundation:ore:4>);
+processNetherWithSmelting(<thermalfoundation:material:64>, <netherendingores:ore_nether_modded_1:1>, <netherendingores:ore_end_modded_1:1>, <thermalfoundation:ore>);
+processNetherWithSmelting(<thermalfoundation:material:71>, <netherendingores:ore_nether_modded_1:2>, <netherendingores:ore_end_modded_1:2>, <thermalfoundation:ore:7>);
+processNetherWithSmelting(<thermalfoundation:material:67>, <netherendingores:ore_nether_modded_1:3>, <netherendingores:ore_end_modded_1:3>, <thermalfoundation:ore:3>);
+processNetherWithSmelting(<thermalfoundation:material:72>, <netherendingores:ore_nether_modded_1:4>, <netherendingores:ore_end_modded_1:4>, <thermalfoundation:ore:8>);
+processNetherWithSmelting(<thermalfoundation:material:69>, <netherendingores:ore_nether_modded_1:5>, <netherendingores:ore_end_modded_1:5>, <thermalfoundation:ore:5>);
+processNetherWithSmelting(<thermalfoundation:material:70>, <netherendingores:ore_nether_modded_1:6>, <netherendingores:ore_end_modded_1:6>, <thermalfoundation:ore:6>);
+processNetherWithSmelting(<thermalfoundation:material:66>, <netherendingores:ore_nether_modded_1:7>, <netherendingores:ore_end_modded_1:7>, <thermalfoundation:ore:2>);
+processNetherWithSmelting(<thermalfoundation:material:65>, <netherendingores:ore_nether_modded_1:8>, <netherendingores:ore_end_modded_1:8>, <thermalfoundation:ore:1>);
+processNether(<appliedenergistics2:material:2>, <netherendingores:ore_nether_modded_1:9>, <netherendingores:ore_end_modded_1:9>);
+processNether(<appliedenergistics2:material:2>, <netherendingores:ore_nether_modded_1:10>, <netherendingores:ore_end_modded_1:10>);
+processNetherWithSmelting(<mekanism:dust:2>, <netherendingores:ore_nether_modded_1:11>, <netherendingores:ore_end_modded_1:11>, <mekanism:oreblock>);
+processNetherWithSmelting(<immersiveengineering:metal:14>, <netherendingores:ore_nether_modded_1:12>, <netherendingores:ore_end_modded_1:12>, <ic2:blockmetal:2>);
+processNetherWithSmelting(<libvulpes:productgem>, <netherendingores:ore_nether_modded_1:14>, <netherendingores:ore_end_modded_1:14>, <libvulpes:ore0>);
+processNetherWithSmelting(<minecraft:coal>, <netherendingores:ore_nether_vanilla>, <netherendingores:ore_end_vanilla>, <minecraft:coal_ore>);
+processNetherWithSmelting(<minecraft:diamond>, <netherendingores:ore_nether_vanilla:1>, <netherendingores:ore_end_vanilla:1>, <minecraft:diamond_ore>);
+processNetherWithSmelting(<minecraft:emerald>, <netherendingores:ore_nether_vanilla:2>, <netherendingores:ore_end_vanilla:2>, <minecraft:emerald_ore>);
+processNetherWithSmelting(<thermalfoundation:material:1>, <netherendingores:ore_nether_vanilla:3>, <netherendingores:ore_end_vanilla:3>, <minecraft:gold_ore>);
+processNetherWithSmelting(<thermalfoundation:material>, <netherendingores:ore_nether_vanilla:4>, <netherendingores:ore_end_vanilla:4>, <minecraft:iron_ore>);
+processNetherWithAmount(<minecraft:dye:4>, <netherendingores:ore_nether_vanilla:5>, <netherendingores:ore_end_vanilla:5>, <minecraft:lapis_ore>, 20, true);
+processNetherWithAmount(<minecraft:redstone>, <netherendingores:ore_nether_vanilla:6>, <netherendingores:ore_end_vanilla:6>, <minecraft:redstone_ore>, 12, true);
 
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:1>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:2>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:3>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:4>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:5>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:6>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:7>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:8>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:11>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:12>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_modded_1:14>);
+function processNether(pOutput as IItemStack, nInput as IItemStack, eInput as IItemStack){
+	processNetherWithAmount(pOutput, nInput, eInput, pOutput, 4, false);
+}
 
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_vanilla>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_vanilla:1>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_vanilla:2>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_vanilla:3>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_vanilla:4>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_vanilla:5>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<netherendingores:ore_end_vanilla:6>);
+function processNetherWithSmelting(pOutput as IItemStack, nInput as IItemStack, eInput as IItemStack, rOutput as IItemStack){
+	processNetherWithAmount(pOutput, nInput, eInput, rOutput, 4, true);
+}
 
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:4> * 2, <netherendingores:ore_nether_modded_1>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore> * 2, <netherendingores:ore_nether_modded_1:1>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:7> * 2, <netherendingores:ore_nether_modded_1:2>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:3> * 2, <netherendingores:ore_nether_modded_1:3>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:8> * 2, <netherendingores:ore_nether_modded_1:4>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:5> * 2, <netherendingores:ore_nether_modded_1:5>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:6> * 2, <netherendingores:ore_nether_modded_1:6>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:2> * 2, <netherendingores:ore_nether_modded_1:7>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:1> * 2, <netherendingores:ore_nether_modded_1:8>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<mekanism:oreblock> * 2, <netherendingores:ore_nether_modded_1:11>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<ic2:blockmetal:2> * 2, <netherendingores:ore_nether_modded_1:12>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<libvulpes:ore0> * 2, <netherendingores:ore_nether_modded_1:14>, 960);
+function processNetherWithAmount(pOutput as IItemStack, nInput as IItemStack, eInput as IItemStack, rOutput as IItemStack, pAmount as int, smelt as bool){
+	print(smelt);
+	process(pOutput, nInput, rOutput, pAmount, <minecraft:netherrack>, smelt);
+	process(pOutput, eInput, rOutput, pAmount, <minecraft:end_stone>, smelt);
+}
 
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:coal_ore> * 2, <netherendingores:ore_nether_vanilla>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:diamond_ore> * 2, <netherendingores:ore_nether_vanilla:1>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:emerald_ore> * 2, <netherendingores:ore_nether_vanilla:2>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:gold_ore> * 2, <netherendingores:ore_nether_vanilla:3>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:iron_ore> * 2, <netherendingores:ore_nether_vanilla:4>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:lapis_ore> * 2, <netherendingores:ore_nether_vanilla:5>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:redstone_ore> * 2, <netherendingores:ore_nether_vanilla:6>, 960);
+function process(pOutput as IItemStack, input as IItemStack, rOutput as IItemStack, pAmount as int, byProduct as IItemStack, smelt as bool){
+	mods.thermalexpansion.Pulverizer.removeRecipe(input);
+	mods.thermalexpansion.Pulverizer.addRecipe(pOutput * pAmount, input, 1920, byProduct, 15);
+	if (smelt) {
+		mods.thermalexpansion.RedstoneFurnace.removeRecipe(input);
+		mods.thermalexpansion.RedstoneFurnace.addRecipe(rOutput * 2, input, 960);
+		mods.thermalexpansion.InductionSmelter.removeRecipe(input, <minecraft:sand>);
+		mods.thermalexpansion.InductionSmelter.removeRecipe(input, <thermalfoundation:material:865>);
+		mods.thermalexpansion.InductionSmelter.addRecipe(rOutput * 2, input, <minecraft:sand>, 1920, <thermalfoundation:material:865>, 10);
+		mods.thermalexpansion.InductionSmelter.addRecipe(rOutput * 3, input, <thermalfoundation:material:865>, 4320, <thermalfoundation:material:864>, 100);
+	}
 
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:4> * 2, <netherendingores:ore_end_modded_1>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore> * 2, <netherendingores:ore_end_modded_1:1>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:7> * 2, <netherendingores:ore_end_modded_1:2>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:3> * 2, <netherendingores:ore_end_modded_1:3>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:8> * 2, <netherendingores:ore_end_modded_1:4>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:5> * 2, <netherendingores:ore_end_modded_1:5>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:6> * 2, <netherendingores:ore_end_modded_1:6>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:2> * 2, <netherendingores:ore_end_modded_1:7>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<thermalfoundation:ore:1> * 2, <netherendingores:ore_end_modded_1:8>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<mekanism:oreblock> * 2, <netherendingores:ore_end_modded_1:11>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<ic2:blockmetal:2> * 2, <netherendingores:ore_end_modded_1:12>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<libvulpes:ore0> * 2, <netherendingores:ore_end_modded_1:14>, 960);
-
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:coal_ore> * 2, <netherendingores:ore_end_vanilla>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:diamond_ore> * 2, <netherendingores:ore_end_vanilla:1>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:emerald_ore> * 2, <netherendingores:ore_end_vanilla:2>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:gold_ore> * 2, <netherendingores:ore_end_vanilla:3>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:iron_ore> * 2, <netherendingores:ore_end_vanilla:4>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:lapis_ore> * 2, <netherendingores:ore_end_vanilla:5>, 960);
-mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:redstone_ore> * 2, <netherendingores:ore_end_vanilla:6>, 960);
-
+}
