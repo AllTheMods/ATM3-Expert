@@ -286,7 +286,6 @@ function processNetherWithSmelting(pOutput as IItemStack, nInput as IItemStack, 
 }
 
 function processNetherWithAmount(pOutput as IItemStack, nInput as IItemStack, eInput as IItemStack, rOutput as IItemStack, pAmount as int, smelt as bool){
-	print(smelt);
 	process(pOutput, nInput, rOutput, pAmount, <minecraft:netherrack>, smelt);
 	process(pOutput, eInput, rOutput, pAmount, <minecraft:end_stone>, smelt);
 }
