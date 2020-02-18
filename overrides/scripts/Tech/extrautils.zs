@@ -22,6 +22,12 @@ recipes.remove(<extrautils2:drum>);
 recipes.addShaped(<extrautils2:drum:1>, [[<contenttweaker:coldironingot>, <quark:obsidian_pressure_plate>, <contenttweaker:coldironingot>],[<contenttweaker:coldironingot>, <extrautils2:drum>, <contenttweaker:coldironingot>], [<contenttweaker:coldironingot>, <quark:obsidian_pressure_plate>, <contenttweaker:coldironingot>]]);
 recipes.addShaped(<extrautils2:drum>, [[<tconstruct:seared>, <minecraft:stone_pressure_plate>, <tconstruct:seared>],[<tconstruct:seared>, <xlfoodmod:bowl>, <tconstruct:seared>], [<tconstruct:seared>, <minecraft:stone_pressure_plate>, <tconstruct:seared>]]);
 
+#enchanter
+recipes.addShaped("enchanter", <extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}), 
+[[<contenttweaker:manasteelplate>, <ic2:itemmisc:452>, <contenttweaker:manasteelplate>],
+[<ore:bookshelf>, <ic2:blockmachinehv:4>, <ore:bookshelf>],
+[<contenttweaker:manasteelplate>, <actuallyadditions:item_crystal_empowered:4>, <contenttweaker:manasteelplate>]]);
+
 #crusher furnace and generators
 recipes.remove(<extrautils2:teleporter:1>);
 mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:furnace"}));
