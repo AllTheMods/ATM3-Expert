@@ -18,7 +18,7 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/
 null, <liquid:astralsorcery.liquidstarlight>, null,
 <astralsorcery:blockmarble:2>, <botania:rune:8>, <astralsorcery:blockmarble:2>]);
 
-#luminous altar 
+#luminous altar
 recipes.remove(<astralsorcery:blockaltar>);
 recipes.addShaped("CTlumincrafter", <astralsorcery:blockaltar>, [[<astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>],[<ore:relic>, <astralsorcery:blockmarble:4>, <ore:relic>], [<astralsorcery:blockmarble:4>, <ore:stoneMarble>, <astralsorcery:blockmarble:4>]]);
 
@@ -30,12 +30,12 @@ recipes.addShaped("CTSootyMarble", <astralsorcery:blockblackmarble> *4,
     [<ore:stoneMarble>, <ore:dustQuartzBlack>, <ore:stoneMarble>],
     [<ore:stoneMarble>,<ore:stoneMarble>,<ore:stoneMarble>]]);
 
-mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/marble_black_raw", <astralsorcery:blockblackmarble>, 10, 10, [
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/marble_black_raw", <astralsorcery:blockblackmarble> * 8, 10, 10, [
 	<ore:stoneMarble>, <ore:stoneMarble>, <ore:stoneMarble>,
 	<ore:stoneMarble>, <ore:dustQuartzBlack>, <ore:stoneMarble>,
 	<ore:stoneMarble>, <ore:stoneMarble>, <ore:stoneMarble>]);
 
-#Glass Lens 
+#Glass Lens
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/glasslens");
 mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/glasslens", <astralsorcery:itemcraftingcomponent:3>, 20, 20, [
 	null, <botania:managlasspane>, null,
@@ -81,7 +81,7 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/
 	<thaumcraft:plank_greatwood>, <ore:stoneMarble>, <thaumcraft:plank_greatwood>]);
 
 #Telescope
-mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/telescope");	
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/telescope");
 mods.astralsorcery.Altar.addAttunementAltarRecipe("astralsorcery:shaped/internal/altar/telescope", <astralsorcery:blockmachine>, 500, 300, [
             null, <astralsorcery:itemhandtelescope>, null,
             <ore:plateThaumium>, <thaumcraft:plank_greatwood>, <ore:plateThaumium>,
@@ -91,7 +91,7 @@ mods.astralsorcery.Altar.addAttunementAltarRecipe("astralsorcery:shaped/internal
 
 #Mantle of the Stars
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/capebase");
-mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/altar/capebase", <astralsorcery:itemcape>, 4500, 100, 
+mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/altar/capebase", <astralsorcery:itemcape>, 4500, 100,
 			[<astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>,
             <botania:manaresource:4>, <botania:elementiumchest>, <botania:manaresource:4>,
             <mekanism:ingot:1>, <mekanism:ingot:1>, <mekanism:ingot:1>,
@@ -107,7 +107,7 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/alta
 
 #Mantle Discidia
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/cape/att/discidia");
-mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/cape/att/discidia", <astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.discidia"}}), 4500, 100, 
+mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/cape/att/discidia", <astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.discidia"}}), 4500, 100,
 			[null, <thaumcraft:turret:1>, null,
             <astralsorcery:itemcraftingcomponent:1>, <astralsorcery:itemcape>, <astralsorcery:itemcraftingcomponent:1>,
             <astralsorcery:itemcraftingcomponent:1>, null, <astralsorcery:itemcraftingcomponent:1>,
@@ -135,7 +135,7 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/cape
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemcraftingcomponent:4>, <extrautils2:opinium:5>, <astralsorcery:itemcraftingcomponent:4>,  <extrautils2:opinium:5>],
-			"astralsorcery.constellation.armara");            
+			"astralsorcery.constellation.armara");
 
 #Mantle Vicio
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/cape/att/vicio");
@@ -151,8 +151,8 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/cape
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemcraftingcomponent:4>, <draconicevolution:wyvern_core>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:blockcelestialcollectorcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.vicio", collectorType: 1}})],
-			"astralsorcery.constellation.vicio");             
-            
+			"astralsorcery.constellation.vicio");
+
 #Mantle Aevitas
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/cape/att/aevitas");
 mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/cape/att/aevitas", <astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.aevitas"}}), 4500, 100, [
@@ -167,7 +167,7 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/cape
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemcraftingcomponent:4>, <botania:specialflower>.withTag({type: "gourmaryllis"}), <astralsorcery:itemcraftingcomponent:4>, <forestry:sapling>.withTag({IsAnalyzed: 0 as byte, Genome: {Chromosomes: [{UID1: "forestry.treeCocobolo", UID0: "forestry.treeCocobolo", Slot: 0 as byte}]}})],
-			"astralsorcery.constellation.aevitas");            
+			"astralsorcery.constellation.aevitas");
 
 #Mantle Evorsio
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/cape/att/evorsio");
@@ -183,8 +183,8 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/cape
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemcraftingcomponent:4>, <minecraft:tnt>, <astralsorcery:itemcraftingcomponent:4>, <minecraft:tnt>],
-			"astralsorcery.constellation.evorsio");  
-            
+			"astralsorcery.constellation.evorsio");
+
 #Mantle Lucerna
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/cape/att/lucerna");
 mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/cape/att/lucerna", <astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.lucerna"}}), 4500, 100, [
@@ -199,8 +199,8 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/cape
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemcraftingcomponent:4>, <enderio:item_material:15>, <astralsorcery:itemcraftingcomponent:4>, <enderio:item_material:15>],
-			"astralsorcery.constellation.lucerna");                 
- 
+			"astralsorcery.constellation.lucerna");
+
 #Mantle Mineralis
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/cape/att/mineralis");
 mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/cape/att/mineralis", <astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.mineralis"}}), 4500, 100, [
@@ -215,8 +215,8 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/cape
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemcraftingcomponent:4>, <actuallyadditions:block_misc:3>, <astralsorcery:itemcraftingcomponent:4>, <actuallyadditions:block_misc:3>],
-			"astralsorcery.constellation.mineralis");              
- 
+			"astralsorcery.constellation.mineralis");
+
 #Mantle Horologium
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/cape/att/horologium");
 mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/cape/att/horologium", <astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.horologium"}}), 4500, 100, [
@@ -231,8 +231,8 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/cape
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemcraftingcomponent:4>, <ic2:ic2upgrades:32>, null, <astralsorcery:itemcraftingcomponent:4>, <ic2:ic2upgrades:32>, null],
-			"astralsorcery.constellation.horologium");              
- 
+			"astralsorcery.constellation.horologium");
+
 #Mantle Octans
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/cape/att/octans");
 mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/cape/att/octans", <astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.octans"}}), 4500, 100, [
@@ -247,8 +247,8 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/cape
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemcraftingcomponent:4>, <minecraft:splash_potion>.withTag({Potion: "minecraft:long_water_breathing"}), <astralsorcery:itemcraftingcomponent:4>, <minecraft:splash_potion>.withTag({Potion: "minecraft:long_water_breathing"})],
-			"astralsorcery.constellation.octans");              
- 
+			"astralsorcery.constellation.octans");
+
 #Mantle Bootes
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/cape/att/bootes");
 mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/cape/att/bootes", <astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.bootes"}}), 4500, 100, [
@@ -263,7 +263,7 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/cape
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemcraftingcomponent:4>, null, null, <astralsorcery:itemcraftingcomponent:4>, null, null],
-			"astralsorcery.constellation.bootes");              
+			"astralsorcery.constellation.bootes");
 
 #Mantle Fornax
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/cape/att/fornax");
@@ -279,8 +279,8 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/cape
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemcraftingcomponent:4>, <enderio:item_soul_vial:1>.withTag({entityId: "minecraft:blaze"}), <astralsorcery:itemcraftingcomponent:4>, <enderio:item_soul_vial:1>.withTag({entityId: "minecraft:blaze"})],
-			"astralsorcery.constellation.fornax");        
-			
+			"astralsorcery.constellation.fornax");
+
 #Mantle Pelotrio
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/cape/att/pelotrio");
 mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/cape/att/pelotrio", <astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.pelotrio"}}), 4500, 100, [
@@ -295,5 +295,4 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/cape
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
             <astralsorcery:itemcraftingcomponent:4>, <thaumcraft:primordial_pearl>, <astralsorcery:itemcraftingcomponent:4>, <thaumcraft:primordial_pearl>],
-			"astralsorcery.constellation.pelotrio"); 			
-
+			"astralsorcery.constellation.pelotrio");

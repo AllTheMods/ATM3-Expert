@@ -107,6 +107,10 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ic2c_extras:refinedironblock>, <
 mods.immersiveengineering.ArcFurnace.addRecipe(<ic2c_extras:refinedironplate>, <thermalfoundation:material:32>, <immersiveengineering:material:7>, 250, 512);
 mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_material:48> *4, <botania:overgrowthseed>, <enderio:item_material:50> *2, 250, 512);
 
+#Arc Furnace Steel
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:8>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:160>, <ic2:itemmisc:53>, <immersiveengineering:material:7>, 400, 512, [<immersiveengineering:material:17>]);
+
 /*
 Light block
 recipes.remove(<immersiveengineering:metal_decoration0:4>);

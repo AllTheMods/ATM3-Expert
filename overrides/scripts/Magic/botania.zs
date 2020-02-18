@@ -119,7 +119,76 @@ recipes.addShapeless("CtScorchedSeed",<botania:grassseeds:6>,[<botania:grassseed
 
 #orechid
 mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechid"}));
+mods.jei.JEI.hide(<botania:specialflower>.withTag({type: "orechid"}));
+recipes.removeByRecipeName("botania:floating_orechid");
+mods.jei.JEI.hide(<botania:floatingspecialflower>.withTag({type: "orechid"}));
+
 mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechidIgnem"}));
+mods.jei.JEI.hide(<botania:specialflower>.withTag({type: "orechidIgnem"}));
+recipes.removeByRecipeName("botania:floating_orechidignem");
+mods.jei.JEI.hide(<botania:floatingspecialflower>.withTag({type: "orechidIgnem"}));
+
+
+mods.botania.Orechid.removeOre("oreAluminum");
+mods.botania.Orechid.removeOre("oreIron");
+mods.botania.Orechid.removeOre("oreOsmium");
+mods.botania.Orechid.removeOre("oreMythril");
+mods.botania.Orechid.removeOre("oreInfusedFire");
+mods.botania.Orechid.removeOre("oreTin");
+mods.botania.Orechid.removeOre("oreCertusQuartz");
+mods.botania.Orechid.removeOre("oreMCropsEssence");
+mods.botania.Orechid.removeOre("oreChimerite");
+mods.botania.Orechid.removeOre("oreRuby");
+mods.botania.Orechid.removeOre("oreCinnabar");
+mods.botania.Orechid.removeOre("oreLead");
+mods.botania.Orechid.removeOre("oreSapphire");
+mods.botania.Orechid.removeOre("oreCoal");
+mods.botania.Orechid.removeOre("oreVinteum");
+mods.botania.Orechid.removeOre("oreDiamond");
+mods.botania.Orechid.removeOre("oreTungsten");
+mods.botania.Orechid.removeOre("oreEmerald");
+mods.botania.Orechid.removeOre("orePlatinum");
+mods.botania.Orechid.removeOre("oreDarkIron");
+mods.botania.Orechid.removeOre("oreUranium");
+mods.botania.Orechid.removeOre("oreNickel");
+mods.botania.Orechid.removeOre("oreLapis");
+mods.botania.Orechid.removeOre("oreInfusedEntropy");
+mods.botania.Orechid.removeOre("oreAdamantium");
+mods.botania.Orechid.removeOre("oreInfusedAir");
+mods.botania.Orechid.removeOre("oreInfusedEarth");
+mods.botania.Orechid.removeOre("oreFzDarkIron");
+mods.botania.Orechid.removeOre("oreAmber");
+mods.botania.Orechid.removeOre("oreOlivine");
+mods.botania.Orechid.removeOre("oreMithril");
+mods.botania.Orechid.removeOre("oreSilver");
+mods.botania.Orechid.removeOre("oreInfusedOrder");
+mods.botania.Orechid.removeOre("oreGold");
+mods.botania.Orechid.removeOre("oreGalena");
+mods.botania.Orechid.removeOre("oreBlueTopaz");
+mods.botania.Orechid.removeOre("oreDark");
+mods.botania.Orechid.removeOre("oreInfusedWater");
+mods.botania.Orechid.removeOre("oreZinc");
+mods.botania.Orechid.removeOre("oreQuartzBlack");
+mods.botania.Orechid.removeOre("oreRedstone");
+mods.botania.Orechid.removeOre("oreSulfur");
+mods.botania.Orechid.removeOre("oreCopper");
+mods.botania.Orechid.removeOre("oreYellorite");
+mods.botania.Orechid.removeOre("oreApatite");
+mods.botania.OrechidIgnem.removeOre("oreNetherNickel");
+mods.botania.OrechidIgnem.removeOre("oreNetherCopper");
+mods.botania.OrechidIgnem.removeOre("oreNetherLead");
+mods.botania.OrechidIgnem.removeOre("oreNetherPlatinum");
+mods.botania.OrechidIgnem.removeOre("oreNetherSilver");
+mods.botania.OrechidIgnem.removeOre("oreNetherTin");
+mods.botania.OrechidIgnem.removeOre("oreNetherCoal");
+mods.botania.OrechidIgnem.removeOre("oreNetherDiamond");
+mods.botania.OrechidIgnem.removeOre("oreNetherGold");
+mods.botania.OrechidIgnem.removeOre("oreNetherIron");
+mods.botania.OrechidIgnem.removeOre("oreNetherLapis");
+mods.botania.OrechidIgnem.removeOre("oreNetherRedstone");
+mods.botania.OrechidIgnem.removeOre("oreArdite");
+mods.botania.OrechidIgnem.removeOre("oreCobalt");
+mods.botania.OrechidIgnem.removeOre("oreQuartz");
 
 #mana tablet
 recipes.removeShaped(<botania:manatablet>);
