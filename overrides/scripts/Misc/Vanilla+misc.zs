@@ -226,10 +226,35 @@ recipes.addShaped(<superfactorymanager:cable> * 2,
 recipes.removeShapeless(<ore:blockGlassHardened>);
 
 #Mining turtles
-recipes.remove(<computercraft:turtle:1>);
-recipes.remove(<computercraft:turtle_advanced>.withTag({leftUpgrade: 5 as short}));
-recipes.addShaped(<computercraft:turtle_advanced>.withTag({leftUpgrade: 5 as short}), [[<minecraft:gold_ingot>, <actuallyadditions:block_crystal_empowered:5>, <minecraft:gold_ingot>],[<minecraft:gold_ingot>, <computercraft:turtle:1>, <minecraft:gold_ingot>], [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>]]);
-recipes.addShaped(<computercraft:turtle:1>, [[<ic2:itemmisc:53>, <ic2:itemmisc:53>, <ic2:itemmisc:53>],[<ic2:itemmisc:452>, <computercraft:computer:*>, <thaumcraft:elemental_pick>], [<ic2:itemmisc:53>, <ic2:itemmisc:53>, <ic2:itemmisc:53>]]);
+mods.jei.JEI.hide(<computercraft:turtle:0>);
+var regularTurtle = <computercraft:turtle_expanded> | <computercraft:turtle:*>;
+recipes.removeByRecipeName("computercraft:normal_turtle");
+recipes.addShaped("turtle", <computercraft:turtle_expanded>, [
+[<ore:ingotRefinedIron>, <ore:ingotRefinedIron>, <ore:ingotRefinedIron>], 
+[<ore:ingotRefinedIron>, <computercraft:computer>.marked("nbt"), <ore:ingotRefinedIron>], 
+[<ore:ingotRefinedIron>, <ic2:itemmisc:452>, <ore:ingotRefinedIron>]],
+function(out, ins, cInfo){
+	return out.withTag(ins.nbt.tag);
+},
+null);
+recipes.removeByRecipeName("computercraft:advanced_turtle");
+recipes.addShaped("advanced_turtle", <computercraft:turtle_advanced>, [[<ore:ingotGold>, <actuallyadditions:block_crystal_empowered:5>, <ore:ingotGold>], [<ore:ingotGold>, <computercraft:computer:16384>.marked("nbt"), <ore:ingotGold>], [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]],
+function(out, ins, cInfo){
+	return out.withTag(ins.nbt.tag);
+},
+null);
+recipes.removeByRecipeName("computercraft:advanced_turtle_upgrade");
+recipes.addShaped("turtle_upgrade", <computercraft:turtle_advanced>, [
+[<ore:ingotGold>, <actuallyadditions:block_crystal_empowered:5>, <ore:ingotGold>], 
+[<ore:ingotGold>, regularTurtle.marked("nbt"), <ore:ingotGold>], 
+[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]], 
+function(out, ins, cInfo){
+	return out.withTag(ins.nbt.tag);
+},
+null);
+dan200.computercraft.turtle.removeUpgrade(<minecraft:diamond_pickaxe>);
+dan200.computercraft.turtle.addTool("minecraft:diamond_pickaxe", <thaumcraft:elemental_pick>, <minecraft:diamond_pickaxe>);
+recipes.addShapeless("thaum_pickaxe_enchant_clear", <thaumcraft:elemental_pick>, [<thaumcraft:elemental_pick>]);
 
 #xnet changes
 
