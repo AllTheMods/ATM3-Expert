@@ -11,6 +11,7 @@ import crafttweaker.game.IGame;
 import mods.thermalexpansion.RedstoneFurnace;
 import mods.jei.JEI.removeAndHide;
 import mods.thermalexpansion.InductionSmelter;
+import mods.thermalexpansion.Insolator;
 
 
 print("Thermal expansion changes");
@@ -30,10 +31,10 @@ recipes.remove(<thermalfoundation:storage:3>);
 recipes.remove(<thermalexpansion:augment:576>);
 recipes.addShaped(<thermalexpansion:augment:576>,
  [[<minecraft:redstone>, <minecraft:glass>, <minecraft:redstone>],
- [<minecraft:glass>, <extrautils2:drum>, <minecraft:glass>], 
+ [<minecraft:glass>, <extrautils2:drum>, <minecraft:glass>],
  [<minecraft:redstone>, <thermalfoundation:material:256>, <minecraft:redstone>]]);
 
-#basic tank 
+#basic tank
 recipes.removeShaped(<thermalexpansion:tank>);
 recipes.addShaped(<thermalexpansion:tank>, [[null, <thermalfoundation:material:128>, null],[<thermalfoundation:material:128>, <extrautils2:drum>, <thermalfoundation:material:128>], [<contenttweaker:coldironplate>, <thermalfoundation:material:512>, <contenttweaker:coldironplate>]]);
 
@@ -42,21 +43,21 @@ recipes.addShaped(<thermalexpansion:tank>, [[null, <thermalfoundation:material:1
 recipes.remove(<thermalexpansion:machine:1>);
 recipes.addShaped("CTpulveriser", <thermalexpansion:machine:1>,
  [[<thermalfoundation:material:258>, <ic2:itemmisc:451>, <thermalfoundation:material:261>],
- [<minecraft:flint>, <thermalexpansion:frame>, <minecraft:flint>], 
+ [<minecraft:flint>, <thermalexpansion:frame>, <minecraft:flint>],
  [<contenttweaker:manasteelplate>, <thermalfoundation:material:512>, <contenttweaker:manasteelplate>]]);
 
 #redstone furnace
 recipes.remove(<thermalexpansion:machine>);
 recipes.addShaped(<thermalexpansion:machine>,
  [[<thermalfoundation:material:261>, <thermalfoundation:material:513>, <thermalfoundation:material:258>],
- [<minecraft:nether_brick>, <thermalexpansion:frame>, <minecraft:nether_brick>], 
+ [<minecraft:nether_brick>, <thermalexpansion:frame>, <minecraft:nether_brick>],
  [<thermalfoundation:material:320>, <ic2:itemmisc:451>, <thermalfoundation:material:320>]]);
 
 #induction smelter
 recipes.remove(<thermalexpansion:machine:3>);
 recipes.addShaped("CTinductsmelter", <thermalexpansion:machine:3>,
  [[<immersiveengineering:wirecoil:5>, <tcomplement:alloy_tank>, <immersiveengineering:wirecoil:5>],
- [<minecraft:soul_sand>, <thermalexpansion:frame>, <minecraft:soul_sand>], 
+ [<minecraft:soul_sand>, <thermalexpansion:frame>, <minecraft:soul_sand>],
  [<thermalfoundation:material:290>, <ic2:itemmisc:451>, <thermalfoundation:material:290>]]);
 
 #compactor removal
@@ -87,61 +88,61 @@ recipes.addShaped("CTtransmission", <thermalfoundation:material:514>,
 [null, <thermalfoundation:material:130>, null],
 [<actuallyadditions:item_crystal>, null, null]]);
 
-recipes.addShaped("CTconductance", <thermalfoundation:material:515>, 
+recipes.addShaped("CTconductance", <thermalfoundation:material:515>,
 [[<actuallyadditions:item_crystal>, null, null],
-[null, <thermalfoundation:material:161>, null], 
+[null, <thermalfoundation:material:161>, null],
 [null, null, <actuallyadditions:item_crystal>]]);
 
-recipes.addShaped("CTreception", <thermalfoundation:material:513>, 
+recipes.addShaped("CTreception", <thermalfoundation:material:513>,
 [[null, null, <actuallyadditions:item_crystal>],
-[null, <minecraft:gold_ingot>, null], 
+[null, <minecraft:gold_ingot>, null],
 [<actuallyadditions:item_crystal>, null, null]]);
 
 #thermal innovation base parts
-recipes.addShaped("CTticasing", <thermalfoundation:material:640>, 
+recipes.addShaped("CTticasing", <thermalfoundation:material:640>,
 [[<thermalfoundation:material:353>, <actuallyadditions:block_crystal_empowered>, <thermalfoundation:material:353>],
 [<thermalfoundation:material:353>, <thermalfoundation:material:352>, <thermalfoundation:material:352>],
 [<thermalfoundation:material:353>, <thermalfoundation:material:353>, <thermalfoundation:material:353>]]);
-recipes.addShaped("CTtidrill", <thermalfoundation:material:656>, 
+recipes.addShaped("CTtidrill", <thermalfoundation:material:656>,
 [[<ic2:itemmisc:303>, <ic2:itemmisc:303>, null],
 [<ic2:itemmisc:303>, <thermalfoundation:material:352>, <ic2:itemmisc:303>],
 [null, <ic2:itemmisc:303>, <thermalfoundation:material:352>]]);
 recipes.addShaped("CTtisaw", <thermalfoundation:material:657>,
 [[null, <ic2:itemmisc:303>, null],
-[<ic2:itemmisc:303>, <thermalfoundation:material:352>, <ic2:itemmisc:303>], 
+[<ic2:itemmisc:303>, <thermalfoundation:material:352>, <ic2:itemmisc:303>],
 [null, <ic2:itemmisc:303>, null]]);
 
 #Leadstone fluxduct
 recipes.remove(<thermaldynamics:duct_0>);
 recipes.addShaped("CTleadstoneFS", <thermaldynamics:duct_0> * 4,
 [[<thermalfoundation:material:131>, <thermalfoundation:material:131>, <thermalfoundation:material:131>],
-[<actuallyadditions:item_crystal>, <thermalfoundation:glass:3>, <actuallyadditions:item_crystal>], 
+[<actuallyadditions:item_crystal>, <thermalfoundation:glass:3>, <actuallyadditions:item_crystal>],
 [<thermalfoundation:material:131>, <thermalfoundation:material:131>, <thermalfoundation:material:131>]]);
 
 #Redstone Fluxduct
 recipes.remove(<thermaldynamics:duct_0:6>);
 recipes.addShaped("CTredstoneFD", <thermaldynamics:duct_0:6> * 3,
 [[null, null, null],
-[<thermalfoundation:material:353>, <thermalfoundation:glass_alloy>, <thermalfoundation:material:353>], 
+[<thermalfoundation:material:353>, <thermalfoundation:glass_alloy>, <thermalfoundation:material:353>],
 [null, null, null]]);
 
 #redstone servo
-recipes.addShaped(<thermalfoundation:material:512>, 
+recipes.addShaped(<thermalfoundation:material:512>,
 [[<actuallyadditions:item_crystal>, <minecraft:iron_ingot>, <actuallyadditions:item_crystal>],
-[null, <minecraft:iron_ingot>, null], 
+[null, <minecraft:iron_ingot>, null],
 [<actuallyadditions:item_crystal>, <minecraft:iron_ingot>, <actuallyadditions:item_crystal>]]);
 
 #machine frame
 recipes.remove(<thermalexpansion:frame>);
-recipes.addShaped("ctteframe", <thermalexpansion:frame>, 
+recipes.addShaped("ctteframe", <thermalexpansion:frame>,
 [[<minecraft:redstone>, <minecraft:piston>, <minecraft:redstone>],
-[<contenttweaker:manasteelplate>, <thermalexpansion:frame:64>, <contenttweaker:manasteelplate>], 
+[<contenttweaker:manasteelplate>, <thermalexpansion:frame:64>, <contenttweaker:manasteelplate>],
 [<thermalfoundation:material:162>, <contenttweaker:manadiamondplate>, <thermalfoundation:material:162>]]);
 
 
 #device frame
 recipes.remove(<thermalexpansion:frame:64>);
-recipes.addShaped("ctdeviceframe", <thermalexpansion:frame:64>, 
+recipes.addShaped("ctdeviceframe", <thermalexpansion:frame:64>,
 [[<botania:manaresource:23>, <ic2:itemcable:1>, <botania:manaresource:23>],
 [<thermalfoundation:material:512>, <thermalfoundation:material:257>, <thermalfoundation:material:512>],
 [<thermalfoundation:material:321>, <botania:managlass>, <thermalfoundation:material:321>]]);
@@ -156,7 +157,7 @@ recipes.addShaped("CTsteamdynamo", <thermalexpansion:dynamo>,
 
 #steam augment
 recipes.remove(<thermalexpansion:augment:640>);
-recipes.addShaped("CTthermalturbine", <thermalexpansion:augment:640>, 
+recipes.addShaped("CTthermalturbine", <thermalexpansion:augment:640>,
 [[null, <thermalfoundation:material:24>, null],
 [<thermalfoundation:material:128>, <ic2c_extras:heatconductor>, <thermalfoundation:material:128>],
 [null, <thermalfoundation:material:128>, null]]);
@@ -168,31 +169,31 @@ recipes.addShaped("CTkit1", <thermalfoundation:upgrade:1>, [[null, <thermalfound
 #signalum
 recipes.remove(<thermalfoundation:upgrade:2>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalfoundation:upgrade:2>, [
-	[<thermalfoundation:material:352>, <thermalfoundation:material:165>, <appliedenergistics2:material:10>, <thermalfoundation:material:165>, <thermalfoundation:material:352>], 
-	[<thermalfoundation:material:165>, <thermalfoundation:material:515>, <contenttweaker:manadiamondplate>, <ic2:itemmisc:452>, <thermalfoundation:material:165>], 
-	[<appliedenergistics2:material:10>, <thermalfoundation:material:165>, <bloodmagic:slate:1>, <thermalfoundation:material:165>, <appliedenergistics2:material:10>], 
-	[<thermalfoundation:material:165>, <ic2:itemmisc:452>, <contenttweaker:manadiamondplate>, <thermalfoundation:material:515>, <thermalfoundation:material:165>], 
+	[<thermalfoundation:material:352>, <thermalfoundation:material:165>, <appliedenergistics2:material:10>, <thermalfoundation:material:165>, <thermalfoundation:material:352>],
+	[<thermalfoundation:material:165>, <thermalfoundation:material:515>, <contenttweaker:manadiamondplate>, <ic2:itemmisc:452>, <thermalfoundation:material:165>],
+	[<appliedenergistics2:material:10>, <thermalfoundation:material:165>, <bloodmagic:slate:1>, <thermalfoundation:material:165>, <appliedenergistics2:material:10>],
+	[<thermalfoundation:material:165>, <ic2:itemmisc:452>, <contenttweaker:manadiamondplate>, <thermalfoundation:material:515>, <thermalfoundation:material:165>],
 	[<thermalfoundation:material:352>, <thermalfoundation:material:165>, <appliedenergistics2:material:10>, <thermalfoundation:material:165>, <thermalfoundation:material:352>]
 ]);
 
 #resonant
 recipes.remove(<thermalfoundation:upgrade:3>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalfoundation:upgrade:3>, [
-	[<enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>], 
-	[<enderio:item_material:58>, <forestry:chipsets:3>, <thaumcraft:ingot>, <actuallyadditions:item_crystal_empowered:4>, <thaumcraft:ingot>, <forestry:chipsets:3>, <enderio:item_material:58>], 
-	[<enderio:item_material:58>, <thaumcraft:ingot>, <plustic:osmiridiumingot>, <plustic:osmiridiumingot>, <plustic:osmiridiumingot>, <thaumcraft:ingot>, <enderio:item_material:58>], 
-	[<enderio:item_material:58>, <actuallyadditions:item_crystal_empowered:4>, <plustic:osmiridiumingot>, <mekanism:teleportationcore>, <plustic:osmiridiumingot>, <actuallyadditions:item_crystal_empowered:4>, <enderio:item_material:58>], 
-	[<enderio:item_material:58>, <thaumcraft:ingot>, <plustic:osmiridiumingot>, <plustic:osmiridiumingot>, <plustic:osmiridiumingot>, <thaumcraft:ingot>, <enderio:item_material:58>], 
-	[<enderio:item_material:58>, <forestry:chipsets:3>, <thaumcraft:ingot>, <actuallyadditions:item_crystal_empowered:4>, <thaumcraft:ingot>, <forestry:chipsets:3>, <enderio:item_material:58>], 
+	[<enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>],
+	[<enderio:item_material:58>, <forestry:chipsets:3>, <thaumcraft:ingot>, <actuallyadditions:item_crystal_empowered:4>, <thaumcraft:ingot>, <forestry:chipsets:3>, <enderio:item_material:58>],
+	[<enderio:item_material:58>, <thaumcraft:ingot>, <plustic:osmiridiumingot>, <plustic:osmiridiumingot>, <plustic:osmiridiumingot>, <thaumcraft:ingot>, <enderio:item_material:58>],
+	[<enderio:item_material:58>, <actuallyadditions:item_crystal_empowered:4>, <plustic:osmiridiumingot>, <mekanism:teleportationcore>, <plustic:osmiridiumingot>, <actuallyadditions:item_crystal_empowered:4>, <enderio:item_material:58>],
+	[<enderio:item_material:58>, <thaumcraft:ingot>, <plustic:osmiridiumingot>, <plustic:osmiridiumingot>, <plustic:osmiridiumingot>, <thaumcraft:ingot>, <enderio:item_material:58>],
+	[<enderio:item_material:58>, <forestry:chipsets:3>, <thaumcraft:ingot>, <actuallyadditions:item_crystal_empowered:4>, <thaumcraft:ingot>, <forestry:chipsets:3>, <enderio:item_material:58>],
 	[<enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>, <enderio:item_material:58>]
 ]);
 
 #fractioning still and gearworker for compactor
-recipes.remove(<thermalexpansion:machine:7>); 
-mods.jei.JEI.hide(<thermalexpansion:machine:7>); 
-recipes.remove(<thermalexpansion:augment:369>); 
-mods.jei.JEI.hide(<thermalexpansion:augment:369>); 
-recipes.remove(<thermalexpansion:augment:368>); 
+recipes.remove(<thermalexpansion:machine:7>);
+mods.jei.JEI.hide(<thermalexpansion:machine:7>);
+recipes.remove(<thermalexpansion:augment:369>);
+mods.jei.JEI.hide(<thermalexpansion:augment:369>);
+recipes.remove(<thermalexpansion:augment:368>);
 mods.jei.JEI.hide(<thermalexpansion:augment:368>);
 mods.jei.JEI.hide(<thermalexpansion:augment:337>);
 mods.jei.JEI.hide(<liquid:refined_biofuel>);
@@ -200,9 +201,9 @@ mods.jei.JEI.hide(<liquid:refined_fuel>);
 
 #Energy cell frame
 recipes.remove(<thermalexpansion:frame:128>);
-recipes.addShaped("CTrfFrame", <thermalexpansion:frame:128>, 
+recipes.addShaped("CTrfFrame", <thermalexpansion:frame:128>,
 [[<alchemistry:ingot:31>, <thermalfoundation:glass_alloy:7>, <alchemistry:ingot:31>],
-[<thermalfoundation:material:294>, <actuallyadditions:block_misc:8>, <thermalfoundation:material:294>], 
+[<thermalfoundation:material:294>, <actuallyadditions:block_misc:8>, <thermalfoundation:material:294>],
 [<alchemistry:ingot:31>, <thermalfoundation:glass_alloy:7>, <alchemistry:ingot:31>]]);
 
 #magmatic dynamo
@@ -303,4 +304,7 @@ function process(pOutput as IItemStack, input as IItemStack, rOutput as IItemSta
 	}
 
 }
-
+#Phytogenic Insolator recipes
+ mods.thermalexpansion.Insolator.addRecipe(<actuallyadditions:block_black_lotus> * 3, <thermalfoundation:fertilizer:0>, <actuallyadditions:block_black_lotus>, 4800);
+ mods.thermalexpansion.Insolator.addRecipe(<actuallyadditions:block_black_lotus> * 6, <thermalfoundation:fertilizer:1>, <actuallyadditions:block_black_lotus>, 7200);
+ mods.thermalexpansion.Insolator.addRecipe(<actuallyadditions:block_black_lotus> * 9, <thermalfoundation:fertilizer:2>, <actuallyadditions:block_black_lotus>, 9600);
