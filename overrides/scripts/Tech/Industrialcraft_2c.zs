@@ -42,7 +42,7 @@ recipes.addShaped(<ic2c_extras:rollingpress>, [[null, <thermalfoundation:materia
 recipes.addShaped(<ic2c_extras:blankpress> * 3, [[<thermalfoundation:material:32>, <ic2c_extras:refinedironplate>, null],[<ic2c_extras:refinedironplate>, <ic2c_extras:refinedironplate>, null], [null, null, null]]);
 
 #crafting hammer
-mods.jei.JEI.removeAndHide(<ic2c_extras:craftinghammer>);
+recipes.remove(<ic2c_extras:craftinghammer>);
 
 #machine casing refined iron recipe
 recipes.removeShaped(<ic2:itemmisc:53> * 8, [[null, null, null],[null, <ic2:blockmachinelv>, null], [null, null, null]]);

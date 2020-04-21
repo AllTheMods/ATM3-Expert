@@ -11,19 +11,7 @@ import crafttweaker.game.IGame;
 import mods.jei.JEI.removeAndHide;
 import mods.immersiveengineering.BlastFurnace;
 import mods.immersiveengineering.ArcFurnace;
-import mods.thermalexpansion.InductionSmelter;
 val bohrium = <alchemistry:ingot:107>;
-
-#removed IE & TE alloy recipes
-mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:0>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:4>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:6>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:96>, <thermalfoundation:material:770> * 4);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:160>, <thermalfoundation:material:770> * 4);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:0>, <minecraft:redstone>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:iron_ingot>, <minecraft:redstone>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:iron_ingot>, <minecraft:ender_pearl>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:0>, <minecraft:ender_pearl>);
 
 #dark steel
 mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:6>, <thermalfoundation:material:160>, <immersiveengineering:material:17>, 200, 512, [<immersiveengineering:material:19>]);
@@ -88,9 +76,9 @@ recipes.addShapedMirrored(<enderio:block_enhanced_vat>, [[null, null, null],[<en
 
 #Fluid Tank, this felt way too easy to have available so early on. So i put steel on it!
 recipes.remove(<enderio:block_tank>);
-recipes.addShaped(<enderio:block_tank>,
+recipes.addShaped(<enderio:block_tank>, 
 	[[<thermalfoundation:material:160>, <minecraft:iron_bars>, <thermalfoundation:material:160>],
-	[<minecraft:iron_bars>, <minecraft:glass>, <minecraft:iron_bars>],
+	[<minecraft:iron_bars>, <minecraft:glass>, <minecraft:iron_bars>], 
 	[<thermalfoundation:material:160>, <minecraft:iron_bars>, <thermalfoundation:material:160>]]);
 
 #Remove Lumium Shapped
