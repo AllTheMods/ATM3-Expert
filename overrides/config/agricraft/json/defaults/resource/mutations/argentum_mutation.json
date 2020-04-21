@@ -1,0 +1,8 @@
+{
+  "path": "resource/mutations/argentum_mutation.json",
+  "enabled": true,
+  "chance": 0.25,
+  "child": "resource:argentum_plant",
+  "parent1": "resource:niccissus_plant",
+  "parent2": "resource:aurigold_plant"
+}

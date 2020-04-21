@@ -1,0 +1,171 @@
+{
+	"populate": {
+		"Cinnabar_ore": {
+			"distribution": "cave",
+			"generator": {
+				"block":{ 
+					"name": "thaumcraft:ore_cinnabar",
+					"metadata": 0
+					},
+				"material": "minecraft:stone",
+				"cluster-size": 1
+			},
+			"distribution": "cave",
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"ground-level": 32,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
+		"quartz_Ore": {
+			"generator": {
+				"block":{ 
+					"name": "thaumcraft:ore_quartz",
+					"metadata": 0
+					},
+				"material": "minecraft:stone",
+				"cluster-size": 2
+			},
+			"distribution": "cave",
+			"cluster-count": 2,
+			"chunk-chance": 1,
+			"ground-level": 64,
+			"biome": "all",
+			"retrogen": true,
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
+		"uranium_ore": {
+			"generator": {
+				"block":{ 
+					"name": "ic2:blockmetal",
+					"metadata": 2
+					},
+				"material": "minecraft:stone",
+				"cluster-size": 2
+			},
+			"distribution": "cave",
+			"cluster-count": 4,
+			"chunk-chance": 2,
+			"ground-level": 32,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"rock_salt": {
+			"generator": {
+				"block":{ 
+					"name": "xlfoodmod:rock_salt",
+					"metadata": 0
+					},
+				"material": "minecraft:stone",
+				"cluster-size": 3
+			},
+			"distribution": "cave",
+			"cluster-count": 2,
+			"chunk-chance": 1,
+			"ground-level": 120,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+		"chisel_marble": {
+
+			"generator": {
+				"block":{
+					"name": "chisel:marble2",
+					"metadata": 7
+					},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"distribution": "uniform",
+			"cluster-count": 2,
+			"chunk-chance": 1,
+			"min-height": 1,
+			"max-height": 120,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"chisel_limestone": {
+			"generator": {
+				"block":{
+					"name": "chisel:limestone2",
+					"metadata": 7
+					},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"distribution": "uniform",
+			"cluster-count": 2,
+			"chunk-chance": 1,
+			"min-height": 1,
+			"max-height": 120,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"amber_ore": {
+			"generator": {
+				"block":{ 
+					"name": "thaumcraft:ore_amber",
+					"metadata": 0
+					},
+				"material": "minecraft:stone",
+				"cluster-size": 1
+			},
+			"distribution": "cave",
+			"cluster-count": 2,
+			"chunk-chance": 1,
+			"ground-level": 120,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}				
+	}
+}

@@ -1,0 +1,77 @@
+{
+  "path": "resource/plants/argentum_plant.json",
+  "enabled": true,
+  "id": "resource:argentum_plant",
+  "plant_name": "Argentum",
+  "seed_name": "Argentum Seeds",
+  "seed_items": [],
+  "description": {
+    "translations": {},
+    "default": "Known as the engineer\u0027s delight, this plant produces a substance of incredible shine."
+  },
+  "growth_chance": 0.9,
+  "growth_bonus": 0.025,
+  "bonemeal": false,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 2,
+        "chance": 0.95,
+        "required": true,
+        "item": "oredict:nuggetSilver",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "gravel_soil"
+    ],
+    "conditions": [
+      {
+        "amount": 1,
+        "min_x": 0,
+        "min_y": -2,
+        "min_z": 0,
+        "max_x": 0,
+        "max_y": -2,
+        "max_z": 0,
+        "item": "thermalfoundation:glass",
+        "meta": 2,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "texture": {
+    "render_type": "hash",
+    "seed_texture": "agricraft:items/seed_platiolus",
+    "plant_textures": [
+      "agricraft:blocks/crop_platiolus1",
+      "agricraft:blocks/crop_platiolus1",
+      "agricraft:blocks/crop_platiolus1",
+      "agricraft:blocks/crop_platiolus2",
+      "agricraft:blocks/crop_platiolus2",
+      "agricraft:blocks/crop_platiolus2",
+      "agricraft:blocks/crop_platiolus3",
+      "agricraft:blocks/crop_platiolus4"
+    ]
+  }
+}

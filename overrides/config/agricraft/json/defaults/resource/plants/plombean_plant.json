@@ -51,12 +51,12 @@
         "max_x": 0,
         "max_y": -2,
         "max_z": 0,
-        "item": "oredict:oreLead",
-        "meta": 0,
+        "item": "thermalfoundation:glass",
+        "meta": 3,
         "tags": "",
-        "ignoreMeta": true,
+        "ignoreMeta": false,
         "ignoreTags": [],
-        "useOreDict": true
+        "useOreDict": false
       }
     ]
   },

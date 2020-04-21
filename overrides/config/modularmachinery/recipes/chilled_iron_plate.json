@@ -1,6 +1,6 @@
 {
     "machine": "Industrial_Chiller",
-    "registryName": "chiller_chilledingot",
+    "registryName": "chiller_chilledplate",
     "recipeTime": 600,
     "requirements": [
 	
@@ -24,7 +24,7 @@
         {
             "type": "item",
             "io-type": "input",
-            "item": "thermalfoundation:material:32",
+            "item": "thermalfoundation:material@32",
             "amount": 1
         }
     ]

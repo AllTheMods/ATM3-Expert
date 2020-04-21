@@ -1,0 +1,53 @@
+{
+	"populate": {
+		"end_draconium": {
+			"distribution": "uniform",
+			"generator": {
+				"block":
+ { "name": "draconicevolution:draconium_ore",
+					"metadata": 2
+					},
+				"material": "minecraft:end_stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 2,
+			"chunk-chance": 2,
+			"min-height": 1,
+			"max-height":120,
+			"biome": "all",
+			"retrogen": true,
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					0,
+					1
+				]
+			}
+		},
+		
+		"nether_draconium": {
+			"distribution": "uniform",
+			"generator": {
+				"block":
+ { "name": "draconicevolution:draconium_ore",
+					"metadata": 1
+					},
+				"material": "minecraft:netherrack",
+				"cluster-size": 2
+			},
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"min-height": 1,
+			"max-height": 25,
+			"biome": "all",
+			"retrogen": true,
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					1,
+					0
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "path": "resource/mutations/smoked_quartzanthemum_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "resource:smoked_quartzanthemum_plant",
+  "parent1": "resource:quartzanthemum_plant",
+  "parent2": "resource:argentum_plant"
+}

@@ -1,0 +1,18 @@
+{
+    "machine": "mag_fab",
+    "adapter": "modularmachineryadapters:thermionic_fabricator",
+    "modifiers": [
+        {
+            "io": "output",
+            "target": "energy",
+            "operation": 1,
+            "multiplier": 10
+        },
+        {
+            "io": "input",
+            "target": "fluid",
+            "operation": 1,
+            "multiplier": 1.5
+        }
+    ]
+}

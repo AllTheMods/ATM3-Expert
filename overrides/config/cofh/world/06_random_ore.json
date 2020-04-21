@@ -1,0 +1,76 @@
+{
+	"populate": {
+		"ardite_ore": {
+			"generator": {
+				"block":{ 
+					"name": "tconstruct:ore",
+					"metadata": 1
+					},
+				"material": "minecraft:netherrack",
+				"cluster-size": 5
+			},
+			"distribution": "uniform",
+			"cluster-count": 7,
+			"chunk-chance":1,
+			"min-height": 1,
+			"max-height": 120,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": "all"
+		},
+		
+		"cobalt_ore": {
+			"generator": {
+				"block":{ 
+					"name": "tconstruct:ore",
+					"metadata": 0
+					},
+				"material": "minecraft:netherrack",
+				"cluster-size": 5
+			},
+			"distribution": "uniform",
+			"cluster-count": 7,
+			"chunk-chance": 1,
+			"min-height": 1,
+			"max-height": 120,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": "all"
+		},
+		
+		"dimensional_ore": {
+			"generator": {
+				"block":{ 
+					"name": "rftools:dimensional_shard_ore",
+					"metadata": 1
+					},
+				"material": "minecraft:netherrack",
+				"cluster-size": 4
+			},
+			"distribution": "uniform",
+			"cluster-count": 4,
+			"chunk-chance": 2,
+			"min-height": 1,
+			"max-height": 120,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": "all"
+		},
+		
+		"sky_stone": {
+			"distribution": "cave",
+			"generator": {
+				"block": {
+					"name": "appliedenergistics2:sky_stone_block"
+				},
+				"material": "atum:limestone",
+				"cluster-size": 33,
+			},
+			"cluster-count": 10,
+			"ground-level": 48,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": "all"
+		}
+	}
+}

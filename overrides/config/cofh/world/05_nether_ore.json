@@ -1,0 +1,184 @@
+{
+
+	"populate": {
+		"nether_gold": {
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_vanilla",
+					"metadata": 3
+					},
+				"material": "minecraft:netherrack",
+				"cluster-size": 4
+			},
+			"distribution": "cave",
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"ground-level": 120,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": "all"
+		},
+		
+		"nether_iron": {
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_vanilla",
+					"metadata": 4
+					},
+				"material": "minecraft:netherrack",
+				"cluster-size": 8
+			},
+			"distribution": "cave",
+			"cluster-count": 8,
+			"chunk-chance": 1,
+			"ground-level": 120,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": "all"
+		},
+		
+		"nether_diamond": {
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_vanilla",
+					"metadata": 1
+					},
+				"material": "minecraft:netherrack",
+				"cluster-size": 4
+			},
+			"distribution": "cave",
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"ground-level": 120,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": "all"
+		},
+		
+		"nether_emerald": {
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_vanilla",
+					"metadata": 2
+					},
+				"material": "minecraft:netherrack",
+				"cluster-size": 2
+			},
+			"distribution": "cave",
+			"cluster-count": 2,
+			"chunk-chance": 8,
+			"ground-level": 60,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": "all"
+		},
+		
+		"nether_aluminum": {
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_modded_1",
+					"metadata": 0
+					},
+				"material": "minecraft:netherrack",
+				"cluster-size": 4
+			},
+			"distribution": "cave",
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"ground-level": 120,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": "all"
+		},
+		
+		"nether_tin": {
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_modded_1",
+					"metadata": 8
+					},
+				"material": "minecraft:netherrack",
+				"cluster-size": 4
+			},
+			"distribution": "cave",
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"ground-level": 120,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": "all"
+		},
+		
+		"nether_copper": {
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_modded_1",
+					"metadata": 1
+					},
+				"material": "minecraft:netherrack",
+				"cluster-size": 4
+			},
+			"distribution": "cave",
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"ground-level": 120,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": "all"
+		},
+		
+		"nether_uranium": {
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_modded_1",
+					"metadata": 12
+					},
+				"material": "minecraft:netherrack",
+				"cluster-size": 4
+			},
+			"distribution": "cave",
+			"cluster-count": 2,
+			"chunk-chance": 2,
+			"ground-level": 60,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": "all"
+		},
+		
+		"nether_nickel": {
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_modded_1",
+					"metadata": 5
+					},
+				"material": "minecraft:netherrack",
+				"cluster-size": 4
+			},
+			"distribution": "cave",
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"ground-level": 120,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": "all"
+		},
+		
+		"nether_platinum": {
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_modded_1",
+					"metadata": 6
+					},
+				"material": "minecraft:netherrack",
+				"cluster-size": 2
+			},
+			"distribution": "cave",
+			"cluster-count": 2,
+			"chunk-chance": 2,
+			"ground-level": 60,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": "all"
+		}
+	}
+}

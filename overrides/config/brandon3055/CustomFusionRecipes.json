@@ -1,0 +1,26 @@
+  
+[
+  {
+    "mode": "REMOVE",
+    "result": "draconicevolution:awakened_core",
+    "catalyst": "minecraft:nether_star"
+  },
+  {
+    "mode": "ADD",
+    "result": "draconicevolution:awakened_core",
+    "catalyst": "deepmoblearning:pristine_matter_dragon",
+    "energy": 25000000,
+    "tier": 1,
+    "ingredients": [
+      "draconicevolution:wyvern_core",
+      "draconicevolution:wyvern_core",
+      "draconicevolution:wyvern_core",
+      "draconicevolution:wyvern_core",
+	  "draconicevolution:draconic_ingot",
+	  "draconicevolution:draconic_ingot",
+	  "draconicevolution:draconic_ingot",
+	  "draconicevolution:draconic_ingot",
+	  "atmtweaks:item_material,1,10"
+    ]
+  }
+]

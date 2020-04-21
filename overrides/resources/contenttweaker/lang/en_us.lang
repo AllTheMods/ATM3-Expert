@@ -1,16 +1,27 @@
-fluid.Molten_Sand= Molten Vitrified Sand
+fluid.Molten_Sand=Molten Vitrified Sand
 fluid.Liquid_Grout=Molten Grout
 fluid.Soldering_Alloy=Soldering Alloy
-fluid.Corrupted_Starlight = Corrupted Starlight
-
-
-material.vitrified_sand.name=Vitrified sand
-
-
-item.contenttweaker.ManaDiamondPlate.name=Mana Diamond Plate
-item.contenttweaker.ColdIronIngot.name=Cold Iron Ingot
-item.contenttweaker.ColdIronPlate.name=Cold Iron Plate
-item.contenttweaker.UnrefinedHotSteel.name=Cracked Hot Steel
-item.contenttweaker.QuartzIngot.name=Quartz ingot
-item.contenttweaker.QuartzPlate.name=Quartz Plate
-item.contenttweaker.ManaSteelPlate.name=Manasteel Plate
+fluid.Corrupted_Starlight=Corrupted Starlight
+material.vitrified_sand.name=Vitrified Sand
+material.soldering_alloy.name=Soldering Alloy
+item.contenttweaker.manadiamondplate.name=Mana Diamond Plate
+item.contenttweaker.coldironingot.name=Cold Iron Ingot
+item.contenttweaker.coldironplate.name=Cold Iron Plate
+item.contenttweaker.unrefinedhotsteel.name=Cracked Hot Steel
+item.contenttweaker.quartzingot.name=Quartz Ingot
+item.contenttweaker.quartzplate.name=Quartz Plate
+item.contenttweaker.manasteelplate.name=Manasteel Plate
+tile.contenttweaker.infusion_block.name=Infusion Block
+tile.contenttweaker.magma_soaked_cobblestone.name=Magma Soaked Cobblestone
+item.contenttweaker.corruptedstarmetal.name=Corrupted Starmetal Ingot
+item.contenttweaker.crystallisedblood.name=Crystallized Blood Pile
+item.contenttweaker.elementiumprocessor.name=Elementium Processor
+item.contenttweaker.elementiumprint.name=Printed Elementium Circuit
+item.contenttweaker.planetshard.name=Planet Shard
+item.contenttweaker.lonsdale.name=Lonsdale
+item.contenttweaker.tier1.name=1st Tier
+item.contenttweaker.tier2.name=2nd Tier
+item.contenttweaker.tier3.name=3rd Tier
+item.contenttweaker.tier4.name=4th Tier
+item.contenttweaker.tier5.name=5th Tier
+item.contenttweaker.tier6.name=6th Tier

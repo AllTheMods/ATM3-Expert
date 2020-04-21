@@ -1,0 +1,97 @@
+{
+	"populate": {
+		"end_certus": {
+			"generator": {
+				"block":{ 
+					"name": "netherendingores:ore_end_modded_1",
+					"metadata": 9
+					},
+				"material": "minecraft:end_stone",
+				"cluster-size": 5
+			},
+			"distribution": "uniform",
+			"cluster-count": 5,
+			"chunk-chance": 1,
+			"min-height": 1,
+			"max-height":120,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": "all"
+		},
+		
+		"end_chargedcertus": {
+			"generator": {
+				"block":{ 
+					"name": "netherendingores:ore_end_modded_1",
+					"metadata": 10
+					},
+				"material": "minecraft:end_stone",
+				"cluster-size": 2
+			},
+			"distribution": "uniform",
+			"cluster-count": 7,
+			"chunk-chance": 1,
+			"min-height": 1,
+			"max-height": 50,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": "all"
+		},
+		
+		"end_platinum": {
+			"generator": {
+				"block":{ 
+					"name": "netherendingores:ore_end_modded_1",
+					"metadata": 6
+					},
+				"material": "minecraft:end_stone",
+				"cluster-size": 1
+			},
+			"distribution": "uniform",
+			"cluster-count": 4,
+			"chunk-chance": 4,
+			"min-height": 1,
+			"max-height": 30,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": "all"
+		},
+		
+		"end_uranium": {
+			"generator": {
+				"block":{
+					"name": "netherendingores:ore_end_modded_1",
+					"metadata": 12
+					},
+				"material": "minecraft:end_stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 2,
+			"chunk-chance": 1,
+			"min-height": 1,
+			"max-height": 40,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": "all"
+		},
+		
+		"end_emerald": {
+			"generator": {
+				"block":{ 
+					"name": "netherendingores:ore_end_vanilla",
+					"metadata": 2
+					},
+				"material": "minecraft:end_stone",
+				"cluster-size": 1
+			},
+			"distribution": "uniform",
+			"cluster-count": 2,
+			"chunk-chance": 2,
+			"min-height": 1,
+			"max-height": 30,
+			"biome": "all",
+			"retrogen": true,
+			"dimension": "all"
+		}
+	}
+}

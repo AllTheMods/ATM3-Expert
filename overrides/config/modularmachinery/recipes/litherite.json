@@ -1,0 +1,55 @@
+{
+    "machine": "mag_fab",
+    "registryName": "mag_fab_litherite",
+    "recipeTime": 200,
+    "requirements": [
+        
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 600
+        },        
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "environmentaltech:litherite_crystal",
+            "amount": 4
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "for.honey",
+            "amount": 300
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "forestry:royal_jelly",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "forestry:propolis",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "plustic:osgloglasingot",
+            "amount": 3
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "deepmoblearning:glitch_fragment",
+            "amount": 3
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "bloodmagic:item_demon_crystal",
+            "amount": 1
+        }
+    ]
+}
