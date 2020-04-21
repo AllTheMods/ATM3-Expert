@@ -38,13 +38,13 @@ val end = LootTables.getTable("minecraft:chests/end_city_treasure");
 val astral = LootTables.getTable("astralsorcery:chest_shrine");
 val astralMain = astral.getPool("astralsorcery:chest_shrine");
 
-val iehouse = LootTables.getTable("immersiveengineering:engineers_house");
-val ielibrary = LootTables.getTable("immersiveengineering:stronghold_library");
-val ieblacksmith = LootTables.getTable("immersiveengineering:village_blacksmith");
+val iehouse = LootTables.getTable("immersiveengineering:chests/engineers_house");
+val ielibrary = LootTables.getTable("immersiveengineering:chests/stronghold_library");
+val ieblacksmith = LootTables.getTable("immersiveengineering:chests/village_blacksmith");
 
 val aahouse = LootTables.getTable("actuallyadditions:engineer_house");
 
- 
+
 #IE removals
 iehouse.clear();
 
@@ -54,12 +54,12 @@ aahouse.clear();
 #astral removals
 astralMain.removeEntry("minecraft:diamond");
 astralMain.removeEntry("minecraft:ender_pearl");
- 
-#Botania resource removals 
-LootTables.getTable("botania:inject/stronghold_corridor").getPool("main").removeEntry("botania:manaResource");   
-LootTables.getTable("botania:inject/simple_dungeon").getPool("main").removeEntry("botania:manaResource"); 
- 
-#enderio removals 
+
+#Botania resource removals
+LootTables.getTable("botania:inject/stronghold_corridor").getPool("main").removeEntry("botania:manaResource");
+LootTables.getTable("botania:inject/simple_dungeon").getPool("main").removeEntry("botania:manaResource");
+
+#enderio removals
 mineshaft.removePool("Ender IO");
 dungeon.removePool("Ender IO");
 pyramid.removePool("Ender IO");
@@ -94,7 +94,7 @@ nether.getPool("main").removeEntry("ic2c_extras:tinyplutonium");
 corridor.getPool("main").removeEntry("ic2c_extras:tinyplutonium");
 crossing.getPool("main").removeEntry("ic2c_extras:tinyplutonium");
 jungle.getPool("main").removeEntry("ic2c_extras:tinyplutonium");
-pyramid.getPool("main").removeEntry("ic2c_extras:tinyplutonium"); 
+pyramid.getPool("main").removeEntry("ic2c_extras:tinyplutonium");
 
 
 #AE2 removals
@@ -106,4 +106,3 @@ corridor.getPool("main").removeEntry("minecraft:ender_pearl");
 
 #obsidian removal
 blacksmith.getPool("main").removeEntry("minecraft:obsidian");
- 
