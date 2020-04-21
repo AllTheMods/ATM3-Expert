@@ -147,10 +147,18 @@ print(" ================================================== ");
 					"akashictome:definedMod": "totemic"
 				},
 				Damage: 0 as short
+			},
+			actuallyadditions: {
+				id: "actuallyadditions:item_booklet",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "actuallyadditions"
+				},
+				Damage: 0 as short
 			}
 		}
 	}
-	
+
 	);
 
 	//metadata to item
@@ -186,8 +194,9 @@ print(" ================================================== ");
 		<openblocks:info_book>,
 		<rftools:rftools_shape_manual>,
 		<valkyrielib:guide>,
-		<totemic:totempedia>
-		] as IItemStack[];
+		<totemic:totempedia>,
+		<actuallyadditions:item_booklet>
+	] as IItemStack[];
 
 	for itemBook in addedBooks {
 		itemBook.addTooltip(format.aqua("Included within the \"default\" Akashic Tome"));
