@@ -75,6 +75,7 @@ addDescription(<actuallyadditions:block_crystal_empowered:4>, "This item require
 addDescription(<thaumcraft:thaumonomicon>, "Made by right-clicking a vanilla bookshelf with Salis Mundus."); # thaumonomicon
 addDescription(<thaumcraft:arcane_workbench>, "Made by right-clicking a crafting table with Salis Mundus."); # arcane workbench
 addDescription(<thaumcraft:crucible>, "Made by right-clicking a vanilla cauldron with Salis Mundus."); # crucible
+addDescription(<ic2:itemmisc:200>, "Made by recycling things in the recycler."); # scrap
 
 #iron plate @quark
 recipes.removeShaped(<quark:iron_plate> * 24,

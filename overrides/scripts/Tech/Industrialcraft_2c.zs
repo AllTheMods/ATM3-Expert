@@ -50,7 +50,7 @@ recipes.removeShaped(<ic2:itemmisc:53> * 8, [[null, null, null],[null, <ic2:bloc
 #obsidian blade using thermal obsidian dust
 recipes.addShaped(<ic2:itemmisc:302>,
  [[<thermalfoundation:material:770>, <thermalfoundation:material:770>, <thermalfoundation:material:770>],
- [<thermalfoundation:material:770>, <minecraft:flint>, <thermalfoundation:material:770>], 
+ [<thermalfoundation:material:770>, <minecraft:flint>, <thermalfoundation:material:770>],
  [<thermalfoundation:material:770>, <thermalfoundation:material:770>, <thermalfoundation:material:770>]]);
 
 #liquid fuels
@@ -64,16 +64,16 @@ removal(<ic2:blockcompactedgenerator:8>);
 
 #fabricator
 recipes.remove(<ic2:blockmachinehv:1>);
-recipes.addShaped("CTfabricator", <ic2:blockmachinehv:1>, 
+recipes.addShaped("CTfabricator", <ic2:blockmachinehv:1>,
  [[<mekanism:polyethene:2>, <ic2:itemmisc:452>, <mekanism:polyethene:2>],
- [<ic2:blockmachinemv>, <mekanism:controlcircuit:1>, <ic2:blockmachinemv>], 
+ [<ic2:blockmachinemv>, <mekanism:controlcircuit:1>, <ic2:blockmachinemv>],
  [<mekanism:polyethene:2>, <ic2:itemmisc:452>, <mekanism:polyethene:2>]]);
 
 #metal bender
 recipes.remove(<ic2c_extras:metalbender>);
-recipes.addShaped(<ic2c_extras:metalbender>, 
+recipes.addShaped(<ic2c_extras:metalbender>,
 [[<ic2:itemcable:1>, <thermalfoundation:material:256>, <ic2:itemcable:1>],
-[<ic2:blockmachinelv:5>, <ic2:blockmachinelv>, <ic2:blockmachinelv:5>], 
+[<ic2:blockmachinelv:5>, <ic2:blockmachinelv>, <ic2:blockmachinelv:5>],
 [<thermalfoundation:material:32>, <thermalfoundation:material:32>, <thermalfoundation:material:32>]]);
 
 #plutonium
@@ -101,8 +101,7 @@ recipes.addShaped("CtCutters",<ic2c_extras:wirecutters>,
 [<ore:ingotTin>,null,<ore:ingotTin>]]);
 
 
-#electronic circuit 
-
+#electronic circuit
 recipes.remove(<ic2:itemmisc:451>);
 recipes.addShaped("CTCircuit", <ic2:itemmisc:451>,
 [[<ic2:itemcable:1>,  <ic2:itemcable:1>, <ic2:itemcable:1>],
@@ -119,24 +118,24 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<ic2c_extras:refinedironblock>,
 mods.immersiveengineering.BlastFurnace.addRecipe(<ic2c_extras:refinedironplate>,<thermalfoundation:material:32>,2000,<immersiveengineering:material:7>);
 
 #machine block
-recipes.addShaped("CTbasicframe", <ic2:blockmachinelv>, 
+recipes.addShaped("CTbasicframe", <ic2:blockmachinelv>,
  [[<ic2:itemmisc:53>, <thermalfoundation:material:354>, <ic2:itemmisc:53>],
- [<thermalfoundation:material:354>, <tconstruct:clear_glass>, <thermalfoundation:material:354>], 
+ [<thermalfoundation:material:354>, <tconstruct:clear_glass>, <thermalfoundation:material:354>],
  [<ic2:itemmisc:53>, <thermalfoundation:material:354>, <ic2:itemmisc:53>]]);
 
 #advanced circuit
-mods.forestry.ThermionicFabricator.addCast(<ic2:itemmisc:452>, 
-[[<actuallyadditions:item_crystal_empowered:1>,<minecraft:glowstone_dust>,<actuallyadditions:item_crystal_empowered>], 
+mods.forestry.ThermionicFabricator.addCast(<ic2:itemmisc:452>,
+[[<actuallyadditions:item_crystal_empowered:1>,<minecraft:glowstone_dust>,<actuallyadditions:item_crystal_empowered>],
 [<minecraft:glowstone_dust>,<ic2:itemmisc:451>,<minecraft:glowstone_dust>],
-[<actuallyadditions:item_crystal_empowered>,<minecraft:glowstone_dust>,<actuallyadditions:item_crystal_empowered:1>]], 
+[<actuallyadditions:item_crystal_empowered>,<minecraft:glowstone_dust>,<actuallyadditions:item_crystal_empowered:1>]],
 <liquid: glass> * 200);
 
 #advanced machine casing
 recipes.remove(<ic2:blockmachinemv>);
-mods.forestry.ThermionicFabricator.addCast(<ic2:blockmachinemv>, 
+mods.forestry.ThermionicFabricator.addCast(<ic2:blockmachinemv>,
 [[<ore:plateSteel>, <ic2:itemmisc:256>, <ore:plateSteel>],
 [<ic2:itemmisc:257>, <ore:circuitAdvanced>, <ic2:itemmisc:257>],
-[<ore:plateSteel>, <ic2:itemmisc:256>, <ore:plateSteel>]], 
+[<ore:plateSteel>, <ic2:itemmisc:256>, <ore:plateSteel>]],
 <liquid: glass> * 200);
 
 #content tweaker plates /MetalFormer.addRollingRecipe(,);
@@ -155,16 +154,16 @@ MetalFormer.addRollingRecipe(<thermalfoundation:material:321>, <thermalfoundatio
 
 #electric furnace// ic2
 recipes.remove(<ic2:blockmachinelv:2>);
-recipes.addShapedMirrored("Ctelectricfurnace", <ic2:blockmachinelv:2>, 
+recipes.addShapedMirrored("Ctelectricfurnace", <ic2:blockmachinelv:2>,
  [[<minecraft:redstone>, <ic2:itemmisc:451>, <minecraft:redstone>],
- [<ic2:blockmachinelv:1>, <immersiveengineering:stone_decoration:1>, <ic2:blockmachinelv:1>], 
+ [<ic2:blockmachinelv:1>, <immersiveengineering:stone_decoration:1>, <ic2:blockmachinelv:1>],
  [<minecraft:redstone>, <ic2:itemmisc:451>, <minecraft:redstone>]]);
 
 #mixed metal ingots ic2
 recipes.remove(<ic2:itemmisc:56>);
 recipes.addShaped("CTmixedmetal", <ic2:itemmisc:56> * 2,
  [[<thermalfoundation:material:160>, <thermalfoundation:material:160>, <thermalfoundation:material:160>],
- [<thermalfoundation:material:163>, <thermalfoundation:material:163>, <thermalfoundation:material:163>], 
+ [<thermalfoundation:material:163>, <thermalfoundation:material:163>, <thermalfoundation:material:163>],
  [<thermalfoundation:material:134>, <thermalfoundation:material:134>, <thermalfoundation:material:134>]]);
 
 #macerator obsidian
@@ -192,3 +191,6 @@ ThermalCentrifuge.addRecipe([<thermalfoundation:material:64>, <ic2c_extras:tinti
 ThermalCentrifuge.addRecipe([<thermalfoundation:material:65>, <ic2c_extras:irontinydust>, <ic2c_extras:stonedust>], <ore:crushedTin>, 600);
 ThermalCentrifuge.addRecipe([<thermalfoundation:material:66>, <ic2c_extras:leadtinydust>, <ic2c_extras:stonedust>], <ore:crushedSilver>, 600);
 ThermalCentrifuge.addRecipe([<thermalfoundation:material:67>, <ic2c_extras:coppertinydust>, <ic2c_extras:stonedust>], <ore:crushedLead>, 600);
+
+# add tooltip to scrap how to obtain it
+<ic2:itemmisc:200>addTooltip(format.red("Check the recipe description for how to obtain it."));
