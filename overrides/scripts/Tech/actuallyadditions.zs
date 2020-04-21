@@ -18,9 +18,9 @@ print("Actually additions changes");
 recipes.remove(<actuallyadditions:block_giant_chest>);
 recipes.addShaped(<actuallyadditions:block_giant_chest>, [[<ore:chest>, <ic2:itemmisc:53>, <ore:chest>],[<ic2:itemmisc:53>, <botania:livingwood:0>, <ic2:itemmisc:53>],[<ore:chest>, <ic2:itemmisc:53>, <ore:chest>]]);
 
-#bag
-recipes.remove(<actuallyadditions:item_bag>);
-recipes.addShaped("CTaabag", <actuallyadditions:item_bag>, [[<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],[<minecraft:stick>, <ore:chest>, <minecraft:leather>], [<minecraft:stick>, <minecraft:leather>, <minecraft:leather>]]);
+#bag - removed because of easy dupe method
+# recipes.remove(<actuallyadditions:item_bag>);
+# recipes.addShaped("CTaabag", <actuallyadditions:item_bag>, [[<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],[<minecraft:stick>, <ore:chest>, <minecraft:leather>], [<minecraft:stick>, <minecraft:leather>, <minecraft:leather>]]);
 
 #block breaker
 recipes.remove(<actuallyadditions:block_breaker>);
@@ -29,17 +29,17 @@ recipes.addShaped(<actuallyadditions:block_breaker>, [[<minecraft:cobblestone>, 
 
 #iron casing
 recipes.removeShaped(<actuallyadditions:block_misc:9>);
-recipes.addShaped(<actuallyadditions:block_misc:9>, 
+recipes.addShaped(<actuallyadditions:block_misc:9>,
 [[<thermalfoundation:material:32>, <minecraft:glowstone_dust>, <thermalfoundation:material:32>],
-[<ic2:itemmisc:11>, <ic2:itemmisc:259>, <ic2:itemmisc:11>], 
+[<ic2:itemmisc:11>, <ic2:itemmisc:259>, <ic2:itemmisc:11>],
 [<thermalfoundation:material:32>, <minecraft:glowstone_dust>, <thermalfoundation:material:32>]]);
 
 
 #AAlaser relay
 recipes.removeShaped(<actuallyadditions:block_laser_relay>);
-recipes.addShaped("CTAAlasers", <actuallyadditions:block_laser_relay> * 2, 
+recipes.addShaped("CTAAlasers", <actuallyadditions:block_laser_relay> * 2,
 [[<minecraft:obsidian>, <minecraft:redstone_block>, <minecraft:obsidian>],
-[<actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_misc:8>, <actuallyadditions:item_crystal_empowered>], 
+[<actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_misc:8>, <actuallyadditions:item_crystal_empowered>],
 [<minecraft:obsidian>, <minecraft:redstone_block>, <minecraft:obsidian>]]);
 
 #Empowerer
@@ -69,9 +69,9 @@ recipes.addShaped("CTdisplayStand", <actuallyadditions:block_display_stand>,
 
 #item filter
 recipes.remove(<actuallyadditions:item_filter>);
-recipes.addShaped("CTaafilter", <actuallyadditions:item_filter>, 
+recipes.addShaped("CTaafilter", <actuallyadditions:item_filter>,
 [[null, <minecraft:iron_bars>, null],
-[<minecraft:iron_bars>, <extrautils2:filter>, <minecraft:iron_bars>], 
+[<minecraft:iron_bars>, <extrautils2:filter>, <minecraft:iron_bars>],
 [null, <minecraft:iron_bars>, null]]);
 
 #energy changes
@@ -86,17 +86,17 @@ mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_cry
 
 
 
-var aaDisable  = [
-<actuallyadditions:block_bio_reactor>,
-<actuallyadditions:block_leaf_generator>,
+var aaDisable = [
+	<actuallyadditions:block_bio_reactor>,
+	<actuallyadditions:block_leaf_generator>,
 	<actuallyadditions:item_misc:18>,
 	<actuallyadditions:item_more_damage_lens>,
 	<actuallyadditions:item_explosion_lens>,
 	<actuallyadditions:item_damage_lens>,
 	<actuallyadditions:item_mining_lens>,
-<actuallyadditions:item_color_lens>,
-<actuallyadditions:block_coal_generator>,
-<actuallyadditions:item_drill_upgrade_speed>,
+	<actuallyadditions:item_color_lens>,
+	<actuallyadditions:block_coal_generator>,
+	<actuallyadditions:item_drill_upgrade_speed>,
 	<actuallyadditions:item_drill_upgrade_speed_ii>,
 	<actuallyadditions:item_drill_upgrade_speed_iii>,
 	<actuallyadditions:item_drill_upgrade_silk_touch>,
@@ -123,12 +123,13 @@ var aaDisable  = [
 	<actuallyadditions:item_drill:15>,
 	<actuallyadditions:block_heat_collector>,
 	<actuallyadditions:item_wings_of_the_bats>,
-	<actuallyadditions:block_furnace_solar>
-	]as IItemStack[];
+	<actuallyadditions:block_furnace_solar>,
+	<actuallyadditions:item_bag>
+] as IItemStack[];
 
 val AL = aaDisable.length;
-	
+
 	for i in 0 to AL{
-	
+
 	    mods.jei.JEI.removeAndHide(aaDisable[i]);
 	}
