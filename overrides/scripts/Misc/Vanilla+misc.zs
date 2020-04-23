@@ -9,6 +9,7 @@ import crafttweaker.block.IBlockDefinition;
 import crafttweaker.block.IBlock;
 import crafttweaker.game.IGame;
 import mods.jei.JEI.removeAndHide as removal;
+import mods.jei.JEI.addDescription as addDescription;
 print("Vanilla changes here");
 
 val ironPlate = <thermalfoundation:material:32>;
@@ -43,15 +44,38 @@ recipes.addShaped(<scannable:scanner>.withTag({energy: 5000 as short}), [[<ic2:i
 <thermalfoundation:ore:5>.addTooltip(format.red("Found in caves under y: 40"));
 <thermalfoundation:ore:6>.addTooltip(format.red("Found in caves under y: 16"));
 
-<netherendingores:ore_end_modded_1:9>.addTooltip(format.red("Found in the End"));
-<netherendingores:ore_end_modded_1:10>.addTooltip(format.red("Found in the End"));
-
 <minecraft:diamond>.addTooltip(format.red("Found in Nether surfaces under y: 120"));
 <actuallyadditions:item_misc:5>.addTooltip(format.red("Found in Atum under y: 48"));
 <thermalfoundation:material:132>.addTooltip(format.red("Found in the Nether"));
 <minecraft:coal:1>.addTooltip(format.red("Made with Forestry piles"));
-<appliedenergistics2:material:0>.addTooltip(format.red("Found in the End"));
-<appliedenergistics2:material:1>.addTooltip(format.red("Found in the End"));
+
+# helpful empowerer recipe descriptions
+addDescription(<actuallyadditions:item_misc:24>, "This item requires 4.000 RF in the empowerer to make."); # empowered canola seed
+addDescription(<botania:runealtar>, "This item requires 100.000 RF in the empowerer to make."); # runic altar
+addDescription(<atum:scarab>, "This item requires 150.000 RF in the empowerer to make."); # scarab
+addDescription(<teslacorelib:machine_case>, "This item requires 12.500 RF in the empowerer to make."); # machine case
+addDescription(<appliedenergistics2:material:13>, "This item requires 50.000 RF in the empowerer to make."); # inscriber calculation press
+addDescription(<appliedenergistics2:material:14>, "This item requires 50.000 RF in the empowerer to make."); # inscriber engineering press
+addDescription(<appliedenergistics2:material:15>, "This item requires 50.000 RF in the empowerer to make."); # inscriber logic press
+addDescription(<appliedenergistics2:material:19>, "This item requires 50.000 RF in the empowerer to make."); # inscriber silicon press
+addDescription(<actuallyadditions:item_crystal_empowered:3>, "This item requires 50.000 RF in the empowerer to make."); # empowered void crystal
+addDescription(<actuallyadditions:item_crystal_empowered:5>, "This item requires 150.000 RF in the empowerer to make."); # empowered enori crystal
+addDescription(<actuallyadditions:item_crystal_empowered>, "This item requires 150.000 RF in the empowerer to make."); # empowered restonia crystal
+addDescription(<actuallyadditions:item_crystal_empowered:1>, "This item requires 210.000 RF in the empowerer to make."); # empowered palis crystal
+addDescription(<actuallyadditions:item_crystal_empowered:2>, "This item requires 400.000 RF in the empowerer to make."); # empowered diamantine crystal
+addDescription(<actuallyadditions:item_crystal_empowered:4>, "This item requires 600.000 RF in the empowerer to make."); # empowered emeradic crystal
+addDescription(<actuallyadditions:block_crystal_empowered:3>, "This item requires 500.000 RF in the empowerer to make."); # empowered void crystal block
+addDescription(<actuallyadditions:block_crystal_empowered:5>, "This item requires 1.500.000 RF in the empowerer to make."); # empowered enori crystal block
+addDescription(<actuallyadditions:block_crystal_empowered>, "This item requires 1.500.000 RF in the empowerer to make."); # empowered restonia crystal block
+addDescription(<actuallyadditions:block_crystal_empowered:1>, "This item requires 2.100.000 RF in the empowerer to make."); # empowered palis crystal block
+addDescription(<actuallyadditions:block_crystal_empowered:2>, "This item requires 4.000.000 RF in the empowerer to make."); # empowered diamantine crystal block
+addDescription(<actuallyadditions:block_crystal_empowered:4>, "This item requires 6.000.000 RF in the empowerer to make."); # empowered emeradic crystal block
+
+# other helpful descriptions
+addDescription(<thaumcraft:thaumonomicon>, "Made by right-clicking a vanilla bookshelf with Salis Mundus."); # thaumonomicon
+addDescription(<thaumcraft:arcane_workbench>, "Made by right-clicking a crafting table with Salis Mundus."); # arcane workbench
+addDescription(<thaumcraft:crucible>, "Made by right-clicking a vanilla cauldron with Salis Mundus."); # crucible
+addDescription(<ic2:itemmisc:200>, "Made by recycling things in the recycler."); # scrap
 
 #iron plate @quark
 recipes.removeShaped(<quark:iron_plate> * 24,
@@ -223,38 +247,13 @@ recipes.addShaped(<superfactorymanager:cable> * 2,
  [<thermalfoundation:glass:3>, <quark:obsidian_pressure_plate>, <thermalfoundation:glass:3>]]);
 
 #remove pyrotheum hardened glass recipes
-recipes.removeShapeless(<ore:blockGlassHardened>);
+recipes.removeShaped(<ore:blockGlassHardened>);
 
 #Mining turtles
-mods.jei.JEI.hide(<computercraft:turtle:0>);
-var regularTurtle = <computercraft:turtle_expanded> | <computercraft:turtle:*>;
-recipes.removeByRecipeName("computercraft:normal_turtle");
-recipes.addShaped("turtle", <computercraft:turtle_expanded>, [
-[<ore:ingotRefinedIron>, <ore:ingotRefinedIron>, <ore:ingotRefinedIron>], 
-[<ore:ingotRefinedIron>, <computercraft:computer>.marked("nbt"), <ore:ingotRefinedIron>], 
-[<ore:ingotRefinedIron>, <ic2:itemmisc:452>, <ore:ingotRefinedIron>]],
-function(out, ins, cInfo){
-	return out.withTag(ins.nbt.tag);
-},
-null);
-recipes.removeByRecipeName("computercraft:advanced_turtle");
-recipes.addShaped("advanced_turtle", <computercraft:turtle_advanced>, [[<ore:ingotGold>, <actuallyadditions:block_crystal_empowered:5>, <ore:ingotGold>], [<ore:ingotGold>, <computercraft:computer:16384>.marked("nbt"), <ore:ingotGold>], [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]],
-function(out, ins, cInfo){
-	return out.withTag(ins.nbt.tag);
-},
-null);
-recipes.removeByRecipeName("computercraft:advanced_turtle_upgrade");
-recipes.addShaped("turtle_upgrade", <computercraft:turtle_advanced>, [
-[<ore:ingotGold>, <actuallyadditions:block_crystal_empowered:5>, <ore:ingotGold>], 
-[<ore:ingotGold>, regularTurtle.marked("nbt"), <ore:ingotGold>], 
-[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]], 
-function(out, ins, cInfo){
-	return out.withTag(ins.nbt.tag);
-},
-null);
-dan200.computercraft.turtle.removeUpgrade(<minecraft:diamond_pickaxe>);
-dan200.computercraft.turtle.addTool("minecraft:diamond_pickaxe", <thaumcraft:elemental_pick>, <minecraft:diamond_pickaxe>);
-recipes.addShapeless("thaum_pickaxe_enchant_clear", <thaumcraft:elemental_pick>, [<thaumcraft:elemental_pick>]);
+recipes.remove(<computercraft:turtle:1>);
+recipes.remove(<computercraft:turtle_advanced>.withTag({leftUpgrade: 5 as short}));
+recipes.addShaped(<computercraft:turtle_advanced>.withTag({leftUpgrade: 5 as short}), [[<minecraft:gold_ingot>, <actuallyadditions:block_crystal_empowered:5>, <minecraft:gold_ingot>],[<minecraft:gold_ingot>, <computercraft:turtle:1>, <minecraft:gold_ingot>], [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>]]);
+recipes.addShaped(<computercraft:turtle:1>, [[<ic2:itemmisc:53>, <ic2:itemmisc:53>, <ic2:itemmisc:53>],[<ic2:itemmisc:452>, <computercraft:computer:*>, <thaumcraft:elemental_pick>], [<ic2:itemmisc:53>, <ic2:itemmisc:53>, <ic2:itemmisc:53>]]);
 
 #xnet changes
 

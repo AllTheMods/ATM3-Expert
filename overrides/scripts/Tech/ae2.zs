@@ -9,6 +9,7 @@ import crafttweaker.block.IBlockDefinition;
 import crafttweaker.block.IBlock;
 import crafttweaker.game.IGame;
 import mods.jei.JEI.removeAndHide;
+import mods.jei.JEI.addDescription as addDescription;
 import mods.forestry.ThermionicFabricator; # mods.forestry.ThermionicFabricator.addCast(,    [[],   [],   []],    <liquid: glass> * 200);
 
 print("AE2 recipe changes");
@@ -109,3 +110,8 @@ mods.jei.JEI.removeAndHide(<appliedenergistics2:nether_quartz_hoe>);
 mods.jei.JEI.removeAndHide(<appliedenergistics2:nether_quartz_spade>);
 mods.jei.JEI.removeAndHide(<appliedenergistics2:nether_quartz_pickaxe>);
 mods.jei.JEI.removeAndHide(<appliedenergistics2:nether_quartz_sword>);
+
+# make a template how to craft the facades so we can hide them to avoid spamming JEI
+var stoneFacade = <appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:stone"});
+addDescription(stoneFacade, "To craft facades, place the block you want to make a facade of in the centre of the crafting grid (3x3) and four AE2 cable anchors on all adjacent sides of that block. If no output appears, you can't create a facade with that block.");
+stoneFacade.addTooltip(format.red("Check the recipe description for a crafting guide."));
