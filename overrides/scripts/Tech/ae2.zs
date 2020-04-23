@@ -28,7 +28,7 @@ recipes.addShaped(<threng:machine:2>,
  [<appliedenergistics2:material:13>, <teslacorelib:machine_case>, <appliedenergistics2:material:19>]]);
 
 #elementiumprocessor
-mods.appliedenergistics2.Inscriber.addRecipe(<contenttweaker:elementiumprocessor>, <contenttweaker:elementiumprint>, false, <ore:dustRedstone>, <appliedenergistics2:material:20>);
+mods.appliedenergistics2.Inscriber.addRecipe(<contenttweaker:elementiumprocessor>, <ore:dustRedstone>, false, <contenttweaker:elementiumprint>, <appliedenergistics2:material:20>);
 mods.appliedenergistics2.Inscriber.addRecipe(<contenttweaker:elementiumprint>, <botania:manaresource:7>, true, <appliedenergistics2:material:14>);
 
 #quartz glass
