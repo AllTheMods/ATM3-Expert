@@ -193,4 +193,4 @@ ThermalCentrifuge.addRecipe([<thermalfoundation:material:66>, <ic2c_extras:leadt
 ThermalCentrifuge.addRecipe([<thermalfoundation:material:67>, <ic2c_extras:coppertinydust>, <ic2c_extras:stonedust>], <ore:crushedLead>, 600);
 
 # add tooltip to scrap how to obtain it
-<ic2:itemmisc:200>addTooltip(format.red("Check the recipe description for how to obtain it."));
+<ic2:itemmisc:200>.addTooltip(format.red("Check the recipe description for how to obtain it."));
