@@ -1,21 +1,21 @@
 {
-	"populate": {
-		"black_quartz_ore": {
-			"distribution": "cave",
-			"generator": {
-				"block":
- { "name": "actuallyadditions:block_misc",
-					"metadata": 3
-					},
-				"material": "atum:limestone",
-				"cluster-size": 8
-			},
-			"cluster-count": 4,
-			"chunk-chance": 1,
-			"ground-level": 48,
-			"biome": "all",
-			"retrogen": false,
-			"dimension": "all"
-		}
-	}
+    "populate": {
+        "black_quartz_ore": {
+            "distribution": "cave",
+            "generator": {
+                "block": {
+                    "name": "actuallyadditions:block_misc",
+                    "metadata": 3
+                },
+                "material": "atum:limestone",
+                "cluster-size": 8
+            },
+            "cluster-count": 4,
+            "chunk-chance": 1,
+            "ground-level": 48,
+            "biome": "all",
+            "retrogen": false,
+            "dimension": "all"
+        }
+    }
 }
