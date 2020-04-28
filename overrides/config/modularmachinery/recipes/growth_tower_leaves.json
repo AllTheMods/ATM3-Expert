@@ -3,7 +3,6 @@
     "registryName": "growth_tower_leaves",
     "recipeTime": 15,
     "requirements": [
-        
         {
             "type": "item",
             "io-type": "output",

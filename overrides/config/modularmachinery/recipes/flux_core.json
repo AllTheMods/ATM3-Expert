@@ -3,13 +3,12 @@
     "registryName": "mag_fab_fluxcore",
     "recipeTime": 200,
     "requirements": [
-        
-		{
+        {
             "type": "energy",
             "io-type": "input",
             "energyPerTick": 2500
-        },        
-		{
+        },
+        {
             "type": "item",
             "io-type": "output",
             "item": "fluxnetworks:fluxcore",

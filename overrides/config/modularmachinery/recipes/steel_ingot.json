@@ -3,8 +3,7 @@
     "registryName": "chiller_steelingot",
     "recipeTime": 300,
     "requirements": [
-	
-		{
+        {
             "type": "energy",
             "io-type": "input",
             "energyPerTick": 80

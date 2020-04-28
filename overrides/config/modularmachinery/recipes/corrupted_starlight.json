@@ -3,13 +3,12 @@
     "registryName": "mag_fab_starlight",
     "recipeTime": 300,
     "requirements": [
-        
-		{
+        {
             "type": "energy",
             "io-type": "input",
             "energyPerTick": 1600
-        },        
-		{
+        },
+        {
             "type": "item",
             "io-type": "output",
             "item": "contenttweaker:corruptedstarmetal",

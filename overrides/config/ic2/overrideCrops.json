@@ -1,486 +1,433 @@
 {
-  "crops":
-  [
-    {
-      "name": "Ferru",
-      "owner": "ic2",
-      "id": "ferru",
-      "optimalstage": 4,
-      "totalstages": 4,
-      "display":
-      {
-        "name": "thermalfoundation:material",
-        "meta": 0
-      },
-      "defaultStage":
-      {
-        "points": 800,
-        "redstoneStrength": 0,
-        "resetStage": 2,
-        "lightLevel": 0
-      },
-      "stages":
-      [
+    "crops": [
         {
-          "index": 1,
-          "parentIndex": -1,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_1"]
-        },
-        {
-          "index": 2,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_2"]
-        },
-        {
-          "index": 3,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_3"],
-          "points": 2000,
-          "requirements" :
-          {
-            "block":
-            [
-              {
-                "ore": true,
-                "name": "blockCrystalEmpoweredEnori"
-              }
+            "name": "Ferru",
+            "owner": "ic2",
+            "id": "ferru",
+            "optimalstage": 4,
+            "totalstages": 4,
+            "display": {
+                "name": "thermalfoundation:material",
+                "meta": 0
+            },
+            "defaultStage": {
+                "points": 800,
+                "redstoneStrength": 0,
+                "resetStage": 2,
+                "lightLevel": 0
+            },
+            "stages": [
+                {
+                    "index": 1,
+                    "parentIndex": -1,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_1" ]
+                },
+                {
+                    "index": 2,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_2" ]
+                },
+                {
+                    "index": 3,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_3" ],
+                    "points": 2000,
+                    "requirements": {
+                        "block": [
+                            {
+                                "ore": true,
+                                "name": "blockCrystalEmpoweredEnori"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "index": 4,
+                    "textures": [ "ic2c_crop_overrides:crop_ferru" ],
+                    "drop": {
+                        "name": "thermalfoundation:material",
+                        "count": 1,
+                        "meta": 0
+                    }
+                }
             ]
-          }
         },
         {
-          "index": 4,
-          "textures": ["ic2c_crop_overrides:crop_ferru"],
-          "drop":
-          {
-            "name": "thermalfoundation:material",
-            "count": 1,
-            "meta": 0
-          }
-        }
-      ]
-    },
-    {
-      "name": "Malachite",
-      "owner": "ic2",
-      "id": "malachite",
-      "optimalstage": 4,
-      "totalstages": 4,
-      "display":
-      {
-        "name": "thermalfoundation:material",
-        "meta": 64
-      },
-      "defaultStage":
-      {
-        "points": 800,
-        "redstoneStrength": 0,
-        "resetStage": 2,
-        "lightLevel": 0
-      },
-      "stages":
-      [
-        {
-          "index": 1,
-          "parentIndex": -1,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_1"]
-        },
-        {
-          "index": 2,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_2"]
-        },
-        {
-          "index": 3,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_3"],
-          "points": 2000,
-          "requirements" :
-          {
-            "block":
-            [
-              {
-                "ore": true,
-                "name": "blockGlassHardenedCopper"
-              }
+            "name": "Malachite",
+            "owner": "ic2",
+            "id": "malachite",
+            "optimalstage": 4,
+            "totalstages": 4,
+            "display": {
+                "name": "thermalfoundation:material",
+                "meta": 64
+            },
+            "defaultStage": {
+                "points": 800,
+                "redstoneStrength": 0,
+                "resetStage": 2,
+                "lightLevel": 0
+            },
+            "stages": [
+                {
+                    "index": 1,
+                    "parentIndex": -1,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_1" ]
+                },
+                {
+                    "index": 2,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_2" ]
+                },
+                {
+                    "index": 3,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_3" ],
+                    "points": 2000,
+                    "requirements": {
+                        "block": [
+                            {
+                                "ore": true,
+                                "name": "blockGlassHardenedCopper"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "index": 4,
+                    "textures": [ "ic2c_crop_overrides:crop_malachite" ],
+                    "drop": {
+                        "name": "thermalfoundation:material",
+                        "count": 1,
+                        "meta": 64
+                    }
+                }
             ]
-          }
         },
         {
-          "index": 4,
-          "textures": ["ic2c_crop_overrides:crop_malachite"],
-          "drop":
-          {
-            "name": "thermalfoundation:material",
-            "count": 1,
-            "meta": 64
-          }
-        }
-      ]
-    },
-    {
-      "name": "Stannum",
-      "owner": "ic2",
-      "id": "stannum",
-      "optimalstage": 4,
-      "totalstages": 4,
-      "display":
-      {
-        "name": "thermalfoundation:material",
-        "meta": 65
-      },
-      "defaultStage":
-      {
-        "points": 800,
-        "redstoneStrength": 0,
-        "resetStage": 2,
-        "lightLevel": 0
-      },
-      "stages":
-      [
-        {
-          "index": 1,
-          "parentIndex": -1,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_1"]
-        },
-        {
-          "index": 2,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_2"]
-        },
-        {
-          "index": 3,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_3"],
-          "points": 2000,
-          "requirements" :
-          {
-            "block":
-            [
-              {
-                "ore": true,
-                "name": "blockGlassHardenedTin"
-              }
+            "name": "Stannum",
+            "owner": "ic2",
+            "id": "stannum",
+            "optimalstage": 4,
+            "totalstages": 4,
+            "display": {
+                "name": "thermalfoundation:material",
+                "meta": 65
+            },
+            "defaultStage": {
+                "points": 800,
+                "redstoneStrength": 0,
+                "resetStage": 2,
+                "lightLevel": 0
+            },
+            "stages": [
+                {
+                    "index": 1,
+                    "parentIndex": -1,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_1" ]
+                },
+                {
+                    "index": 2,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_2" ]
+                },
+                {
+                    "index": 3,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_3" ],
+                    "points": 2000,
+                    "requirements": {
+                        "block": [
+                            {
+                                "ore": true,
+                                "name": "blockGlassHardenedTin"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "index": 4,
+                    "textures": [ "ic2c_crop_overrides:crop_stannum" ],
+                    "drop": {
+                        "name": "thermalfoundation:material",
+                        "count": 1,
+                        "meta": 65
+                    }
+                }
             ]
-          }
         },
         {
-          "index": 4,
-          "textures": ["ic2c_crop_overrides:crop_stannum"],
-          "drop":
-          {
-            "name": "thermalfoundation:material",
-            "count": 1,
-            "meta": 65
-          }
-        }
-      ]
-    },
-    {
-      "name": "Aurelia",
-      "owner": "ic2",
-      "id": "aurelia",
-      "optimalstage": 4,
-      "totalstages": 4,
-      "display":
-      {
-        "name": "thermalfoundation:material",
-        "meta": 1
-      },
-      "defaultStage":
-      {
-        "points": 1000,
-        "redstoneStrength": 0,
-        "resetStage": 2,
-        "lightLevel": 0
-      },
-      "stages":
-      [
-        {
-          "index": 1,
-          "parentIndex": -1,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_1"]
-        },
-        {
-          "index": 2,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_2"]
-        },
-        {
-          "index": 3,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_3"],
-          "points": 2200,
-          "requirements" :
-          {
-            "block":
-            [
-              {
-                "ore": true,
-                "name": "blockGlassHardenedGold"
-              }
+            "name": "Aurelia",
+            "owner": "ic2",
+            "id": "aurelia",
+            "optimalstage": 4,
+            "totalstages": 4,
+            "display": {
+                "name": "thermalfoundation:material",
+                "meta": 1
+            },
+            "defaultStage": {
+                "points": 1000,
+                "redstoneStrength": 0,
+                "resetStage": 2,
+                "lightLevel": 0
+            },
+            "stages": [
+                {
+                    "index": 1,
+                    "parentIndex": -1,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_1" ]
+                },
+                {
+                    "index": 2,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_2" ]
+                },
+                {
+                    "index": 3,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_3" ],
+                    "points": 2200,
+                    "requirements": {
+                        "block": [
+                            {
+                                "ore": true,
+                                "name": "blockGlassHardenedGold"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "index": 4,
+                    "textures": [ "ic2c_crop_overrides:crop_aurelia" ],
+                    "drop": {
+                        "name": "thermalfoundation:material",
+                        "count": 1,
+                        "meta": 1
+                    }
+                }
             ]
-          }
         },
         {
-          "index": 4,
-          "textures": ["ic2c_crop_overrides:crop_aurelia"],
-          "drop":
-          {
-            "name": "thermalfoundation:material",
-            "count": 1,
-            "meta": 1
-          }
-        }
-      ]
-    },
-    {
-      "name": "Argentum",
-      "owner": "ic2",
-      "id": "argentum",
-      "optimalstage": 4,
-      "totalstages": 4,
-      "display":
-      {
-        "name": "thermalfoundation:material",
-        "meta": 66
-      },
-      "defaultStage":
-      {
-        "points": 1000,
-        "redstoneStrength": 0,
-        "resetStage": 2,
-        "lightLevel": 0
-      },
-      "stages":
-      [
-        {
-          "index": 1,
-          "parentIndex": -1,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_1"]
-        },
-        {
-          "index": 2,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_2"]
-        },
-        {
-          "index": 3,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_3"],
-          "points": 2200,
-          "requirements" :
-          {
-            "block":
-            [
-              {
-                "ore": true,
-                "name": "blockGlassHardenedSilver"
-              }
+            "name": "Argentum",
+            "owner": "ic2",
+            "id": "argentum",
+            "optimalstage": 4,
+            "totalstages": 4,
+            "display": {
+                "name": "thermalfoundation:material",
+                "meta": 66
+            },
+            "defaultStage": {
+                "points": 1000,
+                "redstoneStrength": 0,
+                "resetStage": 2,
+                "lightLevel": 0
+            },
+            "stages": [
+                {
+                    "index": 1,
+                    "parentIndex": -1,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_1" ]
+                },
+                {
+                    "index": 2,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_2" ]
+                },
+                {
+                    "index": 3,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_3" ],
+                    "points": 2200,
+                    "requirements": {
+                        "block": [
+                            {
+                                "ore": true,
+                                "name": "blockGlassHardenedSilver"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "index": 4,
+                    "textures": [ "ic2c_crop_overrides:crop_argentum" ],
+                    "drop": {
+                        "name": "thermalfoundation:material",
+                        "count": 1,
+                        "meta": 66
+                    }
+                }
             ]
-          }
         },
         {
-          "index": 4,
-          "textures": ["ic2c_crop_overrides:crop_argentum"],
-          "drop":
-          {
-            "name": "thermalfoundation:material",
-            "count": 1,
-            "meta": 66
-          }
-        }
-      ]
-    },
-    {
-      "name": "Plumbilia",
-      "owner": "ic2",
-      "id": "plumbilia",
-      "optimalstage": 4,
-      "totalstages": 4,
-      "display":
-      {
-        "name": "thermalfoundation:material",
-        "meta": 67
-      },
-      "defaultStage":
-      {
-        "points": 1000,
-        "redstoneStrength": 0,
-        "resetStage": 2,
-        "lightLevel": 0
-      },
-      "stages":
-      [
-        {
-          "index": 1,
-          "parentIndex": -1,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_1"]
-        },
-        {
-          "index": 2,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_2"]
-        },
-        {
-          "index": 3,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_3"],
-          "points": 2200,
-          "requirements" :
-          {
-            "block":
-            [
-              {
-                "ore": true,
-                "name": "blockGlassHardenedLead"
-              }
+            "name": "Plumbilia",
+            "owner": "ic2",
+            "id": "plumbilia",
+            "optimalstage": 4,
+            "totalstages": 4,
+            "display": {
+                "name": "thermalfoundation:material",
+                "meta": 67
+            },
+            "defaultStage": {
+                "points": 1000,
+                "redstoneStrength": 0,
+                "resetStage": 2,
+                "lightLevel": 0
+            },
+            "stages": [
+                {
+                    "index": 1,
+                    "parentIndex": -1,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_1" ]
+                },
+                {
+                    "index": 2,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_2" ]
+                },
+                {
+                    "index": 3,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_3" ],
+                    "points": 2200,
+                    "requirements": {
+                        "block": [
+                            {
+                                "ore": true,
+                                "name": "blockGlassHardenedLead"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "index": 4,
+                    "textures": [ "ic2c_extras:sprites/crops" ],
+                    "drop": {
+                        "name": "thermalfoundation:material",
+                        "count": 1,
+                        "meta": 67
+                    }
+                }
             ]
-          }
         },
         {
-          "index": 4,
-          "textures": ["ic2c_extras:sprites/crops"],
-          "drop":
-          {
-            "name": "thermalfoundation:material",
-            "count": 1,
-            "meta": 67
-          }
-        }
-      ]
-    },
-    {
-      "name": "Bluewheat",
-      "owner": "ic2",
-      "id": "bluewheat",
-      "optimalstage": 7,
-      "totalstages": 7,
-      "display":
-      {
-        "name": "minecraft:dye",
-        "meta": 4
-      },
-      "defaultStage":
-      {
-        "points": 600,
-        "redstoneStrength": 0,
-        "resetStage": 2,
-        "lightLevel": 0,
-        "requirements":
-        {
-          "humidity": [8, 20]
-        }
-      },
-      "stages":
-      [
-        {
-          "index": 1,
-          "parentIndex": -1,
-          "textures": ["ic2c_crop_overrides:crop_wheat_stage_1"]
-        },
-        {
-          "index": 2,
-          "textures": ["ic2c_crop_overrides:crop_wheat_stage_2"]
-        },
-        {
-          "index": 3,
-          "textures": ["ic2c_crop_overrides:crop_wheat_stage_3"]
-        },
-        {
-          "index": 4,
-          "textures": ["ic2c_crop_overrides:crop_wheat_stage_4"]
-        },
-        {
-          "index": 5,
-          "textures": ["ic2c_crop_overrides:crop_wheat_stage_5"],
-          "requirements" :
-          {
-            "humidity": [8, 20],
-            "block":
-            [
-              {
-                "ore": true,
-                "name": "blockCrystalEmpoweredPalis"
-              }
+            "name": "Bluewheat",
+            "owner": "ic2",
+            "id": "bluewheat",
+            "optimalstage": 7,
+            "totalstages": 7,
+            "display": {
+                "name": "minecraft:dye",
+                "meta": 4
+            },
+            "defaultStage": {
+                "points": 600,
+                "redstoneStrength": 0,
+                "resetStage": 2,
+                "lightLevel": 0,
+                "requirements": {
+                    "humidity": [ 8, 20 ]
+                }
+            },
+            "stages": [
+                {
+                    "index": 1,
+                    "parentIndex": -1,
+                    "textures": [ "ic2c_crop_overrides:crop_wheat_stage_1" ]
+                },
+                {
+                    "index": 2,
+                    "textures": [ "ic2c_crop_overrides:crop_wheat_stage_2" ]
+                },
+                {
+                    "index": 3,
+                    "textures": [ "ic2c_crop_overrides:crop_wheat_stage_3" ]
+                },
+                {
+                    "index": 4,
+                    "textures": [ "ic2c_crop_overrides:crop_wheat_stage_4" ]
+                },
+                {
+                    "index": 5,
+                    "textures": [ "ic2c_crop_overrides:crop_wheat_stage_5" ],
+                    "requirements": {
+                        "humidity": [ 8, 20 ],
+                        "block": [
+                            {
+                                "ore": true,
+                                "name": "blockCrystalEmpoweredPalis"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "index": 6,
+                    "textures": [ "ic2c_crop_overrides:crop_wheat_stage_6" ],
+                    "requirements": {
+                        "humidity": [ 8, 20 ],
+                        "block": [
+                            {
+                                "ore": true,
+                                "name": "blockCrystalEmpoweredPalis"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "index": 7,
+                    "textures": [ "ic2c_crop_overrides:crop_bluewheat" ],
+                    "drop": {
+                        "name": "minecraft:dye",
+                        "count": 1,
+                        "meta": 4
+                    }
+                }
             ]
-          }
         },
         {
-          "index": 6,
-          "textures": ["ic2c_crop_overrides:crop_wheat_stage_6"],
-          "requirements" :
-          {
-            "humidity": [8, 20],
-            "block":
-            [
-              {
-                "ore": true,
-                "name": "blockCrystalEmpoweredPalis"
-              }
+            "name": "Coffee",
+            "owner": "ic2",
+            "id": "coffee",
+            "optimalstage": 5,
+            "totalstages": 5,
+            "display": {
+                "name": "actuallyadditions:item_coffee_beans",
+                "meta": 0
+            },
+            "defaultStage": {
+                "points": 1400,
+                "redstoneStrength": 0,
+                "resetStage": 3,
+                "lightLevel": 0,
+                "requirements": {
+                    "light": [ 9 ]
+                }
+            },
+            "stages": [
+                {
+                    "index": 1,
+                    "parentIndex": -1,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_1" ]
+                },
+                {
+                    "index": 2,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_2" ]
+                },
+                {
+                    "index": 3,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_3" ],
+                    "points": 700
+                },
+                {
+                    "index": 4,
+                    "textures": [ "ic2c_crop_overrides:crop_coffee_stage_4" ],
+                    "points": 2100
+                },
+                {
+                    "index": 5,
+                    "textures": [ "ic2c_crop_overrides:crop_coffee_stage_5" ],
+                    "drop": {
+                        "name": "actuallyadditions:item_coffee_beans",
+                        "count": 1,
+                        "meta": 0
+                    },
+                    "seedDrop": {
+                        "name": "actuallyadditions:item_coffee_seed",
+                        "count": 1,
+                        "meta": 0
+                    }
+                }
             ]
-          }
-        },
-        {
-          "index": 7,
-          "textures": ["ic2c_crop_overrides:crop_bluewheat"],
-          "drop":
-          {
-            "name": "minecraft:dye",
-            "count": 1,
-            "meta": 4
-          }
         }
-      ]
-    },
-    {
-      "name": "Coffee",
-      "owner": "ic2",
-      "id": "coffee",
-      "optimalstage": 5,
-      "totalstages": 5,
-      "display":
-      {
-        "name": "actuallyadditions:item_coffee_beans",
-        "meta": 0
-      },
-      "defaultStage":
-      {
-        "points": 1400,
-        "redstoneStrength": 0,
-        "resetStage": 3,
-        "lightLevel": 0,
-        "requirements":
-        {
-          "light": [9]
-
-        }
-      },
-      "stages":
-      [
-        {
-          "index": 1,
-          "parentIndex": -1,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_1"]
-        },
-        {
-          "index": 2,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_2"]
-        },
-        {
-          "index": 3,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_3"],
-          "points": 700
-        },
-        {
-          "index": 4,
-          "textures": ["ic2c_crop_overrides:crop_coffee_stage_4"],
-          "points": 2100
-        },
-        {
-          "index": 5,
-          "textures": ["ic2c_crop_overrides:crop_coffee_stage_5"],
-          "drop":
-          {
-            "name": "actuallyadditions:item_coffee_beans",
-            "count": 1,
-            "meta": 0
-          },
-          "seedDrop":
-          {
-            "name": "actuallyadditions:item_coffee_seed",
-            "count": 1,
-            "meta": 0
-          }
-        }
-      ]
-    }
-  ]
+    ]
 }

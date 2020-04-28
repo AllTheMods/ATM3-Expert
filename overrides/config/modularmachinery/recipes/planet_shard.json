@@ -3,13 +3,12 @@
     "registryName": "mag_fab_planetshard",
     "recipeTime": 100,
     "requirements": [
-        
-		{
+        {
             "type": "energy",
             "io-type": "input",
             "energyPerTick": 1000
-        },        
-		{
+        },
+        {
             "type": "item",
             "io-type": "output",
             "item": "contenttweaker:planetshard",

@@ -3,8 +3,7 @@
     "registryName": "chiller_chilledingot",
     "recipeTime": 600,
     "requirements": [
-	
-		{
+        {
             "type": "energy",
             "io-type": "input",
             "energyPerTick": 80

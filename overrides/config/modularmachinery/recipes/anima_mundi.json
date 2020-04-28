@@ -3,13 +3,12 @@
     "registryName": "mag_fab_mundi",
     "recipeTime": 4000,
     "requirements": [
-        
-		{
+        {
             "type": "energy",
             "io-type": "input",
             "energyPerTick": 20000
-        },        
-		{
+        },
+        {
             "type": "item",
             "io-type": "output",
             "item": "atmtweaks:item_material@4",
@@ -39,7 +38,7 @@
             "item": "astralsorcery:itemcraftingcomponent@1",
             "amount": 16
         },
-		{
+        {
             "type": "item",
             "io-type": "input",
             "item": "ic2:itemmisc@202",

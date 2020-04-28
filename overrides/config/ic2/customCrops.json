@@ -1,821 +1,738 @@
 {
-  "crops":
-  [
-    {
-      "name": "Canola",
-      "owner": "actuallyadditions",
-      "id": "canola",
-      "discovered": "Oly2o6",
-      "dropchance": 1.0,
-      "optimalstage": 4,
-      "totalstages": 4,
-      "attributes": ["Canola", "Flower", "Yellow"],
-      "props":
-      {
-        "tier": 2,
-        "chemistry": 1,
-        "consumable": 1,
-        "defensive": 0,
-        "colorful": 5,
-        "weed": 1
-      },
-      "display":
-      {
-        "name": "actuallyadditions:item_misc",
-        "meta": 13
-      },
-      "defaultStage":
-      {
-        "points": 400,
-        "redstoneStrength": 0,
-        "lightLevel": 0,
-        "requirements":
+    "crops": [
         {
-          "light": [10, 15]
-        }
-      },
-      "stages":
-      [
-        {
-          "index": 1,
-          "parentIndex": -1,
-          "textures": ["actuallyadditions:blocks/block_canola_stage_1"]
-        },
-        {
-          "index": 2,
-          "textures": ["actuallyadditions:blocks/block_canola_stage_2"]
-        },
-        {
-          "index": 3,
-          "textures": ["actuallyadditions:blocks/block_canola_stage_3"],
-          "points": 600
-        },
-        {
-          "index": 4,
-          "textures": ["actuallyadditions:blocks/block_canola_stage_4"],
-          "drop":
-          {
-            "name": "actuallyadditions:item_misc",
-            "count": 1,
-            "meta": 13
-          },
-          "seedDrop":
-          {
-            "name": "actuallyadditions:item_canola_seed",
-            "count": 1,
-            "meta": 0
-          }
-        }
-      ]
-    },
-    {
-      "name": "Rice",
-      "owner": "actuallyadditions",
-      "id": "rice",
-      "discovered": "Oly2o6",
-      "dropchance": 1.0,
-      "optimalstage": 7,
-      "totalstages": 7,
-      "attributes": ["White", "Rice", "Food", "Wheat"],
-      "props":
-      {
-        "tier": 1,
-        "chemistry": 0,
-        "consumable": 4,
-        "defensive": 0,
-        "colorful": 1,
-        "weed": 1
-      },
-      "display":
-      {
-        "name": "actuallyadditions:item_food",
-        "meta": 16
-      },
-      "defaultStage":
-      {
-        "points": 200,
-        "redstoneStrength": 0,
-        "lightLevel": 0,
-        "requirements":
-        {
-          "light": [10, 15],
-          "humidity": [10, 20]
-        }
-      },
-      "stages":
-      [
-        {
-          "index": 1,
-          "parentIndex": -1,
-          "textures": ["actuallyadditions:blocks/block_rice_stage_1"]
-        },
-        {
-          "index": 2,
-          "textures": ["actuallyadditions:blocks/block_rice_stage_2"]
-        },
-        {
-          "index": 3,
-          "textures": ["actuallyadditions:blocks/block_rice_stage_2"]
-        },
-        {
-          "index": 4,
-          "textures": ["actuallyadditions:blocks/block_rice_stage_3"]
-        },
-        {
-          "index": 5,
-          "textures": ["actuallyadditions:blocks/block_rice_stage_4"]
-        },
-        {
-          "index": 6,
-          "textures": ["actuallyadditions:blocks/block_rice_stage_5"]
-        },
-        {
-          "index": 7,
-          "textures": ["actuallyadditions:blocks/block_rice_stage_6"],
-          "drop":
-          {
-            "name": "actuallyadditions:item_food",
-            "count": 1,
-            "meta": 16
-          },
-          "seedDrop":
-          {
-            "name": "actuallyadditions:item_rice_seed",
-            "count": 1,
-            "meta": 0
-          }
-        }
-      ]
-    },
-    {
-      "name": "Flax",
-      "owner": "actuallyadditions",
-      "id": "flax",
-      "discovered": "Oly2o6",
-      "dropchance": 1.0,
-      "optimalstage": 6,
-      "totalstages": 6,
-      "attributes": ["Magenta", "Leaves", "Ingredient"],
-      "props":
-      {
-        "tier": 2,
-        "chemistry": 1,
-        "consumable": 2,
-        "defensive": 0,
-        "colorful": 3,
-        "weed": 0
-      },
-      "display":
-      {
-        "name": "minecraft:string"
-      },
-      "defaultStage":
-      {
-        "points": 300,
-        "redstoneStrength": 0,
-        "lightLevel": 0,
-        "requirements":
-        {
-          "light": [10, 15]
-        }
-      },
-      "stages":
-      [
-        {
-          "index": 1,
-          "parentIndex": -1,
-          "textures": ["actuallyadditions:blocks/block_flax_stage_1"]
-        },
-        {
-          "index": 2,
-          "textures": ["actuallyadditions:blocks/block_flax_stage_2"]
-        },
-        {
-          "index": 3,
-          "textures": ["actuallyadditions:blocks/block_flax_stage_3"]
-        },
-        {
-          "index": 4,
-          "textures": ["actuallyadditions:blocks/block_flax_stage_4"],
-          "points": 200
-        },
-        {
-          "index": 5,
-          "textures": ["actuallyadditions:blocks/block_flax_stage_5"],
-          "points": 200
-        },
-        {
-          "index": 6,
-          "textures": ["actuallyadditions:blocks/block_flax_stage_6"],
-          "drop":
-          {
-            "name": "minecraft:string",
-            "count": 2
-          },
-          "seedDrop":
-          {
-            "name": "actuallyadditions:item_flax_seed",
-            "count": 1,
-            "meta": 0
-          }
-        }
-      ]
-    },
-    {
-      "name": "Diamahlia",
-      "owner": "resource",
-      "id": "diamahlia",
-      "discovered": "Oly2o6",
-      "dropchance": 0.29936847,
-      "optimalstage": 4,
-      "totalstages": 4,
-      "attributes": ["Cyan", "Leaves", "Metal", "Gem"],
-      "props":
-      {
-        "tier": 10,
-        "chemistry": 2,
-        "consumable": 0,
-        "defensive": 0,
-        "colorful": 3,
-        "weed": 0
-      },
-      "display":
-      {
-        "name": "minecraft:diamond"
-      },
-      "defaultStage":
-      {
-        "points": 1400,
-        "redstoneStrength": 0,
-        "resetStage": 2,
-        "lightLevel": 0
-      },
-      "stages":
-      [
-        {
-          "index": 1,
-          "parentIndex": -1,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_1"]
-        },
-        {
-          "index": 2,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_2"]
-        },
-        {
-          "index": 3,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_3"],
-          "points": 2600,
-          "requirements":
-          {
-            "block":
-            [
-              {
-                "ore": true,
-                "name": "blockCrystalEmpoweredDiamatine"
-              }
+            "name": "Canola",
+            "owner": "actuallyadditions",
+            "id": "canola",
+            "discovered": "Oly2o6",
+            "dropchance": 1.0,
+            "optimalstage": 4,
+            "totalstages": 4,
+            "attributes": [ "Canola", "Flower", "Yellow" ],
+            "props": {
+                "tier": 2,
+                "chemistry": 1,
+                "consumable": 1,
+                "defensive": 0,
+                "colorful": 5,
+                "weed": 1
+            },
+            "display": {
+                "name": "actuallyadditions:item_misc",
+                "meta": 13
+            },
+            "defaultStage": {
+                "points": 400,
+                "redstoneStrength": 0,
+                "lightLevel": 0,
+                "requirements": {
+                    "light": [ 10, 15 ]
+                }
+            },
+            "stages": [
+                {
+                    "index": 1,
+                    "parentIndex": -1,
+                    "textures": [ "actuallyadditions:blocks/block_canola_stage_1" ]
+                },
+                {
+                    "index": 2,
+                    "textures": [ "actuallyadditions:blocks/block_canola_stage_2" ]
+                },
+                {
+                    "index": 3,
+                    "textures": [ "actuallyadditions:blocks/block_canola_stage_3" ],
+                    "points": 600
+                },
+                {
+                    "index": 4,
+                    "textures": [ "actuallyadditions:blocks/block_canola_stage_4" ],
+                    "drop": {
+                        "name": "actuallyadditions:item_misc",
+                        "count": 1,
+                        "meta": 13
+                    },
+                    "seedDrop": {
+                        "name": "actuallyadditions:item_canola_seed",
+                        "count": 1,
+                        "meta": 0
+                    }
+                }
             ]
-          }
         },
         {
-          "index": 4,
-          "textures": ["ic2c_crop_overrides:crop_diamahlia"],
-          "drop":
-          {
-            "name": "minecraft:diamond",
-            "count": 1,
-            "meta": 0
-          }
-        }
-      ]
-    },
-    {
-      "name": "Emeryllis",
-      "owner": "resource",
-      "id": "emeryllis",
-      "discovered": "Oly2o6",
-      "dropchance": 0.29936847,
-      "optimalstage": 4,
-      "totalstages": 4,
-      "attributes": ["Green", "Leaves", "Metal", "Gem"],
-      "props":
-      {
-        "tier": 10,
-        "chemistry": 2,
-        "consumable": 0,
-        "defensive": 0,
-        "colorful": 3,
-        "weed": 0
-      },
-      "display":
-      {
-        "name": "minecraft:emerald"
-      },
-      "defaultStage":
-      {
-        "points": 1400,
-        "redstoneStrength": 0,
-        "resetStage": 2,
-        "lightLevel": 0
-      },
-      "stages":
-      [
-        {
-          "index": 1,
-          "parentIndex": -1,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_1"]
-        },
-        {
-          "index": 2,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_2"]
-        },
-        {
-          "index": 3,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_3"],
-          "points": 2600,
-          "requirements":
-          {
-            "block":
-            [
-              {
-                "ore": true,
-                "name": "blockCrystalEmpoweredEmeradic"
-              }
+            "name": "Rice",
+            "owner": "actuallyadditions",
+            "id": "rice",
+            "discovered": "Oly2o6",
+            "dropchance": 1.0,
+            "optimalstage": 7,
+            "totalstages": 7,
+            "attributes": [ "White", "Rice", "Food", "Wheat" ],
+            "props": {
+                "tier": 1,
+                "chemistry": 0,
+                "consumable": 4,
+                "defensive": 0,
+                "colorful": 1,
+                "weed": 1
+            },
+            "display": {
+                "name": "actuallyadditions:item_food",
+                "meta": 16
+            },
+            "defaultStage": {
+                "points": 200,
+                "redstoneStrength": 0,
+                "lightLevel": 0,
+                "requirements": {
+                    "light": [ 10, 15 ],
+                    "humidity": [ 10, 20 ]
+                }
+            },
+            "stages": [
+                {
+                    "index": 1,
+                    "parentIndex": -1,
+                    "textures": [ "actuallyadditions:blocks/block_rice_stage_1" ]
+                },
+                {
+                    "index": 2,
+                    "textures": [ "actuallyadditions:blocks/block_rice_stage_2" ]
+                },
+                {
+                    "index": 3,
+                    "textures": [ "actuallyadditions:blocks/block_rice_stage_2" ]
+                },
+                {
+                    "index": 4,
+                    "textures": [ "actuallyadditions:blocks/block_rice_stage_3" ]
+                },
+                {
+                    "index": 5,
+                    "textures": [ "actuallyadditions:blocks/block_rice_stage_4" ]
+                },
+                {
+                    "index": 6,
+                    "textures": [ "actuallyadditions:blocks/block_rice_stage_5" ]
+                },
+                {
+                    "index": 7,
+                    "textures": [ "actuallyadditions:blocks/block_rice_stage_6" ],
+                    "drop": {
+                        "name": "actuallyadditions:item_food",
+                        "count": 1,
+                        "meta": 16
+                    },
+                    "seedDrop": {
+                        "name": "actuallyadditions:item_rice_seed",
+                        "count": 1,
+                        "meta": 0
+                    }
+                }
             ]
-          }
         },
         {
-          "index": 4,
-          "textures": ["ic2c_crop_overrides:crop_emeryllis"],
-          "drop":
-          {
-            "name": "minecraft:emerald",
-            "count": 1,
-            "meta": 0
-          }
-        }
-      ]
-    },
-    {
-      "name": "Smoked Quartzanthemum",
-      "owner": "resource",
-      "id": "smoked_quartzanthemum",
-      "discovered": "Oly2o6",
-      "dropchance": 0.386890469,
-      "optimalstage": 4,
-      "totalstages": 4,
-      "attributes": ["Black", "Leaves", "Metal", "Gem"],
-      "props":
-      {
-        "tier": 6,
-        "chemistry": 2,
-        "consumable": 0,
-        "defensive": 0,
-        "colorful": 1,
-        "weed": 0
-      },
-      "display":
-      {
-        "name": "actuallyadditions:item_misc",
-        "meta": 5
-      },
-      "defaultStage":
-      {
-        "points": 600,
-        "redstoneStrength": 0,
-        "resetStage": 2,
-        "lightLevel": 0
-      },
-      "stages":
-      [
-        {
-          "index": 1,
-          "parentIndex": -1,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_1"]
-        },
-        {
-          "index": 2,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_2"]
-        },
-        {
-          "index": 3,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_3"],
-          "points": 1800,
-          "requirements":
-          {
-            "block":
-            [
-              {
-                "ore": true,
-                "name": "blockQuartzBlack"
-              }
+            "name": "Flax",
+            "owner": "actuallyadditions",
+            "id": "flax",
+            "discovered": "Oly2o6",
+            "dropchance": 1.0,
+            "optimalstage": 6,
+            "totalstages": 6,
+            "attributes": [ "Magenta", "Leaves", "Ingredient" ],
+            "props": {
+                "tier": 2,
+                "chemistry": 1,
+                "consumable": 2,
+                "defensive": 0,
+                "colorful": 3,
+                "weed": 0
+            },
+            "display": {
+                "name": "minecraft:string"
+            },
+            "defaultStage": {
+                "points": 300,
+                "redstoneStrength": 0,
+                "lightLevel": 0,
+                "requirements": {
+                    "light": [ 10, 15 ]
+                }
+            },
+            "stages": [
+                {
+                    "index": 1,
+                    "parentIndex": -1,
+                    "textures": [ "actuallyadditions:blocks/block_flax_stage_1" ]
+                },
+                {
+                    "index": 2,
+                    "textures": [ "actuallyadditions:blocks/block_flax_stage_2" ]
+                },
+                {
+                    "index": 3,
+                    "textures": [ "actuallyadditions:blocks/block_flax_stage_3" ]
+                },
+                {
+                    "index": 4,
+                    "textures": [ "actuallyadditions:blocks/block_flax_stage_4" ],
+                    "points": 200
+                },
+                {
+                    "index": 5,
+                    "textures": [ "actuallyadditions:blocks/block_flax_stage_5" ],
+                    "points": 200
+                },
+                {
+                    "index": 6,
+                    "textures": [ "actuallyadditions:blocks/block_flax_stage_6" ],
+                    "drop": {
+                        "name": "minecraft:string",
+                        "count": 2
+                    },
+                    "seedDrop": {
+                        "name": "actuallyadditions:item_flax_seed",
+                        "count": 1,
+                        "meta": 0
+                    }
+                }
             ]
-          }
         },
         {
-          "index": 4,
-          "textures": ["ic2c_crop_overrides:crop_smoked_quartzanthemum"],
-          "drop":
-          {
-            "name": "actuallyadditions:item_misc",
-            "count": 1,
-            "meta": 5
-          }
-        }
-      ]
-    },
-    {
-      "name": "Quartzanthemum",
-      "owner": "resource",
-      "id": "quartzanthemum",
-      "discovered": "Oly2o6",
-      "dropchance": 0.386890469,
-      "optimalstage": 4,
-      "totalstages": 4,
-      "attributes": ["White", "Leaves", "Metal", "Gem"],
-      "props":
-      {
-        "tier": 5,
-        "chemistry": 2,
-        "consumable": 0,
-        "defensive": 0,
-        "colorful": 1,
-        "weed": 0
-      },
-      "display":
-      {
-        "name": "minecraft:quartz"
-      },
-      "defaultStage":
-      {
-        "points": 600,
-        "redstoneStrength": 0,
-        "resetStage": 2,
-        "lightLevel": 0
-      },
-      "stages":
-      [
-        {
-          "index": 1,
-          "parentIndex": -1,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_1"]
-        },
-        {
-          "index": 2,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_2"]
-        },
-        {
-          "index": 3,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_3"],
-          "points": 1800,
-          "requirements":
-          {
-            "block":
-            [
-              {
-                "ore": true,
-                "name": "blockQuartzEthetic"
-              }
+            "name": "Diamahlia",
+            "owner": "resource",
+            "id": "diamahlia",
+            "discovered": "Oly2o6",
+            "dropchance": 0.29936847,
+            "optimalstage": 4,
+            "totalstages": 4,
+            "attributes": [ "Cyan", "Leaves", "Metal", "Gem" ],
+            "props": {
+                "tier": 10,
+                "chemistry": 2,
+                "consumable": 0,
+                "defensive": 0,
+                "colorful": 3,
+                "weed": 0
+            },
+            "display": {
+                "name": "minecraft:diamond"
+            },
+            "defaultStage": {
+                "points": 1400,
+                "redstoneStrength": 0,
+                "resetStage": 2,
+                "lightLevel": 0
+            },
+            "stages": [
+                {
+                    "index": 1,
+                    "parentIndex": -1,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_1" ]
+                },
+                {
+                    "index": 2,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_2" ]
+                },
+                {
+                    "index": 3,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_3" ],
+                    "points": 2600,
+                    "requirements": {
+                        "block": [
+                            {
+                                "ore": true,
+                                "name": "blockCrystalEmpoweredDiamatine"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "index": 4,
+                    "textures": [ "ic2c_crop_overrides:crop_diamahlia" ],
+                    "drop": {
+                        "name": "minecraft:diamond",
+                        "count": 1,
+                        "meta": 0
+                    }
+                }
             ]
-          }
         },
         {
-          "index": 4,
-          "textures": ["ic2c_crop_overrides:crop_quartzanthemum"],
-          "drop":
-          {
-            "name": "minecraft:quartz",
-            "count": 1,
-            "meta": 0
-          }
-        }
-      ]
-    },
-    {
-      "name": "Bauxia",
-      "owner": "resource",
-      "id": "bauxia",
-      "discovered": "Oly2o6",
-      "dropchance": 0.367545945,
-      "optimalstage": 4,
-      "totalstages": 4,
-      "attributes": ["LightGray", "Leaves", "Metal"],
-      "props":
-      {
-        "tier": 6,
-        "chemistry": 2,
-        "consumable": 0,
-        "defensive": 0,
-        "colorful": 1,
-        "weed": 0
-      },
-      "display":
-      {
-        "name": "thermalfoundation:material",
-        "meta": 68
-      },
-      "defaultStage":
-      {
-        "points": 800,
-        "redstoneStrength": 0,
-        "resetStage": 2,
-        "lightLevel": 0
-      },
-      "stages":
-      [
-        {
-          "index": 1,
-          "parentIndex": -1,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_1"]
-        },
-        {
-          "index": 2,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_2"]
-        },
-        {
-          "index": 3,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_3"],
-          "points": 2000,
-          "requirements":
-          {
-            "block":
-            [
-              {
-                "ore": true,
-                "name": "blockGlassHardenedAluminum"
-              }
+            "name": "Emeryllis",
+            "owner": "resource",
+            "id": "emeryllis",
+            "discovered": "Oly2o6",
+            "dropchance": 0.29936847,
+            "optimalstage": 4,
+            "totalstages": 4,
+            "attributes": [ "Green", "Leaves", "Metal", "Gem" ],
+            "props": {
+                "tier": 10,
+                "chemistry": 2,
+                "consumable": 0,
+                "defensive": 0,
+                "colorful": 3,
+                "weed": 0
+            },
+            "display": {
+                "name": "minecraft:emerald"
+            },
+            "defaultStage": {
+                "points": 1400,
+                "redstoneStrength": 0,
+                "resetStage": 2,
+                "lightLevel": 0
+            },
+            "stages": [
+                {
+                    "index": 1,
+                    "parentIndex": -1,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_1" ]
+                },
+                {
+                    "index": 2,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_2" ]
+                },
+                {
+                    "index": 3,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_3" ],
+                    "points": 2600,
+                    "requirements": {
+                        "block": [
+                            {
+                                "ore": true,
+                                "name": "blockCrystalEmpoweredEmeradic"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "index": 4,
+                    "textures": [ "ic2c_crop_overrides:crop_emeryllis" ],
+                    "drop": {
+                        "name": "minecraft:emerald",
+                        "count": 1,
+                        "meta": 0
+                    }
+                }
             ]
-          }
         },
         {
-          "index": 4,
-          "textures": ["ic2c_crop_overrides:crop_bauxia"],
-          "drop":
-          {
-            "name": "thermalfoundation:material",
-            "count": 1,
-            "meta": 68
-          }
-        }
-      ]
-    },
-    {
-      "name": "Nickelback",
-      "owner": "resource",
-      "id": "nickelback",
-      "discovered": "Oly2o6",
-      "dropchance": 0.349168648,
-      "optimalstage": 4,
-      "totalstages": 4,
-      "attributes": ["Beige", "Leaves", "Metal"],
-      "props":
-      {
-        "tier": 7,
-        "chemistry": 2,
-        "consumable": 0,
-        "defensive": 0,
-        "colorful": 1,
-        "weed": 0
-      },
-      "display":
-      {
-        "name": "thermalfoundation:material",
-        "meta": 69
-      },
-      "defaultStage":
-      {
-        "points": 800,
-        "redstoneStrength": 0,
-        "resetStage": 2,
-        "lightLevel": 0
-      },
-      "stages":
-      [
-        {
-          "index": 1,
-          "parentIndex": -1,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_1"]
-        },
-        {
-          "index": 2,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_2"]
-        },
-        {
-          "index": 3,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_3"],
-          "points": 2000,
-          "requirements":
-          {
-            "block":
-            [
-              {
-                "ore": true,
-                "name": "blockGlassHardenedNickel"
-              }
+            "name": "Smoked Quartzanthemum",
+            "owner": "resource",
+            "id": "smoked_quartzanthemum",
+            "discovered": "Oly2o6",
+            "dropchance": 0.386890469,
+            "optimalstage": 4,
+            "totalstages": 4,
+            "attributes": [ "Black", "Leaves", "Metal", "Gem" ],
+            "props": {
+                "tier": 6,
+                "chemistry": 2,
+                "consumable": 0,
+                "defensive": 0,
+                "colorful": 1,
+                "weed": 0
+            },
+            "display": {
+                "name": "actuallyadditions:item_misc",
+                "meta": 5
+            },
+            "defaultStage": {
+                "points": 600,
+                "redstoneStrength": 0,
+                "resetStage": 2,
+                "lightLevel": 0
+            },
+            "stages": [
+                {
+                    "index": 1,
+                    "parentIndex": -1,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_1" ]
+                },
+                {
+                    "index": 2,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_2" ]
+                },
+                {
+                    "index": 3,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_3" ],
+                    "points": 1800,
+                    "requirements": {
+                        "block": [
+                            {
+                                "ore": true,
+                                "name": "blockQuartzBlack"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "index": 4,
+                    "textures": [ "ic2c_crop_overrides:crop_smoked_quartzanthemum" ],
+                    "drop": {
+                        "name": "actuallyadditions:item_misc",
+                        "count": 1,
+                        "meta": 5
+                    }
+                }
             ]
-          }
         },
         {
-          "index": 4,
-          "textures": ["ic2c_crop_overrides:crop_nickelback"],
-          "drop":
-          {
-            "name": "thermalfoundation:material",
-            "count": 1,
-            "meta": 69
-          }
-        }
-      ]
-    },
-    {
-      "name": "Osmia",
-      "owner": "resource",
-      "id": "osmia",
-      "discovered": "Oly2o6",
-      "dropchance": 0.331710216,
-      "optimalstage": 4,
-      "totalstages": 4,
-      "attributes": ["LightBlue", "Leaves", "Metal"],
-      "props":
-      {
-        "tier": 8,
-        "chemistry": 2,
-        "consumable": 0,
-        "defensive": 0,
-        "colorful": 2,
-        "weed": 0
-      },
-      "display":
-      {
-        "name": "mekanism:dust",
-        "meta": 2
-      },
-      "defaultStage":
-      {
-        "points": 1000,
-        "redstoneStrength": 0,
-        "resetStage": 2,
-        "lightLevel": 0
-      },
-      "stages":
-      [
-        {
-          "index": 1,
-          "parentIndex": -1,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_1"]
-        },
-        {
-          "index": 2,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_2"]
-        },
-        {
-          "index": 3,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_3"],
-          "points": 2200,
-          "requirements":
-          {
-            "block":
-            [
-              {
-                "ore": true,
-                "name": "blockOsmium"
-              }
+            "name": "Quartzanthemum",
+            "owner": "resource",
+            "id": "quartzanthemum",
+            "discovered": "Oly2o6",
+            "dropchance": 0.386890469,
+            "optimalstage": 4,
+            "totalstages": 4,
+            "attributes": [ "White", "Leaves", "Metal", "Gem" ],
+            "props": {
+                "tier": 5,
+                "chemistry": 2,
+                "consumable": 0,
+                "defensive": 0,
+                "colorful": 1,
+                "weed": 0
+            },
+            "display": {
+                "name": "minecraft:quartz"
+            },
+            "defaultStage": {
+                "points": 600,
+                "redstoneStrength": 0,
+                "resetStage": 2,
+                "lightLevel": 0
+            },
+            "stages": [
+                {
+                    "index": 1,
+                    "parentIndex": -1,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_1" ]
+                },
+                {
+                    "index": 2,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_2" ]
+                },
+                {
+                    "index": 3,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_3" ],
+                    "points": 1800,
+                    "requirements": {
+                        "block": [
+                            {
+                                "ore": true,
+                                "name": "blockQuartzEthetic"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "index": 4,
+                    "textures": [ "ic2c_crop_overrides:crop_quartzanthemum" ],
+                    "drop": {
+                        "name": "minecraft:quartz",
+                        "count": 1,
+                        "meta": 0
+                    }
+                }
             ]
-          }
         },
         {
-          "index": 4,
-          "textures": ["ic2c_crop_overrides:crop_osmia"],
-          "drop":
-          {
-            "name": "mekanism:dust",
-            "count": 1,
-            "meta": 2
-          }
-        }
-      ]
-    },
-    {
-      "name": "Platina",
-      "owner": "resource",
-      "id": "platina",
-      "discovered": "Oly2o6",
-      "dropchance": 0.315124705,
-      "optimalstage": 4,
-      "totalstages": 4,
-      "attributes": ["Cerulean", "Leaves", "Metal"],
-      "props":
-      {
-        "tier": 9,
-        "chemistry": 2,
-        "consumable": 0,
-        "defensive": 0,
-        "colorful": 2,
-        "weed": 0
-      },
-      "display":
-      {
-        "name": "thermalfoundation:material",
-        "meta": 70
-      },
-      "defaultStage":
-      {
-        "points": 1200,
-        "redstoneStrength": 0,
-        "resetStage": 2,
-        "lightLevel": 0
-      },
-      "stages":
-      [
-        {
-          "index": 1,
-          "parentIndex": -1,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_1"]
-        },
-        {
-          "index": 2,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_2"]
-        },
-        {
-          "index": 3,
-          "textures": ["ic2c_crop_overrides:crop_metal_stage_3"],
-          "points": 2400,
-          "requirements":
-          {
-            "block":
-            [
-              {
-                "ore": true,
-                "name": "blockGlassHardenedPlatinum"
-              }
+            "name": "Bauxia",
+            "owner": "resource",
+            "id": "bauxia",
+            "discovered": "Oly2o6",
+            "dropchance": 0.367545945,
+            "optimalstage": 4,
+            "totalstages": 4,
+            "attributes": [ "LightGray", "Leaves", "Metal" ],
+            "props": {
+                "tier": 6,
+                "chemistry": 2,
+                "consumable": 0,
+                "defensive": 0,
+                "colorful": 1,
+                "weed": 0
+            },
+            "display": {
+                "name": "thermalfoundation:material",
+                "meta": 68
+            },
+            "defaultStage": {
+                "points": 800,
+                "redstoneStrength": 0,
+                "resetStage": 2,
+                "lightLevel": 0
+            },
+            "stages": [
+                {
+                    "index": 1,
+                    "parentIndex": -1,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_1" ]
+                },
+                {
+                    "index": 2,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_2" ]
+                },
+                {
+                    "index": 3,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_3" ],
+                    "points": 2000,
+                    "requirements": {
+                        "block": [
+                            {
+                                "ore": true,
+                                "name": "blockGlassHardenedAluminum"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "index": 4,
+                    "textures": [ "ic2c_crop_overrides:crop_bauxia" ],
+                    "drop": {
+                        "name": "thermalfoundation:material",
+                        "count": 1,
+                        "meta": 68
+                    }
+                }
             ]
-          }
         },
         {
-          "index": 4,
-          "textures": ["ic2c_crop_overrides:crop_platina"],
-          "drop":
-          {
-            "name": "thermalfoundation:material",
-            "count": 1,
-            "meta": 70
-          }
+            "name": "Nickelback",
+            "owner": "resource",
+            "id": "nickelback",
+            "discovered": "Oly2o6",
+            "dropchance": 0.349168648,
+            "optimalstage": 4,
+            "totalstages": 4,
+            "attributes": [ "Beige", "Leaves", "Metal" ],
+            "props": {
+                "tier": 7,
+                "chemistry": 2,
+                "consumable": 0,
+                "defensive": 0,
+                "colorful": 1,
+                "weed": 0
+            },
+            "display": {
+                "name": "thermalfoundation:material",
+                "meta": 69
+            },
+            "defaultStage": {
+                "points": 800,
+                "redstoneStrength": 0,
+                "resetStage": 2,
+                "lightLevel": 0
+            },
+            "stages": [
+                {
+                    "index": 1,
+                    "parentIndex": -1,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_1" ]
+                },
+                {
+                    "index": 2,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_2" ]
+                },
+                {
+                    "index": 3,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_3" ],
+                    "points": 2000,
+                    "requirements": {
+                        "block": [
+                            {
+                                "ore": true,
+                                "name": "blockGlassHardenedNickel"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "index": 4,
+                    "textures": [ "ic2c_crop_overrides:crop_nickelback" ],
+                    "drop": {
+                        "name": "thermalfoundation:material",
+                        "count": 1,
+                        "meta": 69
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Osmia",
+            "owner": "resource",
+            "id": "osmia",
+            "discovered": "Oly2o6",
+            "dropchance": 0.331710216,
+            "optimalstage": 4,
+            "totalstages": 4,
+            "attributes": [ "LightBlue", "Leaves", "Metal" ],
+            "props": {
+                "tier": 8,
+                "chemistry": 2,
+                "consumable": 0,
+                "defensive": 0,
+                "colorful": 2,
+                "weed": 0
+            },
+            "display": {
+                "name": "mekanism:dust",
+                "meta": 2
+            },
+            "defaultStage": {
+                "points": 1000,
+                "redstoneStrength": 0,
+                "resetStage": 2,
+                "lightLevel": 0
+            },
+            "stages": [
+                {
+                    "index": 1,
+                    "parentIndex": -1,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_1" ]
+                },
+                {
+                    "index": 2,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_2" ]
+                },
+                {
+                    "index": 3,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_3" ],
+                    "points": 2200,
+                    "requirements": {
+                        "block": [
+                            {
+                                "ore": true,
+                                "name": "blockOsmium"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "index": 4,
+                    "textures": [ "ic2c_crop_overrides:crop_osmia" ],
+                    "drop": {
+                        "name": "mekanism:dust",
+                        "count": 1,
+                        "meta": 2
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Platina",
+            "owner": "resource",
+            "id": "platina",
+            "discovered": "Oly2o6",
+            "dropchance": 0.315124705,
+            "optimalstage": 4,
+            "totalstages": 4,
+            "attributes": [ "Cerulean", "Leaves", "Metal" ],
+            "props": {
+                "tier": 9,
+                "chemistry": 2,
+                "consumable": 0,
+                "defensive": 0,
+                "colorful": 2,
+                "weed": 0
+            },
+            "display": {
+                "name": "thermalfoundation:material",
+                "meta": 70
+            },
+            "defaultStage": {
+                "points": 1200,
+                "redstoneStrength": 0,
+                "resetStage": 2,
+                "lightLevel": 0
+            },
+            "stages": [
+                {
+                    "index": 1,
+                    "parentIndex": -1,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_1" ]
+                },
+                {
+                    "index": 2,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_2" ]
+                },
+                {
+                    "index": 3,
+                    "textures": [ "ic2c_crop_overrides:crop_metal_stage_3" ],
+                    "points": 2400,
+                    "requirements": {
+                        "block": [
+                            {
+                                "ore": true,
+                                "name": "blockGlassHardenedPlatinum"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "index": 4,
+                    "textures": [ "ic2c_crop_overrides:crop_platina" ],
+                    "drop": {
+                        "name": "thermalfoundation:material",
+                        "count": 1,
+                        "meta": 70
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "seeds":
-  [
-    {
-      "owner": "actuallyadditions",
-      "id": "canola",
-      "seed":
-      {
-        "name": "actuallyadditions:item_canola_seed",
-        "count": 1
-      },
-      "growthStep": 1,
-      "statGrowth": 1,
-      "statGain": 1,
-      "statResistance": 1
-    },
-    {
-      "owner": "ic2",
-      "id": "coffee",
-      "seed":
-      {
-        "name": "actuallyadditions:item_coffee_seed",
-        "count": 1
-      },
-      "growthStep": 1,
-      "statGrowth": 1,
-      "statGain": 1,
-      "statResistance": 1
-    },
-    {
-      "owner": "actuallyadditions",
-      "id": "rice",
-      "seed":
-      {
-        "name": "actuallyadditions:item_rice_seed",
-        "count": 1
-      },
-      "growthStep": 1,
-      "statGrowth": 1,
-      "statGain": 1,
-      "statResistance": 1
-    },
-    {
-      "owner": "actuallyadditions",
-      "id": "flax",
-      "seed":
-      {
-        "name": "actuallyadditions:item_flax_seed",
-        "count": 1
-      },
-      "growthStep": 1,
-      "statGrowth": 1,
-      "statGain": 1,
-      "statResistance": 1
-    }
-  ]
+    ],
+    "seeds": [
+        {
+            "owner": "actuallyadditions",
+            "id": "canola",
+            "seed": {
+                "name": "actuallyadditions:item_canola_seed",
+                "count": 1
+            },
+            "growthStep": 1,
+            "statGrowth": 1,
+            "statGain": 1,
+            "statResistance": 1
+        },
+        {
+            "owner": "ic2",
+            "id": "coffee",
+            "seed": {
+                "name": "actuallyadditions:item_coffee_seed",
+                "count": 1
+            },
+            "growthStep": 1,
+            "statGrowth": 1,
+            "statGain": 1,
+            "statResistance": 1
+        },
+        {
+            "owner": "actuallyadditions",
+            "id": "rice",
+            "seed": {
+                "name": "actuallyadditions:item_rice_seed",
+                "count": 1
+            },
+            "growthStep": 1,
+            "statGrowth": 1,
+            "statGain": 1,
+            "statResistance": 1
+        },
+        {
+            "owner": "actuallyadditions",
+            "id": "flax",
+            "seed": {
+                "name": "actuallyadditions:item_flax_seed",
+                "count": 1
+            },
+            "growthStep": 1,
+            "statGrowth": 1,
+            "statGain": 1,
+            "statResistance": 1
+        }
+    ]
 }

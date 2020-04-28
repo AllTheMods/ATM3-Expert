@@ -3,13 +3,12 @@
     "registryName": "mag_fab_litherite",
     "recipeTime": 200,
     "requirements": [
-        
-		{
+        {
             "type": "energy",
             "io-type": "input",
             "energyPerTick": 600
-        },        
-		{
+        },
+        {
             "type": "item",
             "io-type": "output",
             "item": "environmentaltech:litherite_crystal",
