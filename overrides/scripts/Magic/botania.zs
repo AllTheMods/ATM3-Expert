@@ -18,6 +18,7 @@ import mods.bloodmagic.BloodAltar;
 import mods.bloodmagic.TartaricForge;
 import mods.thaumcraft.ArcaneWorkbench;
 import mods.actuallyadditions.AtomicReconstructor;
+import mods.jei.JEI.removeAndHide as removal;
 
 print("Botania Changes");
 val petro = <botania:specialflower>.withTag({type: "petro_petunia"});
@@ -119,7 +120,87 @@ recipes.addShapeless("CtScorchedSeed",<botania:grassseeds:6>,[<botania:grassseed
 
 #orechid
 mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechid"}));
+# remove all recipes from the orechid
+val orechidRemovals = [
+	"oreAluminum",
+	"oreIron",
+	"oreOsmium",
+	"oreMythril",
+	"oreInfusedFire",
+	"oreTin",
+	"oreCertusQuartz",
+	"oreMCropsEssence",
+	"oreChimerite",
+	"oreRuby",
+	"oreCinnabar",
+	"oreLead",
+	"oreSapphire",
+	"oreCoal",
+	"oreVinteum",
+	"oreDiamond",
+	"oreTungsten",
+	"oreEmerald",
+	"orePlatinum",
+	"oreDarkIron",
+	"oreUranium",
+	"oreNickel",
+	"oreLapis",
+	"oreInfusedEntropy",
+	"oreAdamantium",
+	"oreInfusedAir",
+	"oreInfusedEarth",
+	"oreFzDarkIron",
+	"oreAmber",
+	"oreOlivine",
+	"oreMithril",
+	"oreSilver",
+	"oreInfusedOrder",
+	"oreGold",
+	"oreGalena",
+	"oreBlueTopaz",
+	"oreDark",
+	"oreInfusedWater",
+	"oreZinc",
+	"oreQuartzBlack",
+	"oreRedstone",
+	"oreSulfur",
+	"oreCopper",
+	"oreYellorite",
+	"oreApatite"
+] as string[];
+
+for ore in orechidRemovals {
+	mods.botania.Orechid.removeOre(ore);
+}
+
+removal(<botania:specialflower>.withTag({type: "orechid"}));
+
+#orechid ignim
 mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechidIgnem"}));
+# remove all recipes from the orechid ignim
+val orechidIgnimRemovals = [
+	"oreQuartz",
+	"oreNetherCoal",
+	"oreNetherIron",
+	"oreNetherRedstone",
+	"oreNetherCopper",
+	"oreNetherTin",
+	"oreNetherGold",
+	"oreNetherLapis",
+	"oreNetherLead",
+	"oreNetherNickel",
+	"oreNetherSilver",
+	"oreArdite",
+	"oreCobalt",
+	"oreNetherDiamond",
+	"oreNetherPlatinum"
+] as string[];
+
+for ore in orechidIgnimRemovals {
+	mods.botania.Orechid.removeOre(ore);
+}
+
+removal(<botania:specialflower>.withTag({type: "orechidIgnem"}));
 
 #mana tablet
 recipes.removeShaped(<botania:manatablet>);
@@ -128,10 +209,10 @@ recipes.addShaped("CtManaTablet2",<botania:manatablet>.withTag({}),[[livingRock,
 
 #altar
 recipes.removeShaped(<botania:runealtar>);
-mods.actuallyadditions.Empowerer.addRecipe(<botania:runealtar>, <botania:pool>, <ore:livingrock>, <ore:manaDiamond>, <actuallyadditions:block_crystal_empowered:5>, 
+mods.actuallyadditions.Empowerer.addRecipe(<botania:runealtar>, <botania:pool>, <ore:livingrock>, <ore:manaDiamond>, <actuallyadditions:block_crystal_empowered:5>,
 	<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "praecantatio"}]}), 100000, 20, [0.0, 0.5, 0.0]
 	);
-	
+
 #mana lens
 recipes.remove(<botania:lens>.withTag({}));
 recipes.addShaped("CtManaLens",<botania:lens>.withTag({}),
@@ -149,8 +230,8 @@ recipes.addShaped("CtManaLens2",<botania:lens>.withTag({}),
 #runes
 mods.botania.RuneAltar.removeRecipe(<botania:rune:*>);
 	#water
-	mods.botania.RuneAltar.addRecipe(<botania:rune>, 
-	[<bloodmagic:slate>, manaPowder, manaSteel, <minecraft:dye:15>, <minecraft:fishing_rod>, <ore:sugarcane>], 3500		
+	mods.botania.RuneAltar.addRecipe(<botania:rune>,
+	[<bloodmagic:slate>, manaPowder, manaSteel, <minecraft:dye:15>, <minecraft:fishing_rod>, <ore:sugarcane>], 3500
 		);
 	#fire
 	mods.botania.RuneAltar.addRecipe(<botania:rune:1>, [<bloodmagic:slate>, manaSteel, manaPowder, <ore:cropNetherWart>, <ore:gunpowder>, <ore:ingotBrickNether>], 3500
@@ -179,16 +260,16 @@ mods.botania.RuneAltar.removeRecipe(<botania:rune:*>);
 	mods.botania.RuneAltar.addRecipe(<botania:rune:4>, [<bloodmagic:slate:1>,  <botania:rune:1>, <botania:rune>, <minecraft:sapling>, <minecraft:sapling>, <minecraft:sapling>, <minecraft:wheat>], 7000
 	);
 
-	
+
 #elven gateway core
 recipes.remove(<botania:alfheimportal>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <botania:alfheimportal>, [
-	[<botania:livingwood>, <botania:livingwood>, <botania:livingwood>, <astralsorcery:itemcraftingcomponent:1>, <botania:livingwood>, <botania:livingwood>, <botania:livingwood>], 
-	[<botania:livingwood>, <bloodmagic:slate:2>, <ic2:itemmisc:256>, <alchemistry:ingot:100>, <contenttweaker:manadiamondplate>, <bloodmagic:slate:2>, <botania:livingwood>], 
-	[<botania:livingwood>, <contenttweaker:manadiamondplate>, <botania:manaresource:18>, <botania:manaresource:4>, voiddew, <ic2:itemmisc:256>, <botania:livingwood>], 
-	[<botania:manaresource:4>, <enderio:item_alloy_ingot:8>, <thaumcraft:ingot>, <atmtweaks:item_material:2>, <thaumcraft:ingot>, <enderio:item_alloy_ingot:8>, <botania:manaresource:4>], 
-	[<botania:livingwood>, <ic2:itemmisc:256>, voiddew, <botania:manaresource:4>, <botania:manaresource:18>, <contenttweaker:manadiamondplate>, <botania:livingwood>], 
-	[<botania:livingwood>, <bloodmagic:slate:2>, <contenttweaker:manadiamondplate>, <alchemistry:ingot:100>, <ic2:itemmisc:256>, <bloodmagic:slate:2>, <botania:livingwood>], 
+	[<botania:livingwood>, <botania:livingwood>, <botania:livingwood>, <astralsorcery:itemcraftingcomponent:1>, <botania:livingwood>, <botania:livingwood>, <botania:livingwood>],
+	[<botania:livingwood>, <bloodmagic:slate:2>, <ic2:itemmisc:256>, <alchemistry:ingot:100>, <contenttweaker:manadiamondplate>, <bloodmagic:slate:2>, <botania:livingwood>],
+	[<botania:livingwood>, <contenttweaker:manadiamondplate>, <botania:manaresource:18>, <botania:manaresource:4>, voiddew, <ic2:itemmisc:256>, <botania:livingwood>],
+	[<botania:manaresource:4>, <enderio:item_alloy_ingot:8>, <thaumcraft:ingot>, <atmtweaks:item_material:2>, <thaumcraft:ingot>, <enderio:item_alloy_ingot:8>, <botania:manaresource:4>],
+	[<botania:livingwood>, <ic2:itemmisc:256>, voiddew, <botania:manaresource:4>, <botania:manaresource:18>, <contenttweaker:manadiamondplate>, <botania:livingwood>],
+	[<botania:livingwood>, <bloodmagic:slate:2>, <contenttweaker:manadiamondplate>, <alchemistry:ingot:100>, <ic2:itemmisc:256>, <bloodmagic:slate:2>, <botania:livingwood>],
 	[<botania:livingwood>, <botania:livingwood>, <botania:livingwood>, <astralsorcery:itemcraftingcomponent:1>, <botania:livingwood>, <botania:livingwood>, <botania:livingwood>]
 ]);
 
@@ -265,5 +346,3 @@ recipes.addShaped("CtManaweave",<botania:manaresource:22>,
 #Sunny quartz
 recipes.remove(<botania:quartz:6>);
 mods.actuallyadditions.AtomicReconstructor.addRecipe(<botania:quartz:6>, <botania:quartz:1>, 50000);
-
-
