@@ -15,6 +15,7 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 
 *Mod-Additions:*
 - Ding
+- Discord Rich Presence
 - FastFurnace
 - FastWorkbench
 - Just Enough Throwing in Fluid
@@ -93,9 +94,14 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
   - it has well known duping bugs and is not recommended to keep
   - already crafted sacks will still remain in the world but it's recommended to empty them and to remove them
   - it's now replaced with the Bag of Holding
+- removed shimmer and curse of vanishing enchantments from JEI (#225)
+- tile entities from EnderIO painting machine's paintable objects
+- recipes for painting blocks to save a JEI tab
+- all recipes from orechid and orechid ignim to save a JEI tab
+- a ton of old modpack version fragments
 
 *Mod-Removals:*
-- Chicken Chunks
+- DiscordCraft
 - ElecCore
 - LagGoggles
 - Light Overlay Reloaded
@@ -111,6 +117,7 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - ImmersiveEngineering loottables
 - empty slot in Akashic Tome
 - duplicate empowerer recipe for machine casing
+- some broken world generation
 
 ### Security
 - Discord rich presence no longer shows server IP
