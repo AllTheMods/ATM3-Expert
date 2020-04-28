@@ -14,6 +14,7 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - instructions how to get scrap from IndustrialCraft since the recipe is not shown in JEI
 
 *Mod-Additions:*
+- Clumps
 - Ding
 - Discord Rich Presence
 - FastFurnace
@@ -31,6 +32,7 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - only the AE2 stone facade is shown with a guide how to craft facades
 - various fluid containers are now hidden to prevent JEI page spam, all basic forms are still visible
 - Bag of Holding recipe to make it available in the earlier game since it replaces the Traveller's Sack
+- skybox to garden of glass
 
 *Mod-Updates:*
 - Advanced Rocketry
@@ -75,7 +77,6 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - Quark
 - Random Things
 - RandomPathes
-- Reborn Core
 - Redstone Flux
 - Storage Drawers
 - Tesla Core Lib
@@ -99,6 +100,8 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - recipes for painting blocks to save a JEI tab
 - all recipes from orechid and orechid ignim to save a JEI tab
 - a ton of old modpack version fragments
+- join notifications of ingame wiki mod from extra cells
+- join notifications from recurrent complex
 
 *Mod-Removals:*
 - DiscordCraft
