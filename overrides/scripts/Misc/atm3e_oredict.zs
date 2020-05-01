@@ -11,10 +11,10 @@ print(" =================== Block/Ingot/Nugget Unification =================== "
 print(" ====================================================================== ");
 /*
 	Written by: Ordinator (intended for All The Mods packs)
-    
+
 	This script's purpose is to forcibly re-define the crafting recipes for
 	converting a block to-and-from ingots and ingots to-and-from nuggets.
-    
+
 	Along the way it will remove any other "conflicting" recipes and also add
 	a "conversion recipe" if players somehow end up with the "wrong" type
 	This works best when paired with the "OreDict Unification/Sorting" script
@@ -23,11 +23,11 @@ print(" ====================================================================== "
 	There are many recipes in some mods that use Ore Dictionary, BUT only by
 	retrieving the first item listed in that OreDict. It's "compatable" but not
 	truly an OreDict recipe.
-	
+
 	The order after the first item is irrelevant BUT the items are still sorted
 	in order in case one or more of the previous mods are not present. Essentially
 	this is a hierarchical system choosing the first one that matches in the list.
-	
+
 	This script should be run early (high priority) so other scripts can benefit from
 	using "firstItem" oredict function to get an IItemStack for some recipes that
 	don't support an IOreDictEntry/IIngredient as an input/output/etc.
@@ -41,7 +41,7 @@ print(" ====================================================================== "
 	oredicts will be "rebuilt" with "first item" being the
 	first to match one of these. These mods do not need to be
 	present in the pack as it's just a string comparison.
-	
+
 	TIP: use /ct mods command to get list of mod names
 */
 	global modPreference as string[] = [
@@ -72,7 +72,7 @@ function oredictModSort(relatedOreDict as IOreDictEntry){
 		relatedOreDict.removeItems(odItems);
 
 		// this is probably a reallll inefficient n^2 loop but
-		// since its only on one oredict at a time its not 
+		// since its only on one oredict at a time its not
 		// iterating every item in the game many times over at least
 		for mod in modPreference {
 			if (loadedMods in mod) {
@@ -91,7 +91,7 @@ function oredictModSort(relatedOreDict as IOreDictEntry){
 
 
 //====== Custom "FirstItem" based on preference config
-// 
+//
 function firstItemCustom(relatedOreDict as IOreDictEntry) as IItemStack {
 	var odItems = relatedOreDict.itemArray as IItemStack[];
 	for mod in modPreference {
@@ -130,7 +130,7 @@ function fixMetals (
 	var boolIngot = metalIngot as bool;
 	var boolNugget = metalNugget as bool;
 
-	if !( (boolBlock) & (boolIngot) & (boolNugget) ) {return 1;}
+	if ( !(boolBlock) & !(boolIngot) & !(boolNugget) ) {return 1;}
 
 	// "sort" the oredicts
 	//oredictModSort(oredictBlock);
@@ -177,7 +177,7 @@ function fixMetals (
 	recipes.addShapeless("MetalNugget", metalNugget*3, [oredictNugget, oredictNugget, oredictNugget]);
 	recipes.addShapeless("MetalIngot", metalIngot*3, [oredictIngot, oredictIngot, oredictIngot]);
 	recipes.addShapeless("MetalBlock", metalBlock*3, [oredictBlock, oredictBlock, oredictBlock]);
-	
+
 	// add 3x3 recipes back
 	recipes.addShapeless("BlockToIngot", metalIngot*9, [oredictBlock]);
 	recipes.addShapeless("IngotToBlock", metalBlock, [oredictIngot,oredictIngot,oredictIngot,oredictIngot,oredictIngot,oredictIngot,oredictIngot,oredictIngot,oredictIngot]);
