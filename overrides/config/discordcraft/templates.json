@@ -1,0 +1,34 @@
+{
+    "groups": [
+        {
+            "groupId": "default",
+            "template": "Dimension: {dimName}"
+        },
+        {
+            "groupId": "rftools",
+            "template": "RFTools dimension: {rftools}"
+        }
+    ],
+    "dimensions": [
+        {
+            "dimName": "the_nether",
+            "template": "Sweating in the Nether"
+        },
+        {
+            "dimName": "the_end",
+            "template": "Surviving the End"
+        },
+        {
+            "dimName": "overworld",
+            "template": "Exploring the Overworld"
+        },
+        {
+            "dimName": "CompactMachines",
+            "template": "Shrinked in a Compact Machine"
+        },
+        {
+            "dimName": "atum",
+            "template": "Fighting through the Atum"
+        }
+    ]
+}

@@ -12,11 +12,11 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - actually additions guide to akashic tome
 - custom descriptions to items made in empowerer to know how much RF is needed to empower them
 - instructions how to get scrap from IndustrialCraft since the recipe is not shown in JEI
+- pack logo to Discord rich presence
 
 *Mod-Additions:*
 - Clumps
 - Ding
-- Discord Rich Presence
 - FastFurnace
 - FastWorkbench
 - Just Enough Throwing in Fluid
@@ -76,7 +76,7 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - Ore Excavation
 - Quark
 - Random Things
-- RandomPathes
+- RandomPatches
 - Redstone Flux
 - Storage Drawers
 - Tesla Core Lib
@@ -104,7 +104,6 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - join notifications from recurrent complex
 
 *Mod-Removals:*
-- DiscordCraft
 - ElecCore
 - LagGoggles
 - Light Overlay Reloaded
