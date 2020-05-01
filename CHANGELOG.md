@@ -33,6 +33,7 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - various fluid containers are now hidden to prevent JEI page spam, all basic forms are still visible
 - Bag of Holding recipe to make it available in the earlier game since it replaces the Traveller's Sack
 - skybox to garden of glass
+- atomic reconstructor also accepts crystal blocks now but it costs 10x the power
 
 *Mod-Updates:*
 - Advanced Rocketry
@@ -93,7 +94,7 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 ### Removed
 - removed the Traveller's Sack from crafting
   - it has well known duping bugs and is not recommended to keep
-  - already crafted sacks will still remain in the world but it's recommended to empty them and to remove them
+  - existing ones **won't** be deleted but it's recommended to empty and to remove them
   - it's now replaced with the Bag of Holding
 - removed shimmer and curse of vanishing enchantments from JEI (#225)
 - tile entities from EnderIO painting machine's paintable objects
@@ -102,6 +103,9 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - a ton of old modpack version fragments
 - join notifications of ingame wiki mod from extra cells
 - join notifications from recurrent complex
+- thermal foundation satchel crafting recipes
+  - bag of holding from quest is already bigger
+  - existing ones **won't** be deleted
 
 *Mod-Removals:*
 - ElecCore
