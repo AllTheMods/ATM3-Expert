@@ -654,7 +654,11 @@
   "ic2exprecipe_Steel Plate_": true,
   "ic2exprecipe_Gold Plate_": true,
   "ic2exprecipe_Lead Plate_": true,
-  "ic2exprecipe_Tin Plate_": true
+  "ic2exprecipe_Tin Plate_": true,
+  "ic2exprecipe_Air_": true,
+  "ic2exprecipe_Air__1": true,
+  "ic2exprecipe_Air__2": true,
+  "ic2exprecipe_Air__3": true
  },
  "fluidCanning": {
   "filling_tile.thermaldynamics.duct.energyReinforced_fluid.redstone": true,
