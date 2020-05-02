@@ -25,6 +25,7 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - Tinker's JEI
 
 ### Changed
+- huge script overhaul and refactor
 - Discord rich presence now shows modpack name
 - application window now shows modpack name
 - actually additions guide is no longer given on first craft
@@ -34,6 +35,15 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - Bag of Holding recipe to make it available in the earlier game since it replaces the Traveller's Sack
 - skybox to garden of glass
 - atomic reconstructor also accepts crystal blocks now but it costs 10x the power
+- adjusted redstone output by several machines to keep it balanced
+- flux anodizers augment is more expensive now
+- recipes of ender crafter, ender alternator and ender ingots
+  - now use vapor of levity so it has a use now
+- nerfed sink recipe
+- plasma core is automatable now
+- unified wooden and stone gears
+- made diamond gear dependent on gold gear
+- ImmersiveEngineering metal press is 50% faster now
 
 *Mod-Updates:*
 - Advanced Rocketry
@@ -96,6 +106,7 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
   - it has well known duping bugs and is not recommended to keep
   - existing ones **won't** be deleted but it's recommended to empty and to remove them
   - it's now replaced with the Bag of Holding
+  - void sack is also removed as it was dependent
 - removed shimmer and curse of vanishing enchantments from JEI (#225)
 - tile entities from EnderIO painting machine's paintable objects
 - recipes for painting blocks to save a JEI tab
@@ -106,6 +117,11 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - thermal foundation satchel crafting recipes
   - bag of holding from quest is already bigger
   - existing ones **won't** be deleted
+- chicken chunk loaders
+  - the mod is kept so admins can use it to see statistics
+  - use FTB Utilities to chunkload
+- several blocks that give an infinite water source
+  - sink is still available but harder
 
 *Mod-Removals:*
 - ElecCore
@@ -133,6 +149,8 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - improved some quest descriptions
 - added wand of the forest to "Mana Storage and Transfer" quest, it ignores the color you chose though
 - changed Traveller's Sack quest to Bag of Holding
+- petro petunia quest is now dependent on a ImmersiveEngineering multiblock quest
+- new quest for ImmersiveEngineering oil processing (pumpjack and distillation tower)
 
 ---
 
