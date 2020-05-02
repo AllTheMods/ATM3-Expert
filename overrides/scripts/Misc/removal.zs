@@ -219,6 +219,8 @@ val completeRemoval as IIngredient[] = [
 	<appliedenergistics2:nether_quartz_spade>,
 	<appliedenergistics2:nether_quartz_sword>,
 	<atum:limestone_furnace>,
+	<botania:floatingspecialflower>.withTag({type: "orechid"}),
+	<botania:floatingspecialflower>.withTag({type: "orechidIgnem"}),
 	<botania:specialflower>.withTag({type: "orechid"}),
 	<botania:specialflower>.withTag({type: "orechidIgnem"}),
 	<chickenchunks:chunk_loader:*>,
