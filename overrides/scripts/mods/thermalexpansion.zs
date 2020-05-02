@@ -126,6 +126,8 @@ recipes.addShaped(<thermalexpansion:frame:128>, [
 // mana pool | Botania
 Transposer.addFillRecipe(<botania:pool>, <botania:pool:2>, <liquid:glowstone> * 4000, 30000);
 
+// ender ingot | Extended Crafting
+Transposer.addFillRecipe(<extendedcrafting:material:36>, <enderio:item_alloy_ingot:5>, <liquid:vapor_of_levity> * 200, 500);
 
 
 ### PULVERIZER ###

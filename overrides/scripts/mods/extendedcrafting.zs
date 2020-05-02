@@ -12,6 +12,14 @@ print("==================== loading mods extendedcrafting.zs ===================
 
 ### CRAFTING RECIPES ###
 
+// ender ingot
+recipes.remove(<extendedcrafting:material:36>);
+recipes.addShaped(<extendedcrafting:material:36>, [
+    [<extendedcrafting:material:37>, <extendedcrafting:material:37>, <extendedcrafting:material:37>],
+    [<extendedcrafting:material:37>, <extendedcrafting:material:37>, <extendedcrafting:material:37>],
+    [<extendedcrafting:material:37>, <extendedcrafting:material:37>, <extendedcrafting:material:37>]
+]);
+
 // black iron ingot
 recipes.remove(<extendedcrafting:material>);
 recipes.addShapeless(<extendedcrafting:material> * 4, [
@@ -82,6 +90,22 @@ recipes.addShaped(<extendedcrafting:pedestal>, [
     [null, <actuallyadditions:block_display_stand>, null],
     [<extendedcrafting:material>, <ic2:itemmisc:452>, <extendedcrafting:material>],
     [<extendedcrafting:material>, <actuallyadditions:block_crystal_empowered:4>, <extendedcrafting:material>]
+]);
+
+// ender alternator
+recipes.remove(<extendedcrafting:ender_alternator>);
+recipes.addShaped(<extendedcrafting:ender_alternator> * 2, [
+    [null, <ore:pearlEnderEye>, null],
+    [null, <extendedcrafting:material:36>, null],
+    [<extendedcrafting:material:36>, <ore:gearEnderium>, <extendedcrafting:material:36>]
+]);
+
+// ender crafter
+recipes.remove(<extendedcrafting:ender_crafter>);
+recipes.addShaped(<extendedcrafting:ender_crafter>, [
+    [<ore:pearlEnderEye>, <ore:pearlEnderEye>, <ore:pearlEnderEye>],
+    [<extendedcrafting:material:36>, <ore:skullEnderResonator>, <extendedcrafting:material:36>],
+    [<extendedcrafting:material:36>, <enderio:block_crafter>, <extendedcrafting:material:36>]
 ]);
 
 
