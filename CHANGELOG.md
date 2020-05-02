@@ -15,7 +15,9 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - pack logo to Discord rich presence
 
 *Mod-Additions:*
+- Capability Adapter
 - Clumps
+- DefaultOptions
 - Ding
 - FastFurnace
 - FastWorkbench
@@ -40,10 +42,11 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - recipes of ender crafter, ender alternator and ender ingots
   - now use vapor of levity so it has a use now
 - nerfed sink recipe
-- plasma core is automatable now
+- plasma core is automatable now, machine structures give 2 per craft ([#191](https://github.com/AllTheMods/ATM3-Expert/issues/191))
 - unified wooden and stone gears
 - made diamond gear dependent on gold gear
 - ImmersiveEngineering metal press is 50% faster now
+- Capability Adapter has empowerer and combination recipes
 
 *Mod-Updates:*
 - Advanced Rocketry
@@ -85,6 +88,7 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - Netherending Ores
 - NuclearCraft
 - Ore Excavation
+- Psi
 - Quark
 - Random Things
 - RandomPatches
@@ -107,7 +111,7 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
   - existing ones **won't** be deleted but it's recommended to empty and to remove them
   - it's now replaced with the Bag of Holding
   - void sack is also removed as it was dependent
-- removed shimmer and curse of vanishing enchantments from JEI (#225)
+- removed shimmer and curse of vanishing enchantments from JEI ([#225](https://github.com/AllTheMods/ATM3-Expert/issues/225))
 - tile entities from EnderIO painting machine's paintable objects
 - recipes for painting blocks to save a JEI tab
 - all recipes from orechid and orechid ignim to save a JEI tab
@@ -122,6 +126,7 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
   - use FTB Utilities to chunkload
 - several blocks that give an infinite water source
   - sink is still available but harder
+- carbon value from Mekanism sawdust
 
 *Mod-Removals:*
 - ElecCore
@@ -162,8 +167,8 @@ Note: We are still working on this project! Updated all mods.
 ## [1.4.0] - 2020-01-03
 
 ### Added
-- BloodMagic to CarryOn (#192)
-- blast furnace recipes to arc furnace (bomber12309) (#94)
+- BloodMagic to CarryOn ([#192](https://github.com/AllTheMods/ATM3-Expert/issues/192))
+- blast furnace recipes to arc furnace (bomber12309) ([#94](https://github.com/AllTheMods/ATM3-Expert/issues/94))
 - names to ContentTweaker items (bomber12309)
 - black quartz seed (Trinsdar)
 
@@ -171,19 +176,19 @@ Note: We are still working on this project! Updated all mods.
 - Block Drops Tweaker
 
 ### Changed
-- metal bender dropping machine block instead of advanced machine block when broken (#170)
+- metal bender dropping machine block instead of advanced machine block when broken ([#170](https://github.com/AllTheMods/ATM3-Expert/issues/170))
 
 *Mod-Updates:*
 - Advanced Solars Classic
 - LootTweaker
 
 ### Fixed
-- elementium processor recipe in circuit etcher (bomber12309) (#195)
-- mundane ring recipe (#198)
-- advanced rocketry circuit recipe (bomber12309) (#158)
+- elementium processor recipe in circuit etcher (bomber12309) ([#195](https://github.com/AllTheMods/ATM3-Expert/issues/195))
+- mundane ring recipe ([#198](https://github.com/AllTheMods/ATM3-Expert/issues/198))
+- advanced rocketry circuit recipe (bomber12309) ([#158](https://github.com/AllTheMods/ATM3-Expert/issues/158))
 
 ### Quests
-- added command reward to luminous crafting table quest (#197)
+- added command reward to luminous crafting table quest ([#197](https://github.com/AllTheMods/ATM3-Expert/issues/197))
 
 ## [1.3.0] - 2019-12-20
 
