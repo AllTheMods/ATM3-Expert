@@ -48,6 +48,14 @@ recipes.addShaped(<thermalexpansion:augment:352>, [
     [null, tankLava, null]
 ]);
 
+// flux anodizers augment
+recipes.remove(<thermalexpansion:augment:257>);
+recipes.addShaped(<thermalexpansion:augment:257>, [
+    [null, <ore:gearBronze>, null],
+    [<ore:plateInvar>, <thermalfoundation:material:515>, <ore:plateInvar>],
+    [<actuallyadditions:item_crystal_empowered:2>, <ore:dustPyrotheum>, <actuallyadditions:item_crystal_empowered:2>]
+]);
+
 // portable tank basic
 recipes.removeShaped(<thermalexpansion:tank>);
 recipes.addShaped(<thermalexpansion:tank>, [
