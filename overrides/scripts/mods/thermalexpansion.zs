@@ -2,7 +2,10 @@
 #modloaded thermalexpansion
 #priority 100
 
+import crafttweaker.item.IItemStack;
 import mods.thermalexpansion.InductionSmelter;
+import mods.thermalexpansion.Pulverizer;
+import mods.thermalexpansion.RedstoneFurnace;
 import mods.thermalexpansion.Transposer;
 
 print("==================== loading mods thermalexpansion.zs ====================");
@@ -116,6 +119,23 @@ recipes.addShaped(<thermalexpansion:frame:128>, [
 Transposer.addFillRecipe(<botania:pool>, <botania:pool:2>, <liquid:glowstone> * 4000, 30000);
 
 
+
+### PULVERIZER ###
+
+// redstone | Vanilla
+Pulverizer.removeRecipe(<netherendingores:ore_nether_vanilla:6>);
+Pulverizer.removeRecipe(<netherendingores:ore_end_vanilla:6>);
+Pulverizer.removeRecipe(<minecraft:redstone_ore>);
+Pulverizer.addRecipe(<minecraft:redstone> * 6, <minecraft:redstone_ore>, 1500, <thermalfoundation:material:866>, 10);
+
+
+### REDSTONE FURNACE ###
+
+// redstone | Vanilla
+RedstoneFurnace.removeRecipe(<minecraft:redstone_ore>);
+RedstoneFurnace.addRecipe(<minecraft:redstone> * 2, <minecraft:redstone_ore>, 3600);
+
+
 ### INDUCTION SMELTER ###
 
 // steel ingot removal
@@ -125,6 +145,12 @@ InductionSmelter.removeRecipe(<minecraft:iron_ingot>, <thermalfoundation:materia
 InductionSmelter.removeRecipe(<thermalfoundation:material>, <thermalfoundation:material:768> * 4);
 InductionSmelter.removeRecipe(<thermalfoundation:material>, <thermalfoundation:material:769> * 4);
 InductionSmelter.removeRecipe(<thermalfoundation:material>, <thermalfoundation:material:802>);
+
+// redstone | Vanilla
+InductionSmelter.removeRecipe(<minecraft:sand>, <minecraft:redstone_ore>);
+InductionSmelter.addRecipe(<minecraft:redstone>, <minecraft:sand>, <minecraft:redstone_ore>, 1500, <thermalfoundation:material:865>, 20);
+InductionSmelter.removeRecipe(<thermalfoundation:material:865>, <netherendingores:ore_end_vanilla:6>);
+InductionSmelter.removeRecipe(<thermalfoundation:material:865>, <netherendingores:ore_nether_vanilla:6>);
 
 
 ##########################################################################################

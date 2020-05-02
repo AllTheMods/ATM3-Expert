@@ -5,6 +5,7 @@
 import mods.immersiveengineering.ArcFurnace;
 import mods.immersiveengineering.BlastFurnace;
 import mods.immersiveengineering.CokeOven;
+import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.MetalPress;
 
 print("==================== loading mods immersiveengineering.zs ====================");
@@ -135,19 +136,28 @@ BlastFurnace.addRecipe(<ic2c_extras:refinedironplate>, <thermalfoundation:materi
 CokeOven.removeRecipe(<minecraft:coal:1>);
 
 
+### CRUSHER ###
+
+// redstone | Vanilla
+Crusher.removeRecipesForInput(<minecraft:redstone_ore>);
+Crusher.removeRecipesForInput(<netherendingores:ore_end_vanilla:6>);
+Crusher.removeRecipesForInput(<netherendingores:ore_nether_vanilla:6>);
+Crusher.addRecipe(<minecraft:redstone> * 8, <minecraft:redstone_ore>, 1000, <thermalfoundation:material:866>, 0.25);
+
+
 ### METAL PRESS ###
 
 // cold iron plate | ContentTweaker
-MetalPress.addRecipe(<contenttweaker:coldironplate>, <contenttweaker:coldironingot>, <immersiveengineering:mold>,1000);
+MetalPress.addRecipe(<contenttweaker:coldironplate>, <contenttweaker:coldironingot>, <immersiveengineering:mold>, 1000);
 
 // quartz plate | ContentTweaker
-MetalPress.addRecipe(<contenttweaker:quartzplate>, <contenttweaker:quartzingot>, <immersiveengineering:mold>,1000);
+MetalPress.addRecipe(<contenttweaker:quartzplate>, <contenttweaker:quartzingot>, <immersiveengineering:mold>, 1000);
 
 // mana steel plate | ContentTweaker
-MetalPress.addRecipe(<contenttweaker:manasteelplate>, <botania:manaresource>, <immersiveengineering:mold>,1000);
+MetalPress.addRecipe(<contenttweaker:manasteelplate>, <botania:manaresource>, <immersiveengineering:mold>, 1000);
 
 // mana diamond plate | ContentTweaker
-MetalPress.addRecipe(<contenttweaker:manadiamondplate>, <botania:manaresource:2>, <immersiveengineering:mold>,1000);
+MetalPress.addRecipe(<contenttweaker:manadiamondplate>, <botania:manaresource:2>, <immersiveengineering:mold>, 1000);
 
 
 ##########################################################################################

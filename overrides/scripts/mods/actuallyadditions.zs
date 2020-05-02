@@ -3,6 +3,7 @@
 #priority 100
 
 import mods.actuallyadditions.AtomicReconstructor;
+import mods.actuallyadditions.Crusher;
 import mods.actuallyadditions.Empowerer;
 
 print("==================== loading mods actuallyadditions.zs ====================");
@@ -113,6 +114,14 @@ AtomicReconstructor.addRecipe(<botania:quartz:6>, <botania:quartz:1>, 50000);
 
 // greatwood planks | Thaumcraft
 AtomicReconstructor.addRecipe(<thaumcraft:plank_greatwood>, <thaumcraft:log_greatwood>, 5000);
+
+
+### CRUSHER ###
+
+// redstone | Vanilla
+Crusher.removeRecipe(<minecraft:redstone>);
+Crusher.addRecipe(<minecraft:redstone> * 5, <minecraft:redstone_ore>, <thermalfoundation:material:866>, 25);
+Crusher.addRecipe(<minecraft:redstone>, <extrautils2:ingredients>);
 
 
 ### EMPOWERER ###

@@ -31,11 +31,17 @@ recipes.addShaped(<minecraft:bucket>, [
 ]);
 
 // furnace
-recipes.removeShaped(<minecraft:furnace>);
+recipes.remove(<minecraft:furnace>);
 recipes.addShaped(<minecraft:furnace>, [
     [<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>],
     [<ore:blockSeared>, null, <ore:blockSeared>],
     [<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>]
+]);
+
+// redstone
+recipes.remove(<minecraft:redstone>);
+recipes.addShapeless(<minecraft:redstone> * 9, [
+    <ore:blockRedstone>
 ]);
 
 
