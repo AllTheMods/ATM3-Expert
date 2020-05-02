@@ -61,6 +61,7 @@ val craftingRemovalOut as IIngredient[] = [
 	<ore:blockGlassHardened>,
 	<ore:dustLumium>,
 	<randomthings:timeinabottle>,
+	<rf-capability-adapter:aecapabilityadapter>,
 	<rftools:machine_frame>,
 	<tcomplement:alloy_tank>,
 	<tcomplement:high_oven_controller>,

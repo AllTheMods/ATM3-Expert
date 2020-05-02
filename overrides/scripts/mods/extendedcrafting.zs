@@ -252,6 +252,12 @@ CombinationCrafting.addRecipe(<atmtweaks:item_material:5>, 100000000, 5000,
     ]
 );
 
+// me capability adapter
+CombinationCrafting.addRecipe(<rf-capability-adapter:aecapabilityadapter>, 50000, 500, <appliedenergistics2:interface>, [
+    <compactmachines3:tunneltool>, <ore:crystalPureCertusQuartz>,
+    <appliedenergistics2:part:460>, <contenttweaker:elementiumprocessor>
+]);
+
 
 ### ENDER CRAFTING ###
 

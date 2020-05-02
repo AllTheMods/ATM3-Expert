@@ -171,6 +171,9 @@ Empowerer.addRecipe(<appliedenergistics2:material:15>, <ore:blockIron>, <ore:blo
 // inscriber engineering press | Applied Energistics 2
 Empowerer.addRecipe(<appliedenergistics2:material:14>, <ore:blockIron>, <ore:blockDiamond>, <thermalfoundation:material:160>, <appliedenergistics2:material:45>, <appliedenergistics2:fluix_block>, 50000, 600, [0.5, 0.3, 0.2]);
 
+// me capability adapter
+Empowerer.addRecipe(<rf-capability-adapter:aecapabilityadapter>, <appliedenergistics2:interface>, <compactmachines3:tunneltool>, <ore:crystalPureCertusQuartz>, <appliedenergistics2:part:460>, <contenttweaker:elementiumprocessor>, 50000, 600, [0.5, 0.3, 0.2]);
+
 // scarab | Atum 2
 Empowerer.addRecipe(<atum:scarab>, <contenttweaker:manadiamondplate>, <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <actuallyadditions:item_crystal_empowered:4>, <thermalfoundation:glass:3>, <thaumcraft:plate:2>, 150000, 2400);
 

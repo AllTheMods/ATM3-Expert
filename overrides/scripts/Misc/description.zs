@@ -34,7 +34,8 @@ val empowererRecipes as string[IItemStack] = {
     <actuallyadditions:block_crystal_empowered>: "1.500.000", # empowered restonia crystal block
     <actuallyadditions:block_crystal_empowered:1>: "2.100.000", # empowered palis crystal block
     <actuallyadditions:block_crystal_empowered:2>: "4.000.000", # empowered diamantine crystal block
-    <actuallyadditions:block_crystal_empowered:4>: "6.000.000" # empowered emeradic crystal block
+    <actuallyadditions:block_crystal_empowered:4>: "6.000.000", # empowered emeradic crystal block
+    <rf-capability-adapter:aecapabilityadapter>: "50.000" # me capability adapter
 };
 for entry, power in empowererRecipes {
     addDescription(entry, "This item requires " + power + " RF in the empowerer to make.");
