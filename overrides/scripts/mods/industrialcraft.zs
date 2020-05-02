@@ -89,6 +89,14 @@ recipes.addShaped(<ic2:blockchambers>, [
     [null, <ic2:itemmisc:259>, null]
 ]);
 
+// plasma core
+recipes.remove(<ic2:itemmisc:264>);
+recipes.addShaped(<ic2:itemmisc:264>, [
+    [<ic2:itemmisc:263>, <ic2:itemmisc:257>, <ic2:itemmisc:263>],
+    [<ic2:itemmisc:257>, <ic2:itemmisc:108>, <ic2:itemmisc:257>],
+    [<ic2:itemmisc:263>, <ic2:itemmisc:257>, <ic2:itemmisc:263>]
+]);
+
 // metal bender | IC2Classic Extras
 recipes.remove(<ic2c_extras:metalbender>);
 recipes.addShaped(<ic2c_extras:metalbender>, [
