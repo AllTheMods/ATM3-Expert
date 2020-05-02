@@ -198,7 +198,8 @@
   "item.lithiumDust_-1042079310": true,
   "item.lithiumDust_1942999117": true,
   "ic2exprecipe_Pulverized Obsidian_": true,
-  "ic2exprecipe_Coffee Powder_": true
+  "ic2exprecipe_Coffee Powder_": true,
+  "ic2exprecipe_Redstone__2": false
  },
  "extractor": {
   "item.coal_764578481": true,
