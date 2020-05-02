@@ -72,20 +72,6 @@ recipes.addShaped(<thermalfoundation:upgrade:1>, [
     [<ic2:itemmisc:451>, <actuallyadditions:item_crystal_empowered>, <ic2:itemmisc:451>]
 ]);
 
-// emerald gear
-recipes.addShaped(<thermalfoundation:material:27>, [
-    [null, <ore:gemEmerald>, null],
-    [<ore:gemEmerald>, <botania:manaresource:4>, <ore:gemEmerald>],
-    [null, <ore:gemEmerald>, null]
-]);
-
-// diamond gear
-recipes.addShaped(<thermalfoundation:material:26>, [
-    [null, <ore:gemDiamond>, null],
-    [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>],
-    [null, <ore:gemDiamond>, null]
-]);
-
 // wooden gear
 recipes.remove(<thermalfoundation:material:22>);
 recipes.addShaped(<thermalfoundation:material:22>, [
@@ -113,6 +99,13 @@ recipes.addShaped(<thermalfoundation:material:26>, [
     [null, <ore:gemDiamond>, null],
     [<ore:gemDiamond>, <ore:gearGold>, <ore:gemDiamond>],
     [null, <ore:gemDiamond>, null]
+]);
+
+// emerald gear
+recipes.addShaped(<thermalfoundation:material:27>, [
+    [null, <ore:gemEmerald>, null],
+    [<ore:gemEmerald>, <botania:manaresource:4>, <ore:gemEmerald>],
+    [null, <ore:gemEmerald>, null]
 ]);
 
 
