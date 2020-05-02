@@ -48,7 +48,7 @@ recipes.addShaped(<advancedrocketry:ic:1>, [
 
 // machine structure
 recipes.remove(<libvulpes:structuremachine>);
-recipes.addShaped(<libvulpes:structuremachine>, [
+recipes.addShaped(<libvulpes:structuremachine> * 2, [
     [<mekanism:polyethene:2>, <mekanism:controlcircuit:3>, <mekanism:polyethene:2>],
     [<contenttweaker:elementiumprocessor>, <ic2:blockmachinemv>, <contenttweaker:quartzingot>],
     [<mekanism:polyethene:2>, <ic2:itemmisc:451>, <mekanism:polyethene:2>]
@@ -78,7 +78,7 @@ recipes.addShaped(<libvulpes:hatch:1>, [
     [<ic2:itemmisc:264>, <bloodmagic:slate:3>, <ic2:itemmisc:264>]
 ]);
 
-#advanced rocketry crucible
+// quartz crucible
 recipes.remove(<advancedrocketry:iquartzcrucible>);
 recipes.addShaped(<advancedrocketry:iquartzcrucible>, [
     [<contenttweaker:quartzingot>, null, <contenttweaker:quartzingot>],
