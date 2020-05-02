@@ -48,6 +48,13 @@ print("==================== loading misc oredict.zs ====================");
 // hardened glass platinum
 <ore:blockGlassHardenedPlatinum>.add(<thermalfoundation:glass:6>);
 
+// wooden gear
+<ore:gearWood>.remove(<appliedenergistics2:material:40>);
+<ore:gearWood>.remove(<enderio:item_material:9>);
+
+// stone gear
+<ore:gearStone>.remove(<enderio:item_material:10>);
+
 // vis crystals
 val itemVisCrystal = <ore:itemVisCrystal>;
 itemVisCrystal.add(<thaumcraft:crystal_essence:*>);

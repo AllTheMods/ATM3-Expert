@@ -209,6 +209,8 @@ val completeRemoval as IIngredient[] = [
 	<enderio:block_simple_stirling_generator>,
 	<enderio:block_simple_wired_charger>,
 	<enderio:block_solar_panel>,
+	<enderio:item_material:10>,
+	<enderio:item_material:9>,
 	<environmentaltech:lightning_cont_1>,
 	<environmentaltech:lightning_cont_2>,
 	<environmentaltech:lightning_cont_3>,

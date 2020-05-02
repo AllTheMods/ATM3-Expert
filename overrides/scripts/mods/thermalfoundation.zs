@@ -86,6 +86,35 @@ recipes.addShaped(<thermalfoundation:material:26>, [
     [null, <ore:gemDiamond>, null]
 ]);
 
+// wooden gear
+recipes.remove(<thermalfoundation:material:22>);
+recipes.addShaped(<thermalfoundation:material:22>, [
+    [null, <ore:stickWood>, null],
+    [<ore:stickWood>, null, <ore:stickWood>],
+    [null, <ore:stickWood>, null]
+]);
+
+// stone gear
+recipes.remove(<thermalfoundation:material:23>);
+recipes.addShaped(<thermalfoundation:material:23>, [
+    [null, <ore:cobblestone>, null],
+    [<ore:cobblestone>, <ore:gearWood>, <ore:cobblestone>],
+    [null, <ore:cobblestone>, null]
+]);
+recipes.addShaped(<thermalfoundation:material:23>, [
+    [<ore:stickWood>, <ore:cobblestone>, <ore:stickWood>],
+    [<ore:cobblestone>, null, <ore:cobblestone>],
+    [<ore:stickWood>, <ore:cobblestone>, <ore:stickWood>]
+]);
+
+// diamond gear
+recipes.remove(<thermalfoundation:material:26>);
+recipes.addShaped(<thermalfoundation:material:26>, [
+    [null, <ore:gemDiamond>, null],
+    [<ore:gemDiamond>, <ore:gearGold>, <ore:gemDiamond>],
+    [null, <ore:gemDiamond>, null]
+]);
+
 
 ##########################################################################################
 print("==================== end of mods thermalfoundation.zs ====================");
