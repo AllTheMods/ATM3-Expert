@@ -1,5 +1,5 @@
 ##########################################################################################
-#modloaded advancedRocketry
+#modloaded advancedrocketry
 #priority 100
 
 import mods.advancedrocketry.PrecisionAssembler;
