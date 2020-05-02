@@ -1,18 +1,23 @@
+# Contribution Guidelines
+
 ## Search
-Before reporting, please do a quick search for other open issues that might be related and add to the discussion there. Bonus if you can take the time to look through the affected mods (if any) issue trackers and see if the issue is already being take care of by the mod developers directly.
-  
-  
-  
-## Suggestions
-Use the "suggestions" issue tracker for mod suggestions. Check the list to make sure your suggestions isn't already added
-### https://github.com/AllTheMods/ATM-3/issues/1
-  
-  
-  
-## Help Wanted
-Sometimes issues are hard to track down or take time. Anything labeled with "help wanted" is open for anyone to try to assist with more feedback or testing and any contributions are greately appreciated.
-  
-  
-  
-## Logs
-If your report is about a crash, you must provide a copy of the crash-log. Many other issues might benefit from latest.log or the others in the logs directory. If you take the time to provide these up-front, it can expedite our ability to provide assistance.
+Before reporting, please do a quick research for other [open issues][github issues] that might be related and add to the discussion there.
+If you can take the time to look through the affected mods (if any) issue trackers and see if the issue is already being take care of by the mod developers directly.
+
+## Suggestions / Feature Requests
+If you think anything is missing in the pack, you want to suggest something or you want to have something changed, use the [feature request template][feature request] on our [github issues].
+
+## Bug Reports
+Did you find anything that seems strange in the pack? Is there a recipe missing or an infinite loop? Please report that bug with the [bug report template][bug report].<br>
+Keep in mind that we need logs if you had a crash. The latest.log and the latest crash-log can be uploaded to [pastebin].
+
+## Pull Requests
+Do you think you can fix an issue yourself? Pull requests are always welcome.
+Just make sure to split everything you did in different commits so it can be reviewed easily.
+
+
+<!-- LINKS -->
+[feature request]: https://github.com/AllTheMods/ATM3-Expert/issues/new?template=feature_request.md
+[github issues]: https://github.com/AllTheMods/ATM3-Expert/issues
+[bug report]: https://github.com/AllTheMods/ATM3-Expert/issues/new?template=bug_report.md
+[pastebin]: https://pastebin.com/
