@@ -8,11 +8,13 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 ## [1.6.0] - 2020-XX-XX
 
 ### Added
-- open blocks guide to akashic tome
-- actually additions guide to akashic tome
-- custom descriptions to items made in empowerer to know how much RF is needed to empower them
-- instructions how to get scrap from IndustrialCraft since the recipe is not shown in JEI
-- pack logo to Discord rich presence
+- Akashic Tome
+  - Actually Additions guide
+  - Open Blocks guide
+- custom item descriptions
+  - items made in empowerer now show how much power is required
+  - scrap now shows how it's obtained
+- pack logo and name to Discord rich presence
 
 *Mod-Additions:*
 - Capability Adapter
@@ -27,26 +29,20 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - Tinker's JEI
 
 ### Changed
-- huge script overhaul and refactor
-- Discord rich presence now shows modpack name
 - application window now shows modpack name
-- actually additions guide is no longer given on first craft
-- all AE2 facades are now hidden to prevent JEI page spam
-- only the AE2 stone facade is shown with a guide how to craft facades
-- various fluid containers are now hidden to prevent JEI page spam, all basic forms are still visible
-- Bag of Holding recipe to make it available in the earlier game since it replaces the Traveller's Sack
-- skybox to garden of glass
-- atomic reconstructor also accepts crystal blocks now but it costs 10x the power
-- adjusted redstone output by several machines to keep it balanced
-- flux anodizers augment is more expensive now
-- recipes of ender crafter, ender alternator and ender ingots
-  - now use vapor of levity so it has a use now
-- nerfed sink recipe
-- plasma core is automatable now, machine structures give 2 per craft ([#191](https://github.com/AllTheMods/ATM3-Expert/issues/191))
-- unified wooden and stone gears
-- made diamond gear dependent on gold gear
-- ImmersiveEngineering metal press is 50% faster now
-- Capability Adapter has empowerer and combination recipes
+- Actually Additions guide is no longer given on first craft
+- Applied Energistics facades are now hidden in JEI
+  - prevents filling several pages from JEI
+  - the stone facade is now used as a template on how to craft facades
+- EnderIO tile entities are no longer paintable
+- Immersive Engineering metal press is 50% faster now
+- improved the modpack loading time
+- the world now uses the Garden of Glass skybox
+- unified wooden gears and stone gears
+- various fluid containers are now hidden in JEI
+  - prevents filling several pages from JEI
+  - all basic forms are still shown
+- huge script overhaul and refactor
 
 *Mod-Updates:*
 - Advanced Rocketry
@@ -70,14 +66,17 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - Cyclops Core
 - Doomlike Dungeons
 - Draconic Evolution
+- EnderCore
 - Floralchemy
 - Forestry
 - FTB Library
+- GameStages
 - Integration Foregoing
 - Inventory Tweaks
-- Journey Map
+- JEI Integration
+- JourneyMap
 - Just Enough Dimensions
-- Just Enough IDs
+- JustEnoughIDs
 - Lazy AE2
 - LibNine
 - LibVulpes
@@ -91,8 +90,10 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - Psi
 - Quark
 - Random Things
-- RandomPatches
+- Random Patches
+- Random Tweaks
 - Redstone Flux
+- Rustic
 - Storage Drawers
 - Tesla Core Lib
 - Thaumic Energistics
@@ -106,27 +107,22 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - UniDict
 
 ### Removed
-- removed the Traveller's Sack from crafting
-  - it has well known duping bugs and is not recommended to keep
-  - existing ones **won't** be deleted but it's recommended to empty and to remove them
-  - it's now replaced with the Bag of Holding
-  - void sack is also removed as it was dependent
-- removed shimmer and curse of vanishing enchantments from JEI ([#225](https://github.com/AllTheMods/ATM3-Expert/issues/225))
-- tile entities from EnderIO painting machine's paintable objects
-- recipes for painting blocks to save a JEI tab
-- all recipes from orechid and orechid ignim to save a JEI tab
-- a ton of old modpack version fragments
-- join notifications of ingame wiki mod from extra cells
-- join notifications from recurrent complex
-- thermal foundation satchel crafting recipes
-  - bag of holding from quest is already bigger
-  - existing ones **won't** be deleted
-- chicken chunk loaders
+- a lot of old modpack version fragments
+- carbon value from Mekanism sawdust
+- Chicken Chunks chunk loaders
   - the mod is kept so admins can use it to see statistics
   - use FTB Utilities to chunkload
-- several blocks that give an infinite water source
-  - sink is still available but harder
-- carbon value from Mekanism sawdust
+- enchantments curse of vanishing and shimmer from JEI ([#225](https://github.com/AllTheMods/ATM3-Expert/issues/225))
+  - saves a JEI tab
+- join notifications
+  - ingame wiki mod from Extra Cells
+  - Recurrent Complex
+- recipes from orechid and orechid ignim from JEI
+  - saves a JEI tab
+- recipes from EnderIO painting machine from JEI
+  - saves a JEI tab
+- several blocks that give an infinite water sources
+  - sink is still available
 
 *Mod-Removals:*
 - ElecCore
@@ -140,22 +136,50 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - ZeroCore
 
 ### Fixed
+- empty slot in Akashic Tome
+- duplicated empowerer recipe for machine casing
 - inscriber recipe for elementium processor being the wrong order
 - ImmersiveEngineering loottables
-- empty slot in Akashic Tome
-- duplicate empowerer recipe for machine casing
 - some broken world generation
 
 ### Security
 - Discord rich presence no longer shows server IP
 
+### Recipes
+- added Extended Crafting recipes for illumination powder, nocturnal powder and luminessence
+  - they are a lot harder and more expensive to be available in the late game
+  - is intended to make them automatable when you are far in progression
+- adjusted redstone output by several machines to keep it balanced
+- angel ring now accepts primordial pearl with any damage
+  - getting a full pearl when collapsing rifts just takes ages and tons of luck
+- atomic reconstructor also accepts crystal blocks now but it costs 10x the power
+- bag of holding recipe has been removed
+  - it had serious bugs with saving items in it
+  - existing ones **won't** be deleted
+- diamond gear is now dependent on gold gear
+- ender crafter, ender alternator and ender ingots
+  - now uses vapor of levity so it has a use now
+- flux anodizers augment is more expensive now
+- plasma core only uses single ingredients now
+- satchel recipes
+  - make the first one available in the early game since it replaced the Traveller's Sack
+  - adjusted the upgraded satchels so they can be crafted when progressing through the pack
+- sink recipe nerfed to make it a little harder
+- traveller's sack recipe has been removed
+  - it has well known duping methods and is not recommended to keep
+  - existing ones **won't** be removed but it's better if you empty and remove them
+  - void sacks recipe has been removed too since it was dependent on the traveller's sack
+
 ### Quests
+- added wand of the forest to "Mana Storage and Transfer" quest
+  - colors of the wand are ignored
 - corrected several spelling mistakes (report more if you find any)
+- changed Traveller's Sack quest to Satchel
+  - added description that satchels can be upgraded and enchanted
 - improved some quest descriptions
-- added wand of the forest to "Mana Storage and Transfer" quest, it ignores the color you chose though
-- changed Traveller's Sack quest to Bag of Holding
-- petro petunia quest is now dependent on a ImmersiveEngineering multiblock quest
 - new quest for ImmersiveEngineering oil processing (pumpjack and distillation tower)
+  - petro petunia quest is now dependent on it
+
 
 ---
 
