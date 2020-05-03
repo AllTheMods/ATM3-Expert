@@ -112,7 +112,7 @@ recipes.addShaped(<extendedcrafting:ender_crafter>, [
 ### COMBINATION CRAFTING ###
 
 // machine case | Tesla Core Lib
-CombinationCrafting.addRecipe(<teslacorelib:machine_case>, 12500 * 4, 400, <actuallyadditions:block_crystal>, [
+CombinationCrafting.addRecipe(<teslacorelib:machine_case>, 50000, 400, <actuallyadditions:block_crystal>, [
     <actuallyadditions:item_crystal:5>, <contenttweaker:quartzplate>,
     <actuallyadditions:item_crystal:5>, <contenttweaker:quartzplate>
 ]);
@@ -179,40 +179,56 @@ CombinationCrafting.addRecipe(<actuallyadditions:block_crystal_empowered:5>, 150
     <ic2c_extras:refinedironcasing>, <botania:dye>
 ]);
 
+// illumination powder | Astral Sorcery
+CombinationCrafting.addRecipe(<astralsorcery:itemusabledust>, 30000, 3000, <astralsorcery:itemcraftingcomponent>, [
+    <minecraft:redstone_lamp>, <minecraft:redstone_lamp>,
+    <ore:blockGlowstone>, <ore:blockGlowstone>,
+    <minecraft:redstone_lamp>, <minecraft:redstone_lamp>,
+    <ore:blockGlowstone>, <ore:blockGlowstone>
+]);
+
+// nocturnal powder | Astral Sorcery
+CombinationCrafting.addRecipe(<astralsorcery:itemusabledust:1>, 50000, 5000, <astralsorcery:itemusabledust>, [
+    <actuallyadditions:block_crystal:3>, <actuallyadditions:block_crystal:3>,
+    <ore:dustObsidian>, <ore:dustObsidian>,
+    <actuallyadditions:block_crystal:1>, <actuallyadditions:block_crystal:1>,
+    <ore:dyeBlack>, <ore:dyeBlack>
+]);
+
 // angel rings | Extra Utilities 2
 CombinationCrafting.addRecipe(<extrautils2:angelring>, 100000000, 5000, <minecraft:elytra>, [
     <bloodmagic:component:2>, <minecraft:feather>,
-    <ic2:itemmisc:264>, <thaumcraft:primordial_pearl>,
+    <ic2:itemmisc:264>, <thaumcraft:primordial_pearl>.anyDamage(),
     <botania:manaresource:14>, <rftools:dimensional_shard>,
     <atmtweaks:item_material:10>, <ore:blockGlass>
 ]);
 CombinationCrafting.addRecipe(<extrautils2:angelring:1>, 100000000, 5000, <minecraft:elytra>, [
     <bloodmagic:component:2>, <minecraft:feather>,
-    <ic2:itemmisc:264>, <thaumcraft:primordial_pearl>,
+    <ic2:itemmisc:264>, <thaumcraft:primordial_pearl>.anyDamage(),
     <botania:manaresource:14>, <rftools:dimensional_shard>,
     <atmtweaks:item_material:10>, <minecraft:feather>
 ]);
 CombinationCrafting.addRecipe(<extrautils2:angelring:2>, 100000000, 5000, <minecraft:elytra>, [
     <bloodmagic:component:2>, <minecraft:feather>,
-    <ic2:itemmisc:264>, <thaumcraft:primordial_pearl>,
+    <ic2:itemmisc:264>, <thaumcraft:primordial_pearl>.anyDamage(),
     <botania:manaresource:14>, <rftools:dimensional_shard>,
     <atmtweaks:item_material:10>, <minecraft:dye:9>
 ]);
 CombinationCrafting.addRecipe(<extrautils2:angelring:3>, 100000000, 5000, <minecraft:elytra>, [
     <bloodmagic:component:2>, <minecraft:feather>,
-    <ic2:itemmisc:264>, <thaumcraft:primordial_pearl>,
+    <ic2:itemmisc:264>, <thaumcraft:primordial_pearl>.anyDamage(),
     <botania:manaresource:14>, <rftools:dimensional_shard>,
     <atmtweaks:item_material:10>, <minecraft:leather>
 ]);
 CombinationCrafting.addRecipe(<extrautils2:angelring:4>, 100000000, 5000, <minecraft:elytra>, [
     <bloodmagic:component:2>, <minecraft:feather>,
-    <ic2:itemmisc:264>, <thaumcraft:primordial_pearl>,
+    <ic2:itemmisc:264>, <thaumcraft:primordial_pearl>.anyDamage(),
     <botania:manaresource:14>, <rftools:dimensional_shard>,
     <atmtweaks:item_material:10>, <ore:nuggetGold>
 ]);
 CombinationCrafting.addRecipe(<extrautils2:angelring:5>, 100000000, 5000, <minecraft:elytra>, [
     <bloodmagic:component:2>, <minecraft:feather>,
-    <ic2:itemmisc:264>, <thaumcraft:primordial_pearl>,
+    <ic2:itemmisc:264>, <thaumcraft:primordial_pearl>.anyDamage(),
     <botania:manaresource:14>, <rftools:dimensional_shard>,
     <atmtweaks:item_material:10>, <ore:itemCoal>
 ]);
@@ -252,7 +268,7 @@ CombinationCrafting.addRecipe(<atmtweaks:item_material:5>, 100000000, 5000,
     ]
 );
 
-// me capability adapter
+// me capability adapter | Capability Adapter
 CombinationCrafting.addRecipe(<rf-capability-adapter:aecapabilityadapter>, 50000, 500, <appliedenergistics2:interface>, [
     <compactmachines3:tunneltool>, <ore:crystalPureCertusQuartz>,
     <appliedenergistics2:part:460>, <contenttweaker:elementiumprocessor>

@@ -40,6 +40,9 @@ BloodAltar.addRecipe(<contenttweaker:crystallisedblood>, <botania:manaresource:8
 // draconium ingot | Draconic Evolution
 BloodAltar.addRecipe(<draconicevolution:draconium_ingot>, <draconicevolution:draconium_dust>, 4, 50000, 25, 5);
 
+// luminessence | Extended Crafting
+BloodAltar.addRecipe(<extendedcrafting:material:7>, <minecraft:glowstone>, 4, 10000, 50, 10);
+
 
 ### BLOOD TRANSMUTATION ###
 
