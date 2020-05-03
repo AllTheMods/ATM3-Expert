@@ -120,6 +120,38 @@ recipes.addShaped(<thermalexpansion:frame:128>, [
     [<alchemistry:ingot:31>, <thermalfoundation:glass_alloy:7>, <alchemistry:ingot:31>]
 ]);
 
+// satchel hardened
+recipes.remove(<thermalexpansion:satchel:1>);
+recipes.addShaped(<thermalexpansion:satchel:1>, [
+    [<ore:leather>, <ore:wool>, <ore:leather>],
+    [<ore:dyeBlack>, <ore:chestWood>, <ore:dyeBlack>],
+    [<ore:leather>, <ore:leather>, <ore:leather>]
+]);
+
+// satchel reinforced
+recipes.remove(<thermalexpansion:satchel:2>);
+recipes.addShaped(<thermalexpansion:satchel:2>, [
+    [<ore:plateIron>, <ore:wool>, <ore:plateIron>],
+    [<ore:itemRubber>, <thermalexpansion:satchel:1>, <ore:itemRubber>],
+    [<ore:plankTreatedWood>, <ore:chestWood>, <ore:plankTreatedWood>]
+]);
+
+// satchel signalum
+recipes.remove(<thermalexpansion:satchel:3>);
+recipes.addShaped(<thermalexpansion:satchel:3>, [
+    [<ore:gemDiamond>, <actuallyadditions:block_crystal>, <ore:gemDiamond>],
+    [<actuallyadditions:item_crystal:1>, <thermalexpansion:satchel:2>, <actuallyadditions:item_crystal:1>],
+    [<ore:ingotConductiveIron>, <actuallyadditions:block_giant_chest>, <ore:ingotConductiveIron>]
+]);
+
+// satchel reinforced
+recipes.remove(<thermalexpansion:satchel:4>);
+recipes.addShaped(<thermalexpansion:satchel:4>, [
+    [<ore:gemQuartzBlack>, <ore:blockCrystalEmpoweredDiamatine>, <ore:gemQuartzBlack>],
+    [<ore:plateSteel>, <thermalexpansion:satchel:3>, <ore:plateSteel>],
+    [<ore:ingotAstralStarmetal>, <actuallyadditions:block_giant_chest_medium>, <ore:ingotAstralStarmetal>]
+]);
+
 
 ### FLUID TRANSPOSER ###
 

@@ -46,14 +46,6 @@ recipes.addShaped(<extrautils2:user>, [
     [<botania:manaresource>, <actuallyadditions:item_crystal_empowered:4>, <botania:manaresource>]
 ]);
 
-// bag of holding
-recipes.remove(<extrautils2:bagofholding>);
-recipes.addShaped(<extrautils2:bagofholding>, [
-    [<minecraft:leather>, <minecraft:string>, <minecraft:leather>],
-    [<ore:dyeYellow>, <ore:chest>, <ore:dyeYellow>],
-    [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>]
-]);
-
 
 ##########################################################################################
 print("==================== end of mods extrautilities.zs ====================");

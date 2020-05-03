@@ -250,6 +250,7 @@ val completeRemoval as IIngredient[] = [
 	<environmentaltech:solar_cont_6>,
 	<extendedcrafting:material:128>,
 	<extendedcrafting:table_basic>,
+	<extrautils2:bagofholding>,
 	<extrautils2:machine>,
 	<extrautils2:machine>.withTag({Type: "extrautils2:crusher"}),
 	<extrautils2:machine>.withTag({Type: "extrautils2:furnace"}),
@@ -303,7 +304,9 @@ val completeRemoval as IIngredient[] = [
 	<thermalexpansion:dynamo:1>,
 	<thermalexpansion:machine:5>,
 	<thermalexpansion:machine:7>,
-	<thermalexpansion:satchel:*>
+	<thermalexpansion:reservoir:32000>,
+	<thermalexpansion:satchel:32000>,
+	<thermalexpansion:satchel>,
 ];
 for entry in completeRemoval {
     removeAndHide(entry);
