@@ -11,9 +11,16 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - Akashic Tome
   - Actually Additions guide
   - Open Blocks guide
+- certus quartz seed
+  - uses a runic altar recipe instead of crop breeding
+  - only grows on a sky stone block with a me controller underneath it
+  - doesn't drop an item everytime
+  - can't be bonemealed
+  - uses the same texture as the nether quartz plant since Applied Energistics doesn't add own plants
 - custom item descriptions
   - items made in empowerer now show how much power is required
   - scrap now shows how it's obtained
+  - how to obtain liquid xp
 - pack logo and name to Discord rich presence
 
 *Mod-Additions:*
@@ -26,6 +33,7 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - Just Enough Throwing in Fluid
 - Just Enough Petroleum
 - More Overlays
+- TickCentral
 - Tinker's JEI
 
 ### Changed
@@ -126,13 +134,11 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 
 *Mod-Removals:*
 - ElecCore
-- LagGoggles
 - Light Overlay Reloaded
 - MCMultiPart
 - MPUtils
 - Reborn Core
 - Sonar Core
-- TickCentral
 - ZeroCore
 
 ### Fixed
@@ -159,6 +165,7 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - diamond gear is now dependent on gold gear
 - ender crafter, ender alternator and ender ingots
   - now uses vapor of levity so it has a use now
+- fixed orb of transcendence recipe not accepting liquid xp tank
 - flux anodizers augment is more expensive now
 - plasma core only uses single ingredients now
 - satchel recipes
