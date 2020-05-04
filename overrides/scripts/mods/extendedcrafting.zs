@@ -259,7 +259,7 @@ CombinationCrafting.addRecipe(<atmtweaks:item_material:10>, 16000000, 10000, <at
 
 // orb of transcendence | ATM Tweaks
 CombinationCrafting.addRecipe(<atmtweaks:item_material:5>, 100000000, 5000,
-    <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "xpjuice", Amount: 500000}, Level: 4 as byte, Lock: 0 as byte}), [
+    <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "xpjuice", Amount: 316000}, Level: 4 as byte}), [
         <actuallyadditions:block_xp_solidifier>, <actuallyadditions:item_solidified_experience>,
         <environmentaltech:aethium_crystal>, <extrautils2:decorativesolidwood:1>,
         <rftools:peaceful_module>, <actuallyadditions:item_solidified_experience>,
