@@ -57,6 +57,10 @@ addDescription([
 // scrap
 addDescription(<ic2:itemmisc:200>, "To get scrap, craft a Recycler from Industrial Craft and recycle stuff in it. Scrap drops with a small chance.");
 
+### OPEN BLOCKS ###
+addDescription(<forge:bucketfilled>.withTag({FluidName: "xpjuice", Amount: 1000}), "Can be obtained by placing an OpenBlocks XP Drain on a fluid tank and standing on it while having experience.");
+addDescription(<liquid:xpjuice>, "Can be obtained by placing an OpenBlocks XP Drain on a fluid tank and standing on it while having experience.");
+
 ### THAUMCRAFT ###
 // thaumonomicon
 addDescription(<thaumcraft:thaumonomicon>, "Made by right-clicking a vanilla bookshelf with Salis Mundus.");
