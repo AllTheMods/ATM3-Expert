@@ -12,6 +12,9 @@ print("==================== loading misc description.zs ====================");
 // facade template
 var stoneFacade = <appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:stone"});
 addDescription(stoneFacade, "To craft facades, place the block you want to make a facade of in the centre of the crafting grid (3x3) and four AE2 cable anchors on all adjacent sides of that block. If no output appears, you can't create a facade with that block.");
+// certus quartz seed
+var seed = <agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "appliedenergistics2:certus_quartz_plant", agri_growth: 1 as byte});
+addDescription(seed, "All seeds that are required for the recipe of this seed have to be analyzed and 10/10/10.");
 
 ### EMPOWERER RECIPES ###
 val empowererRecipes as string[IItemStack] = {

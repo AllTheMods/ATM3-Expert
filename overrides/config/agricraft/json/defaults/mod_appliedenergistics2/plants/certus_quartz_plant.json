@@ -1,0 +1,77 @@
+{
+  "path": "mod_appliedenergistics2/plants/certus_quartz_plant.json",
+  "enabled": true,
+  "id": "appliedenergistics2:certus_quartz_plant",
+  "plant_name": "Certus Quartz",
+  "seed_name": "Certus Quartz Seeds",
+  "seed_items": [],
+  "description": {
+    "translations": {},
+    "default": "Certus Quartz seeds."
+  },
+  "growth_chance": 0.6,
+  "growth_bonus": 0.025,
+  "bonemeal": false,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 0.75,
+        "required": true,
+        "item": "appliedenergistics2:material",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "skystone_block_soil"
+    ],
+    "conditions": [
+      {
+        "amount": 1,
+        "min_x": 0,
+        "min_y": -2,
+        "min_z": 0,
+        "max_x": 0,
+        "max_y": -2,
+        "max_z": 0,
+        "item": "appliedenergistics2:controller",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": true,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "texture": {
+    "render_type": "hash",
+    "seed_texture": "agricraft:items/seed_quartzanthemum",
+    "plant_textures": [
+      "agricraft:blocks/crop_quartzanthemum1",
+      "agricraft:blocks/crop_quartzanthemum1",
+      "agricraft:blocks/crop_quartzanthemum1",
+      "agricraft:blocks/crop_quartzanthemum2",
+      "agricraft:blocks/crop_quartzanthemum2",
+      "agricraft:blocks/crop_quartzanthemum3",
+      "agricraft:blocks/crop_quartzanthemum3",
+      "agricraft:blocks/crop_quartzanthemum4"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "path": "mod_appliedenergistics2/soils/skystone_block_soil.json",
+  "enabled": true,
+  "id": "skystone_block_soil",
+  "name": "Sky Stone Block",
+  "varients": [
+    {
+      "item": "appliedenergistics2:smooth_sky_stone_block",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    }
+  ]
+}

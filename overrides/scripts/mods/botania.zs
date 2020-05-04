@@ -413,6 +413,16 @@ RuneAltar.addRecipe(<atmtweaks:item_material:6>, [
     <thaumcraft:ingot:1>, <draconicevolution:wyvern_core>
 ], 25000);
 
+// certus quartz seeds | AgriCraft
+RuneAltar.addRecipe(<agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "appliedenergistics2:certus_quartz_plant", agri_growth: 1 as byte}), [
+    <minecraft:wheat_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "vanilla:wheat_plant", agri_growth: 10 as byte}),
+    <agricraft:agri_seed>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "resource:smoked_quartzanthemum_plant", agri_growth: 10 as byte}),
+    <agricraft:agri_seed>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "resource:quartzanthemum_plant", agri_growth: 10 as byte}),
+    <appliedenergistics2:material:10>,
+    <botania:rune:11>,
+    <appliedenergistics2:sky_stone_block>
+], 25000);
+
 
 ##########################################################################################
 print("==================== end of mods botania.zs ====================");
