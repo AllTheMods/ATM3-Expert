@@ -33,6 +33,7 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - Just Enough Throwing in Fluid
 - Just Enough Petroleum
 - More Overlays
+- PlusTiCMinusBad
 - TickCentral
 - Tinker's JEI
 
@@ -137,8 +138,10 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - Light Overlay Reloaded
 - MCMultiPart
 - MPUtils
+- PlusTiC
 - Reborn Core
 - Sonar Core
+- SuperSoundMuffler
 - ZeroCore
 
 ### Fixed
