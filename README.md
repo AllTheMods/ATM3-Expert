@@ -34,17 +34,14 @@ Everything you need to know about contributing to this project can be found [her
 ## Money / Donation
 
 All The Mods has never been about making money, we just love playing games and making cool modpacks and contributing to the modded community.
-We understand that sometimes people like to "say thanks" so by request we have setup a Patreon with some perks and are considering expanding some ATM branded merchandise as well.
-Any money that we do get is used to "give back" such as hosting free public ATM servers.
-
-[![Patreon](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/allthemods)
-
 
 <!-- LINKS -->
 [atm1]: https://www.curseforge.com/minecraft/modpacks/all-the-mods
+[atm2]: https://www.curseforge.com/minecraft/modpacks/all-the-mods-2
 [atm3]: https://www.curseforge.com/minecraft/modpacks/all-the-mods-3
-[atm3lite]: https://www.curseforge.com/minecraft/modpacks/atm-3-lite
 [atmer]: https://www.curseforge.com/minecraft/modpacks/all-the-mods-expert-remastered
+[atm4]: https://www.curseforge.com/minecraft/modpacks/all-the-mods-4
+[atm5]: https://www.curseforge.com/minecraft/modpacks/all-the-mods-5
 [atmmagic]: https://www.curseforge.com/minecraft/modpacks/atm-all-the-magic
 [changelog]: CHANGELOG.md
 [contributing]: CONTRIBUTING.md
