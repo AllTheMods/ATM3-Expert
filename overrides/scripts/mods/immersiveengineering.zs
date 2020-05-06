@@ -129,6 +129,14 @@ BlastFurnace.addRecipe(<ic2c_extras:refinedironblock>, <minecraft:iron_block>, 8
 // refined iron plate | IC2Classic Extras
 BlastFurnace.addRecipe(<ic2c_extras:refinedironplate>, <thermalfoundation:material:32>, 2000, <immersiveengineering:material:7>);
 
+// steel romoval
+for entry in <ore:ingotSteel>.items {
+    BlastFurnace.removeRecipe(entry);
+}
+for entry in <ore:blockSteel>.items {
+    BlastFurnace.removeRecipe(entry);
+}
+
 
 ### COKE OVEN ###
 
