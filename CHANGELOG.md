@@ -5,7 +5,17 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 
 ## [Unreleased]
 
-## [1.6.0] - 2020-XX-XX
+## [1.6.1] - 2020-05-06
+
+### Fixed
+- steel is no longer obtainable from blast furnace ([#231](https://github.com/AllTheMods/ATM3-Expert/issues/231))
+- Mekanism supports unified materials again
+
+---
+
+## [Released]
+
+## [1.6.0] - 2020-05-06
 
 ### Added
 - Akashic Tome
@@ -48,6 +58,7 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - improved the modpack loading time
 - the world now uses the Garden of Glass skybox
 - unified wooden gears and stone gears
+- UU matter uses are shown by default in JEI now
 - various fluid containers are now hidden in JEI
   - prevents filling several pages from JEI
   - all basic forms are still shown
@@ -189,11 +200,6 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - improved some quest descriptions
 - new quest for ImmersiveEngineering oil processing (pumpjack and distillation tower)
   - petro petunia quest is now dependent on it
-
-
----
-
-## [Released]
 
 ## [1.5.0] - 2020-01-25
 Note: We are still working on this project! Updated all mods.
@@ -371,6 +377,7 @@ Note: server owners only need to update the scripts
 <!-- Versions -->
 [Unreleased]: https://github.com/AllTheMods/ATM3-Expert/
 [Released]: https://github.com/AllTheMods/ATM3-Expert/
+[1.6.1]: https://github.com/AllTheMods/ATM3-Expert/
 [1.6.0]: https://github.com/AllTheMods/ATM3-Expert/
 [1.5.0]: https://github.com/AllTheMods/ATM3-Expert/
 [1.4.0]: https://github.com/AllTheMods/ATM3-Expert/
