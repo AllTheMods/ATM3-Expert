@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 
 ## [1.6.1] - 2020-XX-XX
 
+### Changed
+
+*Mod-Updates:*
+- Advanced Rocketry
+- Lazy AE2
+- LibVulpes
+
 ### Fixed
 - palis crystal using lapis dust instead of lapis at atomic reconstructor
 - precision assembler duplicated and interfering recipes

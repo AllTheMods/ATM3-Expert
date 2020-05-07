@@ -96,15 +96,12 @@ PrecisionAssembler.clear();
 PrecisionAssembler.addRecipe(<advancedrocketry:blocklens> * 1, 100, 20, <ore:stickIron> * 1, <advancedrocketry:lens> * 3, <ore:blockGlass> * 3);
 
 // control circuit board
-//PrecisionAssembler.removeRecipe(<advancedrocketry:ic:3>);
 PrecisionAssembler.addRecipe(<advancedrocketry:ic:3> * 1, 200, 10, <thermalfoundation:material:352> * 1, <thermalfoundation:material:320> * 1, <ore:dustRedstone> * 1);
 
 // item io circuit board
-//PrecisionAssembler.removeRecipe(<advancedrocketry:ic:4>);
 PrecisionAssembler.addRecipe(<advancedrocketry:ic:4> * 1, 200, 10, <thermalfoundation:material:352> * 1, <thermalfoundation:material:33> * 1, <ore:dustRedstone> * 1);
 
 // liquid io circuit board
-//PrecisionAssembler.removeRecipe(<advancedrocketry:ic:5>);
 PrecisionAssembler.addRecipe(<advancedrocketry:ic:5> * 1, 200, 10, <thermalfoundation:material:352> * 1, <ore:gemLapis> * 1, <ore:dustRedstone> * 1);
 
 // basic circuit plate
