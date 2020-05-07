@@ -84,7 +84,7 @@ AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:*>);
 // restonia crystal
 AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal>, <ore:dustRedstone>, 2500);
 // palis crystal
-AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:1>, <ore:dustLapis>, 2000);
+AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:1>, <ore:gemLapis>, 2000);
 // diamatine crystal
 AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:2>, <ore:gemDiamond>, 15000);
 // void crystal
