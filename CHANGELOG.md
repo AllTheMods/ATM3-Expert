@@ -5,9 +5,11 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 
 ## [Unreleased]
 
-## [1.6.1] - 2020-05-06
+## [1.6.1] - 2020-XX-XX
 
 ### Fixed
+- palis crystal using lapis dust instead of lapis at atomic reconstructor
+- precision assembler duplicated and interfering recipes
 - steel is no longer obtainable from blast furnace ([#231](https://github.com/AllTheMods/ATM3-Expert/issues/231))
 - Mekanism supports unified materials again
 
