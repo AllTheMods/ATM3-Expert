@@ -1,10 +1,34 @@
 ##########################################################################################
 #modloaded logisticspipes
 #priority 100
+import mods.jei.JEI.removeAndHide as rh;
 
 print("==================== loading mods logisticspipes.zs ====================");
 ##########################################################################################
 
+
+### REMOVE ITEMS NOT IMPLEMENTED ###
+rh(<logisticspipes:parts>);
+rh(<logisticspipes:parts:1>);
+rh(<logisticspipes:parts:2>);
+rh(<logisticspipes:parts:3>);
+rh(<logisticspipes:hud_glasses>);
+rh(<logisticspipes:upgrade_logic_controller>);
+rh(<logisticspipes:power_provider_rf>);
+rh(<logisticspipes:power_provider_eu>);
+rh(<logisticspipes:power_provider_mj>);
+rh(<logisticspipes:upgrade_power_transportation>);
+rh(<logisticspipes:upgrade_power_supplier_rf>);
+rh(<logisticspipes:upgrade_power_supplier_eu_lv>);
+rh(<logisticspipes:upgrade_power_supplier_eu_mv>);
+rh(<logisticspipes:upgrade_power_supplier_eu_hv>);
+rh(<logisticspipes:upgrade_power_supplier_eu_ev>);
+rh(<logisticspipes:broken_item>);
+
+### TOOLTIPS ###
+<logisticspipes:crafting_table>.addTooltip("Used for autocrafting with Logistics");
+<logisticspipes:crafting_table_fuzzy>.addTooltip("Used for oredict autocrafting with Logistics");
+<logisticspipes:pipe_request_table>.addTooltip("This is your Logistics Crafting Terminal");
 
 ### CRAFTING RECIPES ###
 
