@@ -79,9 +79,9 @@ recipes.addShaped(<extendedcrafting:material:16>, [
 // advanced crafting table
 recipes.remove(<extendedcrafting:table_advanced>);
 recipes.addShaped(<extendedcrafting:table_advanced>, [
-    [<extendedcrafting:material:36>, <extendedcrafting:material:9>, <extendedcrafting:material:36>],
+    [<extrautils2:ingredients:11>, <extendedcrafting:material:9>, <extrautils2:ingredients:11>],
     [<extendedcrafting:material:15>, <extrautils2:crafter>, <extendedcrafting:material:15>],
-    [<extendedcrafting:material:36>, <extendedcrafting:material:15>, <extendedcrafting:material:36>]
+    [<extrautils2:ingredients:11>, <extendedcrafting:material:15>, <extrautils2:ingredients:11>]
 ]);
 
 // pedestal
