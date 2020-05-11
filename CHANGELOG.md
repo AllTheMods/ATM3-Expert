@@ -5,7 +5,13 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 
 ## [Unreleased]
 
-## [1.6.1] - 2020-XX-XX
+- /
+
+---
+
+## [Released]
+
+## [1.6.1] - 2020-05-07
 
 ### Changed
 
@@ -19,10 +25,6 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - precision assembler duplicated and interfering recipes
 - steel is no longer obtainable from blast furnace ([#231](https://github.com/AllTheMods/ATM3-Expert/issues/231))
 - Mekanism supports unified materials again
-
----
-
-## [Released]
 
 ## [1.6.0] - 2020-05-06
 
