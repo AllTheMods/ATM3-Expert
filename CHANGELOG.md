@@ -5,7 +5,20 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 
 ## [Unreleased]
 
-- /
+## [1.6.2] - 2020-XX-XX
+
+### Changed
+
+*Mod-Updates:*
+- CraftTweaker
+- Cyclops Core
+- Game Stages
+- JEI Integration
+- Lazy AE2
+- Storage Drawers
+
+### Fixed
+- advanced crafting table being unobtainable because of new ender ingot recipe ([#234](https://github.com/AllTheMods/ATM3-Expert/issues/234))
 
 ---
 
@@ -388,6 +401,7 @@ Note: server owners only need to update the scripts
 <!-- Versions -->
 [Unreleased]: https://github.com/AllTheMods/ATM3-Expert/
 [Released]: https://github.com/AllTheMods/ATM3-Expert/
+[1.6.2]: https://github.com/AllTheMods/ATM3-Expert/
 [1.6.1]: https://github.com/AllTheMods/ATM3-Expert/
 [1.6.0]: https://github.com/AllTheMods/ATM3-Expert/
 [1.5.0]: https://github.com/AllTheMods/ATM3-Expert/
