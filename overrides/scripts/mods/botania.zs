@@ -407,12 +407,6 @@ RuneAltar.addRecipe(<bloodmagic:decorative_brick>, [
     <mekanism:polyethene>, <mekanism:polyethene>, <bloodmagic:blood_shard>
 ], 10000);
 
-// schwarzschilds sphere | ATM Tweaks
-RuneAltar.addRecipe(<atmtweaks:item_material:6>, [
-    <thaumcraft:voidseer_charm>, <thaumcraft:causality_collapser>, <botania:manaresource:14>,
-    <thaumcraft:ingot:1>, <draconicevolution:wyvern_core>
-], 25000);
-
 // certus quartz seeds | AgriCraft
 RuneAltar.addRecipe(<agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "appliedenergistics2:certus_quartz_plant", agri_growth: 1 as byte}), [
     <minecraft:wheat_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "vanilla:wheat_plant", agri_growth: 10 as byte}),
