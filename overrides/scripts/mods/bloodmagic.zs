@@ -27,12 +27,24 @@ recipes.addShaped(<bloodmagic:incense_altar>, [
     [<ore:plankWood>, <bloodmagic:slate:1>, <ore:plankWood>]
 ]);
 
+// Crystal Cluster Bricks
+recipes.addShaped(<bloodmagic:decorative_brick:3> *4, [
+    [<bloodmagic:decorative_brick:2>, <bloodmagic:decorative_brick:2>],
+    [<bloodmagic:decorative_brick:2>, <bloodmagic:decorative_brick:2>]
+]);
+
 
 ### BLOOD ALTAR ###
 
 // blank slate
 BloodAltar.removeRecipe(<minecraft:stone>);
 BloodAltar.addRecipe(<bloodmagic:slate>, <botania:livingrock:4>, 0, 1000, 25, 5);
+
+// Tier 6 Capstones | Crystal Cluster
+BloodAltar.addRecipe(<bloodmagic:decorative_brick:2>, <contenttweaker:corruptedstarmetal>, 4, 100000, 50, 10);
+
+// Schwarzschild's Sphere | ATM Tweaks
+BloodAltar.addRecipe(<atmtweaks:item_material:6>, <thaumcraft:voidseer_charm>, 5, 500000, 30, 10);
 
 // crystallized blood pile | ContentTweaker
 BloodAltar.addRecipe(<contenttweaker:crystallisedblood>, <botania:manaresource:8>, 3, 30000, 50, 10);
