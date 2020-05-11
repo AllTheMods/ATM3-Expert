@@ -35,26 +35,26 @@
         {
             "type": "item",
             "io-type": "input",
-            "item": "bloodmagic:demon_crystal@4",
-            "amount": 1
+            "item": "bloodmagic:item_demon_crystal@4",
+            "amount": 4
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "bloodmagic:demon_crystal@3",
-            "amount": 1
+            "item": "bloodmagic:item_demon_crystal@3",
+            "amount": 4
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "bloodmagic:demon_crystal@2",
-            "amount": 1
+            "item": "bloodmagic:item_demon_crystal@2",
+            "amount": 4
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "bloodmagic:demon_crystal@1",
-            "amount": 1
+            "item": "bloodmagic:item_demon_crystal@1",
+            "amount": 4
         }
     ]
 }
