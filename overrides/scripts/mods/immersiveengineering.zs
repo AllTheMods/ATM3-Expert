@@ -87,6 +87,9 @@ ArcFurnace.addRecipe(<extendedcrafting:material>, <immersiveengineering:material
 // refined iron ingot | IC2Classic
 ArcFurnace.addRecipe(<ic2:itemmisc:53>, <minecraft:iron_ingot>, <immersiveengineering:material:7>, 250, 512);
 
+// refine iron ingot | IC2Classic
+ArcFurnace.removeRecipe(<ic2:itemmisc:53>);
+
 // refined iron block | IC2Classic Extras
 ArcFurnace.addRecipe(<ic2c_extras:refinedironblock>, <minecraft:iron_block>, <immersiveengineering:material:7> * 4, 1000, 512);
 
