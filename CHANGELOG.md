@@ -19,6 +19,7 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 
 ### Fixed
 - advanced crafting table being unobtainable because of new ender ingot recipe ([#234](https://github.com/AllTheMods/ATM3-Expert/issues/234))
+- arc furnace outputting refined iron ingots instead of steel ingots
 
 ---
 
