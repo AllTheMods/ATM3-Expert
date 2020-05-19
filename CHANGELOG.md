@@ -31,6 +31,8 @@ Known issues:
 - advanced crafting table being unobtainable because of new ender ingot recipe ([#234](https://github.com/AllTheMods/ATM3-Expert/issues/234))
 - arc furnace outputting refined iron ingots instead of steel ingots
 - crusher crashes the instance or is terribly slow ([#238](https://github.com/AllTheMods/ATM3-Expert/issues/238))
+- steel block having the wrong ore dict
+-
 
 ---
 
@@ -39,6 +41,7 @@ Known issues:
 ## [1.6.1] - 2020-05-07
 
 ### Changed
+- default keybinds and options to match changes and different resolutions
 
 *Mod-Updates:*
 - Advanced Rocketry
@@ -50,6 +53,9 @@ Known issues:
 - precision assembler duplicated and interfering recipes
 - steel is no longer obtainable from blast furnace ([#231](https://github.com/AllTheMods/ATM3-Expert/issues/231))
 - Mekanism supports unified materials again
+
+### Quests
+- "I'm so slippery" now tracks the correct blocks and amount ([#237](https://github.com/AllTheMods/ATM3-Expert/issues/237))
 
 ## [1.6.0] - 2020-05-06
 
