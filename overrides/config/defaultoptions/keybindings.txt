@@ -18,7 +18,7 @@ key_key.togglePerspective:63:NONE
 key_key.smoothCamera:0:NONE
 key_key.fullscreen:87:NONE
 key_key.spectatorOutlines:0:NONE
-key_key.swapHands:33:NONE
+key_key.swapHands:0:NONE
 key_key.saveToolbarActivator:0:NONE
 key_key.loadToolbarActivator:0:NONE
 key_key.advancements:0:NONE
@@ -40,16 +40,6 @@ key_Side Inventory Key:0:NONE
 key_Hub Expand Key:0:NONE
 key_Toggle Key:0:NONE
 key_keybind.baublesinventory:0:NONE
-key_bloodmagic.keybind.open_holding:0:NONE
-key_bloodmagic.keybind.cycle_holding_pos:0:NONE
-key_bloodmagic.keybind.cycle_holding_neg:0:NONE
-key_quark.keybind.dropoff:0:NONE
-key_quark.keybind.changeHotbar:0:NONE
-key_quark.keybind.chestSort:0:NONE
-key_quark.keybind.chestDropoff:0:NONE
-key_quark.keybind.chestMerge:0:NONE
-key_quark.keybind.chestRestock:0:NONE
-key_quark.keybind.chestExtract:0:NONE
 key_quark.keybind.lockBuilding:0:NONE
 key_quark.emote.no:0:NONE
 key_quark.emote.yes:0:NONE
@@ -70,7 +60,17 @@ key_quark.emote.jet:0:NONE
 key_quark.emote.exorcist:0:NONE
 key_quark.emote.zombie:0:NONE
 key_quark.keybind.toggleAutojump:0:NONE
+key_quark.keybind.dropoff:0:NONE
+key_quark.keybind.changeHotbar:0:NONE
+key_quark.keybind.chestSort:0:NONE
+key_quark.keybind.chestDropoff:0:NONE
+key_quark.keybind.chestMerge:0:NONE
+key_quark.keybind.chestRestock:0:NONE
+key_quark.keybind.chestExtract:0:NONE
 key_key.toggle_shaders:0:NONE
+key_bloodmagic.keybind.open_holding:0:NONE
+key_bloodmagic.keybind.cycle_holding_pos:0:NONE
+key_bloodmagic.keybind.cycle_holding_neg:0:NONE
 key_cos.key.opencosarmorinventory:0:NONE
 key_key.xu2.searchforitems:0:NONE
 key_key.ftbutilities.nbt:0:NONE
@@ -83,8 +83,8 @@ key_simplyjetpacks.keybind.engine:0:NONE
 key_simplyjetpacks.keybind.hover:0:NONE
 key_simplyjetpacks.keybind.charger:0:NONE
 key_simplyjetpacks.keybind.emergencyhover:0:NONE
-key_oreexcavation.key.excavate:41:NONE
-key_oreexcavation.key.shape:47:NONE
+key_oreexcavation.key.excavate:0:NONE
+key_oreexcavation.key.shape:0:NONE
 key_openblocks.keybind.vario_switch:0:NONE
 key_openblocks.keybind.vario_vol_up:0:NONE
 key_openblocks.keybind.vario_vol_down:0:NONE
@@ -97,7 +97,7 @@ key_key.cycle_magnet_mode.desc:0:NONE
 key_key.dismount:42:NONE
 key_key.narrator:0:NONE
 key_key.cofh.multimode:0:NONE
-key_key.toggle_focus.desc:15:NONE
+key_key.toggle_focus.desc:0:NONE
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0:NONE
@@ -204,6 +204,7 @@ key_key.journeymap.fullscreen.south:208:NONE
 key_key.journeymap.fullscreen.east:205:NONE
 key_key.journeymap.fullscreen.west:203:NONE
 key_key.control:29:NONE
+key_Profile GUI:0:NONE
 key_enderio.keybind.inventory:0:NONE
 key_enderio.keybind.dsu:0:NONE
 key_enderio.keybind.glidertoggle:0:NONE
