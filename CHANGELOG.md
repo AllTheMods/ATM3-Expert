@@ -8,10 +8,10 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 ## [1.6.2] - 2020-XX-XX
 
 Known issues:
-- Astral Sorcery collector crystals and Botania pylons are not visible as item
-- quest "It's so slippery" doesn't detect building blocks properly
+- Astral Sorcery collector crystals and Botania pylons are not visible as items
 
 ### Changed
+- default keybinds and options to match changes and different resolutions
 
 *Mod-Updates:*
 - Advanced Rocketry
@@ -32,7 +32,9 @@ Known issues:
 - arc furnace outputting refined iron ingots instead of steel ingots
 - crusher crashes the instance or is terribly slow ([#238](https://github.com/AllTheMods/ATM3-Expert/issues/238))
 - steel block having the wrong ore dict
--
+
+### Quests
+- "I'm so slippery" now tracks the correct blocks and amount ([#237](https://github.com/AllTheMods/ATM3-Expert/issues/237))
 
 ---
 
@@ -41,7 +43,6 @@ Known issues:
 ## [1.6.1] - 2020-05-07
 
 ### Changed
-- default keybinds and options to match changes and different resolutions
 
 *Mod-Updates:*
 - Advanced Rocketry
@@ -53,9 +54,6 @@ Known issues:
 - precision assembler duplicated and interfering recipes
 - steel is no longer obtainable from blast furnace ([#231](https://github.com/AllTheMods/ATM3-Expert/issues/231))
 - Mekanism supports unified materials again
-
-### Quests
-- "I'm so slippery" now tracks the correct blocks and amount ([#237](https://github.com/AllTheMods/ATM3-Expert/issues/237))
 
 ## [1.6.0] - 2020-05-06
 
