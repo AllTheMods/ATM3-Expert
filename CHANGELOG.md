@@ -7,19 +7,30 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 
 ## [1.6.2] - 2020-XX-XX
 
+Known issues:
+- Astral Sorcery collector crystals and Botania pylons are not visible as item
+- quest "It's so slippery" doesn't detect building blocks properly
+
 ### Changed
 
 *Mod-Updates:*
+- Advanced Rocketry
+- Corail Tombstone
 - CraftTweaker
 - Cyclops Core
 - Game Stages
+- IC2C Extras
 - JEI Integration
 - Lazy AE2
+- Logistics Pipes
+- NuclearCraft
+- Spice of Life: Carrot Edition
 - Storage Drawers
 
 ### Fixed
 - advanced crafting table being unobtainable because of new ender ingot recipe ([#234](https://github.com/AllTheMods/ATM3-Expert/issues/234))
 - arc furnace outputting refined iron ingots instead of steel ingots
+- crusher crashes the instance or is terribly slow ([#238](https://github.com/AllTheMods/ATM3-Expert/issues/238))
 
 ---
 
