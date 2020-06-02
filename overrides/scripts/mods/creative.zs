@@ -104,12 +104,12 @@ recipes.addShapeless(<thermalinnovation:drill:32000>.withTag({Energy: 600000}), 
 
 // creative flux pack | Simply Jetpacks
 recipes.addShapeless(<simplyjetpacks:itemfluxpack:0>.withTag({Energy: 2000000}), [
-    atmstar, <simplyjetpacks:itemfluxpack:8>, <simplyjetpacks:itemfluxpack:3>
+    atmstar, <simplyjetpacks:itemfluxpack:5>.withTag({Energy: 0}), <simplyjetpacks:itemfluxpack:10>.withTag({Energy: 0})
 ]);
 
 // creative jetpack | Simply Jetpacks
 recipes.addShapeless(<simplyjetpacks:itemjetpack:0>.withTag({Energy: 200000}), [
-    atmstar, <simplyjetpacks:itemjetpack:13>, <simplyjetpacks:itemjetpack:4>
+    atmstar, <simplyjetpacks:itemjetpack:18>.withTag({Energy: 0, JetpackParticleType: 0}), <simplyjetpacks:itemjetpack:9>.withTag({Energy: 0, JetpackParticleType: 0})
 ]);
 
 // creative powercell | RFTools
