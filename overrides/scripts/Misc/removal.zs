@@ -164,6 +164,7 @@ val completeRemoval as IIngredient[] = [
 	<actuallyadditions:item_bag>,
 	<actuallyadditions:item_color_lens>,
 	<actuallyadditions:item_damage_lens>,
+	<actuallyadditions:item_disenchanting_lens>,
 	<actuallyadditions:item_drill_upgrade_block_placing>,
 	<actuallyadditions:item_drill_upgrade_five_by_five>,
 	<actuallyadditions:item_drill_upgrade_fortune_ii>,
