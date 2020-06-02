@@ -46,6 +46,14 @@ recipes.addShaped(<extrautils2:user>, [
     [<botania:manaresource>, <actuallyadditions:item_crystal_empowered:4>, <botania:manaresource>]
 ]);
 
+// enchanter
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}));
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}), [
+    [<contenttweaker:manasteelplate>, <ic2:itemmisc:452>, <contenttweaker:manasteelplate>],
+    [<ore:bookshelf>, <ic2:blockmachinehv:4>, <ore:bookshelf>],
+    [<contenttweaker:manasteelplate>, <actuallyadditions:item_crystal_empowered:4>, <contenttweaker:manasteelplate>]
+]);
+
 
 ##########################################################################################
 print("==================== end of mods extrautilities.zs ====================");
