@@ -18,27 +18,27 @@ addDescription(seed, "All seeds that are required for the recipe of this seed ha
 
 ### EMPOWERER RECIPES ###
 val empowererRecipes as string[IItemStack] = {
-    <actuallyadditions:item_misc:24>: "4.000", # empowered canola seed
-    <botania:runealtar>: "100.000", # runic altar
-    <atum:scarab>: "150.000",  # scarab
-    <teslacorelib:machine_case>: "12.500", # machine case
-    <appliedenergistics2:material:13>: "50.000", # inscriber calculation press
-    <appliedenergistics2:material:14>: "50.000", # inscriber engineering press
-    <appliedenergistics2:material:15>: "50.000", # inscriber logic press
-    <appliedenergistics2:material:19>: "50.000", # inscriber silicon press
-    <actuallyadditions:item_crystal_empowered:3>: "50.000", # empowered void crystal
-    <actuallyadditions:item_crystal_empowered:5>: "150.000", # empowered enori crystal
-    <actuallyadditions:item_crystal_empowered>: "150.000", # empowered restonia crystal
-    <actuallyadditions:item_crystal_empowered:1>: "210.000", # empowered palis crystal
-    <actuallyadditions:item_crystal_empowered:2>: "400.000", # empowered diamantine crystal
-    <actuallyadditions:item_crystal_empowered:4>: "600.000", # empowered emeradic crystal
-    <actuallyadditions:block_crystal_empowered:3>: "500.000", # empowered void crystal block
-    <actuallyadditions:block_crystal_empowered:5>: "1.500.000", # empowered enori crystal block
-    <actuallyadditions:block_crystal_empowered>: "1.500.000", # empowered restonia crystal block
-    <actuallyadditions:block_crystal_empowered:1>: "2.100.000", # empowered palis crystal block
-    <actuallyadditions:block_crystal_empowered:2>: "4.000.000", # empowered diamantine crystal block
-    <actuallyadditions:block_crystal_empowered:4>: "6.000.000", # empowered emeradic crystal block
-    <rf-capability-adapter:aecapabilityadapter>: "50.000" # me capability adapter
+    <actuallyadditions:item_misc:24>: "16.000", # empowered canola seed
+    <botania:runealtar>: "400.000", # runic altar
+    <atum:scarab>: "600.000",  # scarab
+    <teslacorelib:machine_case>: "50.000", # machine case
+    <appliedenergistics2:material:13>: "200.000", # inscriber calculation press
+    <appliedenergistics2:material:14>: "200.000", # inscriber engineering press
+    <appliedenergistics2:material:15>: "200.000", # inscriber logic press
+    <appliedenergistics2:material:19>: "200.000", # inscriber silicon press
+    <actuallyadditions:item_crystal_empowered:3>: "200.000", # empowered void crystal
+    <actuallyadditions:item_crystal_empowered:5>: "600.000", # empowered enori crystal
+    <actuallyadditions:item_crystal_empowered>: "600.000", # empowered restonia crystal
+    <actuallyadditions:item_crystal_empowered:1>: "840.000", # empowered palis crystal
+    <actuallyadditions:item_crystal_empowered:2>: "1.600.000", # empowered diamantine crystal
+    <actuallyadditions:item_crystal_empowered:4>: "2.400.000", # empowered emeradic crystal
+    <actuallyadditions:block_crystal_empowered:3>: "2.000.000", # empowered void crystal block
+    <actuallyadditions:block_crystal_empowered:5>: "6.000.000", # empowered enori crystal block
+    <actuallyadditions:block_crystal_empowered>: "6.000.000", # empowered restonia crystal block
+    <actuallyadditions:block_crystal_empowered:1>: "8.400.000", # empowered palis crystal block
+    <actuallyadditions:block_crystal_empowered:2>: "16.000.000", # empowered diamantine crystal block
+    <actuallyadditions:block_crystal_empowered:4>: "24.000.000", # empowered emeradic crystal block
+    <rf-capability-adapter:aecapabilityadapter>: "200.000" # me capability adapter
 };
 for entry, power in empowererRecipes {
     addDescription(entry, "This item requires " + power + " RF in the empowerer to make.");
