@@ -10,28 +10,51 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 Known issues:
 - Astral Sorcery collector crystals and Botania pylons are not visible as items
 
+### Added
+- enchanter recipe ([#241](https://github.com/AllTheMods/ATM3-Expert/issues/241))
+
 ### Changed
 - default keybinds and options to match changes and different resolutions
+- power storage of several jetpacks ([#243](https://github.com/AllTheMods/ATM3-Expert/issues/243))
 
 *Mod-Updates:*
 - Advanced Rocketry
+- AppleCore
 - Corail Tombstone
 - CraftTweaker
 - Cyclops Core
+- Deep Mob Learning
+- FTB Quests
 - Game Stages
 - IC2C Extras
 - JEI Integration
 - Lazy AE2
 - Logistics Pipes
 - NuclearCraft
+- Rustic
 - Spice of Life: Carrot Edition
 - Storage Drawers
+
+### Removed
+- lens of disenchanting from JEI ([#244](https://github.com/AllTheMods/ATM3-Expert/issues/244))
 
 ### Fixed
 - advanced crafting table being unobtainable because of new ender ingot recipe ([#234](https://github.com/AllTheMods/ATM3-Expert/issues/234))
 - arc furnace outputting refined iron ingots instead of steel ingots
 - crusher crashes the instance or is terribly slow ([#238](https://github.com/AllTheMods/ATM3-Expert/issues/238))
 - steel block having the wrong ore dict
+- empowerer recipes energy cost in item descriptions ([#242](https://github.com/AllTheMods/ATM3-Expert/issues/242))
+
+### Recipes
+- adjusted several Simply Jetpacks recipes ([#244](https://github.com/AllTheMods/ATM3-Expert/issues/244))
+  - creative flux pack
+  - creative jetpack
+  - conductive iron thruster & jetpack
+  - electrical steel thruster & jetpack
+  - energetic thruster & jetpack
+  - vibrant thruster & jetpack
+  - hardened thruster
+  - capacitor packs
 
 ### Quests
 - "I'm so slippery" now tracks the correct blocks and amount ([#237](https://github.com/AllTheMods/ATM3-Expert/issues/237))
