@@ -44,8 +44,10 @@ recipes.addShaped(<modularmachinery:blockfluidinputhatch:4>, [
 ]);
 
 // huge fluid input hatch
-recipes.addShapeless(<modularmachinery:blockfluidinputhatch:5>, [
-    <contenttweaker:corruptedstarmetal>, <modularmachinery:blockfluidinputhatch:4>
+recipes.addShaped(<modularmachinery:blockfluidinputhatch:5>, [
+    [null, <contenttweaker:corruptedstarmetal>, null],
+    [<ore:ingotAstralStarmetal>, <modularmachinery:blockfluidinputhatch:4>, <ore:ingotAstralStarmetal>],
+    [null, <contenttweaker:crystallisedblood>, null]
 ]);
 
 // normal fluid output hatch
@@ -70,8 +72,10 @@ recipes.addShaped(<modularmachinery:blockfluidoutputhatch:4>, [
 ]);
 
 // huge fluid output hatch
-recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:5>, [
-    <contenttweaker:corruptedstarmetal>, <modularmachinery:blockfluidoutputhatch:4>
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch:5>, [
+    [null, <contenttweaker:corruptedstarmetal>, null],
+    [<ore:ingotAstralStarmetal>, <modularmachinery:blockfluidoutputhatch:4>, <ore:ingotAstralStarmetal>],
+    [null, <contenttweaker:crystallisedblood>, null]
 ]);
 
 // normal item input
@@ -121,6 +125,13 @@ recipes.addShaped(<modularmachinery:blockenergyinputhatch:4>, [
     [null, <contenttweaker:planetshard>, null],
     [<contenttweaker:planetshard>, <modularmachinery:blockenergyinputhatch:3>, <contenttweaker:planetshard>],
     [null, <contenttweaker:planetshard>, null]
+]);
+
+// huge energy input hatch
+recipes.addShaped(<modularmachinery:blockenergyinputhatch:5>, [
+    [null, <contenttweaker:corruptedstarmetal>, null],
+    [<ore:ingotAstralStarmetal>, <modularmachinery:blockenergyinputhatch:4>, <ore:ingotAstralStarmetal>],
+    [null, <contenttweaker:crystallisedblood>, null]
 ]);
 
 
