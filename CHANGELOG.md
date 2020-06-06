@@ -5,7 +5,43 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 
 ## [Unreleased]
 
-## [1.6.2] - 2020-XX-XX
+## [1.6.3] - 2020-XX-XX
+
+Known issues:
+- Astral Sorcery collector crystals and Botania pylons are not visible as items
+
+### Added
+- descriptions to help how to obtain seared stone
+- description to flint and steel that a firecharge can be used early on
+
+### Changed
+
+*Mod-Updates:*
+- Astral Sorcery
+- EnderCore
+
+### Removed
+- unused ores from JEI
+- unused Modular Machinery parts from JEI
+
+### Fixed
+- pyroconvective loop augment being unobtainable ([#246](https://github.com/AllTheMods/ATM3-Expert/issues/246))
+- anima mundi being unobtainable
+
+### Recipes
+- added recipe for huge energy input hatch
+- changed recipes for huge fluid input/output hatches to match energy hatch recipe
+- changed recipe for pyroconvective loop augment because wrong bees were used
+
+### Quests
+- added an optional quest how to obtain charcoal to Tier 0
+- rearranged some quests to keep the symmetry
+
+---
+
+## [Released]
+
+## [1.6.2] - 2020-06-03
 
 Known issues:
 - Astral Sorcery collector crystals and Botania pylons are not visible as items
@@ -58,10 +94,6 @@ Known issues:
 
 ### Quests
 - "I'm so slippery" now tracks the correct blocks and amount ([#237](https://github.com/AllTheMods/ATM3-Expert/issues/237))
-
----
-
-## [Released]
 
 ## [1.6.1] - 2020-05-07
 
@@ -440,6 +472,7 @@ Note: server owners only need to update the scripts
 <!-- Versions -->
 [Unreleased]: https://github.com/AllTheMods/ATM3-Expert/
 [Released]: https://github.com/AllTheMods/ATM3-Expert/
+[1.6.3]: https://github.com/AllTheMods/ATM3-Expert/
 [1.6.2]: https://github.com/AllTheMods/ATM3-Expert/
 [1.6.1]: https://github.com/AllTheMods/ATM3-Expert/
 [1.6.0]: https://github.com/AllTheMods/ATM3-Expert/
