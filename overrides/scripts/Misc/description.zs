@@ -72,6 +72,13 @@ addDescription(<thaumcraft:arcane_workbench>, "Made by right-clicking a crafting
 // crucible
 addDescription(<thaumcraft:crucible>, "Made by right-clicking a vanilla cauldron with Salis Mundus.");
 
+### TINKERS COMPLEMENT ###
+// porcelain alloy tank
+addDescription(<tcomplement:porcelain_alloy_tank>, "Must be placed above a heater to work!");
+
+### TINKERS CONSTRUCT ###
+// grout
+addDescription(<tconstruct:soil>, "Grout is disabled in this pack. To obtain seared stone for the smeltery, follow the questline in Tier 0.");
 
 ##########################################################################################
 print("==================== end of misc description.zs ====================");
