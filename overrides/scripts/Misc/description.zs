@@ -61,6 +61,7 @@ addDescription([
 addDescription(<ic2:itemmisc:200>, "To get scrap, craft a Recycler from Industrial Craft and recycle stuff in it. Scrap drops with a small chance.");
 
 ### OPEN BLOCKS ###
+// liquid xp
 addDescription(<forge:bucketfilled>.withTag({FluidName: "xpjuice", Amount: 1000}), "Can be obtained by placing an OpenBlocks XP Drain on a fluid tank and standing on it while having experience.");
 addDescription(<liquid:xpjuice>, "Can be obtained by placing an OpenBlocks XP Drain on a fluid tank and standing on it while having experience.");
 
@@ -79,6 +80,11 @@ addDescription(<tcomplement:porcelain_alloy_tank>, "Must be placed above a heate
 ### TINKERS CONSTRUCT ###
 // grout
 addDescription(<tconstruct:soil>, "Grout is disabled in this pack. To obtain seared stone for the smeltery, follow the questline in Tier 0.");
+
+### VANILLA ###
+// flint and steel
+addDescription(<minecraft:flint_and_steel>, "You can also use a fire charge to light things up if the flint and steel is too expensive. Keep in mind that a fire charge is has a one time use only.");
+
 
 ##########################################################################################
 print("==================== end of misc description.zs ====================");
