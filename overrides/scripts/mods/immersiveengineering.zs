@@ -40,7 +40,7 @@ recipes.addShaped(<immersiveengineering:material:8>, [
 
 // coke brick
 recipes.removeShaped(<immersiveengineering:stone_decoration>);
-recipes.addShaped(<immersiveengineering:stone_decoration>, [
+recipes.addShaped(<immersiveengineering:stone_decoration> * 3, [
     [<minecraft:clay_ball>,<minecraft:brick>,<minecraft:clay_ball>],
     [<minecraft:brick>,<tconstruct:seared>,<minecraft:brick>],
     [<minecraft:clay_ball>,<minecraft:brick>,<minecraft:clay_ball>]
