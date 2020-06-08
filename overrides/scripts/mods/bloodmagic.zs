@@ -27,12 +27,22 @@ recipes.addShaped(<bloodmagic:incense_altar>, [
     [<ore:plankWood>, <bloodmagic:slate:1>, <ore:plankWood>]
 ]);
 
+// crystal cluster bricks
+recipes.addShapedMirrored(<bloodmagic:decorative_brick:3> * 4, [
+    [<bloodmagic:decorative_brick:2>, <bloodmagic:decorative_brick:2>, null],
+    [<bloodmagic:decorative_brick:2>, <bloodmagic:decorative_brick:2>, null],
+    [null, null, null]
+]);
+
 
 ### BLOOD ALTAR ###
 
 // blank slate
 BloodAltar.removeRecipe(<minecraft:stone>);
 BloodAltar.addRecipe(<bloodmagic:slate>, <botania:livingrock:4>, 0, 1000, 25, 5);
+
+// crystal cluster
+BloodAltar.addRecipe(<bloodmagic:decorative_brick:2>, <contenttweaker:corruptedstarmetal>, 4, 100000, 50, 10);
 
 // crystallized blood pile | ContentTweaker
 BloodAltar.addRecipe(<contenttweaker:crystallisedblood>, <botania:manaresource:8>, 3, 30000, 50, 10);
