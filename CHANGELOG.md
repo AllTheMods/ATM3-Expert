@@ -5,24 +5,34 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 
 ## [Unreleased]
 
-## [1.6.3] - 2020-XX-XX
+## [1.7.0] - 2020-XX-XX
 
 Known issues:
 - Astral Sorcery collector crystals and Botania pylons are not visible as items
+  - caused by IndustrialCraft 2 Classic
+  - [TinyModularThings/IC2Classic#387](https://github.com/TinyModularThings/IC2Classic/issues/387)
+  - [TinyModularThings/IC2Classic#402](https://github.com/TinyModularThings/IC2Classic/issues/402)
 
 ### Added
 - descriptions to help how to obtain seared stone
 - description to flint and steel that a firecharge can be used early on
+- description how to get rubber tree saplings, resin and rubber
+- creosote oil bucket to JEI for recipe lookup
 
 ### Changed
+- enabled Tier 6 BloodMagic ([#236](https://github.com/AllTheMods/ATM3-Expert/pull/236))
+- enabled passive permeation on NuclearCraft [#240](https://github.com/AllTheMods/ATM3-Expert/pull/240/files)
 
 *Mod-Updates:*
 - Astral Sorcery
 - EnderCore
+- ImmersiveEngineering
+- Logistics Pipes
 
 ### Removed
 - unused ores from JEI
 - unused Modular Machinery parts from JEI
+- all parts from LogisticsPipes that are not implemented yet ([#236](https://github.com/AllTheMods/ATM3-Expert/pull/236))
 
 ### Fixed
 - pyroconvective loop augment being unobtainable ([#246](https://github.com/AllTheMods/ATM3-Expert/issues/246))
@@ -30,12 +40,21 @@ Known issues:
 
 ### Recipes
 - added recipe for huge energy input hatch
+- added recipes for crystal cluster and crystal cluster brick ([#236](https://github.com/AllTheMods/ATM3-Expert/pull/236))
 - changed recipes for huge fluid input/output hatches to match energy hatch recipe
 - changed recipe for pyroconvective loop augment because wrong bees were used
+- changed recipe of heat conductor, now contains coal coke
+- changed recipe of steam dynamo, now contains refined iron
+- changed recipe of corrupted starlight, now uses 4x the corresponding will instead of will clusters to make it automatable ([#236](https://github.com/AllTheMods/ATM3-Expert/pull/236))
+- recipe for coke bricks now give 3 instead of 1
+- recipe for Schwarzschild's Sphere was moved from runic altar to blood altar (tier 6) ([#236](https://github.com/AllTheMods/ATM3-Expert/pull/236))
 
 ### Quests
 - added an optional quest how to obtain charcoal to Tier 0
 - rearranged some quests to keep the symmetry
+- added an optional quest to inform about AgriCraft
+- Tier 1 quests overhaul
+- Tier 5 quests overhaul ([#236](https://github.com/AllTheMods/ATM3-Expert/pull/236))
 
 ---
 
@@ -45,6 +64,9 @@ Known issues:
 
 Known issues:
 - Astral Sorcery collector crystals and Botania pylons are not visible as items
+  - caused by IndustrialCraft 2 Classic
+  - [TinyModularThings/IC2Classic#387](https://github.com/TinyModularThings/IC2Classic/issues/387)
+  - [TinyModularThings/IC2Classic#402](https://github.com/TinyModularThings/IC2Classic/issues/402)
 
 ### Added
 - enchanter recipe ([#241](https://github.com/AllTheMods/ATM3-Expert/issues/241))
@@ -472,7 +494,7 @@ Note: server owners only need to update the scripts
 <!-- Versions -->
 [Unreleased]: https://github.com/AllTheMods/ATM3-Expert/
 [Released]: https://github.com/AllTheMods/ATM3-Expert/
-[1.6.3]: https://github.com/AllTheMods/ATM3-Expert/
+[1.7.0]: https://github.com/AllTheMods/ATM3-Expert/
 [1.6.2]: https://github.com/AllTheMods/ATM3-Expert/
 [1.6.1]: https://github.com/AllTheMods/ATM3-Expert/
 [1.6.0]: https://github.com/AllTheMods/ATM3-Expert/
