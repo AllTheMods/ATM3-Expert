@@ -44,6 +44,9 @@ BloodAltar.addRecipe(<bloodmagic:slate>, <botania:livingrock:4>, 0, 1000, 25, 5)
 // crystal cluster
 BloodAltar.addRecipe(<bloodmagic:decorative_brick:2>, <contenttweaker:corruptedstarmetal>, 4, 100000, 50, 10);
 
+// schwarzschilds sphere | ATM Tweaks
+BloodAltar.addRecipe(<atmtweaks:item_material:6>, <thaumcraft:voidseer_charm>, 5, 500000, 150, 20);
+
 // crystallized blood pile | ContentTweaker
 BloodAltar.addRecipe(<contenttweaker:crystallisedblood>, <botania:manaresource:8>, 3, 30000, 50, 10);
 
