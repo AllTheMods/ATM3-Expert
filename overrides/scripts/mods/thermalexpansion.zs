@@ -109,7 +109,7 @@ recipes.remove(<thermalexpansion:dynamo>);
 recipes.addShaped(<thermalexpansion:dynamo>, [
     [null, <ic2c_extras:heatconductor>, null],
     [<ore:ingotIron>, <thermalfoundation:material:256>, <ore:ingotIron>],
-    [<thermalfoundation:material:128>, <ore:ingotIron>, <thermalfoundation:material:128>]
+    [<thermalfoundation:material:128>, <ore:ingotRefinedIron>, <thermalfoundation:material:128>]
 ]);
 
 // energy cell frame
