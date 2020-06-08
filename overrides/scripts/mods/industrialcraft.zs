@@ -119,6 +119,14 @@ recipes.addShaped(<ic2c_extras:rollingpress>, [
     [null, <thermalfoundation:material:32>, null]
 ]);
 
+// heat conductor | IC2Classic Extras
+recipes.remove(<ic2c_extras:heatconductor>);
+recipes.addShaped(<ic2c_extras:heatconductor>, [
+    [<ore:itemRubber>, <ore:itemRubber>, <ore:ingotBronze>],
+    [<ore:itemRubber>, <immersiveengineering:material:6>, <ore:itemRubber>],
+    [<ore:ingotBronze>, <ore:itemRubber>, <ore:itemRubber>]
+]);
+
 
 ### FURNACE RECIPES ###
 
