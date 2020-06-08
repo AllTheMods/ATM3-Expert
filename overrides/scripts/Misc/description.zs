@@ -57,8 +57,12 @@ addDescription([
 ]);
 
 ### INDUSTRIALCRAFT 2 CLASSIC ###
+// rubber tree sapling
+addDescription(<ic2:blockrubsapling>, ["To get your first rubber tree, search for them in the wilderness. They have a big tip on the top.", "", "To make them drop more saplings, harvest the leaves manually or shear them with a sickle."]);
 // scrap
 addDescription(<ic2:itemmisc:200>, "To get scrap, craft a Recycler from Industrial Craft and recycle stuff in it. Scrap drops with a small chance.");
+// sticky resin
+addDescription(<ic2:itemharz>, ["Resin can be obtained by clicking a brown sticky spot of a rubber tree with a treetap.", "", "More info about rubber trees can be read if you search for the rubber tree sapling in JEI."]);
 
 ### OPEN BLOCKS ###
 // liquid xp
