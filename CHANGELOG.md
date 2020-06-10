@@ -5,7 +5,13 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 
 ## [Unreleased]
 
-## [1.7.0] - 2020-XX-XX
+- /
+
+---
+
+## [Released]
+
+## [1.7.0] - 2020-06-10
 
 Known issues:
 - Astral Sorcery collector crystals and Botania pylons are not visible as items
@@ -55,10 +61,6 @@ Known issues:
 - added an optional quest to inform about AgriCraft
 - Tier 1 quests overhaul
 - Tier 5 quests overhaul ([#236](https://github.com/AllTheMods/ATM3-Expert/pull/236))
-
----
-
-## [Released]
 
 ## [1.6.2] - 2020-06-03
 
