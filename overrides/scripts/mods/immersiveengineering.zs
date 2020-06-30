@@ -38,6 +38,12 @@ recipes.addShaped(<immersiveengineering:material:8>, [
     [<ic2c_extras:refinedironplate>, null, <ic2c_extras:refinedironplate>]
 ]);
 
+// steel rod
+recipes.remove(<immersiveengineering:material:2>);
+recipes.addShapeless(<immersiveengineering:material:2> * 2, [
+    <ore:ingotSteel>, <ore:ingotSteel>
+]);
+
 // coke brick
 recipes.removeShaped(<immersiveengineering:stone_decoration>);
 recipes.addShaped(<immersiveengineering:stone_decoration> * 3, [
