@@ -11,6 +11,82 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 
 ## [Released]
 
+## [1.8.0] - 2020-06-30
+
+Known issues:
+- Thermal Expansion Dynamos do not output power when they aren't producing anything although their buffer is full
+  - read this for more information: https://i.imgur.com/iKOmjLO.png
+
+### Added
+- item description to Scribing Tools that they need to be crafted in a vanilla table or the inventory to count towards the Thaumonomicon task
+- item description to Thaumometer that there is a Mana Glass Pane in the middle of the crafting grid since it's almost invisible
+- item description to Quantum Quarry that it's not able to mine all ores
+- item descriptions to Thermal Expansion Satchels that they lose their inventory when upgraded
+- Spice of Life Food Book to Akashic Tome
+- ore dictionary for Water Buckets
+
+### Changed
+- The One Probe now shows extended information without the need of the probe
+- AgriCraft Sprinklers are not that efficient anymore to give Garden Cloche more sense
+  - growth chance reduced from 25% to 10%
+  - growth interval slightly increased
+  - water usage slightly increased
+
+*Mod-Updates:*
+- Advanced Rocketry
+- AppleSkin
+- Corail Tombstone
+- CraftTweaker
+- Ender IO
+- FTB Library
+- FTB Quests
+- FTB Utilities
+- IC2 Classic
+- IC2 Classic Tweaker
+- Just Enough Items
+- Lazy AE2
+- Logistics Pipes
+- LootTweaker
+- NuclearCraft
+- Patchouli
+
+### Removed
+- some update notifications
+- different Probe items from The One Probe as they are no longer necessary
+
+### Fixed
+- Botania Pylons and Astral Sorcery Crystals are now visible again ([TinyModularThings/IC2Classic#387](https://github.com/TinyModularThings/IC2Classic/issues/387), [TinyModularThings/IC2Classic#402](https://github.com/TinyModularThings/IC2Classic/issues/402))
+- item description of Akashic Tome not being visible
+- getting the correct loot tables because of the new format of LootTweaker
+- armored Jetpacks not being convertible ([#247](https://github.com/AllTheMods/ATM3-Expert/issues/247))
+
+### Recipes
+- crafting Steel Rods by hand only gives 2 Steel Rods so the Metal Press is more efficient
+- Dough now also accepts crafting with Clay Bucket
+- AgriCraft Sprinklers are now fairly harder to craft so they aren't used so excessively and giving the Garden Cloche more sense again
+- Luminessence now requires 6.000 blood in the Blood Altar (was 10.000 before)
+- Mekanism
+  - Pressurized Tubes now have recipes
+  - Thermodynamic Conductors now have recipes
+  - Basic Universal Cable now uses Compressed Obsidian
+  - Universal Cables now depend on eachother
+- Combination Crafting
+  - Nocturnal Powder now gives 10 instead of 1
+  - Illumination Powder now gives 24 instead of 1
+- Empowerer energy costs
+  - Machine Case (from 50k to 300k RF)
+  - Inscriber presses (from 200k to 500k RF each)
+  - ME Capability Adapter (from 200k to 500k RF)
+
+### Quests
+- added informational quest that you can only get one extra layer of hearts by eating different food
+- added informational quest that sapling can't grow if they are planted next to each other
+- added informational quest that IC2Classic machines can be upgraded with the Transformer Upgrade to let them use more Overclockers to speed them up
+- added information to "Thaumaturge" that Scribing Tools need to be crafted in a Vanilla crafting grid to get them tracked in the Thaumonomicon
+- added information to "Thaumic Infusion" that the required research in the Thaumonomicon will be unlocked with the quest reward
+- added information to "Mining or Farming?" that weeds are disabled and crops can improve their stats by spreading
+- added lighter items to "Who put that char on my coal?" to avoid confusion that Flint and Steel is not obtainable early on
+
 ## [1.7.0] - 2020-06-10
 
 Known issues:
@@ -27,7 +103,7 @@ Known issues:
 
 ### Changed
 - enabled Tier 6 BloodMagic ([#236](https://github.com/AllTheMods/ATM3-Expert/pull/236))
-- enabled passive permeation on NuclearCraft [#240](https://github.com/AllTheMods/ATM3-Expert/pull/240/files)
+- enabled passive permeation on NuclearCraft ([#240](https://github.com/AllTheMods/ATM3-Expert/pull/240/files))
 
 *Mod-Updates:*
 - Astral Sorcery
@@ -496,6 +572,7 @@ Note: server owners only need to update the scripts
 <!-- Versions -->
 [Unreleased]: https://github.com/AllTheMods/ATM3-Expert/
 [Released]: https://github.com/AllTheMods/ATM3-Expert/
+[1.8.0]: https://github.com/AllTheMods/ATM3-Expert/
 [1.7.0]: https://github.com/AllTheMods/ATM3-Expert/
 [1.6.2]: https://github.com/AllTheMods/ATM3-Expert/
 [1.6.1]: https://github.com/AllTheMods/ATM3-Expert/
