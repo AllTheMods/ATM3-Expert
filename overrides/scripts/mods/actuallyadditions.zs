@@ -160,19 +160,19 @@ Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:5>, <actuallyaddi
 Empowerer.addRecipe(<botania:runealtar>, <botania:pool>, <ore:livingrock>, <ore:manaDiamond>, <actuallyadditions:block_crystal_empowered:5>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "praecantatio"}]}), 100000, 20, [0.0, 0.5, 0.0]);
 
 // machine case | Tesla Core Lib
-Empowerer.addRecipe(<teslacorelib:machine_case>, <actuallyadditions:block_crystal>,	<actuallyadditions:item_crystal:5>, <contenttweaker:quartzplate>, <actuallyadditions:item_crystal:5>, <contenttweaker:quartzplate>,	12500, 400, [0.5, 0.3, 0.2]);
+Empowerer.addRecipe(<teslacorelib:machine_case>, <actuallyadditions:block_crystal>,	<actuallyadditions:item_crystal:5>, <contenttweaker:quartzplate>, <actuallyadditions:item_crystal:5>, <contenttweaker:quartzplate>,	75000, 400, [0.5, 0.3, 0.2]);
 
 // inscriber silicon press | Applied Energistics 2
-Empowerer.addRecipe(<appliedenergistics2:material:19>, <ore:blockIron>, <appliedenergistics2:material:5>, <thermalfoundation:material:160>, <appliedenergistics2:material:45>, <appliedenergistics2:fluix_block>, 50000, 600, [0.5, 0.3, 0.2]);
+Empowerer.addRecipe(<appliedenergistics2:material:19>, <ore:blockIron>, <appliedenergistics2:material:5>, <thermalfoundation:material:160>, <appliedenergistics2:material:45>, <appliedenergistics2:fluix_block>, 125000, 600, [0.5, 0.3, 0.2]);
 // inscriber logic press | Applied Energistics 2
-Empowerer.addRecipe(<appliedenergistics2:material:13>, <ore:blockIron>, <appliedenergistics2:quartz_block>, <thermalfoundation:material:160>, <appliedenergistics2:material:45>, <appliedenergistics2:fluix_block>, 50000, 600, [0.5, 0.3, 0.2]);
+Empowerer.addRecipe(<appliedenergistics2:material:13>, <ore:blockIron>, <appliedenergistics2:quartz_block>, <thermalfoundation:material:160>, <appliedenergistics2:material:45>, <appliedenergistics2:fluix_block>, 125000, 600, [0.5, 0.3, 0.2]);
 // inscriber calculation press | Applied Energistics 2
-Empowerer.addRecipe(<appliedenergistics2:material:15>, <ore:blockIron>, <ore:blockGold>, <thermalfoundation:material:160>, <appliedenergistics2:material:45>, <appliedenergistics2:fluix_block>, 50000, 600, [0.5, 0.3, 0.2]);
+Empowerer.addRecipe(<appliedenergistics2:material:15>, <ore:blockIron>, <ore:blockGold>, <thermalfoundation:material:160>, <appliedenergistics2:material:45>, <appliedenergistics2:fluix_block>, 125000, 600, [0.5, 0.3, 0.2]);
 // inscriber engineering press | Applied Energistics 2
-Empowerer.addRecipe(<appliedenergistics2:material:14>, <ore:blockIron>, <ore:blockDiamond>, <thermalfoundation:material:160>, <appliedenergistics2:material:45>, <appliedenergistics2:fluix_block>, 50000, 600, [0.5, 0.3, 0.2]);
+Empowerer.addRecipe(<appliedenergistics2:material:14>, <ore:blockIron>, <ore:blockDiamond>, <thermalfoundation:material:160>, <appliedenergistics2:material:45>, <appliedenergistics2:fluix_block>, 125000, 600, [0.5, 0.3, 0.2]);
 
 // me capability adapter
-Empowerer.addRecipe(<rf-capability-adapter:aecapabilityadapter>, <appliedenergistics2:interface>, <compactmachines3:tunneltool>, <ore:crystalPureCertusQuartz>, <appliedenergistics2:part:460>, <contenttweaker:elementiumprocessor>, 50000, 600, [0.5, 0.3, 0.2]);
+Empowerer.addRecipe(<rf-capability-adapter:aecapabilityadapter>, <appliedenergistics2:interface>, <compactmachines3:tunneltool>, <ore:crystalPureCertusQuartz>, <appliedenergistics2:part:460>, <contenttweaker:elementiumprocessor>, 125000, 600, [0.5, 0.3, 0.2]);
 
 // scarab | Atum 2
 Empowerer.addRecipe(<atum:scarab>, <contenttweaker:manadiamondplate>, <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <actuallyadditions:item_crystal_empowered:4>, <thermalfoundation:glass:3>, <thaumcraft:plate:2>, 150000, 2400);
