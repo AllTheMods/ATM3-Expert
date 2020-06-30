@@ -81,7 +81,11 @@ recipes.addShaped(<simplyjetpacks:metaitemmods:10>, [
 ]);
 
 // conductive iron jetpack
-recipes.remove(<simplyjetpacks:itemjetpack:1>);
+recipes.removeShaped(<simplyjetpacks:itemjetpack:1>, [
+    [<ore:ingotConductiveIron>, <enderio:item_basic_capacitor>, <ore:ingotConductiveIron>],
+    [<ore:ingotConductiveIron>, <simplyjetpacks:metaitem:4>, <ore:ingotConductiveIron>],
+    [<simplyjetpacks:metaitemmods:7>, null, <simplyjetpacks:metaitemmods:7>]
+]);
 recipes.addShaped(<simplyjetpacks:itemjetpack:1>, [
     [<ore:ingotConductiveIron>, <simplyjetpacks:itemfluxpack:1>, <ore:ingotConductiveIron>],
     [<ore:ingotConductiveIron>, <simplyjetpacks:metaitem:4>, <ore:ingotConductiveIron>],
@@ -89,7 +93,11 @@ recipes.addShaped(<simplyjetpacks:itemjetpack:1>, [
 ]);
 
 // electrical steel jetpack
-recipes.remove(<simplyjetpacks:itemjetpack:2>);
+recipes.removeShaped(<simplyjetpacks:itemjetpack:2>, [
+    [<ore:ingotElectricalSteel>, <enderio:item_basic_capacitor>, <ore:ingotElectricalSteel>],
+    [<ore:ingotElectricalSteel>, <simplyjetpacks:itemjetpack:1>, <ore:ingotElectricalSteel>],
+    [<simplyjetpacks:metaitemmods:8>, null, <simplyjetpacks:metaitemmods:8>]
+]);
 recipes.addShaped(<simplyjetpacks:itemjetpack:2>, [
     [<ore:ingotElectricalSteel>, <simplyjetpacks:itemfluxpack:1>, <ore:ingotElectricalSteel>],
     [<ore:ingotElectricalSteel>, <simplyjetpacks:itemjetpack:1>, <ore:ingotElectricalSteel>],
@@ -97,7 +105,11 @@ recipes.addShaped(<simplyjetpacks:itemjetpack:2>, [
 ]);
 
 // energetic jetpack
-recipes.remove(<simplyjetpacks:itemjetpack:3>);
+recipes.removeShaped(<simplyjetpacks:itemjetpack:3>, [
+    [<ore:ingotEnergeticAlloy>, <enderio:item_basic_capacitor:1>, <ore:ingotEnergeticAlloy>],
+    [<ore:ingotEnergeticAlloy>, <simplyjetpacks:itemjetpack:2>, <ore:ingotEnergeticAlloy>],
+    [<simplyjetpacks:metaitemmods:9>, null, <simplyjetpacks:metaitemmods:9>]
+]);
 recipes.addShaped(<simplyjetpacks:itemjetpack:3>, [
     [<ore:ingotEnergeticAlloy>, <simplyjetpacks:itemfluxpack:2>, <ore:ingotEnergeticAlloy>],
     [<ore:ingotEnergeticAlloy>, <simplyjetpacks:itemjetpack:2>, <ore:ingotEnergeticAlloy>],
@@ -105,7 +117,11 @@ recipes.addShaped(<simplyjetpacks:itemjetpack:3>, [
 ]);
 
 // vibrant jetpack
-recipes.remove(<simplyjetpacks:itemjetpack:4>);
+recipes.removeShaped(<simplyjetpacks:itemjetpack:4>, [
+    [<ore:ingotVibrantAlloy>, <enderio:item_basic_capacitor:2>, <ore:ingotVibrantAlloy>],
+    [<ore:ingotVibrantAlloy>, <simplyjetpacks:itemjetpack:3>, <ore:ingotVibrantAlloy>],
+    [<simplyjetpacks:metaitemmods:10>, null, <simplyjetpacks:metaitemmods:10>]
+]);
 recipes.addShaped(<simplyjetpacks:itemjetpack:4>, [
     [<ore:ingotVibrantAlloy>, <simplyjetpacks:itemfluxpack:3>, <ore:ingotVibrantAlloy>],
     [<ore:ingotVibrantAlloy>, <simplyjetpacks:itemjetpack:3>, <ore:ingotVibrantAlloy>],
