@@ -1061,5 +1061,6 @@
  "shapeless_item.itemGoldCable_1350190508": true,
  "shapeless_item.itemTinCable_-235048847": true,
  "shapeless_item.itemBronzeCable_-861532101": true,
- "shapeless_item.itemIronCable_-1520245572": true
+ "shapeless_item.itemIronCable_-1520245572": true,
+ "shaped_item.filteredFluidExportUpgrade_1258088744": true
 }
