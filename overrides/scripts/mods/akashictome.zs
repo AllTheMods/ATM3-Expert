@@ -118,6 +118,14 @@ val tome = <akashictome:tome>.withTag({
             },
             Damage: 0 as short
         },
+        spiceoflife: {
+            id: "solcarrot:food_book",
+            Count: 1 as byte,
+            tag: {
+                "akashictome:definedMod": "solcarrot"
+            },
+            Damage: 0 as short
+        },
         tconstruct: {
             id: "tconstruct:book",
             Count: 1 as byte,
@@ -155,14 +163,6 @@ val tome = <akashictome:tome>.withTag({
 
 // custom tooltip
 tome.addTooltip(format.aqua("Contains all basic manuals you need."));
-
-// custom description
-addDescription(tome,
-    "The Akashic Tome is able to hold all your books.",
-    "",
-    "All basic manuals are already included. In case you want to add more, just craft it together.",
-    "To get the initial Akashic Tome that already includes most manuals, put a dirt block in a crafting grid."
-);
 
 // create crafting recipe for the book
 recipes.addShapeless(tome, [

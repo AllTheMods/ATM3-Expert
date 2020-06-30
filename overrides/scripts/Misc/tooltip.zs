@@ -42,6 +42,7 @@ var books as IIngredient[] = [
     <openblocks:info_book>,
     <rftools:rftools_manual>,
     <rftools:rftools_shape_manual>,
+    <solcarrot:food_book>,
     <tconstruct:book>,
     <thermalfoundation:tome_lexicon>,
     <totemic:totempedia>,
