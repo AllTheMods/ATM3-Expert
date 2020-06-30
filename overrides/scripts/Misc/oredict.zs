@@ -11,6 +11,10 @@ print("==================== loading misc oredict.zs ====================");
 
 ### ORE DICTIONARY ###
 
+// water bucket
+<ore:waterBucket>.add(<minecraft:water_bucket>);
+<ore:waterBucket>.add(<ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}));
+
 // obsidian dust
 <ore:dustObsidian>.add(<ic2:itemmisc:9>);
 <ore:dustObsidian>.add(<thermalfoundation:material:770>);
