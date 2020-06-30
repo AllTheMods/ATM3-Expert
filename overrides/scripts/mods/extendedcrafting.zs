@@ -180,7 +180,7 @@ CombinationCrafting.addRecipe(<actuallyadditions:block_crystal_empowered:5>, 150
 ]);
 
 // illumination powder | Astral Sorcery
-CombinationCrafting.addRecipe(<astralsorcery:itemusabledust>, 30000, 3000, <astralsorcery:itemcraftingcomponent>, [
+CombinationCrafting.addRecipe(<astralsorcery:itemusabledust> * 24, 30000, 3000, <astralsorcery:itemcraftingcomponent>, [
     <minecraft:redstone_lamp>, <minecraft:redstone_lamp>,
     <ore:blockGlowstone>, <ore:blockGlowstone>,
     <minecraft:redstone_lamp>, <minecraft:redstone_lamp>,
@@ -188,7 +188,7 @@ CombinationCrafting.addRecipe(<astralsorcery:itemusabledust>, 30000, 3000, <astr
 ]);
 
 // nocturnal powder | Astral Sorcery
-CombinationCrafting.addRecipe(<astralsorcery:itemusabledust:1>, 50000, 5000, <astralsorcery:itemusabledust>, [
+CombinationCrafting.addRecipe(<astralsorcery:itemusabledust:1> * 10, 50000, 5000, <astralsorcery:itemusabledust>, [
     <actuallyadditions:block_crystal:3>, <actuallyadditions:block_crystal:3>,
     <ore:dustObsidian>, <ore:dustObsidian>,
     <actuallyadditions:block_crystal:1>, <actuallyadditions:block_crystal:1>,
