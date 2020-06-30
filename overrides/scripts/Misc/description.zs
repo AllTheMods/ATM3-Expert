@@ -8,6 +8,10 @@ print("==================== loading misc description.zs ====================");
 ##########################################################################################
 
 
+### AKASHIC TOME ###
+// tome
+addDescription(<akashictome:tome>, "To get the initial Akashic Tome that already includes most manuals, put a dirt block in a crafting grid.");
+
 ### APPLIED ENERGISTICS 2 ###
 // facade template
 var stoneFacade = <appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:stone"});
@@ -21,11 +25,11 @@ val empowererRecipes as string[IItemStack] = {
     <actuallyadditions:item_misc:24>: "16.000", # empowered canola seed
     <botania:runealtar>: "400.000", # runic altar
     <atum:scarab>: "600.000",  # scarab
-    <teslacorelib:machine_case>: "50.000", # machine case
-    <appliedenergistics2:material:13>: "200.000", # inscriber calculation press
-    <appliedenergistics2:material:14>: "200.000", # inscriber engineering press
-    <appliedenergistics2:material:15>: "200.000", # inscriber logic press
-    <appliedenergistics2:material:19>: "200.000", # inscriber silicon press
+    <teslacorelib:machine_case>: "300.000", # machine case
+    <appliedenergistics2:material:13>: "500.000", # inscriber calculation press
+    <appliedenergistics2:material:14>: "500.000", # inscriber engineering press
+    <appliedenergistics2:material:15>: "500.000", # inscriber logic press
+    <appliedenergistics2:material:19>: "500.000", # inscriber silicon press
     <actuallyadditions:item_crystal_empowered:3>: "200.000", # empowered void crystal
     <actuallyadditions:item_crystal_empowered:5>: "600.000", # empowered enori crystal
     <actuallyadditions:item_crystal_empowered>: "600.000", # empowered restonia crystal
@@ -38,11 +42,21 @@ val empowererRecipes as string[IItemStack] = {
     <actuallyadditions:block_crystal_empowered:1>: "8.400.000", # empowered palis crystal block
     <actuallyadditions:block_crystal_empowered:2>: "16.000.000", # empowered diamantine crystal block
     <actuallyadditions:block_crystal_empowered:4>: "24.000.000", # empowered emeradic crystal block
-    <rf-capability-adapter:aecapabilityadapter>: "200.000" # me capability adapter
+    <rf-capability-adapter:aecapabilityadapter>: "500.000" # me capability adapter
 };
 for entry, power in empowererRecipes {
     addDescription(entry, "This item requires " + power + " RF in the empowerer to make.");
 }
+
+### EXTRA UTILITIES 2 ###
+// quantum quarry
+addDescription([
+    <extrautils2:quarryproxy>,
+    <extrautils2:quarry>
+], [
+    "Won't be able to mine all ores since it's creating a hypothetical dimension. We only spawn ores on exposed surfaces so this will mess with the ore generation in that dimension.",
+    "Better use the Laser Drill or AgriCraft instead."
+]);
 
 ### FLORALCHEMY ###
 // petro petunia fuels
@@ -76,6 +90,22 @@ addDescription(<thaumcraft:thaumonomicon>, "Made by right-clicking a vanilla boo
 addDescription(<thaumcraft:arcane_workbench>, "Made by right-clicking a crafting table with Salis Mundus.");
 // crucible
 addDescription(<thaumcraft:crucible>, "Made by right-clicking a vanilla cauldron with Salis Mundus.");
+// scribing tools
+addDescription(<thaumcraft:scribing_tools>, "Needs to be crafted in a Vanilla crafting grid to get it tracked in the Thaumonomicon.");
+// thaumometer
+addDescription(<thaumcraft:thaumometer>, "Has a mana glass pane in the middle of the crafting grid.");
+
+### THERMAL EXPANSION ###
+// satchels
+val satchels as IItemStack[] = [
+    <thermalexpansion:satchel:1>,
+    <thermalexpansion:satchel:2>,
+    <thermalexpansion:satchel:3>,
+    <thermalexpansion:satchel:4>
+];
+for entry in satchels {
+    addDescription(entry, "Satchels lose their inventory when they are upgraded. Make sure to empty them before upgrading!");
+}
 
 ### TINKERS COMPLEMENT ###
 // porcelain alloy tank
