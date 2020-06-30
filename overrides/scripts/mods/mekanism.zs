@@ -41,31 +41,28 @@ recipes.addShaped(<mekanism:ingot:1> * 3, [
     [<ic2:itemmisc:202>, <ic2:itemmisc:202>, <ic2:itemmisc:202>]
 ]);
 
-// universal cables
-recipes.remove(<mekanism:transmitter:*>);
 // basic universal cable
+recipes.remove(<mekanism:transmitter>.withTag({tier: 0}));
 recipes.addShaped(<mekanism:transmitter>.withTag({tier: 0}) * 4, [
     [<ic2:itemcable:9>, <ic2:itemcable:9>, <ic2:itemcable:9>],
-    [<mekanism:enrichedalloy>, <actuallyadditions:item_crystal_empowered>, <mekanism:enrichedalloy>],
+    [<mekanism:compressedobsidian>, <actuallyadditions:item_crystal_empowered>, <mekanism:compressedobsidian>],
     [<ic2:itemcable:9>, <ic2:itemcable:9>, <ic2:itemcable:9>]
 ]);
-// advanced universal cable
-recipes.addShaped(<mekanism:transmitter>.withTag({tier: 1}) * 8, [
-    [<mekanism:transmitter>, <mekanism:transmitter>, <mekanism:transmitter>],
-    [<mekanism:transmitter>, <mekanism:enrichedalloy>, <mekanism:transmitter>],
-    [<mekanism:transmitter>, <mekanism:transmitter>, <mekanism:transmitter>]
+
+// basic pressurized tube
+recipes.remove(<mekanism:transmitter:2>.withTag({tier: 0}));
+recipes.addShaped(<mekanism:transmitter:2>.withTag({tier: 0}) * 4, [
+    [<enderio:item_liquid_conduit:1>, <enderio:item_liquid_conduit:1>, <enderio:item_liquid_conduit:1>],
+    [<mekanism:compressedobsidian>, <actuallyadditions:item_crystal_empowered:1>, <mekanism:compressedobsidian>],
+    [<enderio:item_liquid_conduit:1>, <enderio:item_liquid_conduit:1>, <enderio:item_liquid_conduit:1>]
 ]);
-// elite universal cable
-recipes.addShaped(<mekanism:transmitter>.withTag({tier: 2}) * 8, [
-    [<mekanism:transmitter>, <mekanism:transmitter>, <mekanism:transmitter>],
-    [<mekanism:transmitter>, <mekanism:reinforcedalloy>, <mekanism:transmitter>],
-    [<mekanism:transmitter>, <mekanism:transmitter>, <mekanism:transmitter>]
-]);
-// ultimate universal cable
-recipes.addShaped(<mekanism:transmitter>.withTag({tier: 3}) * 8, [
-    [<mekanism:transmitter>, <mekanism:transmitter>, <mekanism:transmitter>],
-    [<mekanism:transmitter>, <mekanism:atomicalloy>, <mekanism:transmitter>],
-    [<mekanism:transmitter>, <mekanism:transmitter>, <mekanism:transmitter>]
+
+// basic thermodynamic conductor
+recipes.remove(<mekanism:transmitter:6>.withTag({tier: 0}));
+recipes.addShaped(<mekanism:transmitter:6>.withTag({tier: 0}) * 4, [
+    [null, <ic2c_extras:heatconductor>, null],
+    [<mekanism:compressedobsidian>, <actuallyadditions:item_crystal_empowered:3>, <mekanism:compressedobsidian>],
+    [null, <ic2c_extras:heatconductor>, null]
 ]);
 
 
