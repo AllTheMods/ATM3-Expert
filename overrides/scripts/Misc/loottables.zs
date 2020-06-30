@@ -2,7 +2,7 @@
 #modloaded loottweaker
 #priority 500
 
-import loottweaker.vanilla.loot.LootTables;
+import loottweaker.LootTweaker;
 
 print("==================== loading misc loottweaker.zs ====================");
 ##########################################################################################
@@ -11,31 +11,31 @@ print("==================== loading misc loottweaker.zs ====================");
 ### VARIABLES ###
 
 // vanilla
-val blacksmith = LootTables.getTable("minecraft:chests/village_blacksmith");
-val corridor = LootTables.getTable("minecraft:chests/stronghold_corridor");
-val crossing = LootTables.getTable("minecraft:chests/stronghold_crossing");
-val dungeon = LootTables.getTable("minecraft:chests/simple_dungeon");
-val end = LootTables.getTable("minecraft:chests/end_city_treasure");
-val jungle = LootTables.getTable("minecraft:chests/jungle_temple");
-val jungleDispenser = LootTables.getTable("minecraft:chests/jungle_temple_dispenser");
-val mansion = LootTables.getTable("minecraft:chests/woodland_mansion");
-val mineshaft = LootTables.getTable("minecraft:chests/abandoned_mineshaft");
-val nether = LootTables.getTable("minecraft:chests/nether_bridge");
-val pyramid = LootTables.getTable("minecraft:chests/desert_pyramid");
+val blacksmith = LootTweaker.getTable("minecraft:chests/village_blacksmith");
+val corridor = LootTweaker.getTable("minecraft:chests/stronghold_corridor");
+val crossing = LootTweaker.getTable("minecraft:chests/stronghold_crossing");
+val dungeon = LootTweaker.getTable("minecraft:chests/simple_dungeon");
+val end = LootTweaker.getTable("minecraft:chests/end_city_treasure");
+val jungle = LootTweaker.getTable("minecraft:chests/jungle_temple");
+val jungleDispenser = LootTweaker.getTable("minecraft:chests/jungle_temple_dispenser");
+val mansion = LootTweaker.getTable("minecraft:chests/woodland_mansion");
+val mineshaft = LootTweaker.getTable("minecraft:chests/abandoned_mineshaft");
+val nether = LootTweaker.getTable("minecraft:chests/nether_bridge");
+val pyramid = LootTweaker.getTable("minecraft:chests/desert_pyramid");
 
 // astral sorcery
-val astral = LootTables.getTable("astralsorcery:chest_shrine");
+val astral = LootTweaker.getTable("astralsorcery:chest_shrine");
 val astralMain = astral.getPool("astralsorcery:chest_shrine");
 
 // immersive engineering
-val iehouse = LootTables.getTable("immersiveengineering:chests/engineers_house");
+val iehouse = LootTweaker.getTable("immersiveengineering:chests/engineers_house");
 
 // actually additions
-val aahouse = LootTables.getTable("actuallyadditions:engineer_house");
+val aahouse = LootTweaker.getTable("actuallyadditions:engineer_house");
 
 // botania
-val bstronghold = LootTables.getTable("botania:inject/stronghold_corridor");
-val bdungeon = LootTables.getTable("botania:inject/simple_dungeon");
+val bstronghold = LootTweaker.getTable("botania:inject/stronghold_corridor");
+val bdungeon = LootTweaker.getTable("botania:inject/simple_dungeon");
 
 
 ### TWEAKS ###
