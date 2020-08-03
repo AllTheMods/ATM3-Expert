@@ -97,6 +97,14 @@ recipes.addShaped(<ic2:itemmisc:264>, [
     [<ic2:itemmisc:263>, <ic2:itemmisc:257>, <ic2:itemmisc:263>]
 ]);
 
+// iridium ore
+recipes.remove(<ic2:itemmisc:181>);
+recipes.addShaped(<ic2:itemmisc:181>, [
+    [<ic2:itemmisc:202>, <ic2:itemmisc:202>, <ic2:itemmisc:202>],
+    [null, <ic2:itemmisc:202>, null],
+    [<ic2:itemmisc:202>, <ic2:itemmisc:202>, <ic2:itemmisc:202>]
+]);
+
 // metal bender | IC2Classic Extras
 recipes.remove(<ic2c_extras:metalbender>);
 recipes.addShaped(<ic2c_extras:metalbender>, [
