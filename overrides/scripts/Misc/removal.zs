@@ -350,7 +350,6 @@ val completeRemoval as IIngredient[] = [
 	<rftools:creative_screen>,
 	<rftools:flight_module>,
 	<rftools:powercell_simple>,
-	<storagedrawers:controllerslave>,
 	<storagedrawers:upgrade_creative:*>,
 	<tconstruct:slime_boots:1>,
 	<tconstruct:slime_boots:2>,
