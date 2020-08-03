@@ -156,7 +156,7 @@ Apothecary.addRecipe(<botania:specialflower>.withTag({type: "jadedAmaranthus"}),
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "petro_petunia"}));
 Apothecary.addRecipe(<botania:specialflower>.withTag({type: "petro_petunia"}), [
     <botania:rune:1>, <botania:rune:8>, <immersivepetroleum:material>,
-    <botania:petal:12>, <botania:petal:15>, <botania:petal:1>
+    <botania:petal:12>, <botania:petal:15>, <ore:dustPlutonium>
 ]);
 
 
@@ -192,23 +192,38 @@ ElvenTrade.addRecipe([<botania:storage:4>], [<botania:storage:3>, <botania:stora
 
 // mana steel
 ManaInfusion.removeRecipe(<botania:storage>);
+ManaInfusion.addInfusion(<botania:storage>, <ore:blockRefinedIron>, 25000);
 ManaInfusion.removeRecipe(<ore:ingotManasteel>);
-ManaInfusion.addInfusion(<botania:manaresource>,<ic2:itemmisc:53>,2500);
+ManaInfusion.addInfusion(<botania:manaresource>, <ore:ingotRefinedIron>, 2500);
+ManaInfusion.addInfusion(<botania:manaresource:17>, <ore:nuggetIron>, 310);
 // mana diamond
+ManaInfusion.removeRecipe(<botania:storage:3>);
+ManaInfusion.addInfusion(<botania:storage:3>, <ore:blockDiamond>, 100000);
 ManaInfusion.removeRecipe(<botania:manaresource:2>);
 ManaInfusion.addInfusion(<botania:manaresource:2>, <ore:gemDiamond>, 10000);
 // mana pearl
 ManaInfusion.removeRecipe(<botania:manaresource:1>);
-ManaInfusion.addInfusion(<botania:manaresource:1>, <minecraft:ender_pearl>, 5000);
+ManaInfusion.addInfusion(<botania:manaresource:1>, <ore:enderpearl>, 5000);
 // mana powder
 ManaInfusion.removeRecipe(<botania:manaresource:23>);
-ManaInfusion.addInfusion(<botania:manaresource:23>,<minecraft:glowstone_dust>,2500);
+ManaInfusion.addInfusion(<botania:manaresource:23>, <ore:dustGlowstone>, 2500);
+// mana quartz
+ManaInfusion.addInfusion(<botania:quartztypemana>, <ore:blockQuartz>, 15000);
+ManaInfusion.removeRecipe(<botania:quartz:1>);
+ManaInfusion.addInfusion(<botania:quartz:1>, <ore:gemQuartz>, 1500);
+// mana glass
+ManaInfusion.removeRecipe(<botania:managlass>);
+ManaInfusion.addInfusion(<botania:managlass>, <ore:blockGlass>, 1500);
+ManaInfusion.addInfusion(<botania:managlasspane>, <ore:paneGlass>, 600);
+
+// mana steel plate | ContentTweaker
+ManaInfusion.addInfusion(<contenttweaker:manasteelplate>, <ore:plateRefinedIron>, 2500);
 
 // hardened mana infused glass | Thermal Foundation
 ManaInfusion.addInfusion(<thermalfoundation:glass:8>, <thermalfoundation:glass:3>, 10000);
 
 // osmium ingot | Mekanism
-ManaInfusion.addConjuration(<mekanism:ingot:1> *2, <mekanism:ingot:1>, 25000);
+ManaInfusion.addConjuration(<mekanism:ingot:1> * 2, <mekanism:ingot:1>, 25000);
 
 // greatwood planks | Thaumcraft
 ManaInfusion.addAlchemy(<thaumcraft:plank_greatwood> * 2, <thaumcraft:plank_greatwood>, 10000);
