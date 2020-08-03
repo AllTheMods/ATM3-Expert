@@ -111,6 +111,18 @@ recipes.addShaped(<extendedcrafting:ender_crafter>, [
 
 ### COMBINATION CRAFTING ###
 
+// ender star
+CombinationCrafting.addRecipe(<extendedcrafting:material:40> * 4, 50000, 500, <extendedcrafting:storage:2>, [
+    <minecraft:ender_pearl>, <randomthings:stableenderpearl>,
+    <minecraft:ender_pearl>, <randomthings:stableenderpearl>
+]);
+
+// enhanced ender ingot
+CombinationCrafting.addRecipe(<extendedcrafting:material:48> * 2, 50000, 500, <extendedcrafting:material:40>, [
+    <extendedcrafting:material:36>, <ore:ingotEnderium>,
+    <extendedcrafting:material:36>, <ore:ingotEnderium>
+]);
+
 // machine case | Tesla Core Lib
 CombinationCrafting.addRecipe(<teslacorelib:machine_case>, 50000, 400, <actuallyadditions:block_crystal>, [
     <actuallyadditions:item_crystal:5>, <contenttweaker:quartzplate>,
@@ -272,6 +284,14 @@ CombinationCrafting.addRecipe(<atmtweaks:item_material:5>, 100000000, 5000,
 CombinationCrafting.addRecipe(<rf-capability-adapter:aecapabilityadapter>, 50000, 500, <appliedenergistics2:interface>, [
     <compactmachines3:tunneltool>, <ore:crystalPureCertusQuartz>,
     <appliedenergistics2:part:460>, <contenttweaker:elementiumprocessor>
+]);
+
+// steel casing | Mekanism
+CombinationCrafting.addRecipe(<mekanism:basicblock:8> * 2, 100000, 1000, <thermalfoundation:storage_alloy>, [
+    <ore:blockOsmium>, <botania:elfglass>,
+    <atmtweaks:item_material:2>, <ore:blockThaumium>,
+    <ore:blockOsmium>, <botania:elfglass>,
+    <atmtweaks:item_material:2>, <ore:blockThaumium>
 ]);
 
 
