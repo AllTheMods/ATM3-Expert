@@ -104,7 +104,7 @@ addDescription(<thaumcraft:crucible>, "Made by right-clicking a vanilla cauldron
 // scribing tools
 addDescription(<thaumcraft:scribing_tools>, "Needs to be crafted in a Vanilla crafting grid to get it tracked in the Thaumonomicon.");
 // thaumometer
-addDescription(<thaumcraft:thaumometer>, "Has a mana glass pane in the middle of the crafting grid.");
+addDescription(<thaumcraft:thaumometer>, ["Has a mana glass pane in the middle of the crafting grid.", "", "You can also scan your inventory by hovering over items.", "Scanning chests will scan all items within it."]);
 
 ### THERMAL EXPANSION ###
 // satchels
