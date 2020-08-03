@@ -8,14 +8,6 @@ print("==================== loading mods thermalfoundation.zs ==================
 
 ### CRAFTING RECIPES ###
 
-// steel block reimplementation
-recipes.remove(<ore:blockSteel>);
-recipes.addShaped(<thermalfoundation:storage_alloy>, [
-    [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
-    [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
-    [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
-]);
-
 // redstone reception coil
 recipes.remove(<thermalfoundation:material:513>);
 recipes.addShaped(<thermalfoundation:material:513>, [
