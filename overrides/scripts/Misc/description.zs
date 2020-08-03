@@ -77,6 +77,17 @@ addDescription(<ic2:blockrubsapling>, ["To get your first rubber tree, search fo
 addDescription(<ic2:itemmisc:200>, "To get scrap, craft a Recycler from Industrial Craft and recycle stuff in it. Scrap drops with a small chance.");
 // sticky resin
 addDescription(<ic2:itemharz>, ["Resin can be obtained by clicking a brown sticky spot of a rubber tree with a treetap.", "", "More info about rubber trees can be read if you search for the rubber tree sapling in JEI."]);
+// near-depleted uranium cell
+addDescription(<ic2:itemmisc:500>, "Byproduct of the Nuclear Reactor.");
+// plutonium
+addDescription([
+    <ic2c_extras:plutoniumdust>,
+    <ic2c_extras:plutoniumingot>
+], [
+    "Obtained from Plutonium in the Chemical Combiner.",
+    "",
+    "Plutonium can be obtained in the Chemical Dissolver from Near-depleted Uranium Cells."
+]);
 
 ### OPEN BLOCKS ###
 // liquid xp
