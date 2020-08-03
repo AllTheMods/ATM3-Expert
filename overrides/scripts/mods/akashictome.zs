@@ -9,7 +9,6 @@ import mods.initialinventory.InvHandler;
 print("==================== loading mods akashictome.zs ====================");
 ##########################################################################################
 
-
 // tome generation
 val tome = <akashictome:tome>.withTag({
     "akashictome:is_morphing": 1 as byte,
@@ -19,6 +18,15 @@ val tome = <akashictome:tome>.withTag({
             Count: 1 as byte,
             tag: {
                 "akashictome:definedMod": "actuallyadditions"
+            },
+            Damage: 0 as short
+        },
+        alchemistry: {
+            id: "patchouli:guide_book",
+            Count: 1 as byte,
+            tag: {
+                "akashictome:definedMod": "alchemistry",
+                "patchouli:book": "alchemistry:alchemistry_book"
             },
             Damage: 0 as short
         },

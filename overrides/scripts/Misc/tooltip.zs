@@ -30,6 +30,7 @@ stoneFacade.addTooltip(format.red("Check the recipe description for a crafting g
 ### BOOKS ###
 var books as IIngredient[] = [
     <actuallyadditions:item_booklet>,
+    <patchouli:guide_book>.withTag({"patchouli:book": "alchemistry:alchemistry_book"}),
     <astralsorcery:itemjournal>,
     <guideapi:bloodmagic-guide>,
     <botania:lexicon>,
