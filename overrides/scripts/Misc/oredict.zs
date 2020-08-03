@@ -70,5 +70,38 @@ removalByKind.get("Crafting").remove("gear");
 removalByKind.get("Crafting").remove("plate");
 
 
+### LATE RECIPES ###
+
+// metal block reimplementations
+// copper
+recipes.remove(<ore:blockCopper>);
+recipes.addShaped(<thermalfoundation:storage>, [
+    [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>],
+    [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>],
+    [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]
+]);
+// tin
+recipes.remove(<ore:blockTin>);
+recipes.addShaped(<thermalfoundation:storage:1>, [
+    [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>],
+    [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>],
+    [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]
+]);
+// lead
+recipes.remove(<ore:blockLead>);
+recipes.addShaped(<thermalfoundation:storage:3>, [
+    [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>],
+    [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>],
+    [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>]
+]);
+// steel
+recipes.remove(<ore:blockSteel>);
+recipes.addShaped(<thermalfoundation:storage_alloy>, [
+    [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+    [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+    [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
+]);
+
+
 ##########################################################################################
 print("==================== end of misc oredict.zs ====================");
