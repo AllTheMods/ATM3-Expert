@@ -86,6 +86,14 @@ recipes.addShaped(<advancedrocketry:iquartzcrucible>, [
     [<contenttweaker:quartzingot>, <contenttweaker:quartzingot>, <contenttweaker:quartzingot>]
 ]);
 
+// user interface
+recipes.remove(<advancedrocketry:misc>);
+recipes.addShaped(<advancedrocketry:misc>, [
+    [null, null, null],
+    [<extendedcrafting:material:48>, <ore:dustRedstone>, <extendedcrafting:material:48>],
+    [<ore:dustGlowstone>, <minecraft:glass_pane>, <ore:dustGlowstone>]
+]);
+
 
 ### PRECISION ASSEMBLER ###
 
