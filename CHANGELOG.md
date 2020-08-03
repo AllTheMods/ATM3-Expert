@@ -5,7 +5,80 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 
 ## [Unreleased]
 
-- /
+## [1.9.0] - 2020-XX-XX
+
+### Added
+- item descriptions
+  - how to obtain Plutonium
+  - how to obtain Near-depleted Uranium Cells
+  - to show that you can scan chests with the Thaumometer
+- Alchemistry guide book to Akashic Tome
+
+*Mod-Additions:*
+- Loot Capacitor Tooltips
+
+### Changed
+- IC2 Classic secret recipes are now visible
+
+*Mod-Updates:*
+- Advanced Rocketry
+- Astral Sorcery
+- Building Gadgets
+- Carry On
+- Common Capabilities
+- Corail Tombstones
+- CraftTweaker
+- Cyclops Core
+- Flux Networks
+- FTB Quests
+- FTB Utilities
+- IC2 Classic
+- IC2C Extras
+- Item Filters
+- Just Enough Items
+- Lazy AE2
+- Logistics Pipes
+- NuclearCraft
+- Psi
+- RandomPatches
+- RandomTweaks
+- Recipe Stages
+- Simply Jetpacks 2
+- Torchmaster
+
+### Fixed
+- Astral Sorcery Lucerna ritual no longer stops Resturbed Mob Spawner ([HellFirePVP/AstralSorcery#1307](https://github.com/HellFirePvP/AstralSorcery/issues/1307))
+- exploit for infinite resources by crafting metal dusts
+
+### Recipes
+- added recipe for Controller Slave
+- added Enhanced Ender Ingots to Advanced Rocketry multiblock recipes to get more uses for the Ender Crafter
+- added Plutonium Dust to Petro Petunia recipe to match progression
+- fixed several metal block recipes
+- fixed Iridium Ore recipe with UU-Matter
+- Combination Crafting
+  - added recipe for Steel Casing for automation purposes
+  - added recipe for Ender Star for automation purposes
+  - added recipe for Enhanced Ender Ingot for automation purposes
+- Mana Infusion
+  - added Manasteel Plate recipe
+  - added Manasteel Block recipe
+  - added Mana Diamond Block recipe
+  - added Mana Quartz Block recipe
+  - added Mana Glass Pane recipe
+  - added Manasteel Nugget recipe
+  - slightly increased Mana cost for Mana Quartz
+  - slightly increased Mana cost for Mana Glass
+
+### Quests
+- added protection suit to "Chernobyl Diaries"
+- added Chemical Combiner to "Splitting the Atoms" to match progression
+- added information to "Thaumaturge" that Thaumometer supports inventory scanning
+- removed Chemical Combiner from "Combining the Atoms"
+- fixed "Man-Made-Osmium" spelling
+- renamed "Combining the Atoms" to "Chemical Metal"
+- "Splitting the Atoms" now ignores NBT data to also accept machines with leftover energy
+- "I built a Rocket, Man!" now required 6 Liquid Fuel Tanks instead of 4
 
 ---
 
@@ -80,7 +153,7 @@ Known issues:
 
 ### Quests
 - added informational quest that you can only get one extra layer of hearts by eating different food
-- added informational quest that sapling can't grow if they are planted next to each other
+- added informational quest that saplings can't grow if they are planted next to each other
 - added informational quest that IC2Classic machines can be upgraded with the Transformer Upgrade to let them use more Overclockers to speed them up
 - added information to "Thaumaturge" that Scribing Tools need to be crafted in a Vanilla crafting grid to get them tracked in the Thaumonomicon
 - added information to "Thaumic Infusion" that the required research in the Thaumonomicon will be unlocked with the quest reward
