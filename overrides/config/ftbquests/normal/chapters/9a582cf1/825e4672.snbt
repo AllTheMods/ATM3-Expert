@@ -1,0 +1,58 @@
+{
+	title: "A Pad you should not feed.",
+	x: 5.5d,
+	y: -0.5d,
+	text: [
+		"In order to build your first rocket, you will need a landing platform.",
+		"",
+		"First, build a 3x3 square out of Launch Pads. Choose any side of it and build a tower out of 8 Structure Towers next to it on the same level.",
+		"",
+		"Then put the Rocket Assembling Machine and the Fueling Station on any adjacent side of the pad.",
+		"They need to be one level higher than the pad itself. Both of them need power."
+	],
+	dependencies: [
+		"88cd4474"
+	],
+	tasks: [{
+		uid: "2c421b73",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketbuilder"
+		}]
+	},
+	{
+		uid: "0e6cff37",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:fuelingstation"
+		}]
+	},
+	{
+		uid: "9ebbba44",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "libvulpes:linker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d526b9f5",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:launchpad"
+		}],
+		count: 9L
+	},
+	{
+		uid: "944d485f",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:structuretower"
+		}],
+		count: 8L
+	}]
+}

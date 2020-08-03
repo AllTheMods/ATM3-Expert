@@ -1,0 +1,33 @@
+{
+	title: "Dry, Dry Desert",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "gear",
+	text: [
+		"With scarab in hand, it is time to explore the world of the dry and sand. Use sandstone to create the portal to the Atum, fill it with water, and throw the scarab into the pool as a sacrifice to the gods.",
+		"",
+		"You better hope they're happy enough with you to let you in."
+	],
+	dependencies: [
+		"bfa03efe"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "7a2aa0f6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "atum:scarab"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d05ca210",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 1"
+	}]
+}

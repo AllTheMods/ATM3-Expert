@@ -1,0 +1,29 @@
+{
+	title: "Spectre Energy Unlocked",
+	icon: "randomthings:spectreenergyinjector",
+	x: -6.5d,
+	y: -9.0d,
+	shape: "diamond",
+	text: [
+		"This unlocks recipes for Random Things's Spectre Energy related items."
+	],
+	dependencies: [
+		"4f381548",
+		"5d81ffe3"
+	],
+	tasks: [{
+		uid: "bd08d7bb",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:coin 1 96"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c657399c",
+		type: "command",
+		team_reward: false,
+		command: "/gamestage add @p injector"
+	}]
+}

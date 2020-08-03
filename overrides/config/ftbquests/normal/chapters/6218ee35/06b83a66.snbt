@@ -1,0 +1,22 @@
+{
+	title: "Store Me A River",
+	x: 2.0d,
+	y: -2.0d,
+	shape: "diamond",
+	text: [
+		"Have you found yourself filling your base with chest after chest after chest, trying to expand your storage capabilities?",
+		"Have you searched for what seems to be hours on end for one item, looking through hundreds of places?",
+		"",
+		"Well you're in luck! With the storage scanner, you no longer have to run from chest to chest in hopes of finding the right item. You can even craft in it!"
+	],
+	dependencies: [
+		"d370806c"
+	],
+	tasks: [{
+		uid: "276a4903",
+		type: "item",
+		items: [{
+			item: "rftools:storage_scanner"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "...Require Bigger Tables",
+	x: 0.0d,
+	y: 7.0d,
+	text: [
+		"This is an advanced crafting table. For, you know, advanced recipes."
+	],
+	dependencies: [
+		"f9e11c7a"
+	],
+	tasks: [{
+		uid: "44d46e02",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_advanced"
+		}]
+	}]
+}

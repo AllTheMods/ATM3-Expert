@@ -1,0 +1,43 @@
+{
+	title: "Arcane Alchemy",
+	x: -4.0d,
+	y: -2.0d,
+	text: [
+		"Part of being a thaumaturge will involve you dabbling in alchemy. ",
+		"",
+		"Be careful not to do this too close to your base, as flux can very easily build up, even for the most advanced thaumaturge."
+	],
+	dependencies: [
+		"fee5dc13"
+	],
+	tasks: [{
+		uid: "f2d0d904",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	},
+	{
+		uid: "006e099f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:nitor_yellow"
+		}]
+	},
+	{
+		uid: "ce11b535",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 2"
+		}],
+		count: 4L
+	},
+	{
+		uid: "79800908",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot"
+		}],
+		count: 4L
+	}]
+}

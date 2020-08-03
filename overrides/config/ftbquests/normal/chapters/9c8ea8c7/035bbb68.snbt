@@ -1,0 +1,25 @@
+{
+	title: "At First I was Afraid, I was Petrified",
+	x: -1.5d,
+	y: -1.5d,
+	shape: "diamond",
+	text: [
+		"It's time you came full circle, isn't it? You started with Botania, so let's continue with it. The petro petunia will generate mana off of different fuels, shown in JEI.",
+		"",
+		"It is kinda handy that you already built an oil setup. Not only do you need the byproduct bitumen; you can also use the refined oil as fuel for the flower!"
+	],
+	dependencies: [
+		"3d3bc1e2"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "ba6a89c1",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "petro_petunia"
+			}
+		}]
+	}]
+}

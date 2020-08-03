@@ -1,0 +1,18 @@
+{
+	title: "IMMA FIRIN MAH LAZOR!",
+	x: -2.0d,
+	y: -2.0d,
+	text: [
+		"While IC2 and Immersive Engineering have helped you build up to where you are now, you might want to get into some RF based machinery. Hope you made that steam dynamo earlier."
+	],
+	dependencies: [
+		"23d4dedc"
+	],
+	tasks: [{
+		uid: "b71afba6",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_atomic_reconstructor"
+		}]
+	}]
+}

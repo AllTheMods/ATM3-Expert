@@ -1,0 +1,89 @@
+{
+	title: "Suited for Space",
+	x: 8.5d,
+	y: -0.5d,
+	text: [
+		"In order to, you know, *survive* in space, you will need a space suit. ",
+		"",
+		"The suit workstation allows you to add upgrades to your space suit. It's also needed to attach pressurized tanks to yourself, so you can breathe in space.",
+		"",
+		"Fill the gas charge pad with oxygen and stand on it to fill your pressurized tanks."
+	],
+	dependencies: [
+		"825e4672"
+	],
+	tasks: [{
+		uid: "539744da",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:spacehelmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7b3ad53b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:spacechestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7609d3e2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:spaceleggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "54b3c7f3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:spaceboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ad65f1f7",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:suitworkstation"
+		}]
+	},
+	{
+		uid: "ed4aaaa9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:pressuretank",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "beb667e8",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:oxygencharger"
+		}]
+	}]
+}

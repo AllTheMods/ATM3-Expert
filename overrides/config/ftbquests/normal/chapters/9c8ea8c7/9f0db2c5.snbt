@@ -1,0 +1,27 @@
+{
+	title: "''Mister Smelter, Send Me A Mill!''",
+	x: 0.5d,
+	y: 3.0d,
+	text: [
+		"Ender IO has some pretty cool machines that you should check out. Some items may be only craftable in Ender IO machines, so make a couple."
+	],
+	dependencies: [
+		"4207c9d9"
+	],
+	tasks: [{
+		uid: "35105d05",
+		type: "item",
+		items: [{
+			item: "enderio:block_alloy_smelter"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "15a42a95",
+		type: "item",
+		items: [{
+			item: "enderio:block_sag_mill"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "This Isn't A Conglomeration",
+	x: -4.5d,
+	y: -1.5d,
+	text: [
+		"To make terrasteel, you need a little setup. First, a terrestrial agglomeration plate is needed on a checkerboard of lapis blocks and livingrock.",
+		"",
+		"The Botania guide book can let you visualize the multiblock if you need help."
+	],
+	dependencies: [
+		"cbbf9d02"
+	],
+	tasks: [{
+		uid: "d125ea32",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	},
+	{
+		uid: "64300e84",
+		type: "item",
+		items: [{
+			item: "minecraft:lapis_block"
+		}],
+		count: 4L
+	},
+	{
+		uid: "f9ff18f7",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}],
+		count: 5L
+	}]
+}

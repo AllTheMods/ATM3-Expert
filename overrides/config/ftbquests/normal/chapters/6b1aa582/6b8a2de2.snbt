@@ -1,0 +1,19 @@
+{
+	title: "Holy Energy BatBox!",
+	x: 3.0d,
+	y: -4.5d,
+	shape: "diamond",
+	text: [
+		"Energy storage is a great way to ensure machines will keep running if you should run out of fuel."
+	],
+	dependencies: [
+		"624121d5"
+	],
+	tasks: [{
+		uid: "6b749a48",
+		type: "item",
+		items: [{
+			item: "ic2:blockelectric"
+		}]
+	}]
+}

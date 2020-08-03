@@ -1,0 +1,58 @@
+{
+	title: "Magma Transposer or Fluid Crucible? You decide!",
+	x: 2.0d,
+	y: -4.0d,
+	shape: "diamond",
+	text: [
+		"While the smeltery has been helpful in melting many blocks and items, sometimes it just can't get hot enough. That's where a magma crucible can help!",
+		"",
+		"The fluid transposer also transposes fluids. Kind of self-explanatory."
+	],
+	dependencies: [
+		"d370806c"
+	],
+	tasks: [{
+		uid: "3b15a144",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 8s
+		}]
+	},
+	{
+		uid: "1767b936",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 6s
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Flinting It Up",
+	x: -1.0d,
+	y: -9.0d,
+	text: [
+		"First off, you will find out that it really hurts your hand if you punch a tree. It is a tree after all. You might want to find a less painful alternative."
+	],
+	dependencies: [
+		"e50cb747",
+		"bf16c402",
+		"f5db3446",
+		"9e050b58",
+		"eff2e7ff",
+		"962958d7"
+	],
+	tasks: [{
+		uid: "b2d4836e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "flintmod:axe_flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

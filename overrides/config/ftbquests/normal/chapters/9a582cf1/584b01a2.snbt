@@ -1,0 +1,49 @@
+{
+	title: "I built a Rocket, Man!",
+	x: 4.0d,
+	y: 1.0d,
+	text: [
+		"Now that you have your landing pad, you are ready to construct your first rocket!"
+	],
+	dependencies: [
+		"825e4672",
+		"88cd4474"
+	],
+	tasks: [{
+		uid: "4ce826b8",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketmotor"
+		}],
+		count: 3L
+	},
+	{
+		uid: "7d13cc0c",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:fueltank"
+		}],
+		count: 6L
+	},
+	{
+		uid: "d5d7ae76",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:guidancecomputer"
+		}]
+	},
+	{
+		uid: "f79b92f7",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:planetidchip"
+		}]
+	},
+	{
+		uid: "cd8894b7",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:seat"
+		}]
+	}]
+}

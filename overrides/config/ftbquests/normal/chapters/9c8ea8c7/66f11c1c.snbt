@@ -1,0 +1,29 @@
+{
+	title: "Will This Make Me Float?",
+	x: -1.5d,
+	y: 3.0d,
+	text: [
+		"Put your vat to good use and make some Vapor of Levity.",
+		"You will need it in the next Tier."
+	],
+	dependencies: [
+		"ca1a50ec"
+	],
+	tasks: [{
+		uid: "8b2b08bd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "vapor_of_levity",
+				Amount: 1000
+			}
+		}],
+		count: 2L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

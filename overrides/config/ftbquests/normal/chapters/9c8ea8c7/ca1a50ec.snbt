@@ -1,0 +1,19 @@
+{
+	title: "Mob Killing Done Easy",
+	x: -3.5d,
+	y: 3.0d,
+	text: [
+		"The mob crusher from Industrial Foregoing is useful in mob farms, especially when wanting to kill the Wither. All it requires is power."
+	],
+	dependencies: [
+		"251d766b",
+		"f4cb5b25"
+	],
+	tasks: [{
+		uid: "a7895313",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_relocator"
+		}]
+	}]
+}

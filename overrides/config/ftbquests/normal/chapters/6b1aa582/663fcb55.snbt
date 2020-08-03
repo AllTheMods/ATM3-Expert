@@ -1,0 +1,19 @@
+{
+	title: "Doesn't Living Rock?",
+	x: -9.0d,
+	y: -4.5d,
+	text: [
+		"You better hope you made a bit of seared stone."
+	],
+	dependencies: [
+		"184fe39b"
+	],
+	tasks: [{
+		uid: "53fac16a",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}],
+		count: 16L
+	}]
+}

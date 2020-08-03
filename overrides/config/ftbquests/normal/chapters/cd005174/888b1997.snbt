@@ -1,0 +1,26 @@
+{
+	title: "Fusion Crafting",
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"Draconic Evolution adds in its own form of crafting: fusion crafting. You need a fusion crafting core and 1 injector per recipe ingredient, not including the item being infused."
+	],
+	dependencies: [
+		"52d7afc3"
+	],
+	tasks: [{
+		uid: "a7b667f8",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector"
+		}],
+		count: 9L
+	},
+	{
+		uid: "18cdc686",
+		type: "item",
+		items: [{
+			item: "draconicevolution:fusion_crafting_core"
+		}]
+	}]
+}

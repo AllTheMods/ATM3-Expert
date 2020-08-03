@@ -1,0 +1,21 @@
+{
+	title: "Machine Speed",
+	icon: "ic2:ic2upgrades",
+	x: 6.0d,
+	y: -4.5d,
+	shape: "square",
+	text: [
+		"Machines from IC2Classic can be sped up with Overclocker Upgrades.",
+		"",
+		"However most of them only accept a specific amount of these upgrades before they can't balance the power consumption anymore.",
+		"",
+		"You can upgrade the Tier of a machine with a Transformer Upgrade. This will make LV machines accept MV and allows more Overclockers."
+	],
+	dependencies: [
+		"1bf4a0d5"
+	],
+	tasks: [{
+		uid: "429d5c4e",
+		type: "checkmark"
+	}]
+}

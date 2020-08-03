@@ -1,0 +1,18 @@
+{
+	title: "Bloodied Elven Gifts",
+	x: -2.0d,
+	y: 4.0d,
+	text: [
+		"The elves were kind enough to give you gifts, and this is how you treat those gifts? But you do find these corrupt starlight, so it may not be entirely wasteful."
+	],
+	dependencies: [
+		"b1e9fa4d"
+	],
+	tasks: [{
+		uid: "8d749469",
+		type: "item",
+		items: [{
+			item: "contenttweaker:crystallisedblood"
+		}]
+	}]
+}

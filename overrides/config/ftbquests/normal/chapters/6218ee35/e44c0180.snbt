@@ -1,0 +1,48 @@
+{
+	title: "Alternative Fuel",
+	x: 2.0d,
+	y: 4.0d,
+	shape: "diamond",
+	text: [
+		"While water is renewable, there are plenty of other fuel options available to you. Actually Additions has an entire tiered system of canola oil at your disposal."
+	],
+	dependencies: [
+		"25343356"
+	],
+	tasks: [{
+		uid: "5fc9d5f2",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_canola_press"
+		}]
+	},
+	{
+		uid: "6b14acd6",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_oil_generator"
+		}]
+	},
+	{
+		uid: "acfae04b",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_fermenting_barrel"
+		}]
+	},
+	{
+		uid: "0e4b1b94",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_farmer"
+		}]
+	},
+	{
+		uid: "c82e3db8",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_canola_seed"
+		}],
+		count: 16L
+	}]
+}

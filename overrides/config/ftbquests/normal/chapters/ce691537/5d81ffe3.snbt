@@ -1,0 +1,26 @@
+{
+	title: "DISCLAIMER",
+	icon: "minecraft:paper",
+	x: -2.5d,
+	y: -14.5d,
+	shape: "gear",
+	text: [
+		"Please note: This is a work in process. Not all redeemable options are implemented yet, so keep that in mind when you're redeeming your tiers. Below is a list of each tier and whether they have all of their redeemable options finalized or not:",
+		"Tier 1: Not Done",
+		"Tier 2: Not Done",
+		"Tier 3: Not Done",
+		"Tier 4: Not Done",
+		"Tier 5: Not Done",
+		"Tier 6: Not Done",
+		"",
+		"Once all are done, this disclaimer will be gone. "
+	],
+	dependencies: [
+		"4f381548"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "6c931290",
+		type: "checkmark"
+	}]
+}

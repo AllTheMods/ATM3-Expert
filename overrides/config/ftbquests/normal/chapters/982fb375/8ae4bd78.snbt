@@ -1,0 +1,23 @@
+{
+	title: "Something Bright",
+	x: 4.5d,
+	y: 7.0d,
+	text: [
+		"Luminessence is needed for bigger crafting tables and various items, so you better make some. ",
+		"",
+		"Blood transmutation is an interesting mechanic. First, you need to hold the correct tier of blood orb in your offhand, and make sure you have enough LP in your personal network. Then, hold the proper reagent in your main hand.",
+		"",
+		"Right click, and assuming you have done it correctly, you'll have transmuted the reagent into what you desire. "
+	],
+	dependencies: [
+		"7cfa062d"
+	],
+	tasks: [{
+		uid: "d7b92185",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 7"
+		}],
+		count: 8L
+	}]
+}

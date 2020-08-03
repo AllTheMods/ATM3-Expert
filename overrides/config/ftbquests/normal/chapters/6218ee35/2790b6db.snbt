@@ -1,0 +1,19 @@
+{
+	title: "Put on Display",
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		"Display stands have two uses. First, they hold items needed for empowering. Second, you can put cool things on them and show them off to your friends!"
+	],
+	dependencies: [
+		"25343356"
+	],
+	tasks: [{
+		uid: "ccc8e603",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_display_stand"
+		}],
+		count: 5L
+	}]
+}

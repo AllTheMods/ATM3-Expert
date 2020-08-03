@@ -1,0 +1,41 @@
+{
+	title: "Obtaining Essentia",
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"Continue your research into alchemy and find a way to turn items into essentia. This liquid essentia is needed for nearly every infusion."
+	],
+	dependencies: [
+		"b6176e60"
+	],
+	tasks: [{
+		uid: "e8729868",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_basic"
+		}]
+	},
+	{
+		uid: "40c31670",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alembic"
+		}]
+	},
+	{
+		uid: "ee2a5017",
+		type: "item",
+		items: [{
+			item: "thaumcraft:jar_normal"
+		}],
+		count: 4L
+	},
+	{
+		uid: "8d7bc01f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tube"
+		}],
+		count: 8L
+	}]
+}

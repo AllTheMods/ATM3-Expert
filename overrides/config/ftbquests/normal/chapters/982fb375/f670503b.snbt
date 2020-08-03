@@ -1,0 +1,17 @@
+{
+	title: "Finally, Some Cloche-ure",
+	x: -1.5d,
+	y: 7.0d,
+	shape: "diamond",
+	description: "The garden cloche will enable you to grow plants in a single block, rather than needing fields of crops.",
+	dependencies: [
+		"b820f97a"
+	],
+	tasks: [{
+		uid: "dfa8380a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 13"
+		}]
+	}]
+}

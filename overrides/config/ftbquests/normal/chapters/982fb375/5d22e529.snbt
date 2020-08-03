@@ -1,0 +1,27 @@
+{
+	title: "HOP To It!",
+	x: 1.5d,
+	y: 5.5d,
+	text: [
+		"Like steel, HOP graphite is another intensive process. You will need multiple Immersive Engineering multiblocks in order to create this stuff, so you better clear out some space.",
+		"",
+		"Note: There currently is a bug with the rendering of the recipe for HOP graphite dust in the industrial squeeze. It shows you need 8 coke dust, but won't get anything in return. This will give you 1 HOP graphite dust."
+	],
+	dependencies: [
+		"df956b20"
+	],
+	tasks: [{
+		uid: "fb8d400d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 18"
+		}]
+	},
+	{
+		uid: "0c21ab15",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 19"
+		}]
+	}]
+}

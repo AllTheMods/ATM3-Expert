@@ -1,0 +1,23 @@
+{
+	title: "Obsidian Breaker",
+	x: -7.5d,
+	y: 1.5d,
+	text: [
+		"You may have noticed the significant lack of diamonds in the overworld. Well, zombie pigmen have taken a liking to those shiny gems. ",
+		"",
+		"To get to the nether, you will need some obsidian. This pick head will let you mine some up."
+	],
+	dependencies: [
+		"a9ff8da7"
+	],
+	tasks: [{
+		uid: "22637fb6",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "manasteel"
+			}
+		}]
+	}]
+}

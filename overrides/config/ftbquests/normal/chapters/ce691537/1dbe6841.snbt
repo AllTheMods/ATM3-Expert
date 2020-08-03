@@ -1,0 +1,37 @@
+{
+	title: "Time In A Bottle Unlocked",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "randomthings:timeinabottle",
+		tag: {
+			timeData: {}
+		}
+	},
+	x: 1.5d,
+	y: -9.0d,
+	shape: "diamond",
+	text: [
+		"This unlocks the recipe for Random Things's Time In A Bottle."
+	],
+	dependencies: [
+		"4f381548",
+		"5d81ffe3"
+	],
+	tasks: [{
+		uid: "8acf4c1f",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:coin 1 97"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "2f7509a5",
+		type: "command",
+		team_reward: false,
+		command: "/gamestage add @p bottledtime"
+	}]
+}

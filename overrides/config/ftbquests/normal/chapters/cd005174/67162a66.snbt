@@ -1,0 +1,18 @@
+{
+	title: "Mangoose Creation",
+	x: -6.0d,
+	y: -3.5d,
+	text: [
+		"Crush some granite and you'll get rhosochrosite, which is needed for mangoose, I mean manganese. "
+	],
+	dependencies: [
+		"ac8fb506"
+	],
+	tasks: [{
+		uid: "0488235b",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:gem_dust 1 1"
+		}]
+	}]
+}

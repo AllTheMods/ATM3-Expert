@@ -1,0 +1,31 @@
+{
+	title: "Through the Looking Glass",
+	x: -6.0d,
+	y: 4.0d,
+	shape: "diamond",
+	text: [
+		"As you explore the world, you will stumble upon constellation papers hidden in marble temples. Have you ever played connect the dots?"
+	],
+	dependencies: [
+		"4f058998"
+	],
+	tasks: [{
+		uid: "7b42f923",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemhandtelescope"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "96096728",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmachine"
+		}]
+	}]
+}

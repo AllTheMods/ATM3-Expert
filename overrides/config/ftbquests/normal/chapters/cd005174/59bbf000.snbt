@@ -1,0 +1,19 @@
+{
+	title: "Evolving Dragons",
+	x: -1.0d,
+	y: -3.5d,
+	text: [
+		"It's finally time to get into Draconic Evolution, one of the most OP mods in existence. Start by making some draconium ingots in the blood altar."
+	],
+	dependencies: [
+		"7eafb67e"
+	],
+	tasks: [{
+		uid: "54e7aec5",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_ingot"
+		}],
+		count: 8L
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Industri-what?",
+	x: 0.0d,
+	y: 9.0d,
+	shape: "gear",
+	text: [
+		"Industrium! This is a major milestone in your progress. Industrium is used in numerous recipes from Alchemistry to Ender IO to the Alfheim portal, so you might want to make a bit."
+	],
+	dependencies: [
+		"8ae4bd78",
+		"05954352",
+		"bca785bc"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "7b958622",
+		type: "item",
+		items: [{
+			item: "atmtweaks:item_material 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "be09e691",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 96"
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Oh, it's sparkling fast!",
+	x: -6.5d,
+	y: -1.5d,
+	shape: "diamond",
+	text: [
+		"You may already realized that mana spreaders aren't that fast. You should make some sparks in order to transfer mana a lot faster!",
+		""
+	],
+	dependencies: [
+		"58e02911"
+	],
+	tasks: [{
+		uid: "30e12d75",
+		type: "item",
+		items: [{
+			item: "botania:spark"
+		}],
+		count: 2L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Unleashing Your Inner Botanist",
+	x: -9.0d,
+	y: -6.5d,
+	text: [
+		"The first magic mod you will face is Botania. The petal apothecary is where it all starts."
+	],
+	dependencies: [
+		"e73c6bc7"
+	],
+	tasks: [{
+		uid: "5e9cdee6",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	},
+	{
+		uid: "950ebca6",
+		type: "item",
+		items: [{
+			item: "botania:fertilizer"
+		}],
+		count: 16L
+	}]
+}

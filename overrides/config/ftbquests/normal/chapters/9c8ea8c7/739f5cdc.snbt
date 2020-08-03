@@ -1,0 +1,21 @@
+{
+	title: "Steel of the Earth",
+	x: -2.5d,
+	y: -1.5d,
+	text: [
+		"Terrasteel requires a mana diamond, mana pearl, and manasteel on top of the plate, plus half a mana pool worth of mana.",
+		"",
+		"Terrasteel is also how you obtain fermium, so plan accordingly."
+	],
+	dependencies: [
+		"58e02911"
+	],
+	tasks: [{
+		uid: "2117004e",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 4"
+		}],
+		count: 4L
+	}]
+}

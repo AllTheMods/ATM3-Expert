@@ -1,0 +1,17 @@
+{
+	title: "READ ME",
+	icon: "thermalfoundation:coin 1 103",
+	x: -2.5d,
+	y: -12.5d,
+	shape: "gear",
+	text: [
+		"A number of different modpacks have implemented some form of shop. We are taking a different path. You will earn \"tiers\" as you progress throughout the quests, which you can redeem in here.",
+		"",
+		"The catch is, you won't be able to afford every thing from every tier, so spendy wisely."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "de77b2a9",
+		type: "checkmark"
+	}]
+}

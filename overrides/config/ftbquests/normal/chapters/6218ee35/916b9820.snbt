@@ -1,0 +1,33 @@
+{
+	title: "Storing the Power",
+	x: 4.0d,
+	y: 4.0d,
+	shape: "diamond",
+	text: [
+		"Actually Additions also adds in its own form of power storage. Just place the battery box down, put any tier battery into it, and boom, power storage. Batteries can also be used to charge items in your inventory for on-the-go applications."
+	],
+	dependencies: [
+		"e44c0180"
+	],
+	tasks: [{
+		uid: "e2b91159",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_battery_box"
+		}]
+	},
+	{
+		uid: "c39e6da1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "actuallyadditions:item_battery",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

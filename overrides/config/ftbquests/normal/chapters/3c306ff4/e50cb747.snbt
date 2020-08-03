@@ -1,0 +1,16 @@
+{
+	x: -4.0d,
+	y: -10.0d,
+	shape: "square",
+	text: [
+		"Ores generate differently than you may be used to. No more are the days of setting up a massive strip mine to get ores. Ore in the overworld will now generate on exposed stone. Both, underground in caves and on the surface.",
+		"",
+		"This is aimed at promoting exploration rather than a boring and tedious mining technique."
+	],
+	tasks: [{
+		uid: "4ac7a544",
+		type: "checkmark",
+		title: "Ore Gen",
+		icon: "minecraft:iron_ore"
+	}]
+}

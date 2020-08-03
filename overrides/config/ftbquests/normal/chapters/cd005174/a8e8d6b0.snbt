@@ -1,0 +1,15 @@
+{
+	title: "Unified Theory",
+	x: 1.0d,
+	y: 10.5d,
+	text: [
+		"Crafting the life force of dragons and Gaia Gaurdians into a strong metal will allow you to create a unified field core. This is used in the ATM Star."
+	],
+	tasks: [{
+		uid: "983a1b46",
+		type: "item",
+		items: [{
+			item: "atmtweaks:item_material 1 7"
+		}]
+	}]
+}

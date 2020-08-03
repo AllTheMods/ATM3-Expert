@@ -1,0 +1,30 @@
+{
+	title: "Corrupting the Stars",
+	x: 1.0d,
+	y: 4.0d,
+	shape: "gear",
+	text: [
+		"It is incredible how much starmetal can take. After attaching planet shards to the base starmetal, and passing corrupted starlight through crystallized will, you have created corrupted starmetal.",
+		"",
+		"Please, do you best not to let the corruption spread throughout the world. You already tainted it enough."
+	],
+	dependencies: [
+		"974cd831",
+		"8a97c60d",
+		"ad8e9ffd"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "fcab2bf5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:corruptedstarmetal"
+		}]
+	}],
+	rewards: [{
+		uid: "5e8549b3",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 101"
+	}]
+}

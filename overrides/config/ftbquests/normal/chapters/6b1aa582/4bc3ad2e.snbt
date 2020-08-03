@@ -1,0 +1,19 @@
+{
+	title: "Under Pressure",
+	x: 3.0d,
+	y: -2.5d,
+	text: [
+		"For those times you break under the pressure, the compressor is here for you."
+	],
+	dependencies: [
+		"624121d5",
+		"1bf4a0d5"
+	],
+	tasks: [{
+		uid: "c65de043",
+		type: "item",
+		items: [{
+			item: "ic2:blockmachinelv 1 5"
+		}]
+	}]
+}

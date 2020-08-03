@@ -1,0 +1,40 @@
+{
+	title: "Bloodlust",
+	x: 4.5d,
+	y: 1.0d,
+	text: [
+		"It's about time you delved into the dark arts! Blood Magic will fulfill your bloodlust as you imbue stone with your own life.",
+		"",
+		"Blood Magic also adds an in game guidebook to help the beginning blood mage, the Sanguine Scientium."
+	],
+	dependencies: [
+		"c26a30ec"
+	],
+	tasks: [{
+		uid: "8b77c163",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	},
+	{
+		uid: "2f4523c1",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_snare"
+		}],
+		count: 8L
+	},
+	{
+		uid: "e0ee6c48",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

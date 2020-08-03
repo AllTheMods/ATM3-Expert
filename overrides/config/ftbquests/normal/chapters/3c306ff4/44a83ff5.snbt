@@ -1,0 +1,51 @@
+{
+	title: "Better Tools!",
+	x: -2.0d,
+	y: -4.5d,
+	text: [
+		"In order to make tools, you need several parts of them. A modular flint tool is a huge improvement to your current flint hatchet."
+	],
+	dependencies: [
+		"1354fb44"
+	],
+	tasks: [{
+		uid: "9a486bbe",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	},
+	{
+		uid: "877802e1",
+		type: "item",
+		items: [{
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	},
+	{
+		uid: "79b3be7d",
+		type: "item",
+		items: [{
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	},
+	{
+		uid: "62cd402a",
+		type: "item",
+		items: [{
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	}]
+}

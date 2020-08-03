@@ -1,0 +1,18 @@
+{
+	title: "The Sun is Gone",
+	x: 7.0d,
+	y: -2.0d,
+	shape: "square",
+	text: [
+		"Due to unforeseen consequences from corrupting starlight, you've completely ruined the sun. Nice job. As a result, solar arrays from Environmental Tech no longer work. "
+	],
+	dependencies: [
+		"727a37fb"
+	],
+	tasks: [{
+		uid: "1a62b1c9",
+		type: "checkmark",
+		title: "#SorryNotSorry",
+		icon: "environmentaltech:solar_cont_1"
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "Full Steam Ahead!",
+	x: -3.0d,
+	y: -3.5d,
+	shape: "diamond",
+	text: [
+		"Now that you have wires and coal coke, you might want to think about making some RF. It's not needed until later, but it's useful to have a source before needing it.",
+		"",
+		"Grab some water and coal and put it into the dynamo. It will start to produce its own steam and finally generate some power."
+	],
+	dependencies: [
+		"2ed8f881",
+		"a1012814",
+		"257bbfb0"
+	],
+	tasks: [{
+		uid: "46654f15",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	},
+	{
+		uid: "68b6c9e1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:water_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

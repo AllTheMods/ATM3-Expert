@@ -1,0 +1,19 @@
+{
+	title: "Rubber Grows on Trees!",
+	x: 1.5d,
+	y: -2.5d,
+	shape: "diamond",
+	text: [
+		"You'll need a bit of rubber to make all of the circuits the machines require."
+	],
+	dependencies: [
+		"4bc3ad2e"
+	],
+	tasks: [{
+		uid: "13327ac0",
+		type: "item",
+		items: [{
+			item: "ic2:blockmachinelv 1 4"
+		}]
+	}]
+}

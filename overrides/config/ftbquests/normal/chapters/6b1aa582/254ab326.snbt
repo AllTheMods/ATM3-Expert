@@ -1,0 +1,35 @@
+{
+	title: "Mining or Farming? Same thing!",
+	x: -10.5d,
+	y: -2.5d,
+	shape: "diamond",
+	text: [
+		"Did you know we have AgriCraft in this pack?",
+		"",
+		"You can use it to grow several materials that save you a ton of mining.",
+		"",
+		"Also AgriCraft lets you improve the seeds to gain even more from a single plant.",
+		"",
+		"Weeds are disabled by the way. They are annoying!",
+		"",
+		"The plants can improve their stats by spreading. You don't need to cross-breed them."
+	],
+	dependencies: [
+		"a9ff8da7"
+	],
+	tasks: [{
+		uid: "d756ae64",
+		type: "item",
+		items: [{
+			item: "agricraft:seed_analyzer"
+		}]
+	},
+	{
+		uid: "84bb53db",
+		type: "item",
+		items: [{
+			item: "agricraft:crop_sticks"
+		}],
+		count: 16L
+	}]
+}

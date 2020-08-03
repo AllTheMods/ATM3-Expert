@@ -1,0 +1,21 @@
+{
+	title: "Bloodied Slate",
+	x: 4.5d,
+	y: 2.5d,
+	text: [
+		"It's time. Sacrifice parts of your own life into the altar and make some slates.",
+		"",
+		"If you need to, bring a pillow so you don't hurt yourself should you faint."
+	],
+	dependencies: [
+		"d93e6d6e"
+	],
+	tasks: [{
+		uid: "0e61ea9f",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate"
+		}],
+		count: 4L
+	}]
+}

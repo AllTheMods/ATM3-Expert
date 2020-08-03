@@ -1,0 +1,29 @@
+{
+	title: "Tranquility",
+	x: 6.0d,
+	y: 4.0d,
+	shape: "diamond",
+	text: [
+		"If you find yourself getting angry at having to continuously right clicking to take a single heart of health from yourself, then you're in luck!",
+		"",
+		"The incense altar will let you charge up your knife. When used next to your blood altar, it will convert 90% of your current health into LP, with a little bonus. Higher tiers of incense altar and tranquility will increase this bonus dramatically."
+	],
+	dependencies: [
+		"dc07d6d6"
+	],
+	tasks: [{
+		uid: "f2a52f76",
+		type: "item",
+		items: [{
+			item: "bloodmagic:incense_altar"
+		}]
+	},
+	{
+		uid: "d5b5390d",
+		type: "item",
+		items: [{
+			item: "bloodmagic:path"
+		}],
+		count: 36L
+	}]
+}

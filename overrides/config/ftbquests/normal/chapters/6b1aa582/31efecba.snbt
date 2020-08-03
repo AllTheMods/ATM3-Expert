@@ -1,0 +1,40 @@
+{
+	title: "New Potentials",
+	x: 4.5d,
+	y: -2.5d,
+	shape: "diamond",
+	text: [
+		"The metal bender will help you make wires, gears, and plates en masse quickly."
+	],
+	dependencies: [
+		"4bc3ad2e"
+	],
+	tasks: [{
+		uid: "74878ba2",
+		type: "item",
+		items: [{
+			item: "ic2c_extras:metalbender"
+		}]
+	},
+	{
+		uid: "114c49c8",
+		type: "item",
+		items: [{
+			item: "ic2c_extras:rollingpress"
+		}]
+	},
+	{
+		uid: "5c01a4be",
+		type: "item",
+		items: [{
+			item: "ic2c_extras:gearingpress"
+		}]
+	},
+	{
+		uid: "1e59ce57",
+		type: "item",
+		items: [{
+			item: "ic2c_extras:extrudingpress"
+		}]
+	}]
+}

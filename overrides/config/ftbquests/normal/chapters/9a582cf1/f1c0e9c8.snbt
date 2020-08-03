@@ -1,0 +1,35 @@
+{
+	title: "Warping Around",
+	x: 5.5d,
+	y: 2.5d,
+	text: [
+		"On Luna, you should find some dilithium ore. Crystallize this to get the fuel needed for the warp core.",
+		"",
+		"The warp core allows you to travel far enough to get to other planets, such as your next destination: Diemos."
+	],
+	dependencies: [
+		"7b88edbf"
+	],
+	tasks: [{
+		uid: "4f773bd9",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:warpmonitor"
+		}]
+	},
+	{
+		uid: "fade7723",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:warpcore"
+		}]
+	},
+	{
+		uid: "5da1107e",
+		type: "item",
+		items: [{
+			item: "libvulpes:productgem"
+		}],
+		count: 8L
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Sorry, We're Out of Pepsi, Is Coke Okay?",
+	x: -5.0d,
+	y: -4.5d,
+	text: [
+		"Hope you made a lot of seared stone! You'll need it for this. A coke oven is used to turn coal into coal coke and creosote. Both are very useful."
+	],
+	dependencies: [
+		"2278fbfc"
+	],
+	tasks: [{
+		uid: "c4874942",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration"
+		}],
+		count: 27L
+	},
+	{
+		uid: "f4febfcd",
+		type: "item",
+		title: "Any fuelCoke",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "fuelCoke",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 8L
+	}]
+}

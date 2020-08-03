@@ -1,0 +1,19 @@
+{
+	title: "Building Mekanism",
+	x: -5.0d,
+	y: 1.0d,
+	text: [
+		"Do I really need to explain this? You've seen this with at least three previous mods. You know what to do."
+	],
+	dependencies: [
+		"d4408955"
+	],
+	tasks: [{
+		uid: "acf693df",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 8"
+		}],
+		count: 2L
+	}]
+}

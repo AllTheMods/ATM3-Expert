@@ -1,0 +1,19 @@
+{
+	title: "Growth Essence",
+	x: 0.0d,
+	y: 5.5d,
+	shape: "diamond",
+	text: [
+		"Growth essence will enable you to make Immersive Engineering garden cloches. It is also needed for overgrowth seeds, which boost mana generation for a single flower."
+	],
+	dependencies: [
+		"bca785bc"
+	],
+	tasks: [{
+		uid: "dbec8f06",
+		type: "item",
+		items: [{
+			item: "atmtweaks:item_material 1 1"
+		}]
+	}]
+}

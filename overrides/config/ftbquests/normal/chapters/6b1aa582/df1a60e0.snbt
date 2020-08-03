@@ -1,0 +1,25 @@
+{
+	title: "Oh yay! The technology starts.",
+	x: 3.0d,
+	y: -6.5d,
+	text: [
+		"This is the base block used in most IC2 recipes."
+	],
+	dependencies: [
+		"090e705e",
+		"6c9bd5b4"
+	],
+	tasks: [{
+		uid: "591b4436",
+		type: "item",
+		items: [{
+			item: "ic2:blockmachinelv"
+		}]
+	}],
+	rewards: [{
+		uid: "e418f024",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin"
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "The Final Core",
+	x: -2.0d,
+	y: 9.5d,
+	text: [
+		"The chaos dragon is a hard creature to defeat. But I believe in you. Kill one and obtain the shards for this core. This is used in the ATM Star."
+	],
+	tasks: [{
+		uid: "8938e847",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaotic_core"
+		}]
+	}]
+}

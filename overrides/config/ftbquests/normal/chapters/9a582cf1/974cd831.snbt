@@ -1,0 +1,53 @@
+{
+	title: "Crystallized Will",
+	x: -0.5d,
+	y: 2.5d,
+	text: [
+		"In order to fully corrupt starmetal, you must pass the sorrupted starlight through four types of crystallized will. ",
+		"",
+		"Blood Magic adds in a guide called the Sanguine Scientiem, which explains many of the ins and outs of the mod. It also explains how to obtain the different wills and how to farm them."
+	],
+	dependencies: [
+		"f72d4ec0"
+	],
+	tasks: [{
+		uid: "57ab89c9",
+		type: "item",
+		items: [{
+			item: "bloodmagic:item_demon_crystal 1 1"
+		}]
+	},
+	{
+		uid: "20bd67f0",
+		type: "item",
+		items: [{
+			item: "bloodmagic:item_demon_crystal 1 2"
+		}]
+	},
+	{
+		uid: "4108d013",
+		type: "item",
+		items: [{
+			item: "bloodmagic:item_demon_crystal 1 3"
+		}]
+	},
+	{
+		uid: "ef888825",
+		type: "item",
+		items: [{
+			item: "bloodmagic:item_demon_crystal 1 4"
+		}]
+	},
+	{
+		uid: "31fad881",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "guideapi:bloodmagic-guide"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

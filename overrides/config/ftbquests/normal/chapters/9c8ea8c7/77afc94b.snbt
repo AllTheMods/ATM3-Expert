@@ -1,0 +1,28 @@
+{
+	title: "Chemical Metal",
+	x: 2.5d,
+	y: 0.0d,
+	text: [
+		"Lithium is one of the base materials you will need for this tier.",
+		"",
+		"This will also give you some practice in combining atoms and how to obtain a special resource."
+	],
+	dependencies: [
+		"45596053"
+	],
+	tasks: [{
+		uid: "0f9cf138",
+		type: "item",
+		title: "Any ingotLithium",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotLithium",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 8L
+	}]
+}

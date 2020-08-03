@@ -1,0 +1,93 @@
+{
+	title: "Your First Tier",
+	x: -5.0d,
+	y: -9.0d,
+	text: [
+		"Now that you have a fully functional smeltery, why don't you make some ingots? Copper, Iron, and Tin are some of the basic metals you'll need to progress.",
+		"",
+		"Keep in mind that the smeltery does not double ores, and that you will want to find a source of lava, as a heater cannot produce the heat you need. "
+	],
+	dependencies: [
+		"297924cf"
+	],
+	tasks: [{
+		uid: "bf7d4af6",
+		type: "item",
+		items: [{
+			item: "ceramics:unfired_clay 1 5"
+		}]
+	},
+	{
+		uid: "7f87da1e",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom"
+		}]
+	},
+	{
+		uid: "0631d48f",
+		type: "item",
+		title: "Iron Ingot",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotIron",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 4L
+	},
+	{
+		uid: "c70536f3",
+		type: "item",
+		title: "Copper Ingot",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotCopper",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 4L
+	},
+	{
+		uid: "d017622c",
+		type: "item",
+		title: "Tin Ingot",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotTin",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 4L
+	},
+	{
+		uid: "fc5cc7d3",
+		type: "item",
+		title: "Nickel Ingot",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotNickel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "f7282c45",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin"
+	}]
+}

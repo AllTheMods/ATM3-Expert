@@ -1,0 +1,19 @@
+{
+	title: "EU on Steroid",
+	x: -0.5d,
+	y: -1.5d,
+	shape: "diamond",
+	text: [
+		"With Alchemistry added to your toolbelt, you're able to use those advanced generators to produce some EU. You might as well make the MV port, as LV won't cut it."
+	],
+	dependencies: [
+		"45596053"
+	],
+	tasks: [{
+		uid: "bbcc6ec8",
+		type: "item",
+		items: [{
+			item: "advgenerators:eu_output_mv"
+		}]
+	}]
+}

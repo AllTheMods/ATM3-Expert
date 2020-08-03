@@ -1,0 +1,38 @@
+{
+	title: "Fusion",
+	x: -2.5d,
+	y: 4.5d,
+	text: [
+		"You may have noticed a distinct lack of osmium everywhere. This is because you need to fuse elements together in order to obtain it.",
+		"",
+		"First, make the blocks requires for a fusion setup, then follow the Alchemisty guide book to build the multiblock. ",
+		"",
+		"Recipes are easy. Add the atomic numbers of the two elements you put in, and that will be your output. For example, 2 Strontium will yield 1 Osmium."
+	],
+	dependencies: [
+		"20b39f52"
+	],
+	tasks: [{
+		uid: "32bb07cc",
+		type: "item",
+		items: [{
+			item: "alchemistry:fusion_casing"
+		}],
+		count: 98L
+	},
+	{
+		uid: "01091e2c",
+		type: "item",
+		items: [{
+			item: "alchemistry:fusion_controller"
+		}]
+	},
+	{
+		uid: "25af115c",
+		type: "item",
+		items: [{
+			item: "alchemistry:fusion_core"
+		}],
+		count: 3L
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "Forging Industrium. Again.",
+	x: 2.5d,
+	y: 2.5d,
+	text: [
+		"You made industrium before, but this is a better version. This is used in the ATM star."
+	],
+	tasks: [{
+		uid: "c523c6d0",
+		type: "item",
+		items: [{
+			item: "atmtweaks:item_material 1 3"
+		}]
+	}]
+}

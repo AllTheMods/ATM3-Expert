@@ -1,0 +1,23 @@
+{
+	title: "Thanos Snap",
+	x: -4.0d,
+	y: 0.0d,
+	text: [
+		"The caster's gauntlet is used to activate the runic matrix for infusions, along with using foci for various abilities."
+	],
+	dependencies: [
+		"b6176e60"
+	],
+	tasks: [{
+		uid: "3e41f69c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:caster_basic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Going Nuclear",
+	x: -6.0d,
+	y: -5.5d,
+	text: [
+		"Yet another base building block for machines. Sorry!"
+	],
+	dependencies: [
+		"7f543340"
+	],
+	tasks: [{
+		uid: "490b50d9",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:part 1 10"
+		}]
+	}]
+}

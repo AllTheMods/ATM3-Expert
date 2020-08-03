@@ -1,0 +1,20 @@
+{
+	title: "Alloying: The Basic Edition",
+	x: 0.0d,
+	y: -4.5d,
+	text: [
+		"You may realize your porcelain melter can only hold one liquid. In order to make alloys, you'll need an alloy tank.",
+		"",
+		"To make the alloy tank work, you need a heater underneath and either 2 tanks or two melters on the sides of the alloy tank with the required liquids."
+	],
+	dependencies: [
+		"2619c700"
+	],
+	tasks: [{
+		uid: "1accca85",
+		type: "item",
+		items: [{
+			item: "tcomplement:porcelain_alloy_tank"
+		}]
+	}]
+}

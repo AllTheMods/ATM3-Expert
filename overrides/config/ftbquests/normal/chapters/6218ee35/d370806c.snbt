@@ -1,0 +1,24 @@
+{
+	title: "You've Been Framed!",
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"The base crafting component for most Thermal Expansion machines is the machine frame."
+	],
+	dependencies: [
+		"96dfcfcc"
+	],
+	tasks: [{
+		uid: "90f5c2c4",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}],
+	rewards: [{
+		uid: "ec005a89",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 1"
+	}]
+}

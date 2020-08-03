@@ -1,0 +1,71 @@
+{
+	title: "Thaumaturge",
+	x: -2.0d,
+	y: -4.0d,
+	text: [
+		"You started a bit in the natural magic, now how about you play with some of the arcane? These are some of the basics you need for Thaumcraft.",
+		"",
+		"The Thaumometer in this pack supports inventory scanning.",
+		"",
+		"Keep in mind that the Thaumonomicon only tracks Vanilla crafting behaviour. So in order to make the Scribing Tools valid, you have to craft it in a Vanilla Crafting Grid."
+	],
+	dependencies: [
+		"23d4dedc"
+	],
+	tasks: [{
+		uid: "1a775192",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "50673016",
+		type: "item",
+		items: [{
+			item: "thaumcraft:table_wood"
+		}]
+	},
+	{
+		uid: "ddb0dbb8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b312f49c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:scribing_tools"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f5d5dd49",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench"
+		}]
+	},
+	{
+		uid: "7df3fa23",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}]
+}

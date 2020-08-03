@@ -1,0 +1,23 @@
+{
+	title: "Engineering Multiblocks",
+	x: -5.0d,
+	y: -6.5d,
+	text: [
+		"You will need some Immersive Engineering multiblocks in order to progress. Once you put all of the blocks into place, you'll need this hammer to form the multiblock."
+	],
+	dependencies: [
+		"fda223c6",
+		"e73c6bc7"
+	],
+	tasks: [{
+		uid: "72a8f4b2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersiveengineering:tool"
+		}],
+		ignore_nbt: 1b
+	}]
+}

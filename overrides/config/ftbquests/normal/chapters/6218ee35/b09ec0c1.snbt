@@ -1,0 +1,20 @@
+{
+	title: "Sliver of Truth",
+	x: -4.0d,
+	y: -4.0d,
+	shape: "diamond",
+	text: [
+		"Quartz slivers will be used a lot in your practice of the arcane."
+	],
+	dependencies: [
+		"b6176e60"
+	],
+	tasks: [{
+		uid: "14c1f837",
+		type: "item",
+		items: [{
+			item: "thaumcraft:nugget 1 9"
+		}],
+		count: 64L
+	}]
+}

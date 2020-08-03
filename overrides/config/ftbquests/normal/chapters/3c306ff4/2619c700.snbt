@@ -1,0 +1,60 @@
+{
+	title: "Vitrified Pickaxe",
+	x: 0.0d,
+	y: -2.5d,
+	text: [
+		"By now you should realize that your flint tools won't get you too far in life. If you want to start mining some metals, you'll need a vitrified sand pick head. Use sharpening kits to repair this tool.",
+		"",
+		"Note: Compressed sand melts into vitrified sand, while regular sand will still melt into glass."
+	],
+	dependencies: [
+		"d4fa8667"
+	],
+	tasks: [{
+		uid: "376f0285",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedsand"
+		}]
+	},
+	{
+		uid: "09e4bcc6",
+		type: "item",
+		items: [{
+			id: "tconstruct:clay_cast",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	},
+	{
+		uid: "26c59a93",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "vitrified_sand"
+			}
+		}]
+	},
+	{
+		uid: "605289a1",
+		type: "item",
+		items: [{
+			id: "tconstruct:clay_cast",
+			tag: {
+				PartType: "tconstruct:sharpening_kit"
+			}
+		}]
+	},
+	{
+		uid: "fa59e9b9",
+		type: "item",
+		items: [{
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "vitrified_sand"
+			}
+		}]
+	}]
+}

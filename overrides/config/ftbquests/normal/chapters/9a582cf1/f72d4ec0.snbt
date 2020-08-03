@@ -1,0 +1,19 @@
+{
+	title: "Tier 4 Blood Altar",
+	x: -2.0d,
+	y: 1.0d,
+	text: [
+		"You may realize that your blood altar isn't living up to its fullest potential. Help guide it and make some large bloodstone tiles as pillar caps to increase the tier of the blood altar."
+	],
+	dependencies: [
+		"67813eca"
+	],
+	tasks: [{
+		uid: "69e83960",
+		type: "item",
+		items: [{
+			item: "bloodmagic:decorative_brick"
+		}],
+		count: 4L
+	}]
+}

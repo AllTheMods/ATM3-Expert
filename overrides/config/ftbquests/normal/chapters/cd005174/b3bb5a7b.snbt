@@ -1,0 +1,26 @@
+{
+	title: "The Final Crystal",
+	x: 8.0d,
+	y: -0.5d,
+	text: [
+		"Continue void ore mining, getting another crystal, and upgrading the ore miner. While it's mining enough crystals for you, maybe set up a void resource miner so you can make speed modifiers.",
+		"",
+		"You also may want to work on bees in the meantime, as you will need some end-game bee resources later on."
+	],
+	dependencies: [
+		"07439754"
+	],
+	tasks: [{
+		uid: "67c5b75e",
+		type: "item",
+		items: [{
+			item: "environmentaltech:aethium_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "b924239e",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 103"
+	}]
+}

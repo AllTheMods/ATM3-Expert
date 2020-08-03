@@ -1,0 +1,35 @@
+{
+	title: "Leaf the Food Alone!",
+	x: -10.5d,
+	y: -4.5d,
+	text: [
+		"The Munchdew generates mana from eating leaves.",
+		"",
+		"The Gourmaryllis generates mana from eating food.",
+		"",
+		"Both have their pros and cons, so experiment and find which is best for you."
+	],
+	dependencies: [
+		"2d6842c5"
+	],
+	tasks: [{
+		uid: "e7c99d04",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "munchdew"
+			}
+		}]
+	},
+	{
+		uid: "f5ec7166",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "gourmaryllis"
+			}
+		}]
+	}]
+}

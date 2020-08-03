@@ -1,0 +1,54 @@
+{
+	title: "Fusion Prep",
+	x: -0.5d,
+	y: 4.5d,
+	text: [
+		"To make an Alchemistry fusion setup, you will need a few materials.",
+		"",
+		"In order to get the ingots, you will need to dissolve certain items to obtain the correct elements, then combine the element into the ingot.",
+		"",
+		"Note: These are not all of the materials you need, both in type and in quantity. This is just to let you know some of the tougher components."
+	],
+	dependencies: [
+		"66f11c1c"
+	],
+	tasks: [{
+		uid: "cc63076e",
+		type: "item",
+		title: "Any ingotTungsten",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotTungsten",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 4L
+	},
+	{
+		uid: "8dd71284",
+		type: "item",
+		items: [{
+			item: "alchemistry:ingot 1 60"
+		}],
+		count: 4L
+	},
+	{
+		uid: "680d3302",
+		type: "item",
+		items: [{
+			item: "alchemistry:ingot 1 34"
+		}],
+		count: 4L
+	},
+	{
+		uid: "01b7754d",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}],
+		count: 4L
+	}]
+}

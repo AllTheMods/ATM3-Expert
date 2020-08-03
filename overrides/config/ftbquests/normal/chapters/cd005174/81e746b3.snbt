@@ -1,0 +1,15 @@
+{
+	title: "Denser Than A Black Hole",
+	x: -2.5d,
+	y: 4.0d,
+	text: [
+		"Using some industrium and numerous rotor components, you're able to bend space and create a paradoxically dense component. This is used in the ATM Star."
+	],
+	tasks: [{
+		uid: "3df5c73a",
+		type: "item",
+		items: [{
+			item: "atmtweaks:item_material 1 8"
+		}]
+	}]
+}

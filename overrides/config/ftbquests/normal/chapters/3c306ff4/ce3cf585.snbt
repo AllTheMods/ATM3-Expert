@@ -1,0 +1,21 @@
+{
+	title: "Let's Sear this Stone!",
+	x: 2.0d,
+	y: -6.5d,
+	text: [
+		"With your alloy tank set up, let's make some seared stone. First, melt compressed sand and clay, then alloy it into molten grout. Finally, pour the grout over some gravel for your first seared stone!",
+		"",
+		"You may want to expand your setup, as you will need quite a few of these."
+	],
+	dependencies: [
+		"80f1806c"
+	],
+	tasks: [{
+		uid: "a092702e",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared"
+		}],
+		count: 8L
+	}]
+}

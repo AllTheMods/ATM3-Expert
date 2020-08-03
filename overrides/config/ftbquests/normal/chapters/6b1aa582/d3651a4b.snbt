@@ -1,0 +1,21 @@
+{
+	title: "Automated Requests",
+	x: -5.0d,
+	y: 0.0d,
+	shape: "diamond",
+	text: [
+		"Once you are a little more experienced with Logistics Pipes, your main goal should be crafting a Request Table.",
+		"",
+		"You can think of an automated inventory request system and you also can craft in that bad boy! If you are missing parts for the recipe, you can automatically request them from your system."
+	],
+	dependencies: [
+		"dde56582"
+	],
+	tasks: [{
+		uid: "dd8a1af8",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_request_table"
+		}]
+	}]
+}

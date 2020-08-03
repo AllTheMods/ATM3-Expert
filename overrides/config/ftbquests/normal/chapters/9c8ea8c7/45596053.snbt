@@ -1,0 +1,27 @@
+{
+	title: "Some Useful Chemicals",
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"This mod truly is powerful. You can break down items into their base compounds and elements. Try it with a few to obtain these chemicals."
+	],
+	dependencies: [
+		"cbbf9d02"
+	],
+	tasks: [{
+		uid: "9c3e19ae",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 32"
+		}],
+		count: 8L
+	},
+	{
+		uid: "fbe08ae8",
+		type: "item",
+		items: [{
+			item: "alchemistry:compound 1 22"
+		}],
+		count: 8L
+	}]
+}

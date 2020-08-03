@@ -1,0 +1,21 @@
+{
+	title: "Bigger Opportunities...",
+	x: 1.5d,
+	y: 7.0d,
+	text: [
+		"If you want bigger recipes, we have got you covered. Heat that HOP graphite ingot up, and you'll get yourself some black iron ingots.",
+		"",
+		"You'll want to stock up on these as they are used for many of the extended crafting tables."
+	],
+	dependencies: [
+		"5d22e529"
+	],
+	tasks: [{
+		uid: "e9d7efb0",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material"
+		}],
+		count: 4L
+	}]
+}

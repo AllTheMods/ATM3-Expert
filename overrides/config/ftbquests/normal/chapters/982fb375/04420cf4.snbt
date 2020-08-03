@@ -1,0 +1,51 @@
+{
+	title: "Resonance is Key",
+	x: -4.5d,
+	y: 2.5d,
+	text: [
+		"The resonating wand is required to start crafts using the various crafting tables in Astral Sorcery.",
+		"",
+		"It is also used to help you find rock crystal ore. Equip the wand and explore at night for pillars of light. Dig down to bedrock and you should find rock crystal ores."
+	],
+	dependencies: [
+		"5c60ff04"
+	],
+	tasks: [{
+		uid: "bcce48a3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fea5b299",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemrockcrystalsimple",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

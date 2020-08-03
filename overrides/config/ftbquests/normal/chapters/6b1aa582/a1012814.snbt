@@ -1,0 +1,19 @@
+{
+	title: "Get Blasted",
+	x: -3.0d,
+	y: -5.5d,
+	text: [
+		"The blast furnace is one of two multiblocks you will need in order to progress. This lets you make refined iron for a multitude of recipes."
+	],
+	dependencies: [
+		"2278fbfc"
+	],
+	tasks: [{
+		uid: "9d867ea2",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}],
+		count: 27L
+	}]
+}

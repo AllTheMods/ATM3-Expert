@@ -1,0 +1,29 @@
+{
+	title: "Legolas, What Do Your Elf Eyes See?",
+	x: -3.5d,
+	y: 0.0d,
+	text: [
+		"The gateway core will let you communicate with the elves in Alfheim. Give them certain items, and they will give your their equivalent.",
+		"",
+		"Sadly, since it's not an actual dimension, their elf eyes cannot see you."
+	],
+	dependencies: [
+		"228f0835",
+		"739f5cdc"
+	],
+	tasks: [{
+		uid: "92d77dbf",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	},
+	{
+		uid: "26f8ada7",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 1"
+		}],
+		count: 2L
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Astrally Insane!",
+	x: -4.5d,
+	y: 1.0d,
+	text: [
+		"You've played with nature, you've dabbled in the arcane, now it's time to become a stargazer!",
+		"",
+		"Astral Sorcery provides its own system of crafting, along with many other mechanics. The Astral Tome is a must when playing with Astral Sorcery, but it may feature incorrect recipes. Always refer to JEI before gathering materials to craft."
+	],
+	dependencies: [
+		"c26a30ec"
+	],
+	tasks: [{
+		uid: "9b9bb6ba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8beae09d",
+		type: "command",
+		command: "/as research @p BASIC_CRAFT"
+	}]
+}

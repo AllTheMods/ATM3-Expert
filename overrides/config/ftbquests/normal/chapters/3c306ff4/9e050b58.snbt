@@ -1,0 +1,14 @@
+{
+	title: "Dimensions",
+	icon: "minecraft:obsidian",
+	x: 0.0d,
+	y: -11.5d,
+	shape: "square",
+	text: [
+		"To prevent skipping progression, we have implemented gamestages, which will restrict your access to certain dimensions until you have progressed to that point legitly. "
+	],
+	tasks: [{
+		uid: "1503d3c6",
+		type: "checkmark"
+	}]
+}

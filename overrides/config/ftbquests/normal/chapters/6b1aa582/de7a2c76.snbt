@@ -1,0 +1,20 @@
+{
+	title: "Wood You Risk It?",
+	x: -7.5d,
+	y: -2.5d,
+	text: [
+		"Use the pure daisy to turn some treated wood into livingwood. Magical, isn't it?"
+	],
+	dependencies: [
+		"184fe39b",
+		"a222ec47"
+	],
+	tasks: [{
+		uid: "5c83c74a",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}],
+		count: 16L
+	}]
+}

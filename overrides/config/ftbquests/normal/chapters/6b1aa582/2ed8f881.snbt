@@ -1,0 +1,23 @@
+{
+	title: "Cutting Edge Technology",
+	x: -1.0d,
+	y: -4.5d,
+	text: [
+		"This Wire Cutter will help you to make wires out of plates."
+	],
+	dependencies: [
+		"6c9bd5b4"
+	],
+	tasks: [{
+		uid: "5bc2a004",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ic2c_extras:wirecutters"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

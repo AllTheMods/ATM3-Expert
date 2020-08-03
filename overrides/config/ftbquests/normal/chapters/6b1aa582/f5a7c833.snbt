@@ -1,0 +1,38 @@
+{
+	title: "Upgrading your Dynamo",
+	x: -3.0d,
+	y: -1.5d,
+	shape: "diamond",
+	text: [
+		"In order to upgrade your dynamo, you will need upgrade kits, the first being a hardened one. ",
+		"",
+		"The turbine conversion augment will make the dynamo much more powerful, but it can no longer produce its own steam. ",
+		"",
+		"The boiler conversion augment will allow your dynamo to produce *only* steam, but at a higher rate."
+	],
+	dependencies: [
+		"98f064e5"
+	],
+	tasks: [{
+		uid: "745430b2",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade"
+		}],
+		count: 2L
+	},
+	{
+		uid: "1dfcf967",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 640"
+		}]
+	},
+	{
+		uid: "01cb5d93",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 576"
+		}]
+	}]
+}

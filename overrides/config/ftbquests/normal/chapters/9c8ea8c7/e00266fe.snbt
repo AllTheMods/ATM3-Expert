@@ -1,0 +1,42 @@
+{
+	title: "A Proper ME System",
+	x: -5.5d,
+	y: 0.0d,
+	shape: "diamond",
+	text: [
+		"Finally! You can set up the ME system you always wanted to. Controllers give you more channels and you can set up autocrafting."
+	],
+	dependencies: [
+		"f4cb5b25"
+	],
+	tasks: [{
+		uid: "1a5d1a5b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	},
+	{
+		uid: "7f9d5542",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 340"
+		}]
+	},
+	{
+		uid: "f9dbf5bb",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_unit"
+		}],
+		count: 4L
+	},
+	{
+		uid: "5ec25ca0",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 52"
+		}],
+		count: 8L
+	}]
+}

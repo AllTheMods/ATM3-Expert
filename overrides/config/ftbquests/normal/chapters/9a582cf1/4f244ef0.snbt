@@ -1,0 +1,62 @@
+{
+	title: "Advanced Rocketry Multiblocks",
+	x: 2.5d,
+	y: 2.5d,
+	text: [
+		"Most mods deal with their own processes with single blocks, but Advanced Rocketry uses many multiblocks to get the job done. The holo-projector will allow you to see the placement of the multiblocks in-world.",
+		"",
+		"Keep in mind: Most multiblocks require an input plug, input hatchs, and ouput hatch. Some may require fluid-related hatches as well as other blocks, so do your research when preparing to create these."
+	],
+	dependencies: [
+		"67813eca"
+	],
+	tasks: [{
+		uid: "9cbefb83",
+		type: "item",
+		items: [{
+			item: "libvulpes:holoprojector"
+		}]
+	},
+	{
+		uid: "dc3c985d",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:cuttingmachine"
+		}]
+	},
+	{
+		uid: "da8c576b",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:precisionassemblingmachine"
+		}]
+	},
+	{
+		uid: "37c3dec1",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:crystallizer"
+		}]
+	},
+	{
+		uid: "3991028e",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rollingmachine"
+		}]
+	},
+	{
+		uid: "b050164e",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:chemicalreactor"
+		}]
+	},
+	{
+		uid: "14f76b53",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:electrolyser"
+		}]
+	}]
+}

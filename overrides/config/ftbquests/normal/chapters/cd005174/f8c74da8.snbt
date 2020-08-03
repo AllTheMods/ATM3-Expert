@@ -1,0 +1,20 @@
+{
+	title: "A Stronger Steel",
+	x: -7.0d,
+	y: -2.0d,
+	text: [
+		"HSLA steel is needed for turbine components as well as servomechanisms, which are crafting parts for upper tier machines."
+	],
+	dependencies: [
+		"67162a66",
+		"af31e2cf"
+	],
+	tasks: [{
+		uid: "1a626b71",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:alloy 1 15"
+		}],
+		count: 8L
+	}]
+}

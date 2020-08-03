@@ -1,0 +1,19 @@
+{
+	title: "Spawning With Power",
+	x: -2.5d,
+	y: 1.5d,
+	text: [
+		"A powered spawner lets you spawn in nearly any mob for a decent amount of power. Great for automating LP production."
+	],
+	dependencies: [
+		"ec7b7fe4"
+	],
+	tasks: [{
+		uid: "57e84f22",
+		type: "item",
+		items: [{
+			item: "enderio:block_powered_spawner"
+		}],
+		ignore_nbt: 1b
+	}]
+}

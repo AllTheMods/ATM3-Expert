@@ -1,0 +1,26 @@
+{
+	title: "An Orb for Blood?",
+	x: 4.5d,
+	y: 5.5d,
+	text: [
+		"Blood orbs have several uses. First, they will store LP in your own personal network, to be used by various mechanics, such as rituals or sigils. Second, they allow you to craft better runes for your altar."
+	],
+	dependencies: [
+		"dc07d6d6"
+	],
+	tasks: [{
+		uid: "862189bd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:magician"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

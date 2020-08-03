@@ -1,0 +1,22 @@
+{
+	title: "Land of Pyramids",
+	x: 0.0d,
+	y: -1.0d,
+	text: [
+		"Congrats on making it this far! There are many adventures waiting for you in the Atum. Go exploring, as you will need a couple trinkets and resources from here."
+	],
+	dependencies: [
+		"cf52ba13"
+	],
+	tasks: [{
+		uid: "95de750a",
+		type: "dimension",
+		dim: 17
+	}],
+	rewards: [{
+		uid: "b6cb7746",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 96"
+	}]
+}

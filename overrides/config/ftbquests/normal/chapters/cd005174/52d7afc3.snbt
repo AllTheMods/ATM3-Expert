@@ -1,0 +1,19 @@
+{
+	title: "The First Core",
+	x: 1.0d,
+	y: -3.5d,
+	text: [
+		"The draconic core is the first core you will make. It's used in basic machines and for the wyvern core later on."
+	],
+	dependencies: [
+		"59bbf000"
+	],
+	tasks: [{
+		uid: "43e53a31",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_core"
+		}],
+		count: 4L
+	}]
+}

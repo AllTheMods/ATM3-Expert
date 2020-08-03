@@ -1,0 +1,21 @@
+{
+	title: "Mason",
+	x: -4.0d,
+	y: -4.5d,
+	text: [
+		"Let's work on upgrading your flint tools. Start by collecting bonemeal and clay to make unfired porcelain.",
+		"",
+		"Bone block structures generate throughout the world. Each block gives you 9 bonemeal, so these are a great way of getting some."
+	],
+	dependencies: [
+		"44a83ff5"
+	],
+	tasks: [{
+		uid: "e21155dd",
+		type: "item",
+		items: [{
+			item: "ceramics:unfired_clay 1 4"
+		}],
+		count: 16L
+	}]
+}

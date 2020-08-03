@@ -1,0 +1,23 @@
+{
+	title: "Link's Awakening",
+	x: -4.5d,
+	y: 5.5d,
+	text: [
+		"The linking tool is fairly self-explanatory. It links blocks together."
+	],
+	dependencies: [
+		"4f058998"
+	],
+	tasks: [{
+		uid: "200f7797",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemlinkingtool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

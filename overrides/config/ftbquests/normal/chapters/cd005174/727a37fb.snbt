@@ -1,0 +1,68 @@
+{
+	title: "The Green Crystal",
+	x: 8.0d,
+	y: -3.5d,
+	text: [
+		"Environmental Tech requires a bit of litherite to start. Your first litherite will be made in the magmatic fabricator. ",
+		"",
+		"In order to get glitch hearts needed for the fragments, you will have to do some trials in Deep Mob Learning. The book from the mod explains it in detail what you need to do."
+	],
+	dependencies: [
+		"23c5e588"
+	],
+	tasks: [{
+		uid: "29ab2b2a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "for.honey",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d8eb7a8e",
+		type: "item",
+		items: [{
+			item: "forestry:propolis"
+		}],
+		count: 4L
+	},
+	{
+		uid: "f985d2c4",
+		type: "item",
+		items: [{
+			item: "forestry:royal_jelly"
+		}],
+		count: 4L
+	},
+	{
+		uid: "606369a4",
+		type: "item",
+		items: [{
+			item: "plustic:osgloglasingot"
+		}],
+		count: 3L
+	},
+	{
+		uid: "0da83663",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:glitch_fragment"
+		}]
+	},
+	{
+		uid: "9c2a6861",
+		type: "item",
+		items: [{
+			item: "environmentaltech:litherite_crystal"
+		}],
+		count: 4L
+	}]
+}

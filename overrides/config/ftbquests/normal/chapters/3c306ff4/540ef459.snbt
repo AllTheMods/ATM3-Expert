@@ -1,0 +1,45 @@
+{
+	title: "Storage on the Go",
+	x: 0.0d,
+	y: -6.5d,
+	shape: "diamond",
+	text: [
+		"If you're finding yourself running out of inventory space on your adventures, might I suggest a Satchel?",
+		"",
+		"You can upgrade the satchel as you progress through the pack to get more space. It also supports auto-collect.",
+		"",
+		"Its space can be increased even further by enchanting the satchel. You can get the holding enchanment with a bit of luck in the enchanting table or with the enchanted book which can be crafted or found in dungeons."
+	],
+	dependencies: [
+		"743db6c6"
+	],
+	tasks: [{
+		uid: "e795872c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0bdc7bba",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			},
+			Damage: 100s
+		}
+	}]
+}

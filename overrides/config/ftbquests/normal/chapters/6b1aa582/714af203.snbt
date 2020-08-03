@@ -1,0 +1,26 @@
+{
+	title: "The Nether",
+	x: -3.0d,
+	y: 3.5d,
+	shape: "gear",
+	text: [
+		"Now it's time to go and steal back all of the diamonds those zombie pigmen stole from you. On your journeys through the nether, you will also stumble upon some nether quartz, cobalt, ardite, and various other ores. ",
+		"",
+		"You may want to invest in some armor, as nether mobs are notoriously worse than overworld mobs."
+	],
+	dependencies: [
+		"260e4271"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "8c1ba8ea",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "ae21a987",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin"
+	}]
+}

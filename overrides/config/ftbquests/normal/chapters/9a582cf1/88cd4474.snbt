@@ -1,0 +1,22 @@
+{
+	title: "Titanic",
+	x: 2.5d,
+	y: -0.5d,
+	shape: "circle",
+	text: [
+		"Titanium is a high-end metal in Advanced Rocketry. It allows you to make some higher tier multiblock componenets, as well as lets you get ready to go into space!",
+		"",
+		"Black dye might be useful for this ;)"
+	],
+	dependencies: [
+		"4f244ef0"
+	],
+	tasks: [{
+		uid: "5e8ce2f2",
+		type: "item",
+		items: [{
+			item: "libvulpes:productdust 1 7"
+		}],
+		count: 8L
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	icon: "minecraft:skull 1 2",
+	x: -4.0d,
+	y: -8.0d,
+	shape: "square",
+	text: [
+		"While you explore the world, you may find all sorts of changes! The world is vast and diverse, so it is suggested that you explore. But be careful, as you may find the monsters are just as tough as you remember."
+	],
+	tasks: [{
+		uid: "9574f114",
+		type: "checkmark",
+		title: "Exploration"
+	}]
+}

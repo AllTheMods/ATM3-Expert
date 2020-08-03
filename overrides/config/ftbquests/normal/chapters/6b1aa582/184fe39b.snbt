@@ -1,0 +1,21 @@
+{
+	title: "Flower Power",
+	x: -7.5d,
+	y: -4.5d,
+	text: [
+		"The petal apothecary allows you to make pure daisy, which can convert some blocks into others."
+	],
+	dependencies: [
+		"2d6842c5"
+	],
+	tasks: [{
+		uid: "5c8bb6e5",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}]
+	}]
+}

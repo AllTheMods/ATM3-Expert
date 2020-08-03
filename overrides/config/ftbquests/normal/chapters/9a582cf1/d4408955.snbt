@@ -1,0 +1,34 @@
+{
+	title: "Road to Mekanism",
+	x: -6.5d,
+	y: -0.5d,
+	text: [
+		"You've just made some Osmium, one of the basic crafting components in Mekanism. Mekanism is a very powerful tech mod with many processes. But to get started, you will need the Ender Crafter. ",
+		"",
+		"To use the Ender Crafter, place it down and put Ender Alternators around it. The more Alternators, the faster it will craft."
+	],
+	dependencies: [
+		"23823aea"
+	],
+	tasks: [{
+		uid: "6bdae0e5",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:ender_crafter"
+		}]
+	},
+	{
+		uid: "5a60d112",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:ender_alternator"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "c94a7e9b",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 101"
+	}]
+}

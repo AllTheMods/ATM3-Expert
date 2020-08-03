@@ -1,0 +1,19 @@
+{
+	title: "Sapling Placement",
+	icon: "minecraft:sapling",
+	x: -12.0d,
+	y: -4.5d,
+	shape: "square",
+	text: [
+		"Saplings can't be planted next to each other in this pack.",
+		"",
+		"In order to make a tree farm, place sapling in a chess pattern so they do not block each other and can grow."
+	],
+	dependencies: [
+		"a12e787b"
+	],
+	tasks: [{
+		uid: "c5815cb7",
+		type: "checkmark"
+	}]
+}

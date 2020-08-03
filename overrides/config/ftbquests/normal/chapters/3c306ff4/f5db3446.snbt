@@ -1,0 +1,19 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "ftbquests:book"
+	},
+	x: 2.0d,
+	y: -10.0d,
+	shape: "square",
+	text: [
+		"The questbook is divided into \"tiers\" of increasing progression. Save for Tier 0, they all have multiple paths you must travel down in order to arrive at the end goal for the tier. This will generally be a mix of magic and tech in the same tier."
+	],
+	tasks: [{
+		uid: "dac9ff07",
+		type: "checkmark",
+		title: "Quest Progression"
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "Advanced Generators",
+	x: -1.5d,
+	y: 4.0d,
+	shape: "diamond",
+	text: [
+		"Steam and canola may have gotten you to this point in RF production, but steel provides you access to a more advanced generator.",
+		"",
+		"These generators are multiblock structures. Just add on the blocks to the controller, add the required resources, and you'll be on your way to more RF production."
+	],
+	dependencies: [
+		"df956b20"
+	],
+	tasks: [{
+		uid: "9757c212",
+		type: "item",
+		items: [{
+			item: "advgenerators:turbine_steel"
+		}],
+		count: 2L
+	},
+	{
+		uid: "803d55d8",
+		type: "item",
+		items: [{
+			item: "advgenerators:fluid_input"
+		}]
+	},
+	{
+		uid: "887fc859",
+		type: "item",
+		items: [{
+			item: "advgenerators:turbine_controller"
+		}]
+	},
+	{
+		uid: "12663656",
+		type: "item",
+		items: [{
+			item: "advgenerators:rf_output"
+		}]
+	}]
+}

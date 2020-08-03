@@ -1,0 +1,19 @@
+{
+	title: "The Metal of the Stars",
+	x: -4.5d,
+	y: 7.0d,
+	text: [
+		"Starmetal is an important resource in Astral Sorcery. It's created by linking a floating crystal to iron ore, and waiting for the night sky to convert it. "
+	],
+	dependencies: [
+		"7de6ca3d"
+	],
+	tasks: [{
+		uid: "5b3f8a6f",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent 1 1"
+		}],
+		count: 16L
+	}]
+}

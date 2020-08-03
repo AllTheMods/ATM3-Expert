@@ -1,0 +1,19 @@
+{
+	title: "Quest Progression",
+	icon: "minecraft:paper",
+	x: 2.0d,
+	y: -8.0d,
+	shape: "square",
+	text: [
+		"The questbook will have a fairly standard progression line for you to follow. However, there will be multiple quests throughout the tiers that are optional, but helpful.",
+		"",
+		"Quests in the shape of a circle are main-progression quests.",
+		"Quests in the shape of a diamond are optional quests.",
+		"Quests in the shape of a square are informational quests.",
+		"Quests in the shape of a gear are end-of-tier quests."
+	],
+	tasks: [{
+		uid: "b1ea89c6",
+		type: "checkmark"
+	}]
+}

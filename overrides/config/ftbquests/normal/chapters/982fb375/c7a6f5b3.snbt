@@ -1,0 +1,78 @@
+{
+	title: "Beginning Energistics",
+	x: -1.5d,
+	y: 5.5d,
+	shape: "diamond",
+	text: [
+		"Steel also allows you to get into Applied Energistics, one of the most well known item storage mods. While you can't make the controller or autocrafters, you can start with a very basic ME system.",
+		"",
+		"The AE2 presses now have an empowerer recipe, and are not found in meteors anymore."
+	],
+	dependencies: [
+		"df956b20"
+	],
+	tasks: [{
+		uid: "3b7395b8",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:energy_acceptor"
+		}]
+	},
+	{
+		uid: "b640bb3d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 360"
+		}]
+	},
+	{
+		uid: "8fced3cf",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 35"
+		}]
+	},
+	{
+		uid: "9d8275cb",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:drive"
+		}]
+	},
+	{
+		uid: "97bbc823",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 16"
+		}],
+		count: 8L
+	},
+	{
+		uid: "9c779a25",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	},
+	{
+		uid: "fe13ae82",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 14"
+		}]
+	},
+	{
+		uid: "0ef6cec3",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 15"
+		}]
+	},
+	{
+		uid: "36763c75",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 19"
+		}]
+	}]
+}

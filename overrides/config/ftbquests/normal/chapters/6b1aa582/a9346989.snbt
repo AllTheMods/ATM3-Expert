@@ -1,0 +1,48 @@
+{
+	title: "Logistics Pipes",
+	x: -1.0d,
+	y: -2.5d,
+	shape: "diamond",
+	text: [
+		"Veterans of modded Minecraft will recognize this classic mod.",
+		"",
+		"This will be your first possible automated storage system and it even makes autocrafting available!",
+		"",
+		"As soon as you craft something of Logistics Pipes, you'll get the guide book for it, so you can try and understand the ins and outs of this wonderful mod. A lot has changed since 1.7.10."
+	],
+	dependencies: [
+		"624121d5",
+		"98f064e5"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "bc68cb02",
+		type: "item",
+		items: [{
+			item: "logisticspipes:power_junction"
+		}]
+	},
+	{
+		uid: "a6be355d",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_request"
+		}]
+	},
+	{
+		uid: "98846ad4",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_transport_basic"
+		}],
+		count: 16L
+	},
+	{
+		uid: "9b1a4e9c",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_basic"
+		}],
+		count: 4L
+	}]
+}

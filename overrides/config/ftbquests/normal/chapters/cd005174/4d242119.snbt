@@ -1,0 +1,15 @@
+{
+	title: "The World Soul",
+	x: 4.5d,
+	y: 4.0d,
+	text: [
+		"By combining some items of the stars and UU-matter, then dunking them in some neutron fluid, you have made some anima mundi. This is used in the ATM star."
+	],
+	tasks: [{
+		uid: "c04b65e5",
+		type: "item",
+		items: [{
+			item: "atmtweaks:item_material 1 4"
+		}]
+	}]
+}

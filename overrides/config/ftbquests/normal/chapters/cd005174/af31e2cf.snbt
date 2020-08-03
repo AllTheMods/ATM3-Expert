@@ -1,0 +1,18 @@
+{
+	title: "Yet Another Alloyer",
+	x: -8.0d,
+	y: -3.5d,
+	text: [
+		"The previous alloy-makers you have made don't seem to be a match for NuclearCraft alloys. You will have to make this machine in order to obtain certain alloys."
+	],
+	dependencies: [
+		"982d406c"
+	],
+	tasks: [{
+		uid: "d8d8f072",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:alloy_furnace_idle"
+		}]
+	}]
+}

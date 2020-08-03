@@ -1,0 +1,50 @@
+{
+	title: "Who put that char on my coal?",
+	x: -1.0d,
+	y: -5.5d,
+	shape: "diamond",
+	text: [
+		"You may already realized that the usual way to obtain charcoal is not available here.",
+		"However, it's still possible to get it.",
+		"",
+		"Forestry pits with wood piles can be burned into charcoal and you even get a high amount per pile. Just put the wood piles down in a pit and light them up.",
+		"",
+		"Once you have produced some charcoal, you can upgrade the pit with the ash you get as a byproduct. Check the usage of the wood pile in JEI for more info.",
+		"",
+		"You will need a fairly large amount of charcoal later on and as it takes a bit of time, make sure to set this up early."
+	],
+	dependencies: [
+		"743db6c6"
+	],
+	tasks: [{
+		uid: "6e8a68e0",
+		type: "item",
+		items: [{
+			item: "forestry:wood_pile"
+		}]
+	},
+	{
+		uid: "cc860d14",
+		type: "item",
+		items: [{
+			item: "minecraft:coal 1 1"
+		}],
+		count: 10L
+	},
+	{
+		uid: "eccd8dbe",
+		type: "item",
+		title: "Lighter",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:flint_and_steel"
+		},
+		{
+			item: "minecraft:fire_charge"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

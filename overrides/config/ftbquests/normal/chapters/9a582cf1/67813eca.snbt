@@ -1,0 +1,33 @@
+{
+	title: "Classic Matter",
+	x: 1.0d,
+	y: 1.0d,
+	text: [
+		"UU-matter has had an interesting past. First it was a solid, then changed to a liquid, and now it's a solid again. This means you'll be using it in several crafting recipes, so y ou may want to stock up on it a bit."
+	],
+	dependencies: [
+		"6a94e04d"
+	],
+	tasks: [{
+		uid: "96e1428b",
+		type: "item",
+		items: [{
+			item: "ic2:blockmachinehv 1 1"
+		}]
+	},
+	{
+		uid: "495327dc",
+		type: "item",
+		items: [{
+			item: "ic2:itemmisc 1 202"
+		}],
+		count: 8L
+	},
+	{
+		uid: "072e4030",
+		type: "item",
+		items: [{
+			item: "ic2:blockmachinelv 1 7"
+		}]
+	}]
+}

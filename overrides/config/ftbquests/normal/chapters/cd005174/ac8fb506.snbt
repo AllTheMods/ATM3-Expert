@@ -1,0 +1,18 @@
+{
+	title: "Crusher Beats Rock",
+	x: -4.0d,
+	y: -3.5d,
+	text: [
+		"This machine crushes rocks. Depening on the type of rock you put into it, you'll get a different output."
+	],
+	dependencies: [
+		"982d406c"
+	],
+	tasks: [{
+		uid: "92a1ce8a",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rock_crusher_idle"
+		}]
+	}]
+}

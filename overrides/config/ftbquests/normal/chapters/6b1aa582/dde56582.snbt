@@ -1,0 +1,40 @@
+{
+	title: "The Confusing Parts",
+	x: -1.0d,
+	y: 0.0d,
+	shape: "diamond",
+	text: [
+		"Once you have the Power Junction hooked up to RF or EU, you should make a Program Compiler with a Logistics Disk.",
+		"",
+		"Inside the table, you are able to unlock and compile different modules and parts you will need if you want to progress further into Logistics Pipes."
+	],
+	dependencies: [
+		"a9346989"
+	],
+	tasks: [{
+		uid: "f8944728",
+		type: "item",
+		items: [{
+			item: "logisticspipes:program_compiler"
+		}]
+	},
+	{
+		uid: "97ce2f62",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "logisticspipes:disk"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "18bcf44d",
+		type: "item",
+		items: [{
+			item: "logisticspipes:logistics_programmer"
+		}]
+	}]
+}

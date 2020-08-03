@@ -1,0 +1,34 @@
+{
+	title: "Man-Made Osmium",
+	x: -1.5d,
+	y: 6.0d,
+	shape: "gear",
+	text: [
+		"It's time to make your first osmium ingots! Put some two strontium, or other equal recipes, into the fusion multiblock and power it up. You should feel proud of yourself for doing this!"
+	],
+	dependencies: [
+		"5aacafea"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ce9b6186",
+		type: "item",
+		title: "Any ingotOsmium",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotOsmium",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "3fa76ba5",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 97"
+	}]
+}

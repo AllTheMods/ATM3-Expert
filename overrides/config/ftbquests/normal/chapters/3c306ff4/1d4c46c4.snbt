@@ -1,0 +1,18 @@
+{
+	title: "Finally, A Furnace",
+	x: 2.0d,
+	y: -4.5d,
+	text: [
+		"Normally you'd have a furnace done on your first Minecraft night, but that's not how we do things here. With your seared brick, you can finally make that furnace you've wanted for so long!"
+	],
+	dependencies: [
+		"ce3cf585"
+	],
+	tasks: [{
+		uid: "d6866b5e",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}]
+}

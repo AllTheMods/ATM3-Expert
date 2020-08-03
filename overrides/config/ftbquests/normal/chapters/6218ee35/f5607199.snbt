@@ -1,0 +1,19 @@
+{
+	title: "More Pools of the Trade",
+	x: 4.0d,
+	y: -4.0d,
+	shape: "diamond",
+	text: [
+		"The diluted mana pool served your needs for mana storage, but it's really small, don't you think? Transpose some glowstone into your diluted pool for a great upgrade."
+	],
+	dependencies: [
+		"26d74ca3"
+	],
+	tasks: [{
+		uid: "34c4ddea",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}]
+	}]
+}

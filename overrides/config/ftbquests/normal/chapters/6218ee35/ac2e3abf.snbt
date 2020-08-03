@@ -1,0 +1,47 @@
+{
+	title: "IMMA FIRIN MAH LAZORS!! Pt. 2",
+	x: 0.0d,
+	y: 4.0d,
+	shape: "diamond",
+	text: [
+		"Three types of lasers for three types of transfer: Energy, Items, and Fluid.",
+		"",
+		"Energy lasers have three tiers, each with different transfer and energy loss amounts.",
+		"Item lasers require an item interface to work.",
+		"Fluid lasers work on their own.",
+		"",
+		"<3 you Cold."
+	],
+	dependencies: [
+		"e44c0180",
+		"bfa03efe"
+	],
+	tasks: [{
+		uid: "c200a761",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_laser_relay"
+		}]
+	},
+	{
+		uid: "05b4dcee",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_laser_relay_fluids"
+		}]
+	},
+	{
+		uid: "fe0f0cbe",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_laser_relay_item"
+		}]
+	},
+	{
+		uid: "15e9fc02",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_item_viewer"
+		}]
+	}]
+}

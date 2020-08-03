@@ -1,0 +1,18 @@
+{
+	title: "Extra Health",
+	icon: "bhc:yellow_heart",
+	x: -2.0d,
+	y: -11.5d,
+	shape: "square",
+	text: [
+		"You may know that you can get extra hearts by consuming different kinds of food in this pack.",
+		"",
+		"However you will only get a maximum of 10 additional hearts with this method. You get 2 hearts each time you eat 5 different kinds of food.",
+		"",
+		"To keep track of your stats and all the food that you have eaten already, you can take a look into the Food Book which is included in your default Akashic Tome."
+	],
+	tasks: [{
+		uid: "2a91615e",
+		type: "checkmark"
+	}]
+}

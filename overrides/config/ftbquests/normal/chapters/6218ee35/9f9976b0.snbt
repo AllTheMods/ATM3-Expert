@@ -1,0 +1,19 @@
+{
+	title: "Storage, but Modular!",
+	x: 4.0d,
+	y: 0.0d,
+	shape: "diamond",
+	text: [
+		"Tired of having all of thoses chests spread across your base? The modular storage can hold a ton of items within a single block, and it works with the storage scanner."
+	],
+	dependencies: [
+		"06b83a66"
+	],
+	tasks: [{
+		uid: "d98f5681",
+		type: "item",
+		items: [{
+			item: "rftools:modular_storage"
+		}]
+	}]
+}

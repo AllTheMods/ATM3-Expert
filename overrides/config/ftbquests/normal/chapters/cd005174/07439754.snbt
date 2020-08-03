@@ -1,0 +1,18 @@
+{
+	title: "Mining the Void",
+	x: 9.0d,
+	y: -2.0d,
+	text: [
+		"The void ore miner should be the first multiblock you make from Environmental Tech. Not only will it enable you to get more litherite, but it will also get you the crystals for the next tier. "
+	],
+	dependencies: [
+		"727a37fb"
+	],
+	tasks: [{
+		uid: "f4ded744",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_1"
+		}]
+	}]
+}

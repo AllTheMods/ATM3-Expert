@@ -1,0 +1,25 @@
+{
+	title: "The Third Core",
+	x: 1.0d,
+	y: -0.5d,
+	text: [
+		"The third core is the awakened core. Use this to make better armor and injectors."
+	],
+	dependencies: [
+		"888b1997",
+		"f14ab873"
+	],
+	tasks: [{
+		uid: "65ecb387",
+		type: "item",
+		items: [{
+			item: "draconicevolution:awakened_core"
+		}]
+	}],
+	rewards: [{
+		uid: "fe3f69a8",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 103"
+	}]
+}

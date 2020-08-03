@@ -1062,5 +1062,16 @@
  "shapeless_item.itemTinCable_-235048847": true,
  "shapeless_item.itemBronzeCable_-861532101": true,
  "shapeless_item.itemIronCable_-1520245572": true,
- "shaped_item.filteredFluidExportUpgrade_1258088744": true
+ "shaped_item.filteredFluidExportUpgrade_1258088744": true,
+ "shaped_tile.oreWashingPlant_-1371413631": true,
+ "shaped_tile.thermalWasher_-426630254": true,
+ "shaped_tile.thermalCentrifuge_829521659": true,
+ "shaped_tile.roller_1856812781": true,
+ "shaped_tile.extruder_356848743": true,
+ "shaped_tile.impellerizedRoller_-1163948307": true,
+ "shaped_tile.liquescentExtruder_-599738630": true,
+ "shaped_tile.metalBender_-32050810": true,
+ "shaped_tile.autocraftingTable_-520963375": true,
+ "shaped_tile.treeTapper_144184907": true,
+ "shaped_tile.electricDisenchanter_1542570807": true
 }

@@ -1,0 +1,48 @@
+{
+	title: "Porcelain Melter!",
+	x: -4.0d,
+	y: -2.5d,
+	text: [
+		"Let's start melting some stuff!"
+	],
+	dependencies: [
+		"d8fce764",
+		"009fc380"
+	],
+	tasks: [{
+		uid: "317b5fc2",
+		type: "item",
+		items: [{
+			item: "tcomplement:porcelain_melter"
+		}]
+	},
+	{
+		uid: "da4046c8",
+		type: "item",
+		items: [{
+			item: "tcomplement:porcelain_melter 1 8"
+		}]
+	},
+	{
+		uid: "f0accb5a",
+		type: "item",
+		items: [{
+			item: "ceramics:faucet"
+		}],
+		count: 2L
+	},
+	{
+		uid: "d695ca32",
+		type: "item",
+		items: [{
+			item: "tcomplement:porcelain_casting 1 1"
+		}]
+	},
+	{
+		uid: "2a691537",
+		type: "item",
+		items: [{
+			item: "tcomplement:porcelain_casting"
+		}]
+	}]
+}

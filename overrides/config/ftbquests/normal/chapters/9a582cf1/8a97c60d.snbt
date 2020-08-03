@@ -1,0 +1,18 @@
+{
+	title: "Shards of the Mysterious Planet",
+	x: 4.0d,
+	y: 4.0d,
+	text: [
+		"You notice that the surface rock of Hellheim is the perfect catalyst for your next project: planet shards. These will help the corrupted starlight to adhere to the starmetal."
+	],
+	dependencies: [
+		"f1c0e9c8"
+	],
+	tasks: [{
+		uid: "c1bf5091",
+		type: "item",
+		items: [{
+			item: "contenttweaker:planetshard"
+		}]
+	}]
+}

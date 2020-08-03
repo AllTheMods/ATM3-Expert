@@ -1,0 +1,48 @@
+{
+	title: "Baking and Drying",
+	x: -2.0d,
+	y: -2.5d,
+	text: [
+		"To create porcelain bricks, you will need to dry them on a drying rack. Be careful not to dry all of your porcelain into bricks! Some parts of the porcelain setup need unfired porcelain, not bricks.",
+		"",
+		"Due to some issues with recipes in the kiln, it's not needed to make porcelain components. However, it still can be useful in some of the smelting recipes it can do.",
+		"",
+		"Note: The Atum kiln is a 2x2x2 multiblock, in which the top 2 front blocks are the kiln blocks, and the rest is the small limestone bricks."
+	],
+	dependencies: [
+		"44a83ff5"
+	],
+	tasks: [{
+		uid: "4d96d94c",
+		type: "item",
+		items: [{
+			item: "atum:kiln"
+		}],
+		count: 2L
+	},
+	{
+		uid: "1e21bf55",
+		type: "item",
+		items: [{
+			item: "atum:limestone_brick_small"
+		}],
+		count: 6L
+	},
+	{
+		uid: "bfe59c2e",
+		type: "item",
+		items: [{
+			id: "tconstruct:rack",
+			tag: {
+				textureBlock: {
+					id: "minecraft:wooden_slab",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	}]
+}

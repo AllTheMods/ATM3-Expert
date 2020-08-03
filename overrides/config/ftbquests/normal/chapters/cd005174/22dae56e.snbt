@@ -1,0 +1,18 @@
+{
+	title: "Bet You Didn't Think You'd BEE Here",
+	x: 8.0d,
+	y: -5.5d,
+	text: [
+		"Bees suck. But at least Gendustry makes them somewhat bearable. Anything that holds a bee requires a bee receptacle, so make some."
+	],
+	dependencies: [
+		"7f543340"
+	],
+	tasks: [{
+		uid: "bb8a8212",
+		type: "item",
+		items: [{
+			item: "gendustry:bee_receptacle"
+		}]
+	}]
+}

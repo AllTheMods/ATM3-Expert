@@ -1,0 +1,36 @@
+{
+	title: "Thaumic Baubles",
+	x: -4.0d,
+	y: 2.0d,
+	shape: "diamond",
+	text: [
+		"Thaumcraft adds some baubles that will make a thaumaturge's practice much easier."
+	],
+	dependencies: [
+		"e38c58e2"
+	],
+	tasks: [{
+		uid: "c19adbea",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:goggles"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4e21c8cd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:curiosity_band"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

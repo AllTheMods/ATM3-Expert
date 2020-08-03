@@ -1,0 +1,28 @@
+{
+	title: "Controlling and Connecting Mass Storage",
+	x: 4.0d,
+	y: -2.0d,
+	shape: "diamond",
+	text: [
+		"There are two main types of mass item storage: Storage Drawers and YABBA. Both have similar functionality, but different features.",
+		"",
+		"However, they both have a master block in which you can pipe items in to be put into the correct spot."
+	],
+	dependencies: [
+		"06b83a66"
+	],
+	tasks: [{
+		uid: "a51110fd",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controller"
+		}]
+	},
+	{
+		uid: "385ecb23",
+		type: "item",
+		items: [{
+			item: "yabba:item_barrel_connector"
+		}]
+	}]
+}

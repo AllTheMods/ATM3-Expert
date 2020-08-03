@@ -1,0 +1,45 @@
+{
+	title: "Conduits",
+	x: -0.5d,
+	y: 1.5d,
+	text: [
+		"Ender IO conduits are unique, in that multiple conduits can be placed int he same blockspace. This allows for less cluttered wiring around your base.",
+		"",
+		"Note: Do not create loops in the conduits, as this will generate lag for both singleplayer and servers."
+	],
+	dependencies: [
+		"9f0db2c5"
+	],
+	tasks: [{
+		uid: "9d6d72c2",
+		type: "item",
+		items: [{
+			item: "enderio:item_item_conduit"
+		}],
+		count: 16L
+	},
+	{
+		uid: "10eb6c8e",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit"
+		}],
+		count: 16L
+	},
+	{
+		uid: "672eedf3",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit"
+		}],
+		count: 16L
+	},
+	{
+		uid: "1909a579",
+		type: "item",
+		items: [{
+			item: "enderio:item_redstone_conduit"
+		}],
+		count: 16L
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "A Childish Ball",
+	x: -0.5d,
+	y: 2.5d,
+	text: [
+		"You will need the Tier 6 Blood Altar for this item!",
+		"",
+		"This is used in the ATM Star."
+	],
+	tasks: [{
+		uid: "dd315301",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "atmtweaks:item_material",
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	}]
+}

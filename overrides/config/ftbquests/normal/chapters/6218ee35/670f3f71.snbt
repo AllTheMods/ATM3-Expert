@@ -1,0 +1,19 @@
+{
+	title: "Empowered Blocks",
+	x: -2.0d,
+	y: 4.0d,
+	shape: "diamond",
+	text: [
+		"There are several different empowered blocks and items you will need in recipes. Make one to prove you know how to empower."
+	],
+	dependencies: [
+		"bfa03efe"
+	],
+	tasks: [{
+		uid: "1ec7c639",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal_empowered 1 5"
+		}]
+	}]
+}

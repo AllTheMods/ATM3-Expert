@@ -1,0 +1,47 @@
+{
+	title: "BEE Happy We Have Gendustry",
+	x: 6.0d,
+	y: -3.5d,
+	text: [
+		"These are the basics you'll want for Gendustry. These will make your life much easier when it comes to breeding bees."
+	],
+	dependencies: [
+		"22dae56e"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "d9f6cd31",
+		type: "item",
+		items: [{
+			item: "gendustry:mutatron"
+		}]
+	},
+	{
+		uid: "38c29cdd",
+		type: "item",
+		items: [{
+			item: "gendustry:mutagen_producer"
+		}]
+	},
+	{
+		uid: "16ed2c1f",
+		type: "item",
+		items: [{
+			item: "gendustry:sampler"
+		}]
+	},
+	{
+		uid: "26c7da32",
+		type: "item",
+		items: [{
+			item: "gendustry:imprinter"
+		}]
+	},
+	{
+		uid: "1a51b8c4",
+		type: "item",
+		items: [{
+			item: "gendustry:industrial_apiary"
+		}]
+	}]
+}

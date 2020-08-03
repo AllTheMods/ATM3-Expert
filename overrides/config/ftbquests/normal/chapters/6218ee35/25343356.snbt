@@ -1,0 +1,26 @@
+{
+	title: "See-thru Obsidian",
+	x: 4.0d,
+	y: 2.0d,
+	text: [
+		"Didn't I tell you hardened glass would be needed? Not only is it used in various recipes, but you also need it to grow certain metallurgic crops."
+	],
+	dependencies: [
+		"301a457a"
+	],
+	tasks: [{
+		uid: "31ea6f5e",
+		type: "item",
+		title: "Any blockGlassHardened",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockGlassHardened",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 4L
+	}]
+}

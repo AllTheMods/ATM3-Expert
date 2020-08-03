@@ -1,0 +1,23 @@
+{
+	title: "Tier 2 Astral Altar",
+	x: -4.5d,
+	y: 4.0d,
+	text: [
+		"In order to progress, you will need to make a tier 2 altar. Once upgraded, you will need a multiblock structure to use it."
+	],
+	dependencies: [
+		"04420cf4"
+	],
+	tasks: [{
+		uid: "7f52ed8a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "It's Mista Steel Yo Girl!",
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"Finally, cool down that hot cracked steel into your first steel ingots!"
+	],
+	dependencies: [
+		"7e61fce5"
+	],
+	tasks: [{
+		uid: "39e6b143",
+		type: "item",
+		title: "Any ingotSteel",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotSteel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "21715226",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 96"
+	}]
+}

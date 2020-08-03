@@ -1,0 +1,15 @@
+{
+	title: "Reese Wither-Essence",
+	x: -3.0d,
+	y: 7.0d,
+	text: [
+		"The wither essence is probably the easiest component of the ATM star to make. Imbue the power of the wither into some growth essense. This is used in the ATM Star."
+	],
+	tasks: [{
+		uid: "f88cd022",
+		type: "item",
+		items: [{
+			item: "atmtweaks:item_material 1 10"
+		}]
+	}]
+}

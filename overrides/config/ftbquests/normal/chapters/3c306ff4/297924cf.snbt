@@ -1,0 +1,66 @@
+{
+	title: "A Proper Smeltery",
+	x: 2.0d,
+	y: -2.5d,
+	shape: "gear",
+	text: [
+		"It's about time you set up a proper smeltery. This has all the functionality you know and love. Go crazy!",
+		"",
+		"Note: These materials are the bare minimum needed for a fully functional seared smeltery, but you will definitely want to make a larger one, or even another one altogether."
+	],
+	dependencies: [
+		"1d4c46c4"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "f26daacb",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "39dca6f8",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "f74a9b3c",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "57af483f",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}],
+		count: 2L
+	},
+	{
+		uid: "327a96ec",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting 1 1"
+		}]
+	},
+	{
+		uid: "9db5a333",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	},
+	{
+		uid: "67de5a6a",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared"
+		}],
+		count: 2L
+	}]
+}

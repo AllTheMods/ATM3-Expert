@@ -1,0 +1,24 @@
+{
+	title: "''The Third 'S' is Silent''",
+	x: 0.5d,
+	y: 0.0d,
+	text: [
+		"Just as IC2 has the machine block and Thermal Expansion has the machine frame, Ender IO has the chassis."
+	],
+	dependencies: [
+		"45596053"
+	],
+	tasks: [{
+		uid: "30186546",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "014acde2",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 97"
+	}]
+}

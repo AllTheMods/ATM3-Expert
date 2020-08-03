@@ -1,0 +1,21 @@
+{
+	title: "It's Iron, but it takes longer",
+	x: -1.0d,
+	y: -6.5d,
+	text: [
+		"Refined Iron is a purer form of the normal Iron Ingot.",
+		"",
+		"It will be needed for many machines and parts."
+	],
+	dependencies: [
+		"a1012814"
+	],
+	tasks: [{
+		uid: "a44f7d80",
+		type: "item",
+		items: [{
+			item: "ic2:itemmisc 1 53"
+		}],
+		count: 10L
+	}]
+}
