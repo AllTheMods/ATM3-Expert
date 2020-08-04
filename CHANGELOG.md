@@ -5,7 +5,13 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 
 ## [Unreleased]
 
-## [1.9.0] - 2020-XX-XX
+- /
+
+---
+
+## [Released]
+
+## [1.9.0] - 2020-08-03
 
 ### Added
 - item descriptions
@@ -79,10 +85,6 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 - renamed "Combining the Atoms" to "Chemical Metal"
 - "Splitting the Atoms" now ignores NBT data to also accept machines with leftover energy
 - "I built a Rocket, Man!" now required 6 Liquid Fuel Tanks instead of 4
-
----
-
-## [Released]
 
 ## [1.8.0] - 2020-06-30
 
@@ -645,6 +647,7 @@ Note: server owners only need to update the scripts
 <!-- Versions -->
 [Unreleased]: https://github.com/AllTheMods/ATM3-Expert/
 [Released]: https://github.com/AllTheMods/ATM3-Expert/
+[1.9.0]: https://github.com/AllTheMods/ATM3-Expert/
 [1.8.0]: https://github.com/AllTheMods/ATM3-Expert/
 [1.7.0]: https://github.com/AllTheMods/ATM3-Expert/
 [1.6.2]: https://github.com/AllTheMods/ATM3-Expert/
