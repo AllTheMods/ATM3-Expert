@@ -11,6 +11,42 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 
 ## [Released]
 
+## [1.9.1] - 2020-10-03
+
+### Changed
+- forge version
+
+*Mod-Updates:*
+- Astral Sorcery
+- Atum 2: Return to the Sands
+- Bad Wither No Cookie - Reloaded
+- Brandon's Core
+- Common Capabilities
+- Controlling
+- Corail Tombstone
+- CraftTweaker
+- Draconic Evolution
+- Ender IO
+- Just Enough Items
+- Lazy AE2
+- LibNine
+- Logistics Pipes
+- MysticalLib
+- Netherending Ores
+- NuclearCraft
+- Psi
+- RandomPatches
+- Rustic
+- Simply Jetpacks 2
+- Tool Progression
+- Torchmaster
+
+### Removed
+- newly added jetpacks by the new Simply Jetpacks version
+
+### Fixed
+- quest completion toasts not displaying
+
 ## [1.9.0] - 2020-08-03
 
 ### Added
@@ -647,6 +683,7 @@ Note: server owners only need to update the scripts
 <!-- Versions -->
 [Unreleased]: https://github.com/AllTheMods/ATM3-Expert/
 [Released]: https://github.com/AllTheMods/ATM3-Expert/
+[1.9.1]: https://github.com/AllTheMods/ATM3-Expert/
 [1.9.0]: https://github.com/AllTheMods/ATM3-Expert/
 [1.8.0]: https://github.com/AllTheMods/ATM3-Expert/
 [1.7.0]: https://github.com/AllTheMods/ATM3-Expert/
