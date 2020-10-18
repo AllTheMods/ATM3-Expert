@@ -7,6 +7,8 @@ import mods.tconstruct.Casting;
 import mods.tconstruct.Drying;
 import mods.tconstruct.Melting;
 
+import mods.tcomplement.highoven.HighOven;
+
 print("==================== loading mods tinkersconstruct.zs ====================");
 ##########################################################################################
 
@@ -174,6 +176,7 @@ Melting.removeRecipe(<liquid:steel>, <immersiveengineering:steel_armor_legs>);
 Melting.removeRecipe(<liquid:steel>, <immersiveengineering:steel_armor_head>);
 Melting.removeRecipe(<liquid:steel>, <immersiveengineering:steel_armor_chest>);
 Melting.removeRecipe(<liquid:steel>, <immersiveengineering:steel_armor_feet>);
+Melting.removeRecipe(<liquid:steel>, <immersiveengineering:material:2>);
 Melting.removeRecipe(<liquid:dark_steel>, <enderio:item_dark_steel_helmet>);
 Melting.removeRecipe(<liquid:dark_steel>, <enderio:item_dark_steel_chestplate>);
 Melting.removeRecipe(<liquid:dark_steel>, <enderio:item_dark_steel_leggings>);
@@ -183,6 +186,12 @@ Melting.removeRecipe(<liquid:dark_steel>, <enderio:item_dark_steel_axe>);
 Melting.removeRecipe(<liquid:dark_steel>, <enderio:item_dark_steel_crook>);
 Melting.removeRecipe(<liquid:dark_steel>, <enderio:item_dark_steel_shears>);
 Melting.removeRecipe(<liquid:dark_steel>, <enderio:item_dark_steel_sword>);
+
+
+### HIGH OVEN ###
+
+// removals
+HighOven.removeMeltingOverride(<liquid:steel>, <immersiveengineering:material:2>);
 
 
 ##########################################################################################
