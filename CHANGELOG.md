@@ -16,6 +16,15 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 ### Added
 - conversion recipe for Steel Rods to Arc Furnace
 
+### Changed
+*Mod-Updates:*
+- Advanced Rocketry
+- CraftTweaker
+- FTB Quests
+- Lazy AE2
+- LibNine
+- NuclearCraft
+
 ### Removed
 - conversion recipe for Steel Rods from Smeltery and Melter
 - conversion recipe for Steel Rods from High Oven
