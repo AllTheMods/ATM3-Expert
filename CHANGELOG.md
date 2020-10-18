@@ -11,6 +11,18 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 
 ## [Released]
 
+## [1.9.2] - 2020-10-18
+
+### Added
+- conversion recipe for Steel Rods to Arc Furnace
+
+### Removed
+- conversion recipe for Steel Rods from Smeltery and Melter
+- conversion recipe for Steel Rods from High Oven
+
+### Fixed
+- steel duplication exploit ([#250](https://github.com/AllTheMods/ATM3-Expert/issues/250))
+
 ## [1.9.1] - 2020-10-03
 
 ### Changed
@@ -683,6 +695,7 @@ Note: server owners only need to update the scripts
 <!-- Versions -->
 [Unreleased]: https://github.com/AllTheMods/ATM3-Expert/
 [Released]: https://github.com/AllTheMods/ATM3-Expert/
+[1.9.2]: https://github.com/AllTheMods/ATM3-Expert/
 [1.9.1]: https://github.com/AllTheMods/ATM3-Expert/
 [1.9.0]: https://github.com/AllTheMods/ATM3-Expert/
 [1.8.0]: https://github.com/AllTheMods/ATM3-Expert/
