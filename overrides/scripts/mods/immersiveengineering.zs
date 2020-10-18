@@ -87,6 +87,9 @@ recipes.addShaped(<immersiveengineering:metal_device0:2>, [
 
 ### ARC FURNACE ###
 
+// steel rod
+ArcFurnace.addRecipe(<thermalfoundation:material:160>, <immersiveengineering:material:2>, null, 200, 512);
+
 // black iron ingot | ExtendedCrafting
 ArcFurnace.addRecipe(<extendedcrafting:material>, <immersiveengineering:material:19>, <thermalfoundation:material:865>, 125, 512);
 
