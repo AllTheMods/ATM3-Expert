@@ -17,8 +17,8 @@ recipes.addShapedMirrored(<simplyjetpacks:metaitem:4>, [
 ]);
 
 // hardened thruster
-recipes.remove(<simplyjetpacks:metaitemmods:27>);
-recipes.addShaped(<simplyjetpacks:metaitemmods:27>, [
+recipes.remove(<simplyjetpacks:metaitemmods:21>);
+recipes.addShaped(<simplyjetpacks:metaitemmods:21>, [
     [<ore:ingotInvar>, <thermalfoundation:material:513>, <ore:ingotInvar>],
     [<thermaldynamics:duct_0:1>, <thermalexpansion:dynamo:2>, <thermaldynamics:duct_0:1>],
     [<ore:ingotInvar>, <ore:dustRedstone>, <ore:ingotInvar>]
