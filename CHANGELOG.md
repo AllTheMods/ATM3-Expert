@@ -11,6 +11,58 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 
 ## [Released]
 
+## [1.9.3] - 2021-04-02
+Note: Backup your world before upgrading to this version!
+
+### Changed
+*Mod-Updates:*
+- Actually Additions
+- Advanced Rocketry
+- Alchemistry
+- Atum 2: Return to the Sands
+- Capability Adapter
+- Ceramics
+- Corail Tombstone
+- CraftTweaker
+- Cyclops Core
+- EnderIO
+- Flux Networks
+- FoamFix
+- FTB Quests
+- FTB Utilities
+- Gravisuit
+- GunpowderLib
+- IC2C Extras
+- IC2 Classic Tweaker
+- IC2 Classic
+- Integration Foregoing
+- LazyAE2
+- LibVulpes
+- MysticalLib
+- Patchouli
+- Psi
+- Random Patches
+- Random Tweaks
+- Rustic
+- Scannable
+- Simply Jetpacks
+- TickCentral
+- Unidict
+- WanionLib
+
+### Removed
+- shielding recipes from NuclearCraft
+- advancements on joining from SimplyJetpacks
+
+### Fixed
+- Hardened Thrusters being unobtainable
+- Flux-infused Jetplate being unobtainable
+- JEI recipe lookup for Energy Cells
+
+### Recipes
+- added recipes for different tiers of Energy Cells
+- changed recipe of Hardened Thrusters to use a Compression Dynamo instead of an unobtainable Magmatic Dynamo
+
 ## [1.9.2] - 2020-10-18
 
 ### Added
@@ -704,6 +756,7 @@ Note: server owners only need to update the scripts
 <!-- Versions -->
 [Unreleased]: https://github.com/AllTheMods/ATM3-Expert/
 [Released]: https://github.com/AllTheMods/ATM3-Expert/
+[1.9.3]: https://github.com/AllTheMods/ATM3-Expert/
 [1.9.2]: https://github.com/AllTheMods/ATM3-Expert/
 [1.9.1]: https://github.com/AllTheMods/ATM3-Expert/
 [1.9.0]: https://github.com/AllTheMods/ATM3-Expert/
