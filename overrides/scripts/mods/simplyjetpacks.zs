@@ -24,6 +24,14 @@ recipes.addShaped(<simplyjetpacks:metaitemmods:21>, [
     [<ore:ingotInvar>, <ore:dustRedstone>, <ore:ingotInvar>]
 ]);
 
+// leadstone fluxpack
+recipes.remove(<simplyjetpacks:itemfluxpack:7>);
+recipes.addShaped(<simplyjetpacks:itemfluxpack:7>, [
+    [null, null, null],
+    [<ore:ingotLead>, <thermalexpansion:cell>, <ore:ingotLead>],
+    [<ore:ingotLead>, <simplyjetpacks:metaitem:4>, <ore:ingotLead>]
+]);
+
 // basic capacitor pack
 recipes.remove(<simplyjetpacks:itemfluxpack:1>);
 recipes.addShaped(<simplyjetpacks:itemfluxpack:1>, [
