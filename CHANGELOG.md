@@ -58,6 +58,7 @@ Note: Backup your world before upgrading to this version!
 - Hardened Thrusters being unobtainable
 - Flux-infused Jetplate being unobtainable
 - JEI recipe lookup for Energy Cells
+- insanely high amount of mob head drops when using Diamond Spikes to kill them
 
 ### Recipes
 - added recipes for different tiers of Energy Cells
