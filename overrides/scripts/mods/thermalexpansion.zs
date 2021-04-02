@@ -120,6 +120,27 @@ recipes.addShaped(<thermalexpansion:frame:128>, [
     [<alchemistry:ingot:31>, <thermalfoundation:glass_alloy:7>, <alchemistry:ingot:31>]
 ]);
 
+// energy cell hardened
+recipes.addShapeless(<thermalexpansion:cell>.withTag({Level: 1 as byte}), [
+    <thermalexpansion:cell>, <thermalfoundation:upgrade>
+]);
+
+// energy cell reinforced
+recipes.addShapeless(<thermalexpansion:cell>.withTag({Level: 2 as byte}), [
+    <thermalexpansion:cell>.withTag({Level: 1 as byte}), <thermalfoundation:upgrade:1>
+]);
+recipes.addShapeless(<thermalexpansion:cell>.withTag({Level: 2 as byte}), [
+    <thermalexpansion:cell>, <thermalfoundation:upgrade:33>
+]);
+
+// energy cell resonant
+recipes.addShapeless(<thermalexpansion:cell>.withTag({Level: 4 as byte}), [
+    <thermalexpansion:cell>.withTag({Level: 2 as byte}), <thermalfoundation:upgrade:2>, <thermalfoundation:upgrade:3>
+]);
+recipes.addShapeless(<thermalexpansion:cell>.withTag({Level: 4 as byte}), [
+    <thermalexpansion:cell>, <thermalfoundation:upgrade:35>
+]);
+
 // satchel hardened
 recipes.remove(<thermalexpansion:satchel:1>);
 recipes.addShaped(<thermalexpansion:satchel:1>, [
