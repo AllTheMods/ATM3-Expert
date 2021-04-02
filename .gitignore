@@ -18,6 +18,9 @@ overrides/mods/
 # guides
 /overrides/config/enderio/recipes/*.pdf
 
+# examples
+/overrides/config/enderio/recipes/examples
+
 # client configs
 /overrides/config/betterfps.json
 /overrides/config/InvTweaks
